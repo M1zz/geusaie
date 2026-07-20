@@ -117,10 +117,17 @@ struct CookView: View {
                     }
                     .buttonStyle(FilledButton(tint: Theme.terracotta))
                 }
-                Button { showFinishConfirm = true } label: {
-                    Label("완성 처리", systemImage: "flag.checkered").frame(maxWidth: .infinity)
+                if session.isLastStage {
+                    Button { showFinishConfirm = true } label: {
+                        Label("완성 처리", systemImage: "flag.checkered").frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(FilledButton(tint: Theme.terracotta))
+                } else {
+                    Button { session.endCurrentStage() } label: {
+                        Label("단계 종료", systemImage: "forward.end.fill").frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(FilledButton(tint: Theme.terracotta))
                 }
-                .buttonStyle(FilledButton(tint: Theme.terracotta))
             }
         }
         .padding(.horizontal, 16)

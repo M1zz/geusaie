@@ -85,6 +85,19 @@ final class CookSession: ObservableObject {
         }
     }
 
+    /// 다음 단계 경계(어떤 작업의 시작 또는 종료)까지의 시각 — 없으면 마지막 단계
+    var nextBoundary: Int? {
+        guard let recipe else { return nil }
+        let e = elapsed
+        return recipe.steps
+            .flatMap { [$0.startAt, $0.end] }
+            .filter { $0 > e && $0 < recipe.totalSeconds }
+            .min()
+    }
+
+    /// 더 넘길 단계가 없는 마지막 단계인가 (버튼이 '완성 처리'가 되는 시점)
+    var isLastStage: Bool { nextBoundary == nil }
+
     // MARK: 제어
 
     func start(_ recipe: Recipe) {
@@ -114,6 +127,34 @@ final class CookSession: ObservableObject {
         phase = .done
         cancelNotifications()
         UIApplication.shared.isIdleTimerDisabled = false
+    }
+
+    /// 임의 시점으로 이동 + 타이머 재동기화 (러닝이면 이어서 진행, 아니면 그 지점 정지)
+    func seek(to target: Int) {
+        guard let recipe else { return }
+        let t = min(max(target, 0), recipe.totalSeconds)
+        if t >= recipe.totalSeconds {
+            finish()
+            return
+        }
+        if isActive {
+            let started = Date().addingTimeInterval(-TimeInterval(t))
+            phase = .running(startedAt: started)
+            scheduleNotifications(for: recipe, startedAt: started)
+        } else {
+            phase = .paused(elapsed: t)
+            cancelNotifications()
+        }
+    }
+
+    /// 단계 종료 — 현재 단계를 끝내고 다음 경계로 진행. 마지막 단계면 완성 처리.
+    func endCurrentStage() {
+        if let b = nextBoundary {
+            seek(to: b)
+            haptic(.success)
+        } else {
+            finish()
+        }
     }
 
     // MARK: 스크럽 — 진행 상황을 드래그로 옮기고 타이머를 그 지점에 동기화
