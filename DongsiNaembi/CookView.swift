@@ -9,6 +9,17 @@ struct CookView: View {
     @ObservedObject var session: CookSession
     @Environment(\.dismiss) private var dismiss
 
+    @State private var showQuitConfirm = false
+    @State private var showFinishConfirm = false
+
+    /// 진행 중(러닝/일시정지) — 이때 나가거나 완성 처리하면 타이머가 초기화/종료됨
+    private var inProgress: Bool {
+        switch session.phase {
+        case .running, .paused: return true
+        default: return false
+        }
+    }
+
     var body: some View {
         ZStack {
             Theme.cream.ignoresSafeArea()
@@ -36,6 +47,27 @@ struct CookView: View {
                 }
             }
         }
+        // 실수로 나가서 타이머가 초기화되는 것 방지
+        .confirmationDialog("조리를 중단하고 나갈까요?",
+                            isPresented: $showQuitConfirm, titleVisibility: .visible) {
+            Button("중단하고 나가기", role: .destructive) { dismiss() }
+            Button("계속 조리하기", role: .cancel) { }
+        } message: {
+            Text("타이머가 초기화되고 진행 상황이 사라집니다.")
+        }
+        // 남은 시간을 버리고 완성 처리하는 것 방지
+        .confirmationDialog("완성 처리할까요?",
+                            isPresented: $showFinishConfirm, titleVisibility: .visible) {
+            Button("완성 처리", role: .destructive) { session.finish() }
+            Button("계속 조리하기", role: .cancel) { }
+        } message: {
+            Text("아직 \(formatSeconds(session.remaining)) 남았어요. 지금 멈추면 타이머가 종료됩니다.")
+        }
+    }
+
+    /// 나가기 요청 — 진행 중이면 확인, 아니면 바로 닫기
+    private func requestClose() {
+        if inProgress { showQuitConfirm = true } else { dismiss() }
     }
 
     // MARK: 상단 바 — 이름 · 전체 진행률/남은 시간
@@ -43,7 +75,7 @@ struct CookView: View {
     private func topBar(_ recipe: Recipe) -> some View {
         VStack(spacing: 8) {
             HStack {
-                Button { dismiss() } label: {
+                Button { requestClose() } label: {
                     Image(systemName: "chevron.down")
                         .font(.headline).foregroundStyle(Theme.inkSoft)
                 }
@@ -96,7 +128,7 @@ struct CookView: View {
                     }
                     .buttonStyle(FilledButton(tint: Theme.terracotta))
                 }
-                Button { session.finish() } label: {
+                Button { showFinishConfirm = true } label: {
                     Label("완성 처리", systemImage: "flag.checkered").frame(maxWidth: .infinity)
                 }
                 .buttonStyle(FilledButton(tint: Theme.terracotta))
@@ -215,10 +247,21 @@ struct GanttTimeline: View {
     private let laneHeight: CGFloat = 58
     private let laneSpacing: CGFloat = 10
     private let labelWidth: CGFloat = 40
-    private let bubbleWidth: CGFloat = 52
+    private let bubbleWidth: CGFloat = 46
+    private let minBarPx: CGFloat = 22    // 이보다 짧아지는 막대가 있으면 가로 스크롤
+
+    private var total: CGFloat { CGFloat(max(1, recipe.totalSeconds)) }
 
     private var chartHeight: CGFloat {
         CGFloat(recipe.lanes.count) * laneHeight + CGFloat(recipe.lanes.count - 1) * laneSpacing
+    }
+
+    /// 막대들이 겹치지 않으려면 필요한 최소 트랙 폭
+    /// (가장 짧은 작업이 minBarPx 이상이 되도록)
+    private var requiredTrackWidth: CGFloat {
+        let minDur = CGFloat(recipe.steps.map(\.duration).min() ?? recipe.totalSeconds)
+        guard minDur > 0 else { return 0 }
+        return minBarPx * total / minDur
     }
 
     var body: some View {
@@ -234,41 +277,27 @@ struct GanttTimeline: View {
             .textCase(.uppercase)
 
             GeometryReader { geo in
-                let track = geo.size.width - labelWidth
-                let total = CGFloat(max(1, recipe.totalSeconds))
-                let elapsed = CGFloat(min(session.elapsed, recipe.totalSeconds))
-                let nowX = labelWidth + track * elapsed / total
+                let viewport = geo.size.width - labelWidth
+                // 칸이 모자라면 넓혀서 가로 스크롤, 넉넉하면 화면에 딱 맞춤
+                let content = max(viewport, requiredTrackWidth)
 
-                ZStack(alignment: .topLeading) {
+                HStack(alignment: .top, spacing: 0) {
+                    // 고정 레인 라벨 (스크롤해도 남음)
                     VStack(spacing: laneSpacing) {
                         ForEach(recipe.lanes, id: \.self) { lane in
-                            laneRow(lane, track: track, total: total)
+                            Text(lane)
+                                .font(.caption2.weight(.heavy))
+                                .foregroundStyle(recipe.color(for: lane))
+                                .frame(width: labelWidth, height: laneHeight, alignment: .leading)
                         }
                     }
 
-                    if session.phase != .done {
-                        // 지금 선
-                        Rectangle().fill(Theme.ink)
-                            .frame(width: 2.5, height: chartHeight)
-                            .offset(x: nowX - 1.25)
-                            .animation(.linear(duration: 0.5), value: session.elapsed)
-                        // 경과 시간 말풍선 (양끝 클램프)
-                        Text(formatSeconds(session.elapsed))
-                            .font(.caption2.weight(.heavy).monospaced())
-                            .foregroundStyle(.white)
-                            .padding(.horizontal, 6).padding(.vertical, 2)
-                            .background(Capsule().fill(Theme.ink))
-                            .offset(x: min(max(nowX - bubbleWidth / 2, labelWidth),
-                                           geo.size.width - bubbleWidth),
-                                    y: -2)
-                            .animation(.linear(duration: 0.5), value: session.elapsed)
+                    ScrollView(.horizontal, showsIndicators: content > viewport) {
+                        track(width: content)
                     }
                 }
             }
-            .frame(height: chartHeight)
-            .padding(.top, 8)
-
-            axisRuler
+            .frame(height: chartHeight + 16 + 18)   // 말풍선 줄 + 눈금 줄 포함
         }
         .padding(16)
         .background(
@@ -281,32 +310,44 @@ struct GanttTimeline: View {
         )
     }
 
-    private func laneRow(_ lane: String, track: CGFloat, total: CGFloat) -> some View {
-        HStack(spacing: 0) {
-            Text(lane)
-                .font(.caption2.weight(.heavy))
-                .foregroundStyle(recipe.color(for: lane))
-                .frame(width: labelWidth, alignment: .leading)
+    /// 스크롤되는 트랙: 말풍선 줄 · 레인 막대 + 지금 선 · 눈금
+    private func track(width: CGFloat) -> some View {
+        let elapsed = CGFloat(min(session.elapsed, recipe.totalSeconds))
+        let nowX = width * elapsed / total
 
-            ZStack(alignment: .leading) {
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(Theme.ringTrack.opacity(0.5))
-                    .frame(height: laneHeight)
-                ForEach(recipe.steps.filter { $0.lane == lane }) { step in
-                    StepBar(step: step, status: session.status(of: step),
-                            color: recipe.color(for: lane))
-                        .frame(width: max(20, track * CGFloat(step.duration) / total),
-                               height: laneHeight - 10)
-                        .offset(x: track * CGFloat(step.startAt) / total)
+        return VStack(alignment: .leading, spacing: 0) {
+            // 경과 시간 말풍선 줄 (양끝 클램프)
+            ZStack(alignment: .topLeading) {
+                Color.clear.frame(width: width, height: 16)
+                if session.phase != .done {
+                    Text(formatSeconds(session.elapsed))
+                        .font(.caption2.weight(.heavy).monospaced())
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 6).padding(.vertical, 2)
+                        .background(Capsule().fill(Theme.ink))
+                        .offset(x: min(max(nowX - bubbleWidth / 2, 0), width - bubbleWidth))
+                        .animation(.linear(duration: 0.5), value: session.elapsed)
                 }
             }
-        }
-    }
 
-    private var axisRuler: some View {
-        HStack(spacing: 0) {
-            Color.clear.frame(width: labelWidth)
-            HStack {
+            // 레인 막대 + 지금 세로선
+            ZStack(alignment: .topLeading) {
+                VStack(spacing: laneSpacing) {
+                    ForEach(recipe.lanes, id: \.self) { lane in
+                        laneTrack(lane, width: width)
+                    }
+                }
+                if session.phase != .done {
+                    Rectangle().fill(Theme.ink)
+                        .frame(width: 2.5, height: chartHeight)
+                        .offset(x: nowX - 1.25)
+                        .animation(.linear(duration: 0.5), value: session.elapsed)
+                }
+            }
+            .frame(width: width, height: chartHeight)
+
+            // 눈금
+            HStack(spacing: 0) {
                 ForEach(0...4, id: \.self) { i in
                     Text(formatSeconds(recipe.totalSeconds * i / 4))
                     if i < 4 { Spacer() }
@@ -314,7 +355,25 @@ struct GanttTimeline: View {
             }
             .font(.caption2.weight(.medium))
             .foregroundStyle(Theme.inkSoft)
+            .frame(width: width)
+            .padding(.top, 4)
         }
+    }
+
+    private func laneTrack(_ lane: String, width: CGFloat) -> some View {
+        ZStack(alignment: .leading) {
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Theme.ringTrack.opacity(0.5))
+                .frame(width: width, height: laneHeight)
+            ForEach(recipe.steps.filter { $0.lane == lane }) { step in
+                StepBar(step: step, status: session.status(of: step),
+                        color: recipe.color(for: lane))
+                    .frame(width: max(6, width * CGFloat(step.duration) / total),
+                           height: laneHeight - 10)
+                    .offset(x: width * CGFloat(step.startAt) / total)
+            }
+        }
+        .frame(width: width, height: laneHeight)
     }
 }
 
