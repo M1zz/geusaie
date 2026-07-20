@@ -116,6 +116,42 @@ final class CookSession: ObservableObject {
         UIApplication.shared.isIdleTimerDisabled = false
     }
 
+    // MARK: 스크럽 — 진행 상황을 드래그로 옮기고 타이머를 그 지점에 동기화
+
+    private var resumeRunningAfterScrub = false
+
+    /// 드래그 시작: 재생을 잠깐 멈추고(진행 위치 고정), 알림은 취소
+    func beginScrub() {
+        if case .running = phase { resumeRunningAfterScrub = true }
+        else { resumeRunningAfterScrub = false }
+        phase = .paused(elapsed: elapsed)   // 드래그 중엔 시간이 흐르지 않게
+        cancelNotifications()
+    }
+
+    /// 드래그 중: 0.0~1.0 위치로 경과 시간을 즉시 이동 (타임라인·지금 선이 따라옴)
+    func updateScrub(toFraction f: Double) {
+        guard let recipe else { return }
+        let clamped = min(max(f, 0), 1)
+        let t = Int((Double(recipe.totalSeconds) * clamped).rounded())
+        phase = .paused(elapsed: t)
+    }
+
+    /// 드래그 끝: 옮긴 위치를 기준으로 타이머 재동기화
+    func endScrub() {
+        guard let recipe else { return }
+        let t = elapsed
+        if t >= recipe.totalSeconds {
+            phase = .done
+        } else if resumeRunningAfterScrub {
+            let started = Date().addingTimeInterval(-TimeInterval(t))
+            phase = .running(startedAt: started)
+            scheduleNotifications(for: recipe, startedAt: started)
+            UIApplication.shared.isIdleTimerDisabled = true
+        }
+        // 원래 일시정지였다면 그 위치에서 계속 일시정지 (재개 시 알림 재설정)
+        resumeRunningAfterScrub = false
+    }
+
     func reset() {
         recipe = nil
         phase = .idle

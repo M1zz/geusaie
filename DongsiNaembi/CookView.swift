@@ -88,19 +88,8 @@ struct CookView: View {
                     .font(.subheadline.weight(.bold).monospaced())
                     .foregroundStyle(session.phase == .done ? Theme.green : Theme.terracotta)
             }
-            // 전체 진행 바
-            GeometryReader { geo in
-                let p = recipe.totalSeconds > 0
-                    ? CGFloat(min(session.elapsed, recipe.totalSeconds)) / CGFloat(recipe.totalSeconds)
-                    : 0
-                ZStack(alignment: .leading) {
-                    Capsule().fill(Theme.ringTrack).frame(height: 4)
-                    Capsule().fill(Theme.terracotta)
-                        .frame(width: max(4, geo.size.width * p), height: 4)
-                        .animation(.linear(duration: 0.5), value: session.elapsed)
-                }
-            }
-            .frame(height: 4)
+            // 드래그로 진행 상황을 옮기는 스크러버
+            ProgressScrubber(session: session)
         }
         .padding(.horizontal, 16)
         .padding(.top, 8)
@@ -150,6 +139,50 @@ struct FilledButton: ButtonStyle {
             .padding(.vertical, 14)
             .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(tint))
             .opacity(configuration.isPressed ? 0.8 : 1)
+    }
+}
+
+// MARK: - 진행 스크러버 — 드래그하면 타임라인 전체가 그 시점으로 이동
+
+struct ProgressScrubber: View {
+    @ObservedObject var session: CookSession
+    @State private var dragging = false
+
+    var body: some View {
+        GeometryReader { geo in
+            let total = session.recipe?.totalSeconds ?? 1
+            let w = geo.size.width
+            let p = total > 0 ? CGFloat(min(session.elapsed, total)) / CGFloat(total) : 0
+            let thumb: CGFloat = dragging ? 22 : 16
+
+            ZStack(alignment: .leading) {
+                Capsule().fill(Theme.ringTrack).frame(height: 6)
+                Capsule().fill(Theme.terracotta)
+                    .frame(width: max(6, w * p), height: 6)
+                Circle().fill(.white)
+                    .overlay(Circle().stroke(Theme.terracotta, lineWidth: 3))
+                    .frame(width: thumb, height: thumb)
+                    .shadow(color: .black.opacity(0.15), radius: 2, y: 1)
+                    .offset(x: max(0, min(w - thumb, w * p - thumb / 2)))
+            }
+            .frame(height: 24)
+            .frame(maxHeight: .infinity)
+            .contentShape(Rectangle())
+            .animation(dragging ? nil : .linear(duration: 0.5), value: session.elapsed)
+            .gesture(
+                DragGesture(minimumDistance: 0)
+                    .onChanged { v in
+                        if !dragging { dragging = true; session.beginScrub() }
+                        session.updateScrub(toFraction: Double(v.location.x / max(1, w)))
+                    }
+                    .onEnded { _ in
+                        dragging = false
+                        session.endScrub()
+                        UISelectionFeedbackGenerator().selectionChanged()
+                    }
+            )
+        }
+        .frame(height: 24)
     }
 }
 
