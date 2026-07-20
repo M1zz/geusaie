@@ -27,6 +27,9 @@ enum Attention: String {
         case .instant: return "한 번 동작"
         }
     }
+
+    /// 사람 손을 붙잡는가 (손은 하나뿐 — hands 작업끼리는 겹칠 수 없다)
+    var isHands: Bool { self != .passive }
 }
 
 struct RecipeStep: Identifiable, Hashable {
@@ -70,6 +73,19 @@ struct Recipe: Identifiable, Hashable {
 
     func color(for lane: String) -> Color {
         Theme.dishColor(laneIndex(lane))
+    }
+
+    /// 손 작업(hands)끼리 시간이 겹치는 쌍 — 있으면 안 됨(손은 하나).
+    /// 레시피 데이터 검증용.
+    var handsConflicts: [(RecipeStep, RecipeStep)] {
+        let hands = steps.filter { $0.attention.isHands }.sorted { $0.startAt < $1.startAt }
+        var out: [(RecipeStep, RecipeStep)] = []
+        for i in hands.indices {
+            for j in hands.index(after: i)..<hands.endIndex {
+                if hands[i].end > hands[j].startAt { out.append((hands[i], hands[j])) }
+            }
+        }
+        return out
     }
 }
 

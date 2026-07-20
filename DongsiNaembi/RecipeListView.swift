@@ -82,7 +82,7 @@ struct RecipeCard: View {
 
                 HStack(spacing: 14) {
                     Label(koreanDuration(recipe.totalSeconds), systemImage: "clock")
-                    Label("동시작업 \(koreanDuration(recipe.overlapSeconds))",
+                    Label("겹쳐 도는 \(koreanDuration(recipe.overlapSeconds))",
                           systemImage: "arrow.left.and.right")
                     Spacer()
                     Text("시작").font(.subheadline.weight(.bold))

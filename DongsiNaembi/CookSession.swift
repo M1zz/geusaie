@@ -62,17 +62,34 @@ final class CookSession: ObservableObject {
         return .done
     }
 
-    /// 지금 이 순간 진행 중인 작업들 (병렬이면 여럿)
+    /// 지금 이 순간 진행 중인 작업들 (손 작업이 먼저, 그다음 자동)
     var activeSteps: [RecipeStep] {
         guard let recipe else { return [] }
         return recipe.steps.filter { status(of: $0) == .active }
             .sorted { $0.end < $1.end }
     }
 
+    /// 지금 손으로 해야 하는 작업 (손은 하나 — 정상 데이터면 최대 1개)
+    var activeHandsSteps: [RecipeStep] {
+        activeSteps.filter { $0.attention.isHands }
+    }
+
+    /// 지금 불 위에서 알아서 돌고 있는 것 (걸어둔 것)
+    var activePassiveSteps: [RecipeStep] {
+        activeSteps.filter { !$0.attention.isHands }
+    }
+
     /// 다음에 시작될 작업 (가장 가까운 것)
     var nextStep: RecipeStep? {
         guard let recipe else { return nil }
         return recipe.steps.filter { $0.startAt > elapsed }
+            .min { $0.startAt < $1.startAt }
+    }
+
+    /// 다음에 손으로 해야 할 작업 — "곧 이걸 하세요" 안내용
+    var nextHandsStep: RecipeStep? {
+        guard let recipe else { return nil }
+        return recipe.steps.filter { $0.startAt > elapsed && $0.attention.isHands }
             .min { $0.startAt < $1.startAt }
     }
 

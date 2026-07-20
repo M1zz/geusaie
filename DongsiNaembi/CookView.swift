@@ -201,12 +201,12 @@ struct NowStrip: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
-                Text("지금 할 일")
+                Text("지금 내 손은")
                     .font(.caption.weight(.bold))
                     .foregroundStyle(Theme.inkSoft)
                     .textCase(.uppercase)
                 Spacer()
-                if let next = session.nextStep, session.phase != .done {
+                if let next = session.nextHandsStep, session.phase != .done {
                     Text("곧 · \(next.emoji) \(next.name) · \(formatSeconds(session.countdown(for: next))) 후")
                         .font(.caption2.weight(.semibold))
                         .foregroundStyle(Theme.inkSoft)
@@ -214,28 +214,46 @@ struct NowStrip: View {
                 }
             }
 
-            let active = session.activeSteps
-            if active.isEmpty {
-                Text(session.phase == .done ? "완성됐어요 🍴 접시에 담으세요" : "잠깐 대기 — 곧 다음 작업 시작")
+            let hands = session.activeHandsSteps
+            if hands.isEmpty {
+                Text(session.phase == .done
+                     ? "완성됐어요 🍴 접시에 담으세요"
+                     : (session.activePassiveSteps.isEmpty
+                        ? "잠깐 대기 — 곧 다음 작업"
+                        : "손은 자유 — 걸어둔 게 익는 중"))
                     .font(.headline.weight(.bold))
                     .foregroundStyle(Theme.ink)
                     .frame(maxWidth: .infinity, alignment: .leading)
             } else {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 8) {
-                        ForEach(active) { step in
+                        ForEach(hands) { step in
                             ActivePill(step: step,
                                        countdown: session.countdown(for: step),
                                        color: session.recipe?.color(for: step.lane) ?? Theme.terracotta)
                         }
                     }
                 }
-                if let tip = active.first?.tip {
-                    Label(tip, systemImage: active.first!.attention.icon)
+                if let tip = hands.first?.tip {
+                    Label(tip, systemImage: hands.first!.attention.icon)
                         .font(.caption)
                         .foregroundStyle(Theme.inkSoft)
                         .lineLimit(2)
                 }
+            }
+
+            // 백그라운드로 돌아가는 것 (걸어둔 것)
+            let bg = session.activePassiveSteps
+            if !bg.isEmpty {
+                HStack(spacing: 6) {
+                    Image(systemName: "hourglass").font(.caption2)
+                    Text("걸어둔 것 · " + bg.map {
+                        "\($0.emoji) \($0.name) \(formatSeconds(session.countdown(for: $0)))"
+                    }.joined(separator: " · "))
+                        .lineLimit(1)
+                }
+                .font(.caption2.weight(.semibold))
+                .foregroundStyle(Theme.inkSoft)
             }
         }
         .padding(14)
