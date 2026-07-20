@@ -302,11 +302,12 @@ struct GanttTimeline: View {
     let recipe: Recipe
     @ObservedObject var session: CookSession
 
-    private let laneHeight: CGFloat = 58
-    private let laneSpacing: CGFloat = 10
-    private let labelWidth: CGFloat = 40
+    private let laneHeight: CGFloat = 52
+    private let laneSpacing: CGFloat = 8
+    private let labelWidth: CGFloat = 46
     private let bubbleWidth: CGFloat = 46
-    private let minBarPx: CGFloat = 22    // 이보다 짧아지는 막대가 있으면 가로 스크롤
+    private let minBarPx: CGFloat = 22    // 긴 막대가 이보다 짧아지면 가로 스크롤
+    private let markerPx: CGFloat = 24    // 순간·짧은 작업은 고정 마커
 
     private var total: CGFloat { CGFloat(max(1, recipe.totalSeconds)) }
 
@@ -314,12 +315,16 @@ struct GanttTimeline: View {
         CGFloat(recipe.lanes.count) * laneHeight + CGFloat(recipe.lanes.count - 1) * laneSpacing
     }
 
-    /// 막대들이 겹치지 않으려면 필요한 최소 트랙 폭
-    /// (가장 짧은 작업이 minBarPx 이상이 되도록)
+    /// 순간/아주 짧은 작업은 비율 막대 대신 고정 마커로
+    private func isMarker(_ step: RecipeStep) -> Bool {
+        step.attention == .instant || step.duration <= 45
+    }
+
+    /// 마커가 아닌 막대들만 겹치지 않을 만큼의 최소 트랙 폭
     private var requiredTrackWidth: CGFloat {
-        let minDur = CGFloat(recipe.steps.map(\.duration).min() ?? recipe.totalSeconds)
-        guard minDur > 0 else { return 0 }
-        return minBarPx * total / minDur
+        let durs = recipe.steps.filter { !isMarker($0) }.map(\.duration)
+        guard let minDur = durs.min(), minDur > 0 else { return 0 }
+        return minBarPx * total / CGFloat(minDur)
     }
 
     var body: some View {
@@ -423,11 +428,12 @@ struct GanttTimeline: View {
             RoundedRectangle(cornerRadius: 10)
                 .fill(Theme.ringTrack.opacity(0.5))
                 .frame(width: width, height: laneHeight)
-            ForEach(recipe.steps.filter { $0.lane == lane }) { step in
+            ForEach(recipe.rowSteps(lane)) { step in
+                let marker = isMarker(step)
+                let w = marker ? markerPx : max(8, width * CGFloat(step.duration) / total)
                 StepBar(step: step, status: session.status(of: step),
-                        color: recipe.color(for: lane))
-                    .frame(width: max(6, width * CGFloat(step.duration) / total),
-                           height: laneHeight - 10)
+                        color: recipe.color(for: lane), compact: marker)
+                    .frame(width: w, height: laneHeight - 10)
                     .offset(x: width * CGFloat(step.startAt) / total)
             }
         }
@@ -435,11 +441,12 @@ struct GanttTimeline: View {
     }
 }
 
-/// 한 작업 막대 — 진행 상태에 따라 색/투명도/테두리
+/// 한 작업 막대 — 진행 상태에 따라 색/투명도/테두리. compact면 이모지만.
 struct StepBar: View {
     let step: RecipeStep
     let status: StepStatus
     let color: Color
+    var compact: Bool = false
 
     var body: some View {
         RoundedRectangle(cornerRadius: 10, style: .continuous)
@@ -448,25 +455,36 @@ struct StepBar: View {
                 RoundedRectangle(cornerRadius: 10, style: .continuous)
                     .stroke(status == .active ? Theme.ink : .clear, lineWidth: 2)
             )
-            .overlay(
-                VStack(spacing: 1) {
-                    HStack(spacing: 3) {
-                        if status == .done {
-                            Image(systemName: "checkmark").font(.caption2.weight(.bold))
-                        } else {
-                            Text(step.emoji).font(.caption2)
-                        }
-                        Text(step.name)
-                            .font(.caption2.weight(.bold))
-                            .lineLimit(1)
-                            .minimumScaleFactor(0.6)
-                    }
-                }
-                .foregroundStyle(status == .upcoming ? Theme.ink.opacity(0.65) : .white)
-                .padding(.horizontal, 6)
-            )
+            .overlay(label)
             .shadow(color: status == .active ? Theme.ink.opacity(0.2) : .clear,
                     radius: 4, y: 2)
+    }
+
+    @ViewBuilder private var label: some View {
+        if compact {
+            Group {
+                if status == .done {
+                    Image(systemName: "checkmark").font(.system(size: 10, weight: .bold))
+                } else {
+                    Text(step.emoji).font(.caption2)
+                }
+            }
+            .foregroundStyle(status == .upcoming ? Theme.ink.opacity(0.65) : .white)
+        } else {
+            HStack(spacing: 3) {
+                if status == .done {
+                    Image(systemName: "checkmark").font(.caption2.weight(.bold))
+                } else {
+                    Text(step.emoji).font(.caption2)
+                }
+                Text(step.name)
+                    .font(.caption2.weight(.bold))
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.6)
+            }
+            .foregroundStyle(status == .upcoming ? Theme.ink.opacity(0.65) : .white)
+            .padding(.horizontal, 6)
+        }
     }
 
     private var fill: Color {

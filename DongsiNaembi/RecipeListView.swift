@@ -80,15 +80,17 @@ struct RecipeCard: View {
                 MiniTimeline(recipe: recipe)
                     .frame(height: CGFloat(recipe.lanes.count) * 16 + 8)
 
-                HStack(spacing: 14) {
+                HStack(spacing: 12) {
                     Label(koreanDuration(recipe.totalSeconds), systemImage: "clock")
-                    Label("겹쳐 도는 \(koreanDuration(recipe.overlapSeconds))",
-                          systemImage: "arrow.left.and.right")
+                    Label("타이머 \(recipe.timerCount)개", systemImage: "timer")
+                    Label(recipe.handsIdleSeconds == 0
+                          ? "손 풀가동"
+                          : "손 여유 \(koreanDuration(recipe.handsIdleSeconds))",
+                          systemImage: "hand.raised.fill")
                     Spacer()
-                    Text("시작").font(.subheadline.weight(.bold))
-                    Image(systemName: "play.fill").font(.caption)
+                    Image(systemName: "play.circle.fill").font(.title3)
                 }
-                .font(.caption.weight(.semibold))
+                .font(.caption2.weight(.semibold))
                 .foregroundStyle(Theme.terracotta)
             }
             .padding(16)
@@ -117,10 +119,10 @@ struct MiniTimeline: View {
                 ForEach(recipe.lanes, id: \.self) { lane in
                     ZStack(alignment: .leading) {
                         Capsule().fill(Theme.ringTrack).frame(height: 12)
-                        ForEach(recipe.steps.filter { $0.lane == lane }) { step in
+                        ForEach(recipe.rowSteps(lane)) { step in
                             Capsule()
                                 .fill(recipe.color(for: lane))
-                                .frame(width: max(6, w * CGFloat(step.duration) / total),
+                                .frame(width: max(5, w * CGFloat(step.duration) / total),
                                        height: 12)
                                 .offset(x: w * CGFloat(step.startAt) / total)
                         }

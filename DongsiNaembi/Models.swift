@@ -46,15 +46,45 @@ struct RecipeStep: Identifiable, Hashable {
 }
 
 struct Recipe: Identifiable, Hashable {
+    static let handsLane = "내 손"
+
     let id: String
     var name: String
     var emoji: String
     var subtitle: String
-    var lanes: [String]        // 레인 표시 순서
+    var lanes: [String]        // 레인 표시 순서: [내 손, 냄비1, 냄비2 …]
     var steps: [RecipeStep]
     var source: String?        // 참고 레시피 출처
 
     var totalSeconds: Int { steps.map(\.end).max() ?? 0 }
+
+    /// 냄비/팬 레인 수 (내 손 제외)
+    var potCount: Int { lanes.filter { $0 != Recipe.handsLane }.count }
+
+    /// 화면에 보이는 타이머 개수 = 냄비 수 + 1(내 손)
+    var timerCount: Int { lanes.count }
+
+    /// 한 레인에 그릴 작업들.
+    /// '내 손' 행은 손 작업 전체(어느 냄비에 있든), 나머지 행은 그 냄비의 작업.
+    func rowSteps(_ lane: String) -> [RecipeStep] {
+        lane == Recipe.handsLane
+            ? steps.filter { $0.attention.isHands }
+            : steps.filter { $0.lane == lane }
+    }
+
+    /// 손이 놀고 있는 총 시간(초) — 효율의 척도. 0이 이상적.
+    var handsIdleSeconds: Int {
+        let hands = steps.filter { $0.attention.isHands }
+            .map { ($0.startAt, $0.end) }
+            .sorted { $0.0 < $1.0 }
+        var covered = 0, cursor = 0
+        for (s, e) in hands {
+            let from = max(s, cursor)
+            if e > from { covered += e - from; cursor = e }
+            else if e > cursor { cursor = e }
+        }
+        return max(0, totalSeconds - covered)
+    }
 
     /// 두 개 이상의 작업이 실제로 겹치는 총 구간(초) — "병렬성"의 척도
     var overlapSeconds: Int {
