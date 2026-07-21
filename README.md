@@ -10,7 +10,7 @@
 ## 실행 방법
 
 1. macOS에서 **Xcode 15 이상** 설치 (iOS 17 SDK)
-2. `DongsiNaembi.xcodeproj` 더블클릭으로 열기
+2. `Geusaie.xcodeproj` 더블클릭으로 열기
 3. 프로젝트 설정 → **Signing & Capabilities** → 본인 Apple ID 팀 선택
 4. 시뮬레이터 또는 실기기 선택 후 **⌘R** 실행
 
@@ -53,8 +53,8 @@
 ## 파일 구성
 
 ```
-DongsiNaembi/
-├── DongsiNaembiApp.swift    # 앱 진입점
+Geusaie/
+├── GeusaieApp.swift    # 앱 진입점
 ├── Theme.swift              # 크림·테라코타 팔레트, 시간 포맷터
 ├── Models.swift             # Recipe / RecipeStep / Attention / StepStatus
 ├── Recipes.swift            # 레시피 DB (알리오 올리오, 토마토 크림 파스타)
@@ -73,4 +73,4 @@ DongsiNaembi/
 - 파스타 외 레시피 확장 · 사용자 레시피 직접 만들기
 - 라이브 액티비티(잠금화면 병렬 레인) · 홈 위젯 · Apple Watch
 
-번들 ID: `com.leeo.dongsinaembi` · 표시 이름: **그사이에** · 최소 iOS 17.0 · 세로 모드(iPhone)
+번들 ID: `com.leeo.geusaie` · 표시 이름: **그사이에** · 최소 iOS 17.0 · 세로 모드(iPhone)

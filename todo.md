@@ -10,7 +10,7 @@
 - [x] CookSession.swift — 시작시각 하나로 파생되는 병렬 엔진 + 작업별 시작/완료 알림
 - [x] RecipeListView.swift — 홈: 레시피 카드(미니 간트 미리보기) → 탭해서 시작
 - [x] CookView.swift — 병렬 간트 타임라인 + '지금 할 일' 카드 + 체크리스트 + 움직이는 '지금' 선
-- [x] DongsiNaembiApp.swift / pbxproj / 파일 rename
+- [x] GeusaieApp.swift / pbxproj / 파일 rename
 - [x] 빌드 확인 (BUILD SUCCEEDED)
 
 ## 다음 후보
