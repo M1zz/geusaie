@@ -105,6 +105,16 @@ struct Recipe: Identifiable, Hashable {
         Theme.dishColor(laneIndex(lane))
     }
 
+    /// 시작 동작이 없는 '걸어두는' 작업 — 누군가 불을 켜야 물이 끓는다.
+    /// passive 작업이 시작되는 순간에 손 작업이 붙어 있지 않으면 여기에 잡힌다.
+    var unguidedPassiveSteps: [RecipeStep] {
+        let hands = steps.filter { $0.attention.isHands }
+        return steps.filter { p in
+            guard p.attention == .passive else { return false }
+            return !hands.contains { $0.startAt <= p.startAt && $0.end >= p.startAt }
+        }
+    }
+
     /// 손 작업(hands)끼리 시간이 겹치는 쌍 — 있으면 안 됨(손은 하나).
     /// 레시피 데이터 검증용.
     var handsConflicts: [(RecipeStep, RecipeStep)] {

@@ -23,6 +23,7 @@ struct RecipeListView: View {
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
+            .onAppear { startDemoIfRequested() }
         }
         .tint(Theme.terracotta)
         .fullScreenCover(isPresented: Binding(
@@ -31,6 +32,17 @@ struct RecipeListView: View {
         )) {
             CookView(session: session)
         }
+    }
+
+    /// 스크린샷·디버그용: -demoRecipe <id> -demoAt <초> 로 실행하면 그 시점부터 바로 조리 화면
+    private func startDemoIfRequested() {
+        #if DEBUG
+        let args = UserDefaults.standard
+        guard session.recipe == nil,
+              let id = args.string(forKey: "demoRecipe"),
+              let recipe = RecipeDB.all.first(where: { $0.id == id }) else { return }
+        session.start(recipe, at: args.integer(forKey: "demoAt"))
+        #endif
     }
 
     private var header: some View {

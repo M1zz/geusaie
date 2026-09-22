@@ -29,8 +29,16 @@ final class CookSession: ObservableObject {
         ticker = Timer.publish(every: 0.5, on: .main, in: .common)
             .autoconnect()
             .sink { [weak self] date in self?.tick(date) }
-        UNUserNotificationCenter.current()
-            .requestAuthorization(options: [.alert, .sound, .badge]) { _, _ in }
+        #if DEBUG
+        // 데모(스크린샷) 실행에선 권한 팝업이 화면을 가리므로 건너뛴다
+        let demo = UserDefaults.standard.string(forKey: "demoRecipe") != nil
+        #else
+        let demo = false
+        #endif
+        if !demo {
+            UNUserNotificationCenter.current()
+                .requestAuthorization(options: [.alert, .sound, .badge]) { _, _ in }
+        }
     }
 
     // MARK: 파생 상태
@@ -53,6 +61,12 @@ final class CookSession: ObservableObject {
     var remaining: Int {
         guard let recipe else { return 0 }
         return max(0, recipe.totalSeconds - elapsed)
+    }
+
+    /// 완성 예정 시각 ("5:52") — 남은 시간이 깎이는 대신 목표 시각을 보여준다
+    var finishClock: String {
+        Date().addingTimeInterval(TimeInterval(remaining))
+            .formatted(date: .omitted, time: .shortened)
     }
 
     func status(of step: RecipeStep) -> StepStatus {
@@ -117,10 +131,12 @@ final class CookSession: ObservableObject {
 
     // MARK: 제어
 
-    func start(_ recipe: Recipe) {
+    /// at: 이미 흘러간 초부터 시작(스크린샷·디버그용, 기본 0)
+    func start(_ recipe: Recipe, at elapsed: Int = 0) {
         self.recipe = recipe
-        phase = .running(startedAt: Date())
-        scheduleNotifications(for: recipe, startedAt: Date())
+        let started = Date().addingTimeInterval(-TimeInterval(elapsed))
+        phase = .running(startedAt: started)
+        scheduleNotifications(for: recipe, startedAt: started)
         UIApplication.shared.isIdleTimerDisabled = true
         haptic(.success)
     }
@@ -249,11 +265,11 @@ final class CookSession: ObservableObject {
                 add(center, id: "start-\(step.id)",
                     after: TimeInterval(step.startAt - elapsedNow), content: c)
             }
-            // 완료 알림
-            if step.end > elapsedNow + 1, step.duration >= 20 {
+            // 완료 알림 — 냄비가 끝났을 때만. 내 손이 언제 끝나는지는 내가 안다
+            if step.end > elapsedNow + 1, step.duration >= 20, step.attention == .passive {
                 let c = UNMutableNotificationContent()
-                c.title = "\(step.emoji) \(step.name) 완료"
-                c.body = "다음 작업으로 넘어갈 시간이에요"
+                c.title = "\(step.emoji) \(step.name) 다 됐어요"
+                c.body = "손 비면 보러 오세요"
                 c.sound = .default
                 add(center, id: "end-\(step.id)",
                     after: TimeInterval(step.end - elapsedNow), content: c)
