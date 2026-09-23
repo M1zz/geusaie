@@ -14,7 +14,7 @@ struct RecipeListView: View {
                         header
                         ForEach(RecipeDB.all) { recipe in
                             RecipeCard(recipe: recipe) {
-                                session.start(recipe)
+                                session.prepare(recipe)   // 시작은 조리 화면의 버튼으로
                             }
                         }
                         footNote
@@ -23,7 +23,10 @@ struct RecipeListView: View {
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
-            .onAppear { startDemoIfRequested() }
+            .onAppear {
+                // 뷰가 그려지는 도중에 상태를 바꾸지 않도록 한 틱 뒤에
+                DispatchQueue.main.async { startDemoIfRequested() }
+            }
         }
         .tint(Theme.terracotta)
         .fullScreenCover(isPresented: Binding(
@@ -41,7 +44,8 @@ struct RecipeListView: View {
         guard session.recipe == nil,
               let id = args.string(forKey: "demoRecipe"),
               let recipe = RecipeDB.all.first(where: { $0.id == id }) else { return }
-        session.start(recipe, at: args.integer(forKey: "demoAt"))
+        let at = args.integer(forKey: "demoAt")
+        if at > 0 { session.start(recipe, at: at) } else { session.prepare(recipe) }
         #endif
     }
 
@@ -50,7 +54,7 @@ struct RecipeListView: View {
             Text("그사이에")
                 .font(.system(size: 36, weight: .heavy, design: .rounded))
                 .foregroundStyle(Theme.ink)
-            Text("한 요리 안에서 동시에 돌아가는 작업들.\n면 삶는 그사이에 소스도 함께 끝내세요.")
+            Text("면 삶는 그사이에 소스까지.")
                 .font(.subheadline)
                 .foregroundStyle(Theme.inkSoft)
         }
@@ -58,14 +62,17 @@ struct RecipeListView: View {
     }
 
     private var footNote: some View {
-        Text("각 작업의 시작·완료 순간마다 알림이 옵니다. 손이 바쁠 때 화면을 안 봐도 괜찮아요.")
+        Text("냄비가 다 되면 알려 드려요.")
             .font(.caption)
             .foregroundStyle(Theme.inkSoft)
             .padding(.top, 4)
     }
 }
 
-// MARK: - 레시피 카드: 미리 보는 병렬 타임라인
+// MARK: - 레시피 카드 — 고를 때 필요한 것만
+//
+// 고르는 순간에 알아야 하는 건 두 가지다. 얼마나 걸리나, 냄비가 몇 개 필요한가.
+// 어떤 작업이 언제 오는지는 들어가면 다 나온다.
 
 struct RecipeCard: View {
     let recipe: Recipe
@@ -73,39 +80,25 @@ struct RecipeCard: View {
 
     var body: some View {
         Button(action: onStart) {
-            VStack(alignment: .leading, spacing: 14) {
-                HStack(spacing: 10) {
-                    Text(recipe.emoji).font(.largeTitle)
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(recipe.name)
-                            .font(.title3.weight(.heavy))
-                            .foregroundStyle(Theme.ink)
-                        Text(recipe.subtitle)
-                            .font(.caption)
-                            .foregroundStyle(Theme.inkSoft)
-                            .lineLimit(2)
-                    }
-                    Spacer()
+            HStack(spacing: 14) {
+                Text(recipe.emoji).font(.system(size: 40))
+
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(recipe.name)
+                        .font(.title3.weight(.heavy))
+                        .foregroundStyle(Theme.ink)
+                    // 고를 때는 분 단위면 충분하다
+                    Text("약 \(Int((Double(recipe.estimatedSeconds) / 60).rounded()))분 · 냄비 \(recipe.potCount)개")
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(Theme.inkSoft)
                 }
 
-                // 미니 타임라인 미리보기 — 겹침이 곧 병렬
-                MiniTimeline(recipe: recipe)
-                    .frame(height: CGFloat(recipe.lanes.count) * 16 + 8)
-
-                HStack(spacing: 12) {
-                    Label(koreanDuration(recipe.totalSeconds), systemImage: "clock")
-                    Label("타이머 \(recipe.timerCount)개", systemImage: "timer")
-                    Label(recipe.handsIdleSeconds == 0
-                          ? "손 풀가동"
-                          : "손 여유 \(koreanDuration(recipe.handsIdleSeconds))",
-                          systemImage: "hand.raised.fill")
-                    Spacer()
-                    Image(systemName: "play.circle.fill").font(.title3)
-                }
-                .font(.caption2.weight(.semibold))
-                .foregroundStyle(Theme.terracotta)
+                Spacer(minLength: 8)
+                Image(systemName: "play.circle.fill")
+                    .font(.title)
+                    .foregroundStyle(Theme.terracotta)
             }
-            .padding(16)
+            .padding(18)
             .background(
                 RoundedRectangle(cornerRadius: 20, style: .continuous)
                     .fill(Theme.card)
@@ -116,31 +109,5 @@ struct RecipeCard: View {
             )
         }
         .buttonStyle(.plain)
-    }
-}
-
-/// 정적 미니 간트 — 카드에서 병렬 구조를 한눈에
-struct MiniTimeline: View {
-    let recipe: Recipe
-
-    var body: some View {
-        GeometryReader { geo in
-            let w = geo.size.width
-            let total = CGFloat(max(1, recipe.totalSeconds))
-            VStack(spacing: 4) {
-                ForEach(recipe.lanes, id: \.self) { lane in
-                    ZStack(alignment: .leading) {
-                        Capsule().fill(Theme.ringTrack).frame(height: 12)
-                        ForEach(recipe.rowSteps(lane)) { step in
-                            Capsule()
-                                .fill(recipe.color(for: lane))
-                                .frame(width: max(5, w * CGFloat(step.duration) / total),
-                                       height: 12)
-                                .offset(x: w * CGFloat(step.startAt) / total)
-                        }
-                    }
-                }
-            }
-        }
     }
 }

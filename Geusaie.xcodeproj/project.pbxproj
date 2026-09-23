@@ -12,6 +12,7 @@
 		B00000000000000000000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000003 /* Models.swift */; };
 		B00000000000000000000004 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000004 /* Recipes.swift */; };
 		B00000000000000000000005 /* CookSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000005 /* CookSession.swift */; };
+		B00000000000000000000009 /* VoiceCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000009 /* VoiceCue.swift */; };
 		B00000000000000000000006 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000006 /* RecipeListView.swift */; };
 		B00000000000000000000007 /* CookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000007 /* CookView.swift */; };
 		B0000000000000000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000B /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		F00000000000000000000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F00000000000000000000004 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 		F00000000000000000000005 /* CookSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookSession.swift; sourceTree = "<group>"; };
+		F00000000000000000000009 /* VoiceCue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCue.swift; sourceTree = "<group>"; };
 		F00000000000000000000006 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		F00000000000000000000007 /* CookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookView.swift; sourceTree = "<group>"; };
 		F0000000000000000000000B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				F00000000000000000000003 /* Models.swift */,
 				F00000000000000000000004 /* Recipes.swift */,
 				F00000000000000000000005 /* CookSession.swift */,
+				F00000000000000000000009 /* VoiceCue.swift */,
 				F00000000000000000000006 /* RecipeListView.swift */,
 				F00000000000000000000007 /* CookView.swift */,
 				F0000000000000000000000B /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				B00000000000000000000003 /* Models.swift in Sources */,
 				B00000000000000000000004 /* Recipes.swift in Sources */,
 				B00000000000000000000005 /* CookSession.swift in Sources */,
+				B00000000000000000000009 /* VoiceCue.swift in Sources */,
 				B00000000000000000000006 /* RecipeListView.swift in Sources */,
 				B00000000000000000000007 /* CookView.swift in Sources */,
 			);
@@ -284,6 +288,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "그사이에";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "요리 중에 \"다음\" 한 마디로 단계를 넘기기 위해 마이크를 씁니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "\"다음\"이라는 말만 알아듣기 위해 음성 인식을 씁니다. 가능하면 기기 안에서 처리합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,6 +319,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "그사이에";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "요리 중에 \"다음\" 한 마디로 단계를 넘기기 위해 마이크를 씁니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "\"다음\"이라는 말만 알아듣기 위해 음성 인식을 씁니다. 가능하면 기기 안에서 처리합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

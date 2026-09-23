@@ -7,7 +7,18 @@ import SwiftUI
 
 struct CookView: View {
     @ObservedObject var session: CookSession
+    @StateObject private var voice = VoiceCue()
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.dynamicTypeSize) private var typeSize
+    /// 세워 두고 보는 화면이라 기본이 이미 크다 — 여기서 더 키울 수 있다
+    @AppStorage("textScale") private var textScaleRaw = TextScale.big.rawValue
+
+    private var textScale: TextScale { TextScale(rawValue: textScaleRaw) ?? .big }
+    /// 글자를 키우면 고정 배치로는 다 안 들어간다 — 그때는 전부 스크롤로 내려 보낸다.
+    /// (내가 지정한 크기와 기기 설정, 둘 중 하나라도 크면)
+    private var stacked: Bool {
+        textScale.rawValue >= TextScale.bigger.rawValue || typeSize.isAccessibilitySize
+    }
 
     @State private var showQuitConfirm = false
     @State private var showFinishConfirm = false
@@ -26,28 +37,51 @@ struct CookView: View {
             if let recipe = session.recipe {
                 VStack(spacing: 0) {
                     topBar(recipe)
+                    if stacked {
+                        // 글자가 아주 클 때는 고정 배치를 포기하고 전부 스크롤한다
+                        ScrollView {
+                            VStack(alignment: .leading, spacing: 14) {
+                                NowStrip(session: session, voice: voice)
+                                PotBoard(recipe: recipe, session: session)
+                                timelineAndList(recipe)
+                            }
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 8)
+                        }
+                    } else {
+                    // 지금 할 일(내 손)과 냄비 상태는 스크롤에 밀리지 않고 늘 보인다
+                    VStack(spacing: 12) {
+                        NowStrip(session: session, voice: voice)
+                        PotBoard(recipe: recipe, session: session)
+                    }
+                    .padding(.horizontal, 16)
+                    .padding(.bottom, 12)
+
                     ScrollView {
                         VStack(alignment: .leading, spacing: 14) {
-                            NowStrip(session: session)
-                            OneLineTimeline(recipe: recipe, session: session)
-                            GanttTimeline(recipe: recipe, session: session)
-                            StepChecklist(recipe: recipe, session: session)
-                            if let src = recipe.source {
-                                Text("참고 · \(src)")
-                                    .font(.caption2)
-                                    .foregroundStyle(Theme.inkSoft)
-                                    .frame(maxWidth: .infinity, alignment: .center)
-                                    .padding(.top, 2)
-                            }
+                            timelineAndList(recipe)
                         }
                         .padding(.horizontal, 16)
                         .padding(.top, 4)
                         .padding(.bottom, 8)
                     }
+                    }
                     controls
                 }
             }
         }
+        .dynamicTypeSize(textScale.dynamic)
+        .onAppear { voice.onNext = { session.advance() } }
+        // 요리를 시작해야 듣기 시작한다 (준비 화면에서 마이크를 켤 이유가 없다)
+        .onChange(of: session.isActive) { _, active in
+            guard active else { return }
+            #if DEBUG
+            if UserDefaults.standard.string(forKey: "demoRecipe") == nil { voice.start() }
+            #else
+            voice.start()
+            #endif
+        }
+        .onDisappear { voice.stop() }
         // 실수로 나가서 타이머가 초기화되는 것 방지
         .confirmationDialog("조리를 중단하고 나갈까요?",
                             isPresented: $showQuitConfirm, titleVisibility: .visible) {
@@ -62,7 +96,7 @@ struct CookView: View {
             Button("완성 처리", role: .destructive) { session.finish() }
             Button("계속 조리하기", role: .cancel) { }
         } message: {
-            Text("아직 \(Pace.rough(session.remaining)) 남았어요. 지금 멈추면 타이머가 종료됩니다.")
+            Text("아직 남은 단계가 있어요. 지금 멈추면 진행 상황이 사라집니다.")
         }
     }
 
@@ -71,7 +105,19 @@ struct CookView: View {
         if inProgress { showQuitConfirm = true } else { dismiss() }
     }
 
-    // MARK: 상단 바 — 이름 · 전체 진행률/남은 시간
+    @ViewBuilder private func timelineAndList(_ recipe: Recipe) -> some View {
+        GanttTimeline(recipe: recipe, session: session)
+        StepChecklist(recipe: recipe, session: session)
+        if let src = recipe.source {
+            Text("참고 · \(src)")
+                .font(.caption2)
+                .foregroundStyle(Theme.inkSoft)
+                .frame(maxWidth: .infinity, alignment: .center)
+                .padding(.top, 2)
+        }
+    }
+
+    // MARK: 상단 바 — 이름 · 진행 시간 · 완성 예정 시각
 
     private func topBar(_ recipe: Recipe) -> some View {
         VStack(spacing: 8) {
@@ -82,60 +128,164 @@ struct CookView: View {
                 }
                 Spacer()
                 Text("\(recipe.emoji) \(recipe.name)")
-                    .font(.headline.weight(.heavy))
+                    .font(.title3.weight(.heavy))
                     .foregroundStyle(Theme.ink)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
                 Spacer()
-                // 남은 시간이 깎이는 대신 '몇 시에 먹는지' — 숫자가 움직이지 않는다
-                Text(session.phase == .done ? "완성 ✓" : "\(session.finishClock) 완성")
-                    .font(.subheadline.weight(.bold))
-                    .foregroundStyle(session.phase == .done ? Theme.green : Theme.inkSoft)
+                textSizeMenu
             }
-            // 드래그로 진행 상황을 옮기는 스크러버
-            ProgressScrubber(session: session)
+
+            // 얼마나 했고(늘어남), 언제 먹는가(시각) — 둘 다 보여준다.
+            // 글자가 커지면 가로로 안 들어가니 세로로 내려앉는다.
+            // 글자가 커지면 가로로 안 들어가니 세로로 내려앉는다
+            if stacked {
+                VStack(spacing: 8) { timeChips }
+            } else {
+                HStack(spacing: 10) { timeChips }
+            }
+
+            // 드래그로 진행 상황을 옮기는 스크러버 (시작 전에는 없다)
+            if !session.isReady {
+                ProgressScrubber(session: session)
+            }
         }
         .padding(.horizontal, 16)
         .padding(.top, 8)
         .padding(.bottom, 10)
     }
 
+    /// 진행과 완성 예정은 같은 무게의 정보다 — 칸도 글자도 같은 크기로
+    @ViewBuilder private var timeChips: some View {
+        timeChip(title: "진행",
+                 value: formatSeconds(session.cookingElapsed),
+                 tint: Theme.ink)
+        timeChip(title: session.phase == .done ? "완성" : "완성 예정",
+                 value: session.phase == .done ? "✓" : session.finishClock,
+                 tint: session.phase == .done ? Theme.green : Theme.terracotta)
+    }
+
+    /// 글자 크기 — 세워 둔 거리에 맞춰 사용자가 직접 키운다
+    private var textSizeMenu: some View {
+        Menu {
+            Picker("글자 크기", selection: $textScaleRaw) {
+                ForEach(TextScale.allCases) { scale in
+                    Text(scale.label).tag(scale.rawValue)
+                }
+            }
+        } label: {
+            Image(systemName: "textformat.size")
+                .font(.title3.weight(.bold))
+                .foregroundStyle(Theme.inkSoft)
+                .frame(width: 40, height: 40)
+        }
+    }
+
+    private func timeChip(title: String, value: String, tint: Color) -> some View {
+        HStack(spacing: 6) {
+            Text(title)
+                .font(.caption.weight(.bold))
+                .foregroundStyle(Theme.inkSoft)
+                .lineLimit(1)
+            Text(value)
+                .font(.system(.title3, design: .monospaced).weight(.heavy))
+                .contentTransition(.identity)
+                .foregroundStyle(tint)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+        }
+        .padding(.horizontal, 12)
+        .padding(.vertical, 6)
+        .frame(maxWidth: .infinity)
+        .background(
+            Capsule().fill(Theme.card)
+                .overlay(Capsule().stroke(Theme.cardBorder, lineWidth: 1))
+        )
+    }
+
     // MARK: 하단 컨트롤
 
     private var controls: some View {
-        HStack(spacing: 12) {
-            if session.phase == .done {
-                Button { dismiss() } label: {
-                    Label("완료", systemImage: "checkmark").frame(maxWidth: .infinity)
-                }
-                .buttonStyle(FilledButton(tint: Theme.green))
+        Group {
+            if stacked {
+                VStack(spacing: 10) { controlButtons }
             } else {
-                if session.isActive {
-                    Button { session.pause() } label: {
-                        Label("일시정지", systemImage: "pause.fill").frame(maxWidth: .infinity)
-                    }
-                    .buttonStyle(FilledButton(tint: Theme.inkSoft))
-                } else {
-                    Button { session.resume() } label: {
-                        Label("재개", systemImage: "play.fill").frame(maxWidth: .infinity)
-                    }
-                    .buttonStyle(FilledButton(tint: Theme.terracotta))
-                }
-                if session.isLastStage {
-                    Button { showFinishConfirm = true } label: {
-                        Label("완성 처리", systemImage: "flag.checkered").frame(maxWidth: .infinity)
-                    }
-                    .buttonStyle(FilledButton(tint: Theme.terracotta))
-                } else {
-                    Button { session.endCurrentStage() } label: {
-                        Label("단계 종료", systemImage: "forward.end.fill").frame(maxWidth: .infinity)
-                    }
-                    .buttonStyle(FilledButton(tint: Theme.terracotta))
-                }
+                HStack(spacing: 12) { controlButtons }
             }
         }
         .padding(.horizontal, 16)
         .padding(.top, 10)
         .padding(.bottom, 8)
         .background(Theme.cream.shadow(color: .black.opacity(0.05), radius: 6, y: -3))
+    }
+
+    @ViewBuilder private var controlButtons: some View {
+        Group {
+            if session.isReady {
+                Button { session.begin() } label: {
+                    Label("요리 시작", systemImage: "play.fill").frame(maxWidth: .infinity)
+                }
+                .buttonStyle(FilledButton(tint: Theme.terracotta))
+            } else if session.phase == .done {
+                Button { dismiss() } label: {
+                    Label("완료", systemImage: "checkmark").frame(maxWidth: .infinity)
+                }
+                .buttonStyle(FilledButton(tint: Theme.green))
+            } else {
+                MicButton(voice: voice)
+
+                if session.isWaitingForNext {
+                    // 재촉하지 않고 기다리는 중 — 말 한마디나 버튼 하나면 이어서 간다
+                    Button { session.advance() } label: {
+                        Label("다음", systemImage: "arrow.right")
+                            .frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(FilledButton(tint: Theme.terracotta))
+                } else {
+                    if session.isActive {
+                        Button { session.pause() } label: {
+                            Label("일시정지", systemImage: "pause.fill").frame(maxWidth: .infinity)
+                        }
+                        .buttonStyle(FilledButton(tint: Theme.inkSoft))
+                    } else {
+                        Button { session.resume() } label: {
+                            Label("재개", systemImage: "play.fill").frame(maxWidth: .infinity)
+                        }
+                        .buttonStyle(FilledButton(tint: Theme.terracotta))
+                    }
+                    if session.isLastStage {
+                        Button { showFinishConfirm = true } label: {
+                            Label("완성 처리", systemImage: "flag.checkered").frame(maxWidth: .infinity)
+                        }
+                        .buttonStyle(FilledButton(tint: Theme.terracotta))
+                    } else {
+                        Button { session.advance() } label: {
+                            Label("다음", systemImage: "arrow.right").frame(maxWidth: .infinity)
+                        }
+                        .buttonStyle(FilledButton(tint: Theme.terracotta))
+                    }
+                }
+            }
+        }
+    }
+}
+
+/// 음성 듣기 토글 — 손이 젖어 있을 때를 위한 것이라, 끄고 켜는 게 늘 보여야 한다
+struct MicButton: View {
+    @ObservedObject var voice: VoiceCue
+
+    var body: some View {
+        Button { voice.toggle() } label: {
+            Image(systemName: voice.isListening ? "mic.fill" : "mic.slash.fill")
+                .font(.subheadline.weight(.bold))
+                .foregroundStyle(voice.isListening ? .white : Theme.inkSoft)
+                .frame(width: 48, height: 48)
+                .background(
+                    Circle().fill(voice.isListening ? Theme.green : Theme.ringTrack)
+                )
+        }
+        .disabled(voice.state == .denied || voice.state == .unavailable)
+        .opacity(voice.state == .denied || voice.state == .unavailable ? 0.4 : 1)
     }
 }
 
@@ -159,7 +309,7 @@ struct ProgressScrubber: View {
 
     var body: some View {
         GeometryReader { geo in
-            let total = session.recipe?.totalSeconds ?? 1
+            let total = session.plan.total
             let w = geo.size.width
             let p = total > 0 ? CGFloat(min(session.elapsed, total)) / CGFloat(total) : 0
             let thumb: CGFloat = dragging ? 22 : 16
@@ -199,102 +349,251 @@ struct ProgressScrubber: View {
 
 struct NowStrip: View {
     @ObservedObject var session: CookSession
+    @ObservedObject var voice: VoiceCue
+    @Environment(\.dynamicTypeSize) private var typeSize
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("지금 할 일")
-                .font(.caption.weight(.bold))
-                .foregroundStyle(Theme.inkSoft)
-                .textCase(.uppercase)
-
-            if session.phase == .done {
-                Text("완성됐어요 🍴 접시에 담으세요")
-                    .font(.title3.weight(.heavy))
-                    .foregroundStyle(Theme.ink)
-            } else if let step = session.activeHandsSteps.first {
-                // 지금 손으로 하는 일 — 이 카드의 전부
-                taskRow(step, countdown: session.countdown(for: step), upcoming: false)
-                if let tip = step.tip {
-                    Label(tip, systemImage: step.attention.icon)
-                        .font(.caption)
-                        .foregroundStyle(Theme.inkSoft)
-                        .lineLimit(2)
+            if session.isReady {
+                header("시작하면 이것부터")
+                if let first = session.firstStep {
+                    titleText(first)
+                    if let tip = first.tip {
+                        Label(tip, systemImage: first.icon)
+                            .font(.body)
+                            .foregroundStyle(Theme.inkSoft)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
                 }
-            } else if let next = session.nextHandsStep {
-                // 손이 빌 때 — 다음에 할 일 하나만
-                taskRow(next, countdown: session.countdown(for: next), upcoming: true)
-            } else {
-                Text("남은 손 작업 없음 — 마무리만 기다리면 돼요")
-                    .font(.title3.weight(.heavy))
+                Text("아래 요리 시작을 누르면 냄비 시계가 돕니다")
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(Theme.inkSoft)
+            } else if session.phase == .done {
+                header("지금 할 일")
+                Text("완성됐어요 🍴 접시에 담으세요")
+                    .font(.title.weight(.heavy))
                     .foregroundStyle(Theme.ink)
+            } else if let due = session.dueAction {
+                // 냄비가 부른다 — 미룰 수 없는 일
+                header(session.isOverdue(due) ? "늦었어요 · 지금 바로"
+                       : (due.deadline ? "지금 · 미룰 수 없어요" : "지금 할 일"))
+                fixedRow(due)
+                // 하던 도마 일은 사라지지 않는다 — 끝나면 이어서
+                if let flex = session.currentPrep, session.progress(of: flex) > 0 {
+                    Divider().overlay(Theme.cardBorder)
+                    Label("하던 일 · \(flex.emoji) \(flex.name) — 이것부터 하고 이어서",
+                          systemImage: "arrow.uturn.left")
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(Theme.inkSoft)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            } else if let flex = session.currentPrep {
+                // 도마 일 — 급할 게 없다
+                header("지금 할 일 · 천천히 해도 돼요")
+                flexibleRow(flex)
+                if let next = session.upNext {
+                    Divider().overlay(Theme.cardBorder)
+                    Label("다음 · \(next.emoji) \(next.name)", systemImage: "arrow.right")
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(Theme.inkSoft)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            } else {
+                header("지금 할 일")
+                Text("손은 다 했어요 — 냄비만 기다리면 돼요")
+                    .font(.title2.weight(.heavy))
+                    .foregroundStyle(Theme.ink)
+                if let next = session.nextAction {
+                    Label("다음 · \(next.emoji) \(next.name)", systemImage: "hourglass")
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(Theme.inkSoft)
+                }
             }
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
             RoundedRectangle(cornerRadius: 18, style: .continuous)
-                .fill(Theme.card)
+                .fill(urgency.fill)
                 .overlay(
                     RoundedRectangle(cornerRadius: 18, style: .continuous)
-                        .stroke(Theme.cardBorder, lineWidth: 1)
+                        .stroke(urgency.border, lineWidth: urgency == .calm ? 1 : 2)
                 )
         )
+        .animation(.easeInOut(duration: 0.35), value: urgency)
     }
 
-    /// 이모지 · 이름 · 여유를 말로. 초를 세지 않는다.
-    private func taskRow(_ step: RecipeStep, countdown: Int, upcoming: Bool) -> some View {
-        VStack(alignment: .leading, spacing: 8) {
-            HStack(alignment: .firstTextBaseline, spacing: 10) {
-                Text(step.emoji).font(.title2)
-                Text(step.name)
-                    .font(.title3.weight(.heavy))
-                    .foregroundStyle(Theme.ink)
-                    .lineLimit(2)
-                    .minimumScaleFactor(0.8)
-                Spacer(minLength: 8)
-                Text(upcoming ? Pace.rough(countdown) + " 뒤" : Pace.rough(countdown))
-                    .font(.subheadline.weight(.bold))
-                    .foregroundStyle(Pace.isUrgent(countdown, step.attention) ? Theme.terracotta
-                                     : Theme.inkSoft)
-            }
+    /// 카드 색 = 얼마나 급한가. 색만 봐도 지금 뛰어야 하는지 알 수 있게.
+    private var urgency: Urgency {
+        if session.isReady { return .calm }
+        if session.phase == .done { return .finished }
+        guard let due = session.dueAction else { return .calm }
+        if session.isOverdue(due) { return .late }
+        return due.deadline ? .now : .soon
+    }
 
-            if upcoming {
-                Text("지금은 쉬어도 돼요")
-                    .font(.caption.weight(.semibold))
+    enum Urgency {
+        case calm      // 도마 일 — 천천히 해도 된다
+        case soon      // 내가 할 냄비 동작 — 지금이지만 급하진 않다
+        case now       // 미루면 상한다
+        case late      // 이미 늦었다
+        case finished
+
+        var fill: Color {
+            switch self {
+            case .calm:     return Theme.green.opacity(0.12)
+            case .soon:     return Theme.mustard.opacity(0.18)
+            case .now:      return Theme.terracotta.opacity(0.20)
+            case .late:     return Theme.brick.opacity(0.30)
+            case .finished: return Theme.green.opacity(0.18)
+            }
+        }
+
+        var border: Color {
+            switch self {
+            case .calm:     return Theme.green.opacity(0.35)
+            case .soon:     return Theme.mustard.opacity(0.7)
+            case .now:      return Theme.terracotta
+            case .late:     return Theme.brick
+            case .finished: return Theme.green.opacity(0.7)
+            }
+        }
+
+        var accent: Color {
+            switch self {
+            case .calm:     return Theme.green
+            case .soon:     return Theme.mustard
+            case .now:      return Theme.terracotta
+            case .late:     return Theme.brick
+            case .finished: return Theme.green
+            }
+        }
+    }
+
+    private func header(_ text: String) -> some View {
+        Text(text)
+            .font(.subheadline.weight(.bold))
+            .foregroundStyle(urgency == .calm ? Theme.inkSoft : urgency.accent)
+            .textCase(.uppercase)
+    }
+
+    /// 냄비에 매인 일 — 시간이 됐으니 지금 해야 한다
+    private func fixedRow(_ step: RecipeStep) -> some View {
+        VStack(alignment: .leading, spacing: 8) {
+            titleRow(step)
+            ProgressBar(fraction: Pace.eased(step.duration > 0
+                                             ? 1 - Double(session.countdown(for: step))
+                                                 / Double(step.duration)
+                                             : 1),
+                        tint: urgency.accent)
+            details(step)
+            hint(done: "다 했으면")
+        }
+    }
+
+    /// 이모지 · 이름 · 보통 얼마나 걸리는 일인지
+    private func titleRow(_ step: RecipeStep) -> some View {
+        // 글자가 커지면 '보통 2분'이 아래로 내려앉는다 (이름이 줄어들지 않게)
+        VStack(alignment: .leading, spacing: 4) {
+            HStack(alignment: .firstTextBaseline, spacing: 10) {
+                titleText(step)
+                Spacer(minLength: 8)
+                if !big { usualDuration(step) }
+            }
+            if big { usualDuration(step) }
+        }
+    }
+
+    /// 한 줄에 제목과 '보통 2분'을 같이 못 넣는 크기인가
+    private var big: Bool { typeSize >= .xxLarge }
+
+    private func titleText(_ step: RecipeStep) -> some View {
+        HStack(alignment: .firstTextBaseline, spacing: 10) {
+            Text(step.emoji).font(.title)
+            Text(step.name)
+                .font(.title.weight(.heavy))
+                .foregroundStyle(Theme.ink)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+    }
+
+    /// 줄어드는 숫자가 아니라, 원래 이만큼 걸리는 일이라는 표시
+    private func usualDuration(_ step: RecipeStep) -> some View {
+        Text("보통 \(koreanDuration(step.duration))")
+            .font(.subheadline.weight(.semibold))
+            .foregroundStyle(Theme.inkSoft)
+            .fixedSize()
+    }
+
+    /// 어떻게 하는가 — 분량·두께·불 세기, 그리고 무엇을 보면 다 된 것인지
+    @ViewBuilder private func details(_ step: RecipeStep) -> some View {
+        VStack(alignment: .leading, spacing: 5) {
+            ForEach(step.detail, id: \.self) { line in
+                HStack(alignment: .top, spacing: 7) {
+                    Circle().fill(Theme.inkSoft.opacity(0.5))
+                        .frame(width: 5, height: 5)
+                        .padding(.top, 9)
+                    Text(line)
+                        .font(.body)
+                        .foregroundStyle(Theme.ink.opacity(0.85))
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+            if step.detail.isEmpty, let tip = step.tip {
+                Label(tip, systemImage: step.icon)
+                    .font(.body)
                     .foregroundStyle(Theme.inkSoft)
-            } else {
-                // 남은 초 대신 '이만큼 왔다' — 천천히 차오르기만 한다
-                ProgressBar(fraction: step.duration > 0
-                            ? 1 - Double(countdown) / Double(step.duration) : 1,
-                            tint: Pace.isUrgent(countdown, step.attention)
-                            ? Theme.terracotta : Theme.green)
-                Text(Pace.phrase(remaining: countdown, attention: step.attention))
-                    .font(.caption.weight(.semibold))
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            if let done = step.doneWhen {
+                Label(done, systemImage: "checkmark.circle")
+                    .font(.body.weight(.semibold))
+                    .foregroundStyle(urgency.accent)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    /// 도마 일 — 끊겨도 이어서 하는 일. 막대는 내가 한 만큼만 찬다.
+    private func flexibleRow(_ step: RecipeStep) -> some View {
+        let did = session.progress(of: step)
+        return VStack(alignment: .leading, spacing: 8) {
+            titleRow(step)
+            if session.interrupted.contains(step.id) && did < step.duration {
+                Label("아까 하던 데서 이어서", systemImage: "arrow.uturn.left")
+                    .font(.subheadline.weight(.bold))
                     .foregroundStyle(Theme.inkSoft)
             }
+            ProgressBar(fraction: Pace.eased(step.duration > 0
+                                             ? Double(did) / Double(step.duration) : 1),
+                        tint: Theme.green)
+            details(step)
+            hint(done: session.isWaitingForNext ? "다 했으면" : "다 하면")
+        }
+    }
+
+    /// 말로 넘길 수 있을 때만 안내한다 (버튼은 바로 아래 있으니까)
+    @ViewBuilder private func hint(done: String) -> some View {
+        if voice.isListening {
+            Label("\(done) \"다음\"이라고 말해 주세요", systemImage: "waveform")
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(urgency.accent)
         }
     }
 }
 
-/// 조급하지 않은 시간 표현 — 초를 세는 대신 여유를 말로
+/// 조급하지 않은 시간 표현 — 숫자를 세지 않는다
 enum Pace {
-    /// 늦으면 실제로 상하는 일(면 건지기 같은 한 번 동작)만 재촉한다
-    static func isUrgent(_ remaining: Int, _ attention: Attention) -> Bool {
-        attention == .instant || remaining <= 20
+    /// 차오르는 속도: 처음엔 쭉, 뒤로 갈수록 점점 천천히
+    static func eased(_ t: Double) -> Double {
+        let x = min(max(t, 0), 1)
+        return 1 - pow(1 - x, 2.4)
     }
 
-    /// 1초씩 깎이지 않는 대략치
-    static func rough(_ seconds: Int) -> String {
-        switch seconds {
-        case ..<20:  return "곧"
-        case ..<45:  return "30초쯤"
-        case ..<90:  return "1분쯤"
-        default:     return "약 \(Int((Double(seconds) / 60).rounded()))분"
-        }
-    }
-
-    static func phrase(remaining: Int, attention: Attention) -> String {
-        if attention == .instant { return "지금 하세요" }
+    static func phrase(remaining: Int, step: RecipeStep) -> String {
+        if step.deadline { return "미루면 안 되는 일이에요" }
+        if step.role == .action { return "끝나면 알려 주세요" }
         switch remaining {
         case ..<20:  return "거의 다 됐어요"
         case ..<60:  return "슬슬 마무리해도 돼요"
@@ -304,7 +603,7 @@ enum Pace {
     }
 }
 
-/// 차오르는 막대 — 줄어드는 숫자보다 마음이 편하다
+/// 차오르는 막대 — 줄어드는 숫자보다 마음이 편하다. 다 차면 그대로 멈춘다.
 struct ProgressBar: View {
     let fraction: Double
     let tint: Color
@@ -322,7 +621,142 @@ struct ProgressBar: View {
     }
 }
 
-// MARK: - 가로 간트 (히어로) + 움직이는 '지금' 선
+// MARK: - 냄비 상태 — 지금 할 일(내 손) 아래, 냄비마다 한 줄씩
+//
+// '지금 할 일'은 내 손 이야기다. 냄비는 따로 본다.
+// 면냄비 → 면 삶는 중, 소스팬 → 비어 있음. 냄비는 반드시 지켜야 하는 시계라
+// 여기서는 남은 시간을 숨기지 않는다 — 네모가 줄어드는 만큼이 남은 시간이다.
+
+struct PotBoard: View {
+    let recipe: Recipe
+    @ObservedObject var session: CookSession
+
+    private let gap: CGFloat = 12
+    /// 칸 높이 — 폭을 재지도, 비율로 계산하지도 않는다(스크롤 안에서는 둘 다 제자리를 못 찾는다).
+    /// 글자 크기에 따라 같이 커지는 고정값이라 화면이 어떤 크기든 배치가 흔들리지 않는다.
+    @ScaledMetric(relativeTo: .title3) private var tileHeight: CGFloat = 164
+
+    var body: some View {
+        HStack(spacing: gap) {
+            ForEach(session.potStates) { pot in
+                PotTile(pot: pot, color: recipe.color(for: pot.lane))
+                    .frame(maxWidth: .infinity)
+                    .frame(height: tileHeight)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+}
+
+/// 냄비 한 칸 — 정사각형. 네모가 줄어드는 만큼이 남은 시간이다.
+struct PotTile: View {
+    let pot: CookSession.PotState
+    let color: Color
+
+    @ScaledMetric(relativeTo: .title) private var markerSide: CGFloat = 52
+
+    private var isLive: Bool { pot.kind == .cooking || pot.kind == .handsOn }
+
+    var body: some View {
+        VStack(spacing: 6) {
+            Text(pot.lane)
+                .font(.subheadline.weight(.heavy))
+                .foregroundStyle(color)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+            marker
+                .frame(width: markerSide, height: markerSide)
+                .frame(maxHeight: .infinity)
+
+            Text(pot.text)
+                .font(.title3.weight(.bold))
+                .foregroundStyle(isLive ? Theme.ink : Theme.inkSoft)
+                .fixedSize(horizontal: false, vertical: true)
+                .multilineTextAlignment(.leading)
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+            // 냄비는 반드시 지켜야 하는 시계라, 여기서는 남은 시간을 숨기지 않는다
+            switch pot.kind {
+            case .cooking:
+                Text(formatSeconds(pot.remaining))
+                    .font(.system(.title, design: .monospaced).weight(.heavy))
+                    .contentTransition(.identity)
+                    .foregroundStyle(pot.remaining <= 30 ? Theme.terracotta : Theme.ink)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            case .handsOn:
+                Text("내 손")
+                    .font(.subheadline.weight(.bold))
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 8).padding(.vertical, 4)
+                    .background(Capsule().fill(color))
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            case .empty, .finished:
+                Text(" ")
+                    .font(.system(.title, design: .monospaced).weight(.heavy))
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+        }
+        .padding(12)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .background(
+            RoundedRectangle(cornerRadius: 18, style: .continuous)
+                .fill(isLive ? color.opacity(0.14) : Theme.card)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 18, style: .continuous)
+                        .stroke(isLive ? color.opacity(0.45) : Theme.cardBorder,
+                                lineWidth: isLive ? 1.5 : 1)
+                )
+        )
+    }
+
+    @ViewBuilder private var marker: some View {
+        switch pot.kind {
+        case .cooking:
+            ShrinkingSquare(fraction: pot.total > 0
+                            ? Double(pot.remaining) / Double(pot.total) : 0,
+                            color: color)
+        case .handsOn:
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .fill(color)
+                .overlay(Image(systemName: "hand.raised.fill")
+                    .font(.title3).foregroundStyle(.white))
+        case .finished:
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .fill(color.opacity(0.25))
+                .overlay(Image(systemName: "checkmark")
+                    .font(.title3.weight(.bold)).foregroundStyle(color))
+        case .empty:
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .stroke(Theme.cardBorder, style: StrokeStyle(lineWidth: 1.5, dash: [4, 4]))
+        }
+    }
+}
+
+/// 남은 만큼만 남는 네모 — 다 줄어들면 그 순간이 마감
+struct ShrinkingSquare: View {
+    let fraction: Double
+    let color: Color
+
+    var body: some View {
+        GeometryReader { geo in
+            let side = min(geo.size.width, geo.size.height)
+            let inner = side * max(0.06, min(max(fraction, 0), 1))
+            ZStack {
+                RoundedRectangle(cornerRadius: 6, style: .continuous)
+                    .stroke(color.opacity(0.5), lineWidth: 1.5)
+                    .frame(width: side, height: side)
+                RoundedRectangle(cornerRadius: max(2, 6 * inner / max(side, 1)),
+                                 style: .continuous)
+                    .fill(color)
+                    .frame(width: inner, height: inner)
+            }
+            .frame(width: geo.size.width, height: geo.size.height)
+            .animation(.linear(duration: 0.5), value: fraction)
+        }
+    }
+}
 
 // MARK: - 타임라인 공통 계산 — 막대 폭·마커·스크롤 폭
 
@@ -336,7 +770,7 @@ enum TimelineMetrics {
 
     /// 순간/아주 짧은 작업은 비율 막대 대신 고정 마커로
     static func isMarker(_ step: RecipeStep) -> Bool {
-        step.attention == .instant || step.duration <= 45
+        step.duration <= 45
     }
 
     /// 이름이 '…'으로 잘리지 않으려면 막대가 이만큼은 돼야 한다 (추정치)
@@ -348,8 +782,8 @@ enum TimelineMetrics {
     }
 
     /// 가장 좁은 막대도 이름이 다 보이도록 트랙을 넓힌다 (넘치면 가로 스크롤)
-    static func trackWidth(_ recipe: Recipe, viewport: CGFloat) -> CGFloat {
-        let total = CGFloat(max(1, recipe.totalSeconds))
+    static func trackWidth(_ recipe: Recipe, _ plan: Plan, viewport: CGFloat) -> CGFloat {
+        let total = CGFloat(max(1, plan.total))
         var need = max(viewport, 1)
         for step in recipe.steps where !isMarker(step) && step.duration > 0 {
             need = max(need, labelPx(step) * total / CGFloat(step.duration))
@@ -367,12 +801,15 @@ enum TimelineMetrics {
         var id: String { step.id }
     }
 
-    static func place(_ steps: [RecipeStep], total: CGFloat, width: CGFloat) -> (items: [Placed], rows: Int) {
+    static func place(_ steps: [RecipeStep], plan: Plan, total: CGFloat,
+                      width: CGFloat) -> (items: [Placed], rows: Int) {
         let spans = steps.map { step -> (RecipeStep, CGFloat, CGFloat, Bool) in
+            let s = plan.span(step.id)
             let marker = isMarker(step)
-            let w = marker ? markerPx : max(8, width * CGFloat(step.duration) / total)
+            let w = marker ? markerPx
+                           : max(8, width * CGFloat(max(1, s.end - s.start)) / total)
             // 끝에 붙은 마커가 트랙 밖으로 삐져나가지 않게
-            let x = min(width * CGFloat(step.startAt) / total, width - w)
+            let x = min(width * CGFloat(s.start) / total, width - w)
             return (step, x, w, marker)
         }
         // 먼저 시작 → 같으면 긴 막대가 윗줄을 차지
@@ -473,86 +910,6 @@ struct NowFollowingScroll<Content: View>: View {
     }
 }
 
-// MARK: - 한 줄 타임라인 — 손은 하나니까, 모든 작업을 한 줄에
-
-struct OneLineTimeline: View {
-    let recipe: Recipe
-    @ObservedObject var session: CookSession
-
-    @State private var viewport: CGFloat = 0
-
-    private var total: CGFloat { CGFloat(max(1, recipe.totalSeconds)) }
-    private let rowHeight: CGFloat = 46
-
-    var body: some View {
-        let width = TimelineMetrics.trackWidth(recipe, viewport: viewport)
-        let nowX = width * CGFloat(min(session.elapsed, recipe.totalSeconds)) / total
-        // 걸어두는 것은 뒤에 옅게, 내 손 작업은 그 위에 진하게 — 겹쳐도 한 줄
-        let passive = recipe.steps.filter { $0.attention == .passive }
-        let hands = recipe.steps.filter { $0.attention.isHands }.sorted { $0.startAt < $1.startAt }
-
-        VStack(alignment: .leading, spacing: 10) {
-            HStack(spacing: 6) {
-                Image(systemName: "hand.raised.fill")
-                Text("한 줄로 — 손은 하나")
-                Spacer()
-                Text("옅은 칸 = 걸어둔 것")
-            }
-            .font(.caption.weight(.bold))
-            .foregroundStyle(Theme.inkSoft)
-            .textCase(.uppercase)
-
-            NowFollowingScroll(session: session, nowX: nowX, width: width) {
-                VStack(alignment: .leading, spacing: 4) {
-                    ZStack(alignment: .topLeading) {
-                        RoundedRectangle(cornerRadius: 12)
-                            .fill(Theme.ringTrack.opacity(0.5))
-                            .frame(width: width, height: rowHeight)
-                        // 뒤: 걸어둔 것 (냄비가 알아서 하는 구간)
-                        ForEach(passive) { step in
-                            RoundedRectangle(cornerRadius: 10, style: .continuous)
-                                .fill(recipe.color(for: step.lane).opacity(0.22))
-                                .frame(width: max(8, width * CGFloat(step.duration) / total),
-                                       height: rowHeight - 8)
-                                .offset(x: width * CGFloat(step.startAt) / total, y: 4)
-                        }
-                        // 앞: 내가 하는 일 (서로 겹치지 않는다)
-                        ForEach(hands) { step in
-                            let marker = TimelineMetrics.isMarker(step)
-                            StepBar(step: step, status: session.status(of: step),
-                                    color: recipe.color(for: step.lane), compact: marker)
-                                .frame(width: marker ? TimelineMetrics.markerPx
-                                       : max(8, width * CGFloat(step.duration) / total),
-                                       height: rowHeight - 12)
-                                .offset(x: width * CGFloat(step.startAt) / total, y: 6)
-                        }
-                        if session.phase != .done {
-                            Rectangle().fill(Theme.ink)
-                                .frame(width: 2.5, height: rowHeight)
-                                .offset(x: nowX - 1.25)
-                                .animation(.linear(duration: 0.5), value: session.elapsed)
-                        }
-                    }
-                    .frame(width: width, height: rowHeight)
-
-                    TimelineTicks(totalSeconds: recipe.totalSeconds, width: width)
-                }
-            }
-            .frame(height: rowHeight + 20)
-            .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { viewport = $0 }
-        }
-        .padding(16)
-        .background(
-            RoundedRectangle(cornerRadius: 22, style: .continuous)
-                .fill(Theme.card)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 22, style: .continuous)
-                        .stroke(Theme.cardBorder, lineWidth: 1)
-                )
-        )
-    }
-}
-
 // MARK: - 가로 간트 (레인별) + 움직이는 '지금' 선
 
 struct GanttTimeline: View {
@@ -564,7 +921,7 @@ struct GanttTimeline: View {
     private let laneSpacing: CGFloat = 8
     private let bubbleWidth: CGFloat = 46
 
-    private var total: CGFloat { CGFloat(max(1, recipe.totalSeconds)) }
+
 
     private struct LaneLayout {
         let lane: String
@@ -573,25 +930,23 @@ struct GanttTimeline: View {
     }
 
     var body: some View {
-        let width = TimelineMetrics.trackWidth(recipe, viewport: viewport - TimelineMetrics.labelColumn)
+        let plan = session.plan
+        let total = CGFloat(max(1, plan.total))
+        let width = TimelineMetrics.trackWidth(recipe, plan,
+                                               viewport: viewport - TimelineMetrics.labelColumn)
         let layouts = recipe.lanes.map { lane -> LaneLayout in
-            let p = TimelineMetrics.place(recipe.rowSteps(lane), total: total, width: width)
+            let p = TimelineMetrics.place(recipe.rowSteps(lane), plan: plan,
+                                          total: total, width: width)
             return LaneLayout(lane: lane, items: p.items, rows: p.rows)
         }
         let chartHeight = layouts.map { TimelineMetrics.height(rows: $0.rows) }.reduce(0, +)
             + CGFloat(max(0, layouts.count - 1)) * laneSpacing
-        let nowX = width * CGFloat(min(session.elapsed, recipe.totalSeconds)) / total
+        let nowX = width * CGFloat(min(session.elapsed, plan.total)) / total
 
         VStack(alignment: .leading, spacing: 10) {
-            HStack(spacing: 6) {
-                Image(systemName: "arrow.left.and.right")
-                Text("동시 진행 타임라인")
-                Spacer()
-                Text("겹치는 구간 = 병렬")
-            }
-            .font(.caption.weight(.bold))
-            .foregroundStyle(Theme.inkSoft)
-            .textCase(.uppercase)
+            Text("타임라인 · 점선은 미뤄도 되는 일")
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(Theme.inkSoft)
 
             HStack(alignment: .top, spacing: 0) {
                 // 고정 레인 라벨 (스크롤해도 남음) — 말풍선 줄 높이만큼 내려서 막대와 맞춤
@@ -608,7 +963,8 @@ struct GanttTimeline: View {
                 .padding(.top, 16)
 
                 NowFollowingScroll(session: session, nowX: nowX, width: width) {
-                    track(width: width, layouts: layouts, chartHeight: chartHeight, nowX: nowX)
+                    track(width: width, layouts: layouts, chartHeight: chartHeight,
+                          nowX: nowX, total: plan.total)
                 }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -627,7 +983,7 @@ struct GanttTimeline: View {
 
     /// 스크롤되는 트랙: 말풍선 줄 · 레인 막대 + 지금 선 · 눈금
     private func track(width: CGFloat, layouts: [LaneLayout],
-                       chartHeight: CGFloat, nowX: CGFloat) -> some View {
+                       chartHeight: CGFloat, nowX: CGFloat, total: Int) -> some View {
         VStack(alignment: .leading, spacing: 0) {
             // 경과 시간 말풍선 줄 (양끝 클램프)
             ZStack(alignment: .topLeading) {
@@ -661,7 +1017,7 @@ struct GanttTimeline: View {
             .frame(width: width, height: chartHeight)
 
             // 눈금
-            TimelineTicks(totalSeconds: recipe.totalSeconds, width: width)
+            TimelineTicks(totalSeconds: total, width: width)
                 .padding(.top, 4)
         }
     }
@@ -699,6 +1055,12 @@ struct StepBar: View {
             .overlay(
                 RoundedRectangle(cornerRadius: 10, style: .continuous)
                     .stroke(status == .active ? Theme.ink : .clear, lineWidth: 2)
+            )
+            // 점선 = 미룰 수 있는 일(도마), 실선 = 냄비 시간에 매인 일
+            .overlay(
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .strokeBorder(step.isPrep ? color.opacity(0.9) : .clear,
+                                  style: StrokeStyle(lineWidth: 1.5, dash: [4, 3]))
             )
             .overlay(label)
             .shadow(color: status == .active ? Theme.ink.opacity(0.2) : .clear,
@@ -749,7 +1111,8 @@ struct StepChecklist: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            ForEach(Array(recipe.steps.sorted { $0.startAt < $1.startAt }.enumerated()),
+            let plan = session.plan
+            ForEach(Array(recipe.steps.sorted { plan.start($0) < plan.start($1) }.enumerated()),
                     id: \.element.id) { idx, step in
                 let status = session.status(of: step)
                 HStack(spacing: 10) {
@@ -764,9 +1127,11 @@ struct StepChecklist: View {
                         .foregroundStyle(status == .upcoming ? Theme.inkSoft : Theme.ink)
                         .strikethrough(status == .done, color: Theme.inkSoft)
                     Spacer()
-                    Text("\(formatSeconds(step.startAt))–\(formatSeconds(step.end))")
-                        .font(.caption2.monospaced())
-                        .foregroundStyle(Theme.inkSoft)
+                    if step.deadline {
+                        Text("못 미룸")
+                            .font(.caption2.weight(.bold))
+                            .foregroundStyle(Theme.terracotta)
+                    }
                 }
                 .padding(.vertical, 9)
                 if idx < recipe.steps.count - 1 {

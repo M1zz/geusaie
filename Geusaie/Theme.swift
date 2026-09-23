@@ -41,6 +41,41 @@ func formatSeconds(_ seconds: Int) -> String {
     return String(format: "%d:%02d", s / 60, s % 60)
 }
 
+// MARK: - 글자 크기
+//
+// 이 앱은 손에 들고 보는 앱이 아니다. 조리대 위에 세워 두고 한두 걸음 떨어져서 본다.
+// 그래서 기본이 이미 크고, 거기서 더 키울 수 있어야 한다.
+
+enum TextScale: Int, CaseIterable, Identifiable {
+    case normal = 0, big, bigger, huge
+
+    var id: Int { rawValue }
+
+    var label: String {
+        switch self {
+        case .normal: return "보통"
+        case .big:    return "크게"
+        case .bigger: return "더 크게"
+        case .huge:   return "아주 크게"
+        }
+    }
+
+    var dynamic: DynamicTypeSize {
+        switch self {
+        case .normal: return .large
+        case .big:    return .xLarge
+        case .bigger: return .xxLarge
+        // 접근성 크기(.accessibility*)는 전체 화면 위에서 배치가 무너져 쓰지 않는다
+        case .huge:   return .xxxLarge
+        }
+    }
+}
+
+/// "면 삶기" → "면 삶는 중" 처럼 지금 상태로 읽히게
+func progressivePhrase(_ name: String) -> String {
+    name.hasSuffix("기") ? String(name.dropLast()) + "는 중" : name + " 중"
+}
+
 /// "12분", "6분 30초" 같은 한국어 길이 표기
 func koreanDuration(_ seconds: Int) -> String {
     let m = seconds / 60
