@@ -82,11 +82,12 @@ final class CookSession: ObservableObject {
         return Plan(recipe, s)
     }
 
-    /// 다 됐을 때의 예상 시각 ("오후 6:45")
+    /// 다 됐을 때의 예상 시각 ("6:45") — 오전/오후는 뺀다. 요리 한 번에 헷갈릴 일이 없고,
+    /// 칸이 좁아 글자가 잘리는 쪽이 더 나쁘다.
     var finishClock: String {
         let left = max(0, plan.total - elapsed)
-        return Date().addingTimeInterval(TimeInterval(left))
-            .formatted(date: .omitted, time: .shortened)
+        let at = Date().addingTimeInterval(TimeInterval(left))
+        return at.formatted(.dateTime.hour(.defaultDigits(amPM: .omitted)).minute())
     }
 
     // MARK: 두 계층 — 지금 무엇을 해야 하는가
