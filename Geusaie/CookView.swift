@@ -575,17 +575,18 @@ struct PotBoard: View {
     private let gap: CGFloat = 12
     /// 칸 높이 — 폭을 재지도, 비율로 계산하지도 않는다(스크롤 안에서는 둘 다 제자리를 못 찾는다).
     /// 글자 크기에 따라 같이 커지는 고정값이라 화면이 어떤 크기든 배치가 흔들리지 않는다.
-    @ScaledMetric(relativeTo: .title3) private var tileHeight: CGFloat = 88
+    /// 최소 높이만 정하고, 글이 길어지면 칸이 따라 커진다 (높이를 못 박으면 글이 잘린다)
+    @ScaledMetric(relativeTo: .title3) private var tileMinHeight: CGFloat = 84
 
     var body: some View {
-        HStack(spacing: gap) {
+        HStack(alignment: .top, spacing: gap) {
             ForEach(session.potStates) { pot in
                 PotTile(pot: pot, color: recipe.color(for: pot.lane))
-                    .frame(maxWidth: .infinity)
-                    .frame(height: tileHeight)
+                    .frame(maxWidth: .infinity, minHeight: tileMinHeight, alignment: .topLeading)
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 

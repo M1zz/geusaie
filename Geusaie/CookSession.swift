@@ -39,17 +39,21 @@ final class CookSession: ObservableObject {
     private var lastAccrual = 0
     private var finishedAt: Int?
 
+    /// 스크린샷용 데모 실행인가 — 이때는 알림을 걸지 않는다.
+    /// (알림을 예약하면 권한 요청이 큐에 남아 팝업이 화면을 가린다)
+    private static var isDemoRun: Bool {
+        #if DEBUG
+        return UserDefaults.standard.string(forKey: "demoRecipe") != nil
+        #else
+        return false
+        #endif
+    }
+
     init() {
         ticker = Timer.publish(every: 0.5, on: .main, in: .common)
             .autoconnect()
             .sink { [weak self] date in self?.tick(date) }
-        #if DEBUG
-        // 데모(스크린샷) 실행에선 권한 팝업이 화면을 가리므로 건너뛴다
-        let demo = UserDefaults.standard.string(forKey: "demoRecipe") != nil
-        #else
-        let demo = false
-        #endif
-        if !demo {
+        if !Self.isDemoRun {
             UNUserNotificationCenter.current()
                 .requestAuthorization(options: [.alert, .sound, .badge]) { _, _ in }
         }
@@ -454,6 +458,7 @@ final class CookSession: ObservableObject {
 
     private func rescheduleNotifications() {
         cancelNotifications()
+        guard !Self.isDemoRun else { return }
         guard let recipe else { return }
         for cook in recipe.steps where cook.role == .cook {
             guard let began = state.startedAt[cook.id], state.doneAt[cook.id] == nil else { continue }
@@ -462,7 +467,7 @@ final class CookSession: ObservableObject {
     }
 
     private func scheduleCookAlarm(_ cook: RecipeStep, from began: Int) {
-        guard let recipe else { return }
+        guard !Self.isDemoRun, let recipe else { return }
         let after = TimeInterval(began + cook.duration - elapsed)
         guard after > 1 else { return }
 

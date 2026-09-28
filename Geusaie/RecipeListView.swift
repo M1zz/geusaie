@@ -37,10 +37,14 @@ struct RecipeListView: View {
         }
     }
 
-    /// 스크린샷·디버그용: -demoRecipe <id> -demoAt <초> 로 실행하면 그 시점부터 바로 조리 화면
+    /// 스크린샷·디버그용: -demoRecipe <id> [-demoAt <초>] [-demoTextScale 0~3]
+    /// (글자 크기 인자 이름을 앱 설정 키와 다르게 둔다 — 같으면 실행 인자 전체가 무시된다)
     private func startDemoIfRequested() {
         #if DEBUG
         let args = UserDefaults.standard
+        if args.object(forKey: "demoTextScale") != nil {
+            args.set(args.integer(forKey: "demoTextScale"), forKey: "textScale")
+        }
         guard session.recipe == nil,
               let id = args.string(forKey: "demoRecipe"),
               let recipe = RecipeDB.all.first(where: { $0.id == id }) else { return }
