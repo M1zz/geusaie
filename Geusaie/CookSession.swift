@@ -173,9 +173,10 @@ final class CookSession: ObservableObject {
             }
             // 내 손이 거기 붙어 있는 중
             if let due = dueAction, due.lane == lane {
+                // 무엇을 하는지는 위 카드가 이미 크게 말해 준다. 여기서는 짧게.
                 return PotState(lane: lane, kind: .handsOn, step: due,
                                 remaining: 0, total: due.duration,
-                                text: progressivePhrase(due.name))
+                                text: "내가 하는 중")
             }
             // 다 썼다
             if !chain.isEmpty, chain.allSatisfy({ state.doneAt[$0.id] != nil }) {

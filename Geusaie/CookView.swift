@@ -37,34 +37,17 @@ struct CookView: View {
             if let recipe = session.recipe {
                 VStack(spacing: 0) {
                     topBar(recipe)
-                    if stacked {
-                        // 글자가 아주 클 때는 고정 배치를 포기하고 전부 스크롤한다
-                        ScrollView {
-                            VStack(alignment: .leading, spacing: 14) {
-                                NowStrip(session: session, voice: voice)
-                                PotBoard(recipe: recipe, session: session)
-                                timelineAndList(recipe)
-                            }
-                            .padding(.horizontal, 16)
-                            .padding(.vertical, 8)
-                        }
-                    } else {
-                    // 지금 할 일(내 손)과 냄비 상태는 스크롤에 밀리지 않고 늘 보인다
-                    VStack(spacing: 12) {
-                        NowStrip(session: session, voice: voice)
-                        PotBoard(recipe: recipe, session: session)
-                    }
-                    .padding(.horizontal, 16)
-                    .padding(.bottom, 12)
-
+                    // 한 스크롤에 담는다. 글자를 키우거나 화면이 작아 내용이 넘칠 때
+                    // 고정 배치로 두면 카드끼리 겹친다 — 넘치면 스크롤되는 쪽이 옳다.
                     ScrollView {
-                        VStack(alignment: .leading, spacing: 14) {
+                        VStack(alignment: .leading, spacing: 12) {
+                            NowStrip(session: session, voice: voice)
+                            PotBoard(recipe: recipe, session: session)
                             timelineAndList(recipe)
                         }
                         .padding(.horizontal, 16)
-                        .padding(.top, 4)
-                        .padding(.bottom, 8)
-                    }
+                        .padding(.top, 2)
+                        .padding(.bottom, 10)
                     }
                     controls
                 }
@@ -457,19 +440,12 @@ struct NowStrip: View {
 
     /// 이모지 · 이름 · 보통 얼마나 걸리는 일인지
     private func titleRow(_ step: RecipeStep) -> some View {
-        // 글자가 커지면 '보통 2분'이 아래로 내려앉는다 (이름이 줄어들지 않게)
-        VStack(alignment: .leading, spacing: 4) {
-            HStack(alignment: .firstTextBaseline, spacing: 10) {
-                titleText(step)
-                Spacer(minLength: 8)
-                if !big { usualDuration(step) }
-            }
-            if big { usualDuration(step) }
+        // 이름은 폭을 다 쓰고, '보통 2분'은 그 아래. 옆에 붙이면 이름이 잘게 쪼개진다.
+        VStack(alignment: .leading, spacing: 2) {
+            titleText(step)
+            usualDuration(step)
         }
     }
-
-    /// 한 줄에 제목과 '보통 2분'을 같이 못 넣는 크기인가
-    private var big: Bool { typeSize >= .xxLarge }
 
     private func titleText(_ step: RecipeStep) -> some View {
         HStack(alignment: .firstTextBaseline, spacing: 10) {
@@ -543,6 +519,7 @@ struct NowStrip: View {
             Label("\(done) \"다음\"이라고 말해 주세요", systemImage: "waveform")
                 .font(.subheadline.weight(.semibold))
                 .foregroundStyle(urgency.accent)
+                .fixedSize(horizontal: false, vertical: true)
         }
     }
 }
@@ -642,12 +619,6 @@ struct PotTile: View {
                         .font(.system(.title3, design: .monospaced).weight(.heavy))
                         .contentTransition(.identity)
                         .foregroundStyle(pot.remaining <= 30 ? Theme.terracotta : Theme.ink)
-                } else if pot.kind == .handsOn {
-                    Text("내 손")
-                        .font(.caption2.weight(.bold))
-                        .foregroundStyle(.white)
-                        .padding(.horizontal, 7).padding(.vertical, 3)
-                        .background(Capsule().fill(color))
                 }
             }
             Spacer(minLength: 0)
