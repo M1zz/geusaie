@@ -86,13 +86,20 @@ final class CookSession: ObservableObject {
         return Plan(recipe, s)
     }
 
-    /// 다 됐을 때의 예상 시각 ("6:45") — 오전/오후는 뺀다. 요리 한 번에 헷갈릴 일이 없고,
-    /// 칸이 좁아 글자가 잘리는 쪽이 더 나쁘다.
+    /// 다 됐을 때의 예상 시각 ("18:45") — 24시간 표기.
+    /// 오전/오후를 붙이면 칸이 좁아 잘리고, 로케일 포맷터에서 잔재 글자가 남는다.
     var finishClock: String {
         let left = max(0, plan.total - elapsed)
         let at = Date().addingTimeInterval(TimeInterval(left))
-        return at.formatted(.dateTime.hour(.defaultDigits(amPM: .omitted)).minute())
+        return Self.clockFormat.string(from: at)
     }
+
+    private static let clockFormat: DateFormatter = {
+        let f = DateFormatter()
+        f.locale = Locale(identifier: "en_US_POSIX")
+        f.dateFormat = "H:mm"
+        return f
+    }()
 
     // MARK: 두 계층 — 지금 무엇을 해야 하는가
 

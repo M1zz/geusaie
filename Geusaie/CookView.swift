@@ -35,21 +35,19 @@ struct CookView: View {
         ZStack {
             Theme.cream.ignoresSafeArea()
             if let recipe = session.recipe {
-                VStack(spacing: 0) {
-                    topBar(recipe)
-                    // 한 스크롤에 담는다. 글자를 키우거나 화면이 작아 내용이 넘칠 때
-                    // 고정 배치로 두면 카드끼리 겹친다 — 넘치면 스크롤되는 쪽이 옳다.
-                    ScrollView {
-                        VStack(alignment: .leading, spacing: 12) {
-                            NowStrip(session: session, voice: voice)
-                            PotBoard(recipe: recipe, session: session)
-                            timelineAndList(recipe)
+                GeometryReader { geo in
+                    // 가로로 길면(아이패드·가로모드) 지금 할 일과 타임라인을 나란히 둔다.
+                    // 조리대 위에 눕혀 두면 세로보다 가로가 자연스럽다.
+                    let wide = geo.size.width > geo.size.height * 1.1
+                    VStack(spacing: 0) {
+                        topBar(recipe)
+                        if wide {
+                            wideBody(recipe)
+                        } else {
+                            tallBody(recipe)
                         }
-                        .padding(.horizontal, 16)
-                        .padding(.top, 2)
-                        .padding(.bottom, 10)
+                        controls
                     }
-                    controls
                 }
             }
         }
@@ -86,6 +84,47 @@ struct CookView: View {
     /// 나가기 요청 — 진행 중이면 확인, 아니면 바로 닫기
     private func requestClose() {
         if inProgress { showQuitConfirm = true } else { dismiss() }
+    }
+
+    /// 세로 화면 — 한 스크롤에 담는다. 넘치면 겹치는 대신 스크롤되는 쪽이 옳다.
+    private func tallBody(_ recipe: Recipe) -> some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 12) {
+                NowStrip(session: session, voice: voice)
+                PotBoard(recipe: recipe, session: session)
+                timelineAndList(recipe)
+            }
+            .frame(maxWidth: 760)
+            .frame(maxWidth: .infinity)
+            .padding(.horizontal, 16)
+            .padding(.top, 2)
+            .padding(.bottom, 10)
+        }
+    }
+
+    /// 가로 화면 — 왼쪽은 지금 내 손과 냄비, 오른쪽은 전체 그림.
+    /// 둘은 따로 스크롤되어, 타임라인을 훑어도 할 일이 사라지지 않는다.
+    private func wideBody(_ recipe: Recipe) -> some View {
+        HStack(alignment: .top, spacing: 16) {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 12) {
+                    NowStrip(session: session, voice: voice)
+                    PotBoard(recipe: recipe, session: session)
+                }
+                .padding(.bottom, 10)
+            }
+            .frame(maxWidth: .infinity)
+
+            ScrollView {
+                VStack(alignment: .leading, spacing: 12) {
+                    timelineAndList(recipe)
+                }
+                .padding(.bottom, 10)
+            }
+            .frame(maxWidth: .infinity)
+        }
+        .padding(.horizontal, 16)
+        .padding(.top, 2)
     }
 
     @ViewBuilder private func timelineAndList(_ recipe: Recipe) -> some View {

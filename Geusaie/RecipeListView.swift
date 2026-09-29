@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 // MARK: - 홈: 무엇을 만들지 고른다 → 병렬 타임라인이 펼쳐진다
 
@@ -20,6 +21,9 @@ struct RecipeListView: View {
                         footNote
                     }
                     .padding(16)
+                    // 아이패드에서 카드가 화면 끝까지 늘어나지 않게
+                    .frame(maxWidth: 760)
+                    .frame(maxWidth: .infinity)
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
@@ -45,6 +49,7 @@ struct RecipeListView: View {
         if args.object(forKey: "demoTextScale") != nil {
             args.set(args.integer(forKey: "demoTextScale"), forKey: "textScale")
         }
+        if args.bool(forKey: "demoLandscape") { Self.rotateToLandscape() }
         guard session.recipe == nil,
               let id = args.string(forKey: "demoRecipe"),
               let recipe = RecipeDB.all.first(where: { $0.id == id }) else { return }
@@ -52,6 +57,22 @@ struct RecipeListView: View {
         if at > 0 { session.start(recipe, at: at) } else { session.prepare(recipe) }
         #endif
     }
+
+    #if DEBUG
+    /// 스크린샷용 가로 전환 — 시뮬레이터를 손으로 돌릴 수 없을 때.
+    /// 화면(scene)이 붙기 전에는 요청이 무시되므로 될 때까지 몇 번 다시 시도한다.
+    private static func rotateToLandscape(_ tries: Int = 0) {
+        let scene = UIApplication.shared.connectedScenes
+            .compactMap { $0 as? UIWindowScene }
+            .first { $0.activationState == .foregroundActive } ??
+            UIApplication.shared.connectedScenes.compactMap { $0 as? UIWindowScene }.first
+        scene?.requestGeometryUpdate(.iOS(interfaceOrientations: .landscapeRight))
+        guard tries < 8 else { return }
+        if scene?.interfaceOrientation.isLandscape != true {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { rotateToLandscape(tries + 1) }
+        }
+    }
+    #endif
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 6) {
