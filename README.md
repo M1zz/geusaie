@@ -4,6 +4,7 @@
 > 냄비 두 개가 서로 다른 속도로 도는 요리를, 한 사람이 놓치지 않고 해내기 위한 타이머.
 
 - **소개 페이지**: https://m1zz.github.io/geusaie/
+- **지원 페이지**: https://m1zz.github.io/geusaie/support.html
 - **개인정보 처리방침**: https://m1zz.github.io/geusaie/privacy.html
 
 ## 이 앱의 전제
