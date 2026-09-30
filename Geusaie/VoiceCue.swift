@@ -33,7 +33,23 @@ final class VoiceCue: ObservableObject {
 
     var isListening: Bool { state == .listening }
 
-    func toggle() { isListening ? stop() : start() }
+    /// 사용자가 직접 껐는지 — 그렇다면 재개·복귀 때 저절로 다시 켜지 않는다
+    private(set) var userTurnedOff = false
+
+    func toggle() {
+        if isListening {
+            turnOff()
+        } else {
+            userTurnedOff = false
+            start()
+        }
+    }
+
+    /// 사용자가 끈 것 (자동으로 끈 것과 구분)
+    func turnOff() {
+        userTurnedOff = true
+        stop()
+    }
 
     // MARK: 켜기
 

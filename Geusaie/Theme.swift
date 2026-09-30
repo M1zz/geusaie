@@ -22,6 +22,7 @@ enum Theme {
     static let green      = Color(hex: 0x5B8C5A)
     static let brick      = Color(hex: 0xA9432C)
     static let ringTrack  = Color(hex: 0xE8E0CC)
+    static let recording  = Color(hex: 0xD93A2B)   // 마이크 사용 표시
 
     /// 타이머 카드에 쓰는 색상 팔레트 (색인으로 선택)
     static let dishColors: [Color] = [terracotta, mustard, green, brick,

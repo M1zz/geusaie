@@ -10,6 +10,7 @@ struct CookView: View {
     @StateObject private var voice = VoiceCue()
     @Environment(\.dismiss) private var dismiss
     @Environment(\.dynamicTypeSize) private var typeSize
+    @Environment(\.scenePhase) private var scenePhase
     /// 세워 두고 보는 화면이라 기본이 이미 크다 — 여기서 더 키울 수 있다
     @AppStorage("textScale") private var textScaleRaw = TextScale.big.rawValue
 
@@ -41,6 +42,10 @@ struct CookView: View {
                     let wide = geo.size.width > geo.size.height * 1.1
                     VStack(spacing: 0) {
                         topBar(recipe)
+                        // 마이크가 켜져 있는 동안은 어떤 배치에서도 늘 보인다 (가이드라인 2.5.14)
+                        if voice.isListening {
+                            ListeningBanner(voice: voice)
+                        }
                         if wide {
                             wideBody(recipe)
                         } else {
@@ -54,13 +59,17 @@ struct CookView: View {
         .dynamicTypeSize(textScale.dynamic)
         .onAppear { voice.onNext = { session.advance() } }
         // 요리를 시작해야 듣기 시작한다 (준비 화면에서 마이크를 켤 이유가 없다)
+        // 일시정지·완성 때는 끈다 — 화면이 꺼질 수 있는 상태에서 마이크가 켜져 있지 않게
         .onChange(of: session.isActive) { _, active in
-            guard active else { return }
-            #if DEBUG
-            if UserDefaults.standard.string(forKey: "demoRecipe") == nil { voice.start() }
-            #else
-            voice.start()
-            #endif
+            active ? startListening() : voice.stop()
+        }
+        // 앱을 벗어나면 끄고, 돌아와 조리 중이면 다시 켠다
+        .onChange(of: scenePhase) { _, phase in
+            switch phase {
+            case .active: if session.isActive { startListening() }
+            case .background: voice.stop()
+            default: break
+            }
         }
         .onDisappear { voice.stop() }
         // 실수로 나가서 타이머가 초기화되는 것 방지
@@ -79,6 +88,15 @@ struct CookView: View {
         } message: {
             Text("아직 남은 단계가 있어요. 지금 멈추면 진행 상황이 사라집니다.")
         }
+    }
+
+    private func startListening() {
+        guard !voice.userTurnedOff else { return }
+        #if DEBUG
+        if UserDefaults.standard.string(forKey: "demoRecipe") == nil { voice.start() }
+        #else
+        voice.start()
+        #endif
     }
 
     /// 나가기 요청 — 진행 중이면 확인, 아니면 바로 닫기
@@ -307,15 +325,64 @@ struct MicButton: View {
     var body: some View {
         Button { voice.toggle() } label: {
             Image(systemName: voice.isListening ? "mic.fill" : "mic.slash.fill")
-                .font(.subheadline.weight(.bold))
+                .font(.body.weight(.bold))
                 .foregroundStyle(voice.isListening ? .white : Theme.inkSoft)
                 .frame(width: 48, height: 48)
                 .background(
-                    Circle().fill(voice.isListening ? Theme.green : Theme.ringTrack)
+                    Circle().fill(voice.isListening ? Theme.recording : Theme.ringTrack)
                 )
         }
+        .accessibilityLabel(voice.isListening ? "마이크 끄기" : "마이크 켜기")
         .disabled(voice.state == .denied || voice.state == .unavailable)
         .opacity(voice.state == .denied || voice.state == .unavailable ? 0.4 : 1)
+    }
+}
+
+/// 마이크 사용 표시 — 켜져 있는 동안 숨길 수 없다. 없애려면 마이크를 꺼야 한다.
+struct ListeningBanner: View {
+    @ObservedObject var voice: VoiceCue
+    @State private var pulse = false
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Circle()
+                .fill(Theme.recording)
+                .frame(width: 14, height: 14)
+                .opacity(pulse ? 0.35 : 1)
+                .animation(.easeInOut(duration: 0.8).repeatForever(autoreverses: true), value: pulse)
+                .onAppear { pulse = true }
+            VStack(alignment: .leading, spacing: 2) {
+                Text("마이크 켜짐 · 듣는 중")
+                    .font(.body.weight(.bold))
+                    .foregroundStyle(Theme.ink)
+                Text("\"다음\"이라는 말만 알아듣고, 소리는 저장하지 않아요")
+                    .font(.body)
+                    .foregroundStyle(Theme.inkSoft)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            Spacer(minLength: 8)
+            Button { voice.turnOff() } label: {
+                Text("끄기")
+                    .font(.body.weight(.bold))
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 8)
+                    .background(Capsule().fill(Theme.recording))
+            }
+        }
+        .padding(12)
+        .background(
+            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                .fill(Theme.recording.opacity(0.12))
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                .stroke(Theme.recording, lineWidth: 1.5)
+        )
+        .padding(.horizontal, 16)
+        .padding(.bottom, 8)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("마이크 켜짐. 다음이라는 말을 듣는 중")
     }
 }
 
