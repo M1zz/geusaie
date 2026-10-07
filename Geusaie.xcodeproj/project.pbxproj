@@ -17,6 +17,8 @@
 		B00000000000000000000007 /* CookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000007 /* CookView.swift */; };
 		B0000000000000000000000C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000C /* PrivacyInfo.xcprivacy */; };
 		B0000000000000000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000B /* Assets.xcassets */; };
+		C8882293AB2D976FF90E57AD /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7E83D3BFB9A6AE9D99CDF579 /* LeeoKit */; };
+		778274A66092B3FED678B0EA /* GeusaieSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,7 @@
 		F00000000000000000000007 /* CookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookView.swift; sourceTree = "<group>"; };
 		F0000000000000000000000B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F000000000000000000000AA /* Geusaie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geusaie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8882293AB2D976FF90E57AD /* LeeoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +59,7 @@
 		C00000000000000000000002 /* Geusaie */ = {
 			isa = PBXGroup;
 			children = (
+				05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */,
 				F00000000000000000000001 /* GeusaieApp.swift */,
 				F00000000000000000000002 /* Theme.swift */,
 				F00000000000000000000003 /* Models.swift */,
@@ -93,6 +98,9 @@
 			dependencies = (
 			);
 			name = Geusaie;
+			packageProductDependencies = (
+				7E83D3BFB9A6AE9D99CDF579 /* LeeoKit */,
+			);
 			productName = Geusaie;
 			productReference = F000000000000000000000AA /* Geusaie.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +130,9 @@
 				Base,
 			);
 			mainGroup = C00000000000000000000001;
+			packageReferences = (
+				1DD4CF9EE4ECC7E2FC29AD78 /* XCRemoteSwiftPackageReference "LeeoKit" */,
+			);
 			productRefGroup = C00000000000000000000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778274A66092B3FED678B0EA /* GeusaieSpec.swift in Sources */,
 				B00000000000000000000001 /* GeusaieApp.swift in Sources */,
 				B00000000000000000000002 /* Theme.swift in Sources */,
 				B00000000000000000000003 /* Models.swift in Sources */,
@@ -367,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DD4CF9EE4ECC7E2FC29AD78 /* XCRemoteSwiftPackageReference "LeeoKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.16.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E83D3BFB9A6AE9D99CDF579 /* LeeoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DD4CF9EE4ECC7E2FC29AD78 /* XCRemoteSwiftPackageReference "LeeoKit" */;
+			productName = LeeoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D00000000000000000000002 /* Project object */;
 }
