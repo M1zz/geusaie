@@ -112,7 +112,7 @@ def search_html(lang):
     eyebrow, headline, sub = SEARCH[lang]
     sw, sh = r - l, b - t
     col = int(sw * 0.54)
-    img = (SHOTS / "raw-ipad" / "02-cook-portrait.png").as_uri()
+    img = (SHOTS / "raw" / "ipad" / "02-cook-portrait.png").as_uri()
     pw = 1300
     left = l + col + 60
     return f"""
@@ -131,8 +131,8 @@ def header_html(lang):
     W, H, (l, t, r, b) = SPEC["header"]
     eyebrow, headline = HEADER[lang]
     sw, sh = r - l, b - t
-    land = (SHOTS / "marketing-ipad" / "03-cook-landscape.png").as_uri()
-    port = (SHOTS / "raw-ipad" / "02-cook-portrait.png").as_uri()
+    land = (SHOTS / "marketing" / "ko" / "ipad-03-cook-landscape.png").as_uri()
+    port = (SHOTS / "raw" / "ipad" / "02-cook-portrait.png").as_uri()
     return f"""
 <div class="glow" style="left:{l - 200}px;top:{t - 400}px;width:{sw + 400}px;height:{sh + 800}px;background:rgba(217,154,60,.16)"></div>
 {dots([(140, 110, 110, 0, .9), (380, 60, 64, 1, .9), (3560, 120, 120, 1, .9), (3400, 300, 64, 2, .85),
