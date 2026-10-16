@@ -1,4 +1,6 @@
 import SwiftUI
+import TipKit
+import LeeoKit
 
 // MARK: - 조리 중: 병렬 작업 타임라인 (이 앱의 심장)
 //
@@ -22,6 +24,12 @@ struct CookView: View {
     }
 
     @State private var showQuitConfirm = false
+    private let voiceTip = VoiceNextTip()
+    private let textSizeTip = TextSizeTip()
+
+    /// 음성 넘기기를 쓸 수 있는가 — 원격 킬스위치로 꺼지면 마이크 버튼째 숨기고
+    /// 버튼으로 넘기는 기본 흐름만 남긴다 (→ GeusaieFlags.swift)
+    private var voiceAllowed: Bool { LeeoRemoteFlags.isEnabled(GeusaieFlag.voiceCue) }
     @State private var showFinishConfirm = false
 
     /// 진행 중(러닝/일시정지) — 이때 나가거나 완성 처리하면 타이머가 초기화/종료됨
@@ -57,7 +65,17 @@ struct CookView: View {
             }
         }
         .dynamicTypeSize(textScale.dynamic)
-        .onAppear { voice.onNext = { session.advance() } }
+        .onAppear {
+            voice.onNext = {
+                session.advance()
+                // 말로 넘길 줄 알게 됐으니 그 팁은 더 보여 줄 이유가 없다
+                voiceTip.invalidate(reason: .actionPerformed)
+            }
+        }
+        // 요리를 끝까지 마친 것 — 리뷰·만족도 질문은 이런 순간이 쌓인 뒤에만 뜬다
+        .onChange(of: session.phase) { _, phase in
+            if phase == .done { LeeoEngagement.shared.registerSignificantEvent() }
+        }
         // 요리를 시작해야 듣기 시작한다 (준비 화면에서 마이크를 켤 이유가 없다)
         // 일시정지·완성 때는 끈다 — 화면이 꺼질 수 있는 상태에서 마이크가 켜져 있지 않게
         .onChange(of: session.isActive) { _, active in
@@ -91,7 +109,7 @@ struct CookView: View {
     }
 
     private func startListening() {
-        guard !voice.userTurnedOff else { return }
+        guard voiceAllowed, !voice.userTurnedOff else { return }
         #if DEBUG
         if UserDefaults.standard.string(forKey: "demoRecipe") == nil { voice.start() }
         #else
@@ -193,6 +211,7 @@ struct CookView: View {
                 .foregroundStyle(Theme.inkSoft)
                 .frame(width: 36, height: 36)
         }
+        .accessibilityLabel(inProgress ? "조리 중단하고 나가기" : "닫기")
     }
 
     /// 진행과 완성 예정은 같은 무게의 정보다 — 칸도 글자도 같은 크기로
@@ -220,6 +239,10 @@ struct CookView: View {
                 .foregroundStyle(Theme.inkSoft)
                 .frame(width: 40, height: 40)
         }
+        .accessibilityLabel("글자 크기")
+        .accessibilityValue(textScale.label)
+        .popoverTip(textSizeTip)
+        .onChange(of: textScaleRaw) { _, _ in textSizeTip.invalidate(reason: .actionPerformed) }
     }
 
     private func timeChip(symbol: String, label: String,
@@ -288,7 +311,10 @@ struct CookView: View {
 
     /// 마이크와 일시정지 — 자주 누르지 않는 것들
     @ViewBuilder private var secondaryControls: some View {
-        MicButton(voice: voice)
+        if voiceAllowed {
+            MicButton(voice: voice)
+                .popoverTip(voiceTip)
+        }
         if session.isActive {
             Button { session.pause() } label: {
                 Label("일시정지", systemImage: "pause.fill").frame(maxWidth: .infinity)
@@ -741,6 +767,12 @@ struct PotTile: View {
                                 lineWidth: isLive ? 1.5 : 1)
                 )
         )
+        // 줄어드는 네모는 그림이라 읽을 게 없다 — 냄비 이름 · 상태 · 남은 시간을 한 줄로
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(pot.lane)
+        .accessibilityValue(pot.kind == .cooking
+                            ? "\(pot.text), \(formatSeconds(pot.remaining)) 남음"
+                            : pot.text)
     }
 
     @ViewBuilder private var marker: some View {
@@ -1171,6 +1203,9 @@ struct StepChecklist: View {
                     }
                 }
                 .padding(.vertical, 9)
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel(step.name + (step.deadline ? ", 못 미룸" : ""))
+                .accessibilityValue(status == .done ? "끝남" : (status == .active ? "지금" : "아직"))
                 if idx < recipe.steps.count - 1 {
                     Divider().overlay(Theme.cardBorder)
                 }

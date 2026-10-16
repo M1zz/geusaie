@@ -19,6 +19,11 @@
 		B0000000000000000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000B /* Assets.xcassets */; };
 		C8882293AB2D976FF90E57AD /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7E83D3BFB9A6AE9D99CDF579 /* LeeoKit */; };
 		778274A66092B3FED678B0EA /* GeusaieSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */; };
+		B10000000000000000000001 /* GeusaieFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* GeusaieFlags.swift */; };
+		B10000000000000000000002 /* GeusaieTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* GeusaieTips.swift */; };
+		B10000000000000000000003 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* OnboardingView.swift */; };
+		B10000000000000000000004 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* SettingsView.swift */; };
+		B10000000000000000000005 /* GeusaieShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* GeusaieShortcuts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		F0000000000000000000000B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F000000000000000000000AA /* Geusaie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geusaie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieSpec.swift; sourceTree = "<group>"; };
+		F10000000000000000000001 /* GeusaieFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieFlags.swift; sourceTree = "<group>"; };
+		F10000000000000000000002 /* GeusaieTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieTips.swift; sourceTree = "<group>"; };
+		F10000000000000000000003 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F10000000000000000000004 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F10000000000000000000005 /* GeusaieShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieShortcuts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,11 @@
 				F0000000000000000000000C /* PrivacyInfo.xcprivacy */,
 				F00000000000000000000006 /* RecipeListView.swift */,
 				F00000000000000000000007 /* CookView.swift */,
+				F10000000000000000000001 /* GeusaieFlags.swift */,
+				F10000000000000000000002 /* GeusaieTips.swift */,
+				F10000000000000000000003 /* OnboardingView.swift */,
+				F10000000000000000000004 /* SettingsView.swift */,
+				F10000000000000000000005 /* GeusaieShortcuts.swift */,
 				F0000000000000000000000B /* Assets.xcassets */,
 			);
 			path = Geusaie;
@@ -168,6 +183,11 @@
 				B00000000000000000000009 /* VoiceCue.swift in Sources */,
 				B00000000000000000000006 /* RecipeListView.swift in Sources */,
 				B00000000000000000000007 /* CookView.swift in Sources */,
+				B10000000000000000000001 /* GeusaieFlags.swift in Sources */,
+				B10000000000000000000002 /* GeusaieTips.swift in Sources */,
+				B10000000000000000000003 /* OnboardingView.swift in Sources */,
+				B10000000000000000000004 /* SettingsView.swift in Sources */,
+				B10000000000000000000005 /* GeusaieShortcuts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,6 +5,10 @@ import UIKit
 
 struct RecipeListView: View {
     @StateObject private var session = CookSession()
+    @ObservedObject private var router = RecipeRouter.shared
+    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+    @State private var showOnboarding = false
+    @State private var showSettings = false
 
     var body: some View {
         NavigationStack {
@@ -27,10 +31,31 @@ struct RecipeListView: View {
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button { showSettings = true } label: {
+                        Image(systemName: "gearshape")
+                            .foregroundStyle(Theme.inkSoft)
+                    }
+                    .accessibilityLabel("설정")
+                }
+            }
             .onAppear {
                 // 뷰가 그려지는 도중에 상태를 바꾸지 않도록 한 틱 뒤에
-                DispatchQueue.main.async { startDemoIfRequested() }
+                DispatchQueue.main.async {
+                    startDemoIfRequested()
+                    if !hasSeenOnboarding && !Self.isDemoRun && session.recipe == nil {
+                        showOnboarding = true
+                    }
+                }
             }
+            // 단축어·Siri 로 고른 요리 — 앱이 막 켜지는 중이었어도 여기서 받는다
+            .onReceive(router.$pendingRecipeID) { id in
+                guard let id else { return }
+                DispatchQueue.main.async { openFromShortcut(id) }
+            }
+            .sheet(isPresented: $showSettings) { SettingsView() }
+            .fullScreenCover(isPresented: $showOnboarding) { GeusaieOnboardingView() }
         }
         .tint(Theme.terracotta)
         .fullScreenCover(isPresented: Binding(
@@ -39,6 +64,32 @@ struct RecipeListView: View {
         )) {
             CookView(session: session)
         }
+    }
+
+    /// 단축어로 요리를 연다. 이미 요리 중이면 그 진행을 지우지 않는다 — 냄비가 돌고 있을 수 있다.
+    private func openFromShortcut(_ id: String) {
+        router.pendingRecipeID = nil
+        guard session.recipe == nil,
+              let recipe = RecipeDB.all.first(where: { $0.id == id }) else { return }
+        // 첫 실행 안내·설정이 떠 있으면 먼저 내린다 (안내는 다음 실행에 다시 보인다).
+        // 내려가는 중에 조리 화면을 올리면 무시되므로 내려간 뒤에 연다.
+        let covering = showOnboarding || showSettings
+        showOnboarding = false
+        showSettings = false
+        if covering {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { session.prepare(recipe) }
+        } else {
+            session.prepare(recipe)
+        }
+    }
+
+    /// 스크린샷용 데모 실행인가 — 이때는 첫 실행 안내로 화면을 가리지 않는다
+    private static var isDemoRun: Bool {
+        #if DEBUG
+        return UserDefaults.standard.string(forKey: "demoRecipe") != nil
+        #else
+        return false
+        #endif
     }
 
     /// 스크린샷·디버그용: -demoRecipe <id> [-demoAt <초>] [-demoTextScale 0~3]
@@ -134,5 +185,8 @@ struct RecipeCard: View {
             )
         }
         .buttonStyle(.plain)
+        // 이모지·재생 아이콘을 따로 읽지 않고 한 문장으로
+        .accessibilityLabel("\(recipe.name), 약 \(Int((Double(recipe.estimatedSeconds) / 60).rounded()))분, 냄비 \(recipe.potCount)개")
+        .accessibilityHint("조리 화면을 엽니다")
     }
 }
