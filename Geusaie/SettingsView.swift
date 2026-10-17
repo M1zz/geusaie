@@ -17,6 +17,8 @@ struct SettingsView: View {
             List {
                 Section("지원") {
                     LeeoSupportSection<GeusaieSpec>()
+                    // 앞으로 만들 기능 — 원본은 GeusaieRoadmap.swift
+                    NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
                 }
 
                 Section {

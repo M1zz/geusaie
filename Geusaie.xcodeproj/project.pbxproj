@@ -7,39 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		778274A66092B3FED678B0EA /* GeusaieSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */; };
 		B00000000000000000000001 /* GeusaieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000001 /* GeusaieApp.swift */; };
 		B00000000000000000000002 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000002 /* Theme.swift */; };
 		B00000000000000000000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000003 /* Models.swift */; };
 		B00000000000000000000004 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000004 /* Recipes.swift */; };
 		B00000000000000000000005 /* CookSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000005 /* CookSession.swift */; };
-		B00000000000000000000009 /* VoiceCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000009 /* VoiceCue.swift */; };
 		B00000000000000000000006 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000006 /* RecipeListView.swift */; };
 		B00000000000000000000007 /* CookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000007 /* CookView.swift */; };
-		B0000000000000000000000C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000C /* PrivacyInfo.xcprivacy */; };
+		B00000000000000000000009 /* VoiceCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000009 /* VoiceCue.swift */; };
 		B0000000000000000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000B /* Assets.xcassets */; };
-		C8882293AB2D976FF90E57AD /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7E83D3BFB9A6AE9D99CDF579 /* LeeoKit */; };
-		778274A66092B3FED678B0EA /* GeusaieSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */; };
+		B0000000000000000000000C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000C /* PrivacyInfo.xcprivacy */; };
 		B10000000000000000000001 /* GeusaieFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* GeusaieFlags.swift */; };
 		B10000000000000000000002 /* GeusaieTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* GeusaieTips.swift */; };
 		B10000000000000000000003 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* OnboardingView.swift */; };
 		B10000000000000000000004 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* SettingsView.swift */; };
 		B10000000000000000000005 /* GeusaieShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* GeusaieShortcuts.swift */; };
 		B20000000000000000000001 /* PlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000000000000000000001 /* PlanTests.swift */; };
+		C8882293AB2D976FF90E57AD /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7E83D3BFB9A6AE9D99CDF579 /* LeeoKit */; };
+		E6916DFAAA09F8527EB64F18 /* GeusaieRoadmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8467633B3CFB82B2ED926B /* GeusaieRoadmap.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D20000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00000000000000000000002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00000000000000000000001;
+			remoteInfo = Geusaie;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieSpec.swift; sourceTree = "<group>"; };
+		6C8467633B3CFB82B2ED926B /* GeusaieRoadmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeusaieRoadmap.swift; sourceTree = "<group>"; };
 		F00000000000000000000001 /* GeusaieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieApp.swift; sourceTree = "<group>"; };
 		F00000000000000000000002 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F00000000000000000000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F00000000000000000000004 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 		F00000000000000000000005 /* CookSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookSession.swift; sourceTree = "<group>"; };
-		F0000000000000000000000C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		F00000000000000000000009 /* VoiceCue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCue.swift; sourceTree = "<group>"; };
 		F00000000000000000000006 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		F00000000000000000000007 /* CookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookView.swift; sourceTree = "<group>"; };
+		F00000000000000000000009 /* VoiceCue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCue.swift; sourceTree = "<group>"; };
 		F0000000000000000000000B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0000000000000000000000C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F000000000000000000000AA /* Geusaie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geusaie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieSpec.swift; sourceTree = "<group>"; };
 		F10000000000000000000001 /* GeusaieFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieFlags.swift; sourceTree = "<group>"; };
 		F10000000000000000000002 /* GeusaieTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieTips.swift; sourceTree = "<group>"; };
 		F10000000000000000000003 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -96,6 +108,7 @@
 				F10000000000000000000004 /* SettingsView.swift */,
 				F10000000000000000000005 /* GeusaieShortcuts.swift */,
 				F0000000000000000000000B /* Assets.xcassets */,
+				6C8467633B3CFB82B2ED926B /* GeusaieRoadmap.swift */,
 			);
 			path = Geusaie;
 			sourceTree = "<group>";
@@ -238,6 +251,7 @@
 				B10000000000000000000003 /* OnboardingView.swift in Sources */,
 				B10000000000000000000004 /* SettingsView.swift in Sources */,
 				B10000000000000000000005 /* GeusaieShortcuts.swift in Sources */,
+				E6916DFAAA09F8527EB64F18 /* GeusaieRoadmap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,16 +264,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXContainerItemProxy section */
-		D20000000000000000000002 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D00000000000000000000002 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D00000000000000000000001;
-			remoteInfo = Geusaie;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
 		D20000000000000000000003 /* PBXTargetDependency */ = {
@@ -527,7 +531,7 @@
 			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.16.1;
+				minimumVersion = 3.20.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
