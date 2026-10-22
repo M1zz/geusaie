@@ -205,6 +205,7 @@
 				en,
 				"en-GB",
 				ja,
+				"zh-Hans",
 				Base,
 			);
 			mainGroup = C00000000000000000000001;

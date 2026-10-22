@@ -26,6 +26,12 @@
             "state" : "translated",
             "value" : "그사이에"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
         }
       }
     },
@@ -54,6 +60,12 @@
             "state" : "translated",
             "value" : "요리 중에 \"다음\" 한 마디로 단계를 넘기기 위해 마이크를 씁니다."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "烹饪时，只需说一声韩语“다음”（“下一步”）就能进入下一步，因此需要使用麦克风。"
+          }
         }
       }
     },
@@ -81,6 +93,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "\"다음\"이라는 말만 알아듣기 위해 음성 인식을 씁니다. 가능하면 기기 안에서 처리합니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用语音识别，只为听懂韩语“다음”（“下一步”）这个词。如有可能，会在设备上完成处理。"
           }
         }
       }
