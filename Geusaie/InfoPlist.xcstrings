@@ -87,6 +87,12 @@
             "value" : "Geusaie"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -211,6 +217,12 @@
             "value" : "Bruker mikrofonen slik at du kan gå videre til neste trinn mens du lager mat ved å si det koreanske ordet «다음» («neste»)."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruikt de microfoon zodat je tijdens het koken naar de volgende stap kunt gaan door het Koreaanse woord “다음” (“volgende”) te zeggen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -333,6 +345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bruker talegjenkjenning bare for å fange opp det koreanske ordet «다음» («neste»). Behandles på enheten når det er mulig."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruikt spraakherkenning alleen om het Koreaanse woord “다음” (“volgende”) te herkennen. Waar mogelijk wordt dit op het apparaat verwerkt."
           }
         },
         "pt-BR" : {

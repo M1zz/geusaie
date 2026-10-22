@@ -53,6 +53,7 @@ SEARCH = {
     "fi": ("Keittiöajastin", "Kaksi kattilaa,<br>mikään ei unohdu", "Vuorossa oleva tehtävä ja kunkin kattilan aika yhdellä silmäyksellä"),
     "id": ("Timer dapur", "Dua panci,<br>tak ada yang terlewat", "Tugas saat ini dan sisa waktu tiap panci, sekali lihat"),
     "nb": ("Kjøkkentimer", "To kjeler,<br>ingenting glemt", "Oppgaven nå og tiden for hver kjele, med ett blikk"),
+    "nl": ("Keukentimer", "Twee pannen,<br>niets vergeten", "De taak van nu en de tijd van elke pan in één oogopslag"),
 }
 
 # 헤더는 한 가지 약속: 면 삶는 그사이에 소스까지(앱의 부제 문장).
@@ -77,6 +78,7 @@ HEADER = {
     "fi": ("Keittiöajastin", "Pastan kiehuessa<br>kastike valmistuu"),
     "id": ("Timer dapur", "Pasta direbus,<br>saus pun selesai"),
     "nb": ("Kjøkkentimer", "Mens pastaen koker,<br>blir sausen ferdig"),
+    "nl": ("Keukentimer", "Terwijl de pasta kookt,<br>wordt de saus klaar"),
 }
 
 # ⚠️ 바탕 · 글자색은 앱 팔레트(Geusaie/Theme.swift)와 같다: cream · ink · terracotta.

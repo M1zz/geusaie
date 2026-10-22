@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Geusaie — Terwijl de pasta kookt, wordt ook de saus klaar</title>
+<meta name="description" content="Een timer voor gerechten waarbij twee pannen tegelijk draaien. Steeds maar één taak in grote letters, een aparte afteltimer per pan en bediening met je stem als je natte handen hebt.">
+<meta property="og:title" content="Geusaie">
+<meta property="og:description" content="Terwijl de pasta kookt, wordt ook de saus klaar. Een keukentimer voor twee pannen tegelijk.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://m1zz.github.io/geusaie/nl/">
+<!-- hreflang:start -->
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+<!-- hreflang:end -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
+<style>
+  :root {
+    --cream: #FAF6ED;
+    --card: #F1EAD6;
+    --border: #E3D9BE;
+    --ink: #2D2A24;
+    --ink-soft: #8A8271;
+    --terracotta: #C75B39;
+    --green: #5B8C5A;
+    --mustard: #D99A3C;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
+                 "Noto Sans KR", system-ui, sans-serif;
+    line-height: 1.7;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 72px 0 40px; text-align: center; }
+  .logo { font-size: 56px; line-height: 1; }
+  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
+  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
+  .lede {
+    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
+    text-align: left;
+  }
+  section { padding: 44px 0; border-top: 1px solid var(--border); }
+  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
+  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .feature {
+    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
+    padding: 20px 22px;
+  }
+  .feature h3 { margin: 0 0 6px; font-size: 18px; }
+  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
+  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
+  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
+  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
+  .shots figure { margin: 0; max-width: 300px; }
+  .shots img {
+    width: 100%; border-radius: 22px; border: 1px solid var(--border);
+    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
+  }
+  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
+  .dot.now { background: var(--terracotta); }
+  .dot.calm { background: var(--green); }
+  .dot.pot { background: var(--mustard); }
+  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
+  footer a, a { color: var(--terracotta); }
+  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
+  @media (max-width: 600px) {
+    header { padding: 48px 0 28px; }
+    h1 { font-size: 32px; }
+    .tagline { font-size: 18px; }
+  }
+  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
+  .langnav b { color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">🍝</div>
+    <h1>Geusaie</h1>
+    <p class="tagline">Terwijl de pasta kookt, wordt ook de saus klaar.</p>
+    <p class="lede">Koken is moeilijk, niet omdat je handen traag zijn, maar omdat de tijd van twee pannen verschillend loopt. De pasta wacht niet op je, terwijl knoflook snijden kan wanneer je maar wilt. Geusaie (“intussen” in het Koreaans) maakt dat onderscheid en toont in grote letters alleen die ene taak die je handen nu moeten doen.</p>
+  </header>
+
+  <section>
+    <h2>Wat voor app is het</h2>
+    <div class="features">
+      <div class="feature now">
+        <h3>Taken die niet kunnen wachten</h3>
+        <p>De pasta eruit scheppen, knoflook vlak voor hij aanbrandt. Als het zover is, kleurt het scherm rood en zegt het dat je alles moet laten liggen.</p>
+      </div>
+      <div class="feature calm">
+        <h3>Taken die kunnen schuiven</h3>
+        <p>Snijden, raspen, afwegen. Ze schieten alleen op als je handen vrij zijn, pauzeren als een pan roept en gaan verder waar ze bleven.</p>
+      </div>
+      <div class="feature">
+        <h3>Een timer voor elke pan</h3>
+        <p>De pastapan en de sauspan laten elk apart zien wat ze doen en hoeveel tijd er nog is.</p>
+      </div>
+      <div class="feature">
+        <h3>Bediening met je stem</h3>
+        <p>Zeg bij natte handen “다음” (Koreaans voor “volgende”). Spraakherkenning begrijpt voorlopig alleen Koreaans en wordt waar mogelijk op het apparaat verwerkt.</p>
+      </div>
+      <div class="feature">
+        <h3>Tekst die je van een afstand leest</h3>
+        <p>Zet het op het aanrecht en stap een of twee passen terug. De tekst kun je in de app in vier stappen vergroten.</p>
+      </div>
+      <div class="feature">
+        <h3>Geen gejaag</h3>
+        <p>Voor taken die je handen doen, tellen we geen seconden af. De balk loopt vol, stopt en wacht.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Schermen</h2>
+    <div class="shots">
+      <figure>
+        <img src="../images/home.png" alt="Het beginscherm om een gerecht te kiezen. Aglio e olio, ca. 15 minuten, 2 pannen.">
+        <figcaption>Alleen wat je bij het kiezen nodig hebt — hoe lang het duurt en hoeveel pannen</figcaption>
+      </figure>
+      <figure>
+        <img src="../images/cook.png" alt="Het kookscherm: de kaart met de taak van dit moment, twee panvakken en de tijdlijn.">
+        <figcaption>Wat nu te doen · status van de pannen · de hele tijdlijn</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>De kleur laat zien hoe dringend het is</h2>
+    <table>
+      <tr>
+        <th><span class="dot calm"></span>Groen</th>
+        <td>Voorbereiding. Neem de tijd.</td>
+      </tr>
+      <tr>
+        <th><span class="dot now"></span>Terracotta</th>
+        <td>Als je wacht, kookt de pasta over of brandt het aan. Doe het nu.</td>
+      </tr>
+      <tr>
+        <th><span class="dot pot"></span>Panvakken</th>
+        <td>Hoeveel het vierkant krimpt, is de tijd die nog rest. Een pan is een klok waar je op moet letten, dus hier wordt de tijd nooit verborgen.</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Meegeleverde recepten</h2>
+    <table>
+      <tr><th>Aglio e olio</th><td>Ca. 15 min · 2 pannen · Bronnen: Serious Eats, Gimme Some Oven</td></tr>
+      <tr><th>Pasta in tomatenroomsaus</th><td>Ca. 20 min · 2 pannen · Bronnen: RecipeTin Eats, The Burnt Butter Table</td></tr>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Loop je ergens op vast, zie je iets geks of wil je een recept erbij? Alles is welkom. Mail naar <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> of gebruik Instellingen ▸ Feedback sturen in de app. Veelgestelde vragen staan op de <a href="support.html">ondersteuningspagina</a>.</p>
+  </section>
+
+
+  <!-- langnav:start -->
+  <nav class="langnav" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> · <a href="../en/" hreflang="en" lang="en">English</a> · <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../it/" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/" hreflang="th" lang="th">ไทย</a> · <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/" hreflang="da" lang="da">Dansk</a> · <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <b>Nederlands</b></nav>
+  <!-- langnav:end -->
+
+  <footer>
+    <p>iPhone · iOS 17 of nieuwer · staand</p>
+    <div class="links">
+      <a href="support.html">Ondersteuning · Veelgestelde vragen</a>
+      <a href="privacy.html">Privacybeleid</a>
+      <a href="https://github.com/M1zz/geusaie">Broncode</a>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1281,3 +1281,67 @@ https://m1zz.github.io/geusaie/nb/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/nb/
+
+## nl
+
+### 이름
+
+Geusaie: timer voor pasta
+
+### 부제
+
+Twee pannen onder controle
+
+### 키워드
+
+keuken,recepten,stappen,stopwatch,aftellen,carbonara,spaghetti,avondeten,saus,koken,stem,wekker
+
+### 프로모션 텍스트
+
+Water op, knoflook gesneden, pasta erin, saus in de pan. Steeds één taak in grote letters, een afteltimer per pan en bediening met je stem bij natte handen.
+
+### 설명
+
+Twee pannen tegelijk zonder de draad kwijt te raken. Geusaie is een keukentimer die volgorde en timing regelt, zodat de saus klaar is terwijl de pasta kookt.
+Hij toont in grote letters alleen de ene taak die nu aan de beurt is en telt de tijd van elke pan apart af.
+
+Koken is moeilijk, niet omdat je handen traag zijn, maar omdat de tijd niet op één lijn loopt. De pasta wacht niet op je, terwijl knoflook snijden kan wanneer je maar wilt. Geusaie kent dat verschil en plant de stappen daarop.
+
+Steeds maar één taak
+Bovenaan het scherm staat in grote letters de ene taak die je handen nu moeten doen. Een kleur laat in één oogopslag zien of die kan wachten of niet. Hoe je het doet en hoe je ziet dat het klaar is, staat er direct bij.
+
+Een aparte afteltimer per pan
+De pastapan en de sauspan tonen elk hun eigen resterende tijd. Je ziet meteen of het water opwarmt, de pasta kookt of je bij de pan staat.
+
+Loop je achter, dan schuift de rest mee
+Geen strak schema. Zet je het vuur iets later aan, dan schuiven de volgende stappen mee en wordt de saus zo gepland dat hij begint precies als de pasta eruit komt.
+
+De hele tijdlijn in één oogopslag
+Zie wanneer je handen, de pastapan en de sauspan elkaar overlappen. Gestippelde taken kun je doen als je handen vrij zijn.
+
+Met je stem bij natte handen
+Zet de microfoon aan en zeg het Koreaanse woord voor “volgende” (da-eum) om verder te gaan. Spraakherkenning begrijpt voorlopig alleen Koreaans. Zolang de microfoon aanstaat, is hij altijd zichtbaar op het scherm en hij gaat uit als je het kookscherm verlaat.
+
+Tekst die je van een afstand leest
+Zet het apparaat op het aanrecht en stap een of twee passen terug. De tekst kun je in vier stappen vergroten.
+
+Geen enkele pan vergeten
+Als een pan klaar is, krijg je een melding met de volgende taak, ook als je in een andere app zit.
+
+Meegeleverde recepten
+Aglio e olio
+Pasta in tomatenroomsaus
+
+Werkt op iPhone en iPad. Je hebt geen account nodig om te beginnen.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/nl/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/nl/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/nl/
