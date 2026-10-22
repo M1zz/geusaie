@@ -38,6 +38,7 @@ SEARCH = {
     "en-GB": ("Cooking timer", "Two pots,<br>nothing missed", "What to do now and each pot's time, at a glance"),
     "ja": ("料理タイマー", "鍋2つでも<br>うっかりなし", "今やることと鍋ごとの残り時間がひと目で"),
     "zh-Hans": ("烹饪计时器", "两口锅<br>也不手忙脚乱", "此刻要做的事和每口锅的剩余时间，一目了然"),
+    "zh-Hant": ("烹飪計時器", "兩個鍋子<br>也不手忙腳亂", "此刻要做的事和每個鍋子的剩餘時間，一目了然"),
 }
 
 # 헤더는 한 가지 약속: 면 삶는 그사이에 소스까지(앱의 부제 문장).
@@ -47,6 +48,7 @@ HEADER = {
     "en-GB": ("Cooking timer", "Finish the sauce<br>while the pasta boils"),
     "ja": ("料理タイマー", "パスタを茹でる間に<br>ソースまで"),
     "zh-Hans": ("烹饪计时器", "煮面的同时<br>把酱汁也做好"),
+    "zh-Hant": ("烹飪計時器", "煮麵的同時<br>把醬汁也做好"),
 }
 
 # ⚠️ 바탕 · 글자색은 앱 팔레트(Geusaie/Theme.swift)와 같다: cream · ink · terracotta.

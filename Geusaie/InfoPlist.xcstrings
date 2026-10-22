@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "Geusaie"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
         }
       }
     },
@@ -66,6 +72,12 @@
             "state" : "translated",
             "value" : "烹饪时，只需说一声韩语“다음”（“下一步”）就能进入下一步，因此需要使用麦克风。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "烹飪時，只要說一聲韓語「다음」（「下一步」）就能進入下一步，因此需要使用麥克風。"
+          }
         }
       }
     },
@@ -99,6 +111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "使用语音识别，只为听懂韩语“다음”（“下一步”）这个词。如有可能，会在设备上完成处理。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用語音辨識，只為聽懂韓語「다음」（「下一步」）這個詞。如有可能，會在裝置上完成處理。"
           }
         }
       }

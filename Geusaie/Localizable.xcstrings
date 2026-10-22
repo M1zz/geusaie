@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "只识别韩语“다음”（“下一步”），不会保存任何声音"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只辨識韓語「다음」（「下一步」），不會儲存任何聲音"
+          }
         }
       }
     },
@@ -65,6 +71,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — 现在就做"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — 現在就做"
           }
         }
       }
@@ -100,6 +112,12 @@
             "state" : "translated",
             "value" : "计时结束：%@ %@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "計時結束：%@ %@"
+          }
         }
       }
     },
@@ -134,6 +152,12 @@
             "state" : "translated",
             "value" : "%@，还剩 %@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@，還剩 %@"
+          }
         }
       }
     },
@@ -164,6 +188,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@，不能拖"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@，不能拖"
@@ -202,6 +232,12 @@
             "state" : "translated",
             "value" : "%@，约 %lld 分钟，%lld 口锅"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@，約 %lld 分鐘，%lld 個鍋子"
+          }
         }
       }
     },
@@ -236,6 +272,12 @@
             "state" : "translated",
             "value" : "%lld 分钟"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 分鐘"
+          }
         }
       }
     },
@@ -266,6 +308,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 分 %lld 秒"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld 分 %lld 秒"
@@ -304,6 +352,12 @@
             "state" : "translated",
             "value" : "%lld 秒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 秒"
+          }
         }
       }
     },
@@ -337,6 +391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "少煮 1 分钟 — 剩下的在酱汁里煮熟"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "少煮 1 分鐘 — 剩下的在醬汁裡煮熟"
           }
         }
       }
@@ -373,6 +433,12 @@
             "state" : "translated",
             "value" : "VoiceOver 会不遗漏地、按合适的顺序朗读每口锅的时间和要做的事。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver 會不遺漏地、依合適的順序朗讀每個鍋子的時間和要做的事。"
+          }
         }
       }
     },
@@ -404,6 +470,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更好用的 VoiceOver"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "更好用的 VoiceOver"
@@ -442,6 +514,12 @@
             "state" : "translated",
             "value" : "正在烧水"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在煮水"
+          }
         }
       }
     },
@@ -475,6 +553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在煮面"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在煮麵"
           }
         }
       }
@@ -510,6 +594,12 @@
             "state" : "translated",
             "value" : "正在烧水"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在煮水"
+          }
         }
       }
     },
@@ -543,6 +633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在煮面"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在煮麵"
           }
         }
       }
@@ -578,6 +674,12 @@
             "state" : "translated",
             "value" : "正在熬奶油"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在熬鮮奶油"
+          }
         }
       }
     },
@@ -612,6 +714,12 @@
             "state" : "translated",
             "value" : "变成褐色就会发苦 — 颜色一变深就离火"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "變成褐色就會發苦 — 顏色一變深就離火"
+          }
         }
       }
     },
@@ -642,6 +750,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快好了"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "快好了"
@@ -680,6 +794,12 @@
             "state" : "translated",
             "value" : "跳过"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "略過"
+          }
         }
       }
     },
@@ -713,6 +833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把捞出的面放进酱汁，煮 1 分钟"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把撈出的麵放進醬汁，煮 1 分鐘"
           }
         }
       }
@@ -748,6 +874,12 @@
             "state" : "translated",
             "value" : "逆着纹理切会更快变软"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "逆著纖維切會更快變軟"
+          }
         }
       }
     },
@@ -781,6 +913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "继续烹饪"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續烹飪"
           }
         }
       }
@@ -816,6 +954,12 @@
             "state" : "translated",
             "value" : "打开所选菜谱的烹饪界面。点按开始后计时器就会运行。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟所選料理的烹飪畫面。點一下開始後計時器就會運作。"
+          }
         }
       }
     },
@@ -850,6 +994,12 @@
             "state" : "translated",
             "value" : "切成细末"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切成細末"
+          }
         }
       }
     },
@@ -880,6 +1030,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -918,6 +1074,12 @@
             "state" : "translated",
             "value" : "字号"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "字級"
+          }
         }
       }
     },
@@ -953,6 +1115,12 @@
             "state" : "translated",
             "value" : "调大设备字号后，菜谱列表和界面会重新排布，不会被截断。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調大裝置字級後，料理列表和畫面會重新排版，不會被截斷。"
+          }
         }
       }
     },
@@ -986,6 +1154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "关闭"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉"
           }
         }
       }
@@ -1021,6 +1195,12 @@
             "state" : "translated",
             "value" : "烧水的时候，把备料做好"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "煮水的時候，把備料做好"
+          }
         }
       }
     },
@@ -1054,6 +1234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "烧水的时候，把洋葱和大蒜处理好"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "煮水的時候，把洋蔥和大蒜處理好"
           }
         }
       }
@@ -1089,6 +1275,12 @@
             "state" : "translated",
             "value" : "水开后下面"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水開後下麵"
+          }
         }
       }
     },
@@ -1122,6 +1314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不要煮沸"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不要煮滾"
           }
         }
       }
@@ -1157,6 +1355,12 @@
             "state" : "translated",
             "value" : "做完后请告诉我"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "做完後請告訴我"
+          }
         }
       }
     },
@@ -1187,6 +1391,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已完成"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "已完成"
@@ -1225,6 +1435,12 @@
             "state" : "translated",
             "value" : "把剩下的奶酪和胡椒放在旁边备用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把剩下的起司和胡椒放在旁邊備用"
+          }
         }
       }
     },
@@ -1255,6 +1471,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我的手"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "我的手"
@@ -1293,6 +1515,12 @@
             "state" : "translated",
             "value" : "正在操作"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在操作"
+          }
         }
       }
     },
@@ -1326,6 +1554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "两口锅，一个屏幕"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "兩個鍋子，一個畫面"
           }
         }
       }
@@ -1361,6 +1595,12 @@
             "state" : "translated",
             "value" : "锅里的东西好了会通知你。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鍋子裡的東西好了會通知你。"
+          }
         }
       }
     },
@@ -1394,6 +1634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "从下锅那一刻起煮 12 分钟"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從下鍋那一刻起煮 12 分鐘"
           }
         }
       }
@@ -1429,6 +1675,12 @@
             "state" : "translated",
             "value" : "下锅后马上搅一下，防止粘在一起"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下鍋後馬上攪一下，避免黏在一起"
+          }
         }
       }
     },
@@ -1462,6 +1714,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "粘锅的话加一勺水"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黏鍋的話加一匙水"
           }
         }
       }
@@ -1497,6 +1755,12 @@
             "state" : "translated",
             "value" : "已经晚了 · 现在就做"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已經晚了 · 現在就做"
+          }
         }
       }
     },
@@ -1527,6 +1791,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已用完"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "已用完"
@@ -1565,6 +1835,12 @@
             "state" : "translated",
             "value" : "做完后，请说“다음”（韩语“下一步”）"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "做完後，請說「다음」（韓語「下一步」）"
+          }
         }
       }
     },
@@ -1598,6 +1874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "做完后说“다음”"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "做完後說「다음」"
           }
         }
       }
@@ -1633,6 +1915,12 @@
             "state" : "translated",
             "value" : "做完后，请说“다음”（韩语“下一步”）"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "做完後，請說「다음」（韓語「下一步」）"
+          }
         }
       }
     },
@@ -1663,6 +1951,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "下一步"
@@ -1701,6 +1995,12 @@
             "state" : "translated",
             "value" : "下一步 · %@ %@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步 · %@ %@"
+          }
         }
       }
     },
@@ -1731,6 +2031,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加入蒜末和胡椒，炒 30 秒"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "加入蒜末和胡椒，炒 30 秒"
@@ -1770,6 +2076,12 @@
             "state" : "translated",
             "value" : "深色模式"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深色模式"
+          }
         }
       }
     },
@@ -1803,6 +2115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "关闭"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉"
           }
         }
       }
@@ -1839,6 +2157,12 @@
             "state" : "translated",
             "value" : "即使调高了对比度，或不容易分辨颜色，也能看清每口锅的状态。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即使調高了對比，或不容易分辨顏色，也能看清每個鍋子的狀態。"
+          }
         }
       }
     },
@@ -1874,6 +2198,12 @@
             "state" : "translated",
             "value" : "更多语言"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多語言"
+          }
         }
       }
     },
@@ -1904,6 +2234,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更大"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "更大"
@@ -1942,6 +2278,12 @@
             "state" : "translated",
             "value" : "帮助"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說明"
+          }
         }
       }
     },
@@ -1975,6 +2317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "盖上锅盖会烧得更快"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蓋上鍋蓋會煮得更快"
           }
         }
       }
@@ -2010,6 +2358,12 @@
             "state" : "translated",
             "value" : "把 3 瓣蒜切成细末"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把 3 瓣蒜切成細末"
+          }
         }
       }
     },
@@ -2043,6 +2397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 瓣蒜切成 1～2 毫米厚"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 瓣蒜切成 1～2 公釐厚"
           }
         }
       }
@@ -2078,6 +2438,12 @@
             "state" : "translated",
             "value" : "蒜片边缘变成淡金色时"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蒜片邊緣變成淡金色時"
+          }
         }
       }
     },
@@ -2108,6 +2474,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把蒜切碎"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "把蒜切碎"
@@ -2146,6 +2518,12 @@
             "state" : "translated",
             "value" : "把蒜切成薄片"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把蒜切成薄片"
+          }
         }
       }
     },
@@ -2180,6 +2558,12 @@
             "state" : "translated",
             "value" : "蒜香飘出来时"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蒜香飄出來時"
+          }
         }
       }
     },
@@ -2210,6 +2594,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用油炒蒜"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "用油炒蒜"
@@ -2248,6 +2638,12 @@
             "state" : "translated",
             "value" : "加入大蒜和胡椒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加入大蒜和胡椒"
+          }
         }
       }
     },
@@ -2281,6 +2677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大蒜很容易糊，要不停翻炒"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大蒜很容易焦，要不停翻炒"
           }
         }
       }
@@ -2316,6 +2718,12 @@
             "state" : "translated",
             "value" : "收尾前先做好会更轻松"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收尾前先做好會更輕鬆"
+          }
         }
       }
     },
@@ -2349,6 +2757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "关闭麦克风"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉麥克風"
           }
         }
       }
@@ -2384,6 +2798,12 @@
             "state" : "translated",
             "value" : "开启麦克风"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟麥克風"
+          }
         }
       }
     },
@@ -2417,6 +2837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "麦克风已开启 · 正在聆听"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麥克風已開啟 · 聆聽中"
           }
         }
       }
@@ -2452,6 +2878,12 @@
             "state" : "translated",
             "value" : "麦克风已开启。正在聆听韩语“다음”（“下一步”）"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麥克風已開啟。正在聆聽韓語「다음」（「下一步」）"
+          }
         }
       }
     },
@@ -2485,6 +2917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "语音翻页"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用語音換下一步"
           }
         }
       }
@@ -2520,6 +2958,12 @@
             "state" : "translated",
             "value" : "站远一点也看得清"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "站遠一點也看得清楚"
+          }
         }
       }
     },
@@ -2553,6 +2997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "发邮件咨询"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "寄信詢問"
           }
         }
       }
@@ -2588,6 +3038,12 @@
             "state" : "translated",
             "value" : "下面拌匀，收尾"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下麵拌勻，收尾"
+          }
         }
       }
     },
@@ -2621,6 +3077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "煮面"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "煮麵"
           }
         }
       }
@@ -2656,6 +3118,12 @@
             "state" : "translated",
             "value" : "煮意面的同时，把酱汁也做好。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "煮義大利麵的同時，把醬汁也做好。"
+          }
         }
       }
     },
@@ -2689,6 +3157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "煮意面的同时，把酱汁也做好。每口锅都会分别显示正在做什么、还剩多少时间。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "煮義大利麵的同時，把醬汁也做好。每個鍋子都會分別顯示正在做什麼、還剩多少時間。"
           }
         }
       }
@@ -2724,6 +3198,12 @@
             "state" : "translated",
             "value" : "煮面锅"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "煮麵鍋"
+          }
         }
       }
     },
@@ -2757,6 +3237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "留下煮面水，把面捞出来"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "留下煮麵水，把麵撈出來"
           }
         }
       }
@@ -2792,6 +3278,12 @@
             "state" : "translated",
             "value" : "加煮面水，乳化并拌匀"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加煮麵水，乳化並拌勻"
+          }
         }
       }
     },
@@ -2825,6 +3317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "半杯煮面水，用力颠锅使其乳化"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "半杯煮麵水，用力甩鍋使其乳化"
           }
         }
       }
@@ -2860,6 +3358,12 @@
             "state" : "translated",
             "value" : "倒入半杯煮面水，转大火"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倒入半杯煮麵水，轉大火"
+          }
         }
       }
     },
@@ -2893,6 +3397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先留一杯煮面水！"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先留一杯煮麵水！"
           }
         }
       }
@@ -2928,6 +3438,12 @@
             "state" : "translated",
             "value" : "先留一杯煮面水！"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先留一杯煮麵水！"
+          }
         }
       }
     },
@@ -2961,6 +3477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先舀出一杯（200 毫升）煮面水"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先舀出一杯（200 毫升）煮麵水"
           }
         }
       }
@@ -2996,6 +3518,12 @@
             "state" : "translated",
             "value" : "先舀出一杯（200 毫升）煮面水"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先舀出一杯（200 毫升）煮麵水"
+          }
         }
       }
     },
@@ -3029,6 +3557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用煮面水调节浓稠度 — 以能缓缓流动为准"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用煮麵水調整濃稠度 — 以能緩緩流動為準"
           }
         }
       }
@@ -3064,6 +3598,12 @@
             "state" : "translated",
             "value" : "用煮面水调节浓稠度，在酱汁里再煮 1 分钟"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用煮麵水調整濃稠度，在醬汁裡再煮 1 分鐘"
+          }
         }
       }
     },
@@ -3097,6 +3637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "面不会等人，备料却可以等"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麵不會等人，備料卻可以等"
           }
         }
       }
@@ -3132,6 +3678,12 @@
             "state" : "translated",
             "value" : "面不要甩干，带着水直接放进平底锅"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麵不要甩乾，帶著水直接放進平底鍋"
+          }
         }
       }
     },
@@ -3162,6 +3714,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不能拖"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "不能拖"
@@ -3200,6 +3758,12 @@
             "state" : "translated",
             "value" : "联系我们"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聯絡我們"
+          }
         }
       }
     },
@@ -3233,6 +3797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "水 2 升，盐 2 大勺"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水 2 公升，鹽 2 大匙"
           }
         }
       }
@@ -3268,6 +3838,12 @@
             "state" : "translated",
             "value" : "把水烧开"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把水煮開"
+          }
         }
       }
     },
@@ -3301,6 +3877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "水要多，盐要放得像海水一样咸 — 大约烧 5 分钟"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水要多，鹽要放得像海水一樣鹹 — 大約煮 5 分鐘"
           }
         }
       }
@@ -3336,6 +3918,12 @@
             "state" : "translated",
             "value" : "烧上水，开大火"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把水煮上，開大火"
+          }
         }
       }
     },
@@ -3369,6 +3957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "这件事不能拖"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這件事不能拖"
           }
         }
       }
@@ -3404,6 +3998,12 @@
             "state" : "translated",
             "value" : "锅底不断冒出大气泡时"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鍋底不斷冒出大氣泡時"
+          }
         }
       }
     },
@@ -3437,6 +4037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "点按钮，或者手湿的时候说“다음”（韩语“下一步”）。锅里的东西好了，会通过通知告诉你。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "點按鈕，或在手濕的時候說「다음」（韓語「下一步」）。鍋子裡的東西好了，會用通知告訴你。"
           }
         }
       }
@@ -3473,6 +4079,12 @@
             "state" : "translated",
             "value" : "更易读的颜色与对比度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更易讀的顏色與對比"
+          }
         }
       }
     },
@@ -3507,6 +4119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "可以在应用内查看对你所提反馈的回复。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可以在 App 內查看對你所送出意見的回覆。"
           }
         }
       }
@@ -3543,6 +4161,12 @@
             "state" : "translated",
             "value" : "收到反馈回复"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收到意見回覆"
+          }
         }
       }
     },
@@ -3576,6 +4200,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "快来看看"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快來看看"
           }
         }
       }
@@ -3611,6 +4241,12 @@
             "state" : "translated",
             "value" : "标准"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "標準"
+          }
         }
       }
     },
@@ -3641,6 +4277,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通常 %@"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "通常 %@"
@@ -3679,6 +4321,12 @@
             "state" : "translated",
             "value" : "比包装上写的时间少煮 1 分钟 — 最后在锅里收尾"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比包裝上寫的時間少煮 1 分鐘 — 最後在平底鍋裡收尾"
+          }
         }
       }
     },
@@ -3712,6 +4360,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "呈扇形散开下锅 — 从下锅那一刻起煮 8 分钟"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "呈扇形散開下鍋 — 從下鍋那一刻起煮 8 分鐘"
           }
         }
       }
@@ -3747,6 +4401,12 @@
             "state" : "translated",
             "value" : "关火，加入欧芹和奶酪"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關火，加入巴西里和起司"
+          }
         }
       }
     },
@@ -3780,6 +4440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "火要小 — 煮沸的话会油水分离"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "火要小 — 煮滾的話會油水分離"
           }
         }
       }
@@ -3815,6 +4481,12 @@
             "state" : "translated",
             "value" : "空着"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空著"
+          }
         }
       }
     },
@@ -3848,6 +4520,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再看一遍使用方法"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再看一次使用方式"
           }
         }
       }
@@ -3883,6 +4561,12 @@
             "state" : "translated",
             "value" : "颜色就是紧急程度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顏色就是緊急程度"
+          }
         }
       }
     },
@@ -3916,6 +4600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "颜色变深、散发出香味时"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顏色變深、散發出香味時"
           }
         }
       }
@@ -3951,6 +4641,12 @@
             "state" : "translated",
             "value" : "提前称好 200 毫升淡奶油和 2 大勺番茄酱"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先秤好 200 毫升鮮奶油和 2 大匙番茄糊"
+          }
         }
       }
     },
@@ -3984,6 +4680,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "倒入 200 毫升淡奶油，搅拌均匀"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倒入 200 毫升鮮奶油，攪拌均勻"
           }
         }
       }
@@ -4019,6 +4721,12 @@
             "state" : "translated",
             "value" : "拌匀后调小火，收汁约 1 分 30 秒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拌勻後調小火，收汁約 1 分 30 秒"
+          }
         }
       }
     },
@@ -4052,6 +4760,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "设置"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
           }
         }
       }
@@ -4087,6 +4801,12 @@
             "state" : "translated",
             "value" : "盐要多放 — 大约烧 5 分钟"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鹽要多放 — 大約煮 5 分鐘"
+          }
         }
       }
     },
@@ -4120,6 +4840,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "盐和胡椒也放在伸手可及的地方"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鹽和胡椒也放在伸手可及的地方"
           }
         }
       }
@@ -4155,6 +4881,12 @@
             "state" : "translated",
             "value" : "在开始做酱汁前先做好会更轻松"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在開始做醬汁前先做好會更輕鬆"
+          }
         }
       }
     },
@@ -4188,6 +4920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "酱汁均匀裹在面上时"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "醬汁均勻裹在麵上時"
           }
         }
       }
@@ -4223,6 +4961,12 @@
             "state" : "translated",
             "value" : "酱汁变得浑白浓稠、裹在面上时"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "醬汁變得混白濃稠、裹在麵上時"
+          }
         }
       }
     },
@@ -4256,6 +5000,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "酱汁从面出锅的那一刻往回倒推着安排"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "醬汁從麵起鍋的那一刻往回倒推著安排"
           }
         }
       }
@@ -4291,6 +5041,12 @@
             "state" : "translated",
             "value" : "酱汁锅"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "醬汁鍋"
+          }
         }
       }
     },
@@ -4324,6 +5080,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "手上的活都做完了 — 只等锅里的时间了"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手上的事都做完了 — 只等鍋子的時間了"
           }
         }
       }
@@ -4359,6 +5121,12 @@
             "state" : "translated",
             "value" : "手湿的时候，说一声“다음”（韩语“下一步”）试试。不用碰屏幕，也能进入下一步。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手濕的時候，說一聲「다음」（韓語「下一步」）試試。不用碰螢幕，也能進入下一步。"
+          }
         }
       }
     },
@@ -4392,6 +5160,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "意面 180 克（2 人份），大蒜 6 瓣，橄榄油 6 大勺"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "義大利麵 180 公克（2 人份），大蒜 6 瓣，橄欖油 6 大匙"
           }
         }
       }
@@ -4427,6 +5201,12 @@
             "state" : "translated",
             "value" : "把 180 克意面呈扇形散开下锅"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把 180 公克義大利麵呈扇形散開下鍋"
+          }
         }
       }
     },
@@ -4460,6 +5240,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "可以开始收尾了"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可以開始收尾了"
           }
         }
       }
@@ -4495,6 +5281,12 @@
             "state" : "translated",
             "value" : "开始使用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始使用"
+          }
         }
       }
     },
@@ -4528,6 +5320,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "开始后先做这件事"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始後先做這件事"
           }
         }
       }
@@ -4563,6 +5361,12 @@
             "state" : "translated",
             "value" : "从刚才停下的地方继续"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從剛才停下的地方繼續"
+          }
         }
       }
     },
@@ -4596,6 +5400,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "点按下方的“开始烹饪”，锅的计时就会开始"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "點一下下方的「開始烹飪」，鍋子的計時就會開始"
           }
         }
       }
@@ -4632,6 +5442,12 @@
             "state" : "translated",
             "value" : "给 iPad 连接键盘后，只按一个键就能进入下一步。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幫 iPad 連接鍵盤後，只按一個鍵就能進入下一步。"
+          }
         }
       }
     },
@@ -4665,6 +5481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "极小的火微微冒泡 — 不要煮沸"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "極小的火微微冒泡 — 不要煮滾"
           }
         }
       }
@@ -4700,6 +5522,12 @@
             "state" : "translated",
             "value" : "用极小的火慢慢熬"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用極小的火慢慢熬"
+          }
         }
       }
     },
@@ -4730,6 +5558,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "特大"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "特大"
@@ -4768,6 +5602,12 @@
             "state" : "translated",
             "value" : "还没到"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒到"
+          }
         }
       }
     },
@@ -4802,6 +5642,12 @@
             "state" : "translated",
             "value" : "还有未完成的步骤。现在停下的话，进度会丢失。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還有未完成的步驟。現在停下的話，進度會遺失。"
+          }
         }
       }
     },
@@ -4835,6 +5681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "蒜香橄榄油意面"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蒜香橄欖油義大利麵"
           }
         }
       }
@@ -4871,6 +5723,12 @@
             "state" : "translated",
             "value" : "让应用也能用英语使用。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "讓 App 也能用英文使用。"
+          }
         }
       }
     },
@@ -4904,6 +5762,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "约 %lld 分钟 · %lld 口锅"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "約 %lld 分鐘 · %lld 個鍋子"
           }
         }
       }
@@ -4939,6 +5803,12 @@
             "state" : "translated",
             "value" : "小火！只炒到淡金黄色"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小火！只炒到淡金黃色"
+          }
         }
       }
     },
@@ -4969,6 +5839,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小火不停翻炒"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "小火不停翻炒"
@@ -5007,6 +5883,12 @@
             "state" : "translated",
             "value" : "把 1/2 个洋葱切成细丝"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把 1/2 顆洋蔥切成細絲"
+          }
         }
       }
     },
@@ -5041,6 +5923,12 @@
             "state" : "translated",
             "value" : "炒洋葱"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "炒洋蔥"
+          }
         }
       }
     },
@@ -5074,6 +5962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "洋葱切丝"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "洋蔥切絲"
           }
         }
       }
@@ -5110,6 +6004,12 @@
             "state" : "translated",
             "value" : "在昏暗的厨房里，也可以用不刺眼的深色界面查看。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在昏暗的廚房裡，也能用不刺眼的深色畫面查看。"
+          }
         }
       }
     },
@@ -5143,6 +6043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "什么时候做都可以的事"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "什麼時候做都可以的事"
           }
         }
       }
@@ -5179,6 +6085,12 @@
             "state" : "translated",
             "value" : "更新后第一次打开时，告诉你有哪些新内容。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新後第一次開啟時，告訴你有哪些新內容。"
+          }
         }
       }
     },
@@ -5214,6 +6126,12 @@
             "state" : "translated",
             "value" : "更新说明"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新說明"
+          }
         }
       }
     },
@@ -5247,6 +6165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "时间很充裕"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時間很充裕"
           }
         }
       }
@@ -5283,6 +6207,12 @@
             "state" : "translated",
             "value" : "除了英语，还会支持更多国家的语言。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "除了英文，還會支援更多國家的語言。"
+          }
         }
       }
     },
@@ -5318,6 +6248,12 @@
             "state" : "translated",
             "value" : "英语支持"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支援英文"
+          }
         }
       }
     },
@@ -5351,6 +6287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 大勺橄榄油炒洋葱，中小火"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 大匙橄欖油炒洋蔥，中小火"
           }
         }
       }
@@ -5386,6 +6328,12 @@
             "state" : "translated",
             "value" : "6 大勺橄榄油，加蒜片和干辣椒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 大匙橄欖油，加蒜片和乾辣椒"
+          }
         }
       }
     },
@@ -5416,6 +6364,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "完成"
@@ -5454,6 +6408,12 @@
             "state" : "translated",
             "value" : "预计完成时间"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "預計完成時間"
+          }
         }
       }
     },
@@ -5487,6 +6447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "标记完成"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "標記完成"
           }
         }
       }
@@ -5522,6 +6488,12 @@
             "state" : "translated",
             "value" : "要标记为完成吗？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要標記為完成嗎？"
+          }
         }
       }
     },
@@ -5555,6 +6527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "做好啦 🍴 盛盘吧"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成囉 🍴 盛盤吧"
           }
         }
       }
@@ -5590,6 +6568,12 @@
             "state" : "translated",
             "value" : "菜谱"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "料理"
+          }
         }
       }
     },
@@ -5624,6 +6608,12 @@
             "state" : "translated",
             "value" : "开始烹饪"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始烹飪"
+          }
         }
       }
     },
@@ -5657,6 +6647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "打开菜谱"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟料理"
           }
         }
       }
@@ -5693,6 +6689,12 @@
             "state" : "translated",
             "value" : "做菜时即使应用被关闭，锅的计时和进度也会照常接上。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "做菜時就算 App 被關閉，鍋子的計時和進度也會照常接上。"
+          }
         }
       }
     },
@@ -5727,6 +6729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "减少动态效果"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "減少動態效果"
           }
         }
       }
@@ -5763,6 +6771,12 @@
             "state" : "translated",
             "value" : "开启“减少动态效果”后，界面效果会更平缓。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟「減少動態效果」後，畫面效果會更平緩。"
+          }
         }
       }
     },
@@ -5793,6 +6807,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -5831,6 +6851,12 @@
             "state" : "translated",
             "value" : "暂停"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暫停"
+          }
         }
       }
     },
@@ -5866,6 +6892,12 @@
             "state" : "translated",
             "value" : "在主屏幕上直接开始常做的菜。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在主畫面上直接開始常做的料理。"
+          }
         }
       }
     },
@@ -5899,6 +6931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "切细一点 — 不用着急"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切細一點 — 不用急"
           }
         }
       }
@@ -5934,6 +6972,12 @@
             "state" : "translated",
             "value" : "继续"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續"
+          }
         }
       }
     },
@@ -5967,6 +7011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拿出食材，把平底锅放上灶"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拿出食材，把平底鍋放上爐"
           }
         }
       }
@@ -6002,6 +7052,12 @@
             "state" : "translated",
             "value" : "把食材放在一处"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把食材放在一處"
+          }
         }
       }
     },
@@ -6035,6 +7091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "留一半收尾时用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "留一半收尾時用"
           }
         }
       }
@@ -6070,6 +7132,12 @@
             "state" : "translated",
             "value" : "温盘子，准备盛盘"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "溫盤子，準備盛盤"
+          }
         }
       }
     },
@@ -6103,6 +7171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "盘子用热水烫热，再擦干"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "盤子用熱水燙熱，再擦乾"
           }
         }
       }
@@ -6138,6 +7212,12 @@
             "state" : "translated",
             "value" : "用热水把盘子烫热"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用熱水把盤子燙熱"
+          }
         }
       }
     },
@@ -6171,6 +7251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "中止烹饪并退出"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中止烹飪並離開"
           }
         }
       }
@@ -6206,6 +7292,12 @@
             "state" : "translated",
             "value" : "打开烹饪界面"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟烹飪畫面"
+          }
         }
       }
     },
@@ -6239,6 +7331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "如果把设备立在灶台边看，可以在这里把字调得更大。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "如果把裝置立在流理台邊看，可以在這裡把字放得更大。"
           }
         }
       }
@@ -6274,6 +7372,12 @@
             "state" : "translated",
             "value" : "要中止烹饪并退出吗？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要中止烹飪並離開嗎？"
+          }
         }
       }
     },
@@ -6307,6 +7411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用铲子划过会留下短暂痕迹时"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用刮刀劃過會留下短暫痕跡時"
           }
         }
       }
@@ -6342,6 +7452,12 @@
             "state" : "translated",
             "value" : "中止并退出"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中止並離開"
+          }
         }
       }
     },
@@ -6375,6 +7491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "中小火炒到变软"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中小火炒到變軟"
           }
         }
       }
@@ -6410,6 +7532,12 @@
             "state" : "translated",
             "value" : "现在"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在"
+          }
         }
       }
     },
@@ -6443,6 +7571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "现在 · 不能再拖"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在 · 不能再拖"
           }
         }
       }
@@ -6478,6 +7612,12 @@
             "state" : "translated",
             "value" : "现在要做的事"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在要做的事"
+          }
         }
       }
     },
@@ -6511,6 +7651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "现在要做的事 · 不用着急"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在要做的事 · 不用急"
           }
         }
       }
@@ -6546,6 +7692,12 @@
             "state" : "translated",
             "value" : "支持"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支援"
+          }
         }
       }
     },
@@ -6579,6 +7731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已用时间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已用時間"
           }
         }
       }
@@ -6614,6 +7772,12 @@
             "state" : "translated",
             "value" : "参考 · %@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "參考 · %@"
+          }
         }
       }
     },
@@ -6647,6 +7811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "慢慢来就行"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "慢慢來就好"
           }
         }
       }
@@ -6682,6 +7852,12 @@
             "state" : "translated",
             "value" : "尽量切薄 — 不用着急"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "盡量切薄 — 不用急"
+          }
         }
       }
     },
@@ -6715,6 +7891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "擦奶酪，称量酱汁食材"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "磨起司，秤量醬汁食材"
           }
         }
       }
@@ -6750,6 +7932,12 @@
             "state" : "translated",
             "value" : "擦奶酪、温盘子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "磨起司、溫盤子"
+          }
         }
       }
     },
@@ -6784,6 +7972,12 @@
             "state" : "translated",
             "value" : "刀放平，切薄一点 — 太厚的话里面不熟，外面却会糊"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刀放平，切薄一點 — 太厚的話裡面不熟，外面卻會焦"
+          }
         }
       }
     },
@@ -6814,6 +8008,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "大"
@@ -6852,6 +8052,12 @@
             "state" : "translated",
             "value" : "文火慢熬奶油"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小火慢熬鮮奶油"
+          }
         }
       }
     },
@@ -6885,6 +8091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "倒入奶油，转小火"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倒入鮮奶油，轉小火"
           }
         }
       }
@@ -6921,6 +8133,12 @@
             "state" : "translated",
             "value" : "适配大字体的界面"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配合大字體的畫面"
+          }
         }
       }
     },
@@ -6954,6 +8172,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不断冒出大气泡时"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不斷冒出大氣泡時"
           }
         }
       }
@@ -6990,6 +8214,12 @@
             "state" : "translated",
             "value" : "用键盘操作"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用鍵盤操作"
+          }
         }
       }
     },
@@ -7023,6 +8253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "很容易糊，马上进入下一步"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "很容易焦，馬上進入下一步"
           }
         }
       }
@@ -7058,6 +8294,12 @@
             "state" : "translated",
             "value" : "计时器会被重置，进度也会丢失。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "計時器會被重置，進度也會遺失。"
+          }
         }
       }
     },
@@ -7091,6 +8333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "时间线 · 虚线表示可以往后放的事"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時間軸 · 虛線表示可以延後的事"
           }
         }
       }
@@ -7126,6 +8374,12 @@
             "state" : "translated",
             "value" : "赤陶色表示拖延的话面会煮烂或糊掉。绿色是备料，等手空下来慢慢做就行。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "赤陶色代表拖延的話麵會煮爛或燒焦。綠色是備料，等手空下來慢慢做就好。"
+          }
         }
       }
     },
@@ -7159,6 +8413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "番茄奶油意面"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "番茄奶油義大利麵"
           }
         }
       }
@@ -7194,6 +8454,12 @@
             "state" : "translated",
             "value" : "番茄酱 2 大勺，淡奶油 200 毫升"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "番茄糊 2 大匙，鮮奶油 200 毫升"
+          }
         }
       }
     },
@@ -7227,6 +8493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把 2 大勺番茄酱在锅底抹开"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把 2 大匙番茄糊在鍋底抹開"
           }
         }
       }
@@ -7262,6 +8534,12 @@
             "state" : "translated",
             "value" : "炒番茄酱"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "炒番茄糊"
+          }
         }
       }
     },
@@ -7295,6 +8573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "炒到透明、边缘微黄时"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "炒到透明、邊緣微黃時"
           }
         }
       }
@@ -7330,6 +8614,12 @@
             "state" : "translated",
             "value" : "把 30 克帕玛森奶酪擦好备用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把 30 公克帕瑪森起司磨好備用"
+          }
         }
       }
     },
@@ -7363,6 +8653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "帕玛森奶酪 30 克，橄榄油 2 大勺"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "帕瑪森起司 30 公克，橄欖油 2 大匙"
           }
         }
       }
@@ -7398,6 +8694,12 @@
             "state" : "translated",
             "value" : "把 30 克帕玛森奶酪擦成细末备用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把 30 公克帕瑪森起司磨成細末備用"
+          }
         }
       }
     },
@@ -7431,6 +8733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "意面 180 克 — 比包装上写的时间少煮 1 分钟"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "義大利麵 180 公克 — 比包裝上寫的時間少煮 1 分鐘"
           }
         }
       }
@@ -7466,6 +8774,12 @@
             "state" : "translated",
             "value" : "意面 180 克（2 人份），洋葱 1/2 个，大蒜 3 瓣"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "義大利麵 180 公克（2 人份），洋蔥 1/2 顆，大蒜 3 瓣"
+          }
         }
       }
     },
@@ -7499,6 +8813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "也留一些欧芹收尾时用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "也留一些巴西里收尾時用"
           }
         }
       }
@@ -7534,6 +8854,12 @@
             "state" : "translated",
             "value" : "欧芹只取叶子，粗切成碎"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "巴西里只取葉子，粗切成碎"
+          }
         }
       }
     },
@@ -7567,6 +8893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "选一口大到能放下所有面的平底锅"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選一個大到能放下所有麵的平底鍋"
           }
         }
       }
@@ -7602,6 +8934,12 @@
             "state" : "translated",
             "value" : "晃动平底锅 30 秒 — 让油和煮面水融合"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搖動平底鍋 30 秒 — 讓油和煮麵水融合"
+          }
         }
       }
     },
@@ -7635,6 +8973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "干辣椒 2～3 个，欧芹少许，帕玛森奶酪 30 克"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "乾辣椒 2～3 根，巴西里少許，帕瑪森起司 30 公克"
           }
         }
       }
@@ -7670,6 +9014,12 @@
             "state" : "translated",
             "value" : "2～3 个干辣椒对半掰开，去掉籽"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2～3 根乾辣椒對半剝開，去掉籽"
+          }
         }
       }
     },
@@ -7704,6 +9054,12 @@
             "state" : "translated",
             "value" : "切碎干辣椒和欧芹"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切碎乾辣椒和巴西里"
+          }
         }
       }
     },
@@ -7737,6 +9093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "蒜片薄到能透光就够了"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蒜片薄到能透光就夠了"
           }
         }
       }
@@ -7773,6 +9135,12 @@
             "state" : "translated",
             "value" : "折叠屏 iPhone 界面"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可折疊 iPhone 畫面"
+          }
         }
       }
     },
@@ -7808,6 +9176,12 @@
             "state" : "translated",
             "value" : "在折叠屏 iPhone 的宽屏上，并排查看锅和要做的事。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在可折疊 iPhone 的寬螢幕上，並排查看鍋子和要做的事。"
+          }
         }
       }
     },
@@ -7841,6 +9215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把需要的食材放在一处"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把需要的食材放在一處"
           }
         }
       }
@@ -7877,6 +9257,12 @@
             "state" : "translated",
             "value" : "接着做没做完的菜"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接著做沒做完的料理"
+          }
         }
       }
     },
@@ -7911,6 +9297,12 @@
             "state" : "translated",
             "value" : "刚才在做 · %@ %@ — 先做完这一步再接着做"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剛才在做 · %@ %@ — 先做完這一步再接著做"
+          }
         }
       }
     },
@@ -7941,6 +9333,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "炒一下，去掉酸味"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "炒一下，去掉酸味"
@@ -7979,6 +9377,12 @@
             "state" : "translated",
             "value" : "炒一下才能去掉酸味"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "炒一下才能去掉酸味"
+          }
         }
       }
     },
@@ -8013,6 +9417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "主屏幕小组件"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主畫面小工具"
           }
         }
       }
