@@ -170,7 +170,7 @@ final class CookSession: ObservableObject {
             // 시작 전에는 아무 냄비도 올라가 있지 않다
             if isReady {
                 return PotState(lane: lane, kind: .empty, step: nil,
-                                remaining: 0, total: 0, text: "비어 있음")
+                                remaining: 0, total: 0, text: String(localized: "비어 있음"))
             }
             let chain = index < recipe.chains.count ? recipe.chains[index] : []
 
@@ -180,22 +180,22 @@ final class CookSession: ObservableObject {
             }) {
                 return PotState(lane: lane, kind: .cooking, step: cook,
                                 remaining: countdown(for: cook), total: cook.duration,
-                                text: progressivePhrase(cook.name))
+                                text: progressivePhrase(cook))
             }
             // 내 손이 거기 붙어 있는 중
             if let due = dueAction, due.lane == lane {
                 // 무엇을 하는지는 위 카드가 이미 크게 말해 준다. 여기서는 짧게.
                 return PotState(lane: lane, kind: .handsOn, step: due,
                                 remaining: 0, total: due.duration,
-                                text: "내가 하는 중")
+                                text: String(localized: "내가 하는 중"))
             }
             // 다 썼다
             if !chain.isEmpty, chain.allSatisfy({ state.doneAt[$0.id] != nil }) {
                 return PotState(lane: lane, kind: .finished, step: nil,
-                                remaining: 0, total: 0, text: "다 썼어요")
+                                remaining: 0, total: 0, text: String(localized: "다 썼어요"))
             }
             return PotState(lane: lane, kind: .empty, step: nil,
-                            remaining: 0, total: 0, text: "비어 있음")
+                            remaining: 0, total: 0, text: String(localized: "비어 있음"))
         }
     }
 
@@ -484,8 +484,8 @@ final class CookSession: ObservableObject {
         let next = idx + 1 < chain.count ? chain[idx + 1] : nil
 
         let c = UNMutableNotificationContent()
-        c.title = "\(cook.emoji) \(cook.name) 다 됐어요"
-        c.body = next.map { "\($0.emoji) \($0.name) — 지금 하세요" } ?? "보러 오세요"
+        c.title = String(localized: "\(cook.emoji) \(cook.name) 다 됐어요")
+        c.body = next.map { String(localized: "\($0.emoji) \($0.name) — 지금 하세요") } ?? String(localized: "보러 오세요")
         c.sound = .default
         c.interruptionLevel = (next?.deadline ?? false) ? .timeSensitive : .active
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: after, repeats: false)

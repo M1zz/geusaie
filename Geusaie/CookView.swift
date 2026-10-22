@@ -211,16 +211,16 @@ struct CookView: View {
                 .foregroundStyle(Theme.inkSoft)
                 .frame(width: 36, height: 36)
         }
-        .accessibilityLabel(inProgress ? "조리 중단하고 나가기" : "닫기")
+        .accessibilityLabel(inProgress ? String(localized: "조리 중단하고 나가기") : String(localized: "닫기"))
     }
 
     /// 진행과 완성 예정은 같은 무게의 정보다 — 칸도 글자도 같은 크기로
     @ViewBuilder private var timeChips: some View {
         // 글자 대신 기호로 — 무엇을 세는 시간인지 한눈에
-        timeChip(symbol: "stopwatch", label: "진행 시간",
+        timeChip(symbol: "stopwatch", label: String(localized: "진행 시간"),
                  value: formatSeconds(session.cookingElapsed),
                  tint: Theme.ink)
-        timeChip(symbol: "fork.knife", label: "완성 예정 시각",
+        timeChip(symbol: "fork.knife", label: String(localized: "완성 예정 시각"),
                  value: session.phase == .done ? "✓" : session.finishClock,
                  tint: session.phase == .done ? Theme.green : Theme.terracotta)
     }
@@ -358,7 +358,7 @@ struct MicButton: View {
                     Circle().fill(voice.isListening ? Theme.recording : Theme.ringTrack)
                 )
         }
-        .accessibilityLabel(voice.isListening ? "마이크 끄기" : "마이크 켜기")
+        .accessibilityLabel(voice.isListening ? String(localized: "마이크 끄기") : String(localized: "마이크 켜기"))
         .disabled(voice.state == .denied || voice.state == .unavailable)
         .opacity(voice.state == .denied || voice.state == .unavailable ? 0.4 : 1)
     }
@@ -549,7 +549,7 @@ struct NowStrip: View {
         }
     }
 
-    private func header(_ text: String) -> some View {
+    private func header(_ text: LocalizedStringKey) -> some View {
         Text(text)
             .font(.subheadline.weight(.bold))
             .foregroundStyle(urgency == .calm ? Theme.inkSoft : urgency.accent)
@@ -566,7 +566,7 @@ struct NowStrip: View {
                                              : 1),
                         tint: urgency.accent)
             details(step)
-            hint(done: "다 했으면")
+            hint("다 했으면 \"다음\"이라고 말해 주세요")
         }
     }
 
@@ -641,14 +641,14 @@ struct NowStrip: View {
                                              ? Double(did) / Double(step.duration) : 1),
                         tint: Theme.green)
             details(step)
-            hint(done: session.isWaitingForNext ? "다 했으면" : "다 하면")
+            hint(session.isWaitingForNext ? "다 했으면 \"다음\"이라고 말해 주세요" : "다 하면 \"다음\"이라고 말해 주세요")
         }
     }
 
     /// 말로 넘길 수 있을 때만 안내한다 (버튼은 바로 아래 있으니까)
-    @ViewBuilder private func hint(done: String) -> some View {
+    @ViewBuilder private func hint(_ text: LocalizedStringKey) -> some View {
         if voice.isListening {
-            Label("\(done) \"다음\"이라고 말해 주세요", systemImage: "waveform")
+            Label(text, systemImage: "waveform")
                 .font(.subheadline.weight(.semibold))
                 .foregroundStyle(urgency.accent)
                 .fixedSize(horizontal: false, vertical: true)
@@ -665,13 +665,13 @@ enum Pace {
     }
 
     static func phrase(remaining: Int, step: RecipeStep) -> String {
-        if step.deadline { return "미루면 안 되는 일이에요" }
-        if step.role == .action { return "끝나면 알려 주세요" }
+        if step.deadline { return String(localized: "미루면 안 되는 일이에요") }
+        if step.role == .action { return String(localized: "끝나면 알려 주세요") }
         switch remaining {
-        case ..<20:  return "거의 다 됐어요"
-        case ..<60:  return "슬슬 마무리해도 돼요"
-        case ..<180: return "천천히 해도 됩니다"
-        default:     return "여유 있어요"
+        case ..<20:  return String(localized: "거의 다 됐어요")
+        case ..<60:  return String(localized: "슬슬 마무리해도 돼요")
+        case ..<180: return String(localized: "천천히 해도 됩니다")
+        default:     return String(localized: "여유 있어요")
         }
     }
 }
@@ -771,7 +771,7 @@ struct PotTile: View {
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(pot.lane)
         .accessibilityValue(pot.kind == .cooking
-                            ? "\(pot.text), \(formatSeconds(pot.remaining)) 남음"
+                            ? String(localized: "\(pot.text), \(formatSeconds(pot.remaining)) 남음")
                             : pot.text)
     }
 
@@ -1204,8 +1204,8 @@ struct StepChecklist: View {
                 }
                 .padding(.vertical, 9)
                 .accessibilityElement(children: .ignore)
-                .accessibilityLabel(step.name + (step.deadline ? ", 못 미룸" : ""))
-                .accessibilityValue(status == .done ? "끝남" : (status == .active ? "지금" : "아직"))
+                .accessibilityLabel(step.deadline ? String(localized: "\(step.name), 못 미룸") : step.name)
+                .accessibilityValue(status == .done ? String(localized: "끝남") : (status == .active ? String(localized: "지금") : String(localized: "아직")))
                 if idx < recipe.steps.count - 1 {
                     Divider().overlay(Theme.cardBorder)
                 }

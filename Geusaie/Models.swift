@@ -60,7 +60,7 @@ struct RecipeStep: Identifiable, Hashable {
 // MARK: - 레시피 = 냄비별 사슬 + 사이사이 끼워 넣는 도마 일
 
 struct Recipe: Identifiable, Hashable {
-    static let handsLane = "내 손"
+    static let handsLane = String(localized: "내 손")
 
     let id: String
     var name: String

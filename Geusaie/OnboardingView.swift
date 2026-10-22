@@ -15,8 +15,8 @@ struct GeusaieOnboardingView: View {
         let id: Int
         let symbol: String
         let tint: Color
-        let title: String
-        let body: String
+        let title: LocalizedStringKey
+        let body: LocalizedStringKey
     }
 
     private let pages: [Page] = [

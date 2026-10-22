@@ -54,10 +54,10 @@ enum TextScale: Int, CaseIterable, Identifiable {
 
     var label: String {
         switch self {
-        case .normal: return "보통"
-        case .big:    return "크게"
-        case .bigger: return "더 크게"
-        case .huge:   return "아주 크게"
+        case .normal: return String(localized: "보통")
+        case .big:    return String(localized: "크게")
+        case .bigger: return String(localized: "더 크게")
+        case .huge:   return String(localized: "아주 크게")
         }
     }
 
@@ -73,15 +73,20 @@ enum TextScale: Int, CaseIterable, Identifiable {
 }
 
 /// "면 삶기" → "면 삶는 중" 처럼 지금 상태로 읽히게
-func progressivePhrase(_ name: String) -> String {
-    name.hasSuffix("기") ? String(name.dropLast()) + "는 중" : name + " 중"
+/// 한국어 말고는 단계 id 로 번역을 찾는다("progress.<id>"). 카탈로그에 없으면 한국어 규칙으로 돌아간다.
+func progressivePhrase(_ step: RecipeStep) -> String {
+    let key = "progress.\(step.id)"
+    let found = String(localized: String.LocalizationValue(key))
+    if found != key { return found }
+    let name = step.name
+    return name.hasSuffix("기") ? String(name.dropLast()) + "는 중" : name + " 중"
 }
 
-/// "12분", "6분 30초" 같은 한국어 길이 표기
+/// "12분", "6분 30초" 같은 길이 표기 (이름은 옛 이름 그대로, 표기는 기기 언어를 따른다)
 func koreanDuration(_ seconds: Int) -> String {
     let m = seconds / 60
     let s = seconds % 60
-    if m > 0 && s > 0 { return "\(m)분 \(s)초" }
-    if m > 0 { return "\(m)분" }
-    return "\(s)초"
+    if m > 0 && s > 0 { return String(localized: "\(m)분 \(s)초") }
+    if m > 0 { return String(localized: "\(m)분") }
+    return String(localized: "\(s)초")
 }

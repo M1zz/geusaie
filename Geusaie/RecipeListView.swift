@@ -186,7 +186,7 @@ struct RecipeCard: View {
         }
         .buttonStyle(.plain)
         // 이모지·재생 아이콘을 따로 읽지 않고 한 문장으로
-        .accessibilityLabel("\(recipe.name), 약 \(Int((Double(recipe.estimatedSeconds) / 60).rounded()))분, 냄비 \(recipe.potCount)개")
+        .accessibilityLabel(String(localized: "\(recipe.name), 약 \(Int((Double(recipe.estimatedSeconds) / 60).rounded()))분, 냄비 \(recipe.potCount)개"))
         .accessibilityHint("조리 화면을 엽니다")
     }
 }

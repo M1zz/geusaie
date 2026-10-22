@@ -34,11 +34,13 @@ SPEC = {
 # 눈썹글은 검색창에 칠 말(스토어 키워드: 요리타이머).
 SEARCH = {
     "ko": ("요리 타이머", "냄비 두 개도<br>놓치지 않게", "지금 할 일과 냄비마다 남은 시간을 한눈에"),
+    "en": ("Cooking timer", "Two pots,<br>nothing missed", "What to do now and each pot's time, at a glance"),
 }
 
 # 헤더는 한 가지 약속: 면 삶는 그사이에 소스까지(앱의 부제 문장).
 HEADER = {
     "ko": ("요리 타이머", "면 삶는 그사이에<br>소스까지"),
+    "en": ("Cooking timer", "Finish the sauce<br>while the pasta boils"),
 }
 
 # ⚠️ 바탕 · 글자색은 앱 팔레트(Geusaie/Theme.swift)와 같다: cream · ink · terracotta.
