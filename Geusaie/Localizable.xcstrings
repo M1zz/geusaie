@@ -15,6 +15,12 @@
             "value" : "Listens only for the Korean word “다음” (“next”) and never saves audio"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "韓国語の「다음」（「次へ」）だけを聞き取り、音声は保存しません"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35,6 +41,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — do it now"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — 今すぐやりましょう"
           }
         },
         "ko" : {
@@ -59,6 +71,12 @@
             "value" : "Timer done: %@ %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイマー終了: %@ %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -79,6 +97,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, %@ left"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@、残り%@"
           }
         },
         "ko" : {
@@ -103,6 +127,12 @@
             "value" : "%@, can’t wait"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@、後回し不可"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -123,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, about %lld minutes, %lld pots"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@、約%lld分、鍋%lld個"
           }
         },
         "ko" : {
@@ -147,6 +183,12 @@
             "value" : "%lld min"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min %lld sec"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分%lld秒"
           }
         },
         "ko" : {
@@ -191,6 +239,12 @@
             "value" : "%lld sec"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld秒"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -211,6 +265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 minute less — it finishes in the sauce"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1分短く茹でる — 残りはソースの中で火を通す"
           }
         },
         "ko" : {
@@ -236,6 +296,12 @@
             "value" : "VoiceOver reads every pot timer and to-do, in the right order."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverが、鍋のタイマーとやることを漏れなく、順番どおりに読み上げます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -257,6 +323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Better VoiceOver support"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverをもっと使いやすく"
           }
         },
         "ko" : {
@@ -281,6 +353,12 @@
             "value" : "Boiling the water"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お湯を沸かし中"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -301,6 +379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Boiling the pasta"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麺を茹で中"
           }
         },
         "ko" : {
@@ -325,6 +409,12 @@
             "value" : "Boiling the water"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お湯を沸かし中"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -345,6 +435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Boiling the pasta"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麺を茹で中"
           }
         },
         "ko" : {
@@ -369,6 +465,12 @@
             "value" : "Simmering the cream"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生クリームを煮詰め中"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -389,6 +491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Browned garlic turns bitter — pull it off the heat as it darkens"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "茶色くなると苦くなる — 色づいてきたら火から外して"
           }
         },
         "ko" : {
@@ -413,6 +521,12 @@
             "value" : "Almost there"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もうすぐです"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -433,6 +547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skip"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スキップ"
           }
         },
         "ko" : {
@@ -457,6 +577,12 @@
             "value" : "Add the lifted pasta to the sauce for 1 minute"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あげた麺をソースに入れて1分"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cutting across the grain softens it faster"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繊維を断つように切るとより早くやわらかくなります"
           }
         },
         "ko" : {
@@ -501,6 +633,12 @@
             "value" : "Keep Cooking"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調理を続ける"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -521,6 +659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opens the cooking screen for the dish you pick. The timers start when you tap Start."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選んだ料理の調理画面を開きます。スタートを押すとタイマーが動き出します。"
           }
         },
         "ko" : {
@@ -545,6 +689,12 @@
             "value" : "Mince it fine"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "細かくみじん切り"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -562,6 +712,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -589,6 +745,12 @@
             "value" : "Text Size"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字サイズ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -610,6 +772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recipe lists and screens rearrange neatly instead of getting cut off when you enlarge text."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "端末の文字サイズを大きくしても、レシピ一覧や画面が切れないように配置が変わります。"
           }
         },
         "ko" : {
@@ -634,6 +802,12 @@
             "value" : "Turn Off"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オフにする"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -654,6 +828,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Do your prep while it boils"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沸くまでの間に下ごしらえを済ませましょう"
           }
         },
         "ko" : {
@@ -678,6 +858,12 @@
             "value" : "Prep the onion and garlic while it boils"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沸くまでの間に玉ねぎとにんにくを準備しましょう"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -698,6 +884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add the pasta once it boils"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沸いたら麺を入れる"
           }
         },
         "ko" : {
@@ -722,6 +914,12 @@
             "value" : "Don’t let it boil"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "煮立たせないこと"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -742,6 +940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tell me when you’re done"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "終わったら教えてください"
           }
         },
         "ko" : {
@@ -766,6 +970,12 @@
             "value" : "Done"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -786,6 +996,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set the leftover cheese and pepper nearby"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残りのチーズとこしょうを近くに用意"
           }
         },
         "ko" : {
@@ -810,6 +1026,12 @@
             "value" : "My hands"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分の手"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -830,6 +1052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You’re on it"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作業中"
           }
         },
         "ko" : {
@@ -854,6 +1082,12 @@
             "value" : "Two pots, one screen"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鍋2つを1画面で"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -874,6 +1108,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "We’ll let you know when a pot is ready."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鍋ができあがったらお知らせします。"
           }
         },
         "ko" : {
@@ -898,6 +1138,12 @@
             "value" : "12 minutes from the moment it goes in"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入れた瞬間から12分"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -918,6 +1164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stir once right away so it doesn’t stick"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入れたらすぐに1回かき混ぜてくっつかないように"
           }
         },
         "ko" : {
@@ -942,6 +1194,12 @@
             "value" : "If it sticks, add a spoonful of water"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "焦げつきそうなら水をスプーン1杯"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -962,6 +1220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Late · do it right now"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遅れています · 今すぐ"
           }
         },
         "ko" : {
@@ -986,6 +1250,12 @@
             "value" : "Finished with this pot"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使い終わり"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1006,6 +1276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "When you’re finished, say “다음” (Korean for “next”)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "終わったら「다음」（韓国語で「次へ」）と言ってください"
           }
         },
         "ko" : {
@@ -1030,6 +1306,12 @@
             "value" : "Done? Say “다음”"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "終わったら「다음」"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1050,6 +1332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "When you’re done, say “다음” (Korean for “next”)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "終わったら「다음」（韓国語で「次へ」）と言ってください"
           }
         },
         "ko" : {
@@ -1074,6 +1362,12 @@
             "value" : "Next"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次へ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1096,6 +1390,12 @@
             "value" : "Next · %@ %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次は · %@ %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1116,6 +1416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add minced garlic and pepper for 30 seconds"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "みじん切りのにんにくとこしょうを入れて30秒"
           }
         },
         "ko" : {
@@ -1141,6 +1447,12 @@
             "value" : "Dark Mode"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダークモード"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1161,6 +1473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Close"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
           }
         },
         "ko" : {
@@ -1186,6 +1504,12 @@
             "value" : "See how each pot is doing, even with Increase Contrast on or if colours are hard to tell apart."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コントラストを上げたり、色の区別がつきにくくても、鍋ごとの状態がわかります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1207,6 +1531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More languages"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "さらに多くの言語"
           }
         },
         "ko" : {
@@ -1231,6 +1561,12 @@
             "value" : "Larger"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "さらに大"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1251,6 +1587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Help"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルプ"
           }
         },
         "ko" : {
@@ -1275,6 +1617,12 @@
             "value" : "A lid helps it boil faster"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フタをすると早く沸きます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1295,6 +1643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finely mince 3 cloves"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "にんにく3片を細かくみじん切りに"
           }
         },
         "ko" : {
@@ -1319,6 +1673,12 @@
             "value" : "Slice 6 cloves 1–2 mm thick"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "にんにく6片を1〜2mmの厚さに"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1339,6 +1699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The garlic edges turn pale gold"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "にんにくの縁がうっすら金色になったら"
           }
         },
         "ko" : {
@@ -1363,6 +1729,12 @@
             "value" : "Mince the garlic"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "にんにくをみじん切りにする"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1383,6 +1755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slice the garlic thin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "にんにくを薄切りにする"
           }
         },
         "ko" : {
@@ -1407,6 +1785,12 @@
             "value" : "The garlic smells fragrant"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "にんにくの香りが立ったら"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1427,6 +1811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sauté the garlic in oil"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "にんにくをオイルで炒める"
           }
         },
         "ko" : {
@@ -1451,6 +1841,12 @@
             "value" : "Add the garlic and pepper"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "にんにくとこしょうを加える"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1471,6 +1867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Garlic burns fast, so keep stirring"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "にんにくはすぐ焦げるので混ぜ続けてください"
           }
         },
         "ko" : {
@@ -1495,6 +1897,12 @@
             "value" : "Easier if you do it before finishing"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仕上げの前に済ませておくとラクです"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1515,6 +1923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Turn mic off"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイクをオフにする"
           }
         },
         "ko" : {
@@ -1539,6 +1953,12 @@
             "value" : "Turn mic on"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイクをオンにする"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1559,6 +1979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mic on · Listening"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイクオン · 聞き取り中"
           }
         },
         "ko" : {
@@ -1583,6 +2009,12 @@
             "value" : "Mic on. Listening for the Korean word “다음” (“next”)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイクオン。韓国語の「다음」（「次へ」）を聞き取り中"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1603,6 +2035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voice control"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "声で次へ"
           }
         },
         "ko" : {
@@ -1627,6 +2065,12 @@
             "value" : "Easy to read from a distance"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "離れていても見やすく"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1647,6 +2091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contact by Email"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールで問い合わせ"
           }
         },
         "ko" : {
@@ -1671,6 +2121,12 @@
             "value" : "Toss in the pasta to finish"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麺を入れて和え、仕上げる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1691,6 +2147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Boil the pasta"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麺を茹でる"
           }
         },
         "ko" : {
@@ -1715,6 +2177,12 @@
             "value" : "Finish the sauce while the pasta boils."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスタを茹でている間に、ソースまで。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1735,6 +2203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finish the sauce while the pasta boils. Each pot shows what it’s doing and how much time is left."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスタを茹でている間に、ソースまで仕上げます。鍋ごとに今の作業と残り時間を別々に表示します。"
           }
         },
         "ko" : {
@@ -1759,6 +2233,12 @@
             "value" : "Pasta pot"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスタ鍋"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1779,6 +2259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lift out the pasta, keeping the pasta water"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゆで汁を残して麺をあげる"
           }
         },
         "ko" : {
@@ -1803,6 +2289,12 @@
             "value" : "Add pasta water and toss to emulsify"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゆで汁を加えて乳化させ、和える"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1823,6 +2315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Half a cup of pasta water, toss hard to emulsify"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゆで汁半カップ、強くあおって乳化させる"
           }
         },
         "ko" : {
@@ -1847,6 +2345,12 @@
             "value" : "Pour in half a cup of pasta water and turn the heat up"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゆで汁を半カップ注いで強火に"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1867,6 +2371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save a cup of pasta water first!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先にゆで汁を1カップ取っておいて！"
           }
         },
         "ko" : {
@@ -1891,6 +2401,12 @@
             "value" : "Save a cup of pasta water first!"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先にゆで汁を1カップ！"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1911,6 +2427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ladle out a cup (200 ml) of pasta water first"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先にゆで汁を1カップ（200ml）取っておく"
           }
         },
         "ko" : {
@@ -1935,6 +2457,12 @@
             "value" : "Ladle out a cup (200 ml) of pasta water first"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先にゆで汁を1カップ（200ml）取っておく"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1955,6 +2483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adjust with pasta water — it should flow slowly"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゆで汁で濃度を調整 — とろっと流れるくらい"
           }
         },
         "ko" : {
@@ -1979,6 +2513,12 @@
             "value" : "Loosen with pasta water, 1 more minute in the sauce"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゆで汁で濃度を調整、ソースの中でもう1分"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1999,6 +2539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The pasta won’t wait, but the prep will"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麺は待ってくれないけれど、下ごしらえは待ってくれる"
           }
         },
         "ko" : {
@@ -2023,6 +2569,12 @@
             "value" : "Don’t shake it dry — move it to the pan still wet"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麺は湯切りしすぎず、水気をつけたままフライパンへ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2043,6 +2595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Can’t wait"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "後回し不可"
           }
         },
         "ko" : {
@@ -2067,6 +2625,12 @@
             "value" : "Contact"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お問い合わせ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2087,6 +2651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 L water, 2 tbsp salt"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水2L、塩大さじ2"
           }
         },
         "ko" : {
@@ -2111,6 +2681,12 @@
             "value" : "Bring the water to a boil"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お湯を沸かす"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2131,6 +2707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plenty of water, salted like the sea — about 5 minutes to boil"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水はたっぷり、塩は海水くらいに — 沸くまで5分ほど"
           }
         },
         "ko" : {
@@ -2155,6 +2737,12 @@
             "value" : "Put the water on high heat"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水を火にかけて強火にする"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2175,6 +2763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This one can’t wait"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "後回しにできない作業です"
           }
         },
         "ko" : {
@@ -2199,6 +2793,12 @@
             "value" : "Large bubbles keep rising from the bottom"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "底から大きな泡が続けて上がってきたら"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2219,6 +2819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap the button, or say “다음” (Korean for “next”) when your hands are wet. You’ll get a notification when a pot is ready."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボタンを押すか、手が濡れているときは「다음」（韓国語で「次へ」）と言ってください。鍋が仕上がったら通知でお知らせします。"
           }
         },
         "ko" : {
@@ -2244,6 +2850,12 @@
             "value" : "Easier colours and contrast"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見やすい色とコントラスト"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2265,6 +2877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Read our replies to your feedback right in the app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お寄せいただいた意見への返信を、アプリ内で読めるようになります。"
           }
         },
         "ko" : {
@@ -2290,6 +2908,12 @@
             "value" : "Replies to your feedback"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "送った意見への返信"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2310,6 +2934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Come take a look"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見に来てください"
           }
         },
         "ko" : {
@@ -2334,6 +2964,12 @@
             "value" : "Normal"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "標準"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2354,6 +2990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usually %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目安 %@"
           }
         },
         "ko" : {
@@ -2378,6 +3020,12 @@
             "value" : "1 minute less than the package says — it finishes in the pan"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "袋の表示より1分短く — 仕上げはフライパンで"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2398,6 +3046,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fan it out as it goes in — 8 minutes from the moment it hits the water"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "扇状に広げて入れる — 入れた瞬間から8分"
           }
         },
         "ko" : {
@@ -2422,6 +3076,12 @@
             "value" : "Turn off the heat, add parsley and cheese"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "火を止めて、パセリとチーズを加える"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2442,6 +3102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep the heat low — boiling makes it split"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "火は弱く — 煮立てると分離します"
           }
         },
         "ko" : {
@@ -2466,6 +3132,12 @@
             "value" : "Empty"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空き"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2486,6 +3158,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "View the Guide Again"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使い方をもう一度見る"
           }
         },
         "ko" : {
@@ -2510,6 +3188,12 @@
             "value" : "Colour shows how urgent"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色で急ぎ度がわかる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2530,6 +3214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The colour deepens and it smells nutty"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色が濃くなって香ばしい匂いがしたら"
           }
         },
         "ko" : {
@@ -2554,6 +3244,12 @@
             "value" : "Measure 200 ml cream and 2 tbsp tomato purée ahead"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生クリーム200ml、トマトペースト大さじ2を先に計量"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2574,6 +3270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pour in 200 ml cream and stir evenly"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生クリーム200mlを注いでよく混ぜる"
           }
         },
         "ko" : {
@@ -2598,6 +3300,12 @@
             "value" : "Stir, lower the heat, and reduce for 1 min 30 sec"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "混ぜて火を弱めたら、1分30秒ほど煮詰めます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2618,6 +3326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
           }
         },
         "ko" : {
@@ -2642,6 +3356,12 @@
             "value" : "Plenty of salt — about 5 minutes to boil"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "塩はたっぷり — 沸くまで5分ほど"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2662,6 +3382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep salt and pepper within reach"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "塩・こしょうも手の届くところに"
           }
         },
         "ko" : {
@@ -2686,6 +3412,12 @@
             "value" : "Easier if you do it before the sauce starts"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソースを始める前に済ませておくとラクです"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2706,6 +3438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The sauce coats the pasta evenly"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソースが麺全体にからんだら"
           }
         },
         "ko" : {
@@ -2730,6 +3468,12 @@
             "value" : "The sauce turns cloudy and clings to the pasta"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソースが白く濁ってとろみがつき、麺にからんだら"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2750,6 +3494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The sauce is timed backward from the moment the pasta comes out"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソースは、麺があがる瞬間から逆算して始まる"
           }
         },
         "ko" : {
@@ -2774,6 +3524,12 @@
             "value" : "Sauce pan"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソース用フライパン"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2794,6 +3550,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your hands are done — just wait for the pots"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手の作業は終わりました — あとは鍋を待つだけです"
           }
         },
         "ko" : {
@@ -2818,6 +3580,12 @@
             "value" : "With wet hands, just say “다음” (Korean for “next”). The app moves on without a touch."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手が濡れているときは「다음」（韓国語で「次へ」）と言ってみてください。画面に触れなくても次の作業に進みます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2838,6 +3606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g spaghetti (2 servings), 6 garlic cloves, 6 tbsp olive oil"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スパゲッティ180g（2人分）、にんにく6片、オリーブオイル大さじ6"
           }
         },
         "ko" : {
@@ -2862,6 +3636,12 @@
             "value" : "Fan out 180 g spaghetti as you add it"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スパゲッティ180gを扇状に広げて入れる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2882,6 +3662,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You can start wrapping up"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そろそろ仕上げに入れます"
           }
         },
         "ko" : {
@@ -2906,6 +3692,12 @@
             "value" : "Get Started"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2926,6 +3718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "First up when you start"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "始めたら最初にやること"
           }
         },
         "ko" : {
@@ -2950,6 +3748,12 @@
             "value" : "Pick up where you left off"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "さっきの続きから"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2970,6 +3774,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap Start Cooking below and the pot timers begin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下の「調理を始める」を押すと鍋のタイマーが動き出します"
           }
         },
         "ko" : {
@@ -2995,6 +3805,12 @@
             "value" : "Connect a keyboard to your iPad and move to the next step with a single key."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPadにキーボードをつなぐと、キーだけで次の手順に進めます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3015,6 +3831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barely a simmer — don’t let it boil"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ごく弱いふつふつ — 煮立たせないこと"
           }
         },
         "ko" : {
@@ -3039,6 +3861,12 @@
             "value" : "Very gently over very low heat"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ごく弱火でことこと"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3059,6 +3887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Largest"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "特大"
           }
         },
         "ko" : {
@@ -3083,6 +3917,12 @@
             "value" : "Not yet"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3105,6 +3945,12 @@
             "value" : "There are steps left. If you stop now, your progress will be lost."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ残りの手順があります。ここで止めると進行状況は消えます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3125,6 +3971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aglio e Olio"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーリオ・オーリオ"
           }
         },
         "ko" : {
@@ -3150,6 +4002,12 @@
             "value" : "Use the whole app in English."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを英語でも使えるようにします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3170,6 +4028,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "About %lld min · %lld pots"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "約%lld分 · 鍋%lld個"
           }
         },
         "ko" : {
@@ -3194,6 +4058,12 @@
             "value" : "Low heat! Only to pale golden"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "弱火で！ うっすら黄金色まで"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3214,6 +4084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep stirring over low heat"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "弱火でかき混ぜ続ける"
           }
         },
         "ko" : {
@@ -3238,6 +4114,12 @@
             "value" : "Slice ½ onion into fine strips"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玉ねぎ1/2個を細切りにする"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3260,6 +4142,12 @@
             "value" : "Sauté the onion"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玉ねぎを炒める"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3280,6 +4168,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slice the onion thin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玉ねぎを薄切りにする"
           }
         },
         "ko" : {
@@ -3305,6 +4199,12 @@
             "value" : "A darker screen that won’t dazzle you in a dim kitchen."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗いキッチンでもまぶしくない、暗い画面で見られます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3325,6 +4225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Can be done any time"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いつやってもいい作業"
           }
         },
         "ko" : {
@@ -3350,6 +4256,12 @@
             "value" : "The first time you open the app after an update, see what’s new."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート後に初めて開いたとき、新しくなった点をお知らせします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3373,6 +4285,12 @@
             "value" : "What’s new"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート情報"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3393,6 +4311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plenty of time"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "余裕があります"
           }
         },
         "ko" : {
@@ -3418,6 +4342,12 @@
             "value" : "Use the app in more languages beyond English."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語以外にも、もっと多くの言語で使えるようにします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3439,6 +4369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Full English support"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語に対応"
           }
         },
         "ko" : {
@@ -3463,6 +4399,12 @@
             "value" : "2 tbsp olive oil with the onion over medium-low heat"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オリーブオイル大さじ2で玉ねぎを中弱火で"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3483,6 +4425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 tbsp olive oil with sliced garlic and chilli flakes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オリーブオイル大さじ6でスライスにんにくと唐辛子を"
           }
         },
         "ko" : {
@@ -3507,6 +4455,12 @@
             "value" : "Done"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3527,6 +4481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estimated finish time"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成予定時刻"
           }
         },
         "ko" : {
@@ -3551,6 +4511,12 @@
             "value" : "Finish"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成にする"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3571,6 +4537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finish this dish?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成にしますか？"
           }
         },
         "ko" : {
@@ -3595,6 +4567,12 @@
             "value" : "It’s ready 🍴 Time to plate up"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "できあがり 🍴 お皿に盛りつけましょう"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3615,6 +4593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dish"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "料理"
           }
         },
         "ko" : {
@@ -3639,6 +4623,12 @@
             "value" : "Start Cooking"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調理を始める"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3659,6 +4649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open a Dish"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "料理を開く"
           }
         },
         "ko" : {
@@ -3684,6 +4680,12 @@
             "value" : "If the app closes mid-cook, your pot timers and progress carry right on."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調理中にアプリが終了しても、鍋のタイマーと進行状況はそのまま引き継がれます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3705,6 +4707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reduce Motion"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視差効果を減らす"
           }
         },
         "ko" : {
@@ -3730,6 +4738,12 @@
             "value" : "With Reduce Motion on, screen effects calm down."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「視差効果を減らす」をオンにすると、画面の動きが控えめになります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3747,6 +4761,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -3774,6 +4794,12 @@
             "value" : "Pause"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一時停止"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3795,6 +4821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start the dishes you cook most right from the Home Screen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "よく作る料理を、ホーム画面からすぐ始められます。"
           }
         },
         "ko" : {
@@ -3819,6 +4851,12 @@
             "value" : "Fine — no rush"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "細かく — 急がなくて大丈夫です"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3839,6 +4877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resume"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再開"
           }
         },
         "ko" : {
@@ -3863,6 +4907,12 @@
             "value" : "Set out ingredients and put the pan on"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "材料を出してフライパンを置く"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3883,6 +4933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get everything in one place"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "材料をひとまとめに"
           }
         },
         "ko" : {
@@ -3907,6 +4963,12 @@
             "value" : "Keep half for the finish"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "半分は仕上げ用に残しておく"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3927,6 +4989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Warm the plates and get ready to serve"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お皿を温めて盛りつけの準備"
           }
         },
         "ko" : {
@@ -3951,6 +5019,12 @@
             "value" : "Warm the plates with hot water, then dry them"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お皿は熱湯で温めて水気をふく"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3971,6 +5045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Warm the plates with hot water"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お皿を熱湯で温める"
           }
         },
         "ko" : {
@@ -3995,6 +5075,12 @@
             "value" : "Stop cooking and leave"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調理を中止して閉じる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4015,6 +5101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opens the cooking screen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調理画面を開きます"
           }
         },
         "ko" : {
@@ -4039,6 +5131,12 @@
             "value" : "If you prop your device up on the worktop, you can make the text larger here."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調理台に立てて見る場合は、ここで文字をさらに大きくできます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4059,6 +5157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stop cooking and leave?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調理を中止して閉じますか？"
           }
         },
         "ko" : {
@@ -4083,6 +5187,12 @@
             "value" : "A spatula leaves a trail that lingers briefly"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘラで線を引くと跡が少し残るくらい"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4103,6 +5213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stop and Leave"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中止して閉じる"
           }
         },
         "ko" : {
@@ -4127,6 +5243,12 @@
             "value" : "Medium-low heat until soft"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中弱火でやわらかくなるまで"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4147,6 +5269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Now"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今"
           }
         },
         "ko" : {
@@ -4171,6 +5299,12 @@
             "value" : "Now · can’t wait"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今すぐ · 後回しにできません"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4191,6 +5325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Do this now"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今やること"
           }
         },
         "ko" : {
@@ -4215,6 +5355,12 @@
             "value" : "Do this now · no rush"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今やること · ゆっくりでOK"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4235,6 +5381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サポート"
           }
         },
         "ko" : {
@@ -4259,6 +5411,12 @@
             "value" : "Elapsed time"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "経過時間"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4279,6 +5437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Source · %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "参考 · %@"
           }
         },
         "ko" : {
@@ -4303,6 +5467,12 @@
             "value" : "Take your time"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゆっくりで大丈夫です"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4323,6 +5493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "As thin as you can — no rush"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "できるだけ薄く — 急がなくて大丈夫です"
           }
         },
         "ko" : {
@@ -4347,6 +5523,12 @@
             "value" : "Grate the cheese and measure the sauce ingredients"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チーズをおろしてソースの材料を計量する"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4367,6 +5549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grate the cheese and warm the plates"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チーズをおろしてお皿を温める"
           }
         },
         "ko" : {
@@ -4391,6 +5579,12 @@
             "value" : "Lay the knife flat and slice thin — thick slices stay raw inside and burn outside"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "包丁を寝かせて薄く — 厚いと中は生で外だけ焦げます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4411,6 +5605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Large"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大"
           }
         },
         "ko" : {
@@ -4435,6 +5635,12 @@
             "value" : "Simmer the cream"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生クリームをことこと煮詰める"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4455,6 +5661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pour in the cream and lower the heat"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生クリームを注いで弱火にする"
           }
         },
         "ko" : {
@@ -4480,6 +5692,12 @@
             "value" : "Layouts for larger text"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きな文字に合わせた画面"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4500,6 +5718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Large bubbles keep rising"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きな泡が続けて上がってきたら"
           }
         },
         "ko" : {
@@ -4525,6 +5749,12 @@
             "value" : "Keyboard control"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボードで操作"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4545,6 +5775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "It burns easily — move on right away"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "焦げやすいのですぐ次へ"
           }
         },
         "ko" : {
@@ -4569,6 +5805,12 @@
             "value" : "The timers will reset and your progress will be lost."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイマーがリセットされ、進行状況は消えます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4589,6 +5831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Timeline · dotted bars can wait"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイムライン · 点線は後回しにできる作業"
           }
         },
         "ko" : {
@@ -4613,6 +5861,12 @@
             "value" : "Terracotta means the pasta overcooks or something burns if you wait. Green is prep, so take your time when your hands are free."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テラコタ色は、後回しにするとパスタが伸びたり焦げたりする作業です。緑は下ごしらえなので、手が空いたときにゆっくりで大丈夫です。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4633,6 +5887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tomato Cream Pasta"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トマトクリームパスタ"
           }
         },
         "ko" : {
@@ -4657,6 +5917,12 @@
             "value" : "2 tbsp tomato purée, 200 ml cream"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トマトペースト大さじ2、生クリーム200ml"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4677,6 +5943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spread 2 tbsp tomato purée across the bottom of the pan"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トマトペースト大さじ2をフライパンの底に塗り広げるように"
           }
         },
         "ko" : {
@@ -4701,6 +5973,12 @@
             "value" : "Fry the tomato purée"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トマトペーストを炒める"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4721,6 +5999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The onion turns translucent with golden edges"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透き通って縁がきつね色になったら"
           }
         },
         "ko" : {
@@ -4745,6 +6029,12 @@
             "value" : "Grate 30 g Parmigiano"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パルミジャーノ30gをおろしておく"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4765,6 +6055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 g Parmigiano, 2 tbsp olive oil"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パルミジャーノ30g、オリーブオイル大さじ2"
           }
         },
         "ko" : {
@@ -4789,6 +6085,12 @@
             "value" : "Finely grate 30 g Parmigiano"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パルミジャーノ30gを細かくおろしておく"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4809,6 +6111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g pasta — boil 1 minute less than the package says"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスタ180g — 袋の表示より1分短く茹でます"
           }
         },
         "ko" : {
@@ -4833,6 +6141,12 @@
             "value" : "180 g pasta (2 servings), ½ onion, 3 garlic cloves"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスタ180g（2人分）、玉ねぎ1/2個、にんにく3片"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4853,6 +6167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep some parsley for the finish"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パセリは仕上げ用にも残しておく"
           }
         },
         "ko" : {
@@ -4877,6 +6197,12 @@
             "value" : "Roughly chop just the parsley leaves"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パセリは葉だけを粗く刻む"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4897,6 +6223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A pan wide enough for all the pasta"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麺がすべて入る大きさのフライパンを"
           }
         },
         "ko" : {
@@ -4921,6 +6253,12 @@
             "value" : "Shake the pan for 30 seconds so the oil and water blend"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フライパンを揺すって30秒 — 油とゆで汁をなじませる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4941,6 +6279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2–3 dried chillies, a little parsley, 30 g Parmigiano"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "唐辛子2〜3本、パセリ少々、パルミジャーノ30g"
           }
         },
         "ko" : {
@@ -4965,6 +6309,12 @@
             "value" : "Halve 2–3 chillies and shake out the seeds"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "唐辛子2〜3本を半分に割って種を除く"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4987,6 +6337,12 @@
             "value" : "Chop the chilli and parsley"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "唐辛子とパセリを刻む"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5007,6 +6363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thin enough when the slices look translucent"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切り口が透けて見えるくらいなら十分薄い"
           }
         },
         "ko" : {
@@ -5032,6 +6394,12 @@
             "value" : "Foldable iPhone layout"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみiPhoneの画面"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5055,6 +6423,12 @@
             "value" : "See your pots and to-dos side by side on the wide screen of a foldable iPhone."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみiPhoneの広い画面で、鍋とやることを並べて見られます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5075,6 +6449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get everything in one place"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "必要な材料をひとまとめに"
           }
         },
         "ko" : {
@@ -5100,6 +6480,12 @@
             "value" : "Pick up where you left off"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作りかけの続きから"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5120,6 +6506,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You were on · %@ %@ — finish this first, then pick it back up"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "さっきの作業 · %@ %@ — これを先に済ませてから続けます"
           }
         },
         "ko" : {
@@ -5144,6 +6536,12 @@
             "value" : "Fry once to cook off the sourness"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一度炒めて酸味を飛ばす"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5164,6 +6562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frying it once cooks off the sourness"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一度炒めると酸味が飛びます"
           }
         },
         "ko" : {
@@ -5187,6 +6591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Home Screen widgets"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホーム画面ウィジェット"
           }
         },
         "ko" : {
