@@ -1473,3 +1473,67 @@ https://m1zz.github.io/geusaie/sv/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/sv/
+
+## tr
+
+### 이름
+
+Geusaie: makarna zamanlayıcı
+
+### 부제
+
+İki tencere kontrol altında
+
+### 키워드
+
+mutfak,tarifler,adımlar,kronometre,sayaç,carbonara,spagetti,akşam,sos,haşlama,ses,alarm,aglio
+
+### 프로모션 텍스트
+
+Su ocakta, sarımsak doğranmış, makarna içinde, sos tavada. Tek iş büyük yazıyla, her tencere için geri sayım ve ıslak ellerde sesli kumanda.
+
+### 설명
+
+İki tencere aynı anda, hiçbir şey kaçmadan. Geusaie, makarna kaynarken sosun da hazır olması için sırayı ve zamanlamayı kuran bir mutfak zamanlayıcısıdır.
+Büyük yazıyla yalnızca şimdi yapılacak tek işi gösterir ve her tencerenin süresini ayrı sayar.
+
+Yemek yapmak zor, çünkü elleriniz yavaş olduğu için değil, zaman tek bir çizgide akmadığı için. Makarna sizi beklemez, ama sarımsak doğramak her an yapılabilir. Geusaie bu farkı bilir ve adımları buna göre planlar.
+
+Her seferinde tek iş
+Ekranın üstünde ellerinizin şimdi yapması gereken tek iş büyük yazıyla görünür. Bir renk, o işin ertelenip ertelenemeyeceğini tek bakışta söyler. Nasıl yapılacağı ve bittiğinin nasıl anlaşılacağı hemen yanında yazar.
+
+Her tencere için ayrı geri sayım
+Makarna tenceresi ve sos tavası kendi kalan sürelerini gösterir. Suyun ısındığını, makarnanın haşlandığını ya da tavanın başında durduğunuzu hemen görürsünüz.
+
+Geç kalırsanız gerisi sizinle kayar
+Katı bir çizelge yok. Ocağı biraz geç açarsanız sonraki adımlar da kayar, sos ise tam makarna çıktığı anda başlayacak şekilde planlanır.
+
+Tüm zaman çizelgesi tek bakışta
+Ellerinizin, makarna tenceresinin ve sos tavasının ne zaman çakıştığını görün. Kesikli çizgili işler elleriniz boşken yapılabilir.
+
+Elleriniz ıslakken sesle
+Mikrofonu açıp ilerlemek için Korecede “ileri” anlamına gelen sözcüğü (da-eum) söyleyin. Konuşma tanıma şimdilik yalnızca Korece anlar. Mikrofon açıkken ekranda her zaman görünür ve pişirme ekranından çıkınca kapanır.
+
+Uzaktan okunan yazı
+Cihazı tezgâha dayayıp bir iki adım geri çekilin. Yazı dört kademe büyütülebilir.
+
+Hiçbir tencere unutulmaz
+Tencere hazır olunca, başka bir uygulamada olsanız bile sıradaki işle birlikte bildirim alırsınız.
+
+Dahil olan tarifler
+Aglio e olio
+Domatesli kremalı makarna
+
+iPhone ve iPad’de çalışır. Başlamak için hesap gerekmez.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/tr/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/tr/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/tr/

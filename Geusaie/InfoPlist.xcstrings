@@ -123,6 +123,12 @@
             "value" : "Geusaie"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -265,6 +271,12 @@
             "value" : "ใช้ไมโครโฟนเพื่อให้คุณพูดคำภาษาเกาหลี “다음” (“ถัดไป”) เพื่อไปขั้นตอนถัดไประหว่างทำอาหาร"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yemek yaparken Korece “다음” (“ileri”) sözcüğünü söyleyerek sonraki adıma geçebilmeniz için mikrofonu kullanır."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -405,6 +417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้การรู้จำเสียงพูดเฉพาะเพื่อจับคำภาษาเกาหลี “다음” (“ถัดไป”) ประมวลผลบนเครื่องเมื่อเป็นไปได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konuşma tanımayı yalnızca Korece “다음” (“ileri”) sözcüğünü anlamak için kullanır. Mümkün olduğunda işlem cihazda yapılır."
           }
         },
         "vi" : {

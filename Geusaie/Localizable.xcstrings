@@ -123,6 +123,12 @@
             "value" : "ฟังเฉพาะคำภาษาเกาหลี “다음” (“ถัดไป”) และไม่บันทึกเสียงไว้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalnızca Korece “다음” (“ileri”) sözcüğünü dinler, sesi asla kaydetmez"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -263,6 +269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — ทำเลยตอนนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — şimdi yapın"
           }
         },
         "vi" : {
@@ -407,6 +419,12 @@
             "value" : "หมดเวลา: %@ %@"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamanlayıcı bitti: %@ %@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -547,6 +565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ เหลือ %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, %@ kaldı"
           }
         },
         "vi" : {
@@ -691,6 +715,12 @@
             "value" : "%@ เลื่อนไม่ได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ertelenemez"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -831,6 +861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ ประมาณ %lld นาที %lld หม้อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, yaklaşık %lld dakika, %lld tencere"
           }
         },
         "vi" : {
@@ -975,6 +1011,12 @@
             "value" : "%lld นาที"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dk"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1115,6 +1157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld นาที %lld วินาที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dk %lld sn"
           }
         },
         "vi" : {
@@ -1259,6 +1307,12 @@
             "value" : "%lld วินาที"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sn"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1399,6 +1453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ต้มน้อยลง 1 นาที — ไปสุกต่อในซอส"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 dakika az — sosta pişmeyi tamamlar"
           }
         },
         "vi" : {
@@ -1544,6 +1604,12 @@
             "value" : "VoiceOver อ่านเวลาของทุกหม้อและงานที่ต้องทำให้ครบถ้วนตามลำดับที่เหมาะสม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver tüm tencere sürelerini ve işleri eksiksiz, doğru sırayla okur."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1685,6 +1751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ VoiceOver ได้สะดวกขึ้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha rahat VoiceOver"
           }
         },
         "vi" : {
@@ -1829,6 +1901,12 @@
             "value" : "กำลังต้มน้ำ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su kaynıyor"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1969,6 +2047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังต้มเส้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makarna haşlanıyor"
           }
         },
         "vi" : {
@@ -2113,6 +2197,12 @@
             "value" : "กำลังต้มน้ำ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su kaynıyor"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2253,6 +2343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังต้มเส้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makarna haşlanıyor"
           }
         },
         "vi" : {
@@ -2397,6 +2493,12 @@
             "value" : "กำลังเคี่ยวครีม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krema demleniyor"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2537,6 +2639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กระเทียมสีน้ำตาลจะขม — พอสีเริ่มเข้มให้ยกออกจากไฟ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kahverengi sarımsak acılaşır — renk koyulaşmaya başlayınca ateşten alın"
           }
         },
         "vi" : {
@@ -2681,6 +2789,12 @@
             "value" : "ใกล้เสร็จแล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neredeyse hazır"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2821,6 +2935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้าม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atla"
           }
         },
         "vi" : {
@@ -2965,6 +3085,12 @@
             "value" : "ใส่เส้นที่ตักไว้ลงในซอส 1 นาที"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Süzülen makarnayı 1 dakika sosun içine alın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3105,6 +3231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หั่นขวางเสี้ยนจะนุ่มเร็วกว่า"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lifleri kesecek şekilde doğranırsa daha çabuk yumuşar"
           }
         },
         "vi" : {
@@ -3249,6 +3381,12 @@
             "value" : "ทำอาหารต่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yemeğe devam et"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3389,6 +3527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดหน้าจอทำอาหารของเมนูที่เลือก ตัวจับเวลาจะเริ่มเมื่อแตะเริ่ม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçilen yemeğin pişirme ekranını açar. Başlat’a dokununca zamanlayıcılar çalışmaya başlar."
           }
         },
         "vi" : {
@@ -3533,6 +3677,12 @@
             "value" : "สับให้ละเอียด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İnce kıyın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3670,6 +3820,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -3817,6 +3973,12 @@
             "value" : "ขนาดตัวอักษร"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazı boyutu"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3958,6 +4120,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แม้ขยายขนาดตัวอักษรของเครื่อง รายการสูตรและหน้าจอจะจัดวางใหม่โดยไม่ถูกตัด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cihazın yazı boyutunu büyütseniz bile tarif listesi ve ekranlar kesilmek yerine yeniden düzenlenir."
           }
         },
         "vi" : {
@@ -4102,6 +4270,12 @@
             "value" : "ปิด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapat"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4242,6 +4416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ระหว่างรอน้ำเดือด ให้ทำงานเตรียม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaynarken hazırlıkları yapın"
           }
         },
         "vi" : {
@@ -4386,6 +4566,12 @@
             "value" : "ระหว่างรอน้ำเดือด เตรียมหัวหอมและกระเทียม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaynarken soğan ve sarımsağı hazırlayın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4526,6 +4712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อน้ำเดือด ใส่เส้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaynayınca makarnayı atın"
           }
         },
         "vi" : {
@@ -4670,6 +4862,12 @@
             "value" : "ห้ามให้เดือดพล่าน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaynatmayın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4810,6 +5008,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บอกด้วยเมื่อทำเสร็จ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitirince haber verin"
           }
         },
         "vi" : {
@@ -4954,6 +5158,12 @@
             "value" : "เสร็จแล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitti"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5094,6 +5304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วางชีสและพริกไทยที่เหลือไว้ข้าง ๆ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Artan peynir ve karabiberi yanınıza koyun"
           }
         },
         "vi" : {
@@ -5238,6 +5454,12 @@
             "value" : "มือของฉัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ellerim"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5378,6 +5600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังทำอยู่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sizde"
           }
         },
         "vi" : {
@@ -5522,6 +5750,12 @@
             "value" : "สองหม้อ ในหน้าจอเดียว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İki tencere, tek ekran"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5662,6 +5896,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เราจะแจ้งเมื่อหม้อเสร็จ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tencere hazır olunca haber veririz."
           }
         },
         "vi" : {
@@ -5806,6 +6046,12 @@
             "value" : "12 นาทีนับจากตอนใส่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suya girdiği andan itibaren 12 dakika"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5946,6 +6192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คนหนึ่งครั้งทันที เพื่อไม่ให้เส้นติดกัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atar atmaz bir kez karıştırın ki yapışmasın"
           }
         },
         "vi" : {
@@ -6090,6 +6342,12 @@
             "value" : "ถ้าติดกระทะ ใส่น้ำ 1 ช้อน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yapışırsa bir kaşık su ekleyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6230,6 +6488,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช้าแล้ว · ทำเดี๋ยวนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gecikti · hemen yapın"
           }
         },
         "vi" : {
@@ -6374,6 +6638,12 @@
             "value" : "ใช้เสร็จแล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanımı bitti"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6514,6 +6784,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อทำเสร็จ ให้พูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İşiniz bitince “다음” deyin (Korecede “ileri”)"
           }
         },
         "vi" : {
@@ -6658,6 +6934,12 @@
             "value" : "เสร็จแล้ว? พูดว่า “다음”"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitti mi? “다음” deyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6798,6 +7080,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อทำเสร็จ ให้พูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İşiniz bitince “다음” deyin (Korecede “ileri”)"
           }
         },
         "vi" : {
@@ -6942,6 +7230,12 @@
             "value" : "ถัดไป"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İleri"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7084,6 +7378,12 @@
             "value" : "ถัดไป · %@ %@"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonra · %@ %@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7224,6 +7524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใส่กระเทียมสับและพริกไทย ผัด 30 วินาที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kıyılmış sarımsak ve karabiberi 30 saniye ekleyin"
           }
         },
         "vi" : {
@@ -7369,6 +7675,12 @@
             "value" : "โหมดมืด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koyu mod"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7509,6 +7821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปิด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapat"
           }
         },
         "vi" : {
@@ -7654,6 +7972,12 @@
             "value" : "ดูสถานะของแต่ละหม้อได้ แม้เปิดเพิ่มคอนทราสต์หรือแยกสีได้ยาก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karşıtlığı artırsanız ya da renkleri ayırt etmekte zorlansanız bile her tencerenin durumunu görün."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7795,6 +8119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาเพิ่มเติม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha fazla dil"
           }
         },
         "vi" : {
@@ -7939,6 +8269,12 @@
             "value" : "ใหญ่ขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha büyük"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8079,6 +8415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วิธีใช้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yardım"
           }
         },
         "vi" : {
@@ -8223,6 +8565,12 @@
             "value" : "ปิดฝาจะเดือดเร็วขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapağı kapatırsanız daha çabuk kaynar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8363,6 +8711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สับกระเทียม 3 กลีบให้ละเอียด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 diş sarımsağı ince kıyın"
           }
         },
         "vi" : {
@@ -8507,6 +8861,12 @@
             "value" : "กระเทียม 6 กลีบ หั่นหนา 1–2 มม."
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 diş sarımsağı 1–2 mm kalınlığında dilimleyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8647,6 +9007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อขอบกระเทียมเป็นสีทองอ่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarımsağın kenarları açık altın renk olunca"
           }
         },
         "vi" : {
@@ -8791,6 +9157,12 @@
             "value" : "สับกระเทียม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarımsağı kıyın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8931,6 +9303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หั่นกระเทียมเป็นแว่นบาง ๆ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarımsağı ince dilimleyin"
           }
         },
         "vi" : {
@@ -9075,6 +9453,12 @@
             "value" : "เมื่อได้กลิ่นกระเทียมหอม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarımsağın kokusu çıkınca"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9215,6 +9599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผัดกระเทียมกับน้ำมัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarımsağı yağda kavurun"
           }
         },
         "vi" : {
@@ -9359,6 +9749,12 @@
             "value" : "ใส่กระเทียมและพริกไทย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarımsak ve karabiber ekleyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9499,6 +9895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กระเทียมไหม้ง่าย ให้คนตลอด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarımsak çabuk yanar, sürekli karıştırın"
           }
         },
         "vi" : {
@@ -9643,6 +10045,12 @@
             "value" : "ถ้าทำก่อนขั้นตอนสุดท้ายจะสบายกว่า"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son aşamadan önce yaparsanız daha rahat olur"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9783,6 +10191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปิดไมโครโฟน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonu kapat"
           }
         },
         "vi" : {
@@ -9927,6 +10341,12 @@
             "value" : "เปิดไมโครโฟน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonu aç"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10067,6 +10487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดไมโครโฟน · กำลังฟัง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon açık · Dinliyor"
           }
         },
         "vi" : {
@@ -10211,6 +10637,12 @@
             "value" : "เปิดไมโครโฟนอยู่ กำลังฟังคำภาษาเกาหลี “다음” (“ถัดไป”)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon açık. Korece “다음” (“ileri”) sözcüğü dinleniyor"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10351,6 +10783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไปต่อด้วยเสียง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesle devam"
           }
         },
         "vi" : {
@@ -10495,6 +10933,12 @@
             "value" : "เห็นชัดแม้ยืนห่าง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uzaktan da rahat okunur"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10635,6 +11079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดต่อทางอีเมล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-posta ile yazın"
           }
         },
         "vi" : {
@@ -10779,6 +11229,12 @@
             "value" : "ใส่เส้นแล้วคลุกให้เข้ากันเพื่อจบ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makarnayı ekleyip karıştırarak bitirin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10919,6 +11375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ต้มเส้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makarnayı haşlayın"
           }
         },
         "vi" : {
@@ -11063,6 +11525,12 @@
             "value" : "ระหว่างที่เส้นพาสต้ากำลังต้ม ซอสก็เสร็จไปด้วย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makarna kaynarken sos da hazır olur."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11203,6 +11671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ระหว่างที่เส้นพาสต้ากำลังต้ม ซอสก็เสร็จไปด้วย แต่ละหม้อจะแสดงว่ากำลังทำอะไรและเหลือเวลาเท่าไร"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makarna kaynarken sos da hazır olur. Her tencere ne yaptığını ve ne kadar süre kaldığını gösterir."
           }
         },
         "vi" : {
@@ -11347,6 +11821,12 @@
             "value" : "หม้อต้มเส้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makarna tenceresi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11487,6 +11967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตักเส้นขึ้น แล้วเก็บน้ำต้มเส้นไว้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makarnayı alın, haşlama suyunu ayırın"
           }
         },
         "vi" : {
@@ -11631,6 +12117,12 @@
             "value" : "ใส่น้ำต้มเส้นแล้วเคล้าให้เข้ากัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haşlama suyunu ekleyip emülsiyon yapın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11771,6 +12263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "น้ำต้มเส้นครึ่งถ้วย เขย่ากระทะแรง ๆ ให้เข้ากัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yarım bardak haşlama suyu, emülsiyon için güçlüce sallayın"
           }
         },
         "vi" : {
@@ -11915,6 +12413,12 @@
             "value" : "เทน้ำต้มเส้นครึ่งถ้วย แล้วเร่งไฟแรง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yarım bardak haşlama suyu dökün ve ateşi açın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12055,6 +12559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตักน้ำต้มเส้นไว้ 1 ถ้วยก่อน!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önce bir bardak haşlama suyu ayırın!"
           }
         },
         "vi" : {
@@ -12199,6 +12709,12 @@
             "value" : "ตักน้ำต้มเส้นไว้ 1 ถ้วยก่อน!"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önce bir bardak haşlama suyu ayırın!"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12339,6 +12855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตักน้ำต้มเส้นไว้ 1 ถ้วย (200 มล.) ก่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önce bir su bardağı (200 ml) haşlama suyu ayırın"
           }
         },
         "vi" : {
@@ -12483,6 +13005,12 @@
             "value" : "ตักน้ำต้มเส้นไว้ 1 ถ้วย (200 มล.) ก่อน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önce bir su bardağı (200 ml) haşlama suyu ayırın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12623,6 +13151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปรับความข้นด้วยน้ำต้มเส้น — ให้ไหลช้า ๆ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kıvamı haşlama suyuyla ayarlayın — yavaşça akmalı"
           }
         },
         "vi" : {
@@ -12767,6 +13301,12 @@
             "value" : "ปรับความข้นด้วยน้ำต้มเส้น แล้วอยู่ในซอสต่ออีก 1 นาที"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haşlama suyuyla ayarlayın, sosta 1 dakika daha"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12907,6 +13447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เส้นไม่รอเรา แต่งานเตรียมรอได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makarna beklemez, hazırlık bekler"
           }
         },
         "vi" : {
@@ -13051,6 +13597,12 @@
             "value" : "อย่าสะบัดน้ำออกจนแห้ง ปล่อยให้เปียกแล้วลงกระทะทันที"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Süzmeyin, ıslakken doğrudan tavaya alın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13191,6 +13743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลื่อนไม่ได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ertelenemez"
           }
         },
         "vi" : {
@@ -13335,6 +13893,12 @@
             "value" : "ติดต่อเรา"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İletişim"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13475,6 +14039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "น้ำ 2 ลิตร เกลือ 2 ช้อนโต๊ะ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 litre su, 2 yemek kaşığı tuz"
           }
         },
         "vi" : {
@@ -13619,6 +14189,12 @@
             "value" : "ต้มน้ำให้เดือด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suyu kaynatın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13759,6 +14335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "น้ำเยอะ ๆ เกลือให้เค็มเหมือนน้ำทะเล — ใช้เวลาต้มประมาณ 5 นาที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bol su ve deniz suyu kadar tuz — kaynaması yaklaşık 5 dakika sürer"
           }
         },
         "vi" : {
@@ -13903,6 +14485,12 @@
             "value" : "ตั้งน้ำบนไฟแรง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suyu yüksek ateşe koyun"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14043,6 +14631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สิ่งนี้เลื่อนไม่ได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu ertelenemez"
           }
         },
         "vi" : {
@@ -14187,6 +14781,12 @@
             "value" : "เมื่อฟองใหญ่ลอยขึ้นจากก้นหม้อไม่หยุด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabandan sürekli büyük kabarcıklar çıktığında"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14327,6 +14927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะปุ่ม หรือถ้ามือเปียกให้พูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”) เมื่อหม้อเสร็จ จะมีการแจ้งเตือนบอก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düğmeye dokunun ya da elleriniz ıslakken “다음” deyin (Korecede “ileri”). Tencere hazır olunca bildirim alırsınız."
           }
         },
         "vi" : {
@@ -14472,6 +15078,12 @@
             "value" : "สีและคอนทราสต์ที่ดูสบาย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rahat renkler ve karşıtlık"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14613,6 +15225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อ่านคำตอบต่อความคิดเห็นที่คุณส่งมาได้ในแอป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gönderdiğiniz geri bildirimlere verilen yanıtları uygulama içinde okuyun."
           }
         },
         "vi" : {
@@ -14758,6 +15376,12 @@
             "value" : "คำตอบถึงความคิดเห็นที่ส่งมา"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geri bildirimlerinize yanıtlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14898,6 +15522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มาดูหน่อย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelip bakın"
           }
         },
         "vi" : {
@@ -15042,6 +15672,12 @@
             "value" : "ปกติ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15182,6 +15818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปกติใช้เวลา %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genellikle %@"
           }
         },
         "vi" : {
@@ -15326,6 +15968,12 @@
             "value" : "ต้มน้อยกว่าที่ระบุบนซอง 1 นาที — ไปทำให้สุกต่อในกระทะ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paketteki süreden 1 dakika az — son aşamayı tavada tamamlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15466,6 +16114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แผ่เป็นพัดแล้วใส่ — ต้ม 8 นาทีนับจากตอนใส่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yelpaze gibi açarak atın — suya girdiği andan itibaren 8 dakika"
           }
         },
         "vi" : {
@@ -15610,6 +16264,12 @@
             "value" : "ปิดไฟ ใส่พาร์สลีย์และชีส"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ateşi kapatın, maydanoz ve peynir ekleyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15750,6 +16410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไฟอ่อน — ถ้าเดือดซอสจะแตกมัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kısık ateş — kaynarsa sos kesilir"
           }
         },
         "vi" : {
@@ -15894,6 +16560,12 @@
             "value" : "ว่าง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boş"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16034,6 +16706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูวิธีใช้อีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanım kılavuzunu yeniden gör"
           }
         },
         "vi" : {
@@ -16178,6 +16856,12 @@
             "value" : "สีบอกความเร่งด่วน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renk aciliyeti gösterir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16318,6 +17002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อสีเข้มขึ้นและมีกลิ่นหอมคั่ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rengi koyulaşıp kavrulmuş kokusu gelince"
           }
         },
         "vi" : {
@@ -16462,6 +17152,12 @@
             "value" : "ตวงวิปปิ้งครีม 200 มล. และซอสมะเขือเทศเข้มข้น 2 ช้อนโต๊ะไว้ล่วงหน้า"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200 ml krema ve 2 yemek kaşığı salçayı önceden ölçün"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16602,6 +17298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เทวิปปิ้งครีม 200 มล. แล้วคนให้เข้ากัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200 ml krema dökün ve eşit biçimde karıştırın"
           }
         },
         "vi" : {
@@ -16746,6 +17448,12 @@
             "value" : "คนให้เข้ากัน ลดไฟ แล้วเคี่ยว 1 นาที 30 วินาที"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karıştırın, ateşi kısın, 1 dakika 30 saniye kadar azalmasını bekleyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16886,6 +17594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การตั้งค่า"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar"
           }
         },
         "vi" : {
@@ -17030,6 +17744,12 @@
             "value" : "ใส่เกลือเยอะ ๆ — ใช้เวลาต้มประมาณ 5 นาที"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bol tuz — kaynaması yaklaşık 5 dakika sürer"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17170,6 +17890,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วางเกลือและพริกไทยไว้ใกล้มือด้วย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuz ve karabiber de elinizin altında olsun"
           }
         },
         "vi" : {
@@ -17314,6 +18040,12 @@
             "value" : "ถ้าทำก่อนเริ่มทำซอสจะสบายกว่า"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sosa başlamadan önce yaparsanız daha rahat olur"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17454,6 +18186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อซอสเคลือบเส้นทั่วถึง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sos makarnayı eşit biçimde kaplayınca"
           }
         },
         "vi" : {
@@ -17598,6 +18336,12 @@
             "value" : "เมื่อซอสขุ่นข้นและเคลือบเส้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sos bulanıklaşıp kıvam alıp makarnaya yapışınca"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17738,6 +18482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซอสถูกวางแผนย้อนกลับจากเวลาที่เส้นเสร็จ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sos, makarnanın çıkacağı andan geriye doğru planlanır"
           }
         },
         "vi" : {
@@ -17882,6 +18632,12 @@
             "value" : "กระทะซอส"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sos tavası"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18022,6 +18778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มือว่างแล้ว — เหลือแค่รอหม้อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elleriniz işini bitirdi — geriye tencereleri beklemek kaldı"
           }
         },
         "vi" : {
@@ -18166,6 +18928,12 @@
             "value" : "ถ้ามือเปียก ลองพูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”) แอปจะไปขั้นตอนถัดไปโดยไม่ต้องแตะหน้าจอ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elleriniz ıslakken “다음” deyin (Korecede “ileri”). Uygulama ekrana dokunmanıza gerek kalmadan sonraki adıma geçer."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18306,6 +19074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สปาเกตตี 180 กรัม (2 ที่) กระเทียม 6 กลีบ น้ำมันมะกอก 6 ช้อนโต๊ะ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g spagetti (2 porsiyon), 6 diş sarımsak, 6 yemek kaşığı zeytinyağı"
           }
         },
         "vi" : {
@@ -18450,6 +19224,12 @@
             "value" : "ใส่สปาเกตตี 180 กรัม โดยแผ่ออกเป็นพัด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g spagettiyi yelpaze gibi açarak atın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18590,6 +19370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มเก็บงานได้แล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toparlamaya başlayabilirsiniz"
           }
         },
         "vi" : {
@@ -18734,6 +19520,12 @@
             "value" : "เริ่มต้นใช้งาน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başla"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18874,6 +19666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำสิ่งนี้ก่อนเมื่อเริ่ม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlayınca ilk iş"
           }
         },
         "vi" : {
@@ -19018,6 +19816,12 @@
             "value" : "ทำต่อจากที่ค้างไว้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaldığınız yerden devam et"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19158,6 +19962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะ “เริ่มทำอาหาร” ด้านล่าง แล้วตัวจับเวลาของหม้อจะเริ่มเดิน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aşağıdaki “Yemeğe başla” düğmesine dokunun, tencerelerin zamanlayıcıları işlemeye başlasın"
           }
         },
         "vi" : {
@@ -19303,6 +20113,12 @@
             "value" : "ต่อคีย์บอร์ดกับ iPad แล้วไปขั้นตอนถัดไปได้ด้วยการกดปุ่มเดียว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad’e klavye bağlayın, tek tuşla sonraki adıma geçin."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19443,6 +20259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เดือดปุด ๆ แผ่ว ๆ เท่านั้น — ห้ามเดือดพล่าน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancak hafif kabarcıklansın — kaynatmayın"
           }
         },
         "vi" : {
@@ -19587,6 +20409,12 @@
             "value" : "ไฟอ่อนมาก ให้เดือดปุด ๆ แผ่ว ๆ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çok kısık ateşte, ancak hafifçe kabarcıklanacak kadar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19727,6 +20555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใหญ่สุด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En büyük"
           }
         },
         "vi" : {
@@ -19871,6 +20705,12 @@
             "value" : "ยังไม่ถึง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz değil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20013,6 +20853,12 @@
             "value" : "ยังมีขั้นตอนเหลืออยู่ หากหยุดตอนนี้ ความคืบหน้าจะหายไป"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hâlâ bitmemiş adımlar var. Şimdi durursanız ilerlemeniz kaybolur."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20153,6 +20999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อาลิโอ โอลิโอ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aglio e olio"
           }
         },
         "vi" : {
@@ -20298,6 +21150,12 @@
             "value" : "ใช้แอปเป็นภาษาอังกฤษได้ด้วย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı İngilizce de kullanabilirsiniz."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20438,6 +21296,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ประมาณ %lld นาที · %lld หม้อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yaklaşık %lld dk · %lld tencere"
           }
         },
         "vi" : {
@@ -20582,6 +21446,12 @@
             "value" : "ไฟอ่อน! ผัดแค่ให้เป็นสีทองอ่อน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kısık ateş! Yalnızca açık altın rengine kadar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20722,6 +21592,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ไฟอ่อน คนตลอดเวลา"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kısık ateşte sürekli karıştırın"
           }
         },
         "vi" : {
@@ -20866,6 +21742,12 @@
             "value" : "หั่นหัวหอม 1/2 หัวเป็นเส้นเล็ก ๆ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1/2 soğanı ince şeritler halinde doğrayın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21008,6 +21890,12 @@
             "value" : "ผัดหัวหอม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soğanı kavurun"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21148,6 +22036,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หั่นหัวหอมเป็นเส้นบาง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soğanı ince doğrayın"
           }
         },
         "vi" : {
@@ -21293,6 +22187,12 @@
             "value" : "ดูผ่านหน้าจอสีเข้มที่ไม่แยงตา แม้ในครัวที่มืด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loş mutfakta gözü almayan koyu bir ekran."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21433,6 +22333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำตอนไหนก็ได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her an yapılabilir"
           }
         },
         "vi" : {
@@ -21578,6 +22484,12 @@
             "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncellemeden sonra ilk açışınızda nelerin yeni olduğunu görürsünüz."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21721,6 +22633,12 @@
             "value" : "มีอะไรใหม่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilikler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21861,6 +22779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังมีเวลาเหลือเฟือ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bolca zaman var"
           }
         },
         "vi" : {
@@ -22006,6 +22930,12 @@
             "value" : "นอกจากภาษาอังกฤษ จะรองรับภาษาอื่นเพิ่มขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İngilizcenin yanı sıra uygulama daha fazla dilde sunulacak."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22147,6 +23077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รองรับภาษาอังกฤษ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İngilizce desteği"
           }
         },
         "vi" : {
@@ -22291,6 +23227,12 @@
             "value" : "น้ำมันมะกอก 2 ช้อนโต๊ะ กับหัวหอม ไฟกลางค่อนอ่อน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 yemek kaşığı zeytinyağıyla soğanı orta kısık ateşte"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22431,6 +23373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "น้ำมันมะกอก 6 ช้อนโต๊ะ กับกระเทียมหั่นแว่นและพริกแห้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 yemek kaşığı zeytinyağı, sarımsak dilimleri ve pul biber"
           }
         },
         "vi" : {
@@ -22575,6 +23523,12 @@
             "value" : "เสร็จ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitti"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22715,6 +23669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เวลาที่คาดว่าจะเสร็จ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tahmini bitiş saati"
           }
         },
         "vi" : {
@@ -22859,6 +23819,12 @@
             "value" : "เสร็จแล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamamla"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22999,6 +23965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำเครื่องหมายว่าเสร็จแล้วไหม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamamlandı olarak işaretlensin mi?"
           }
         },
         "vi" : {
@@ -23143,6 +24115,12 @@
             "value" : "เสร็จแล้ว 🍴 ตักใส่จานได้เลย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hazır 🍴 Tabaklara alın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23283,6 +24261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมนู"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yemek"
           }
         },
         "vi" : {
@@ -23427,6 +24411,12 @@
             "value" : "เริ่มทำอาหาร"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yemeğe başla"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23567,6 +24557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดเมนู"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yemeği aç"
           }
         },
         "vi" : {
@@ -23712,6 +24708,12 @@
             "value" : "แม้แอปปิดระหว่างทำอาหาร เวลาของหม้อและความคืบหน้าก็ยังต่อเนื่องเหมือนเดิม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yemek yaparken uygulama kapanırsa tencere zamanlayıcıları ve ilerlemeniz olduğu gibi korunur."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23853,6 +24855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลดการเคลื่อนไหว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareketi azalt"
           }
         },
         "vi" : {
@@ -23998,6 +25006,12 @@
             "value" : "เมื่อเปิด “ลดการเคลื่อนไหว” เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Hareketi Azalt” açıkken ekran efektleri daha sakin olur."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24135,6 +25149,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -24282,6 +25302,12 @@
             "value" : "หยุดชั่วคราว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duraklat"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24423,6 +25449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มเมนูที่ทำบ่อยได้จากหน้าจอโฮมเลย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sık yaptığınız yemekleri doğrudan Ana Ekran’dan başlatın."
           }
         },
         "vi" : {
@@ -24567,6 +25599,12 @@
             "value" : "ละเอียด ๆ — ไม่ต้องรีบ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İnce — acele yok"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24707,6 +25745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำต่อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sürdür"
           }
         },
         "vi" : {
@@ -24851,6 +25895,12 @@
             "value" : "เตรียมวัตถุดิบและตั้งกระทะ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malzemeleri çıkarın ve tavayı ocağa koyun"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24991,6 +26041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วางวัตถุดิบไว้ที่เดียวกัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malzemeleri tek yerde toplayın"
           }
         },
         "vi" : {
@@ -25135,6 +26191,12 @@
             "value" : "แบ่งครึ่งหนึ่งไว้โรยตอนท้าย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yarısını son dokunuş için ayırın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25275,6 +26337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อุ่นจานและเตรียมเสิร์ฟ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabakları ısıtın ve servise hazırlanın"
           }
         },
         "vi" : {
@@ -25419,6 +26487,12 @@
             "value" : "ราดน้ำร้อนอุ่นจาน แล้วเช็ดให้แห้ง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabakları sıcak suyla ısıtıp kurulayın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25559,6 +26633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ราดน้ำร้อนอุ่นจาน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabakları sıcak suyla ısıtın"
           }
         },
         "vi" : {
@@ -25703,6 +26783,12 @@
             "value" : "หยุดทำอาหารและออก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yemek yapmayı bırak ve çık"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25843,6 +26929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดหน้าจอทำอาหาร"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pişirme ekranını açar"
           }
         },
         "vi" : {
@@ -25987,6 +27079,12 @@
             "value" : "ถ้าตั้งเครื่องไว้บนเคาน์เตอร์ครัว คุณสามารถขยายตัวอักษรให้ใหญ่ขึ้นได้ที่นี่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cihazı tezgâha dayarsanız yazıyı buradan daha da büyütebilirsiniz."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26127,6 +27225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หยุดทำอาหารและออกไหม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yemek yapmayı bırakıp çıkılsın mı?"
           }
         },
         "vi" : {
@@ -26271,6 +27375,12 @@
             "value" : "เมื่อใช้ไม้พายปาดแล้วมีรอยอยู่ชั่วครู่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spatulayla çizince iz kısa süre kalıyorsa"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26411,6 +27521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หยุดและออก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bırak ve çık"
           }
         },
         "vi" : {
@@ -26555,6 +27671,12 @@
             "value" : "ไฟกลางค่อนอ่อน จนหัวหอมนุ่ม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yumuşayana kadar orta kısık ateşte"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26695,6 +27817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตอนนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi"
           }
         },
         "vi" : {
@@ -26839,6 +27967,12 @@
             "value" : "ตอนนี้ · เลื่อนไม่ได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi · ertelenemez"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26979,6 +28113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สิ่งที่ต้องทำตอนนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi yapılacak"
           }
         },
         "vi" : {
@@ -27123,6 +28263,12 @@
             "value" : "สิ่งที่ต้องทำตอนนี้ · ไม่ต้องรีบ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi yapılacak · acele yok"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27263,6 +28409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช่วยเหลือ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destek"
           }
         },
         "vi" : {
@@ -27407,6 +28559,12 @@
             "value" : "เวลาที่ผ่านไป"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geçen süre"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27547,6 +28705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แหล่งที่มา · %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaynak · %@"
           }
         },
         "vi" : {
@@ -27691,6 +28855,12 @@
             "value" : "ค่อย ๆ ทำได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acele etmeyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27831,6 +29001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บางที่สุดเท่าที่ทำได้ — ไม่ต้องรีบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mümkün olduğunca ince — acele yok"
           }
         },
         "vi" : {
@@ -27975,6 +29151,12 @@
             "value" : "ขูดชีสและตวงวัตถุดิบสำหรับซอส"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peyniri rendeleyin, sos malzemelerini tartın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28115,6 +29297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขูดชีสและอุ่นจาน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peyniri rendeleyin, tabakları ısıtın"
           }
         },
         "vi" : {
@@ -28259,6 +29447,12 @@
             "value" : "วางมีดเอียงแล้วหั่นบาง ๆ — ถ้าหนา ข้างในจะไม่สุกแต่ข้างนอกไหม้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bıçağı yatık tutup ince doğrayın — kalın olursa içi çiğ kalır, dışı yanar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28399,6 +29593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใหญ่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük"
           }
         },
         "vi" : {
@@ -28543,6 +29743,12 @@
             "value" : "เคี่ยวครีมเบา ๆ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kremayı kısık ateşte demleyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28683,6 +29889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เทครีมและลดไฟให้อ่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kremayı dökün, ateşi kısın"
           }
         },
         "vi" : {
@@ -28828,6 +30040,12 @@
             "value" : "หน้าจอที่รองรับตัวอักษรใหญ่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük yazıya uygun ekranlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28968,6 +30186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อฟองใหญ่ลอยขึ้นไม่หยุด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sürekli büyük kabarcıklar çıktığında"
           }
         },
         "vi" : {
@@ -29113,6 +30337,12 @@
             "value" : "ควบคุมด้วยคีย์บอร์ด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klavyeyle kullanım"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29253,6 +30483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไหม้ง่าย — ไปขั้นตอนถัดไปทันที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çabuk yanar — hemen sonraki adıma geçin"
           }
         },
         "vi" : {
@@ -29397,6 +30633,12 @@
             "value" : "ตัวจับเวลาจะถูกรีเซ็ต และความคืบหน้าจะหายไป"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamanlayıcılar sıfırlanır ve ilerlemeniz kaybolur."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29537,6 +30779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไทม์ไลน์ · แถบเส้นประคือสิ่งที่เลื่อนได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaman çizelgesi · kesikli çubuklar ertelenebilir"
           }
         },
         "vi" : {
@@ -29681,6 +30929,12 @@
             "value" : "สีเทอร์ราคอตตาคือสิ่งที่ถ้าเลื่อนแล้วเส้นจะเปื่อยหรือซอสจะไหม้ ส่วนสีเขียวคืองานเตรียม ทำช้า ๆ ตอนมือว่างได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiremit rengi, ertelenirse makarnayı fazla pişiren ya da yakan işlerdir. Yeşil hazırlıktır; elleriniz boşken acele etmeden yapın."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29821,6 +31075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พาสต้าครีมมะเขือเทศ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domatesli kremalı makarna"
           }
         },
         "vi" : {
@@ -29965,6 +31225,12 @@
             "value" : "ซอสมะเขือเทศเข้มข้น 2 ช้อนโต๊ะ วิปปิ้งครีม 200 มล."
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 yemek kaşığı salça, 200 ml krema"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30105,6 +31371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ป้ายซอสมะเขือเทศเข้มข้น 2 ช้อนโต๊ะให้ทั่วก้นกระทะ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 yemek kaşığı salçayı tavanın tabanına yayın"
           }
         },
         "vi" : {
@@ -30249,6 +31521,12 @@
             "value" : "ผัดซอสมะเขือเทศเข้มข้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domates salçasını kavurun"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30389,6 +31667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อหัวหอมใสและขอบเริ่มเป็นสีเหลืองทอง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saydamlaşıp kenarları altın rengi olunca"
           }
         },
         "vi" : {
@@ -30533,6 +31817,12 @@
             "value" : "ขูดพาร์เมซานชีส 30 กรัมเตรียมไว้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g parmigiano rendeleyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30673,6 +31963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พาร์เมซานชีส 30 กรัม น้ำมันมะกอก 2 ช้อนโต๊ะ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g parmigiano, 2 yemek kaşığı zeytinyağı"
           }
         },
         "vi" : {
@@ -30817,6 +32113,12 @@
             "value" : "ขูดพาร์เมซานชีส 30 กรัมให้ละเอียดเตรียมไว้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g parmigianoyu ince rendeleyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30957,6 +32259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พาสต้า 180 กรัม — ต้มน้อยกว่าที่ระบุบนซอง 1 นาที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g makarna — paketteki süreden 1 dakika az haşlayın"
           }
         },
         "vi" : {
@@ -31101,6 +32409,12 @@
             "value" : "พาสต้า 180 กรัม (2 ที่) หัวหอม 1/2 หัว กระเทียม 3 กลีบ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g makarna (2 porsiyon), 1/2 soğan, 3 diş sarımsak"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31241,6 +32555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เหลือพาร์สลีย์ไว้โรยตอนท้ายด้วย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son dokunuş için biraz maydanoz ayırın"
           }
         },
         "vi" : {
@@ -31385,6 +32705,12 @@
             "value" : "สับเฉพาะใบพาร์สลีย์แบบหยาบ ๆ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maydanozun yalnızca yapraklarını iri doğrayın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31525,6 +32851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กระทะที่กว้างพอใส่เส้นได้ทั้งหมด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm makarnanın sığacağı genişlikte bir tava"
           }
         },
         "vi" : {
@@ -31669,6 +33001,12 @@
             "value" : "เขย่ากระทะ 30 วินาที — ให้น้ำมันกับน้ำเข้ากัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yağ ve su birleşsin diye tavayı 30 saniye sallayın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31809,6 +33147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พริกแห้ง 2–3 เม็ด พาร์สลีย์เล็กน้อย พาร์เมซานชีส 30 กรัม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 kuru biber, biraz maydanoz, 30 g parmigiano"
           }
         },
         "vi" : {
@@ -31953,6 +33297,12 @@
             "value" : "ผ่าพริกแห้ง 2–3 เม็ดครึ่งหนึ่ง แล้วสะบัดเม็ดออก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 kuru biberi ortadan ikiye bölüp tohumlarını silkeleyin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32095,6 +33445,12 @@
             "value" : "สับพริกแห้งและพาร์สลีย์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuru biber ve maydanozu doğrayın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32235,6 +33591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ้าแผ่นกระเทียมโปร่งแสงก็บางพอแล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dilimler yarı saydam görünüyorsa yeterince incedir"
           }
         },
         "vi" : {
@@ -32380,6 +33742,12 @@
             "value" : "หน้าจอ iPhone แบบพับได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone ekranı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32523,6 +33891,12 @@
             "value" : "บนหน้าจอกว้างของ iPhone แบบพับได้ ดูหม้อกับงานที่ต้องทำเคียงข้างกัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone’un geniş ekranında tencereleri ve işleri yan yana görün."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32663,6 +34037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วางของที่ต้องใช้ไว้ที่เดียวกัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gereken her şeyi tek yerde toplayın"
           }
         },
         "vi" : {
@@ -32808,6 +34188,12 @@
             "value" : "ทำต่อจากที่ค้างไว้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yarım kalan yemeğe devam"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32948,6 +34334,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ที่ทำค้างอยู่ · %@ %@ — ทำอันนี้ให้เสร็จก่อน แล้วค่อยกลับไปทำต่อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yarım kalan · %@ %@ — önce bunu bitirin, sonra devam edin"
           }
         },
         "vi" : {
@@ -33092,6 +34484,12 @@
             "value" : "ผัดสักครั้งเพื่อไล่รสเปรี้ยว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekşiliği gitsin diye bir kez kavurun"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33232,6 +34630,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผัดสักครั้งจะช่วยไล่รสเปรี้ยว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir kez kavrulunca ekşiliği gider"
           }
         },
         "vi" : {
@@ -33375,6 +34779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วิดเจ็ตบนหน้าจอโฮม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ana Ekran widget’ları"
           }
         },
         "vi" : {
