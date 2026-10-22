@@ -51,6 +51,12 @@
             "value" : "\"다음\"이라는 말만 알아듣고, 소리는 저장하지 않아요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Só escuta a palavra coreana “다음” (“próximo”) e nunca grava o áudio"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — 지금 하세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — faça agora"
           }
         },
         "ru" : {
@@ -191,6 +203,12 @@
             "value" : "%@ %@ 다 됐어요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer encerrado: %@ %@"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -259,6 +277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, %@ 남음"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, faltam %@"
           }
         },
         "ru" : {
@@ -331,6 +355,12 @@
             "value" : "%@, 못 미룸"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, não dá para adiar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -399,6 +429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, 약 %lld분, 냄비 %lld개"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, cerca de %lld minutos, %lld panelas"
           }
         },
         "ru" : {
@@ -471,6 +507,12 @@
             "value" : "%lld분"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -539,6 +581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld분 %lld초"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld s"
           }
         },
         "ru" : {
@@ -611,6 +659,12 @@
             "value" : "%lld초"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -679,6 +733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1분 덜 삶기 — 소스에서 마저 익힘"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 minuto a menos — termina de cozinhar no molho"
           }
         },
         "ru" : {
@@ -752,6 +812,12 @@
             "value" : "VoiceOver가 냄비 시간과 할 일을 빠짐없이, 알맞은 순서로 읽어 줘요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O VoiceOver lê todos os timers das panelas e tarefas, sem pular nada e na ordem certa."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -821,6 +887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver로 더 편하게"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mais fácil com o VoiceOver"
           }
         },
         "ru" : {
@@ -893,6 +965,12 @@
             "value" : "물 끓이는 중"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fervendo a água"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -961,6 +1039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면 삶는 중"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cozinhando o macarrão"
           }
         },
         "ru" : {
@@ -1033,6 +1117,12 @@
             "value" : "물 끓이는 중"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fervendo a água"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1101,6 +1191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면 삶는 중"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cozinhando o macarrão"
           }
         },
         "ru" : {
@@ -1173,6 +1269,12 @@
             "value" : "크림 뭉근히 졸이는 중"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apurando o creme de leite"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1241,6 +1343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "갈색이 되면 쓴맛 — 색이 오르면 불을 빼세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alho muito dourado amarga — assim que ganhar cor, tire do fogo"
           }
         },
         "ru" : {
@@ -1313,6 +1421,12 @@
             "value" : "거의 다 됐어요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quase lá"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1381,6 +1495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "건너뛰기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pular"
           }
         },
         "ru" : {
@@ -1453,6 +1573,12 @@
             "value" : "건진 면을 소스에 넣고 1분"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coloque o macarrão escorrido no molho por 1 minuto"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1521,6 +1647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "결 반대로 썰면 더 빨리 물러요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cortada contra a fibra, amolece mais rápido"
           }
         },
         "ru" : {
@@ -1593,6 +1725,12 @@
             "value" : "계속 조리하기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar cozinhando"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1661,6 +1799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "고른 요리의 조리 화면을 열어요. 시작 버튼을 누르면 타이머가 돌아요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre a tela de preparo da receita escolhida. Os timers começam quando você toca em Iniciar."
           }
         },
         "ru" : {
@@ -1733,6 +1877,12 @@
             "value" : "곱게 다지기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pique bem miudinho"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1803,6 +1953,12 @@
             "value" : "그사이에"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1871,6 +2027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "글자 크기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamanho do texto"
           }
         },
         "ru" : {
@@ -1944,6 +2106,12 @@
             "value" : "기기 글자 크기를 키워도 레시피 목록과 화면이 잘리지 않게 다시 배치돼요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se você aumentar o texto do aparelho, a lista de receitas e as telas se reorganizam em vez de serem cortadas."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2012,6 +2180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "끄기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desligar"
           }
         },
         "ru" : {
@@ -2084,6 +2258,12 @@
             "value" : "끓는 동안 도마 일을 해두면 됩니다"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enquanto ferve, adiante o preparo"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2152,6 +2332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "끓는 동안 양파·마늘을 손질해두면 됩니다"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enquanto ferve, prepare a cebola e o alho"
           }
         },
         "ru" : {
@@ -2224,6 +2410,12 @@
             "value" : "끓으면 면 넣기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando ferver, coloque o macarrão"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2292,6 +2484,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "끓이지 말 것"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não deixe ferver"
           }
         },
         "ru" : {
@@ -2364,6 +2562,12 @@
             "value" : "끝나면 알려 주세요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avise quando terminar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2432,6 +2636,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "끝남"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concluído"
           }
         },
         "ru" : {
@@ -2504,6 +2714,12 @@
             "value" : "남은 치즈와 후추를 옆에 준비"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deixe por perto o queijo e a pimenta-do-reino que sobraram"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2572,6 +2788,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내 손"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minhas mãos"
           }
         },
         "ru" : {
@@ -2644,6 +2866,12 @@
             "value" : "내가 하는 중"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você está nela"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2712,6 +2940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "냄비 두 개를 한 화면에"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duas panelas, uma só tela"
           }
         },
         "ru" : {
@@ -2784,6 +3018,12 @@
             "value" : "냄비가 다 되면 알려 드려요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avisamos quando uma panela ficar pronta."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2852,6 +3092,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "넣는 순간부터 12분"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 minutos a partir do momento em que entra na água"
           }
         },
         "ru" : {
@@ -2924,6 +3170,12 @@
             "value" : "넣자마자 한 번 저어 붙지 않게"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mexa uma vez logo em seguida para não grudar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2992,6 +3244,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "눌어붙으면 물 한 숟갈"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se grudar, junte uma colher de água"
           }
         },
         "ru" : {
@@ -3064,6 +3322,12 @@
             "value" : "늦었어요 · 지금 바로"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atrasado · faça agora mesmo"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3132,6 +3396,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다 썼어요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Já usada"
           }
         },
         "ru" : {
@@ -3204,6 +3474,12 @@
             "value" : "다 하면 \"다음\"이라고 말해 주세요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando terminar, diga “다음” (“próximo” em coreano)"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3272,6 +3548,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다 했으면 \"다음\""
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminou? Diga “다음”"
           }
         },
         "ru" : {
@@ -3344,6 +3626,12 @@
             "value" : "다 했으면 \"다음\"이라고 말해 주세요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando terminar, diga “다음” (“próximo” em coreano)"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3412,6 +3700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Próximo"
           }
         },
         "ru" : {
@@ -3484,6 +3778,12 @@
             "value" : "다음 · %@ %@"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depois · %@ %@"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3552,6 +3852,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다진 마늘과 후추를 넣고 30초"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Junte o alho picado e a pimenta-do-reino por 30 segundos"
           }
         },
         "ru" : {
@@ -3625,6 +3931,12 @@
             "value" : "다크 모드"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo escuro"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3693,6 +4005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "닫기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fechar"
           }
         },
         "ru" : {
@@ -3766,6 +4084,12 @@
             "value" : "대비를 높이거나 색을 구별하기 어려워도 냄비마다 상태를 알아볼 수 있어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veja o estado de cada panela mesmo com contraste aumentado ou se for difícil distinguir cores."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3835,6 +4159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 언어"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mais idiomas"
           }
         },
         "ru" : {
@@ -3907,6 +4237,12 @@
             "value" : "더 크게"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maior"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3975,6 +4311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "도움말"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajuda"
           }
         },
         "ru" : {
@@ -4047,6 +4389,12 @@
             "value" : "뚜껑을 덮으면 더 빨리 끓어요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Com a tampa, ferve mais rápido"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4115,6 +4463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마늘 3쪽을 곱게 다지기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pique 3 dentes de alho bem miudinho"
           }
         },
         "ru" : {
@@ -4187,6 +4541,12 @@
             "value" : "마늘 6쪽을 1~2mm 두께로"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 dentes de alho em lâminas de 1–2 mm"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4255,6 +4615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마늘 가장자리가 옅은 금색이 되면"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando as bordas do alho ficarem douradas bem claras"
           }
         },
         "ru" : {
@@ -4327,6 +4693,12 @@
             "value" : "마늘 다지기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pique o alho"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4395,6 +4767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마늘 얇게 편 썰기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fatie o alho bem fino"
           }
         },
         "ru" : {
@@ -4467,6 +4845,12 @@
             "value" : "마늘 향이 올라오면"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando o cheiro do alho subir"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4535,6 +4919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마늘·오일 볶기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doure o alho no azeite"
           }
         },
         "ru" : {
@@ -4607,6 +4997,12 @@
             "value" : "마늘·후추 넣기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Junte o alho e a pimenta-do-reino"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4675,6 +5071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마늘은 금방 타니 계속 저어 주세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O alho queima rápido, então mexa sem parar"
           }
         },
         "ru" : {
@@ -4747,6 +5149,12 @@
             "value" : "마무리 전에 해두면 편합니다"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se fizer antes de finalizar, fica mais fácil"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4815,6 +5223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마이크 끄기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desligar o microfone"
           }
         },
         "ru" : {
@@ -4887,6 +5301,12 @@
             "value" : "마이크 켜기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligar o microfone"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4955,6 +5375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마이크 켜짐 · 듣는 중"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Microfone ligado · Ouvindo"
           }
         },
         "ru" : {
@@ -5027,6 +5453,12 @@
             "value" : "마이크 켜짐. 다음이라는 말을 듣는 중"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Microfone ligado. Ouvindo a palavra coreana “다음” (“próximo”)"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5095,6 +5527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "말로 넘기기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avançar com a voz"
           }
         },
         "ru" : {
@@ -5167,6 +5605,12 @@
             "value" : "멀리서도 잘 보이게"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fácil de ler de longe"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5235,6 +5679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "메일로 문의하기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar e-mail"
           }
         },
         "ru" : {
@@ -5307,6 +5757,12 @@
             "value" : "면 넣고 버무려 마무리"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Junte o macarrão e misture para finalizar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5375,6 +5831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면 삶기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cozinhe o macarrão"
           }
         },
         "ru" : {
@@ -5447,6 +5909,12 @@
             "value" : "면 삶는 그사이에 소스까지."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enquanto o macarrão cozinha, o molho também fica pronto."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5515,6 +5983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면 삶는 그사이에 소스까지. 냄비마다 무엇을 하는 중인지, 얼마나 남았는지 따로 보여 드려요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enquanto o macarrão cozinha, o molho também fica pronto. Cada panela mostra o que está fazendo e quanto tempo falta."
           }
         },
         "ru" : {
@@ -5587,6 +6061,12 @@
             "value" : "면냄비"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panela do macarrão"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5655,6 +6135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면수 남기고 면 건지기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escorra o macarrão guardando a água do cozimento"
           }
         },
         "ru" : {
@@ -5727,6 +6213,12 @@
             "value" : "면수 넣고 유화·버무리기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Junte a água do cozimento e emulsione"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5795,6 +6287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면수 반 컵, 강하게 토스해 유화"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meia xícara da água do cozimento, sacuda com força para emulsionar"
           }
         },
         "ru" : {
@@ -5867,6 +6365,12 @@
             "value" : "면수 반 컵을 붓고 센 불"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Despeje meia xícara da água do cozimento e aumente o fogo"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5935,6 +6439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면수 한 컵 먼저 떠두기!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antes, guarde uma xícara da água do cozimento!"
           }
         },
         "ru" : {
@@ -6007,6 +6517,12 @@
             "value" : "면수 한 컵 먼저!"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antes, guarde uma xícara da água do cozimento!"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6075,6 +6591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면수 한 컵(200ml) 먼저 떠두기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antes, separe uma xícara (200 ml) da água do cozimento"
           }
         },
         "ru" : {
@@ -6147,6 +6669,12 @@
             "value" : "면수 한 컵(200ml)을 먼저 떠두기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antes, separe uma xícara (200 ml) da água do cozimento"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6215,6 +6743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면수로 농도 조절 — 주르륵 흐를 정도"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajuste a consistência com a água do cozimento — deve escorrer devagar"
           }
         },
         "ru" : {
@@ -6287,6 +6821,12 @@
             "value" : "면수로 농도 조절, 소스에서 1분 마저"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajuste com a água do cozimento, mais 1 minuto no molho"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6355,6 +6895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면은 기다려 주지 않고, 도마 일은 기다려 준다"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O macarrão não espera, o preparo espera"
           }
         },
         "ru" : {
@@ -6427,6 +6973,12 @@
             "value" : "면은 털지 말고 물기를 묻힌 채 바로 팬으로"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não sacuda: vá direto para a frigideira, ainda úmido"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6495,6 +7047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "못 미룸"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não dá para adiar"
           }
         },
         "ru" : {
@@ -6567,6 +7125,12 @@
             "value" : "문의"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contato"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6635,6 +7199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "물 2L, 소금 2큰술"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 L de água, 2 colheres de sopa de sal"
           }
         },
         "ru" : {
@@ -6707,6 +7277,12 @@
             "value" : "물 끓이기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferva a água"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6775,6 +7351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "물 넉넉히, 소금은 바닷물처럼 짜게 — 5분쯤 끓습니다"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bastante água e sal como no mar — leva uns 5 minutos para ferver"
           }
         },
         "ru" : {
@@ -6847,6 +7429,12 @@
             "value" : "물 올리고 센 불 켜기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ponha a água no fogo alto"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6915,6 +7503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "미루면 안 되는 일이에요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isto não pode esperar"
           }
         },
         "ru" : {
@@ -6987,6 +7581,12 @@
             "value" : "바닥에서 큰 기포가 계속 올라오면"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando grandes bolhas subirem do fundo sem parar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7055,6 +7655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "버튼을 누르거나, 손이 젖었으면 \"다음\"이라고 말하세요. 냄비가 다 되면 알림으로 알려 드려요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque no botão ou, se estiver com as mãos molhadas, diga “다음” (“próximo” em coreano). Você recebe uma notificação quando uma panela ficar pronta."
           }
         },
         "ru" : {
@@ -7128,6 +7734,12 @@
             "value" : "보기 편한 색과 대비"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cores e contraste mais confortáveis"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7197,6 +7809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보내 주신 의견에 단 답장을 앱 안에서 볼 수 있어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leia no app as respostas aos comentários que você enviou."
           }
         },
         "ru" : {
@@ -7270,6 +7888,12 @@
             "value" : "보낸 의견에 답장 받기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respostas aos seus comentários"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7338,6 +7962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보러 오세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venha dar uma olhada"
           }
         },
         "ru" : {
@@ -7410,6 +8040,12 @@
             "value" : "보통"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7478,6 +8114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보통 %@"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Costuma levar %@"
           }
         },
         "ru" : {
@@ -7550,6 +8192,12 @@
             "value" : "봉지 표기보다 1분 덜 — 마지막은 팬에서"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 minuto a menos que o indicado na embalagem — termina na frigideira"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7618,6 +8266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "부채꼴로 펼쳐 넣기 — 넣는 순간부터 8분"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abra em leque ao colocar — 8 minutos a partir do momento em que entra na água"
           }
         },
         "ru" : {
@@ -7690,6 +8344,12 @@
             "value" : "불을 끄고 파슬리와 치즈"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desligue o fogo e junte salsinha e queijo"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7758,6 +8418,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "불을 약하게 — 끓이면 분리됩니다"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fogo baixo — se ferver, o molho talha"
           }
         },
         "ru" : {
@@ -7830,6 +8496,12 @@
             "value" : "비어 있음"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Livre"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7898,6 +8570,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사용 방법 다시 보기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver o tutorial de novo"
           }
         },
         "ru" : {
@@ -7970,6 +8648,12 @@
             "value" : "색이 곧 급한 정도"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A cor mostra a urgência"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8038,6 +8722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "색이 짙어지고 고소한 냄새가 나면"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando a cor escurecer e sentir um cheiro de torrado"
           }
         },
         "ru" : {
@@ -8110,6 +8800,12 @@
             "value" : "생크림 200ml, 토마토페이스트 2큰술 미리 계량"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meça antes 200 ml de creme de leite e 2 colheres de sopa de extrato de tomate"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8178,6 +8874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "생크림 200ml를 붓고 고루 섞기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Despeje 200 ml de creme de leite e misture bem"
           }
         },
         "ru" : {
@@ -8250,6 +8952,12 @@
             "value" : "섞고 불을 낮추면 1분 30초 졸입니다"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misture, baixe o fogo e reduza por 1 min 30 s"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8318,6 +9026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
           }
         },
         "ru" : {
@@ -8390,6 +9104,12 @@
             "value" : "소금 넉넉히 — 5분쯤 끓습니다"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bastante sal — leva uns 5 minutos para ferver"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8458,6 +9178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "소금·후추도 손 닿는 곳에"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deixe também o sal e a pimenta-do-reino ao alcance"
           }
         },
         "ru" : {
@@ -8530,6 +9256,12 @@
             "value" : "소스 시작 전에 해두면 편합니다"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se fizer antes de começar o molho, fica mais fácil"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8598,6 +9330,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "소스가 면에 고루 입혀지면"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando o molho envolver bem o macarrão"
           }
         },
         "ru" : {
@@ -8670,6 +9408,12 @@
             "value" : "소스가 뿌옇게 엉겨 면에 붙으면"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando o molho ficar esbranquiçado, encorpado e grudar no macarrão"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8738,6 +9482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "소스는 면이 나오는 순간에 맞춰 거꾸로 잡힌다"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O molho é planejado de trás para a frente, a partir do momento em que o macarrão sai"
           }
         },
         "ru" : {
@@ -8810,6 +9560,12 @@
             "value" : "소스팬"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frigideira do molho"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8878,6 +9634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "손은 다 했어요 — 냄비만 기다리면 돼요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suas mãos terminaram — agora é só esperar as panelas"
           }
         },
         "ru" : {
@@ -8950,6 +9712,12 @@
             "value" : "손이 젖었으면 \"다음\"이라고 말해 보세요. 화면을 만지지 않아도 다음 일로 넘어가요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Com as mãos molhadas, diga “다음” (“próximo” em coreano). O app passa para a próxima etapa sem você tocar na tela."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9018,6 +9786,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "스파게티 180g(2인분), 마늘 6쪽, 올리브유 6큰술"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g de espaguete (2 porções), 6 dentes de alho, 6 colheres de sopa de azeite"
           }
         },
         "ru" : {
@@ -9090,6 +9864,12 @@
             "value" : "스파게티 180g을 부채꼴로 펼쳐 넣기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coloque 180 g de espaguete abrindo em leque"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9158,6 +9938,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "슬슬 마무리해도 돼요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Já pode ir finalizando"
           }
         },
         "ru" : {
@@ -9230,6 +10016,12 @@
             "value" : "시작하기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Começar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9298,6 +10090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "시작하면 이것부터"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O que fazer primeiro"
           }
         },
         "ru" : {
@@ -9370,6 +10168,12 @@
             "value" : "아까 하던 데서 이어서"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar de onde você parou"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9438,6 +10242,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아래 요리 시작을 누르면 냄비 시계가 돕니다"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque em “Começar a cozinhar” abaixo e os timers das panelas começam a contar"
           }
         },
         "ru" : {
@@ -9511,6 +10321,12 @@
             "value" : "아이패드에 키보드를 연결하면 키만으로 다음 단계로 넘어가요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conecte um teclado ao iPad e passe para a próxima etapa com uma única tecla."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9579,6 +10395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아주 약한 simmer — 끓이지 말 것"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Só um leve borbulhar — não deixe ferver"
           }
         },
         "ru" : {
@@ -9651,6 +10473,12 @@
             "value" : "아주 약한 불에서 뭉근하게"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em fogo bem baixo, só um leve borbulhar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9719,6 +10547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아주 크게"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Máximo"
           }
         },
         "ru" : {
@@ -9791,6 +10625,12 @@
             "value" : "아직"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ainda não"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9861,6 +10701,12 @@
             "value" : "아직 남은 단계가 있어요. 지금 멈추면 진행 상황이 사라집니다."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ainda há etapas restantes. Se você parar agora, o progresso será perdido."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9929,6 +10775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "알리오 올리오"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aglio e olio"
           }
         },
         "ru" : {
@@ -10002,6 +10854,12 @@
             "value" : "앱을 영어로도 쓸 수 있어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você poderá usar o app também em inglês."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10070,6 +10928,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "약 %lld분 · 냄비 %lld개"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cerca de %lld min · %lld panelas"
           }
         },
         "ru" : {
@@ -10142,6 +11006,12 @@
             "value" : "약불! 옅은 황금색까지만"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fogo baixo! Só até o dourado claro"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10210,6 +11080,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "약불에서 계속 저어 주기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em fogo baixo, mexendo sempre"
           }
         },
         "ru" : {
@@ -10282,6 +11158,12 @@
             "value" : "양파 1/2개를 잘게 채썰기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corte 1/2 cebola em tiras bem finas"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10352,6 +11234,12 @@
             "value" : "양파 볶기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refogue a cebola"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10420,6 +11308,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "양파 채썰기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corte a cebola em tiras finas"
           }
         },
         "ru" : {
@@ -10493,6 +11387,12 @@
             "value" : "어두운 부엌에서도 눈부시지 않게 어두운 화면으로 볼 수 있어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uma tela escura que não ofusca numa cozinha com pouca luz."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10561,6 +11461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "언제 해도 되는 일"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pode ser feito a qualquer momento"
           }
         },
         "ru" : {
@@ -10634,6 +11540,12 @@
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na primeira vez que abrir o app após uma atualização, veja o que mudou."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10705,6 +11617,12 @@
             "value" : "업데이트 소식"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novidades"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10773,6 +11691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "여유 있어요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tem tempo de sobra"
           }
         },
         "ru" : {
@@ -10846,6 +11770,12 @@
             "value" : "영어 말고도 더 많은 나라 말로 쓸 수 있게 해요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Além do inglês, o app ficará disponível em mais idiomas."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10915,6 +11845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 지원"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suporte ao inglês"
           }
         },
         "ru" : {
@@ -10987,6 +11923,12 @@
             "value" : "올리브유 2큰술에 양파, 중약불"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 colheres de sopa de azeite com a cebola, em fogo médio-baixo"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11055,6 +11997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "올리브유 6큰술에 마늘 편과 페퍼론치노"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 colheres de sopa de azeite com lâminas de alho e pimenta calabresa"
           }
         },
         "ru" : {
@@ -11127,6 +12075,12 @@
             "value" : "완료"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pronto"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11195,6 +12149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "완성 예정 시각"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Previsão de conclusão"
           }
         },
         "ru" : {
@@ -11267,6 +12227,12 @@
             "value" : "완성 처리"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concluir"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11335,6 +12301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "완성 처리할까요?"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marcar como concluída?"
           }
         },
         "ru" : {
@@ -11407,6 +12379,12 @@
             "value" : "완성됐어요 🍴 접시에 담으세요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ficou pronto 🍴 Hora de servir"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11475,6 +12453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "요리"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Receita"
           }
         },
         "ru" : {
@@ -11547,6 +12531,12 @@
             "value" : "요리 시작"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Começar a cozinhar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11615,6 +12605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "요리 열기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir receita"
           }
         },
         "ru" : {
@@ -11688,6 +12684,12 @@
             "value" : "요리하다 앱이 꺼져도 냄비 시간과 진행 상황이 그대로 이어져요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se o app fechar enquanto você cozinha, os timers das panelas e o progresso continuam de onde estavam."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11757,6 +12759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "움직임 줄이기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduzir movimento"
           }
         },
         "ru" : {
@@ -11830,6 +12838,12 @@
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Com “Reduzir Movimento” ativado, os efeitos de tela ficam mais calmos."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11900,6 +12914,12 @@
             "value" : "인스타그램"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11968,6 +12988,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "일시정지"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausar"
           }
         },
         "ru" : {
@@ -12041,6 +13067,12 @@
             "value" : "자주 하는 요리를 홈 화면에서 바로 시작해요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comece as receitas que você mais faz direto da Tela de Início."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12109,6 +13141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "잘게 — 급할 것 없습니다"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fininho — sem pressa"
           }
         },
         "ru" : {
@@ -12181,6 +13219,12 @@
             "value" : "재개"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retomar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12249,6 +13293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "재료 꺼내고 팬 올리기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Separe os ingredientes e leve a frigideira ao fogo"
           }
         },
         "ru" : {
@@ -12321,6 +13371,12 @@
             "value" : "재료를 한자리에"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deixe os ingredientes num só lugar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12389,6 +13445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "절반은 마무리용으로 남겨두기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reserve metade para finalizar"
           }
         },
         "ru" : {
@@ -12461,6 +13523,12 @@
             "value" : "접시 데우고 옮길 준비"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aqueça os pratos e prepare-se para servir"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12529,6 +13597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "접시는 뜨거운 물을 부어 데우고 물기 닦기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aqueça os pratos com água quente e seque"
           }
         },
         "ru" : {
@@ -12601,6 +13675,12 @@
             "value" : "접시를 뜨거운 물로 데우기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aqueça os pratos com água quente"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12669,6 +13749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "조리 중단하고 나가기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parar de cozinhar e sair"
           }
         },
         "ru" : {
@@ -12741,6 +13827,12 @@
             "value" : "조리 화면을 엽니다"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre a tela de preparo"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12809,6 +13901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "조리대에 세워 두고 보신다면 여기서 글자를 더 키울 수 있어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se você apoia o aparelho na bancada, aqui dá para aumentar ainda mais o texto."
           }
         },
         "ru" : {
@@ -12881,6 +13979,12 @@
             "value" : "조리를 중단하고 나갈까요?"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parar de cozinhar e sair?"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12949,6 +14053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "주걱으로 그었을 때 자국이 잠깐 남으면"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando a espátula deixar um risco que demora um instante para fechar"
           }
         },
         "ru" : {
@@ -13021,6 +14131,12 @@
             "value" : "중단하고 나가기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parar e sair"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13089,6 +14205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "중약불로 부드러워질 때까지"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em fogo médio-baixo até ficar macia"
           }
         },
         "ru" : {
@@ -13161,6 +14283,12 @@
             "value" : "지금"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agora"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13229,6 +14357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 · 미룰 수 없어요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agora · não dá para adiar"
           }
         },
         "ru" : {
@@ -13301,6 +14435,12 @@
             "value" : "지금 할 일"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para fazer agora"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13369,6 +14509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 할 일 · 천천히 해도 돼요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para fazer agora · sem pressa"
           }
         },
         "ru" : {
@@ -13441,6 +14587,12 @@
             "value" : "지원"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suporte"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13509,6 +14661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "진행 시간"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempo decorrido"
           }
         },
         "ru" : {
@@ -13581,6 +14739,12 @@
             "value" : "참고 · %@"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fonte · %@"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13649,6 +14813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "천천히 해도 됩니다"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pode ir com calma"
           }
         },
         "ru" : {
@@ -13721,6 +14891,12 @@
             "value" : "최대한 얇게 — 급할 것 없습니다"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O mais fino possível — sem pressa"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13789,6 +14965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "치즈 갈고 소스 재료 계량"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rale o queijo e meça os ingredientes do molho"
           }
         },
         "ru" : {
@@ -13861,6 +15043,12 @@
             "value" : "치즈 갈고 접시 데우기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rale o queijo e aqueça os pratos"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13929,6 +15117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "칼을 눕혀 얇게 — 두꺼우면 속이 안 익고 겉만 타요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Com a faca deitada, fininho — se ficar grosso, fica cru por dentro e queima por fora"
           }
         },
         "ru" : {
@@ -14001,6 +15195,12 @@
             "value" : "크게"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grande"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14071,6 +15271,12 @@
             "value" : "크림 뭉근히 졸이기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deixe o creme de leite apurar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14139,6 +15345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "크림 붓고 약불로 줄이기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Junte o creme de leite e baixe o fogo"
           }
         },
         "ru" : {
@@ -14212,6 +15424,12 @@
             "value" : "큰 글씨에 맞춘 화면"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telas para texto grande"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14280,6 +15498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "큰 기포가 계속 올라오면"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando grandes bolhas sobem sem parar"
           }
         },
         "ru" : {
@@ -14353,6 +15577,12 @@
             "value" : "키보드로 조작하기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controle pelo teclado"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14421,6 +15651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타기 쉬우니 바로 다음으로"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Queima fácil — passe logo para o próximo passo"
           }
         },
         "ru" : {
@@ -14493,6 +15729,12 @@
             "value" : "타이머가 초기화되고 진행 상황이 사라집니다."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Os timers serão zerados e o progresso será perdido."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14561,6 +15803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타임라인 · 점선은 미뤄도 되는 일"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linha do tempo · barras pontilhadas podem esperar"
           }
         },
         "ru" : {
@@ -14633,6 +15881,12 @@
             "value" : "테라코타는 미루면 면이 퍼지거나 타는 일이에요. 초록은 도마 일이라 손이 빌 때 천천히 하면 돼요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terracota é o que, se você adiar, faz o macarrão passar do ponto ou queimar. Verde é preparo: faça com calma quando as mãos estiverem livres."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14701,6 +15955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "토마토 크림 파스타"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Macarrão ao molho de tomate com creme"
           }
         },
         "ru" : {
@@ -14773,6 +16033,12 @@
             "value" : "토마토페이스트 2큰술, 생크림 200ml"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 colheres de sopa de extrato de tomate, 200 ml de creme de leite"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14841,6 +16107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "토마토페이스트 2큰술을 팬 바닥에 펴 바르듯"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espalhe 2 colheres de sopa de extrato de tomate no fundo da frigideira"
           }
         },
         "ru" : {
@@ -14913,6 +16185,12 @@
             "value" : "토마토페이스트 볶기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refogue o extrato de tomate"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14981,6 +16259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "투명해지고 가장자리가 노릇해지면"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando estiver translúcida e dourada nas bordas"
           }
         },
         "ru" : {
@@ -15053,6 +16337,12 @@
             "value" : "파르미지아노 30g 갈아두기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rale 30 g de parmesão"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15121,6 +16411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "파르미지아노 30g, 올리브유 2큰술"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g de parmesão, 2 colheres de sopa de azeite"
           }
         },
         "ru" : {
@@ -15193,6 +16489,12 @@
             "value" : "파르미지아노 30g을 곱게 갈아두기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rale 30 g de parmesão bem fino"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15261,6 +16563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "파스타 180g — 봉지 표기보다 1분 덜 삶습니다"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g de macarrão — cozinhe 1 minuto a menos que o indicado na embalagem"
           }
         },
         "ru" : {
@@ -15333,6 +16641,12 @@
             "value" : "파스타 180g(2인분), 양파 1/2개, 마늘 3쪽"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g de macarrão (2 porções), 1/2 cebola, 3 dentes de alho"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15401,6 +16715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "파슬리는 마무리용도 남겨두기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reserve um pouco de salsinha para finalizar"
           }
         },
         "ru" : {
@@ -15473,6 +16793,12 @@
             "value" : "파슬리는 잎만 굵게 다지기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pique só as folhas da salsinha, grosseiramente"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15541,6 +16867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "팬은 면이 다 들어갈 만큼 넓은 것으로"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uma frigideira larga o bastante para todo o macarrão"
           }
         },
         "ru" : {
@@ -15613,6 +16945,12 @@
             "value" : "팬을 흔들며 30초 — 기름과 면수가 섞이게"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sacuda a frigideira por 30 segundos — para o azeite e a água se misturarem"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15681,6 +17019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "페퍼론치노 2~3개, 파슬리 조금, 파르미지아노 30g"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 pimentas calabresas, um pouco de salsinha, 30 g de parmesão"
           }
         },
         "ru" : {
@@ -15753,6 +17097,12 @@
             "value" : "페퍼론치노 2~3개를 반 갈라 씨 털기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corte 2–3 pimentas ao meio e tire as sementes"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15823,6 +17173,12 @@
             "value" : "페퍼론치노·파슬리 다지기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pique a pimenta e a salsinha"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15891,6 +17247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "편이 반투명하게 비치면 충분히 얇은 것"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Está fino o bastante quando as lâminas ficam translúcidas"
           }
         },
         "ru" : {
@@ -15964,6 +17326,12 @@
             "value" : "펼치는 아이폰 화면"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tela para iPhone dobrável"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16035,6 +17403,12 @@
             "value" : "펼치는 아이폰에서 넓은 화면에 냄비와 할 일을 나란히 봐요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na tela ampla de um iPhone dobrável, veja panelas e tarefas lado a lado."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16103,6 +17477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "필요한 재료를 한자리에"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deixe tudo o que precisa num só lugar"
           }
         },
         "ru" : {
@@ -16176,6 +17556,12 @@
             "value" : "하던 요리 이어서"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar a receita"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16244,6 +17630,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "하던 일 · %@ %@ — 이것부터 하고 이어서"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O que você estava fazendo · %@ %@ — termine isto primeiro e depois continue"
           }
         },
         "ru" : {
@@ -16316,6 +17708,12 @@
             "value" : "한 번 볶아 신맛 날리기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refogue uma vez para tirar a acidez"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16384,6 +17782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "한 번 볶아야 신맛이 날아갑니다"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refogado uma vez, perde a acidez"
           }
         },
         "ru" : {
@@ -16455,6 +17859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "홈 화면 위젯"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets na Tela de Início"
           }
         },
         "ru" : {

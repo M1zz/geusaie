@@ -51,6 +51,12 @@
             "value" : "그사이에"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -121,6 +127,12 @@
             "value" : "요리 중에 \"다음\" 한 마디로 단계를 넘기기 위해 마이크를 씁니다."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa o microfone para você passar à próxima etapa dizendo a palavra coreana “다음” (“próximo”) enquanto cozinha."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -189,6 +201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "\"다음\"이라는 말만 알아듣기 위해 음성 인식을 씁니다. 가능하면 기기 안에서 처리합니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa o reconhecimento de fala apenas para entender a palavra coreana “다음” (“próximo”). Sempre que possível, o processamento é feito no aparelho."
           }
         },
         "ru" : {

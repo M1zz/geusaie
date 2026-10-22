@@ -705,3 +705,67 @@ https://m1zz.github.io/geusaie/it/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/it/
+
+## pt-BR
+
+### 이름
+
+Geusaie: timer de macarrão
+
+### 부제
+
+Duas panelas sob controle
+
+### 키워드
+
+cozinha,receitas,passos,cronômetro,carbonara,espaguete,jantar,molho,fervura,voz,alarme,aglio,olio
+
+### 프로모션 텍스트
+
+Água no fogo, alho fatiado, macarrão na panela, molho na frigideira. Uma tarefa por vez em letras grandes, contagem por panela e voz quando as mãos estão molhadas.
+
+### 설명
+
+Duas panelas ao mesmo tempo, sem perder o fio. O Geusaie é um timer de cozinha que organiza a ordem e os tempos para o molho ficar pronto enquanto o macarrão cozinha.
+Ele mostra em letras grandes só a tarefa que precisa ser feita agora e conta o tempo de cada panela separadamente.
+
+Cozinhar é difícil não porque suas mãos são lentas, mas porque o tempo não corre numa linha só. O macarrão não espera, enquanto fatiar o alho pode ser feito a qualquer hora. O Geusaie conhece essa diferença e organiza as etapas com base nela.
+
+Só uma tarefa por vez
+No topo da tela aparece, em letras grandes, a única tarefa que suas mãos precisam fazer agora. Uma cor mostra num relance se ela pode esperar ou não. Como fazer e como saber que ficou pronta estão escritos ali mesmo.
+
+Uma contagem para cada panela
+A panela do macarrão e a frigideira do molho mostram cada uma o seu tempo restante. Dá para ver na hora se a água está esquentando, se o macarrão está cozinhando ou se você está parado na frigideira.
+
+Se atrasar, o resto se ajusta com você
+Sem cronograma rígido. Se você acender o fogo um pouco depois, as etapas seguintes se deslocam junto, e o molho é planejado para começar justo quando o macarrão sai.
+
+Toda a linha do tempo num relance
+Veja quando suas mãos, a panela do macarrão e a frigideira do molho se sobrepõem. As tarefas pontilhadas podem ser feitas quando suas mãos estiverem livres.
+
+Pela voz, de mãos molhadas
+Ligue o microfone e diga a palavra coreana para “próximo” (da-eum) para avançar. Por enquanto, o reconhecimento de voz entende apenas coreano. Enquanto o microfone está ligado, ele aparece sempre na tela e desliga quando você sai da tela de preparo.
+
+Texto legível de longe
+Apoie o aparelho na bancada e dê um ou dois passos para trás. O texto pode ser aumentado em quatro níveis.
+
+Nenhuma panela esquecida
+Quando uma panela fica pronta, você recebe uma notificação junto com a próxima tarefa, mesmo que esteja em outro app.
+
+Receitas incluídas
+Aglio e olio
+Macarrão ao molho de tomate com creme
+
+Funciona no iPhone e no iPad. Não precisa de conta para começar.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/pt-BR/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/pt-BR/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/pt-BR/
