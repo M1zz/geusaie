@@ -9,6 +9,12 @@
             "value" : "Geusaie"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -103,6 +109,12 @@
             "value" : "Mikrofon se používá, abyste při vaření mohli přejít na další krok vyslovením korejského slova „다음“ („další“)."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruger mikrofonen, så du kan gå videre til næste trin under madlavningen ved at sige det koreanske ord “다음” (“næste”)."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -195,6 +207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozpoznávání řeči se používá jen k rozpoznání korejského slova „다음“ („další“). Pokud je to možné, zpracovává se přímo v zařízení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruger talegenkendelse udelukkende til at genkende det koreanske ord “다음” (“næste”). Behandles på enheden, når det er muligt."
           }
         },
         "de" : {

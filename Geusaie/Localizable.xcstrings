@@ -9,6 +9,12 @@
             "value" : "Poslouchá jen korejské slovo „다음“ („další“) a zvuk neukládá"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lytter kun efter det koreanske ord “다음” (“næste”) og gemmer aldrig lyd"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -101,6 +107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — udělejte hned"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — gør det nu"
           }
         },
         "de" : {
@@ -197,6 +209,12 @@
             "value" : "Časovač skončil: %@ %@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer slut: %@ %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -289,6 +307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, zbývá %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, %@ tilbage"
           }
         },
         "de" : {
@@ -385,6 +409,12 @@
             "value" : "%@, nesmí se odkládat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, kan ikke vente"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, asi %lld minut, hrnců: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ca. %lld minutter, %lld gryder"
           }
         },
         "de" : {
@@ -573,6 +609,12 @@
             "value" : "%lld min"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -665,6 +707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min %lld s"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min. %lld sek."
           }
         },
         "de" : {
@@ -761,6 +809,12 @@
             "value" : "%lld s"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sek."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -853,6 +907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O 1 minutu méně — dojdou v omáčce"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 minut mindre – den bliver færdig i saucen"
           }
         },
         "de" : {
@@ -950,6 +1010,12 @@
             "value" : "VoiceOver čte časy všech hrnců i úkoly bez vynechání a ve správném pořadí."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver læser alle gryders tider og opgaver op uden at springe noget over og i den rigtige rækkefølge."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1043,6 +1109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pohodlnější VoiceOver"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedre med VoiceOver"
           }
         },
         "de" : {
@@ -1139,6 +1211,12 @@
             "value" : "Voda se vaří"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandet koger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1231,6 +1309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Těstoviny se vaří"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastaen koger"
           }
         },
         "de" : {
@@ -1327,6 +1411,12 @@
             "value" : "Voda se vaří"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandet koger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1419,6 +1509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Těstoviny se vaří"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastaen koger"
           }
         },
         "de" : {
@@ -1515,6 +1611,12 @@
             "value" : "Smetana probublává"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fløden simrer"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1607,6 +1709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zhnědlý česnek je hořký — jakmile ztmavne, stáhněte z ohně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brunt hvidløg bliver bittert – tag det af varmen, så snart det tager farve"
           }
         },
         "de" : {
@@ -1703,6 +1811,12 @@
             "value" : "Skoro hotovo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næsten klar"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1795,6 +1909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přeskočit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spring over"
           }
         },
         "de" : {
@@ -1891,6 +2011,12 @@
             "value" : "Vložte vyjmuté těstoviny na 1 minutu do omáčky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom den optagne pasta i saucen i 1 minut"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1983,6 +2109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Když krájíte napříč vlákny, rychleji změkne"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skåret på tværs af fibrene bliver det hurtigere blødt"
           }
         },
         "de" : {
@@ -2079,6 +2211,12 @@
             "value" : "Pokračovat ve vaření"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt madlavningen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2171,6 +2309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otevře obrazovku vaření vybraného jídla. Časovače se spustí klepnutím na Začít."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbner madlavningsskærmen for den valgte ret. Timerne starter, når du trykker på Start."
           }
         },
         "de" : {
@@ -2267,6 +2411,12 @@
             "value" : "Nasekat najemno"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hak fint"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2356,6 +2506,12 @@
     "그사이에" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -2455,6 +2611,12 @@
             "value" : "Velikost textu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekststørrelse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2548,6 +2710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Když zvětšíte text v zařízení, seznam receptů i obrazovky se přeskládají a nebudou oříznuté."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du gør teksten på enheden større, ordnes opskriftslisten og skærmene om, så de ikke bliver skåret af."
           }
         },
         "de" : {
@@ -2644,6 +2812,12 @@
             "value" : "Vypnout"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå fra"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2736,6 +2910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Než se vaří voda, udělejte přípravu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mens det koger, så lav forberedelsen"
           }
         },
         "de" : {
@@ -2832,6 +3012,12 @@
             "value" : "Než se vaří voda, připravte cibuli a česnek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mens det koger, så gør løg og hvidløg klar"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2924,6 +3110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Až se uvaří, vhoďte těstoviny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når det koger, kom pastaen i"
           }
         },
         "de" : {
@@ -3020,6 +3212,12 @@
             "value" : "Nesmí se vařit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Må ikke koge"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3112,6 +3310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dejte vědět, až skončíte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sig til, når du er færdig"
           }
         },
         "de" : {
@@ -3208,6 +3412,12 @@
             "value" : "Hotovo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3300,6 +3510,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zbylý sýr a pepř postavte vedle"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stil den resterende ost og peber ved siden af"
           }
         },
         "de" : {
@@ -3396,6 +3612,12 @@
             "value" : "Moje ruce"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mine hænder"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3488,6 +3710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Právě děláte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er i gang"
           }
         },
         "de" : {
@@ -3584,6 +3812,12 @@
             "value" : "Dva hrnce na jedné obrazovce"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To gryder på én skærm"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3676,6 +3910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dáme vám vědět, až bude hrnec hotový."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi giver besked, når en gryde er klar."
           }
         },
         "de" : {
@@ -3772,6 +4012,12 @@
             "value" : "12 minut od vhození"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 minutter fra det øjeblik, den kommer i"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3864,6 +4110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hned jednou promíchejte, aby se nelepily"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rør rundt én gang med det samme, så den ikke klistrer sammen"
           }
         },
         "de" : {
@@ -3960,6 +4212,12 @@
             "value" : "Když se připéká, přidejte lžíci vody"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis det sætter sig fast, så tilsæt en skefuld vand"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4052,6 +4310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zpoždění · udělejte to hned"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forsinket · gør det med det samme"
           }
         },
         "de" : {
@@ -4148,6 +4412,12 @@
             "value" : "Dopotřebováno"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brugt færdig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4240,6 +4510,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Až skončíte, řekněte „다음“ (korejsky „další“)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du er færdig, så sig “다음” (koreansk for “næste”)"
           }
         },
         "de" : {
@@ -4336,6 +4612,12 @@
             "value" : "Hotovo? Řekněte „다음“"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig? Sig “다음”"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4428,6 +4710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Až skončíte, řekněte „다음“ (korejsky „další“)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du er færdig, så sig “다음” (koreansk for “næste”)"
           }
         },
         "de" : {
@@ -4524,6 +4812,12 @@
             "value" : "Další"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4618,6 +4912,12 @@
             "value" : "Potom · %@ %@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Derefter · %@ %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4710,6 +5010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidejte nasekaný česnek a pepř na 30 sekund"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilsæt hakket hvidløg og peber i 30 sekunder"
           }
         },
         "de" : {
@@ -4807,6 +5113,12 @@
             "value" : "Tmavý režim"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mørk tilstand"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4899,6 +5211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zavřít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk"
           }
         },
         "de" : {
@@ -4996,6 +5314,12 @@
             "value" : "Stav každého hrnce poznáte, i když zvýšíte kontrast nebo se barvy špatně rozlišují."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se, hvordan hver gryde har det, selv med øget kontrast eller hvis det er svært at kende forskel på farver."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5089,6 +5413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Další jazyky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere sprog"
           }
         },
         "de" : {
@@ -5185,6 +5515,12 @@
             "value" : "Větší"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Større"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5277,6 +5613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nápověda"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjælp"
           }
         },
         "de" : {
@@ -5373,6 +5715,12 @@
             "value" : "S pokličkou se uvaří rychleji"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med låg koger det hurtigere"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5465,6 +5813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 stroužky česneku nasekejte najemno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hak 3 fed hvidløg fint"
           }
         },
         "de" : {
@@ -5561,6 +5915,12 @@
             "value" : "6 stroužků česneku na plátky silné 1–2 mm"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 fed hvidløg i 1–2 mm tykke skiver"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5653,6 +6013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Až budou okraje česneku světle zlaté"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når kanten af hvidløget bliver lysegylden"
           }
         },
         "de" : {
@@ -5749,6 +6115,12 @@
             "value" : "Nasekejte česnek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hak hvidløget"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5841,6 +6213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nakrájejte česnek na tenké plátky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skær hvidløget i tynde skiver"
           }
         },
         "de" : {
@@ -5937,6 +6315,12 @@
             "value" : "Až se rozvoní česnek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når hvidløget dufter"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6029,6 +6413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Osmahněte česnek na oleji"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svits hvidløget i olie"
           }
         },
         "de" : {
@@ -6125,6 +6515,12 @@
             "value" : "Přidejte česnek a pepř"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilsæt hvidløg og peber"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6217,6 +6613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Česnek se rychle připálí, proto stále míchejte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvidløg brænder let på, så bliv ved med at røre"
           }
         },
         "de" : {
@@ -6313,6 +6715,12 @@
             "value" : "Když to uděláte před dokončením, bude to snazší"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er lettere, hvis du gør det inden anretningen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6405,6 +6813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vypnout mikrofon"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå mikrofonen fra"
           }
         },
         "de" : {
@@ -6501,6 +6915,12 @@
             "value" : "Zapnout mikrofon"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå mikrofonen til"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6593,6 +7013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mikrofon zapnutý · Poslouchám"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon slået til · Lytter"
           }
         },
         "de" : {
@@ -6689,6 +7115,12 @@
             "value" : "Mikrofon je zapnutý. Poslouchám korejské slovo „다음“ („další“)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon slået til. Lytter efter det koreanske ord “다음” (“næste”)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6781,6 +7213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Další krok hlasem"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videre med stemmen"
           }
         },
         "de" : {
@@ -6877,6 +7315,12 @@
             "value" : "Dobře čitelné i zdálky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let at læse på afstand"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6969,6 +7413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napsat e-mail"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv til os på mail"
           }
         },
         "de" : {
@@ -7065,6 +7515,12 @@
             "value" : "Přidejte těstoviny a promíchejte na závěr"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom pastaen i og vend rundt til sidst"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7157,6 +7613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uvařte těstoviny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kog pastaen"
           }
         },
         "de" : {
@@ -7253,6 +7715,12 @@
             "value" : "Zatímco se vaří těstoviny, hotoví se i omáčka."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mens pastaen koger, bliver saucen også færdig."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7345,6 +7813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatímco se vaří těstoviny, hotoví se i omáčka. Každý hrnec ukazuje, co dělá a kolik zbývá času."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mens pastaen koger, bliver saucen også færdig. Hver gryde viser, hvad den laver, og hvor lang tid der er tilbage."
           }
         },
         "de" : {
@@ -7441,6 +7915,12 @@
             "value" : "Hrnec na těstoviny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastagryde"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7533,6 +8013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyjměte těstoviny a nechte si vodu z vaření"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag pastaen op og gem kogevandet"
           }
         },
         "de" : {
@@ -7629,6 +8115,12 @@
             "value" : "Přilijte vodu z vaření a promíchejte do emulze"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilsæt kogevand og emulger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7721,6 +8213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Půl hrnku vody z vaření, silně prohazujte pro emulzi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En halv kop kogevand, ryst kraftigt for at emulgere"
           }
         },
         "de" : {
@@ -7817,6 +8315,12 @@
             "value" : "Nalijte půl hrnku vody z vaření a zesilte plamen"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hæld en halv kop kogevand i og skru op for varmen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7909,6 +8413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nejdřív si nechte hrnek vody z vaření!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem først en kop kogevand!"
           }
         },
         "de" : {
@@ -8005,6 +8515,12 @@
             "value" : "Nejdřív si nechte hrnek vody z vaření!"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem først en kop kogevand!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8097,6 +8613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nejdřív odeberte hrnek (200 ml) vody z vaření"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hæld først en kop (200 ml) kogevand fra"
           }
         },
         "de" : {
@@ -8193,6 +8715,12 @@
             "value" : "Nejdřív odeberte hrnek (200 ml) vody z vaření"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hæld først en kop (200 ml) kogevand fra"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8285,6 +8813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hustotu upravte vodou z vaření — má pomalu stékat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juster konsistensen med kogevand – den skal løbe langsomt"
           }
         },
         "de" : {
@@ -8381,6 +8915,12 @@
             "value" : "Upravte vodou z vaření, ještě 1 minutu v omáčce"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juster med kogevand, 1 minut mere i saucen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8473,6 +9013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Těstoviny nepočkají, příprava ano"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastaen venter ikke, men forberedelsen gør"
           }
         },
         "de" : {
@@ -8569,6 +9115,12 @@
             "value" : "Neocvrnkávejte je do sucha — rovnou na pánev, ještě mokré"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryst den ikke tør – direkte på panden, mens den stadig er våd"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8663,6 +9215,12 @@
             "value" : "Nesmí se odkládat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan ikke vente"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8752,6 +9310,12 @@
     "문의" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakt"
@@ -8851,6 +9415,12 @@
             "value" : "2 l vody, 2 lžíce soli"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 l vand og 2 spsk salt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8943,6 +9513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přiveďte vodu k varu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bring vandet i kog"
           }
         },
         "de" : {
@@ -9039,6 +9615,12 @@
             "value" : "Hodně vody a soli jako v moři — vaří se asi 5 minut"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rigeligt vand og salt som havvand – tager ca. 5 minutter at koge"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9131,6 +9713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Postavte vodu na vysoký plamen"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sæt vandet over på høj varme"
           }
         },
         "de" : {
@@ -9227,6 +9815,12 @@
             "value" : "Tohle se nesmí odkládat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kan ikke vente"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9321,6 +9915,12 @@
             "value" : "Když ode dna stále stoupají velké bubliny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når store bobler stiger konstant op fra bunden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9413,6 +10013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepněte na tlačítko, nebo když máte mokré ruce, řekněte „다음“ (korejsky „další“). Až bude hrnec hotový, přijde oznámení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på knappen, eller sig “다음” (koreansk for “næste”), når du har våde hænder. Du får en besked, når en gryde er klar."
           }
         },
         "de" : {
@@ -9510,6 +10116,12 @@
             "value" : "Pohodlnější barvy a kontrast"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behagelige farver og kontrast"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9603,6 +10215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odpovědi na vaši odeslanou zpětnou vazbu si přečtete přímo v aplikaci."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læs svar på den feedback, du har sendt, direkte i appen."
           }
         },
         "de" : {
@@ -9700,6 +10318,12 @@
             "value" : "Odpovědi na vaši zpětnou vazbu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svar på din feedback"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9792,6 +10416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pojďte se podívat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom og se"
           }
         },
         "de" : {
@@ -9888,6 +10518,12 @@
             "value" : "Normální"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9980,6 +10616,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obvykle %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tager normalt %@"
           }
         },
         "de" : {
@@ -10076,6 +10718,12 @@
             "value" : "O 1 minutu kratší dobu, než je na obalu — dokončí se na pánvi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 minut mindre end angivet på pakken – den bliver færdig på panden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10168,6 +10816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozprostřete do vějíře — vaří se 8 minut od vhození"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fordel som en vifte – 8 minutter fra det øjeblik, den kommer i"
           }
         },
         "de" : {
@@ -10264,6 +10918,12 @@
             "value" : "Vypněte plotnu, přidejte petrželku a sýr"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluk for varmen, tilsæt persille og ost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10356,6 +11016,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slabý plamen — když se vaří, omáčka se srazí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lav varme – koger det, skiller saucen"
           }
         },
         "de" : {
@@ -10452,6 +11118,12 @@
             "value" : "Volný"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10544,6 +11216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Znovu zobrazit návod"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se vejledningen igen"
           }
         },
         "de" : {
@@ -10640,6 +11318,12 @@
             "value" : "Barva ukazuje naléhavost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farven viser, hvor hastende det er"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10732,6 +11416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Až barva ztmavne a ucítíte oříškovou vůni"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når farven bliver dybere, og det dufter af nødder"
           }
         },
         "de" : {
@@ -10828,6 +11518,12 @@
             "value" : "Předem odměřte 200 ml smetany a 2 lžíce rajčatového protlaku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mål 200 ml fløde og 2 spsk tomatpuré af på forhånd"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10920,6 +11616,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nalijte 200 ml smetany a rovnoměrně promíchejte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hæld 200 ml fløde i og rør det jævnt"
           }
         },
         "de" : {
@@ -11016,6 +11718,12 @@
             "value" : "Promíchejte, snižte plamen a zredukujte asi 1 minutu 30 sekund"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rør, skru ned for varmen og lad den koge ind i 1 min. 30 sek."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11108,6 +11816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nastavení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
           }
         },
         "de" : {
@@ -11204,6 +11918,12 @@
             "value" : "Hodně soli — vaří se asi 5 minut"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rigeligt salt – tager ca. 5 minutter at koge"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11296,6 +12016,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sůl a pepř mějte také po ruce"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sæt også salt og peber inden for rækkevidde"
           }
         },
         "de" : {
@@ -11392,6 +12118,12 @@
             "value" : "Když to uděláte před začátkem omáčky, bude to snazší"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er lettere, hvis du gør det, før du går i gang med saucen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11484,6 +12216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Až omáčka rovnoměrně obalí těstoviny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når saucen dækker pastaen jævnt"
           }
         },
         "de" : {
@@ -11580,6 +12318,12 @@
             "value" : "Až bude omáčka zakalená, hustá a přilne k těstovinám"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når saucen bliver uklar, tyk og hænger fast på pastaen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11672,6 +12416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Omáčka se plánuje pozpátku od chvíle, kdy se těstoviny vyndají"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saucen planlægges baglæns fra det øjeblik, pastaen er klar"
           }
         },
         "de" : {
@@ -11768,6 +12518,12 @@
             "value" : "Pánev na omáčku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sauce-pande"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11860,6 +12616,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ruce jsou hotové — zbývá jen čekat na hrnce"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dine hænder er færdige — nu venter du bare på gryderne"
           }
         },
         "de" : {
@@ -11956,6 +12718,12 @@
             "value" : "Když máte mokré ruce, řekněte „다음“ (korejsky „další“). Aplikace přejde na další krok, aniž byste se dotkli obrazovky."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du har våde hænder, så sig “다음” (koreansk for “næste”). Appen går videre til næste trin, uden at du rører skærmen."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12048,6 +12816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g špaget (2 porce), 6 stroužků česneku, 6 lžic olivového oleje"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g spaghetti (2 portioner), 6 fed hvidløg, 6 spsk olivenolie"
           }
         },
         "de" : {
@@ -12144,6 +12918,12 @@
             "value" : "Vhoďte 180 g špaget a rozprostřete je do vějíře"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom 180 g spaghetti i, fordelt som en vifte"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12236,6 +13016,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Můžete začít dokončovat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan begynde at runde af"
           }
         },
         "de" : {
@@ -12332,6 +13118,12 @@
             "value" : "Začít"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom i gang"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12424,6 +13216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "S tímhle začněte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det første, du skal gøre"
           }
         },
         "de" : {
@@ -12520,6 +13318,12 @@
             "value" : "Pokračovat tam, kde jste skončili"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt, hvor du slap"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12612,6 +13416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepněte dole na „Začít vařit“ a časovače hrnců se rozběhnou"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på “Start madlavningen” nedenfor, så begynder gryderne at tælle ned"
           }
         },
         "de" : {
@@ -12709,6 +13519,12 @@
             "value" : "Připojte k iPadu klávesnici a na další krok přejdete jedinou klávesou."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilslut et tastatur til iPad’en og gå videre til næste trin med blot én tast."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12801,6 +13617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jen sotva probublává — nevařit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun svagt boblende – må ikke koge"
           }
         },
         "de" : {
@@ -12897,6 +13719,12 @@
             "value" : "Na velmi slabém plameni, jen jemně"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ved meget lav varme, kun svagt boblende"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12989,6 +13817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Největší"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Størst"
           }
         },
         "de" : {
@@ -13085,6 +13919,12 @@
             "value" : "Zatím ne"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Endnu ikke"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13179,6 +14019,12 @@
             "value" : "Zbývají ještě kroky. Pokud teď přestanete, postup se ztratí."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der er stadig trin tilbage. Hvis du stopper nu, går din fremgang tabt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13268,6 +14114,12 @@
     "알리오 올리오" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aglio e olio"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aglio e olio"
@@ -13368,6 +14220,12 @@
             "value" : "Aplikaci budete moci používat i v angličtině."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan også bruge appen på engelsk."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13460,6 +14318,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "asi %lld min · hrnců: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ca. %lld min. · %lld gryder"
           }
         },
         "de" : {
@@ -13556,6 +14420,12 @@
             "value" : "Mírný plamen! Jen do světle zlaté"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lav varme! Kun til lysegylden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13648,6 +14518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na mírném plameni stále míchejte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ved lav varme, rør hele tiden"
           }
         },
         "de" : {
@@ -13744,6 +14620,12 @@
             "value" : "1/2 cibule nakrájejte na jemné proužky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skær 1/2 løg i fine strimler"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13838,6 +14720,12 @@
             "value" : "Osmahněte cibuli"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svits løget"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13930,6 +14818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nakrájejte cibuli na tenké proužky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skær løget i tynde strimler"
           }
         },
         "de" : {
@@ -14027,6 +14921,12 @@
             "value" : "Tmavá obrazovka, která neoslňuje ani v šeru kuchyně."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En mørk skærm, der ikke blænder i et mørkt køkken."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14119,6 +15019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dá se udělat kdykoli"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan gøres når som helst"
           }
         },
         "de" : {
@@ -14216,6 +15122,12 @@
             "value" : "Při prvním otevření po aktualizaci se dozvíte, co je nového."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åbner appen efter en opdatering, ser du, hvad der er nyt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14311,6 +15223,12 @@
             "value" : "Novinky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheder"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14403,6 +15321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Času je dost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der er god tid"
           }
         },
         "de" : {
@@ -14500,6 +15424,12 @@
             "value" : "Kromě angličtiny bude aplikace k dispozici i v dalších jazycích."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ud over engelsk kan appen bruges på flere sprog."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14593,6 +15523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpora angličtiny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Understøttelse af engelsk"
           }
         },
         "de" : {
@@ -14689,6 +15625,12 @@
             "value" : "2 lžíce olivového oleje s cibulí na středně mírném plameni"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 spsk olivenolie med løget ved middel-lav varme"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14781,6 +15723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 lžic olivového oleje s plátky česneku a chilli"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 spsk olivenolie med hvidløgsskiver og chili"
           }
         },
         "de" : {
@@ -14877,6 +15825,12 @@
             "value" : "Hotovo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14969,6 +15923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Předpokládaný čas dokončení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forventet færdig kl."
           }
         },
         "de" : {
@@ -15065,6 +16025,12 @@
             "value" : "Dokončit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15157,6 +16123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Označit jako hotové?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marker som færdig?"
           }
         },
         "de" : {
@@ -15253,6 +16225,12 @@
             "value" : "Hotovo 🍴 Naservírujte"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er klar 🍴 Anret"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15345,6 +16323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jídlo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ret"
           }
         },
         "de" : {
@@ -15441,6 +16425,12 @@
             "value" : "Začít vařit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start madlavningen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15533,6 +16523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otevřít jídlo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbn ret"
           }
         },
         "de" : {
@@ -15630,6 +16626,12 @@
             "value" : "Když se aplikace během vaření zavře, časovače hrnců i postup zůstanou zachované."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis appen lukker, mens du laver mad, bevares gryders timere og din fremgang."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15723,6 +16725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Omezení pohybu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducer bevægelse"
           }
         },
         "de" : {
@@ -15820,6 +16828,12 @@
             "value" : "Když zapnete „Omezit pohyb“, efekty na obrazovce jsou klidnější."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når “Reducer bevægelse” er slået til, bliver skærmeffekterne mere afdæmpede."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15909,6 +16923,12 @@
     "인스타그램" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -16008,6 +17028,12 @@
             "value" : "Pozastavit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16101,6 +17127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oblíbená jídla spustíte rovnou z plochy."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start de retter, du laver oftest, direkte fra hjemmeskærmen."
           }
         },
         "de" : {
@@ -16197,6 +17229,12 @@
             "value" : "Jemně — nikam nespěchejte"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fint – ingen hast"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16289,6 +17327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokračovat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt"
           }
         },
         "de" : {
@@ -16385,6 +17429,12 @@
             "value" : "Připravte suroviny a postavte pánev"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag ingredienserne frem og sæt panden på"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16477,6 +17527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mějte suroviny pohromadě"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saml ingredienserne ét sted"
           }
         },
         "de" : {
@@ -16573,6 +17629,12 @@
             "value" : "Polovinu nechte na dokončení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem halvdelen til sidst"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16665,6 +17727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ohřejte talíře a připravte se na servírování"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varm tallerkenerne og gør klar til servering"
           }
         },
         "de" : {
@@ -16761,6 +17829,12 @@
             "value" : "Talíře ohřejte horkou vodou a osušte"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varm tallerkenerne med varmt vand og tør dem"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16853,6 +17927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Talíře ohřejte horkou vodou"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varm tallerkenerne med varmt vand"
           }
         },
         "de" : {
@@ -16949,6 +18029,12 @@
             "value" : "Přerušit vaření a odejít"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop madlavningen og afslut"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17041,6 +18127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otevře obrazovku vaření"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbner madlavningsskærmen"
           }
         },
         "de" : {
@@ -17137,6 +18229,12 @@
             "value" : "Pokud zařízení opřete na kuchyňské lince, můžete tady text ještě zvětšit."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du sætter enheden op på køkkenbordet, kan du gøre teksten endnu større her."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17229,6 +18327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přerušit vaření a odejít?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop madlavningen og afslut?"
           }
         },
         "de" : {
@@ -17325,6 +18429,12 @@
             "value" : "Až stěrka zanechá stopu, která na okamžik zůstane"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når spatelen efterlader et spor, der bliver et øjeblik"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17417,6 +18527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přerušit a odejít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop og afslut"
           }
         },
         "de" : {
@@ -17513,6 +18629,12 @@
             "value" : "Na středně mírném plameni do změknutí"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ved middel-lav varme, til det er blødt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17605,6 +18727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teď"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu"
           }
         },
         "de" : {
@@ -17701,6 +18829,12 @@
             "value" : "Teď · nesmí se odkládat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu · kan ikke vente"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17793,6 +18927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co dělat teď"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gør det nu"
           }
         },
         "de" : {
@@ -17889,6 +19029,12 @@
             "value" : "Co dělat teď · bez spěchu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gør det nu · ingen hast"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17981,6 +19127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpora"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         },
         "de" : {
@@ -18077,6 +19229,12 @@
             "value" : "Uplynulý čas"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forløbet tid"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18169,6 +19327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zdroj · %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilde · %@"
           }
         },
         "de" : {
@@ -18265,6 +19429,12 @@
             "value" : "Klidně pomalu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag det roligt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18357,6 +19527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co nejtenčí — nikam nespěchejte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så tyndt som muligt – ingen hast"
           }
         },
         "de" : {
@@ -18453,6 +19629,12 @@
             "value" : "Nastrouhejte sýr a odměřte suroviny na omáčku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv osten og mål ingredienserne til saucen af"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18545,6 +19727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nastrouhejte sýr a ohřejte talíře"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv osten og varm tallerkenerne"
           }
         },
         "de" : {
@@ -18641,6 +19829,12 @@
             "value" : "Nůž položte naplocho a krájejte tence — silné plátky jsou uvnitř syrové a zvenku se připálí"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold kniven fladt og skær tyndt – er de tykke, bliver de rå indeni og brændte udenpå"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18733,6 +19927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velký"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stor"
           }
         },
         "de" : {
@@ -18829,6 +20029,12 @@
             "value" : "Nechte smetanu pomalu probublávat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lad fløden simre"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18921,6 +20127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nalijte smetanu a snižte plamen"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hæld fløden i og skru ned for varmen"
           }
         },
         "de" : {
@@ -19018,6 +20230,12 @@
             "value" : "Obrazovky pro velký text"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skærme til stor tekst"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19110,6 +20328,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Když stále stoupají velké bubliny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når store bobler stiger konstant op"
           }
         },
         "de" : {
@@ -19207,6 +20431,12 @@
             "value" : "Ovládání klávesnicí"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Styring med tastatur"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19299,6 +20529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snadno se připálí — hned pokračujte dalším krokem"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brænder let på – gå straks videre til næste trin"
           }
         },
         "de" : {
@@ -19395,6 +20631,12 @@
             "value" : "Časovače se vynulují a postup se ztratí."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timerne nulstilles, og din fremgang går tabt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19487,6 +20729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Časová osa · čárkované pruhy se dají odložit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidslinje · stiplede bjælker kan vente"
           }
         },
         "de" : {
@@ -19583,6 +20831,12 @@
             "value" : "Terakotová je to, co když odložíte, těstoviny rozvaříte nebo se připálí. Zelená je příprava – dělejte ji v klidu, když máte volné ruce."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terrakotta er det, der får pastaen til at blive for blød eller saucen til at brænde på, hvis du venter. Grøn er forberedelse – tag den i ro og mag, når dine hænder er frie."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19675,6 +20929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Těstoviny v rajčatovo-smetanové omáčce"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta i tomat-flødesauce"
           }
         },
         "de" : {
@@ -19771,6 +21031,12 @@
             "value" : "2 lžíce rajčatového protlaku, 200 ml smetany"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 spsk tomatpuré, 200 ml fløde"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19863,6 +21129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozetřete 2 lžíce rajčatového protlaku po dně pánve"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fordel 2 spsk tomatpuré ud over bunden af panden"
           }
         },
         "de" : {
@@ -19959,6 +21231,12 @@
             "value" : "Opražte rajčatový protlak"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rist tomatpuréen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20051,6 +21329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Až bude cibule průsvitná a na okrajích zlatavá"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når det er gennemsigtigt og gyldent i kanten"
           }
         },
         "de" : {
@@ -20147,6 +21431,12 @@
             "value" : "Nastrouhejte 30 g parmazánu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv 30 g parmigiano"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20239,6 +21529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 g parmazánu, 2 lžíce olivového oleje"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g parmigiano, 2 spsk olivenolie"
           }
         },
         "de" : {
@@ -20335,6 +21631,12 @@
             "value" : "Nastrouhejte najemno 30 g parmazánu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv 30 g parmigiano fint"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20427,6 +21729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g těstovin — vařte o 1 minutu méně, než je na obalu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g pasta – kog 1 minut mindre end angivet på pakken"
           }
         },
         "de" : {
@@ -20523,6 +21831,12 @@
             "value" : "180 g těstovin (2 porce), 1/2 cibule, 3 stroužky česneku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g pasta (2 portioner), 1/2 løg, 3 fed hvidløg"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20615,6 +21929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trochu petrželky nechte na dokončení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem lidt persille til sidst"
           }
         },
         "de" : {
@@ -20711,6 +22031,12 @@
             "value" : "Z petrželky nasekejte nahrubo jen lístky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hak kun persilleblade groft"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20803,6 +22129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pánev dost široká pro všechny těstoviny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En pande, der er bred nok til al pastaen"
           }
         },
         "de" : {
@@ -20899,6 +22231,12 @@
             "value" : "Pánví 30 sekund třepejte — aby se olej s vodou spojily"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryst panden i 30 sekunder – så olie og vand binder sig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20991,6 +22329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2–3 chilli papričky, trochu petrželky, 30 g parmazánu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 chilier, lidt persille, 30 g parmigiano"
           }
         },
         "de" : {
@@ -21087,6 +22431,12 @@
             "value" : "2–3 chilli papričky rozpulte a vytřepte semínka"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del 2–3 chilier på midten og ryst kernerne ud"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21181,6 +22531,12 @@
             "value" : "Nasekejte chilli a petrželku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hak chili og persille"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21273,6 +22629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dost tenké jsou, když plátky prosvítají"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tynde nok, når skiverne er gennemsigtige"
           }
         },
         "de" : {
@@ -21370,6 +22732,12 @@
             "value" : "Obrazovka pro skládací iPhone"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skærm til foldbar iPhone"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21465,6 +22833,12 @@
             "value" : "Na široké obrazovce skládacího iPhonu uvidíte hrnce a úkoly vedle sebe."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På den brede skærm på en foldbar iPhone ser du gryder og opgaver side om side."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21557,6 +22931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mějte vše potřebné pohromadě"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saml alt, hvad du skal bruge, ét sted"
           }
         },
         "de" : {
@@ -21654,6 +23034,12 @@
             "value" : "Pokračování v rozdělaném jídle"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt en ret, du er i gang med"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21746,6 +23132,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozdělané · %@ %@ — nejdřív dokončete tohle, pak se k tomu vraťte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det du var i gang med · %@ %@ — gør dette færdigt først, og tag så fat igen"
           }
         },
         "de" : {
@@ -21842,6 +23234,12 @@
             "value" : "Jednou opražit, aby zmizela kyselost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rist den én gang, så syren forsvinder"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21934,6 +23332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jednou opražený ztratí kyselost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ristes den én gang, forsvinder syren"
           }
         },
         "de" : {
@@ -22029,6 +23433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Widgety na ploše"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets på hjemmeskærmen"
           }
         },
         "de" : {

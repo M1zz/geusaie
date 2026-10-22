@@ -48,6 +48,7 @@ SEARCH = {
     "th": ("ตัวจับเวลาทำอาหาร", "สองหม้อ<br>ไม่พลาดสักอย่าง", "งานตอนนี้และเวลาของแต่ละหม้อ เห็นได้ในพริบตา"),
     "vi": ("Hẹn giờ nấu ăn", "Hai nồi,<br>không bỏ sót", "Việc cần làm lúc này và thời gian từng nồi, nhìn là thấy"),
     "cs": ("Kuchyňský časovač", "Dva hrnce,<br>nic nezapomenuto", "Úkol na řadě a čas každého hrnce na první pohled"),
+    "da": ("Køkkentimer", "To gryder,<br>intet glemt", "Opgaven lige nu og hver gryde tid, med ét blik"),
 }
 
 # 헤더는 한 가지 약속: 면 삶는 그사이에 소스까지(앱의 부제 문장).
@@ -67,6 +68,7 @@ HEADER = {
     "th": ("ตัวจับเวลาทำอาหาร", "ระหว่างที่เส้นต้ม<br>ซอสก็เสร็จ"),
     "vi": ("Hẹn giờ nấu ăn", "Mì đang luộc,<br>nước sốt cũng xong"),
     "cs": ("Kuchyňský časovač", "Těstoviny se vaří,<br>omáčka je hotová"),
+    "da": ("Køkkentimer", "Mens pastaen koger,<br>bliver saucen færdig"),
 }
 
 # ⚠️ 바탕 · 글자색은 앱 팔레트(Geusaie/Theme.swift)와 같다: cream · ink · terracotta.

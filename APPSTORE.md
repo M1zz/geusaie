@@ -961,3 +961,67 @@ https://m1zz.github.io/geusaie/cs/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/cs/
+
+## da
+
+### 이름
+
+Geusaie: timer til pasta
+
+### 부제
+
+To gryder uden stress
+
+### 키워드
+
+køkken,opskrifter,trin,stopur,nedtælling,carbonara,spaghetti,aftensmad,sauce,kogning,stemme,aglio
+
+### 프로모션 텍스트
+
+Vand på, hvidløg skåret, pasta i, sauce på panden. Én opgave ad gangen med stor tekst, nedtælling til hver gryde og stemmestyring, når du har våde hænder.
+
+### 설명
+
+To gryder på én gang uden at miste overblikket. Geusaie er en køkkentimer, der lægger rækkefølge og timing, så saucen er færdig, mens pastaen koger.
+Den viser kun den ene opgave, der er på, med stor tekst, og tæller tiden ned for hver gryde for sig.
+
+Madlavning er svært, ikke fordi dine hænder er langsomme, men fordi tiden ikke løber på én linje. Pastaen venter ikke på dig, mens man kan skære hvidløg når som helst. Geusaie kender forskellen og tilrettelægger trinene derefter.
+
+Kun én opgave ad gangen
+Øverst på skærmen står den ene opgave, dine hænder skal gøre lige nu, med stor tekst. En farve viser med det samme, om den kan vente eller ej. Hvordan du gør det, og hvordan du ser, at det er klar, står lige ved siden af.
+
+Egen nedtælling til hver gryde
+Pastagryden og sauce-panden viser hver deres resterende tid. Du kan med det samme se, om vandet varmer op, pastaen koger, eller du står ved panden.
+
+Er du bagud, rykker resten med
+Ingen stiv tidsplan. Tænder du lidt for sent for varmen, rykker de efterfølgende trin med, og saucen planlægges, så den starter netop, når pastaen er klar.
+
+Hele tidslinjen med ét blik
+Se, hvornår dine hænder, pastagryden og sauce-panden overlapper. Stiplede opgaver kan gøres, når dine hænder er frie.
+
+Stemmestyring med våde hænder
+Slå mikrofonen til og sig det koreanske ord for “næste” (da-eum) for at gå videre. Talegenkendelsen forstår i øjeblikket kun koreansk. Så længe mikrofonen er tændt, vises den altid på skærmen, og den slukkes, når du forlader madlavningsskærmen.
+
+Tekst, der kan læses på afstand
+Stil enheden op på køkkenbordet og træd et par skridt tilbage. Teksten kan gøres større i fire trin.
+
+Ingen gryde bliver glemt
+Når en gryde er klar, får du en besked sammen med næste opgave – også selvom du er i en anden app.
+
+Medfølgende opskrifter
+Aglio e olio
+Pasta i tomat-flødesauce
+
+Virker på iPhone og iPad. Ingen konto nødvendig for at komme i gang.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/da/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/da/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/da/
