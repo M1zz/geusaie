@@ -513,3 +513,67 @@ https://m1zz.github.io/geusaie/es/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/es/
+
+## de
+
+### 이름
+
+Geusaie: Pasta-Kochtimer
+
+### 부제
+
+Zwei Töpfe im Griff
+
+### 키워드
+
+Küchenwecker,Rezepte,Schritte,Kochen,Aglio,Olio,Carbonara,Spaghetti,Abendessen,Soße,Stoppuhr,Stimme
+
+### 프로모션 텍스트
+
+Wasser aufsetzen, Knoblauch schneiden, Nudeln rein, Soße braten. Immer nur eine Aufgabe in großer Schrift, ein Countdown pro Topf und Sprachsteuerung bei nassen Händen.
+
+### 설명
+
+Zwei Töpfe gleichzeitig, nichts geht schief. Geusaie ist ein Kochtimer, der Reihenfolge und Zeiten so plant, dass die Soße fertig ist, während die Pasta kocht.
+Er zeigt in großer Schrift nur die eine Aufgabe, die jetzt dran ist, und zählt die Zeit für jeden Topf getrennt.
+
+Kochen ist nicht schwer, weil deine Hände langsam wären, sondern weil die Zeit nicht in einer Linie läuft. Die Nudeln warten nicht auf dich, Knoblauchschneiden geht jederzeit. Geusaie kennt den Unterschied und plant danach.
+
+Immer nur eine Aufgabe
+Oben auf dem Bildschirm steht in großer Schrift die eine Aufgabe, die deine Hände jetzt erledigen sollen. Eine Farbe zeigt auf einen Blick, ob sie warten kann oder nicht. Wie sie geht und woran du erkennst, dass sie fertig ist, steht gleich dabei.
+
+Eigener Countdown pro Topf
+Nudeltopf und Soßenpfanne zeigen jeweils ihre Restzeit. Du siehst sofort, ob das Wasser noch heiß wird, die Nudeln kochen oder du an der Pfanne stehst.
+
+Wird es später, verschiebt sich der Rest mit
+Kein starrer Zeitplan. Schaltest du den Herd etwas später ein, rücken die folgenden Schritte mit, und die Soße wird so geplant, dass sie startet, wenn die Nudeln fertig sind.
+
+Die ganze Zeitleiste auf einen Blick
+Sieh, wann sich deine Hände, der Nudeltopf und die Soßenpfanne überschneiden. Gepunktete Aufgaben kannst du erledigen, wenn deine Hände frei sind.
+
+Per Sprache weiter bei nassen Händen
+Schalte das Mikrofon ein und sag das koreanische Wort für „weiter“ (da-eum), um zum nächsten Schritt zu gehen. Die Spracherkennung versteht derzeit nur Koreanisch. Solange das Mikrofon läuft, ist es immer auf dem Bildschirm zu sehen, und beim Verlassen der Kochansicht schaltet es sich aus.
+
+Schrift, die man auch von Weitem liest
+Stell das Gerät auf die Arbeitsplatte und tritt ein, zwei Schritte zurück. Die Schrift lässt sich in vier Stufen vergrößern.
+
+Kein Topf wird vergessen
+Wenn ein Topf fertig ist, bekommst du eine Mitteilung samt nächster Aufgabe – auch wenn du gerade eine andere App benutzt.
+
+Enthaltene Rezepte
+Aglio e Olio
+Tomaten-Sahne-Pasta
+
+Für iPhone und iPad. Ohne Konto sofort startklar.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/de/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/de/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/de/
