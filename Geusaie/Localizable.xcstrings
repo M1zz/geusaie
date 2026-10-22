@@ -21,6 +21,12 @@
             "value" : "Hört nur auf das koreanische Wort „다음“ („weiter“) und speichert keinen Ton"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακούει μόνο την κορεατική λέξη «다음» («επόμενο») και δεν αποθηκεύει ποτέ ήχο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — jetzt dran"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — κάντε το τώρα"
           }
         },
         "en" : {
@@ -221,6 +233,12 @@
             "value" : "Timer abgelaufen: %@ %@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λήξη χρονοδιακόπτη: %@ %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -319,6 +337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, noch %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, απομένουν %@"
           }
         },
         "en" : {
@@ -421,6 +445,12 @@
             "value" : "%@, kann nicht warten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, δεν περιμένει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -519,6 +549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, ca. %lld Minuten, %lld Töpfe"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, περίπου %lld λεπτά, %lld κατσαρόλες"
           }
         },
         "en" : {
@@ -621,6 +657,12 @@
             "value" : "%lld Min."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld λ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -719,6 +761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld Min. %lld Sek."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld λ. %lld δ."
           }
         },
         "en" : {
@@ -821,6 +869,12 @@
             "value" : "%lld Sek."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld δ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -919,6 +973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 Minute kürzer – gar wird sie in der Soße"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 λεπτό λιγότερο — ολοκληρώνονται στη σάλτσα"
           }
         },
         "en" : {
@@ -1022,6 +1082,12 @@
             "value" : "VoiceOver liest alle Topf-Timer und Aufgaben lückenlos und in der richtigen Reihenfolge vor."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το VoiceOver διαβάζει όλους τους χρόνους των κατσαρολών και τις εργασίες, χωρίς παραλείψεις και με τη σωστή σειρά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1121,6 +1187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Besser mit VoiceOver"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πιο εύκολο VoiceOver"
           }
         },
         "en" : {
@@ -1223,6 +1295,12 @@
             "value" : "Wasser kocht"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το νερό βράζει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1321,6 +1399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nudeln kochen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα ζυμαρικά βράζουν"
           }
         },
         "en" : {
@@ -1423,6 +1507,12 @@
             "value" : "Wasser kocht"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το νερό βράζει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1521,6 +1611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nudeln kochen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα ζυμαρικά βράζουν"
           }
         },
         "en" : {
@@ -1623,6 +1719,12 @@
             "value" : "Sahne köchelt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η κρέμα σιγοβράζει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1721,6 +1823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brauner Knoblauch wird bitter – sobald er Farbe annimmt, vom Herd ziehen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το σκόρδο που καφετιάζει πικρίζει — μόλις σκουρύνει, τραβήξτε το από τη φωτιά"
           }
         },
         "en" : {
@@ -1823,6 +1931,12 @@
             "value" : "Gleich geschafft"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σχεδόν έτοιμο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1921,6 +2035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Überspringen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παράλειψη"
           }
         },
         "en" : {
@@ -2023,6 +2143,12 @@
             "value" : "Die herausgenommenen Nudeln 1 Minute in der Soße schwenken"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βάλτε τα στραγγισμένα ζυμαρικά στη σάλτσα για 1 λεπτό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2121,6 +2247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quer zur Faser geschnitten wird sie schneller weich"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κομμένο κόντρα στις ίνες μαλακώνει πιο γρήγορα"
           }
         },
         "en" : {
@@ -2223,6 +2355,12 @@
             "value" : "Weiterkochen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχεια μαγειρέματος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2321,6 +2459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öffnet die Kochansicht des gewählten Gerichts. Die Timer starten, sobald du auf Start tippst."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανοίγει την οθόνη μαγειρέματος της συνταγής που επιλέξατε. Οι χρονοδιακόπτες ξεκινούν όταν πατήσετε Έναρξη."
           }
         },
         "en" : {
@@ -2423,6 +2567,12 @@
             "value" : "Fein hacken"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ψιλοκόψτε το"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2518,6 +2668,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -2623,6 +2779,12 @@
             "value" : "Schriftgröße"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μέγεθος κειμένου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2722,6 +2884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn du die Schrift auf dem Gerät vergrößerst, ordnen sich Rezeptliste und Ansichten neu an, statt abgeschnitten zu werden."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν μεγαλώσετε το κείμενο της συσκευής, η λίστα συνταγών και οι οθόνες αναδιατάσσονται αντί να κόβονται."
           }
         },
         "en" : {
@@ -2824,6 +2992,12 @@
             "value" : "Ausschalten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απενεργοποίηση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2922,6 +3096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Während es kocht, die Vorbereitung erledigen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όσο βράζει, κάντε την προετοιμασία"
           }
         },
         "en" : {
@@ -3024,6 +3204,12 @@
             "value" : "Während es kocht, Zwiebel und Knoblauch vorbereiten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όσο βράζει, ετοιμάστε το κρεμμύδι και το σκόρδο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3122,6 +3308,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn es kocht, die Nudeln hineingeben"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν βράσει, ρίξτε τα ζυμαρικά"
           }
         },
         "en" : {
@@ -3224,6 +3416,12 @@
             "value" : "Nicht aufkochen lassen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να μην βράσει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3322,6 +3520,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sag Bescheid, wenn du fertig bist"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πείτε μου όταν τελειώσετε"
           }
         },
         "en" : {
@@ -3424,6 +3628,12 @@
             "value" : "Erledigt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ολοκληρώθηκε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3522,6 +3732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Restlichen Käse und Pfeffer danebenstellen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφήστε δίπλα το τυρί και το πιπέρι που περίσσεψαν"
           }
         },
         "en" : {
@@ -3624,6 +3840,12 @@
             "value" : "Meine Hände"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα χέρια μου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3722,6 +3944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du bist dran"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την έχετε εσείς"
           }
         },
         "en" : {
@@ -3824,6 +4052,12 @@
             "value" : "Zwei Töpfe, ein Bildschirm"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δύο κατσαρόλες, μία οθόνη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3922,6 +4156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wir sagen dir Bescheid, wenn ein Topf fertig ist."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα σας ειδοποιήσουμε όταν μια κατσαρόλα είναι έτοιμη."
           }
         },
         "en" : {
@@ -4024,6 +4264,12 @@
             "value" : "12 Minuten ab dem Moment, in dem sie ins Wasser kommen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 λεπτά από τη στιγμή που μπαίνουν"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4122,6 +4368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gleich einmal umrühren, damit sie nicht kleben"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανακατέψτε αμέσως μία φορά για να μην κολλήσουν"
           }
         },
         "en" : {
@@ -4224,6 +4476,12 @@
             "value" : "Wenn sie ansetzt, einen Löffel Wasser dazugeben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν κολλάει, προσθέστε μια κουταλιά νερό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4322,6 +4580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verspätet · jetzt sofort"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καθυστέρηση · κάντε το αμέσως"
           }
         },
         "en" : {
@@ -4424,6 +4688,12 @@
             "value" : "Fertig benutzt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έχει τελειώσει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4522,6 +4792,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn du fertig bist, sag „다음“ (Koreanisch für „weiter“)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν τελειώσετε, πείτε «다음» (στα κορεατικά «επόμενο»)"
           }
         },
         "en" : {
@@ -4624,6 +4900,12 @@
             "value" : "Fertig? Sag „다음“"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τελειώσατε; Πείτε «다음»"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4722,6 +5004,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn du fertig bist, sag „다음“ (Koreanisch für „weiter“)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν τελειώσετε, πείτε «다음» (στα κορεατικά «επόμενο»)"
           }
         },
         "en" : {
@@ -4824,6 +5112,12 @@
             "value" : "Weiter"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επόμενο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4924,6 +5218,12 @@
             "value" : "Danach · %@ %@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μετά · %@ %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5022,6 +5322,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gehackten Knoblauch und Pfeffer 30 Sekunden mitbraten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθέστε ψιλοκομμένο σκόρδο και πιπέρι για 30 δευτερόλεπτα"
           }
         },
         "en" : {
@@ -5125,6 +5431,12 @@
             "value" : "Dunkelmodus"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σκοτεινή λειτουργία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5223,6 +5535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schließen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείσιμο"
           }
         },
         "en" : {
@@ -5326,6 +5644,12 @@
             "value" : "Du erkennst den Zustand jedes Topfs auch bei erhöhtem Kontrast oder wenn Farben schwer zu unterscheiden sind."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δείτε την κατάσταση κάθε κατσαρόλας ακόμη και με αυξημένη αντίθεση ή αν δυσκολεύεστε να ξεχωρίσετε χρώματα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5425,6 +5749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mehr Sprachen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περισσότερες γλώσσες"
           }
         },
         "en" : {
@@ -5527,6 +5857,12 @@
             "value" : "Größer"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μεγαλύτερο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5625,6 +5961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hilfe"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βοήθεια"
           }
         },
         "en" : {
@@ -5727,6 +6069,12 @@
             "value" : "Mit Deckel kocht es schneller"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με το καπάκι βράζει πιο γρήγορα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5825,6 +6173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 Knoblauchzehen fein hacken"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ψιλοκόψτε 3 σκελίδες σκόρδο"
           }
         },
         "en" : {
@@ -5927,6 +6281,12 @@
             "value" : "6 Knoblauchzehen in 1–2 mm dicke Scheiben schneiden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 σκελίδες σκόρδο σε φέτες πάχους 1–2 mm"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6025,6 +6385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn die Ränder des Knoblauchs hellgolden werden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν οι άκρες του σκόρδου γίνουν ανοιχτό χρυσαφί"
           }
         },
         "en" : {
@@ -6127,6 +6493,12 @@
             "value" : "Knoblauch hacken"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ψιλοκόψτε το σκόρδο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6225,6 +6597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Knoblauch in dünne Scheiben schneiden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κόψτε το σκόρδο σε λεπτές φέτες"
           }
         },
         "en" : {
@@ -6327,6 +6705,12 @@
             "value" : "Wenn der Knoblauch duftet"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν μυρίσει το σκόρδο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6425,6 +6809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Knoblauch im Öl anbraten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σοτάρετε το σκόρδο στο λάδι"
           }
         },
         "en" : {
@@ -6527,6 +6917,12 @@
             "value" : "Knoblauch und Pfeffer dazugeben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθέστε το σκόρδο και το πιπέρι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6625,6 +7021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Knoblauch brennt schnell an, also ständig rühren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το σκόρδο καίγεται εύκολα, γι' αυτό ανακατεύετε συνεχώς"
           }
         },
         "en" : {
@@ -6727,6 +7129,12 @@
             "value" : "Wer das vor dem Anrichten erledigt, hat es leichter"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Είναι ευκολότερο αν το κάνετε πριν από το τελείωμα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6825,6 +7233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mikrofon ausschalten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απενεργοποίηση μικροφώνου"
           }
         },
         "en" : {
@@ -6927,6 +7341,12 @@
             "value" : "Mikrofon einschalten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ενεργοποίηση μικροφώνου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7025,6 +7445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mikrofon an · Hört zu"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μικρόφωνο ενεργό · Ακούει"
           }
         },
         "en" : {
@@ -7127,6 +7553,12 @@
             "value" : "Mikrofon an. Hört auf das koreanische Wort „다음“ („weiter“)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μικρόφωνο ενεργό. Ακούει την κορεατική λέξη «다음» («επόμενο»)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7225,6 +7657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Per Sprache weiter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχεια με τη φωνή"
           }
         },
         "en" : {
@@ -7327,6 +7765,12 @@
             "value" : "Gut lesbar aus der Ferne"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ευανάγνωστο από μακριά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7425,6 +7869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Per E-Mail kontaktieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επικοινωνία με email"
           }
         },
         "en" : {
@@ -7527,6 +7977,12 @@
             "value" : "Nudeln dazugeben und vermengen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθέστε τα ζυμαρικά και ανακατέψτε για το τελείωμα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7625,6 +8081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nudeln kochen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βράστε τα ζυμαρικά"
           }
         },
         "en" : {
@@ -7727,6 +8189,12 @@
             "value" : "Während die Pasta kocht, wird auch die Soße fertig."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ενώ βράζουν τα ζυμαρικά, ετοιμάζεται και η σάλτσα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7825,6 +8293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Während die Pasta kocht, wird auch die Soße fertig. Jeder Topf zeigt, was gerade passiert und wie viel Zeit noch bleibt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ενώ βράζουν τα ζυμαρικά, ετοιμάζεται και η σάλτσα. Κάθε κατσαρόλα δείχνει τι κάνει και πόσος χρόνος απομένει."
           }
         },
         "en" : {
@@ -7927,6 +8401,12 @@
             "value" : "Nudeltopf"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατσαρόλα ζυμαρικών"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8025,6 +8505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nudeln herausnehmen, Nudelwasser aufbewahren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βγάλτε τα ζυμαρικά κρατώντας το νερό του βρασμού"
           }
         },
         "en" : {
@@ -8127,6 +8613,12 @@
             "value" : "Nudelwasser dazugeben und emulgieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθέστε το νερό του βρασμού και γαλακτωματοποιήστε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8225,6 +8717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eine halbe Tasse Nudelwasser, kräftig schwenken zum Emulgieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μισό φλιτζάνι νερό του βρασμού, ανακινήστε δυνατά για να γαλακτωματοποιηθεί"
           }
         },
         "en" : {
@@ -8327,6 +8825,12 @@
             "value" : "Eine halbe Tasse Nudelwasser angießen und die Hitze hochdrehen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρίξτε μισό φλιτζάνι νερό του βρασμού και δυναμώστε τη φωτιά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8425,6 +8929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erst eine Tasse Nudelwasser abschöpfen!"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτα κρατήστε ένα φλιτζάνι νερό του βρασμού!"
           }
         },
         "en" : {
@@ -8527,6 +9037,12 @@
             "value" : "Erst eine Tasse Nudelwasser abschöpfen!"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτα κρατήστε ένα φλιτζάνι νερό του βρασμού!"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8625,6 +9141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zuerst eine Tasse (200 ml) Nudelwasser abschöpfen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτα κρατήστε ένα φλιτζάνι (200 ml) από το νερό του βρασμού"
           }
         },
         "en" : {
@@ -8727,6 +9249,12 @@
             "value" : "Zuerst eine Tasse (200 ml) Nudelwasser abschöpfen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτα κρατήστε ένα φλιτζάνι (200 ml) από το νερό του βρασμού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8825,6 +9353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mit Nudelwasser die Konsistenz einstellen – sie soll langsam fließen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίστε την πυκνότητα με νερό του βρασμού — να τρέχει αργά"
           }
         },
         "en" : {
@@ -8927,6 +9461,12 @@
             "value" : "Mit Nudelwasser die Konsistenz einstellen, noch 1 Minute in der Soße"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίστε με νερό του βρασμού, άλλο 1 λεπτό στη σάλτσα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9025,6 +9565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Nudeln warten nicht, die Vorbereitung schon"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα ζυμαρικά δεν περιμένουν, η προετοιμασία περιμένει"
           }
         },
         "en" : {
@@ -9127,6 +9673,12 @@
             "value" : "Nicht abschütteln – noch feucht direkt in die Pfanne"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μην τα στραγγίσετε τελείως — κατευθείαν στο τηγάνι, ακόμη υγρά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9225,6 +9777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kann nicht warten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν περιμένει"
           }
         },
         "en" : {
@@ -9327,6 +9885,12 @@
             "value" : "Kontakt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επικοινωνία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9425,6 +9989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 l Wasser, 2 EL Salz"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 λίτρα νερό, 2 κουταλιές της σούπας αλάτι"
           }
         },
         "en" : {
@@ -9527,6 +10097,12 @@
             "value" : "Wasser zum Kochen bringen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βράστε το νερό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9625,6 +10201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reichlich Wasser, Salz wie im Meer – etwa 5 Minuten bis zum Kochen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άφθονο νερό και αλάτι σαν τη θάλασσα — χρειάζονται περίπου 5 λεπτά για να βράσει"
           }
         },
         "en" : {
@@ -9727,6 +10309,12 @@
             "value" : "Wasser aufsetzen und auf hoher Stufe erhitzen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βάλτε το νερό σε δυνατή φωτιά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9825,6 +10413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das kann nicht warten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτό δεν περιμένει"
           }
         },
         "en" : {
@@ -9927,6 +10521,12 @@
             "value" : "Wenn vom Boden ständig große Blasen aufsteigen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν ανεβαίνουν συνεχώς μεγάλες φυσαλίδες από τον πάτο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10025,6 +10625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tippe auf den Button oder sag bei nassen Händen „다음“ (Koreanisch für „weiter“). Wenn ein Topf fertig ist, bekommst du eine Mitteilung."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε το κουμπί ή, όταν έχετε βρεγμένα χέρια, πείτε «다음» (στα κορεατικά «επόμενο»). Όταν μια κατσαρόλα είναι έτοιμη, θα λάβετε ειδοποίηση."
           }
         },
         "en" : {
@@ -10128,6 +10734,12 @@
             "value" : "Angenehme Farben und Kontraste"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άνετα χρώματα και αντίθεση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10227,6 +10839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lies unsere Antworten auf dein Feedback direkt in der App."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαβάστε μέσα στην εφαρμογή τις απαντήσεις στα σχόλια που στείλατε."
           }
         },
         "en" : {
@@ -10330,6 +10948,12 @@
             "value" : "Antworten auf dein Feedback"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απαντήσεις στα σχόλιά σας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10428,6 +11052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schau mal vorbei"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ελάτε να δείτε"
           }
         },
         "en" : {
@@ -10530,6 +11160,12 @@
             "value" : "Normal"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανονικό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10628,6 +11264,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meist %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνήθως %@"
           }
         },
         "en" : {
@@ -10730,6 +11372,12 @@
             "value" : "1 Minute kürzer als auf der Packung – fertig gegart wird in der Pfanne"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 λεπτό λιγότερο από ό,τι γράφει η συσκευασία — ολοκληρώνονται στο τηγάνι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10828,6 +11476,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fächerförmig hineingeben – 8 Minuten ab dem Moment, in dem sie ins Wasser kommen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανοίξτε τα σαν βεντάλια καθώς τα ρίχνετε — 8 λεπτά από τη στιγμή που μπαίνουν"
           }
         },
         "en" : {
@@ -10930,6 +11584,12 @@
             "value" : "Herd ausschalten, Petersilie und Käse dazugeben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σβήστε τη φωτιά, προσθέστε μαϊντανό και τυρί"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11028,6 +11688,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hitze niedrig halten – kocht es, gerinnt die Soße"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χαμηλή φωτιά — αν βράσει, κόβει"
           }
         },
         "en" : {
@@ -11130,6 +11796,12 @@
             "value" : "Frei"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άδεια"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11228,6 +11900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anleitung noch einmal ansehen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δείτε ξανά τον οδηγό"
           }
         },
         "en" : {
@@ -11330,6 +12008,12 @@
             "value" : "Die Farbe zeigt die Dringlichkeit"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το χρώμα δείχνει πόσο επείγει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11428,6 +12112,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn die Farbe dunkler wird und es nussig riecht"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν το χρώμα βαθύνει και μυρίσει καβουρντισμένο"
           }
         },
         "en" : {
@@ -11530,6 +12220,12 @@
             "value" : "200 ml Sahne und 2 EL Tomatenmark vorher abmessen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μετρήστε από πριν 200 ml κρέμα γάλακτος και 2 κουταλιές της σούπας πολτό ντομάτας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11628,6 +12324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "200 ml Sahne angießen und gleichmäßig verrühren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρίξτε 200 ml κρέμα γάλακτος και ανακατέψτε ομοιόμορφα"
           }
         },
         "en" : {
@@ -11730,6 +12432,12 @@
             "value" : "Verrühren, Hitze reduzieren und 1 Min. 30 Sek. einkochen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανακατέψτε, χαμηλώστε τη φωτιά και μειώστε για 1 λεπτό και 30 δευτερόλεπτα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11828,6 +12536,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einstellungen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις"
           }
         },
         "en" : {
@@ -11930,6 +12644,12 @@
             "value" : "Reichlich Salz – etwa 5 Minuten bis zum Kochen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άφθονο αλάτι — χρειάζονται περίπου 5 λεπτά για να βράσει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12028,6 +12748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salz und Pfeffer ebenfalls in Reichweite stellen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έχετε και το αλάτι και το πιπέρι πρόχειρα"
           }
         },
         "en" : {
@@ -12130,6 +12856,12 @@
             "value" : "Wer das vor dem Soßenstart erledigt, hat es leichter"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Είναι ευκολότερο αν το κάνετε πριν ξεκινήσετε τη σάλτσα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12228,6 +12960,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn die Soße die Nudeln gleichmäßig überzieht"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν η σάλτσα καλύψει ομοιόμορφα τα ζυμαρικά"
           }
         },
         "en" : {
@@ -12330,6 +13068,12 @@
             "value" : "Wenn die Soße trüb und cremig wird und an den Nudeln haftet"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν η σάλτσα θολώσει, δέσει και κολλήσει στα ζυμαρικά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12428,6 +13172,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Soße wird rückwärts vom Moment geplant, in dem die Nudeln fertig sind"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η σάλτσα προγραμματίζεται αντίστροφα, από τη στιγμή που βγαίνουν τα ζυμαρικά"
           }
         },
         "en" : {
@@ -12530,6 +13280,12 @@
             "value" : "Soßenpfanne"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τηγάνι σάλτσας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12628,6 +13384,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deine Hände sind fertig — jetzt heißt es nur noch auf die Töpfe warten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα χέρια σας τελείωσαν — μένει μόνο να περιμένετε τις κατσαρόλες"
           }
         },
         "en" : {
@@ -12730,6 +13492,12 @@
             "value" : "Sag bei nassen Händen einfach „다음“ (Koreanisch für „weiter“). Die App springt zum nächsten Schritt, ohne dass du den Bildschirm berührst."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν έχετε βρεγμένα χέρια, πείτε «다음» (στα κορεατικά «επόμενο»). Η εφαρμογή προχωρά στο επόμενο βήμα χωρίς να αγγίξετε την οθόνη."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12828,6 +13596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g Spaghetti (2 Portionen), 6 Knoblauchzehen, 6 EL Olivenöl"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 γρ. σπαγγέτι (2 μερίδες), 6 σκελίδες σκόρδο, 6 κουταλιές της σούπας ελαιόλαδο"
           }
         },
         "en" : {
@@ -12930,6 +13704,12 @@
             "value" : "180 g Spaghetti fächerförmig ins Wasser geben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρίξτε 180 γρ. σπαγγέτι ανοίγοντάς το σαν βεντάλια"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13028,6 +13808,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du kannst langsam abschließen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μπορείτε να αρχίσετε να ολοκληρώνετε"
           }
         },
         "en" : {
@@ -13130,6 +13916,12 @@
             "value" : "Los geht’s"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκινήστε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13228,6 +14020,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das ist als Erstes dran"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτο βήμα"
           }
         },
         "en" : {
@@ -13330,6 +14128,12 @@
             "value" : "Dort weitermachen, wo du aufgehört hast"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχεια από εκεί που μείνατε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13428,6 +14232,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tippe unten auf „Kochen starten“, dann laufen die Topf-Timer los"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε «Έναρξη μαγειρέματος» παρακάτω και οι χρονοδιακόπτες των κατσαρολών θα ξεκινήσουν"
           }
         },
         "en" : {
@@ -13531,6 +14341,12 @@
             "value" : "Schließe eine Tastatur an dein iPad an und gehe mit einer einzigen Taste zum nächsten Schritt."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνδέστε πληκτρολόγιο στο iPad και προχωρήστε στο επόμενο βήμα με ένα μόνο πλήκτρο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13629,6 +14445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nur ein ganz leises Köcheln – nicht aufkochen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μόλις που σιγοβράζει — να μη βράσει"
           }
         },
         "en" : {
@@ -13731,6 +14553,12 @@
             "value" : "Bei sehr niedriger Hitze ganz sanft"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σε πολύ χαμηλή φωτιά, μόλις που σιγοβράζει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13829,6 +14657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Am größten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μέγιστο"
           }
         },
         "en" : {
@@ -13931,6 +14765,12 @@
             "value" : "Noch nicht"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όχι ακόμη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14031,6 +14871,12 @@
             "value" : "Es sind noch Schritte offen. Wenn du jetzt aufhörst, geht der Fortschritt verloren."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υπάρχουν ακόμη βήματα. Αν σταματήσετε τώρα, η πρόοδος θα χαθεί."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14129,6 +14975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aglio e Olio"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άλιο ε όλιο"
           }
         },
         "en" : {
@@ -14232,6 +15084,12 @@
             "value" : "Die App lässt sich auch auf Englisch nutzen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα μπορείτε να χρησιμοποιείτε την εφαρμογή και στα αγγλικά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14330,6 +15188,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ca. %lld Min. · %lld Töpfe"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "περίπου %lld λεπτά · %lld κατσαρόλες"
           }
         },
         "en" : {
@@ -14432,6 +15296,12 @@
             "value" : "Niedrige Hitze! Nur bis hellgolden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χαμηλή φωτιά! Μόνο μέχρι ανοιχτό χρυσαφί"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14530,6 +15400,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bei niedriger Hitze ständig rühren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σε χαμηλή φωτιά, ανακατεύοντας συνεχώς"
           }
         },
         "en" : {
@@ -14632,6 +15508,12 @@
             "value" : "1/2 Zwiebel in feine Streifen schneiden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κόψτε 1/2 κρεμμύδι σε ψιλές λωρίδες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14732,6 +15614,12 @@
             "value" : "Zwiebel anbraten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σοτάρετε το κρεμμύδι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14830,6 +15718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zwiebel in feine Streifen schneiden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κόψτε το κρεμμύδι σε λεπτές λωρίδες"
           }
         },
         "en" : {
@@ -14933,6 +15827,12 @@
             "value" : "Ein dunkler Bildschirm, der in einer schwach beleuchteten Küche nicht blendet."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μια σκοτεινή οθόνη που δεν θαμπώνει σε μια σκοτεινή κουζίνα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15031,6 +15931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kann jederzeit erledigt werden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μπορεί να γίνει οποιαδήποτε στιγμή"
           }
         },
         "en" : {
@@ -15134,6 +16040,12 @@
             "value" : "Beim ersten Öffnen nach einem Update erfährst du, was neu ist."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την πρώτη φορά που θα ανοίξετε την εφαρμογή μετά από μια ενημέρωση, θα δείτε τι άλλαξε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15235,6 +16147,12 @@
             "value" : "Neuigkeiten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι νέο υπάρχει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15333,6 +16251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reichlich Zeit"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υπάρχει άφθονος χρόνος"
           }
         },
         "en" : {
@@ -15436,6 +16360,12 @@
             "value" : "Die App wird über Englisch hinaus in weiteren Sprachen nutzbar."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκτός από τα αγγλικά, η εφαρμογή θα διατίθεται και σε άλλες γλώσσες."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15535,6 +16465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Englisch-Unterstützung"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υποστήριξη αγγλικών"
           }
         },
         "en" : {
@@ -15637,6 +16573,12 @@
             "value" : "2 EL Olivenöl mit der Zwiebel bei mittlerer bis niedriger Hitze"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 κουταλιές της σούπας ελαιόλαδο με το κρεμμύδι σε μέτρια προς χαμηλή φωτιά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15735,6 +16677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 EL Olivenöl mit Knoblauchscheiben und Peperoncino"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 κουταλιές της σούπας ελαιόλαδο με φέτες σκόρδου και πιπερόνσινο"
           }
         },
         "en" : {
@@ -15837,6 +16785,12 @@
             "value" : "Fertig"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τέλος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15935,6 +16889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voraussichtlich fertig um"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκτιμώμενη ώρα ολοκλήρωσης"
           }
         },
         "en" : {
@@ -16037,6 +16997,12 @@
             "value" : "Fertig"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ολοκλήρωση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16135,6 +17101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als fertig markieren?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ολοκλήρωση της συνταγής;"
           }
         },
         "en" : {
@@ -16237,6 +17209,12 @@
             "value" : "Fertig 🍴 Ab auf den Teller"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έτοιμο 🍴 Σερβίρετε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16335,6 +17313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gericht"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνταγή"
           }
         },
         "en" : {
@@ -16437,6 +17421,12 @@
             "value" : "Kochen starten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έναρξη μαγειρέματος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16535,6 +17525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gericht öffnen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άνοιγμα συνταγής"
           }
         },
         "en" : {
@@ -16638,6 +17634,12 @@
             "value" : "Wenn die App beim Kochen beendet wird, bleiben Topf-Timer und Fortschritt erhalten."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν η εφαρμογή κλείσει ενώ μαγειρεύετε, οι χρονοδιακόπτες των κατσαρολών και η πρόοδός σας διατηρούνται."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16737,6 +17739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bewegung reduzieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μείωση κίνησης"
           }
         },
         "en" : {
@@ -16840,6 +17848,12 @@
             "value" : "Mit „Bewegung reduzieren“ werden die Bildschirmeffekte ruhiger."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με ενεργή τη «Μείωση κίνησης», τα εφέ της οθόνης γίνονται πιο ήρεμα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16935,6 +17949,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -17040,6 +18060,12 @@
             "value" : "Pause"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παύση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17139,6 +18165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Starte deine Lieblingsgerichte direkt vom Home-Bildschirm."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκινήστε τις συνταγές που φτιάχνετε συχνά κατευθείαν από την Οθόνη Αφετηρίας."
           }
         },
         "en" : {
@@ -17241,6 +18273,12 @@
             "value" : "Fein – keine Eile"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ψιλά — χωρίς βιασύνη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17339,6 +18377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fortsetzen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχεια"
           }
         },
         "en" : {
@@ -17441,6 +18485,12 @@
             "value" : "Zutaten bereitlegen und die Pfanne aufsetzen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βγάλτε τα υλικά και βάλτε το τηγάνι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17539,6 +18589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alles an einem Platz bereitstellen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έχετε τα υλικά σε ένα σημείο"
           }
         },
         "en" : {
@@ -17641,6 +18697,12 @@
             "value" : "Die Hälfte fürs Anrichten übrig lassen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κρατήστε τα μισά για το τέλος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17739,6 +18801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teller vorwärmen und zum Anrichten bereitmachen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ζεστάνετε τα πιάτα και ετοιμαστείτε για σερβίρισμα"
           }
         },
         "en" : {
@@ -17841,6 +18909,12 @@
             "value" : "Teller mit heißem Wasser vorwärmen und abtrocknen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ζεστάνετε τα πιάτα με ζεστό νερό και στεγνώστε τα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17939,6 +19013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teller mit heißem Wasser vorwärmen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ζεστάνετε τα πιάτα με ζεστό νερό"
           }
         },
         "en" : {
@@ -18041,6 +19121,12 @@
             "value" : "Kochen abbrechen und beenden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διακοπή μαγειρέματος και έξοδος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18139,6 +19225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öffnet die Kochansicht"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανοίγει την οθόνη μαγειρέματος"
           }
         },
         "en" : {
@@ -18241,6 +19333,12 @@
             "value" : "Wenn du das Gerät auf der Arbeitsplatte abstellst, kannst du hier die Schrift noch weiter vergrößern."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν στηρίξετε τη συσκευή στον πάγκο, εδώ μπορείτε να μεγαλώσετε κι άλλο το κείμενο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18339,6 +19437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kochen abbrechen und beenden?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διακοπή μαγειρέματος και έξοδος;"
           }
         },
         "en" : {
@@ -18441,6 +19545,12 @@
             "value" : "Wenn der Spatel eine Spur hinterlässt, die kurz sichtbar bleibt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν η σπάτουλα αφήνει ένα αχνάρι που μένει για λίγο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18539,6 +19649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abbrechen und beenden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διακοπή και έξοδος"
           }
         },
         "en" : {
@@ -18641,6 +19757,12 @@
             "value" : "Bei mittlerer bis niedriger Hitze, bis sie weich ist"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σε μέτρια προς χαμηλή φωτιά μέχρι να μαλακώσει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18739,6 +19861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jetzt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τώρα"
           }
         },
         "en" : {
@@ -18841,6 +19969,12 @@
             "value" : "Jetzt · kann nicht warten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τώρα · δεν περιμένει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18939,6 +20073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jetzt dran"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κάντε τώρα"
           }
         },
         "en" : {
@@ -19041,6 +20181,12 @@
             "value" : "Jetzt dran · ohne Eile"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κάντε τώρα · χωρίς βιασύνη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19139,6 +20285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υποστήριξη"
           }
         },
         "en" : {
@@ -19241,6 +20393,12 @@
             "value" : "Vergangene Zeit"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρόνος που πέρασε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19339,6 +20497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quelle · %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πηγή · %@"
           }
         },
         "en" : {
@@ -19441,6 +20605,12 @@
             "value" : "Lass dir Zeit"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χωρίς βιασύνη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19539,6 +20709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "So dünn wie möglich – keine Eile"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όσο πιο λεπτά γίνεται — χωρίς βιασύνη"
           }
         },
         "en" : {
@@ -19641,6 +20817,12 @@
             "value" : "Käse reiben und Soßenzutaten abmessen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τρίψτε το τυρί και μετρήστε τα υλικά της σάλτσας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19739,6 +20921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Käse reiben und Teller vorwärmen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τρίψτε το τυρί και ζεστάνετε τα πιάτα"
           }
         },
         "en" : {
@@ -19841,6 +21029,12 @@
             "value" : "Das Messer flach halten und dünn schneiden – dicke Scheiben bleiben innen roh und verbrennen außen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με το μαχαίρι σχεδόν οριζόντιο, λεπτά — αν είναι χοντρές, μέσα μένουν ωμές και απ' έξω καίγονται"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19939,6 +21133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Groß"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μεγάλο"
           }
         },
         "en" : {
@@ -20041,6 +21241,12 @@
             "value" : "Sahne sanft köcheln lassen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφήστε την κρέμα να σιγοβράσει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20139,6 +21345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sahne angießen und Hitze reduzieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρίξτε την κρέμα και χαμηλώστε τη φωτιά"
           }
         },
         "en" : {
@@ -20242,6 +21454,12 @@
             "value" : "Ansichten für große Schrift"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οθόνες για μεγάλα γράμματα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20340,6 +21558,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn ständig große Blasen aufsteigen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν ανεβαίνουν συνεχώς μεγάλες φυσαλίδες"
           }
         },
         "en" : {
@@ -20443,6 +21667,12 @@
             "value" : "Bedienung per Tastatur"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έλεγχος με πληκτρολόγιο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20541,6 +21771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brennt leicht an – gleich weiter zum nächsten Schritt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καίγεται εύκολα — περάστε αμέσως στο επόμενο βήμα"
           }
         },
         "en" : {
@@ -20643,6 +21879,12 @@
             "value" : "Die Timer werden zurückgesetzt und der Fortschritt geht verloren."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι χρονοδιακόπτες θα μηδενιστούν και η πρόοδος θα χαθεί."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20741,6 +21983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeitleiste · gepunktete Balken können warten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρονοδιάγραμμα · οι διακεκομμένες γραμμές μπορούν να περιμένουν"
           }
         },
         "en" : {
@@ -20843,6 +22091,12 @@
             "value" : "Terrakotta heißt: Wenn du wartest, wird die Pasta zu weich oder brennt an. Grün ist Vorbereitung – die machst du in Ruhe, wenn deine Hände frei sind."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το χρώμα τερακότα είναι ό,τι, αν το αναβάλετε, θα κάνει τα ζυμαρικά να παραβράσουν ή τη σάλτσα να καεί. Το πράσινο είναι η προετοιμασία: κάντε την με την ησυχία σας όταν έχετε ελεύθερα χέρια."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20941,6 +22195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tomaten-Sahne-Pasta"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ζυμαρικά με κρέμα ντομάτας"
           }
         },
         "en" : {
@@ -21043,6 +22303,12 @@
             "value" : "2 EL Tomatenmark, 200 ml Sahne"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 κουταλιές της σούπας πολτός ντομάτας, 200 ml κρέμα γάλακτος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21141,6 +22407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 EL Tomatenmark auf dem Pfannenboden verstreichen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απλώστε 2 κουταλιές της σούπας πολτό ντομάτας στον πάτο του τηγανιού"
           }
         },
         "en" : {
@@ -21243,6 +22515,12 @@
             "value" : "Tomatenmark anrösten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σοτάρετε τον πολτό ντομάτας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21341,6 +22619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn sie glasig ist und die Ränder goldgelb werden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν γίνει διαφανές και χρυσαφί στις άκρες"
           }
         },
         "en" : {
@@ -21443,6 +22727,12 @@
             "value" : "30 g Parmigiano reiben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τρίψτε 30 γρ. παρμεζάνα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21541,6 +22831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 g Parmigiano, 2 EL Olivenöl"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 γρ. παρμεζάνα, 2 κουταλιές της σούπας ελαιόλαδο"
           }
         },
         "en" : {
@@ -21643,6 +22939,12 @@
             "value" : "30 g Parmigiano fein reiben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τρίψτε ψιλά 30 γρ. παρμεζάνα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21741,6 +23043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g Pasta – 1 Minute kürzer kochen als auf der Packung"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 γρ. ζυμαρικά — βράστε τα 1 λεπτό λιγότερο από ό,τι γράφει η συσκευασία"
           }
         },
         "en" : {
@@ -21843,6 +23151,12 @@
             "value" : "180 g Pasta (2 Portionen), 1/2 Zwiebel, 3 Knoblauchzehen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 γρ. ζυμαρικά (2 μερίδες), 1/2 κρεμμύδι, 3 σκελίδες σκόρδο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21941,6 +23255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Etwas Petersilie fürs Anrichten übrig lassen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κρατήστε λίγο μαϊντανό και για το τέλος"
           }
         },
         "en" : {
@@ -22043,6 +23363,12 @@
             "value" : "Nur die Petersilienblätter grob hacken"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ψιλοκόψτε χοντρά μόνο τα φύλλα του μαϊντανού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22141,6 +23467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eine Pfanne, die breit genug für alle Nudeln ist"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ένα τηγάνι αρκετά φαρδύ για όλα τα ζυμαρικά"
           }
         },
         "en" : {
@@ -22243,6 +23575,12 @@
             "value" : "Die Pfanne 30 Sekunden schwenken – Öl und Nudelwasser verbinden sich"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κουνήστε το τηγάνι για 30 δευτερόλεπτα — να ενωθούν το λάδι και το νερό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22341,6 +23679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2–3 Peperoncini, etwas Petersilie, 30 g Parmigiano"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 πιπερόνσινο, λίγος μαϊντανός, 30 γρ. παρμεζάνα"
           }
         },
         "en" : {
@@ -22443,6 +23787,12 @@
             "value" : "2–3 Peperoncini halbieren und die Kerne ausschütteln"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κόψτε 2–3 πιπερόνσινα στη μέση και τινάξτε τα σπόρια"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22543,6 +23893,12 @@
             "value" : "Peperoncino und Petersilie hacken"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ψιλοκόψτε το πιπερόνσινο και τον μαϊντανό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22641,6 +23997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dünn genug, wenn die Scheiben durchscheinen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Είναι αρκετά λεπτές όταν οι φέτες διαφαίνονται"
           }
         },
         "en" : {
@@ -22744,6 +24106,12 @@
             "value" : "Ansicht für faltbare iPhones"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οθόνη για αναδιπλούμενο iPhone"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22845,6 +24213,12 @@
             "value" : "Auf dem großen Bildschirm eines faltbaren iPhones siehst du Töpfe und Aufgaben nebeneinander."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στη μεγάλη οθόνη ενός αναδιπλούμενου iPhone βλέπετε τις κατσαρόλες και τις εργασίες δίπλα δίπλα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22943,6 +24317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alles Nötige an einem Platz bereitstellen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έχετε ό,τι χρειάζεστε σε ένα σημείο"
           }
         },
         "en" : {
@@ -23046,6 +24426,12 @@
             "value" : "Angefangenes Gericht fortsetzen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχεια της συνταγής που ξεκινήσατε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23144,6 +24530,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Angefangen · %@ %@ — erst das hier erledigen, dann weitermachen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτό που κάνατε · %@ %@ — τελειώστε πρώτα αυτό και μετά συνεχίστε"
           }
         },
         "en" : {
@@ -23246,6 +24638,12 @@
             "value" : "Einmal anrösten, damit die Säure verfliegt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σοτάρετέ τον μια φορά για να φύγει η ξινάδα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23344,6 +24742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einmal anrösten nimmt die Säure"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μια φορά σοταρισμένος, χάνει την ξινάδα"
           }
         },
         "en" : {
@@ -23445,6 +24849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Widgets für den Home-Bildschirm"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γραφικά στοιχεία στην Οθόνη Αφετηρίας"
           }
         },
         "en" : {

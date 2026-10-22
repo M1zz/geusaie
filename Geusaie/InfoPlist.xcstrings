@@ -21,6 +21,12 @@
             "value" : "Geusaie"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -121,6 +127,12 @@
             "value" : "Das Mikrofon wird verwendet, damit du beim Kochen mit dem koreanischen Wort „다음“ („weiter“) zum nächsten Schritt springen kannst."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποιεί το μικρόφωνο ώστε να προχωράτε στο επόμενο βήμα ενώ μαγειρεύετε λέγοντας την κορεατική λέξη «다음» («επόμενο»)."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -219,6 +231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Spracherkennung dient nur dazu, das koreanische Wort „다음“ („weiter“) zu erkennen. Sie läuft nach Möglichkeit auf dem Gerät."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποιεί την αναγνώριση ομιλίας μόνο για να ακούσει την κορεατική λέξη «다음» («επόμενο»). Όπου είναι δυνατόν, η επεξεργασία γίνεται στη συσκευή."
           }
         },
         "en" : {
