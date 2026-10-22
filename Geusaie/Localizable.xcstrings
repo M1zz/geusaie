@@ -93,6 +93,12 @@
             "value" : "Luistert alleen naar het Koreaanse woord “다음” (“volgende”) en slaat nooit geluid op"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nasłuchuje tylko koreańskiego słowa „다음” („dalej”) i nigdy nie zapisuje dźwięku"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -221,6 +227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — doe het nu"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — zrób to teraz"
           }
         },
         "pt-BR" : {
@@ -353,6 +365,12 @@
             "value" : "Timer afgelopen: %@ %@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koniec minutnika: %@ %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -481,6 +499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, nog %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, zostało %@"
           }
         },
         "pt-BR" : {
@@ -613,6 +637,12 @@
             "value" : "%@, kan niet wachten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, nie może czekać"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -743,6 +773,12 @@
             "value" : "%@, ca. %lld minuten, %lld pannen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ok. %lld minut, garnków: %lld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -868,6 +904,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -1003,6 +1045,12 @@
             "value" : "%lld min %lld sec"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld s"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1133,6 +1181,12 @@
             "value" : "%lld sec"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1261,6 +1315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 minuut korter — hij wordt gaar in de saus"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O 1 minutę krócej — dojdzie w sosie"
           }
         },
         "pt-BR" : {
@@ -1394,6 +1454,12 @@
             "value" : "VoiceOver leest alle pannentijden en taken voor, zonder iets over te slaan en in de juiste volgorde."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver czyta czasy wszystkich garnków i zadania bez pomijania i w odpowiedniej kolejności."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1523,6 +1589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Handiger met VoiceOver"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wygodniejszy VoiceOver"
           }
         },
         "pt-BR" : {
@@ -1655,6 +1727,12 @@
             "value" : "Water kookt"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Woda się gotuje"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1783,6 +1861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pasta kookt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makaron się gotuje"
           }
         },
         "pt-BR" : {
@@ -1915,6 +1999,12 @@
             "value" : "Water kookt"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Woda się gotuje"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2043,6 +2133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pasta kookt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makaron się gotuje"
           }
         },
         "pt-BR" : {
@@ -2175,6 +2271,12 @@
             "value" : "Room sudderen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Śmietanka dusi się"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2303,6 +2405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bruine knoflook wordt bitter — haal hem van het vuur zodra hij kleur krijgt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zbrązowiały czosnek robi się gorzki — zdejmij z ognia, gdy tylko ciemnieje"
           }
         },
         "pt-BR" : {
@@ -2435,6 +2543,12 @@
             "value" : "Bijna klaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prawie gotowe"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2563,6 +2677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Overslaan"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomiń"
           }
         },
         "pt-BR" : {
@@ -2695,6 +2815,12 @@
             "value" : "Doe de uitgeschepte pasta 1 minuut in de saus"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Włóż wyjęty makaron do sosu na 1 minutę"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2823,6 +2949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dwars op de vezel gesneden wordt hij sneller zacht"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krojona w poprzek włókien szybciej mięknie"
           }
         },
         "pt-BR" : {
@@ -2955,6 +3087,12 @@
             "value" : "Verder koken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gotuj dalej"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3083,6 +3221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opent het kookscherm van het gekozen gerecht. De timers starten zodra je op Start tikt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otwiera ekran gotowania wybranego dania. Minutniki ruszają po dotknięciu Start."
           }
         },
         "pt-BR" : {
@@ -3215,6 +3359,12 @@
             "value" : "Fijn hakken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posiekaj drobno"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3340,6 +3490,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -3475,6 +3631,12 @@
             "value" : "Tekstgrootte"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozmiar tekstu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3604,6 +3766,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als je de tekst op je apparaat groter maakt, schikken de receptenlijst en de schermen zich opnieuw in plaats van afgesneden te worden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy powiększysz tekst na urządzeniu, lista przepisów i ekrany ułożą się inaczej zamiast się ucinać."
           }
         },
         "pt-BR" : {
@@ -3736,6 +3904,12 @@
             "value" : "Uitzetten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyłącz"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3864,6 +4038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doe de voorbereiding terwijl het kookt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy woda się gotuje, zrób przygotowania"
           }
         },
         "pt-BR" : {
@@ -3996,6 +4176,12 @@
             "value" : "Maak ui en knoflook klaar terwijl het kookt"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy woda się gotuje, przygotuj cebulę i czosnek"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4124,6 +4310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als het kookt, doe je de pasta erin"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy woda się zagotuje, wrzuć makaron"
           }
         },
         "pt-BR" : {
@@ -4256,6 +4448,12 @@
             "value" : "Niet laten koken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie gotować"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4384,6 +4582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeg het als je klaar bent"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daj znać, gdy skończysz"
           }
         },
         "pt-BR" : {
@@ -4516,6 +4720,12 @@
             "value" : "Klaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrobione"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4644,6 +4854,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zet de overgebleven kaas en peper erbij"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odłóż obok resztę sera i pieprz"
           }
         },
         "pt-BR" : {
@@ -4776,6 +4992,12 @@
             "value" : "Mijn handen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moje ręce"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4904,6 +5126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je bent bezig"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zajmujesz się tym"
           }
         },
         "pt-BR" : {
@@ -5036,6 +5264,12 @@
             "value" : "Twee pannen, één scherm"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dwa garnki, jeden ekran"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5164,6 +5398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "We laten het je weten als een pan klaar is."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Damy znać, gdy garnek będzie gotowy."
           }
         },
         "pt-BR" : {
@@ -5296,6 +5536,12 @@
             "value" : "12 minuten vanaf het moment dat hij erin gaat"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 minut od chwili wrzucenia"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5424,6 +5670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Roer meteen één keer, zodat hij niet blijft plakken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Od razu raz zamieszaj, żeby się nie sklejało"
           }
         },
         "pt-BR" : {
@@ -5556,6 +5808,12 @@
             "value" : "Als het aanbakt, voeg een lepel water toe"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeśli się przypala, dodaj łyżkę wody"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5684,6 +5942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Te laat · doe het meteen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spóźnienie · zrób to od razu"
           }
         },
         "pt-BR" : {
@@ -5816,6 +6080,12 @@
             "value" : "Uitgediend"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zużyty"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5944,6 +6214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeg “다음” (Koreaans voor “volgende”) als je klaar bent"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy skończysz, powiedz „다음” (po koreańsku „dalej”)"
           }
         },
         "pt-BR" : {
@@ -6076,6 +6352,12 @@
             "value" : "Klaar? Zeg “다음”"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skończone? Powiedz „다음”"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6204,6 +6486,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeg “다음” (Koreaans voor “volgende”) als je klaar bent"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy skończysz, powiedz „다음” (po koreańsku „dalej”)"
           }
         },
         "pt-BR" : {
@@ -6336,6 +6624,12 @@
             "value" : "Volgende"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalej"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6466,6 +6760,12 @@
             "value" : "Daarna · %@ %@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potem · %@ %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6594,6 +6894,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voeg gehakte knoflook en peper 30 seconden toe"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj posiekany czosnek i pieprz na 30 sekund"
           }
         },
         "pt-BR" : {
@@ -6727,6 +7033,12 @@
             "value" : "Donkere modus"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryb ciemny"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6855,6 +7167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sluit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamknij"
           }
         },
         "pt-BR" : {
@@ -6988,6 +7306,12 @@
             "value" : "Zie hoe elke pan eraan toe is, ook met meer contrast of als kleuren moeilijk te onderscheiden zijn."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobacz stan każdego garnka nawet przy zwiększonym kontraście lub gdy trudno rozróżniać kolory."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7117,6 +7441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meer talen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Więcej języków"
           }
         },
         "pt-BR" : {
@@ -7249,6 +7579,12 @@
             "value" : "Groter"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Większy"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7377,6 +7713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Help"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc"
           }
         },
         "pt-BR" : {
@@ -7509,6 +7851,12 @@
             "value" : "Met deksel kookt het sneller"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pod przykryciem zagotuje się szybciej"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7637,6 +7985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hak 3 teentjes knoflook fijn"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posiekaj drobno 3 ząbki czosnku"
           }
         },
         "pt-BR" : {
@@ -7769,6 +8123,12 @@
             "value" : "6 teentjes knoflook in plakjes van 1–2 mm dik"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 ząbków czosnku w plasterki grubości 1–2 mm"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7897,6 +8257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als de randen van de knoflook lichtgoud worden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy brzegi czosnku zrobią się jasnozłote"
           }
         },
         "pt-BR" : {
@@ -8029,6 +8395,12 @@
             "value" : "Hak de knoflook"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posiekaj czosnek"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8157,6 +8529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snijd de knoflook in dunne plakjes"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokrój czosnek w cienkie plasterki"
           }
         },
         "pt-BR" : {
@@ -8289,6 +8667,12 @@
             "value" : "Als de knoflook gaat geuren"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy poczujesz zapach czosnku"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8417,6 +8801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bak de knoflook in de olie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podsmaż czosnek na oliwie"
           }
         },
         "pt-BR" : {
@@ -8549,6 +8939,12 @@
             "value" : "Voeg knoflook en peper toe"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj czosnek i pieprz"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8677,6 +9073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Knoflook verbrandt snel, dus blijf roeren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czosnek szybko się przypala, więc stale mieszaj"
           }
         },
         "pt-BR" : {
@@ -8809,6 +9211,12 @@
             "value" : "Het is makkelijker als je dit vóór de afwerking doet"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łatwiej, jeśli zrobisz to przed finałem"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8937,6 +9345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Microfoon uitzetten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyłącz mikrofon"
           }
         },
         "pt-BR" : {
@@ -9069,6 +9483,12 @@
             "value" : "Microfoon aanzetten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Włącz mikrofon"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9197,6 +9617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Microfoon aan · Luistert"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon włączony · Słucham"
           }
         },
         "pt-BR" : {
@@ -9329,6 +9755,12 @@
             "value" : "Microfoon aan. Luistert naar het Koreaanse woord “다음” (“volgende”)"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon włączony. Nasłuchuje koreańskiego słowa „다음” („dalej”)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9457,6 +9889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verder met je stem"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalej głosem"
           }
         },
         "pt-BR" : {
@@ -9589,6 +10027,12 @@
             "value" : "Ook van een afstand goed leesbaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czytelne z daleka"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9717,6 +10161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mail ons"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napisz e-mail"
           }
         },
         "pt-BR" : {
@@ -9849,6 +10299,12 @@
             "value" : "Voeg de pasta toe en meng om af te maken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj makaron i wymieszaj na koniec"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9977,6 +10433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kook de pasta"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ugotuj makaron"
           }
         },
         "pt-BR" : {
@@ -10109,6 +10571,12 @@
             "value" : "Terwijl de pasta kookt, wordt ook de saus klaar."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy makaron się gotuje, sos też się robi."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10237,6 +10705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Terwijl de pasta kookt, wordt ook de saus klaar. Elke pan laat zien wat hij doet en hoeveel tijd er nog is."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy makaron się gotuje, sos też się robi. Każdy garnek pokazuje, co robi i ile zostało czasu."
           }
         },
         "pt-BR" : {
@@ -10369,6 +10843,12 @@
             "value" : "Pastapan"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Garnek na makaron"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10497,6 +10977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schep de pasta eruit en bewaar het kookwater"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyjmij makaron i zachowaj wodę po gotowaniu"
           }
         },
         "pt-BR" : {
@@ -10629,6 +11115,12 @@
             "value" : "Voeg het kookwater toe en emulgeer"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dolej wodę po gotowaniu i zemulguj"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10757,6 +11249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Een halve kop kookwater, schud krachtig om te emulgeren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pół filiżanki wody po gotowaniu, mocno potrząsaj, by zemulgować"
           }
         },
         "pt-BR" : {
@@ -10889,6 +11387,12 @@
             "value" : "Giet een halve kop kookwater erbij en zet het vuur hoog"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wlej pół filiżanki wody po gotowaniu i zwiększ ogień"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11017,6 +11521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bewaar eerst een kop kookwater!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najpierw odlej filiżankę wody po gotowaniu!"
           }
         },
         "pt-BR" : {
@@ -11149,6 +11659,12 @@
             "value" : "Bewaar eerst een kop kookwater!"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najpierw odlej filiżankę wody po gotowaniu!"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11277,6 +11793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schep eerst een kop (200 ml) kookwater apart"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najpierw odlej filiżankę (200 ml) wody po gotowaniu"
           }
         },
         "pt-BR" : {
@@ -11409,6 +11931,12 @@
             "value" : "Schep eerst een kop (200 ml) kookwater apart"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najpierw odlej filiżankę (200 ml) wody po gotowaniu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11537,6 +12065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stel de dikte bij met kookwater — hij moet langzaam vloeien"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reguluj gęstość wodą po gotowaniu — ma wolno spływać"
           }
         },
         "pt-BR" : {
@@ -11669,6 +12203,12 @@
             "value" : "Stel bij met kookwater, nog 1 minuut in de saus"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reguluj wodą po gotowaniu, jeszcze 1 minuta w sosie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11797,6 +12337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De pasta wacht niet, de voorbereiding wel"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makaron nie poczeka, przygotowania poczekają"
           }
         },
         "pt-BR" : {
@@ -11929,6 +12475,12 @@
             "value" : "Niet droogschudden — meteen nat de pan in"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie osuszaj do końca — od razu mokry na patelnię"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12057,6 +12609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kan niet wachten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie może czekać"
           }
         },
         "pt-BR" : {
@@ -12189,6 +12747,12 @@
             "value" : "Contact"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12317,6 +12881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 liter water, 2 eetlepels zout"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 l wody, 2 łyżki soli"
           }
         },
         "pt-BR" : {
@@ -12449,6 +13019,12 @@
             "value" : "Breng het water aan de kook"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zagotuj wodę"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12577,6 +13153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veel water en zout als in zeewater — het duurt ongeveer 5 minuten voor het kookt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dużo wody i soli jak w morzu — gotowanie zajmie ok. 5 minut"
           }
         },
         "pt-BR" : {
@@ -12709,6 +13291,12 @@
             "value" : "Zet het water op hoog vuur"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Postaw wodę na dużym ogniu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12837,6 +13425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dit kan niet wachten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To nie może czekać"
           }
         },
         "pt-BR" : {
@@ -12969,6 +13563,12 @@
             "value" : "Als er steeds grote bellen van de bodem opstijgen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy od dna stale unoszą się duże bąbelki"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13097,6 +13697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tik op de knop of zeg “다음” (Koreaans voor “volgende”) als je natte handen hebt. Je krijgt een melding zodra een pan klaar is."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dotknij przycisku albo, gdy masz mokre ręce, powiedz „다음” (po koreańsku „dalej”). Gdy garnek będzie gotowy, dostaniesz powiadomienie."
           }
         },
         "pt-BR" : {
@@ -13230,6 +13836,12 @@
             "value" : "Prettige kleuren en contrast"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wygodne kolory i kontrast"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13359,6 +13971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lees onze antwoorden op je feedback direct in de app."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czytaj w aplikacji odpowiedzi na wysłane przez Ciebie opinie."
           }
         },
         "pt-BR" : {
@@ -13492,6 +14110,12 @@
             "value" : "Antwoorden op je feedback"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpowiedzi na Twoje opinie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13620,6 +14244,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kom even kijken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chodź zobaczyć"
           }
         },
         "pt-BR" : {
@@ -13752,6 +14382,12 @@
             "value" : "Normaal"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normalny"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13880,6 +14516,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Duurt meestal %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwykle %@"
           }
         },
         "pt-BR" : {
@@ -14012,6 +14654,12 @@
             "value" : "1 minuut korter dan op de verpakking staat — hij wordt afgemaakt in de pan"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O 1 minutę krócej, niż jest na opakowaniu — dojdzie na patelni"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14140,6 +14788,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waaiervormig uitspreiden — 8 minuten vanaf het moment dat hij erin gaat"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozłóż wachlarzem — 8 minut od chwili wrzucenia"
           }
         },
         "pt-BR" : {
@@ -14272,6 +14926,12 @@
             "value" : "Zet het vuur uit, voeg peterselie en kaas toe"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyłącz ogień, dodaj pietruszkę i ser"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14400,6 +15060,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laag vuur — als het kookt, schift de saus"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mały ogień — jeśli się zagotuje, sos się zważy"
           }
         },
         "pt-BR" : {
@@ -14532,6 +15198,12 @@
             "value" : "Leeg"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wolny"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14660,6 +15332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bekijk de uitleg opnieuw"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobacz instrukcję jeszcze raz"
           }
         },
         "pt-BR" : {
@@ -14792,6 +15470,12 @@
             "value" : "De kleur laat zien hoe dringend het is"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kolor pokazuje pilność"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14920,6 +15604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als de kleur dieper wordt en het naar noten ruikt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy kolor się pogłębi i zapachnie orzechowo"
           }
         },
         "pt-BR" : {
@@ -15052,6 +15742,12 @@
             "value" : "Meet vooraf 200 ml room en 2 eetlepels tomatenpuree af"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odmierz wcześniej 200 ml śmietanki i 2 łyżki koncentratu pomidorowego"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15180,6 +15876,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giet 200 ml room erbij en roer gelijkmatig"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wlej 200 ml śmietanki i równomiernie wymieszaj"
           }
         },
         "pt-BR" : {
@@ -15312,6 +16014,12 @@
             "value" : "Roer, zet het vuur lager en laat 1 min 30 sec inkoken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wymieszaj, zmniejsz ogień i redukuj 1 min 30 s"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15440,6 +16148,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instellingen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustawienia"
           }
         },
         "pt-BR" : {
@@ -15572,6 +16286,12 @@
             "value" : "Veel zout — het duurt ongeveer 5 minuten voor het kookt"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dużo soli — gotowanie zajmie ok. 5 minut"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15700,6 +16420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leg ook zout en peper binnen handbereik"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sól i pieprz też miej pod ręką"
           }
         },
         "pt-BR" : {
@@ -15832,6 +16558,12 @@
             "value" : "Het is makkelijker als je dit doet voordat je met de saus begint"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łatwiej, jeśli zrobisz to przed zaczęciem sosu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15960,6 +16692,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als de saus de pasta gelijkmatig bedekt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy sos równomiernie oblepi makaron"
           }
         },
         "pt-BR" : {
@@ -16092,6 +16830,12 @@
             "value" : "Als de saus troebel en gebonden is en aan de pasta plakt"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy sos zmętnieje, zgęstnieje i przylgnie do makaronu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16220,6 +16964,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De saus wordt achterwaarts gepland vanaf het moment dat de pasta eruit komt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sos planuje się od końca, od chwili wyjęcia makaronu"
           }
         },
         "pt-BR" : {
@@ -16352,6 +17102,12 @@
             "value" : "Sauspan"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patelnia na sos"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16480,6 +17236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je handen zijn klaar — nu alleen nog wachten op de pannen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ręce są wolne — zostało tylko czekać na garnki"
           }
         },
         "pt-BR" : {
@@ -16612,6 +17374,12 @@
             "value" : "Zeg bij natte handen “다음” (Koreaans voor “volgende”). De app gaat naar de volgende stap zonder dat je het scherm aanraakt."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy masz mokre ręce, powiedz „다음” (po koreańsku „dalej”). Aplikacja przejdzie do kolejnego kroku bez dotykania ekranu."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16740,6 +17508,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g spaghetti (2 porties), 6 teentjes knoflook, 6 eetlepels olijfolie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g spaghetti (2 porcje), 6 ząbków czosnku, 6 łyżek oliwy"
           }
         },
         "pt-BR" : {
@@ -16872,6 +17646,12 @@
             "value" : "Doe 180 g spaghetti erin, waaiervormig uitgespreid"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wrzuć 180 g spaghetti, rozkładając je wachlarzem"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17000,6 +17780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je kunt beginnen af te ronden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Możesz zacząć kończyć"
           }
         },
         "pt-BR" : {
@@ -17132,6 +17918,12 @@
             "value" : "Aan de slag"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaczynamy"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17260,6 +18052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dit eerst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na początek"
           }
         },
         "pt-BR" : {
@@ -17392,6 +18190,12 @@
             "value" : "Verder waar je was gebleven"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wróć do przerwanego miejsca"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17520,6 +18324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tik hieronder op “Begin met koken”, dan gaan de timers van de pannen lopen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dotknij poniżej „Zacznij gotować”, a minutniki garnków ruszą"
           }
         },
         "pt-BR" : {
@@ -17653,6 +18463,12 @@
             "value" : "Sluit een toetsenbord aan op je iPad en ga met één toets naar de volgende stap."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podłącz klawiaturę do iPada i przechodź do następnego kroku jednym klawiszem."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17781,6 +18597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nauwelijks borrelend — niet laten koken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledwo bulgocze — nie gotować"
           }
         },
         "pt-BR" : {
@@ -17913,6 +18735,12 @@
             "value" : "Op heel laag vuur, nauwelijks borrelend"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na bardzo małym ogniu, ledwo bulgocząc"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18041,6 +18869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grootst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Największy"
           }
         },
         "pt-BR" : {
@@ -18173,6 +19007,12 @@
             "value" : "Nog niet"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeszcze nie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18303,6 +19143,12 @@
             "value" : "Er zijn nog stappen over. Als je nu stopt, gaat je voortgang verloren."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zostały jeszcze kroki. Jeśli przerwiesz teraz, postęp przepadnie."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18428,6 +19274,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aglio e olio"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aglio e olio"
@@ -18564,6 +19416,12 @@
             "value" : "Je kunt de app ook in het Engels gebruiken."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Z aplikacji będzie można korzystać także po angielsku."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18692,6 +19550,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ca. %lld min · %lld pannen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ok. %lld min · garnków: %lld"
           }
         },
         "pt-BR" : {
@@ -18824,6 +19688,12 @@
             "value" : "Laag vuur! Alleen tot lichtgoud"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mały ogień! Tylko do jasnozłotego"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18952,6 +19822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Op laag vuur, onafgebroken roeren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na małym ogniu, stale mieszając"
           }
         },
         "pt-BR" : {
@@ -19084,6 +19960,12 @@
             "value" : "Snijd 1/2 ui in fijne reepjes"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokrój 1/2 cebuli w drobne paski"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19214,6 +20096,12 @@
             "value" : "Bak de ui"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podsmaż cebulę"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19342,6 +20230,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snijd de ui in dunne reepjes"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokrój cebulę w cienkie paski"
           }
         },
         "pt-BR" : {
@@ -19475,6 +20369,12 @@
             "value" : "Een donker scherm dat niet verblindt in een schemerige keuken."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciemny ekran, który nie razi w mrocznej kuchni."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19603,6 +20503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kan op elk moment"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Można zrobić w dowolnym momencie"
           }
         },
         "pt-BR" : {
@@ -19736,6 +20642,12 @@
             "value" : "De eerste keer dat je de app na een update opent, zie je wat er nieuw is."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy po aktualizacji otworzysz aplikację po raz pierwszy, zobaczysz, co nowego."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19867,6 +20779,12 @@
             "value" : "Wat is er nieuw"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowości"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19995,6 +20913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Er is ruim de tijd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jest dużo czasu"
           }
         },
         "pt-BR" : {
@@ -20128,6 +21052,12 @@
             "value" : "Naast Engels wordt de app in meer talen beschikbaar."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poza angielskim aplikacja będzie dostępna w kolejnych językach."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20257,6 +21187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ondersteuning voor Engels"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obsługa angielskiego"
           }
         },
         "pt-BR" : {
@@ -20389,6 +21325,12 @@
             "value" : "2 eetlepels olijfolie met de ui op middellaag vuur"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 łyżki oliwy z cebulą na średnio małym ogniu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20517,6 +21459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 eetlepels olijfolie met knoflookschijfjes en peperoncino"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 łyżek oliwy z plasterkami czosnku i papryczką chili"
           }
         },
         "pt-BR" : {
@@ -20649,6 +21597,12 @@
             "value" : "Klaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gotowe"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20777,6 +21731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verwachte eindtijd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przewidywany czas zakończenia"
           }
         },
         "pt-BR" : {
@@ -20909,6 +21869,12 @@
             "value" : "Markeer als klaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakończ"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21037,6 +22003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als klaar markeren?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oznaczyć jako gotowe?"
           }
         },
         "pt-BR" : {
@@ -21169,6 +22141,12 @@
             "value" : "Het is klaar 🍴 Opscheppen maar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gotowe 🍴 Nakładaj na talerze"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21297,6 +22275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gerecht"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Danie"
           }
         },
         "pt-BR" : {
@@ -21429,6 +22413,12 @@
             "value" : "Begin met koken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zacznij gotować"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21557,6 +22547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open gerecht"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otwórz danie"
           }
         },
         "pt-BR" : {
@@ -21690,6 +22686,12 @@
             "value" : "Als de app tijdens het koken sluit, blijven de timers van de pannen en je voortgang behouden."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeśli aplikacja zamknie się w trakcie gotowania, minutniki garnków i postęp zostaną zachowane."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21819,6 +22821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beweging beperken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogranicz ruch"
           }
         },
         "pt-BR" : {
@@ -21952,6 +22960,12 @@
             "value" : "Met “Beweging beperken” aan worden schermeffecten rustiger."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po włączeniu „Ogranicz ruch” efekty na ekranie stają się spokojniejsze."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22077,6 +23091,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -22212,6 +23232,12 @@
             "value" : "Pauze"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pauza"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22341,6 +23367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start je favoriete gerechten direct vanaf het beginscherm."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uruchamiaj często robione dania prosto z ekranu początkowego."
           }
         },
         "pt-BR" : {
@@ -22473,6 +23505,12 @@
             "value" : "Fijn — geen haast"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drobno — bez pośpiechu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22601,6 +23639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hervat"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wznów"
           }
         },
         "pt-BR" : {
@@ -22733,6 +23777,12 @@
             "value" : "Pak de ingrediënten en zet de pan op het vuur"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyjmij składniki i postaw patelnię"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22861,6 +23911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leg de ingrediënten op één plek"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miej składniki w jednym miejscu"
           }
         },
         "pt-BR" : {
@@ -22993,6 +24049,12 @@
             "value" : "Houd de helft over voor de afwerking"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Połowę zostaw na koniec"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23121,6 +24183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verwarm de borden en maak je klaar om te serveren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podgrzej talerze i przygotuj się do podania"
           }
         },
         "pt-BR" : {
@@ -23253,6 +24321,12 @@
             "value" : "Verwarm de borden met heet water en droog ze af"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podgrzej talerze gorącą wodą i wytrzyj do sucha"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23381,6 +24455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verwarm de borden met heet water"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podgrzej talerze gorącą wodą"
           }
         },
         "pt-BR" : {
@@ -23513,6 +24593,12 @@
             "value" : "Stoppen met koken en afsluiten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przerwij gotowanie i wyjdź"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23641,6 +24727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opent het kookscherm"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otwiera ekran gotowania"
           }
         },
         "pt-BR" : {
@@ -23773,6 +24865,12 @@
             "value" : "Als je het apparaat op het aanrecht neerzet, kun je de tekst hier nog groter maken."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeśli oprzesz urządzenie na blacie, możesz tu jeszcze powiększyć tekst."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23901,6 +24999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stoppen met koken en afsluiten?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przerwać gotowanie i wyjść?"
           }
         },
         "pt-BR" : {
@@ -24033,6 +25137,12 @@
             "value" : "Als de spatel een spoor achterlaat dat even blijft staan"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy łopatka zostawia ślad, który chwilę się utrzymuje"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24161,6 +25271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stoppen en afsluiten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przerwij i wyjdź"
           }
         },
         "pt-BR" : {
@@ -24293,6 +25409,12 @@
             "value" : "Op middellaag vuur tot hij zacht is"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na średnio małym ogniu, aż zmięknie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24421,6 +25543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nu"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teraz"
           }
         },
         "pt-BR" : {
@@ -24553,6 +25681,12 @@
             "value" : "Nu · kan niet wachten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teraz · nie może czekać"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24681,6 +25815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nu doen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrób teraz"
           }
         },
         "pt-BR" : {
@@ -24813,6 +25953,12 @@
             "value" : "Nu doen · geen haast"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrób teraz · bez pośpiechu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24941,6 +26087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ondersteuning"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc"
           }
         },
         "pt-BR" : {
@@ -25073,6 +26225,12 @@
             "value" : "Verstreken tijd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upłynęło"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25201,6 +26359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bron · %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Źródło · %@"
           }
         },
         "pt-BR" : {
@@ -25333,6 +26497,12 @@
             "value" : "Neem de tijd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spokojnie, nie śpiesz się"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25461,6 +26631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zo dun mogelijk — geen haast"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jak najcieniej — bez pośpiechu"
           }
         },
         "pt-BR" : {
@@ -25593,6 +26769,12 @@
             "value" : "Rasp de kaas en weeg de ingrediënten voor de saus af"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zetrzyj ser i odmierz składniki sosu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25721,6 +26903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rasp de kaas en verwarm de borden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zetrzyj ser i podgrzej talerze"
           }
         },
         "pt-BR" : {
@@ -25853,6 +27041,12 @@
             "value" : "Houd het mes plat en snijd dun — dikke plakjes blijven van binnen rauw en verbranden aan de buitenkant"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trzymaj nóż płasko i krój cienko — grube plasterki w środku zostaną surowe, a na zewnątrz się przypalą"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25981,6 +27175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Groot"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duży"
           }
         },
         "pt-BR" : {
@@ -26113,6 +27313,12 @@
             "value" : "Laat de room zachtjes sudderen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duś śmietankę na wolnym ogniu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26241,6 +27447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giet de room erbij en zet het vuur lager"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wlej śmietankę i zmniejsz ogień"
           }
         },
         "pt-BR" : {
@@ -26374,6 +27586,12 @@
             "value" : "Schermen voor grote tekst"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekrany dla dużego tekstu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26502,6 +27720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als er steeds grote bellen opstijgen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy stale unoszą się duże bąbelki"
           }
         },
         "pt-BR" : {
@@ -26635,6 +27859,12 @@
             "value" : "Bediening met toetsenbord"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sterowanie klawiaturą"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26763,6 +27993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verbrandt snel — ga meteen door naar de volgende stap"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łatwo się przypala — od razu przejdź do następnego kroku"
           }
         },
         "pt-BR" : {
@@ -26895,6 +28131,12 @@
             "value" : "De timers worden gereset en je voortgang gaat verloren."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minutniki zostaną wyzerowane, a postęp przepadnie."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27023,6 +28265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tijdlijn · gestippelde balken kunnen wachten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oś czasu · przerywane paski mogą poczekać"
           }
         },
         "pt-BR" : {
@@ -27155,6 +28403,12 @@
             "value" : "Terracotta is wat de pasta laat overkoken of de saus laat aanbranden als je wacht. Groen is voorbereiding: doe dat rustig als je handen vrij zijn."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terakota oznacza to, co po odłożeniu sprawi, że makaron się rozgotuje lub coś się przypali. Zielony to przygotowania — rób je spokojnie, gdy masz wolne ręce."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27283,6 +28537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pasta in tomatenroomsaus"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makaron w sosie pomidorowo-śmietanowym"
           }
         },
         "pt-BR" : {
@@ -27415,6 +28675,12 @@
             "value" : "2 eetlepels tomatenpuree, 200 ml room"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 łyżki koncentratu pomidorowego, 200 ml śmietanki"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27543,6 +28809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smeer 2 eetlepels tomatenpuree uit over de bodem van de pan"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozsmaruj 2 łyżki koncentratu pomidorowego po dnie patelni"
           }
         },
         "pt-BR" : {
@@ -27675,6 +28947,12 @@
             "value" : "Bak de tomatenpuree"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podsmaż koncentrat pomidorowy"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27803,6 +29081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als hij glazig is en goudkleurig aan de randen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy będzie szklista i złocista na brzegach"
           }
         },
         "pt-BR" : {
@@ -27935,6 +29219,12 @@
             "value" : "Rasp 30 g parmigiano"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zetrzyj 30 g parmigiano"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28063,6 +29353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 g parmigiano, 2 eetlepels olijfolie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g parmigiano, 2 łyżki oliwy"
           }
         },
         "pt-BR" : {
@@ -28195,6 +29491,12 @@
             "value" : "Rasp 30 g parmigiano fijn"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zetrzyj drobno 30 g parmigiano"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28323,6 +29625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g pasta — kook 1 minuut korter dan op de verpakking staat"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g makaronu — gotuj o 1 minutę krócej, niż jest na opakowaniu"
           }
         },
         "pt-BR" : {
@@ -28455,6 +29763,12 @@
             "value" : "180 g pasta (2 porties), 1/2 ui, 3 teentjes knoflook"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g makaronu (2 porcje), 1/2 cebuli, 3 ząbki czosnku"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28583,6 +29897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Houd wat peterselie over voor de afwerking"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trochę pietruszki zostaw na koniec"
           }
         },
         "pt-BR" : {
@@ -28715,6 +30035,12 @@
             "value" : "Hak alleen de blaadjes peterselie grof"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posiekaj grubo tylko listki pietruszki"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28843,6 +30169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Een pan die breed genoeg is voor alle pasta"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patelnia dość szeroka na cały makaron"
           }
         },
         "pt-BR" : {
@@ -28975,6 +30307,12 @@
             "value" : "Schud de pan 30 seconden — zodat olie en water zich binden"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potrząsaj patelnią 30 sekund — żeby oliwa z wodą się połączyły"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29103,6 +30441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2–3 peperoncini, een beetje peterselie, 30 g parmigiano"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 papryczki chili, trochę pietruszki, 30 g parmigiano"
           }
         },
         "pt-BR" : {
@@ -29235,6 +30579,12 @@
             "value" : "Halveer 2–3 peperoncini en schud de zaadjes eruit"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przekrój 2–3 papryczki chili na pół i wytrząśnij nasiona"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29365,6 +30715,12 @@
             "value" : "Hak de peperoncino en de peterselie"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posiekaj chili i pietruszkę"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29493,6 +30849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dun genoeg als de plakjes doorschijnend zijn"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wystarczająco cienkie, gdy plasterki są przezroczyste"
           }
         },
         "pt-BR" : {
@@ -29626,6 +30988,12 @@
             "value" : "Scherm voor opvouwbare iPhone"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekran dla składanego iPhone’a"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29757,6 +31125,12 @@
             "value" : "Op het brede scherm van een opvouwbare iPhone zie je pannen en taken naast elkaar."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na szerokim ekranie składanego iPhone’a zobaczysz garnki i zadania obok siebie."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29885,6 +31259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leg alles wat je nodig hebt op één plek"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miej wszystko, czego potrzebujesz, w jednym miejscu"
           }
         },
         "pt-BR" : {
@@ -30018,6 +31398,12 @@
             "value" : "Verder met een gerecht dat je bezig was"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokończ rozpoczęte danie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30146,6 +31532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waar je mee bezig was · %@ %@ — maak dit eerst af en ga dan verder"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaczęte wcześniej · %@ %@ — dokończ najpierw to, potem wróć do tamtego"
           }
         },
         "pt-BR" : {
@@ -30278,6 +31670,12 @@
             "value" : "Eén keer bakken om de zuurheid eruit te halen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podsmaż raz, żeby zniknęła kwaśność"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30406,6 +31804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eén keer bakken haalt de zuurheid eruit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raz podsmażony traci kwaśność"
           }
         },
         "pt-BR" : {
@@ -30537,6 +31941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Widgets op het beginscherm"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widżety na ekranie początkowym"
           }
         },
         "pt-BR" : {

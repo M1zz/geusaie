@@ -1345,3 +1345,68 @@ https://m1zz.github.io/geusaie/nl/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/nl/
+
+## pl
+
+### 이름
+
+Geusaie: minutnik do makaronu
+
+### 부제
+
+Dwa garnki pod kontrolą
+
+### 키워드
+
+kuchnia,przepisy,kroki,stoper,odliczanie,carbonara,spaghetti,obiad,sos,gotowanie,głos,budzik,aglio
+
+### 프로모션 텍스트
+
+Woda na ogniu, czosnek pokrojony, makaron w garnku, sos na patelni. Jedno zadanie dużą czcionką, odliczanie dla każdego garnka i głos, gdy masz mokre ręce.
+
+### 설명
+
+Dwa garnki naraz i nic nie umyka. Geusaie to kuchenny minutnik, który układa kolejność i czas tak, aby sos był gotowy, gdy gotuje się makaron.
+Pokazuje dużą czcionką tylko jedno zadanie, które jest teraz na topie, i odlicza czas każdego garnka osobno.
+
+Gotowanie jest trudne nie dlatego, że masz powolne ręce, ale dlatego, że czas nie płynie jedną linią. Makaron na nikogo nie czeka, a krojenie czosnku można zrobić w dowolnej chwili. Geusaie zna tę różnicę i planuje kroki z jej uwzględnieniem.
+
+Tylko jedno zadanie naraz
+Na górze ekranu widać dużą czcionką jedno zadanie, które Twoje ręce mają wykonać teraz. Kolor pokazuje jednym spojrzeniem, czy może poczekać. Jak je zrobić i po czym poznać, że jest gotowe, napisano tuż obok.
+
+Osobne odliczanie dla każdego garnka
+Garnek na makaron i patelnia na sos pokazują własny pozostały czas. Od razu widać, czy woda się grzeje, makaron się gotuje, czy stoisz przy patelni.
+
+Gdy się spóźnisz, reszta przesuwa się razem z Tobą
+Żadnego sztywnego harmonogramu. Jeśli włączysz ogień trochę później, kolejne kroki się przesuną, a sos zostanie zaplanowany tak, by zaczął się dokładnie w chwili wyjęcia makaronu.
+
+Cała oś czasu jednym spojrzeniem
+Zobacz, kiedy nakładają się Twoje ręce, garnek na makaron i patelnia na sos. Zadania z przerywaną linią możesz zrobić, gdy masz wolne ręce.
+
+Głosem, gdy masz mokre ręce
+Włącz mikrofon i powiedz koreańskie słowo oznaczające „dalej” (da-eum), aby przejść dalej. Rozpoznawanie mowy rozumie na razie tylko koreański. Gdy mikrofon jest włączony, widać go zawsze na ekranie, a po opuszczeniu ekranu gotowania wyłącza się.
+
+Tekst czytelny z daleka
+Oprzyj urządzenie na blacie i cofnij się o krok czy dwa. Tekst można powiększyć w czterech stopniach.
+
+Żaden garnek nie umknie
+Gdy garnek jest gotowy, dostajesz powiadomienie wraz z następnym zadaniem, nawet jeśli jesteś w innej aplikacji.
+
+Dołączone przepisy
+Aglio e olio
+Makaron w sosie pomidorowo-śmietanowym
+
+Działa na iPhonie i iPadzie. Aby zacząć, nie potrzeba konta.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/pl/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/pl/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/pl/
+
