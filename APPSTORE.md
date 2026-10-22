@@ -1410,3 +1410,66 @@ https://m1zz.github.io/geusaie/pl/privacy.html
 
 https://m1zz.github.io/geusaie/pl/
 
+## sv
+
+### 이름
+
+Geusaie: timer för pasta
+
+### 부제
+
+Två grytor under kontroll
+
+### 키워드
+
+kök,recept,steg,stoppur,nedräkning,carbonara,spaghetti,middag,sås,kokning,röst,alarm,aglio
+
+### 프로모션 텍스트
+
+Vatten på, vitlök skuren, pasta i, sås i pannan. En uppgift i taget i stor text, nedräkning för varje gryta och röststyrning när du har blöta händer.
+
+### 설명
+
+Två grytor samtidigt utan att tappa tråden. Geusaie är en kökstimer som lägger upp ordning och tajming så att såsen är klar medan pastan kokar.
+Den visar i stor text bara den enda uppgiften som står på tur och räknar tiden för varje gryta för sig.
+
+Matlagning är svårt, inte för att dina händer är långsamma, utan för att tiden inte går längs en enda linje. Pastan väntar inte på dig, medan man kan skära vitlök när som helst. Geusaie känner till skillnaden och lägger upp stegen efter den.
+
+Bara en uppgift i taget
+Högst upp på skärmen står i stor text den enda uppgiften som dina händer ska göra just nu. En färg visar med en blick om den kan vänta eller inte. Hur du gör och hur du ser att det är klart står precis intill.
+
+Egen nedräkning för varje gryta
+Pastagrytan och såspannan visar var sin återstående tid. Du ser direkt om vattnet värms upp, pastan kokar eller du står vid pannan.
+
+Ligger du efter flyttas resten med dig
+Ingen stel tidsplan. Slår du på värmen lite sent flyttas de följande stegen med, och såsen planeras så att den startar precis när pastan tas upp.
+
+Hela tidslinjen med en blick
+Se när dina händer, pastagrytan och såspannan överlappar. Uppgifter med streckad linje kan göras när dina händer är lediga.
+
+Röststyrning när du har blöta händer
+Slå på mikrofonen och säg det koreanska ordet för ”nästa” (da-eum) för att gå vidare. Taligenkänningen förstår för närvarande bara koreanska. Medan mikrofonen är på syns den alltid på skärmen, och den stängs av när du lämnar matlagningsskärmen.
+
+Text som går att läsa på avstånd
+Luta enheten mot något på bänken och backa ett par steg. Texten kan göras större i fyra steg.
+
+Ingen gryta glöms bort
+När en gryta är klar får du en avisering tillsammans med nästa uppgift, även om du är i en annan app.
+
+Medföljande recept
+Aglio e olio
+Pasta i tomat- och gräddsås
+
+Fungerar på iPhone och iPad. Inget konto behövs för att komma igång.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/sv/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/sv/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/sv/

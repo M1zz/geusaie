@@ -111,6 +111,12 @@
             "value" : "Реагирует только на корейское слово «다음» («далее»), звук не сохраняется"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyssnar bara efter det koreanska ordet ”다음” (”nästa”) och sparar aldrig ljud"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -245,6 +251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — делайте сейчас"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — gör det nu"
           }
         },
         "th" : {
@@ -383,6 +395,12 @@
             "value" : "Таймер сработал: %@ %@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timern är slut: %@ %@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -517,6 +535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, осталось %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, %@ kvar"
           }
         },
         "th" : {
@@ -655,6 +679,12 @@
             "value" : "%@, нельзя откладывать"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, kan inte vänta"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -789,6 +819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, около %lld мин, кастрюль: %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ca %lld minuter, %lld grytor"
           }
         },
         "th" : {
@@ -927,6 +963,12 @@
             "value" : "%lld мин"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1061,6 +1103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld мин %lld сек"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld s"
           }
         },
         "th" : {
@@ -1199,6 +1247,12 @@
             "value" : "%lld сек"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1333,6 +1387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На 1 минуту меньше — доходит в соусе"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 minut kortare – den blir klar i såsen"
           }
         },
         "th" : {
@@ -1472,6 +1532,12 @@
             "value" : "VoiceOver зачитывает время каждой кастрюли и все дела без пропусков и в нужном порядке."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver läser upp alla grytors tider och uppgifter utan att hoppa över något och i rätt ordning."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1607,6 +1673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver — удобнее"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bättre med VoiceOver"
           }
         },
         "th" : {
@@ -1745,6 +1817,12 @@
             "value" : "Вода закипает"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vattnet kokar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1879,6 +1957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Паста варится"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastan kokar"
           }
         },
         "th" : {
@@ -2017,6 +2101,12 @@
             "value" : "Вода закипает"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vattnet kokar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2151,6 +2241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Паста варится"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastan kokar"
           }
         },
         "th" : {
@@ -2289,6 +2385,12 @@
             "value" : "Сливки томятся"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grädden sjuder"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2423,6 +2525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подрумяненный чеснок горчит — как только темнеет, снимайте с огня"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brun vitlök blir besk – ta av från värmen så fort den får färg"
           }
         },
         "th" : {
@@ -2561,6 +2669,12 @@
             "value" : "Почти готово"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nästan klart"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2695,6 +2809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пропустить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoppa över"
           }
         },
         "th" : {
@@ -2833,6 +2953,12 @@
             "value" : "Положите вынутую пасту в соус на 1 минуту"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg den upptagna pastan i såsen i 1 minut"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2967,6 +3093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если резать поперёк волокон, лук быстрее станет мягким"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skuren tvärs fibrerna blir den mjuk snabbare"
           }
         },
         "th" : {
@@ -3105,6 +3237,12 @@
             "value" : "Продолжить готовку"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt laga mat"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3239,6 +3377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открывает экран приготовления выбранного блюда. Таймеры запускаются после нажатия кнопки «Начать»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppnar matlagningsskärmen för den valda rätten. Timrarna startar när du trycker på Start."
           }
         },
         "th" : {
@@ -3377,6 +3521,12 @@
             "value" : "Мелко порубить"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacka fint"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3508,6 +3658,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -3649,6 +3805,12 @@
             "value" : "Размер текста"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Textstorlek"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3784,6 +3946,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если увеличить размер текста на устройстве, список рецептов и экраны перестроятся и не будут обрезаться."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om du gör texten på enheten större ordnas receptlistan och skärmarna om i stället för att klippas av."
           }
         },
         "th" : {
@@ -3922,6 +4090,12 @@
             "value" : "Выключить"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng av"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4056,6 +4230,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока вода закипает, займитесь подготовкой"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gör förberedelserna medan det kokar"
           }
         },
         "th" : {
@@ -4194,6 +4374,12 @@
             "value" : "Пока вода закипает, подготовьте лук и чеснок"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gör i ordning lök och vitlök medan det kokar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4328,6 +4514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда закипит, опускайте пасту"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När det kokar, lägg i pastan"
           }
         },
         "th" : {
@@ -4466,6 +4658,12 @@
             "value" : "Не доводите до кипения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Får inte koka"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4600,6 +4798,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скажите, когда закончите"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säg till när du är klar"
           }
         },
         "th" : {
@@ -4738,6 +4942,12 @@
             "value" : "Выполнено"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klart"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4872,6 +5082,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оставшийся сыр и перец поставьте рядом"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ställ resten av osten och pepparn bredvid"
           }
         },
         "th" : {
@@ -5010,6 +5226,12 @@
             "value" : "Мои руки"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mina händer"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5144,6 +5366,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вы за делом"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du är i gång"
           }
         },
         "th" : {
@@ -5282,6 +5510,12 @@
             "value" : "Две кастрюли на одном экране"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Två grytor, en skärm"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5416,6 +5650,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мы сообщим, когда кастрюля будет готова."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi säger till när en gryta är klar."
           }
         },
         "th" : {
@@ -5554,6 +5794,12 @@
             "value" : "12 минут с момента закладки"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 minuter från att den läggs i"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5688,6 +5934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сразу перемешайте один раз, чтобы не слиплась"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rör om en gång direkt så att den inte klibbar ihop"
           }
         },
         "th" : {
@@ -5826,6 +6078,12 @@
             "value" : "Если пристаёт, добавьте ложку воды"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om det fastnar, tillsätt en sked vatten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5960,6 +6218,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Опаздываете · делайте прямо сейчас"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Försenad · gör det direkt"
           }
         },
         "th" : {
@@ -6098,6 +6362,12 @@
             "value" : "Отработала своё"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Färdiganvänd"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6232,6 +6502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закончив, скажите «다음» (по-корейски «далее»)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När du är klar, säg ”다음” (koreanska för ”nästa”)"
           }
         },
         "th" : {
@@ -6370,6 +6646,12 @@
             "value" : "Закончили? Скажите «다음»"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar? Säg ”다음”"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6504,6 +6786,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закончив, скажите «다음» (по-корейски «далее»)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När du är klar, säg ”다음” (koreanska för ”nästa”)"
           }
         },
         "th" : {
@@ -6642,6 +6930,12 @@
             "value" : "Далее"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nästa"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6778,6 +7072,12 @@
             "value" : "Дальше · %@ %@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Därefter · %@ %@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6912,6 +7212,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавьте рубленый чеснок и перец на 30 секунд"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillsätt hackad vitlök och peppar i 30 sekunder"
           }
         },
         "th" : {
@@ -7051,6 +7357,12 @@
             "value" : "Тёмная тема"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mörkt läge"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7185,6 +7497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрыть"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng"
           }
         },
         "th" : {
@@ -7324,6 +7642,12 @@
             "value" : "Состояние каждой кастрюли понятно, даже если включён повышенный контраст или трудно различать цвета."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se hur varje gryta mår, även med ökad kontrast eller om det är svårt att skilja på färger."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7459,6 +7783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Больше языков"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fler språk"
           }
         },
         "th" : {
@@ -7597,6 +7927,12 @@
             "value" : "Крупнее"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Större"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7731,6 +8067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Справка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjälp"
           }
         },
         "th" : {
@@ -7869,6 +8211,12 @@
             "value" : "Под крышкой закипит быстрее"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med lock kokar det snabbare"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8003,6 +8351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 зубчика чеснока мелко порубить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacka 3 vitlöksklyftor fint"
           }
         },
         "th" : {
@@ -8141,6 +8495,12 @@
             "value" : "6 зубчиков чеснока — толщиной 1–2 мм"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 vitlöksklyftor i 1–2 mm tjocka skivor"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8275,6 +8635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда края чеснока станут светло-золотистыми"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När kanterna på vitlöken blir ljust gyllene"
           }
         },
         "th" : {
@@ -8413,6 +8779,12 @@
             "value" : "Измельчите чеснок"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacka vitlöken"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8547,6 +8919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нарежьте чеснок тонкими пластинками"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skiva vitlöken tunt"
           }
         },
         "th" : {
@@ -8685,6 +9063,12 @@
             "value" : "Когда появится запах чеснока"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När vitlöken börjar dofta"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8819,6 +9203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обжарьте чеснок в масле"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fräs vitlöken i olja"
           }
         },
         "th" : {
@@ -8957,6 +9347,12 @@
             "value" : "Добавьте чеснок и перец"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillsätt vitlök och peppar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9091,6 +9487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Чеснок быстро подгорает, поэтому всё время помешивайте"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitlök bränns lätt, så rör hela tiden"
           }
         },
         "th" : {
@@ -9229,6 +9631,12 @@
             "value" : "Если сделать это заранее, потом будет проще"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det är enklare om du gör det före avslutningen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9363,6 +9771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выключить микрофон"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng av mikrofonen"
           }
         },
         "th" : {
@@ -9501,6 +9915,12 @@
             "value" : "Включить микрофон"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå på mikrofonen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9635,6 +10055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Микрофон включён · Слушаю"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonen på · Lyssnar"
           }
         },
         "th" : {
@@ -9773,6 +10199,12 @@
             "value" : "Микрофон включён. Слушаю корейское слово «다음» («далее»)"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonen på. Lyssnar efter det koreanska ordet ”다음” (”nästa”)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9907,6 +10339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Голосовое управление"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå vidare med rösten"
           }
         },
         "th" : {
@@ -10045,6 +10483,12 @@
             "value" : "Хорошо видно издалека"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lätt att läsa på avstånd"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10179,6 +10623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Написать на почту"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv till oss via e-post"
           }
         },
         "th" : {
@@ -10317,6 +10767,12 @@
             "value" : "Добавьте пасту и перемешайте для завершения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg i pastan och vänd runt till sist"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10451,6 +10907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Варите пасту"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koka pastan"
           }
         },
         "th" : {
@@ -10589,6 +11051,12 @@
             "value" : "Пока варится паста, готов и соус."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medan pastan kokar blir såsen också klar."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10723,6 +11191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока варится паста, готов и соус. Для каждой кастрюли отдельно видно, что в ней происходит и сколько осталось времени."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medan pastan kokar blir såsen också klar. Varje gryta visar vad den gör och hur mycket tid som är kvar."
           }
         },
         "th" : {
@@ -10861,6 +11335,12 @@
             "value" : "Кастрюля для пасты"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastagryta"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10995,6 +11475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Достаньте пасту, оставив воду от варки"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta upp pastan och spara kokvattnet"
           }
         },
         "th" : {
@@ -11133,6 +11619,12 @@
             "value" : "Добавьте воду от варки и сделайте эмульсию"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillsätt kokvatten och emulgera"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11267,6 +11759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Полстакана воды от варки, энергично встряхивайте для эмульсии"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En halv kopp kokvatten, skaka kraftigt för att emulgera"
           }
         },
         "th" : {
@@ -11405,6 +11903,12 @@
             "value" : "Влейте полстакана воды от варки и сделайте огонь сильным"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Häll i en halv kopp kokvatten och höj värmen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11539,6 +12043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сначала отлейте стакан воды от варки!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara först en kopp kokvatten!"
           }
         },
         "th" : {
@@ -11677,6 +12187,12 @@
             "value" : "Сначала отлейте стакан воды от варки!"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara först en kopp kokvatten!"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11811,6 +12327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сначала зачерпните стакан (200 мл) воды от варки"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ös först upp en kopp (200 ml) kokvatten"
           }
         },
         "th" : {
@@ -11949,6 +12471,12 @@
             "value" : "Сначала зачерпните стакан (200 мл) воды от варки"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ös först upp en kopp (200 ml) kokvatten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12083,6 +12611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отрегулируйте густоту водой от варки — чтобы медленно стекал"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Justera konsistensen med kokvatten – den ska rinna långsamt"
           }
         },
         "th" : {
@@ -12221,6 +12755,12 @@
             "value" : "Подправьте густоту водой от варки, ещё 1 минута в соусе"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Justera med kokvatten, 1 minut till i såsen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12355,6 +12895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Паста ждать не станет, а подготовка подождёт"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastan väntar inte, men förberedelserna gör det"
           }
         },
         "th" : {
@@ -12493,6 +13039,12 @@
             "value" : "Не стряхивайте воду — сразу на сковороду, влажной"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skaka inte torr – direkt i pannan, fortfarande blöt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12627,6 +13179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нельзя откладывать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan inte vänta"
           }
         },
         "th" : {
@@ -12765,6 +13323,12 @@
             "value" : "Связь с нами"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12899,6 +13463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 л воды, 2 ст. л. соли"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 l vatten och 2 msk salt"
           }
         },
         "th" : {
@@ -13037,6 +13607,12 @@
             "value" : "Доведите воду до кипения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koka upp vattnet"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13171,6 +13747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Воды побольше, соли — как в морской воде; кипит минут 5"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gott om vatten och salt som havsvatten – det tar ca 5 minuter att koka"
           }
         },
         "th" : {
@@ -13309,6 +13891,12 @@
             "value" : "Поставьте воду и включите сильный огонь"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sätt på vattnet på hög värme"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13443,6 +14031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это нельзя откладывать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det här kan inte vänta"
           }
         },
         "th" : {
@@ -13581,6 +14175,12 @@
             "value" : "Когда со дна постоянно поднимаются крупные пузыри"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När stora bubblor ständigt stiger från botten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13715,6 +14315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нажмите кнопку или, если руки мокрые, скажите «다음» (по-корейски «далее»). Когда кастрюля будет готова, придёт уведомление."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på knappen eller säg ”다음” (koreanska för ”nästa”) när du har blöta händer. Du får en avisering när en gryta är klar."
           }
         },
         "th" : {
@@ -13854,6 +14460,12 @@
             "value" : "Удобные цвета и контраст"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekväma färger och kontrast"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13989,6 +14601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ответы на присланные вами отзывы можно будет прочитать прямо в приложении."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läs svar på den feedback du skickat direkt i appen."
           }
         },
         "th" : {
@@ -14128,6 +14746,12 @@
             "value" : "Ответы на ваши отзывы"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svar på din feedback"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14262,6 +14886,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подойдите, посмотрите"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom och titta"
           }
         },
         "th" : {
@@ -14400,6 +15030,12 @@
             "value" : "Обычный"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14534,6 +15170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обычно %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brukar ta %@"
           }
         },
         "th" : {
@@ -14672,6 +15314,12 @@
             "value" : "На 1 минуту меньше, чем написано на пачке, — доходит она на сковороде"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 minut kortare än det som står på förpackningen – den blir klar i pannan"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14806,6 +15454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Опускайте веером — варить 8 минут с момента закладки"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bred ut som en solfjäder – 8 minuter från att den läggs i"
           }
         },
         "th" : {
@@ -14944,6 +15598,12 @@
             "value" : "Выключите огонь, добавьте петрушку и сыр"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng av värmen, tillsätt persilja och ost"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15078,6 +15738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Огонь слабый — при кипении соус расслоится"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låg värme – om det kokar skiljer sig såsen"
           }
         },
         "th" : {
@@ -15216,6 +15882,12 @@
             "value" : "Свободно"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledig"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15350,6 +16022,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Посмотреть инструкцию ещё раз"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se guiden igen"
           }
         },
         "th" : {
@@ -15488,6 +16166,12 @@
             "value" : "Цвет показывает срочность"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Färgen visar hur brådskande det är"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15622,6 +16306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда цвет станет насыщеннее и появится ореховый аромат"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När färgen blir djupare och det doftar nötigt"
           }
         },
         "th" : {
@@ -15760,6 +16450,12 @@
             "value" : "Заранее отмерьте 200 мл сливок и 2 ст. л. томатной пасты"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mät upp 200 ml grädde och 2 msk tomatpuré i förväg"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15894,6 +16590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Влейте 200 мл сливок и равномерно перемешайте"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Häll i 200 ml grädde och rör om jämnt"
           }
         },
         "th" : {
@@ -16032,6 +16734,12 @@
             "value" : "Перемешайте, убавьте огонь и уваривайте 1 мин 30 сек"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rör om, sänk värmen och koka ihop i 1 min 30 s"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16166,6 +16874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
           }
         },
         "th" : {
@@ -16304,6 +17018,12 @@
             "value" : "Соли побольше — кипит минут 5"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gott om salt – det tar ca 5 minuter att koka"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16438,6 +17158,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Соль и перец тоже держите под рукой"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha även salt och peppar inom räckhåll"
           }
         },
         "th" : {
@@ -16576,6 +17302,12 @@
             "value" : "Если сделать это до начала соуса, будет проще"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det är enklare om du gör det innan du börjar med såsen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16710,6 +17442,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда соус равномерно покрыл пасту"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När såsen täcker pastan jämnt"
           }
         },
         "th" : {
@@ -16848,6 +17586,12 @@
             "value" : "Когда соус помутнеет, загустеет и обволочёт пасту"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När såsen blir grumlig, tjock och fastnar på pastan"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16982,6 +17726,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Соус рассчитывается от момента, когда паста готова, — «с конца»"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Såsen planeras baklänges från det ögonblick pastan tas upp"
           }
         },
         "th" : {
@@ -17120,6 +17870,12 @@
             "value" : "Сковорода для соуса"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Såspanna"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17254,6 +18010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "С руками всё — осталось дождаться кастрюль"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dina händer är klara — nu är det bara att vänta på grytorna"
           }
         },
         "th" : {
@@ -17392,6 +18154,12 @@
             "value" : "Если руки мокрые, скажите «다음» (по-корейски «далее»). Приложение перейдёт к следующему шагу без касания экрана."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När du har blöta händer, säg ”다음” (koreanska för ”nästa”). Appen går vidare till nästa steg utan att du rör skärmen."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17526,6 +18294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 г спагетти (2 порции), 6 зубчиков чеснока, 6 ст. л. оливкового масла"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g spaghetti (2 portioner), 6 vitlöksklyftor, 6 msk olivolja"
           }
         },
         "th" : {
@@ -17664,6 +18438,12 @@
             "value" : "Опустите 180 г спагетти, распределив веером"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg i 180 g spaghetti, utbredd som en solfjäder"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17798,6 +18578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можно потихоньку заканчивать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan börja avrunda"
           }
         },
         "th" : {
@@ -17936,6 +18722,12 @@
             "value" : "Начать"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom igång"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18070,6 +18862,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "С чего начать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det här först"
           }
         },
         "th" : {
@@ -18208,6 +19006,12 @@
             "value" : "Продолжить с того места, где остановились"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt där du slutade"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18342,6 +19146,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нажмите «Начать готовить» внизу — и таймеры кастрюль запустятся"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på ”Börja laga mat” nedan så startar grytornas timrar"
           }
         },
         "th" : {
@@ -18481,6 +19291,12 @@
             "value" : "Подключите к iPad клавиатуру — и переходите к следующему шагу одной клавишей."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslut ett tangentbord till iPad och gå vidare till nästa steg med bara en tangent."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18615,6 +19431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Едва заметное побулькивание — не кипятите"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bara svagt bubblande – får inte koka"
           }
         },
         "th" : {
@@ -18753,6 +19575,12 @@
             "value" : "На очень слабом огне, еле-еле"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På mycket låg värme, bara svagt bubblande"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18887,6 +19715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Самый крупный"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Störst"
           }
         },
         "th" : {
@@ -19025,6 +19859,12 @@
             "value" : "Ещё нет"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inte än"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19161,6 +20001,12 @@
             "value" : "Остались ещё шаги. Если остановиться сейчас, прогресс пропадёт."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det finns fortfarande steg kvar. Om du slutar nu går dina framsteg förlorade."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19295,6 +20141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Алио-олио"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aglio e olio"
           }
         },
         "th" : {
@@ -19434,6 +20286,12 @@
             "value" : "Приложением можно будет пользоваться и на английском."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan även använda appen på engelska."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19568,6 +20426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "около %lld мин · кастрюль: %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ca %lld min · %lld grytor"
           }
         },
         "th" : {
@@ -19706,6 +20570,12 @@
             "value" : "Слабый огонь! Только до светло-золотистого цвета"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låg värme! Bara till ljust gyllene"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19840,6 +20710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Помешивайте на слабом огне"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låg värme, rör hela tiden"
           }
         },
         "th" : {
@@ -19978,6 +20854,12 @@
             "value" : "1/2 луковицы нарежьте мелкой соломкой"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skär 1/2 lök i fina strimlor"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20114,6 +20996,12 @@
             "value" : "Обжарьте лук"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fräs löken"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20248,6 +21136,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нарежьте лук тонкой соломкой"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skiva löken i tunna strimlor"
           }
         },
         "th" : {
@@ -20387,6 +21281,12 @@
             "value" : "Тёмный экран, который не слепит на тёмной кухне."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En mörk skärm som inte bländar i ett dunkelt kök."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20521,6 +21421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можно делать в любой момент"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan göras när som helst"
           }
         },
         "th" : {
@@ -20660,6 +21566,12 @@
             "value" : "При первом запуске после обновления вы узнаете, что изменилось."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Första gången du öppnar appen efter en uppdatering ser du vad som är nytt."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20797,6 +21709,12 @@
             "value" : "Что нового"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheter"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20931,6 +21849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Времени с запасом"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det finns gott om tid"
           }
         },
         "th" : {
@@ -21070,6 +21994,12 @@
             "value" : "Приложение будет доступно не только на английском, но и на других языках."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förutom engelska blir appen tillgänglig på fler språk."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21205,6 +22135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поддержка английского"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stöd för engelska"
           }
         },
         "th" : {
@@ -21343,6 +22279,12 @@
             "value" : "2 ст. л. оливкового масла, лук, средне-слабый огонь"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 msk olivolja med löken på medelsvag värme"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21477,6 +22419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 ст. л. оливкового масла с пластинками чеснока и перцем чили"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 msk olivolja med vitlöksskivor och chili"
           }
         },
         "th" : {
@@ -21615,6 +22563,12 @@
             "value" : "Готово"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21749,6 +22703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Время готовности"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beräknad sluttid"
           }
         },
         "th" : {
@@ -21887,6 +22847,12 @@
             "value" : "Завершить"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22021,6 +22987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Завершить приготовление?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markera som klar?"
           }
         },
         "th" : {
@@ -22159,6 +23131,12 @@
             "value" : "Готово 🍴 Раскладывайте по тарелкам"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klart 🍴 Dags att anrätta"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22293,6 +23271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Блюдо"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maträtt"
           }
         },
         "th" : {
@@ -22431,6 +23415,12 @@
             "value" : "Начать готовить"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Börja laga mat"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22565,6 +23555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открыть блюдо"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppna maträtt"
           }
         },
         "th" : {
@@ -22704,6 +23700,12 @@
             "value" : "Если приложение закроется во время готовки, таймеры кастрюль и прогресс сохранятся."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om appen stängs medan du lagar mat bevaras grytornas timrar och dina framsteg."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22839,6 +23841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Уменьшение движения"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minska rörelser"
           }
         },
         "th" : {
@@ -22978,6 +23986,12 @@
             "value" : "Если включить «Уменьшение движения», эффекты на экране станут спокойнее."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med ”Minska rörelser” på blir skärmeffekterna lugnare."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23109,6 +24123,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -23250,6 +24270,12 @@
             "value" : "Пауза"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paus"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23385,6 +24411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Любимые блюда можно запускать прямо с экрана «Домой»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starta de rätter du lagar oftast direkt från hemskärmen."
           }
         },
         "th" : {
@@ -23523,6 +24555,12 @@
             "value" : "Мелко — спешить не нужно"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fint – ingen brådska"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23657,6 +24695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Продолжить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återuppta"
           }
         },
         "th" : {
@@ -23795,6 +24839,12 @@
             "value" : "Достаньте продукты и поставьте сковороду"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plocka fram ingredienserna och sätt på pannan"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23929,6 +24979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Соберите продукты в одном месте"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha ingredienserna på ett ställe"
           }
         },
         "th" : {
@@ -24067,6 +25123,12 @@
             "value" : "Половину оставьте для подачи"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara hälften till sist"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24201,6 +25263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Согрейте тарелки и подготовьтесь к подаче"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Värm tallrikarna och gör dig redo att servera"
           }
         },
         "th" : {
@@ -24339,6 +25407,12 @@
             "value" : "Тарелки прогрейте горячей водой и вытрите насухо"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Värm tallrikarna med varmt vatten och torka dem"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24473,6 +25547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прогрейте тарелки горячей водой"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Värm tallrikarna med varmt vatten"
           }
         },
         "th" : {
@@ -24611,6 +25691,12 @@
             "value" : "Прервать готовку и выйти"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt matlagningen och gå ut"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24745,6 +25831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открывает экран приготовления"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppnar matlagningsskärmen"
           }
         },
         "th" : {
@@ -24883,6 +25975,12 @@
             "value" : "Если вы ставите устройство на кухонный стол, здесь можно увеличить текст ещё сильнее."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om du lutar enheten mot något på bänken kan du göra texten ännu större här."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25017,6 +26115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прервать готовку и выйти?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryta matlagningen och gå ut?"
           }
         },
         "th" : {
@@ -25155,6 +26259,12 @@
             "value" : "Когда лопатка оставляет след, который на миг остаётся"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När sleven lämnar ett spår som finns kvar en stund"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25289,6 +26399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прервать и выйти"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt och gå ut"
           }
         },
         "th" : {
@@ -25427,6 +26543,12 @@
             "value" : "Средне-слабый огонь, пока не станет мягким"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På medelsvag värme tills den är mjuk"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25561,6 +26683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сейчас"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu"
           }
         },
         "th" : {
@@ -25699,6 +26827,12 @@
             "value" : "Сейчас · откладывать нельзя"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu · kan inte vänta"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25833,6 +26967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сейчас делаем"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gör nu"
           }
         },
         "th" : {
@@ -25971,6 +27111,12 @@
             "value" : "Сейчас делаем · можно не спешить"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gör nu · ingen brådska"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26105,6 +27251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поддержка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         },
         "th" : {
@@ -26243,6 +27395,12 @@
             "value" : "Прошло времени"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förfluten tid"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26377,6 +27535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Источник · %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Källa · %@"
           }
         },
         "th" : {
@@ -26515,6 +27679,12 @@
             "value" : "Можно не спешить"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta det lugnt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26649,6 +27819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Как можно тоньше — спешить не нужно"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så tunt som möjligt – ingen brådska"
           }
         },
         "th" : {
@@ -26787,6 +27963,12 @@
             "value" : "Натрите сыр и отмерьте ингредиенты для соуса"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv osten och mät upp ingredienserna till såsen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26921,6 +28103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Натрите сыр и согрейте тарелки"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv osten och värm tallrikarna"
           }
         },
         "th" : {
@@ -27059,6 +28247,12 @@
             "value" : "Держите нож плашмя и режьте тонко — толстые пластинки внутри сырые, а снаружи подгорают"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håll kniven plant och skär tunt – tjocka skivor blir råa inuti och brända utanpå"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27193,6 +28387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Крупный"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stor"
           }
         },
         "th" : {
@@ -27331,6 +28531,12 @@
             "value" : "Томите сливки"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låt grädden sjuda"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27465,6 +28671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Влейте сливки и убавьте огонь"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Häll i grädden och sänk värmen"
           }
         },
         "th" : {
@@ -27604,6 +28816,12 @@
             "value" : "Экран для крупного текста"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skärmar för stor text"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27738,6 +28956,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда постоянно поднимаются крупные пузыри"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När stora bubblor ständigt stiger upp"
           }
         },
         "th" : {
@@ -27877,6 +29101,12 @@
             "value" : "Управление с клавиатуры"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Styrning med tangentbord"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28011,6 +29241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Легко подгорает — сразу переходите к следующему шагу"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bränns lätt – gå direkt vidare till nästa steg"
           }
         },
         "th" : {
@@ -28149,6 +29385,12 @@
             "value" : "Таймеры будут сброшены, а прогресс пропадёт."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timrarna nollställs och dina framsteg går förlorade."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28283,6 +29525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Таймлайн · пунктиром отмечено то, что можно отложить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidslinje · streckade staplar kan vänta"
           }
         },
         "th" : {
@@ -28421,6 +29669,12 @@
             "value" : "Терракотовый — то, что нельзя откладывать: паста разварится или пригорит. Зелёный — подготовка: делайте не спеша, когда руки свободны."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terrakotta är sådant som får pastan att bli för mjuk eller såsen att bränna vid om du väntar. Grönt är förberedelser – gör dem i lugn och ro när händerna är lediga."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28555,6 +29809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Паста в томатно-сливочном соусе"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta i tomat- och gräddsås"
           }
         },
         "th" : {
@@ -28693,6 +29953,12 @@
             "value" : "2 ст. л. томатной пасты, 200 мл сливок"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 msk tomatpuré, 200 ml grädde"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28827,6 +30093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Распределите 2 ст. л. томатной пасты по дну сковороды"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bred ut 2 msk tomatpuré över pannans botten"
           }
         },
         "th" : {
@@ -28965,6 +30237,12 @@
             "value" : "Обжарьте томатную пасту"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fräs tomatpurén"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29099,6 +30377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда лук станет прозрачным и края слегка зарумянятся"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När den är glansig och gyllene i kanterna"
           }
         },
         "th" : {
@@ -29237,6 +30521,12 @@
             "value" : "Натрите 30 г пармезана и отложите"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv 30 g parmigiano"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29371,6 +30661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 г пармезана, 2 ст. л. оливкового масла"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g parmigiano, 2 msk olivolja"
           }
         },
         "th" : {
@@ -29509,6 +30805,12 @@
             "value" : "30 г пармезана натрите мелко и отложите"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv 30 g parmigiano fint"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29643,6 +30945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 г пасты — варить на 1 минуту меньше, чем написано на пачке"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g pasta – koka 1 minut kortare än det som står på förpackningen"
           }
         },
         "th" : {
@@ -29781,6 +31089,12 @@
             "value" : "180 г пасты (2 порции), 1/2 луковицы, 3 зубчика чеснока"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g pasta (2 portioner), 1/2 lök, 3 vitlöksklyftor"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29915,6 +31229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Часть петрушки оставьте для подачи"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara lite persilja till sist"
           }
         },
         "th" : {
@@ -30053,6 +31373,12 @@
             "value" : "Петрушку — только листья, крупно порубить"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacka bara persiljebladen grovt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30187,6 +31513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сковорода должна быть достаточно широкой для всей пасты"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En panna som är tillräckligt bred för all pasta"
           }
         },
         "th" : {
@@ -30325,6 +31657,12 @@
             "value" : "Встряхивайте сковороду 30 секунд — чтобы масло и вода соединились"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skaka pannan i 30 sekunder – så att olja och vatten binder sig"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30459,6 +31797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2–3 стручка перца чили, немного петрушки, 30 г пармезана"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 chilifrukter, lite persilja, 30 g parmigiano"
           }
         },
         "th" : {
@@ -30597,6 +31941,12 @@
             "value" : "2–3 стручка перца разрежьте пополам и вытряхните семена"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela 2–3 chilifrukter på mitten och skaka ut kärnorna"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30733,6 +32083,12 @@
             "value" : "Мелко нарежьте перец чили и петрушку"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacka chili och persilja"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30867,6 +32223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Достаточно тонко, если пластинки просвечивают"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillräckligt tunna när skivorna är genomskinliga"
           }
         },
         "th" : {
@@ -31006,6 +32368,12 @@
             "value" : "Экран для складного iPhone"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skärm för vikbar iPhone"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31143,6 +32511,12 @@
             "value" : "На широком экране складного iPhone кастрюли и дела видны рядом."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På den breda skärmen på en vikbar iPhone ser du grytor och uppgifter sida vid sida."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31277,6 +32651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Соберите нужное в одном месте"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha allt du behöver på ett ställe"
           }
         },
         "th" : {
@@ -31416,6 +32796,12 @@
             "value" : "Продолжить начатое блюдо"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt en påbörjad rätt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31550,6 +32936,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Было начато · %@ %@ — сначала закончите это, потом вернётесь к начатому"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det du höll på med · %@ %@ — gör klart det här först och fortsätt sedan"
           }
         },
         "th" : {
@@ -31688,6 +33080,12 @@
             "value" : "Один раз обжарить, чтобы ушла кислинка"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fräs den en gång så att syran försvinner"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31822,6 +33220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если один раз обжарить, уйдёт кислинка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fräst en gång försvinner syran"
           }
         },
         "th" : {
@@ -31959,6 +33363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Виджеты на экране «Домой»"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgetar på hemskärmen"
           }
         },
         "th" : {

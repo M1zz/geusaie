@@ -55,6 +55,7 @@ SEARCH = {
     "nb": ("Kjøkkentimer", "To kjeler,<br>ingenting glemt", "Oppgaven nå og tiden for hver kjele, med ett blikk"),
     "nl": ("Keukentimer", "Twee pannen,<br>niets vergeten", "De taak van nu en de tijd van elke pan in één oogopslag"),
     "pl": ("Minutnik kuchenny", "Dwa garnki,<br>nic nie umknie", "Zadanie na teraz i czas każdego garnka jednym spojrzeniem"),
+    "sv": ("Kökstimer", "Två grytor,<br>inget glöms bort", "Uppgiften just nu och varje grytas tid, med en blick"),
 }
 
 # 헤더는 한 가지 약속: 면 삶는 그사이에 소스까지(앱의 부제 문장).
@@ -81,6 +82,7 @@ HEADER = {
     "nb": ("Kjøkkentimer", "Mens pastaen koker,<br>blir sausen ferdig"),
     "nl": ("Keukentimer", "Terwijl de pasta kookt,<br>wordt de saus klaar"),
     "pl": ("Minutnik kuchenny", "Gdy makaron się gotuje,<br>sos też się robi"),
+    "sv": ("Kökstimer", "Medan pastan kokar<br>blir såsen klar"),
 }
 
 # ⚠️ 바탕 · 글자색은 앱 팔레트(Geusaie/Theme.swift)와 같다: cream · ink · terracotta.

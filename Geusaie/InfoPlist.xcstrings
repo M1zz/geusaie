@@ -111,6 +111,12 @@
             "value" : "Geusaie"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -247,6 +253,12 @@
             "value" : "Микрофон нужен, чтобы во время готовки переходить к следующему шагу, просто сказав по-корейски «다음» («далее»)."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använder mikrofonen så att du kan gå vidare till nästa steg under matlagningen genom att säga det koreanska ordet ”다음” (”nästa”)."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -381,6 +393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Распознавание речи используется только для того, чтобы услышать корейское слово «다음» («далее»). По возможности обработка идёт на устройстве."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använder taligenkänning bara för att fånga upp det koreanska ordet ”다음” (”nästa”). Behandlas på enheten när det är möjligt."
           }
         },
         "th" : {
