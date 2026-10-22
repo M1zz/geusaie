@@ -897,3 +897,67 @@ https://m1zz.github.io/geusaie/vi/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/vi/
+
+## cs
+
+### 이름
+
+Geusaie: časovač na těstoviny
+
+### 부제
+
+Dva hrnce pod kontrolou
+
+### 키워드
+
+kuchyň,recepty,kroky,stopky,odpočet,carbonara,špagety,večeře,omáčka,vaření,hlas,budík,aglio,olio
+
+### 프로모션 텍스트
+
+Voda na plotně, česnek nakrájen, těstoviny uvnitř, omáčka na pánvi. Jeden úkol velkým písmem, odpočet pro každý hrnec a hlas, když máte mokré ruce.
+
+### 설명
+
+Dva hrnce najednou, bez ztráty nitě. Geusaie je kuchyňský časovač, který srovná pořadí a časování tak, aby omáčka byla hotová, zatímco se vaří těstoviny.
+Velkým písmem ukazuje jen jediný úkol, který je na řadě, a čas každého hrnce počítá zvlášť.
+
+Vaření je těžké ne proto, že máte pomalé ruce, ale proto, že čas neplyne v jedné linii. Těstoviny na nikoho nečekají, kdežto krájení česneku jde udělat kdykoli. Geusaie ten rozdíl zná a podle něj skládá postup.
+
+Vždy jen jeden úkol
+Nahoře na obrazovce je velkým písmem jediný úkol, který mají ruce udělat právě teď. Barva ukáže na první pohled, zda se dá odložit. Jak na to a podle čeho poznáte, že je hotovo, je napsáno hned vedle.
+
+Samostatný odpočet pro každý hrnec
+Hrnec na těstoviny a pánev na omáčku ukazují každý svůj zbývající čas. Hned vidíte, zda se voda teprve ohřívá, těstoviny se vaří, nebo stojíte u pánve.
+
+Když se zpozdíte, zbytek se posune s vámi
+Žádný strnulý rozvrh. Zapnete-li plotnu o něco později, další kroky se posunou a omáčka se naplánuje tak, aby začala přesně ve chvíli, kdy se těstoviny vyndají.
+
+Celá časová osa na první pohled
+Podívejte se, kdy se překrývají vaše ruce, hrnec na těstoviny a pánev na omáčku. Čárkované úkoly lze udělat, když máte volné ruce.
+
+Hlasem, když máte mokré ruce
+Zapněte mikrofon a řekněte korejské slovo pro „další“ (da-eum), abyste přešli na další krok. Rozpoznávání řeči zatím rozumí jen korejsky. Dokud je mikrofon zapnutý, je stále vidět na obrazovce a po opuštění obrazovky vaření se vypne.
+
+Písmo čitelné zdálky
+Opřete zařízení na lince a ustupte o krok nebo dva. Text lze zvětšit ve čtyřech stupních.
+
+Žádný hrnec vám neuteče
+Když je hrnec hotový, přijde oznámení spolu s dalším úkolem, i když jste v jiné aplikaci.
+
+Zahrnuté recepty
+Aglio e olio
+Těstoviny v rajčatovo-smetanové omáčce
+
+Funguje na iPhonu a iPadu. K zahájení není potřeba žádný účet.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/cs/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/cs/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/cs/
