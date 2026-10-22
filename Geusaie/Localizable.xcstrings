@@ -81,6 +81,12 @@
             "value" : "\"다음\"이라는 말만 알아듣고, 소리는 저장하지 않아요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lytter bare etter det koreanske ordet «다음» («neste») og lagrer aldri lyd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -197,6 +203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — 지금 하세요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — gjør det nå"
           }
         },
         "pt-BR" : {
@@ -317,6 +329,12 @@
             "value" : "%@ %@ 다 됐어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidtaker ferdig: %@ %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -433,6 +451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, %@ 남음"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, %@ igjen"
           }
         },
         "pt-BR" : {
@@ -553,6 +577,12 @@
             "value" : "%@, 못 미룸"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, kan ikke vente"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -669,6 +699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, 약 %lld분, 냄비 %lld개"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ca. %lld minutter, %lld kjeler"
           }
         },
         "pt-BR" : {
@@ -789,6 +825,12 @@
             "value" : "%lld분"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -905,6 +947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld분 %lld초"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld sek"
           }
         },
         "pt-BR" : {
@@ -1025,6 +1073,12 @@
             "value" : "%lld초"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sek"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1141,6 +1195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1분 덜 삶기 — 소스에서 마저 익힘"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 minutt kortere – den blir ferdig i sausen"
           }
         },
         "pt-BR" : {
@@ -1262,6 +1322,12 @@
             "value" : "VoiceOver가 냄비 시간과 할 일을 빠짐없이, 알맞은 순서로 읽어 줘요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver leser opp alle kjelenes tider og oppgaver uten å hoppe over noe og i riktig rekkefølge."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1379,6 +1445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver로 더 편하게"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedre med VoiceOver"
           }
         },
         "pt-BR" : {
@@ -1499,6 +1571,12 @@
             "value" : "물 끓이는 중"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vannet koker"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1615,6 +1693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면 삶는 중"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastaen koker"
           }
         },
         "pt-BR" : {
@@ -1735,6 +1819,12 @@
             "value" : "물 끓이는 중"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vannet koker"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1851,6 +1941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면 삶는 중"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastaen koker"
           }
         },
         "pt-BR" : {
@@ -1971,6 +2067,12 @@
             "value" : "크림 뭉근히 졸이는 중"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fløten småkoker"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2087,6 +2189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "갈색이 되면 쓴맛 — 색이 오르면 불을 빼세요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brun hvitløk blir bitter – ta den av varmen så fort den får farge"
           }
         },
         "pt-BR" : {
@@ -2207,6 +2315,12 @@
             "value" : "거의 다 됐어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nesten ferdig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2323,6 +2437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "건너뛰기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hopp over"
           }
         },
         "pt-BR" : {
@@ -2443,6 +2563,12 @@
             "value" : "건진 면을 소스에 넣고 1분"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg den opptatte pastaen i sausen i 1 minutt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2559,6 +2685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "결 반대로 썰면 더 빨리 물러요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skåret på tvers av fibrene blir den raskere myk"
           }
         },
         "pt-BR" : {
@@ -2679,6 +2811,12 @@
             "value" : "계속 조리하기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett å lage mat"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2795,6 +2933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "고른 요리의 조리 화면을 열어요. 시작 버튼을 누르면 타이머가 돌아요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åpner matlagingsskjermen for den valgte retten. Tidtakerne starter når du trykker på Start."
           }
         },
         "pt-BR" : {
@@ -2915,6 +3059,12 @@
             "value" : "곱게 다지기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hakk fint"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3033,6 +3183,12 @@
             "value" : "그사이에"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3149,6 +3305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "글자 크기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekststørrelse"
           }
         },
         "pt-BR" : {
@@ -3270,6 +3432,12 @@
             "value" : "기기 글자 크기를 키워도 레시피 목록과 화면이 잘리지 않게 다시 배치돼요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du gjør teksten på enheten større, ordnes oppskriftslisten og skjermene om i stedet for å bli kuttet."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3386,6 +3554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "끄기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå av"
           }
         },
         "pt-BR" : {
@@ -3506,6 +3680,12 @@
             "value" : "끓는 동안 도마 일을 해두면 됩니다"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mens det koker, gjør du forberedelsene"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3622,6 +3802,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "끓는 동안 양파·마늘을 손질해두면 됩니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mens det koker, gjør du klar løk og hvitløk"
           }
         },
         "pt-BR" : {
@@ -3742,6 +3928,12 @@
             "value" : "끓으면 면 넣기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når det koker, legg i pastaen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3858,6 +4050,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "끓이지 말 것"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Må ikke koke"
           }
         },
         "pt-BR" : {
@@ -3978,6 +4176,12 @@
             "value" : "끝나면 알려 주세요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gi beskjed når du er ferdig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4094,6 +4298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "끝남"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig"
           }
         },
         "pt-BR" : {
@@ -4214,6 +4424,12 @@
             "value" : "남은 치즈와 후추를 옆에 준비"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sett resten av osten og pepperen ved siden av"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4330,6 +4546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내 손"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hendene mine"
           }
         },
         "pt-BR" : {
@@ -4450,6 +4672,12 @@
             "value" : "내가 하는 중"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er i gang"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4566,6 +4794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "냄비 두 개를 한 화면에"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To kjeler på én skjerm"
           }
         },
         "pt-BR" : {
@@ -4686,6 +4920,12 @@
             "value" : "냄비가 다 되면 알려 드려요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi gir beskjed når en kjele er klar."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4802,6 +5042,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "넣는 순간부터 12분"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 minutter fra den kommer i vannet"
           }
         },
         "pt-BR" : {
@@ -4922,6 +5168,12 @@
             "value" : "넣자마자 한 번 저어 붙지 않게"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rør rundt én gang med en gang, så den ikke klistrer seg sammen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5038,6 +5290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "눌어붙으면 물 한 숟갈"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis den setter seg fast, tilsett en skje vann"
           }
         },
         "pt-BR" : {
@@ -5158,6 +5416,12 @@
             "value" : "늦었어요 · 지금 바로"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forsinket · gjør det med en gang"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5274,6 +5538,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다 썼어요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brukt ferdig"
           }
         },
         "pt-BR" : {
@@ -5394,6 +5664,12 @@
             "value" : "다 하면 \"다음\"이라고 말해 주세요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du er ferdig, si «다음» (koreansk for «neste»)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5510,6 +5786,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다 했으면 \"다음\""
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig? Si «다음»"
           }
         },
         "pt-BR" : {
@@ -5630,6 +5912,12 @@
             "value" : "다 했으면 \"다음\"이라고 말해 주세요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du er ferdig, si «다음» (koreansk for «neste»)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5746,6 +6034,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste"
           }
         },
         "pt-BR" : {
@@ -5866,6 +6160,12 @@
             "value" : "다음 · %@ %@"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deretter · %@ %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5982,6 +6282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다진 마늘과 후추를 넣고 30초"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilsett hakket hvitløk og pepper i 30 sekunder"
           }
         },
         "pt-BR" : {
@@ -6103,6 +6409,12 @@
             "value" : "다크 모드"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mørk modus"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6219,6 +6531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "닫기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukk"
           }
         },
         "pt-BR" : {
@@ -6340,6 +6658,12 @@
             "value" : "대비를 높이거나 색을 구별하기 어려워도 냄비마다 상태를 알아볼 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se hvordan hver kjele har det, selv med økt kontrast eller hvis det er vanskelig å skille farger."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6457,6 +6781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 언어"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere språk"
           }
         },
         "pt-BR" : {
@@ -6577,6 +6907,12 @@
             "value" : "더 크게"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Større"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6693,6 +7029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "도움말"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjelp"
           }
         },
         "pt-BR" : {
@@ -6813,6 +7155,12 @@
             "value" : "뚜껑을 덮으면 더 빨리 끓어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med lokk koker det raskere"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6929,6 +7277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마늘 3쪽을 곱게 다지기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hakk 3 fedd hvitløk fint"
           }
         },
         "pt-BR" : {
@@ -7049,6 +7403,12 @@
             "value" : "마늘 6쪽을 1~2mm 두께로"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 fedd hvitløk i 1–2 mm tykke skiver"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7165,6 +7525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마늘 가장자리가 옅은 금색이 되면"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når kantene på hvitløken blir lysegylne"
           }
         },
         "pt-BR" : {
@@ -7285,6 +7651,12 @@
             "value" : "마늘 다지기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hakk hvitløken"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7401,6 +7773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마늘 얇게 편 썰기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjær hvitløken i tynne skiver"
           }
         },
         "pt-BR" : {
@@ -7521,6 +7899,12 @@
             "value" : "마늘 향이 올라오면"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når hvitløken begynner å dufte"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7637,6 +8021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마늘·오일 볶기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fres hvitløken i olje"
           }
         },
         "pt-BR" : {
@@ -7757,6 +8147,12 @@
             "value" : "마늘·후추 넣기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilsett hvitløk og pepper"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7873,6 +8269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마늘은 금방 타니 계속 저어 주세요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvitløk brenner seg lett fast, så rør hele tiden"
           }
         },
         "pt-BR" : {
@@ -7993,6 +8395,12 @@
             "value" : "마무리 전에 해두면 편합니다"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er lettere hvis du gjør det før avslutningen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8109,6 +8517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마이크 끄기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå av mikrofonen"
           }
         },
         "pt-BR" : {
@@ -8229,6 +8643,12 @@
             "value" : "마이크 켜기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå på mikrofonen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8345,6 +8765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마이크 켜짐 · 듣는 중"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon på · Lytter"
           }
         },
         "pt-BR" : {
@@ -8465,6 +8891,12 @@
             "value" : "마이크 켜짐. 다음이라는 말을 듣는 중"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon på. Lytter etter det koreanske ordet «다음» («neste»)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8581,6 +9013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "말로 넘기기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videre med stemmen"
           }
         },
         "pt-BR" : {
@@ -8701,6 +9139,12 @@
             "value" : "멀리서도 잘 보이게"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lett å lese på avstand"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8817,6 +9261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "메일로 문의하기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send e-post"
           }
         },
         "pt-BR" : {
@@ -8937,6 +9387,12 @@
             "value" : "면 넣고 버무려 마무리"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha i pastaen og vend til slutt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9053,6 +9509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면 삶기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kok pastaen"
           }
         },
         "pt-BR" : {
@@ -9173,6 +9635,12 @@
             "value" : "면 삶는 그사이에 소스까지."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mens pastaen koker, blir også sausen ferdig."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9289,6 +9757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면 삶는 그사이에 소스까지. 냄비마다 무엇을 하는 중인지, 얼마나 남았는지 따로 보여 드려요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mens pastaen koker, blir også sausen ferdig. Hver kjele viser hva den gjør og hvor mye tid som er igjen."
           }
         },
         "pt-BR" : {
@@ -9409,6 +9883,12 @@
             "value" : "면냄비"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastakjele"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9525,6 +10005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면수 남기고 면 건지기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta opp pastaen og ta vare på kokevannet"
           }
         },
         "pt-BR" : {
@@ -9645,6 +10131,12 @@
             "value" : "면수 넣고 유화·버무리기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilsett kokevann og emulger"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9761,6 +10253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면수 반 컵, 강하게 토스해 유화"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En halv kopp kokevann, rist kraftig for å emulgere"
           }
         },
         "pt-BR" : {
@@ -9881,6 +10379,12 @@
             "value" : "면수 반 컵을 붓고 센 불"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hell i en halv kopp kokevann og skru opp varmen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9997,6 +10501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면수 한 컵 먼저 떠두기!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta først vare på en kopp kokevann!"
           }
         },
         "pt-BR" : {
@@ -10117,6 +10627,12 @@
             "value" : "면수 한 컵 먼저!"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta først vare på en kopp kokevann!"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10233,6 +10749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면수 한 컵(200ml) 먼저 떠두기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta først vare på en kopp (200 ml) kokevann"
           }
         },
         "pt-BR" : {
@@ -10353,6 +10875,12 @@
             "value" : "면수 한 컵(200ml)을 먼저 떠두기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta først vare på en kopp (200 ml) kokevann"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10469,6 +10997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면수로 농도 조절 — 주르륵 흐를 정도"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juster konsistensen med kokevann – den skal renne sakte"
           }
         },
         "pt-BR" : {
@@ -10589,6 +11123,12 @@
             "value" : "면수로 농도 조절, 소스에서 1분 마저"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juster med kokevann, 1 minutt til i sausen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10705,6 +11245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "면은 기다려 주지 않고, 도마 일은 기다려 준다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastaen venter ikke, men forberedelsene gjør det"
           }
         },
         "pt-BR" : {
@@ -10825,6 +11371,12 @@
             "value" : "면은 털지 말고 물기를 묻힌 채 바로 팬으로"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke rist den tørr – rett i pannen mens den fortsatt er våt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10941,6 +11493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "못 미룸"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan ikke vente"
           }
         },
         "pt-BR" : {
@@ -11061,6 +11619,12 @@
             "value" : "문의"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11177,6 +11741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "물 2L, 소금 2큰술"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 l vann og 2 ss salt"
           }
         },
         "pt-BR" : {
@@ -11297,6 +11867,12 @@
             "value" : "물 끓이기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få vannet til å koke"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11413,6 +11989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "물 넉넉히, 소금은 바닷물처럼 짜게 — 5분쯤 끓습니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rikelig med vann og salt som havvann – det tar ca. 5 minutter å koke"
           }
         },
         "pt-BR" : {
@@ -11533,6 +12115,12 @@
             "value" : "물 올리고 센 불 켜기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sett vannet på med høy varme"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11649,6 +12237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "미루면 안 되는 일이에요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dette kan ikke vente"
           }
         },
         "pt-BR" : {
@@ -11769,6 +12363,12 @@
             "value" : "바닥에서 큰 기포가 계속 올라오면"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når store bobler stadig stiger opp fra bunnen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11885,6 +12485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "버튼을 누르거나, 손이 젖었으면 \"다음\"이라고 말하세요. 냄비가 다 되면 알림으로 알려 드려요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk på knappen, eller si «다음» (koreansk for «neste») når du har våte hender. Du får et varsel når en kjele er klar."
           }
         },
         "pt-BR" : {
@@ -12006,6 +12612,12 @@
             "value" : "보기 편한 색과 대비"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behagelige farger og kontrast"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12123,6 +12735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보내 주신 의견에 단 답장을 앱 안에서 볼 수 있어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les svar på tilbakemeldingen du har sendt rett i appen."
           }
         },
         "pt-BR" : {
@@ -12244,6 +12862,12 @@
             "value" : "보낸 의견에 답장 받기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svar på tilbakemeldingen din"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12360,6 +12984,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보러 오세요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom og se"
           }
         },
         "pt-BR" : {
@@ -12480,6 +13110,12 @@
             "value" : "보통"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12596,6 +13232,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보통 %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar vanligvis %@"
           }
         },
         "pt-BR" : {
@@ -12716,6 +13358,12 @@
             "value" : "봉지 표기보다 1분 덜 — 마지막은 팬에서"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 minutt kortere enn det som står på pakken – den blir ferdig i pannen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12832,6 +13480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "부채꼴로 펼쳐 넣기 — 넣는 순간부터 8분"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spre ut som en vifte – 8 minutter fra den kommer i vannet"
           }
         },
         "pt-BR" : {
@@ -12952,6 +13606,12 @@
             "value" : "불을 끄고 파슬리와 치즈"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå av varmen, tilsett persille og ost"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13068,6 +13728,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "불을 약하게 — 끓이면 분리됩니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svak varme – hvis det koker, skiller sausen seg"
           }
         },
         "pt-BR" : {
@@ -13188,6 +13854,12 @@
             "value" : "비어 있음"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13304,6 +13976,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사용 방법 다시 보기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se veiledningen på nytt"
           }
         },
         "pt-BR" : {
@@ -13424,6 +14102,12 @@
             "value" : "색이 곧 급한 정도"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fargen viser hvor hastverk det er"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13540,6 +14224,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "색이 짙어지고 고소한 냄새가 나면"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når fargen blir dypere og det lukter nøtteaktig"
           }
         },
         "pt-BR" : {
@@ -13660,6 +14350,12 @@
             "value" : "생크림 200ml, 토마토페이스트 2큰술 미리 계량"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mål opp 200 ml fløte og 2 ss tomatpuré på forhånd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13776,6 +14472,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "생크림 200ml를 붓고 고루 섞기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hell i 200 ml fløte og rør jevnt"
           }
         },
         "pt-BR" : {
@@ -13896,6 +14598,12 @@
             "value" : "섞고 불을 낮추면 1분 30초 졸입니다"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rør, skru ned varmen og la det koke inn i 1 min 30 sek"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14012,6 +14720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innstillinger"
           }
         },
         "pt-BR" : {
@@ -14132,6 +14846,12 @@
             "value" : "소금 넉넉히 — 5분쯤 끓습니다"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rikelig med salt – det tar ca. 5 minutter å koke"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14248,6 +14968,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "소금·후추도 손 닿는 곳에"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha også salt og pepper innen rekkevidde"
           }
         },
         "pt-BR" : {
@@ -14368,6 +15094,12 @@
             "value" : "소스 시작 전에 해두면 편합니다"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er lettere hvis du gjør det før du begynner på sausen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14484,6 +15216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "소스가 면에 고루 입혀지면"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når sausen dekker pastaen jevnt"
           }
         },
         "pt-BR" : {
@@ -14604,6 +15342,12 @@
             "value" : "소스가 뿌옇게 엉겨 면에 붙으면"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når sausen blir uklar, tykk og fester seg til pastaen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14720,6 +15464,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "소스는 면이 나오는 순간에 맞춰 거꾸로 잡힌다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sausen planlegges baklengs fra øyeblikket pastaen tas opp"
           }
         },
         "pt-BR" : {
@@ -14840,6 +15590,12 @@
             "value" : "소스팬"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saussteikepanne"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14956,6 +15712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "손은 다 했어요 — 냄비만 기다리면 돼요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hendene dine er ferdige — nå er det bare å vente på kjelene"
           }
         },
         "pt-BR" : {
@@ -15076,6 +15838,12 @@
             "value" : "손이 젖었으면 \"다음\"이라고 말해 보세요. 화면을 만지지 않아도 다음 일로 넘어가요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du har våte hender, si «다음» (koreansk for «neste»). Appen går videre til neste trinn uten at du trenger å røre skjermen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15192,6 +15960,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "스파게티 180g(2인분), 마늘 6쪽, 올리브유 6큰술"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g spaghetti (2 porsjoner), 6 fedd hvitløk, 6 ss olivenolje"
           }
         },
         "pt-BR" : {
@@ -15312,6 +16086,12 @@
             "value" : "스파게티 180g을 부채꼴로 펼쳐 넣기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg i 180 g spaghetti spredt ut som en vifte"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15428,6 +16208,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "슬슬 마무리해도 돼요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan begynne å runde av"
           }
         },
         "pt-BR" : {
@@ -15548,6 +16334,12 @@
             "value" : "시작하기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom i gang"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15664,6 +16456,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "시작하면 이것부터"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dette gjør du først"
           }
         },
         "pt-BR" : {
@@ -15784,6 +16582,12 @@
             "value" : "아까 하던 데서 이어서"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett der du slapp"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15900,6 +16704,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아래 요리 시작을 누르면 냄비 시계가 돕니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk på «Start matlagingen» nedenfor, så begynner gryteklokkene å gå"
           }
         },
         "pt-BR" : {
@@ -16021,6 +16831,12 @@
             "value" : "아이패드에 키보드를 연결하면 키만으로 다음 단계로 넘어가요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koble et tastatur til iPad og gå videre til neste trinn med bare én tast."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16137,6 +16953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아주 약한 simmer — 끓이지 말 것"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bare så vidt boblende – må ikke koke"
           }
         },
         "pt-BR" : {
@@ -16257,6 +17079,12 @@
             "value" : "아주 약한 불에서 뭉근하게"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På veldig svak varme, bare så vidt boblende"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16373,6 +17201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아주 크게"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Størst"
           }
         },
         "pt-BR" : {
@@ -16493,6 +17327,12 @@
             "value" : "아직"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke ennå"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16611,6 +17451,12 @@
             "value" : "아직 남은 단계가 있어요. 지금 멈추면 진행 상황이 사라집니다."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er fortsatt trinn igjen. Hvis du stopper nå, går fremdriften tapt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16727,6 +17573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "알리오 올리오"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aglio e olio"
           }
         },
         "pt-BR" : {
@@ -16848,6 +17700,12 @@
             "value" : "앱을 영어로도 쓸 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan også bruke appen på engelsk."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16964,6 +17822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "약 %lld분 · 냄비 %lld개"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ca. %lld min · %lld kjeler"
           }
         },
         "pt-BR" : {
@@ -17084,6 +17948,12 @@
             "value" : "약불! 옅은 황금색까지만"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svak varme! Bare til lysegyllen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17200,6 +18070,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "약불에서 계속 저어 주기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svak varme, rør hele tiden"
           }
         },
         "pt-BR" : {
@@ -17320,6 +18196,12 @@
             "value" : "양파 1/2개를 잘게 채썰기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjær 1/2 løk i fine strimler"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17438,6 +18320,12 @@
             "value" : "양파 볶기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fres løken"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17554,6 +18442,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "양파 채썰기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjær løken i tynne strimler"
           }
         },
         "pt-BR" : {
@@ -17675,6 +18569,12 @@
             "value" : "어두운 부엌에서도 눈부시지 않게 어두운 화면으로 볼 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En mørk skjerm som ikke blender på et mørkt kjøkken."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17791,6 +18691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "언제 해도 되는 일"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan gjøres når som helst"
           }
         },
         "pt-BR" : {
@@ -17912,6 +18818,12 @@
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18031,6 +18943,12 @@
             "value" : "업데이트 소식"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nytt i appen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18147,6 +19065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "여유 있어요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er god tid"
           }
         },
         "pt-BR" : {
@@ -18268,6 +19192,12 @@
             "value" : "영어 말고도 더 많은 나라 말로 쓸 수 있게 해요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I tillegg til engelsk kan appen brukes på flere språk."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18385,6 +19315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 지원"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Støtte for engelsk"
           }
         },
         "pt-BR" : {
@@ -18505,6 +19441,12 @@
             "value" : "올리브유 2큰술에 양파, 중약불"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 ss olivenolje med løken på middels svak varme"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18621,6 +19563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "올리브유 6큰술에 마늘 편과 페퍼론치노"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 ss olivenolje med hvitløksskiver og chili"
           }
         },
         "pt-BR" : {
@@ -18741,6 +19689,12 @@
             "value" : "완료"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18857,6 +19811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "완성 예정 시각"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forventet ferdig kl."
           }
         },
         "pt-BR" : {
@@ -18977,6 +19937,12 @@
             "value" : "완성 처리"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19093,6 +20059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "완성 처리할까요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merke som ferdig?"
           }
         },
         "pt-BR" : {
@@ -19213,6 +20185,12 @@
             "value" : "완성됐어요 🍴 접시에 담으세요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig 🍴 Server opp"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19329,6 +20307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "요리"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rett"
           }
         },
         "pt-BR" : {
@@ -19449,6 +20433,12 @@
             "value" : "요리 시작"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start matlagingen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19565,6 +20555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "요리 열기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åpne rett"
           }
         },
         "pt-BR" : {
@@ -19686,6 +20682,12 @@
             "value" : "요리하다 앱이 꺼져도 냄비 시간과 진행 상황이 그대로 이어져요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis appen lukkes mens du lager mat, beholdes kjelenes tidtakere og fremdriften din."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19803,6 +20805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "움직임 줄이기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduser bevegelse"
           }
         },
         "pt-BR" : {
@@ -19924,6 +20932,12 @@
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med «Reduser bevegelse» på blir skjermeffektene roligere."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20042,6 +21056,12 @@
             "value" : "인스타그램"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20158,6 +21178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "일시정지"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause"
           }
         },
         "pt-BR" : {
@@ -20279,6 +21305,12 @@
             "value" : "자주 하는 요리를 홈 화면에서 바로 시작해요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start rettene du lager oftest direkte fra Hjem-skjermen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20395,6 +21427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "잘게 — 급할 것 없습니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fint – ingen hast"
           }
         },
         "pt-BR" : {
@@ -20515,6 +21553,12 @@
             "value" : "재개"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20631,6 +21675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "재료 꺼내고 팬 올리기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta frem ingrediensene og sett på pannen"
           }
         },
         "pt-BR" : {
@@ -20751,6 +21801,12 @@
             "value" : "재료를 한자리에"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha ingrediensene på ett sted"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20867,6 +21923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "절반은 마무리용으로 남겨두기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spar halvparten til slutt"
           }
         },
         "pt-BR" : {
@@ -20987,6 +22049,12 @@
             "value" : "접시 데우고 옮길 준비"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varm tallerkenene og gjør klar til servering"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21103,6 +22171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "접시는 뜨거운 물을 부어 데우고 물기 닦기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varm tallerkenene med varmt vann og tørk dem"
           }
         },
         "pt-BR" : {
@@ -21223,6 +22297,12 @@
             "value" : "접시를 뜨거운 물로 데우기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varm tallerkenene med varmt vann"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21339,6 +22419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "조리 중단하고 나가기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt matlagingen og gå ut"
           }
         },
         "pt-BR" : {
@@ -21459,6 +22545,12 @@
             "value" : "조리 화면을 엽니다"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åpner matlagingsskjermen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21575,6 +22667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "조리대에 세워 두고 보신다면 여기서 글자를 더 키울 수 있어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du setter enheten opp på kjøkkenbenken, kan du gjøre teksten enda større her."
           }
         },
         "pt-BR" : {
@@ -21695,6 +22793,12 @@
             "value" : "조리를 중단하고 나갈까요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryte matlagingen og gå ut?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21811,6 +22915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "주걱으로 그었을 때 자국이 잠깐 남으면"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når slikkepotten etterlater et spor som blir et øyeblikk"
           }
         },
         "pt-BR" : {
@@ -21931,6 +23041,12 @@
             "value" : "중단하고 나가기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt og gå ut"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22047,6 +23163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "중약불로 부드러워질 때까지"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Middels svak varme til den er myk"
           }
         },
         "pt-BR" : {
@@ -22167,6 +23289,12 @@
             "value" : "지금"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nå"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22283,6 +23411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 · 미룰 수 없어요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nå · kan ikke vente"
           }
         },
         "pt-BR" : {
@@ -22403,6 +23537,12 @@
             "value" : "지금 할 일"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjør nå"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22519,6 +23659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 할 일 · 천천히 해도 돼요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjør nå · ingen hast"
           }
         },
         "pt-BR" : {
@@ -22639,6 +23785,12 @@
             "value" : "지원"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brukerstøtte"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22755,6 +23907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "진행 시간"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medgått tid"
           }
         },
         "pt-BR" : {
@@ -22875,6 +24033,12 @@
             "value" : "참고 · %@"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilde · %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22991,6 +24155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "천천히 해도 됩니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta det med ro"
           }
         },
         "pt-BR" : {
@@ -23111,6 +24281,12 @@
             "value" : "최대한 얇게 — 급할 것 없습니다"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så tynt som mulig – ingen hast"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23227,6 +24403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "치즈 갈고 소스 재료 계량"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv osten og mål opp ingrediensene til sausen"
           }
         },
         "pt-BR" : {
@@ -23347,6 +24529,12 @@
             "value" : "치즈 갈고 접시 데우기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv osten og varm tallerkenene"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23463,6 +24651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "칼을 눕혀 얇게 — 두꺼우면 속이 안 익고 겉만 타요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold kniven flatt og skjær tynt – er de tykke, blir de rå inni og brente utenpå"
           }
         },
         "pt-BR" : {
@@ -23583,6 +24777,12 @@
             "value" : "크게"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stor"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23701,6 +24901,12 @@
             "value" : "크림 뭉근히 졸이기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La fløten småkoke"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23817,6 +25023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "크림 붓고 약불로 줄이기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hell i fløten og skru ned varmen"
           }
         },
         "pt-BR" : {
@@ -23938,6 +25150,12 @@
             "value" : "큰 글씨에 맞춘 화면"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjermer for stor tekst"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24054,6 +25272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "큰 기포가 계속 올라오면"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når store bobler stadig stiger opp"
           }
         },
         "pt-BR" : {
@@ -24175,6 +25399,12 @@
             "value" : "키보드로 조작하기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Styring med tastatur"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24291,6 +25521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타기 쉬우니 바로 다음으로"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brenner seg lett – gå straks videre til neste trinn"
           }
         },
         "pt-BR" : {
@@ -24411,6 +25647,12 @@
             "value" : "타이머가 초기화되고 진행 상황이 사라집니다."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidtakerne nullstilles, og fremdriften går tapt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24527,6 +25769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타임라인 · 점선은 미뤄도 되는 일"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidslinje · stiplede streker kan vente"
           }
         },
         "pt-BR" : {
@@ -24647,6 +25895,12 @@
             "value" : "테라코타는 미루면 면이 퍼지거나 타는 일이에요. 초록은 도마 일이라 손이 빌 때 천천히 하면 돼요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terrakotta er det som får pastaen til å bli for myk eller sausen til å brenne seg fast hvis du venter. Grønt er forberedelser – ta dem med ro når hendene er frie."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24763,6 +26017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "토마토 크림 파스타"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta i tomat- og fløtesaus"
           }
         },
         "pt-BR" : {
@@ -24883,6 +26143,12 @@
             "value" : "토마토페이스트 2큰술, 생크림 200ml"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 ss tomatpuré, 200 ml fløte"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24999,6 +26265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "토마토페이스트 2큰술을 팬 바닥에 펴 바르듯"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fordel 2 ss tomatpuré utover bunnen av pannen"
           }
         },
         "pt-BR" : {
@@ -25119,6 +26391,12 @@
             "value" : "토마토페이스트 볶기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fres tomatpuréen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25235,6 +26513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "투명해지고 가장자리가 노릇해지면"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når den er gjennomsiktig og gyllen i kantene"
           }
         },
         "pt-BR" : {
@@ -25355,6 +26639,12 @@
             "value" : "파르미지아노 30g 갈아두기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv 30 g parmigiano"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25471,6 +26761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "파르미지아노 30g, 올리브유 2큰술"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g parmigiano, 2 ss olivenolje"
           }
         },
         "pt-BR" : {
@@ -25591,6 +26887,12 @@
             "value" : "파르미지아노 30g을 곱게 갈아두기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riv 30 g parmigiano fint"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25707,6 +27009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "파스타 180g — 봉지 표기보다 1분 덜 삶습니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g pasta – kok 1 minutt kortere enn det som står på pakken"
           }
         },
         "pt-BR" : {
@@ -25827,6 +27135,12 @@
             "value" : "파스타 180g(2인분), 양파 1/2개, 마늘 3쪽"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g pasta (2 porsjoner), 1/2 løk, 3 fedd hvitløk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25943,6 +27257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "파슬리는 마무리용도 남겨두기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spar litt persille til slutt"
           }
         },
         "pt-BR" : {
@@ -26063,6 +27383,12 @@
             "value" : "파슬리는 잎만 굵게 다지기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hakk bare persilleblader grovt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26179,6 +27505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "팬은 면이 다 들어갈 만큼 넓은 것으로"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En panne som er bred nok til all pastaen"
           }
         },
         "pt-BR" : {
@@ -26299,6 +27631,12 @@
             "value" : "팬을 흔들며 30초 — 기름과 면수가 섞이게"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rist pannen i 30 sekunder – så olje og vann binder seg"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26415,6 +27753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "페퍼론치노 2~3개, 파슬리 조금, 파르미지아노 30g"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 chilier, litt persille, 30 g parmigiano"
           }
         },
         "pt-BR" : {
@@ -26535,6 +27879,12 @@
             "value" : "페퍼론치노 2~3개를 반 갈라 씨 털기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del 2–3 chilier i to og rist ut frøene"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26653,6 +28003,12 @@
             "value" : "페퍼론치노·파슬리 다지기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hakk chili og persille"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26769,6 +28125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "편이 반투명하게 비치면 충분히 얇은 것"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tynne nok når skivene er gjennomsiktige"
           }
         },
         "pt-BR" : {
@@ -26890,6 +28252,12 @@
             "value" : "펼치는 아이폰 화면"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjerm for brettbar iPhone"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27009,6 +28377,12 @@
             "value" : "펼치는 아이폰에서 넓은 화면에 냄비와 할 일을 나란히 봐요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På den brede skjermen til en brettbar iPhone ser du kjeler og oppgaver side om side."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27125,6 +28499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "필요한 재료를 한자리에"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha alt du trenger på ett sted"
           }
         },
         "pt-BR" : {
@@ -27246,6 +28626,12 @@
             "value" : "하던 요리 이어서"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett en rett du er i gang med"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27362,6 +28748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "하던 일 · %@ %@ — 이것부터 하고 이어서"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det du holdt på med · %@ %@ — gjør dette ferdig først, og fortsett så"
           }
         },
         "pt-BR" : {
@@ -27482,6 +28874,12 @@
             "value" : "한 번 볶아 신맛 날리기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fres den én gang for å få bort syren"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27598,6 +28996,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "한 번 볶아야 신맛이 날아갑니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når den fresen én gang, forsvinner syren"
           }
         },
         "pt-BR" : {
@@ -27717,6 +29121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "홈 화면 위젯"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgeter på Hjem-skjermen"
           }
         },
         "pt-BR" : {

@@ -1217,3 +1217,67 @@ https://m1zz.github.io/geusaie/id/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/id/
+
+## nb
+
+### 이름
+
+Geusaie: timer for pasta
+
+### 부제
+
+To kjeler uten stress
+
+### 키워드
+
+kjøkken,oppskrifter,trinn,stoppeklokke,nedtelling,carbonara,spaghetti,middag,saus,koking,stemme
+
+### 프로모션 텍스트
+
+Vann på, hvitløk skåret, pasta i, saus i pannen. Én oppgave om gangen i stor tekst, nedtelling for hver kjele og stemmestyring når du har våte hender.
+
+### 설명
+
+To kjeler samtidig uten å miste oversikten. Geusaie er en kjøkkentimer som legger rekkefølge og timing slik at sausen er ferdig mens pastaen koker.
+Den viser bare den ene oppgaven som står for tur, i stor tekst, og teller tiden for hver kjele hver for seg.
+
+Matlaging er vanskelig, ikke fordi hendene dine er trege, men fordi tiden ikke går på én linje. Pastaen venter ikke på deg, mens hvitløk kan skjæres når som helst. Geusaie kjenner forskjellen og legger opp trinnene etter den.
+
+Bare én oppgave om gangen
+Øverst på skjermen står den ene oppgaven hendene dine skal gjøre akkurat nå, i stor tekst. En farge viser med et blikk om den kan vente eller ikke. Hvordan du gjør det, og hvordan du ser at det er ferdig, står rett ved siden av.
+
+Egen nedtelling for hver kjele
+Pastakjelen og saussteikepannen viser hver sin gjenstående tid. Du ser med en gang om vannet varmes opp, pastaen koker eller du står over pannen.
+
+Er du forsinket, flytter resten seg med deg
+Ingen stiv tidsplan. Slår du på varmen litt for sent, flytter de neste trinnene seg med, og sausen planlegges slik at den starter akkurat når pastaen tas opp.
+
+Hele tidslinjen med ett blikk
+Se når hendene dine, pastakjelen og saussteikepannen overlapper. Oppgaver med stiplet strek kan gjøres når hendene dine er frie.
+
+Stemmestyring når du har våte hender
+Slå på mikrofonen og si det koreanske ordet for «neste» (da-eum) for å gå videre. Talegjenkjenningen forstår foreløpig bare koreansk. Mens mikrofonen er på, vises den alltid på skjermen, og den slås av når du forlater matlagingsskjermen.
+
+Tekst som kan leses på avstand
+Sett enheten opp på kjøkkenbenken og ta et par skritt tilbake. Teksten kan gjøres større i fire trinn.
+
+Ingen kjele blir glemt
+Når en kjele er klar, får du et varsel sammen med neste oppgave, selv om du er i en annen app.
+
+Oppskrifter som følger med
+Aglio e olio
+Pasta i tomat- og fløtesaus
+
+Fungerer på iPhone og iPad. Ingen konto nødvendig for å komme i gang.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/nb/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/nb/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/nb/
