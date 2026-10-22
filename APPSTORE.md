@@ -1153,3 +1153,67 @@ https://m1zz.github.io/geusaie/fi/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/fi/
+
+## id
+
+### 이름
+
+Geusaie: Timer Masak Pasta
+
+### 부제
+
+Dua panci tanpa repot
+
+### 키워드
+
+dapur,resep,langkah,stopwatch,hitung,mundur,carbonara,spageti,makan,malam,saus,rebus,suara
+
+### 프로모션 텍스트
+
+Air dipanaskan, bawang putih diiris, pasta masuk, saus ditumis. Satu tugas sekali waktu dengan teks besar, hitung mundur tiap panci, dan kendali suara saat tangan basah.
+
+### 설명
+
+Dua panci sekaligus tanpa kehilangan irama. Geusaie adalah timer dapur yang mengatur urutan dan waktu agar saus selesai saat pasta sedang direbus.
+Menampilkan hanya satu tugas yang perlu dikerjakan sekarang dengan teks besar, dan menghitung waktu tiap panci secara terpisah.
+
+Memasak sulit bukan karena tanganmu lambat, melainkan karena waktu tidak berjalan dalam satu garis. Pasta tidak menunggumu, sedangkan mengiris bawang putih bisa dilakukan kapan saja. Geusaie memahami perbedaan itu dan menyusun langkah berdasarkan itu.
+
+Satu tugas dalam satu waktu
+Bagian atas layar menampilkan satu tugas yang perlu dikerjakan tanganmu sekarang dengan teks besar. Warna menunjukkan sekilas apakah tugas itu bisa ditunda atau tidak. Cara mengerjakannya dan tanda bahwa sudah matang tertulis tepat di situ.
+
+Hitung mundur untuk tiap panci
+Panci pasta dan wajan saus masing-masing menampilkan sisa waktunya sendiri. Kamu langsung tahu apakah air sedang dipanaskan, pasta sedang direbus, atau kamu sedang berjaga di wajan.
+
+Jika terlambat, sisanya ikut bergeser
+Tanpa jadwal kaku. Jika kamu menyalakan api sedikit terlambat, langkah berikutnya ikut bergeser, dan saus direncanakan mulai tepat saat pasta diangkat.
+
+Seluruh lini masa dalam sekali lihat
+Lihat kapan tanganmu, panci pasta, dan wajan saus saling bertumpuk. Tugas bergaris putus-putus bisa dikerjakan saat tanganmu bebas.
+
+Dengan suara saat tangan basah
+Nyalakan mikrofon dan ucapkan kata Korea untuk “berikutnya” (da-eum) untuk lanjut. Pengenalan suara saat ini hanya memahami bahasa Korea. Selama mikrofon aktif, penandanya selalu terlihat di layar, dan mikrofon mati saat kamu meninggalkan layar memasak.
+
+Teks yang terbaca dari jauh
+Sandarkan perangkat di meja dapur lalu mundur satu atau dua langkah. Ukuran teks bisa diperbesar dalam empat tingkat.
+
+Tidak ada panci yang terlewat
+Saat panci selesai, kamu mendapat notifikasi beserta tugas berikutnya, bahkan ketika sedang memakai aplikasi lain.
+
+Resep yang tersedia
+Aglio e olio
+Pasta saus krim tomat
+
+Bisa dipakai di iPhone dan iPad. Tidak perlu akun untuk memulai.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/id/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/id/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/id/

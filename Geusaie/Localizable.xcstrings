@@ -57,6 +57,12 @@
             "value" : "N’écoute que le mot coréen « 다음 » (« suivant ») et n’enregistre jamais le son"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hanya mendengarkan kata Korea “다음” (“berikutnya”) dan tidak pernah menyimpan suara"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — à faire maintenant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — lakukan sekarang"
           }
         },
         "it" : {
@@ -281,6 +293,12 @@
             "value" : "Minuteur terminé : %@ %@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer selesai: %@ %@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -391,6 +409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, reste %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, sisa %@"
           }
         },
         "it" : {
@@ -505,6 +529,12 @@
             "value" : "%@, impossible à reporter"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, tidak bisa ditunda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -615,6 +645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, environ %lld minutes, %lld casseroles"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, sekitar %lld menit, %lld panci"
           }
         },
         "it" : {
@@ -729,6 +765,12 @@
             "value" : "%lld min"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mnt"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -839,6 +881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min %lld s"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mnt %lld dtk"
           }
         },
         "it" : {
@@ -953,6 +1001,12 @@
             "value" : "%lld s"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dtk"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1063,6 +1117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 minute de moins — elles finissent de cuire dans la sauce"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 menit lebih singkat — dituntaskan di dalam saus"
           }
         },
         "it" : {
@@ -1178,6 +1238,12 @@
             "value" : "VoiceOver lit tous les minuteurs des casseroles et les tâches, sans rien oublier et dans le bon ordre."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver membacakan semua waktu panci dan tugas tanpa terlewat, dengan urutan yang tepat."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1289,6 +1355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver plus pratique"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lebih nyaman"
           }
         },
         "it" : {
@@ -1403,6 +1475,12 @@
             "value" : "L’eau chauffe"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Air sedang mendidih"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1513,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les pâtes cuisent"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta sedang direbus"
           }
         },
         "it" : {
@@ -1627,6 +1711,12 @@
             "value" : "L’eau chauffe"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Air sedang mendidih"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1737,6 +1827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les pâtes cuisent"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta sedang direbus"
           }
         },
         "it" : {
@@ -1851,6 +1947,12 @@
             "value" : "La crème mijote"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krim sedang dididihkan pelan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1961,6 +2063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’ail trop doré devient amer — dès qu’il prend de la couleur, retirer du feu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bawang putih yang cokelat jadi pahit — begitu warnanya mulai gelap, angkat dari api"
           }
         },
         "it" : {
@@ -2075,6 +2183,12 @@
             "value" : "C’est presque bon"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hampir selesai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2185,6 +2299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lewati"
           }
         },
         "it" : {
@@ -2299,6 +2419,12 @@
             "value" : "Mettre les pâtes égouttées dans la sauce pendant 1 minute"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan pasta yang sudah diangkat ke dalam saus selama 1 menit"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2409,6 +2535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coupé en travers des fibres, il ramollit plus vite"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diiris melintang serat, lebih cepat lembut"
           }
         },
         "it" : {
@@ -2523,6 +2655,12 @@
             "value" : "Continuer la cuisson"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjut memasak"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2633,6 +2771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvre l’écran de cuisson de la recette choisie. Les minuteurs démarrent quand vous touchez Démarrer."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membuka layar memasak untuk hidangan yang dipilih. Timer berjalan saat kamu mengetuk Mulai."
           }
         },
         "it" : {
@@ -2747,6 +2891,12 @@
             "value" : "Hacher finement"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cincang halus"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2854,6 +3004,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -2971,6 +3127,12 @@
             "value" : "Taille du texte"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukuran teks"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3082,6 +3244,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si vous agrandissez le texte de l’appareil, la liste des recettes et les écrans se réorganisent au lieu d’être coupés."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat ukuran teks perangkat diperbesar, daftar resep dan layar disusun ulang agar tidak terpotong."
           }
         },
         "it" : {
@@ -3196,6 +3364,12 @@
             "value" : "Désactiver"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matikan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3306,6 +3480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pendant que l’eau chauffe, faire la préparation"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selagi mendidih, kerjakan persiapan"
           }
         },
         "it" : {
@@ -3420,6 +3600,12 @@
             "value" : "Pendant que l’eau chauffe, préparer l’oignon et l’ail"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selagi mendidih, siapkan bawang bombai dan bawang putih"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3530,6 +3716,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À ébullition, plonger les pâtes"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setelah mendidih, masukkan pasta"
           }
         },
         "it" : {
@@ -3644,6 +3836,12 @@
             "value" : "Ne pas faire bouillir"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jangan sampai mendidih"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3754,6 +3952,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prévenez-moi quand c’est fini"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beri tahu saya kalau sudah selesai"
           }
         },
         "it" : {
@@ -3868,6 +4072,12 @@
             "value" : "Terminé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3978,6 +4188,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mettre le reste de fromage et le poivre à côté"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taruh sisa keju dan lada di dekatnya"
           }
         },
         "it" : {
@@ -4092,6 +4308,12 @@
             "value" : "Mes mains"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanganku"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4202,6 +4424,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous y êtes"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sedang dikerjakan"
           }
         },
         "it" : {
@@ -4316,6 +4544,12 @@
             "value" : "Deux casseroles, un seul écran"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dua panci, satu layar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4426,6 +4660,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nous vous prévenons quand une casserole est prête."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kami akan memberi tahu saat panci sudah siap."
           }
         },
         "it" : {
@@ -4540,6 +4780,12 @@
             "value" : "12 minutes à partir de l’instant où elles entrent dans l’eau"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 menit sejak masuk ke air"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4650,6 +4896,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remuer une fois aussitôt pour qu’ils ne collent pas"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aduk sekali langsung agar tidak lengket"
           }
         },
         "it" : {
@@ -4764,6 +5016,12 @@
             "value" : "Si ça accroche, ajouter une cuillère d’eau"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jika menempel, tambahkan satu sendok air"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4874,6 +5132,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En retard · à faire tout de suite"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terlambat · lakukan sekarang juga"
           }
         },
         "it" : {
@@ -4988,6 +5252,12 @@
             "value" : "Terminée"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah selesai dipakai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5098,6 +5368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand vous avez fini, dites « 다음 » (« suivant » en coréen)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setelah selesai, ucapkan “다음” (bahasa Korea untuk “berikutnya”)"
           }
         },
         "it" : {
@@ -5212,6 +5488,12 @@
             "value" : "Terminé ? Dites « 다음 »"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah selesai? Ucapkan “다음”"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5322,6 +5604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand vous avez fini, dites « 다음 » (« suivant » en coréen)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setelah selesai, ucapkan “다음” (bahasa Korea untuk “berikutnya”)"
           }
         },
         "it" : {
@@ -5436,6 +5724,12 @@
             "value" : "Suivant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berikutnya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5548,6 +5842,12 @@
             "value" : "Ensuite · %@ %@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selanjutnya · %@ %@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5658,6 +5958,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter l’ail haché et le poivre pendant 30 secondes"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan bawang putih cincang dan lada selama 30 detik"
           }
         },
         "it" : {
@@ -5773,6 +6079,12 @@
             "value" : "Mode sombre"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode gelap"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5883,6 +6195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fermer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutup"
           }
         },
         "it" : {
@@ -5998,6 +6316,12 @@
             "value" : "Voyez l’état de chaque casserole même avec un contraste renforcé ou si les couleurs sont difficiles à distinguer."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status tiap panci tetap terlihat, meski kontras ditingkatkan atau sulit membedakan warna."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6109,6 +6433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus de langues"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih banyak bahasa"
           }
         },
         "it" : {
@@ -6223,6 +6553,12 @@
             "value" : "Plus grand"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih besar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6333,6 +6669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aide"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bantuan"
           }
         },
         "it" : {
@@ -6447,6 +6789,12 @@
             "value" : "Avec un couvercle, l’eau bout plus vite"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dengan ditutup, air mendidih lebih cepat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6557,6 +6905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hacher finement 3 gousses d’ail"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cincang halus 3 siung bawang putih"
           }
         },
         "it" : {
@@ -6671,6 +7025,12 @@
             "value" : "6 gousses d’ail en lamelles de 1 à 2 mm"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 siung bawang putih diiris setebal 1–2 mm"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6781,6 +7141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand les bords de l’ail deviennent or pâle"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat tepi bawang putih berwarna keemasan muda"
           }
         },
         "it" : {
@@ -6895,6 +7261,12 @@
             "value" : "Hacher l’ail"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cincang bawang putih"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7005,6 +7377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Émincer l’ail en fines lamelles"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iris tipis bawang putih"
           }
         },
         "it" : {
@@ -7119,6 +7497,12 @@
             "value" : "Quand l’ail embaume"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat aroma bawang putih keluar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7229,6 +7613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Faire revenir l’ail dans l’huile"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tumis bawang putih dengan minyak"
           }
         },
         "it" : {
@@ -7343,6 +7733,12 @@
             "value" : "Ajouter l’ail et le poivre"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan bawang putih dan lada"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7453,6 +7849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’ail brûle vite : remuer sans cesse"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bawang putih cepat gosong, jadi aduk terus"
           }
         },
         "it" : {
@@ -7567,6 +7969,12 @@
             "value" : "C’est plus simple si on le fait avant la finition"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih mudah kalau dikerjakan sebelum penyelesaian"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7677,6 +8085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Désactiver le micro"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matikan mikrofon"
           }
         },
         "it" : {
@@ -7791,6 +8205,12 @@
             "value" : "Activer le micro"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyalakan mikrofon"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7901,6 +8321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Micro activé · À l’écoute"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon aktif · Mendengarkan"
           }
         },
         "it" : {
@@ -8015,6 +8441,12 @@
             "value" : "Micro activé. À l’écoute du mot coréen « 다음 » (« suivant »)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon aktif. Mendengarkan kata Korea “다음” (“berikutnya”)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8125,6 +8557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passer à l’étape suivante à la voix"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjut dengan suara"
           }
         },
         "it" : {
@@ -8239,6 +8677,12 @@
             "value" : "Lisible de loin"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mudah dibaca dari jauh"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8349,6 +8793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nous écrire par e-mail"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hubungi lewat email"
           }
         },
         "it" : {
@@ -8463,6 +8913,12 @@
             "value" : "Ajouter les pâtes et mélanger pour finir"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan pasta, aduk rata sebagai penutup"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8573,6 +9029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuire les pâtes"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rebus pasta"
           }
         },
         "it" : {
@@ -8687,6 +9149,12 @@
             "value" : "Pendant que les pâtes cuisent, la sauce se termine aussi."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat pasta direbus, saus pun ikut selesai."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8797,6 +9265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pendant que les pâtes cuisent, la sauce se termine aussi. Chaque casserole indique ce qu’elle fait et le temps restant."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat pasta direbus, saus pun ikut selesai. Setiap panci menampilkan apa yang sedang dikerjakan dan berapa waktu yang tersisa."
           }
         },
         "it" : {
@@ -8911,6 +9385,12 @@
             "value" : "Casserole des pâtes"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panci pasta"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9021,6 +9501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Égoutter les pâtes en gardant l’eau de cuisson"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angkat pasta dan sisakan air rebusan"
           }
         },
         "it" : {
@@ -9135,6 +9621,12 @@
             "value" : "Ajouter l’eau de cuisson et émulsionner"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambahkan air rebusan dan emulsikan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9245,6 +9737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une demi-tasse d’eau de cuisson, faire sauter vigoureusement pour émulsionner"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setengah cangkir air rebusan, kocok kuat agar teremulsi"
           }
         },
         "it" : {
@@ -9359,6 +9857,12 @@
             "value" : "Verser une demi-tasse d’eau de cuisson et monter le feu"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuang setengah cangkir air rebusan dan besarkan api"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9469,6 +9973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "D’abord, garder une tasse d’eau de cuisson !"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ambil dulu satu cangkir air rebusan!"
           }
         },
         "it" : {
@@ -9583,6 +10093,12 @@
             "value" : "D’abord, garder une tasse d’eau de cuisson !"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ambil dulu satu cangkir air rebusan!"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9693,6 +10209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "D’abord, prélever une tasse (200 ml) d’eau de cuisson"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ambil dulu satu cangkir (200 ml) air rebusan"
           }
         },
         "it" : {
@@ -9807,6 +10329,12 @@
             "value" : "D’abord, prélever une tasse (200 ml) d’eau de cuisson"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ambil dulu satu cangkir (200 ml) air rebusan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9917,6 +10445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajuster la texture avec l’eau de cuisson — elle doit couler lentement"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atur kekentalan dengan air rebusan — harus mengalir pelan"
           }
         },
         "it" : {
@@ -10031,6 +10565,12 @@
             "value" : "Ajuster avec l’eau de cuisson, 1 minute de plus dans la sauce"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atur dengan air rebusan, 1 menit lagi di dalam saus"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10141,6 +10681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les pâtes n’attendent pas, la préparation si"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta tidak menunggu, persiapan bisa menunggu"
           }
         },
         "it" : {
@@ -10255,6 +10801,12 @@
             "value" : "Ne pas trop égoutter : directement dans la poêle, encore humides"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jangan ditiriskan sampai kering — langsung ke wajan selagi basah"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10365,6 +10917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impossible à reporter"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak bisa ditunda"
           }
         },
         "it" : {
@@ -10479,6 +11037,12 @@
             "value" : "Contact"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontak"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10589,6 +11153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 l d’eau, 2 c. à soupe de sel"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 liter air, 2 sdm garam"
           }
         },
         "it" : {
@@ -10703,6 +11273,12 @@
             "value" : "Porter l’eau à ébullition"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Didihkan air"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10813,6 +11389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beaucoup d’eau, salée comme la mer — environ 5 minutes pour bouillir"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Air yang banyak dan garam seperti air laut — sekitar 5 menit sampai mendidih"
           }
         },
         "it" : {
@@ -10927,6 +11509,12 @@
             "value" : "Mettre l’eau sur feu vif"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panaskan air dengan api besar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11037,6 +11625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impossible à reporter"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ini tidak bisa ditunda"
           }
         },
         "it" : {
@@ -11151,6 +11745,12 @@
             "value" : "Quand de grosses bulles montent sans arrêt du fond"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat gelembung besar terus naik dari dasar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11261,6 +11861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez le bouton ou, si vous avez les mains mouillées, dites « 다음 » (« suivant » en coréen). Une notification vous prévient quand une casserole est prête."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk tombol, atau saat tangan basah, ucapkan “다음” (bahasa Korea untuk “berikutnya”). Kamu akan mendapat notifikasi saat panci sudah siap."
           }
         },
         "it" : {
@@ -11376,6 +11982,12 @@
             "value" : "Couleurs et contraste plus confortables"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warna dan kontras yang nyaman"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11487,6 +12099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lisez dans l’app les réponses aux retours que vous nous avez envoyés."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baca balasan atas masukan yang kamu kirim langsung di dalam aplikasi."
           }
         },
         "it" : {
@@ -11602,6 +12220,12 @@
             "value" : "Réponses à vos retours"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balasan atas masukanmu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11714,6 +12338,12 @@
             "value" : "Venez voir"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayo lihat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11821,6 +12451,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Normal"
@@ -11938,6 +12574,12 @@
             "value" : "Environ %@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biasanya %@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12048,6 +12690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 minute de moins que sur le paquet — elles finissent dans la poêle"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 menit lebih singkat dari petunjuk kemasan — dituntaskan di wajan"
           }
         },
         "it" : {
@@ -12162,6 +12810,12 @@
             "value" : "Les étaler en éventail — 8 minutes à partir de l’instant où ils entrent dans l’eau"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebar seperti kipas saat dimasukkan — 8 menit sejak masuk ke air"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12272,6 +12926,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Éteindre le feu, ajouter le persil et le fromage"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matikan api, tambahkan peterseli dan keju"
           }
         },
         "it" : {
@@ -12386,6 +13046,12 @@
             "value" : "Feu doux — si ça bout, la sauce tranche"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Api kecil — kalau mendidih, saus akan pecah"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12496,6 +13162,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Libre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kosong"
           }
         },
         "it" : {
@@ -12610,6 +13282,12 @@
             "value" : "Revoir le mode d’emploi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lihat panduan lagi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12720,6 +13398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La couleur indique l’urgence"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warna menunjukkan tingkat urgensi"
           }
         },
         "it" : {
@@ -12834,6 +13518,12 @@
             "value" : "Quand la couleur fonce et que ça sent la noisette"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat warnanya makin pekat dan aromanya harum"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12944,6 +13634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mesurer à l’avance 200 ml de crème et 2 c. à soupe de concentré de tomate"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Takar dulu 200 ml krim cair dan 2 sdm pasta tomat"
           }
         },
         "it" : {
@@ -13058,6 +13754,12 @@
             "value" : "Verser 200 ml de crème et bien mélanger"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuang 200 ml krim cair dan aduk rata"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13168,6 +13870,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mélanger, baisser le feu et réduire 1 min 30 s"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aduk, kecilkan api, dan biarkan menyusut 1 menit 30 detik"
           }
         },
         "it" : {
@@ -13282,6 +13990,12 @@
             "value" : "Réglages"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13392,6 +14106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beaucoup de sel — environ 5 minutes pour bouillir"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Garam yang banyak — sekitar 5 menit sampai mendidih"
           }
         },
         "it" : {
@@ -13506,6 +14226,12 @@
             "value" : "Garder aussi le sel et le poivre à portée de main"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letakkan garam dan lada juga di tempat yang mudah dijangkau"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13616,6 +14342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est plus simple si on le fait avant de commencer la sauce"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih mudah kalau dikerjakan sebelum mulai membuat saus"
           }
         },
         "it" : {
@@ -13730,6 +14462,12 @@
             "value" : "Quand la sauce enrobe bien les pâtes"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat saus menyelimuti pasta secara merata"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13840,6 +14578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand la sauce devient trouble, nappante et s’accroche aux pâtes"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat saus menjadi keruh, kental, dan menempel pada pasta"
           }
         },
         "it" : {
@@ -13954,6 +14698,12 @@
             "value" : "La sauce se planifie à rebours, à partir du moment où les pâtes sortent"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saus direncanakan mundur dari saat pasta diangkat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14064,6 +14814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poêle de la sauce"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wajan saus"
           }
         },
         "it" : {
@@ -14178,6 +14934,12 @@
             "value" : "Vos mains ont fini — il ne reste qu’à attendre les casseroles"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanganmu sudah selesai — tinggal menunggu panci"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14288,6 +15050,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les mains mouillées ? Dites « 다음 » (« suivant » en coréen). L’app passe à l’étape suivante sans que vous touchiez l’écran."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat tangan basah, coba ucapkan “다음” (bahasa Korea untuk “berikutnya”). Aplikasi akan lanjut ke langkah berikutnya tanpa perlu menyentuh layar."
           }
         },
         "it" : {
@@ -14402,6 +15170,12 @@
             "value" : "180 g de spaghettis (2 personnes), 6 gousses d’ail, 6 c. à soupe d’huile d’olive"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g spageti (2 porsi), 6 siung bawang putih, 6 sdm minyak zaitun"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14512,6 +15286,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plonger 180 g de spaghettis en les étalant en éventail"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan 180 g spageti dengan disebar seperti kipas"
           }
         },
         "it" : {
@@ -14626,6 +15406,12 @@
             "value" : "Vous pouvez commencer à finir"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boleh mulai menyelesaikan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14736,6 +15522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Commencer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai"
           }
         },
         "it" : {
@@ -14850,6 +15642,12 @@
             "value" : "Pour commencer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang pertama dilakukan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14962,6 +15760,12 @@
             "value" : "Reprendre là où vous en étiez"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjutkan dari tempat terakhir"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15072,6 +15876,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez « Commencer à cuisiner » ci-dessous pour lancer les minuteurs des casseroles"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk “Mulai memasak” di bawah, lalu timer panci mulai berjalan"
           }
         },
         "it" : {
@@ -15187,6 +15997,12 @@
             "value" : "Branchez un clavier à l’iPad et passez à l’étape suivante d’une seule touche."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sambungkan keyboard ke iPad dan lanjut ke langkah berikutnya hanya dengan satu tombol."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15297,6 +16113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À peine un frémissement — ne pas faire bouillir"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hanya menggelembung pelan — jangan sampai mendidih"
           }
         },
         "it" : {
@@ -15411,6 +16233,12 @@
             "value" : "À très petit feu, tout doucement"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dengan api sangat kecil, hanya menggelembung pelan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15521,6 +16349,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Très grand"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terbesar"
           }
         },
         "it" : {
@@ -15635,6 +16469,12 @@
             "value" : "Pas encore"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15747,6 +16587,12 @@
             "value" : "Il reste des étapes. Si vous vous arrêtez maintenant, votre progression sera perdue."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masih ada langkah yang tersisa. Jika berhenti sekarang, progres akan hilang."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15857,6 +16703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pâtes aglio e olio"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aglio e olio"
           }
         },
         "it" : {
@@ -15972,6 +16824,12 @@
             "value" : "Vous pourrez aussi utiliser l’app en anglais."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikasi juga bisa dipakai dalam bahasa Inggris."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16082,6 +16940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "environ %lld min · %lld casseroles"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sekitar %lld mnt · %lld panci"
           }
         },
         "it" : {
@@ -16196,6 +17060,12 @@
             "value" : "Feu doux ! Seulement jusqu’à l’or pâle"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Api kecil! Hanya sampai keemasan muda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16306,6 +17176,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À feu doux, en remuant sans cesse"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Api kecil, aduk terus"
           }
         },
         "it" : {
@@ -16420,6 +17296,12 @@
             "value" : "Couper 1/2 oignon en fines lanières"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iris 1/2 bawang bombai menjadi irisan halus"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16532,6 +17414,12 @@
             "value" : "Faire revenir l’oignon"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tumis bawang bombai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16642,6 +17530,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Émincer l’oignon en fines lanières"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iris bawang bombai tipis memanjang"
           }
         },
         "it" : {
@@ -16757,6 +17651,12 @@
             "value" : "Un écran sombre qui n’éblouit pas dans une cuisine peu éclairée."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layar gelap yang tidak menyilaukan di dapur yang remang."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16867,6 +17767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Peut se faire à tout moment"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bisa dilakukan kapan saja"
           }
         },
         "it" : {
@@ -16982,6 +17888,12 @@
             "value" : "À la première ouverture après une mise à jour, découvrez ce qui a changé."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat pertama kali dibuka setelah pembaruan, kamu akan tahu apa yang baru."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17095,6 +18007,12 @@
             "value" : "Nouveautés"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang baru"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17205,6 +18123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il reste largement le temps"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktunya masih longgar"
           }
         },
         "it" : {
@@ -17320,6 +18244,12 @@
             "value" : "Au-delà de l’anglais, l’app sera disponible dans d’autres langues."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selain bahasa Inggris, aplikasi akan tersedia dalam lebih banyak bahasa."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17431,6 +18361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prise en charge de l’anglais"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dukungan bahasa Inggris"
           }
         },
         "it" : {
@@ -17545,6 +18481,12 @@
             "value" : "2 c. à soupe d’huile d’olive avec l’oignon, à feu moyen-doux"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 sdm minyak zaitun dengan bawang bombai, api sedang-kecil"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17655,6 +18597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 c. à soupe d’huile d’olive avec des lamelles d’ail et du piment"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 sdm minyak zaitun dengan irisan bawang putih dan cabai kering"
           }
         },
         "it" : {
@@ -17769,6 +18717,12 @@
             "value" : "Terminé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17879,6 +18833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heure de fin estimée"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perkiraan waktu selesai"
           }
         },
         "it" : {
@@ -17993,6 +18953,12 @@
             "value" : "Terminer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18103,6 +19069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Terminer la recette ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tandai sebagai selesai?"
           }
         },
         "it" : {
@@ -18217,6 +19189,12 @@
             "value" : "C’est prêt 🍴 À table !"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah matang 🍴 Saatnya disajikan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18327,6 +19305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recette"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hidangan"
           }
         },
         "it" : {
@@ -18441,6 +19425,12 @@
             "value" : "Commencer à cuisiner"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai memasak"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18551,6 +19541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvrir une recette"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buka hidangan"
           }
         },
         "it" : {
@@ -18666,6 +19662,12 @@
             "value" : "Si l’app se ferme pendant que vous cuisinez, les minuteurs des casseroles et votre progression sont conservés."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jika aplikasi tertutup saat memasak, timer panci dan progres tetap berlanjut."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18777,6 +19779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réduire les animations"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurangi gerakan"
           }
         },
         "it" : {
@@ -18892,6 +19900,12 @@
             "value" : "Avec « Réduire les animations » activé, les effets à l’écran deviennent plus calmes."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat “Kurangi Gerakan” aktif, efek layar menjadi lebih tenang."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18999,6 +20013,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -19116,6 +20136,12 @@
             "value" : "Pause"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19227,6 +20253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lancez vos recettes préférées directement depuis l’écran d’accueil."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai hidangan yang sering kamu masak langsung dari Layar Utama."
           }
         },
         "it" : {
@@ -19341,6 +20373,12 @@
             "value" : "Fin — rien ne presse"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Halus — tidak perlu terburu-buru"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19451,6 +20489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reprendre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjutkan"
           }
         },
         "it" : {
@@ -19565,6 +20609,12 @@
             "value" : "Sortir les ingrédients et poser la poêle"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siapkan bahan dan taruh wajan di atas kompor"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19675,6 +20725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rassembler les ingrédients au même endroit"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kumpulkan bahan di satu tempat"
           }
         },
         "it" : {
@@ -19789,6 +20845,12 @@
             "value" : "En garder la moitié pour la finition"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sisakan setengahnya untuk sentuhan akhir"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19899,6 +20961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réchauffer les assiettes et préparer le service"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hangatkan piring dan siap-siap menyajikan"
           }
         },
         "it" : {
@@ -20013,6 +21081,12 @@
             "value" : "Réchauffer les assiettes à l’eau chaude, puis les essuyer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hangatkan piring dengan air panas lalu lap hingga kering"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20123,6 +21197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réchauffer les assiettes à l’eau chaude"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hangatkan piring dengan air panas"
           }
         },
         "it" : {
@@ -20237,6 +21317,12 @@
             "value" : "Arrêter la cuisson et quitter"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hentikan memasak dan keluar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20347,6 +21433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvre l’écran de cuisson"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membuka layar memasak"
           }
         },
         "it" : {
@@ -20461,6 +21553,12 @@
             "value" : "Si vous posez l’appareil sur le plan de travail, vous pouvez agrandir encore le texte ici."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jika perangkat disandarkan di meja dapur, kamu bisa memperbesar teks lebih jauh di sini."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20571,6 +21669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arrêter la cuisson et quitter ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hentikan memasak dan keluar?"
           }
         },
         "it" : {
@@ -20685,6 +21789,12 @@
             "value" : "Quand la spatule laisse une trace qui reste un instant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat spatula meninggalkan bekas yang bertahan sebentar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20795,6 +21905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arrêter et quitter"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hentikan dan keluar"
           }
         },
         "it" : {
@@ -20909,6 +22025,12 @@
             "value" : "À feu moyen-doux jusqu’à ce qu’il soit tendre"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Api sedang-kecil sampai lembut"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21019,6 +22141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maintenant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sekarang"
           }
         },
         "it" : {
@@ -21133,6 +22261,12 @@
             "value" : "Maintenant · impossible à reporter"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sekarang · tidak bisa ditunda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21243,6 +22377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À faire maintenant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lakukan sekarang"
           }
         },
         "it" : {
@@ -21357,6 +22497,12 @@
             "value" : "À faire maintenant · pas de précipitation"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lakukan sekarang · santai saja"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21467,6 +22613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assistance"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dukungan"
           }
         },
         "it" : {
@@ -21581,6 +22733,12 @@
             "value" : "Temps écoulé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu berlalu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21691,6 +22849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Source · %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sumber · %@"
           }
         },
         "it" : {
@@ -21805,6 +22969,12 @@
             "value" : "Prenez votre temps"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Santai saja"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21915,6 +23085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le plus fin possible — rien ne presse"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setipis mungkin — tidak perlu terburu-buru"
           }
         },
         "it" : {
@@ -22029,6 +23205,12 @@
             "value" : "Râper le fromage et mesurer les ingrédients de la sauce"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parut keju dan takar bahan saus"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22139,6 +23321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Râper le fromage et réchauffer les assiettes"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parut keju dan hangatkan piring"
           }
         },
         "it" : {
@@ -22253,6 +23441,12 @@
             "value" : "Couteau à plat, bien fin — trop épais, l’ail reste cru à l’intérieur et brûle dehors"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rebahkan pisau dan iris tipis — kalau tebal, bagian dalamnya mentah sementara luarnya gosong"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22363,6 +23557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grand"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besar"
           }
         },
         "it" : {
@@ -22477,6 +23677,12 @@
             "value" : "Laisser mijoter la crème"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Didihkan krim dengan api kecil"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22587,6 +23793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verser la crème et baisser le feu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuang krim dan kecilkan api"
           }
         },
         "it" : {
@@ -22702,6 +23914,12 @@
             "value" : "Écrans adaptés au grand texte"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layar untuk teks besar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22812,6 +24030,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand de grosses bulles montent sans arrêt"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat gelembung besar terus naik"
           }
         },
         "it" : {
@@ -22927,6 +24151,12 @@
             "value" : "Commande au clavier"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrol dengan keyboard"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23037,6 +24267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il brûle facilement — passer tout de suite à la suite"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mudah gosong — langsung lanjut ke langkah berikutnya"
           }
         },
         "it" : {
@@ -23151,6 +24387,12 @@
             "value" : "Les minuteurs seront réinitialisés et votre progression sera perdue."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer akan diatur ulang dan progres akan hilang."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23261,6 +24503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chronologie · les barres en pointillés peuvent attendre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lini masa · batang putus-putus bisa ditunda"
           }
         },
         "it" : {
@@ -23375,6 +24623,12 @@
             "value" : "Le terracotta signale ce qui, si on le repousse, fait trop cuire les pâtes ou brûler la sauce. Le vert, c’est la préparation : prenez votre temps quand vos mains sont libres."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terakota berarti kalau ditunda, pasta jadi terlalu lunak atau gosong. Hijau adalah persiapan, jadi kerjakan dengan santai saat tanganmu bebas."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23485,6 +24739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pâtes crémeuses à la tomate"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta saus krim tomat"
           }
         },
         "it" : {
@@ -23599,6 +24859,12 @@
             "value" : "2 c. à soupe de concentré de tomate, 200 ml de crème"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 sdm pasta tomat, 200 ml krim cair"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23709,6 +24975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Étaler 2 c. à soupe de concentré de tomate sur le fond de la poêle"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ratakan 2 sdm pasta tomat di dasar wajan"
           }
         },
         "it" : {
@@ -23823,6 +25095,12 @@
             "value" : "Faire revenir le concentré de tomate"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tumis pasta tomat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23933,6 +25211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand il est translucide et doré sur les bords"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat bening dan tepinya keemasan"
           }
         },
         "it" : {
@@ -24047,6 +25331,12 @@
             "value" : "Râper 30 g de parmesan"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parut 30 g parmigiano"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24157,6 +25447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 g de parmesan, 2 c. à soupe d’huile d’olive"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g parmigiano, 2 sdm minyak zaitun"
           }
         },
         "it" : {
@@ -24271,6 +25567,12 @@
             "value" : "Râper finement 30 g de parmesan"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parut halus 30 g parmigiano"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24381,6 +25683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g de pâtes — cuire 1 minute de moins que sur le paquet"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g pasta — rebus 1 menit lebih singkat dari petunjuk kemasan"
           }
         },
         "it" : {
@@ -24495,6 +25803,12 @@
             "value" : "180 g de pâtes (2 personnes), 1/2 oignon, 3 gousses d’ail"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g pasta (2 porsi), 1/2 bawang bombai, 3 siung bawang putih"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24605,6 +25919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Garder aussi un peu de persil pour la finition"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sisakan sedikit peterseli untuk sentuhan akhir"
           }
         },
         "it" : {
@@ -24719,6 +26039,12 @@
             "value" : "Hacher grossièrement seulement les feuilles de persil"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cincang kasar hanya daun peterseli"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24829,6 +26155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une poêle assez large pour toutes les pâtes"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wajan yang cukup lebar untuk semua pasta"
           }
         },
         "it" : {
@@ -24943,6 +26275,12 @@
             "value" : "Secouer la poêle 30 secondes — pour que l’huile et l’eau se lient"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goyangkan wajan 30 detik — agar minyak dan air menyatu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25053,6 +26391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 à 3 piments, un peu de persil, 30 g de parmesan"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 cabai kering, sedikit peterseli, 30 g parmigiano"
           }
         },
         "it" : {
@@ -25167,6 +26511,12 @@
             "value" : "Couper 2 à 3 piments en deux et enlever les graines"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belah dua 2–3 cabai kering dan buang bijinya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25279,6 +26629,12 @@
             "value" : "Hacher le piment et le persil"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cincang cabai dan peterseli"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25389,6 +26745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est assez fin quand les lamelles sont translucides"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah cukup tipis kalau irisannya tembus pandang"
           }
         },
         "it" : {
@@ -25504,6 +26866,12 @@
             "value" : "Écran d’iPhone pliable"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layar untuk iPhone lipat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25617,6 +26985,12 @@
             "value" : "Sur le grand écran d’un iPhone pliable, voyez les casseroles et les tâches côte à côte."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di layar lebar iPhone lipat, lihat panci dan tugas berdampingan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25727,6 +27101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rassembler le nécessaire au même endroit"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kumpulkan semua yang dibutuhkan di satu tempat"
           }
         },
         "it" : {
@@ -25842,6 +27222,12 @@
             "value" : "Reprendre une recette en cours"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjutkan hidangan yang tertunda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25952,6 +27338,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Déjà commencé · %@ %@ — terminez ceci d’abord, puis reprenez"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang sedang dikerjakan · %@ %@ — selesaikan ini dulu, lalu lanjutkan"
           }
         },
         "it" : {
@@ -26066,6 +27458,12 @@
             "value" : "Le faire revenir une fois pour enlever l’acidité"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tumis sekali untuk menghilangkan rasa asam"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26176,6 +27574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une fois revenu, il perd son acidité"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setelah ditumis sekali, rasa asamnya hilang"
           }
         },
         "it" : {
@@ -26289,6 +27693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Widgets de l’écran d’accueil"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget Layar Utama"
           }
         },
         "it" : {
