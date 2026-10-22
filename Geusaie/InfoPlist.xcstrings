@@ -15,6 +15,12 @@
             "value" : "Geusaie"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -61,6 +67,12 @@
             "value" : "Uses the microphone so you can say “다음” (Korean for “next”) to move to the next step while you cook."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa el micrófono para que, mientras cocinas, puedas pasar al siguiente paso diciendo la palabra coreana «다음» («siguiente»)."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -105,6 +117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uses speech recognition only to catch the Korean word “다음” (“next”). Processed on your device whenever possible."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa el reconocimiento de voz solo para entender la palabra coreana «다음» («siguiente»). Siempre que es posible, se procesa en el dispositivo."
           }
         },
         "ja" : {

@@ -449,3 +449,67 @@ https://m1zz.github.io/geusaie/ru/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/ru/
+
+## es
+
+### 이름
+
+Geusaie: temporizador de pasta
+
+### 부제
+
+Dos ollas sin perder el hilo
+
+### 키워드
+
+cocina,recetas,pasos,cronómetro,carbonara,espagueti,cena,salsa,hervir,voz,alarma,aglio,olio
+
+### 프로모션 텍스트
+
+Agua al fuego, ajo cortado, pasta dentro, salsa en la sartén. Una tarea a la vez en letra grande, cuenta atrás para cada olla y control por voz con las manos mojadas.
+
+### 설명
+
+Dos ollas a la vez sin perder el hilo. Geusaie es un temporizador de cocina que organiza el orden y los tiempos para que la salsa esté lista mientras la pasta hierve.
+Muestra en letra grande solo la tarea que toca ahora y cuenta el tiempo de cada olla por separado.
+
+Cocinar es difícil no porque tus manos sean lentas, sino porque el tiempo no corre en una sola línea. La pasta no espera, pero cortar el ajo se puede hacer en cualquier momento. Geusaie conoce esa diferencia y ordena los pasos teniéndola en cuenta.
+
+Solo una tarea a la vez
+Arriba de la pantalla aparece en letra grande la única tarea que tus manos deben hacer ahora. Un color te dice de un vistazo si se puede aplazar o no. Allí mismo se explica cómo hacerla y cómo saber que está lista.
+
+Una cuenta atrás por olla
+La olla de la pasta y la sartén de la salsa muestran cada una su tiempo restante. Ves enseguida si el agua se está calentando, la pasta está hirviendo o estás pendiente de la sartén.
+
+Si vas tarde, lo demás se desplaza contigo
+Sin horarios rígidos. Si enciendes el fuego un poco tarde, los pasos siguientes se desplazan, y la salsa se planifica para empezar justo cuando sale la pasta.
+
+Toda la cronología de un vistazo
+Mira cuándo coinciden tus manos, la olla de la pasta y la sartén de la salsa. Las tareas con línea de puntos se pueden hacer cuando tengas las manos libres.
+
+Con la voz, sin tocar la pantalla
+Activa el micrófono y di la palabra coreana para «siguiente» (da-eum) para avanzar. Por ahora el reconocimiento de voz solo entiende coreano. Mientras el micrófono está activo se muestra siempre en pantalla y se apaga al salir de la pantalla de cocina.
+
+Texto que se lee desde lejos
+Apoya el dispositivo en la encimera y échate atrás un par de pasos. El texto se puede agrandar en cuatro niveles.
+
+Sin perder ninguna olla
+Cuando una olla está lista, recibes una notificación junto con la siguiente tarea, incluso si estás en otra app.
+
+Recetas incluidas
+Aglio e olio
+Pasta cremosa de tomate
+
+Funciona en iPhone y iPad. No necesitas cuenta para empezar.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/es/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/es/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/es/
