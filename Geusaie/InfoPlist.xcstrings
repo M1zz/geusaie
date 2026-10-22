@@ -27,6 +27,12 @@
             "value" : "Geusaie"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -85,6 +91,12 @@
             "value" : "Usa el micrófono para que, mientras cocinas, puedas pasar al siguiente paso diciendo la palabra coreana «다음» («siguiente»)."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilise le micro pour que vous puissiez passer à l’étape suivante en disant le mot coréen « 다음 » (« suivant ») pendant que vous cuisinez."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -141,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa el reconocimiento de voz solo para entender la palabra coreana «다음» («siguiente»). Siempre que es posible, se procesa en el dispositivo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilise la reconnaissance vocale uniquement pour repérer le mot coréen « 다음 » (« suivant »). Le traitement se fait sur l’appareil dans la mesure du possible."
           }
         },
         "ja" : {

@@ -210,6 +210,7 @@
 				ru,
 				es,
 				de,
+				fr,
 				Base,
 			);
 			mainGroup = C00000000000000000000001;

@@ -577,3 +577,67 @@ https://m1zz.github.io/geusaie/de/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/de/
+
+## fr
+
+### 이름
+
+Geusaie : minuteur de pâtes
+
+### 부제
+
+Deux casseroles sous contrôle
+
+### 키워드
+
+cuisine,recettes,étapes,chrono,carbonara,spaghetti,dîner,sauce,ébullition,voix,alarme,aglio,olio
+
+### 프로모션 텍스트
+
+Eau sur le feu, ail coupé, pâtes plongées, sauce prête. Une tâche à la fois en gros, un compte à rebours par casserole, et la voix si vos mains sont mouillées.
+
+### 설명
+
+Deux casseroles en même temps, sans rien oublier. Geusaie est un minuteur de cuisine qui organise l’ordre et le timing pour que la sauce soit prête pendant que les pâtes cuisent.
+Il n’affiche en gros que la seule tâche à faire maintenant et décompte le temps de chaque casserole séparément.
+
+Cuisiner est difficile, non parce que vos mains sont lentes, mais parce que le temps ne s’écoule pas sur une seule ligne. Les pâtes n’attendent personne, alors que couper l’ail peut se faire n’importe quand. Geusaie connaît cette différence et organise les étapes en conséquence.
+
+Une seule tâche à la fois
+En haut de l’écran, la seule tâche que vos mains doivent faire maintenant s’affiche en gros. Une couleur indique d’un coup d’œil si elle peut attendre ou non. La façon de faire et le signe que c’est prêt sont écrits juste en dessous.
+
+Un compte à rebours par casserole
+La casserole des pâtes et la poêle de la sauce affichent chacune leur temps restant. On voit tout de suite si l’eau chauffe, si les pâtes cuisent ou si vous êtes accaparé par la poêle.
+
+En cas de retard, la suite suit
+Aucun planning rigide. Si vous allumez le feu un peu tard, les étapes suivantes se décalent avec vous, et la sauce est planifiée pour démarrer juste au moment où les pâtes sortent.
+
+Toute la chronologie d’un coup d’œil
+Voyez quand vos mains, la casserole des pâtes et la poêle de la sauce se chevauchent. Les tâches en pointillés peuvent se faire quand vos mains sont libres.
+
+À la voix quand vos mains sont mouillées
+Activez le micro et dites le mot coréen pour « suivant » (da-eum) pour passer à l’étape suivante. La reconnaissance vocale ne comprend pour l’instant que le coréen. Tant que le micro est actif, il est toujours signalé à l’écran, et il s’éteint quand vous quittez l’écran de cuisson.
+
+Un texte lisible de loin
+Posez l’appareil sur le plan de travail et reculez d’un pas ou deux. Le texte peut être agrandi en quatre niveaux.
+
+Aucune casserole oubliée
+Quand une casserole est prête, une notification vous l’annonce avec la tâche suivante, même si vous êtes dans une autre app.
+
+Recettes incluses
+Pâtes aglio e olio
+Pâtes crémeuses à la tomate
+
+Fonctionne sur iPhone et iPad. Aucun compte requis pour commencer.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/fr/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/fr/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/fr/
