@@ -63,6 +63,12 @@
             "value" : "Реагирует только на корейское слово «다음» («далее»), звук не сохраняется"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฟังเฉพาะคำภาษาเกาหลี “다음” (“ถัดไป”) และไม่บันทึกเสียงไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -137,6 +143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — делайте сейчас"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — ทำเลยตอนนี้"
           }
         },
         "zh-Hans" : {
@@ -215,6 +227,12 @@
             "value" : "Таймер сработал: %@ %@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมดเวลา: %@ %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -289,6 +307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, осталось %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ เหลือ %@"
           }
         },
         "zh-Hans" : {
@@ -367,6 +391,12 @@
             "value" : "%@, нельзя откладывать"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ เลื่อนไม่ได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -441,6 +471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, около %lld мин, кастрюль: %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ประมาณ %lld นาที %lld หม้อ"
           }
         },
         "zh-Hans" : {
@@ -519,6 +555,12 @@
             "value" : "%lld мин"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld นาที"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -593,6 +635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld мин %lld сек"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld นาที %lld วินาที"
           }
         },
         "zh-Hans" : {
@@ -671,6 +719,12 @@
             "value" : "%lld сек"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld วินาที"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -745,6 +799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На 1 минуту меньше — доходит в соусе"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้มน้อยลง 1 นาที — ไปสุกต่อในซอส"
           }
         },
         "zh-Hans" : {
@@ -824,6 +884,12 @@
             "value" : "VoiceOver зачитывает время каждой кастрюли и все дела без пропусков и в нужном порядке."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver อ่านเวลาของทุกหม้อและงานที่ต้องทำให้ครบถ้วนตามลำดับที่เหมาะสม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -899,6 +965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver — удобнее"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ VoiceOver ได้สะดวกขึ้น"
           }
         },
         "zh-Hans" : {
@@ -977,6 +1049,12 @@
             "value" : "Вода закипает"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังต้มน้ำ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1051,6 +1129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Паста варится"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังต้มเส้น"
           }
         },
         "zh-Hans" : {
@@ -1129,6 +1213,12 @@
             "value" : "Вода закипает"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังต้มน้ำ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1203,6 +1293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Паста варится"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังต้มเส้น"
           }
         },
         "zh-Hans" : {
@@ -1281,6 +1377,12 @@
             "value" : "Сливки томятся"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังเคี่ยวครีม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1355,6 +1457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подрумяненный чеснок горчит — как только темнеет, снимайте с огня"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระเทียมสีน้ำตาลจะขม — พอสีเริ่มเข้มให้ยกออกจากไฟ"
           }
         },
         "zh-Hans" : {
@@ -1433,6 +1541,12 @@
             "value" : "Почти готово"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใกล้เสร็จแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1507,6 +1621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пропустить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้าม"
           }
         },
         "zh-Hans" : {
@@ -1585,6 +1705,12 @@
             "value" : "Положите вынутую пасту в соус на 1 минуту"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่เส้นที่ตักไว้ลงในซอส 1 นาที"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1659,6 +1785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если резать поперёк волокон, лук быстрее станет мягким"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หั่นขวางเสี้ยนจะนุ่มเร็วกว่า"
           }
         },
         "zh-Hans" : {
@@ -1737,6 +1869,12 @@
             "value" : "Продолжить готовку"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำอาหารต่อ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1811,6 +1949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открывает экран приготовления выбранного блюда. Таймеры запускаются после нажатия кнопки «Начать»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดหน้าจอทำอาหารของเมนูที่เลือก ตัวจับเวลาจะเริ่มเมื่อแตะเริ่ม"
           }
         },
         "zh-Hans" : {
@@ -1889,6 +2033,12 @@
             "value" : "Мелко порубить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สับให้ละเอียด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1960,6 +2110,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -2041,6 +2197,12 @@
             "value" : "Размер текста"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขนาดตัวอักษร"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2116,6 +2278,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если увеличить размер текста на устройстве, список рецептов и экраны перестроятся и не будут обрезаться."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แม้ขยายขนาดตัวอักษรของเครื่อง รายการสูตรและหน้าจอจะจัดวางใหม่โดยไม่ถูกตัด"
           }
         },
         "zh-Hans" : {
@@ -2194,6 +2362,12 @@
             "value" : "Выключить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2268,6 +2442,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока вода закипает, займитесь подготовкой"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระหว่างรอน้ำเดือด ให้ทำงานเตรียม"
           }
         },
         "zh-Hans" : {
@@ -2346,6 +2526,12 @@
             "value" : "Пока вода закипает, подготовьте лук и чеснок"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระหว่างรอน้ำเดือด เตรียมหัวหอมและกระเทียม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2420,6 +2606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда закипит, опускайте пасту"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อน้ำเดือด ใส่เส้น"
           }
         },
         "zh-Hans" : {
@@ -2498,6 +2690,12 @@
             "value" : "Не доводите до кипения"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ห้ามให้เดือดพล่าน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2572,6 +2770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скажите, когда закончите"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บอกด้วยเมื่อทำเสร็จ"
           }
         },
         "zh-Hans" : {
@@ -2650,6 +2854,12 @@
             "value" : "Выполнено"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2724,6 +2934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оставшийся сыр и перец поставьте рядом"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วางชีสและพริกไทยที่เหลือไว้ข้าง ๆ"
           }
         },
         "zh-Hans" : {
@@ -2802,6 +3018,12 @@
             "value" : "Мои руки"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มือของฉัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2876,6 +3098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вы за делом"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังทำอยู่"
           }
         },
         "zh-Hans" : {
@@ -2954,6 +3182,12 @@
             "value" : "Две кастрюли на одном экране"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สองหม้อ ในหน้าจอเดียว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3028,6 +3262,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мы сообщим, когда кастрюля будет готова."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เราจะแจ้งเมื่อหม้อเสร็จ"
           }
         },
         "zh-Hans" : {
@@ -3106,6 +3346,12 @@
             "value" : "12 минут с момента закладки"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 นาทีนับจากตอนใส่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3180,6 +3426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сразу перемешайте один раз, чтобы не слиплась"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คนหนึ่งครั้งทันที เพื่อไม่ให้เส้นติดกัน"
           }
         },
         "zh-Hans" : {
@@ -3258,6 +3510,12 @@
             "value" : "Если пристаёт, добавьте ложку воды"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าติดกระทะ ใส่น้ำ 1 ช้อน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3332,6 +3590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Опаздываете · делайте прямо сейчас"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช้าแล้ว · ทำเดี๋ยวนี้"
           }
         },
         "zh-Hans" : {
@@ -3410,6 +3674,12 @@
             "value" : "Отработала своё"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้เสร็จแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3484,6 +3754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закончив, скажите «다음» (по-корейски «далее»)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อทำเสร็จ ให้พูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”)"
           }
         },
         "zh-Hans" : {
@@ -3562,6 +3838,12 @@
             "value" : "Закончили? Скажите «다음»"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จแล้ว? พูดว่า “다음”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3636,6 +3918,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закончив, скажите «다음» (по-корейски «далее»)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อทำเสร็จ ให้พูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”)"
           }
         },
         "zh-Hans" : {
@@ -3714,6 +4002,12 @@
             "value" : "Далее"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถัดไป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3790,6 +4084,12 @@
             "value" : "Дальше · %@ %@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถัดไป · %@ %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3864,6 +4164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавьте рубленый чеснок и перец на 30 секунд"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่กระเทียมสับและพริกไทย ผัด 30 วินาที"
           }
         },
         "zh-Hans" : {
@@ -3943,6 +4249,12 @@
             "value" : "Тёмная тема"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหมดมืด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4017,6 +4329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрыть"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
           }
         },
         "zh-Hans" : {
@@ -4096,6 +4414,12 @@
             "value" : "Состояние каждой кастрюли понятно, даже если включён повышенный контраст или трудно различать цвета."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูสถานะของแต่ละหม้อได้ แม้เปิดเพิ่มคอนทราสต์หรือแยกสีได้ยาก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4171,6 +4495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Больше языков"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาเพิ่มเติม"
           }
         },
         "zh-Hans" : {
@@ -4249,6 +4579,12 @@
             "value" : "Крупнее"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใหญ่ขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4323,6 +4659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Справка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิธีใช้"
           }
         },
         "zh-Hans" : {
@@ -4401,6 +4743,12 @@
             "value" : "Под крышкой закипит быстрее"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิดฝาจะเดือดเร็วขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4475,6 +4823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 зубчика чеснока мелко порубить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สับกระเทียม 3 กลีบให้ละเอียด"
           }
         },
         "zh-Hans" : {
@@ -4553,6 +4907,12 @@
             "value" : "6 зубчиков чеснока — толщиной 1–2 мм"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระเทียม 6 กลีบ หั่นหนา 1–2 มม."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4627,6 +4987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда края чеснока станут светло-золотистыми"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อขอบกระเทียมเป็นสีทองอ่อน"
           }
         },
         "zh-Hans" : {
@@ -4705,6 +5071,12 @@
             "value" : "Измельчите чеснок"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สับกระเทียม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4779,6 +5151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нарежьте чеснок тонкими пластинками"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หั่นกระเทียมเป็นแว่นบาง ๆ"
           }
         },
         "zh-Hans" : {
@@ -4857,6 +5235,12 @@
             "value" : "Когда появится запах чеснока"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อได้กลิ่นกระเทียมหอม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4931,6 +5315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обжарьте чеснок в масле"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผัดกระเทียมกับน้ำมัน"
           }
         },
         "zh-Hans" : {
@@ -5009,6 +5399,12 @@
             "value" : "Добавьте чеснок и перец"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่กระเทียมและพริกไทย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5083,6 +5479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Чеснок быстро подгорает, поэтому всё время помешивайте"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระเทียมไหม้ง่าย ให้คนตลอด"
           }
         },
         "zh-Hans" : {
@@ -5161,6 +5563,12 @@
             "value" : "Если сделать это заранее, потом будет проще"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าทำก่อนขั้นตอนสุดท้ายจะสบายกว่า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5235,6 +5643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выключить микрофон"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิดไมโครโฟน"
           }
         },
         "zh-Hans" : {
@@ -5313,6 +5727,12 @@
             "value" : "Включить микрофон"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดไมโครโฟน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5387,6 +5807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Микрофон включён · Слушаю"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดไมโครโฟน · กำลังฟัง"
           }
         },
         "zh-Hans" : {
@@ -5465,6 +5891,12 @@
             "value" : "Микрофон включён. Слушаю корейское слово «다음» («далее»)"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดไมโครโฟนอยู่ กำลังฟังคำภาษาเกาหลี “다음” (“ถัดไป”)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5539,6 +5971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Голосовое управление"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไปต่อด้วยเสียง"
           }
         },
         "zh-Hans" : {
@@ -5617,6 +6055,12 @@
             "value" : "Хорошо видно издалека"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เห็นชัดแม้ยืนห่าง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5691,6 +6135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Написать на почту"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดต่อทางอีเมล"
           }
         },
         "zh-Hans" : {
@@ -5769,6 +6219,12 @@
             "value" : "Добавьте пасту и перемешайте для завершения"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่เส้นแล้วคลุกให้เข้ากันเพื่อจบ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5843,6 +6299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Варите пасту"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้มเส้น"
           }
         },
         "zh-Hans" : {
@@ -5921,6 +6383,12 @@
             "value" : "Пока варится паста, готов и соус."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระหว่างที่เส้นพาสต้ากำลังต้ม ซอสก็เสร็จไปด้วย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5995,6 +6463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока варится паста, готов и соус. Для каждой кастрюли отдельно видно, что в ней происходит и сколько осталось времени."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระหว่างที่เส้นพาสต้ากำลังต้ม ซอสก็เสร็จไปด้วย แต่ละหม้อจะแสดงว่ากำลังทำอะไรและเหลือเวลาเท่าไร"
           }
         },
         "zh-Hans" : {
@@ -6073,6 +6547,12 @@
             "value" : "Кастрюля для пасты"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หม้อต้มเส้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6147,6 +6627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Достаньте пасту, оставив воду от варки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตักเส้นขึ้น แล้วเก็บน้ำต้มเส้นไว้"
           }
         },
         "zh-Hans" : {
@@ -6225,6 +6711,12 @@
             "value" : "Добавьте воду от варки и сделайте эмульсию"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่น้ำต้มเส้นแล้วเคล้าให้เข้ากัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6299,6 +6791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Полстакана воды от варки, энергично встряхивайте для эмульсии"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "น้ำต้มเส้นครึ่งถ้วย เขย่ากระทะแรง ๆ ให้เข้ากัน"
           }
         },
         "zh-Hans" : {
@@ -6377,6 +6875,12 @@
             "value" : "Влейте полстакана воды от варки и сделайте огонь сильным"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เทน้ำต้มเส้นครึ่งถ้วย แล้วเร่งไฟแรง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6451,6 +6955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сначала отлейте стакан воды от варки!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตักน้ำต้มเส้นไว้ 1 ถ้วยก่อน!"
           }
         },
         "zh-Hans" : {
@@ -6529,6 +7039,12 @@
             "value" : "Сначала отлейте стакан воды от варки!"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตักน้ำต้มเส้นไว้ 1 ถ้วยก่อน!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6603,6 +7119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сначала зачерпните стакан (200 мл) воды от варки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตักน้ำต้มเส้นไว้ 1 ถ้วย (200 มล.) ก่อน"
           }
         },
         "zh-Hans" : {
@@ -6681,6 +7203,12 @@
             "value" : "Сначала зачерпните стакан (200 мл) воды от варки"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตักน้ำต้มเส้นไว้ 1 ถ้วย (200 มล.) ก่อน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6755,6 +7283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отрегулируйте густоту водой от варки — чтобы медленно стекал"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปรับความข้นด้วยน้ำต้มเส้น — ให้ไหลช้า ๆ"
           }
         },
         "zh-Hans" : {
@@ -6833,6 +7367,12 @@
             "value" : "Подправьте густоту водой от варки, ещё 1 минута в соусе"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปรับความข้นด้วยน้ำต้มเส้น แล้วอยู่ในซอสต่ออีก 1 นาที"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6907,6 +7447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Паста ждать не станет, а подготовка подождёт"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เส้นไม่รอเรา แต่งานเตรียมรอได้"
           }
         },
         "zh-Hans" : {
@@ -6985,6 +7531,12 @@
             "value" : "Не стряхивайте воду — сразу на сковороду, влажной"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อย่าสะบัดน้ำออกจนแห้ง ปล่อยให้เปียกแล้วลงกระทะทันที"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7059,6 +7611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нельзя откладывать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลื่อนไม่ได้"
           }
         },
         "zh-Hans" : {
@@ -7137,6 +7695,12 @@
             "value" : "Связь с нами"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดต่อเรา"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7211,6 +7775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 л воды, 2 ст. л. соли"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "น้ำ 2 ลิตร เกลือ 2 ช้อนโต๊ะ"
           }
         },
         "zh-Hans" : {
@@ -7289,6 +7859,12 @@
             "value" : "Доведите воду до кипения"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้มน้ำให้เดือด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7363,6 +7939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Воды побольше, соли — как в морской воде; кипит минут 5"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "น้ำเยอะ ๆ เกลือให้เค็มเหมือนน้ำทะเล — ใช้เวลาต้มประมาณ 5 นาที"
           }
         },
         "zh-Hans" : {
@@ -7441,6 +8023,12 @@
             "value" : "Поставьте воду и включите сильный огонь"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งน้ำบนไฟแรง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7515,6 +8103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это нельзя откладывать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งนี้เลื่อนไม่ได้"
           }
         },
         "zh-Hans" : {
@@ -7593,6 +8187,12 @@
             "value" : "Когда со дна постоянно поднимаются крупные пузыри"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อฟองใหญ่ลอยขึ้นจากก้นหม้อไม่หยุด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7667,6 +8267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нажмите кнопку или, если руки мокрые, скажите «다음» (по-корейски «далее»). Когда кастрюля будет готова, придёт уведомление."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะปุ่ม หรือถ้ามือเปียกให้พูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”) เมื่อหม้อเสร็จ จะมีการแจ้งเตือนบอก"
           }
         },
         "zh-Hans" : {
@@ -7746,6 +8352,12 @@
             "value" : "Удобные цвета и контраст"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีและคอนทราสต์ที่ดูสบาย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7821,6 +8433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ответы на присланные вами отзывы можно будет прочитать прямо в приложении."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อ่านคำตอบต่อความคิดเห็นที่คุณส่งมาได้ในแอป"
           }
         },
         "zh-Hans" : {
@@ -7900,6 +8518,12 @@
             "value" : "Ответы на ваши отзывы"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำตอบถึงความคิดเห็นที่ส่งมา"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7974,6 +8598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подойдите, посмотрите"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มาดูหน่อย"
           }
         },
         "zh-Hans" : {
@@ -8052,6 +8682,12 @@
             "value" : "Обычный"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปกติ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8126,6 +8762,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обычно %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปกติใช้เวลา %@"
           }
         },
         "zh-Hans" : {
@@ -8204,6 +8846,12 @@
             "value" : "На 1 минуту меньше, чем написано на пачке, — доходит она на сковороде"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้มน้อยกว่าที่ระบุบนซอง 1 นาที — ไปทำให้สุกต่อในกระทะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8278,6 +8926,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Опускайте веером — варить 8 минут с момента закладки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แผ่เป็นพัดแล้วใส่ — ต้ม 8 นาทีนับจากตอนใส่"
           }
         },
         "zh-Hans" : {
@@ -8356,6 +9010,12 @@
             "value" : "Выключите огонь, добавьте петрушку и сыр"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิดไฟ ใส่พาร์สลีย์และชีส"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8430,6 +9090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Огонь слабый — при кипении соус расслоится"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไฟอ่อน — ถ้าเดือดซอสจะแตกมัน"
           }
         },
         "zh-Hans" : {
@@ -8508,6 +9174,12 @@
             "value" : "Свободно"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ว่าง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8582,6 +9254,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Посмотреть инструкцию ещё раз"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูวิธีใช้อีกครั้ง"
           }
         },
         "zh-Hans" : {
@@ -8660,6 +9338,12 @@
             "value" : "Цвет показывает срочность"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีบอกความเร่งด่วน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8734,6 +9418,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда цвет станет насыщеннее и появится ореховый аромат"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อสีเข้มขึ้นและมีกลิ่นหอมคั่ว"
           }
         },
         "zh-Hans" : {
@@ -8812,6 +9502,12 @@
             "value" : "Заранее отмерьте 200 мл сливок и 2 ст. л. томатной пасты"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตวงวิปปิ้งครีม 200 มล. และซอสมะเขือเทศเข้มข้น 2 ช้อนโต๊ะไว้ล่วงหน้า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8886,6 +9582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Влейте 200 мл сливок и равномерно перемешайте"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เทวิปปิ้งครีม 200 มล. แล้วคนให้เข้ากัน"
           }
         },
         "zh-Hans" : {
@@ -8964,6 +9666,12 @@
             "value" : "Перемешайте, убавьте огонь и уваривайте 1 мин 30 сек"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คนให้เข้ากัน ลดไฟ แล้วเคี่ยว 1 นาที 30 วินาที"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9038,6 +9746,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตั้งค่า"
           }
         },
         "zh-Hans" : {
@@ -9116,6 +9830,12 @@
             "value" : "Соли побольше — кипит минут 5"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่เกลือเยอะ ๆ — ใช้เวลาต้มประมาณ 5 นาที"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9190,6 +9910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Соль и перец тоже держите под рукой"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วางเกลือและพริกไทยไว้ใกล้มือด้วย"
           }
         },
         "zh-Hans" : {
@@ -9268,6 +9994,12 @@
             "value" : "Если сделать это до начала соуса, будет проще"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าทำก่อนเริ่มทำซอสจะสบายกว่า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9342,6 +10074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда соус равномерно покрыл пасту"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อซอสเคลือบเส้นทั่วถึง"
           }
         },
         "zh-Hans" : {
@@ -9420,6 +10158,12 @@
             "value" : "Когда соус помутнеет, загустеет и обволочёт пасту"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อซอสขุ่นข้นและเคลือบเส้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9494,6 +10238,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Соус рассчитывается от момента, когда паста готова, — «с конца»"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซอสถูกวางแผนย้อนกลับจากเวลาที่เส้นเสร็จ"
           }
         },
         "zh-Hans" : {
@@ -9572,6 +10322,12 @@
             "value" : "Сковорода для соуса"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระทะซอส"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9646,6 +10402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "С руками всё — осталось дождаться кастрюль"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มือว่างแล้ว — เหลือแค่รอหม้อ"
           }
         },
         "zh-Hans" : {
@@ -9724,6 +10486,12 @@
             "value" : "Если руки мокрые, скажите «다음» (по-корейски «далее»). Приложение перейдёт к следующему шагу без касания экрана."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้ามือเปียก ลองพูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”) แอปจะไปขั้นตอนถัดไปโดยไม่ต้องแตะหน้าจอ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9798,6 +10566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 г спагетти (2 порции), 6 зубчиков чеснока, 6 ст. л. оливкового масла"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สปาเกตตี 180 กรัม (2 ที่) กระเทียม 6 กลีบ น้ำมันมะกอก 6 ช้อนโต๊ะ"
           }
         },
         "zh-Hans" : {
@@ -9876,6 +10650,12 @@
             "value" : "Опустите 180 г спагетти, распределив веером"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่สปาเกตตี 180 กรัม โดยแผ่ออกเป็นพัด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9950,6 +10730,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можно потихоньку заканчивать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มเก็บงานได้แล้ว"
           }
         },
         "zh-Hans" : {
@@ -10028,6 +10814,12 @@
             "value" : "Начать"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มต้นใช้งาน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10102,6 +10894,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "С чего начать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำสิ่งนี้ก่อนเมื่อเริ่ม"
           }
         },
         "zh-Hans" : {
@@ -10180,6 +10978,12 @@
             "value" : "Продолжить с того места, где остановились"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำต่อจากที่ค้างไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10254,6 +11058,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нажмите «Начать готовить» внизу — и таймеры кастрюль запустятся"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะ “เริ่มทำอาหาร” ด้านล่าง แล้วตัวจับเวลาของหม้อจะเริ่มเดิน"
           }
         },
         "zh-Hans" : {
@@ -10333,6 +11143,12 @@
             "value" : "Подключите к iPad клавиатуру — и переходите к следующему шагу одной клавишей."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต่อคีย์บอร์ดกับ iPad แล้วไปขั้นตอนถัดไปได้ด้วยการกดปุ่มเดียว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10407,6 +11223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Едва заметное побулькивание — не кипятите"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เดือดปุด ๆ แผ่ว ๆ เท่านั้น — ห้ามเดือดพล่าน"
           }
         },
         "zh-Hans" : {
@@ -10485,6 +11307,12 @@
             "value" : "На очень слабом огне, еле-еле"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไฟอ่อนมาก ให้เดือดปุด ๆ แผ่ว ๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10559,6 +11387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Самый крупный"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใหญ่สุด"
           }
         },
         "zh-Hans" : {
@@ -10637,6 +11471,12 @@
             "value" : "Ещё нет"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่ถึง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10713,6 +11553,12 @@
             "value" : "Остались ещё шаги. Если остановиться сейчас, прогресс пропадёт."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังมีขั้นตอนเหลืออยู่ หากหยุดตอนนี้ ความคืบหน้าจะหายไป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10787,6 +11633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Алио-олио"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อาลิโอ โอลิโอ"
           }
         },
         "zh-Hans" : {
@@ -10866,6 +11718,12 @@
             "value" : "Приложением можно будет пользоваться и на английском."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้แอปเป็นภาษาอังกฤษได้ด้วย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10940,6 +11798,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "около %lld мин · кастрюль: %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประมาณ %lld นาที · %lld หม้อ"
           }
         },
         "zh-Hans" : {
@@ -11018,6 +11882,12 @@
             "value" : "Слабый огонь! Только до светло-золотистого цвета"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไฟอ่อน! ผัดแค่ให้เป็นสีทองอ่อน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11092,6 +11962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Помешивайте на слабом огне"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ไฟอ่อน คนตลอดเวลา"
           }
         },
         "zh-Hans" : {
@@ -11170,6 +12046,12 @@
             "value" : "1/2 луковицы нарежьте мелкой соломкой"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หั่นหัวหอม 1/2 หัวเป็นเส้นเล็ก ๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11246,6 +12128,12 @@
             "value" : "Обжарьте лук"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผัดหัวหอม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11320,6 +12208,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нарежьте лук тонкой соломкой"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หั่นหัวหอมเป็นเส้นบาง"
           }
         },
         "zh-Hans" : {
@@ -11399,6 +12293,12 @@
             "value" : "Тёмный экран, который не слепит на тёмной кухне."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูผ่านหน้าจอสีเข้มที่ไม่แยงตา แม้ในครัวที่มืด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11473,6 +12373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можно делать в любой момент"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำตอนไหนก็ได้"
           }
         },
         "zh-Hans" : {
@@ -11552,6 +12458,12 @@
             "value" : "При первом запуске после обновления вы узнаете, что изменилось."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11629,6 +12541,12 @@
             "value" : "Что нового"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีอะไรใหม่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11703,6 +12621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Времени с запасом"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังมีเวลาเหลือเฟือ"
           }
         },
         "zh-Hans" : {
@@ -11782,6 +12706,12 @@
             "value" : "Приложение будет доступно не только на английском, но и на других языках."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นอกจากภาษาอังกฤษ จะรองรับภาษาอื่นเพิ่มขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11857,6 +12787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поддержка английского"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รองรับภาษาอังกฤษ"
           }
         },
         "zh-Hans" : {
@@ -11935,6 +12871,12 @@
             "value" : "2 ст. л. оливкового масла, лук, средне-слабый огонь"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "น้ำมันมะกอก 2 ช้อนโต๊ะ กับหัวหอม ไฟกลางค่อนอ่อน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12009,6 +12951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 ст. л. оливкового масла с пластинками чеснока и перцем чили"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "น้ำมันมะกอก 6 ช้อนโต๊ะ กับกระเทียมหั่นแว่นและพริกแห้ง"
           }
         },
         "zh-Hans" : {
@@ -12087,6 +13035,12 @@
             "value" : "Готово"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12161,6 +13115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Время готовности"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวลาที่คาดว่าจะเสร็จ"
           }
         },
         "zh-Hans" : {
@@ -12239,6 +13199,12 @@
             "value" : "Завершить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12313,6 +13279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Завершить приготовление?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำเครื่องหมายว่าเสร็จแล้วไหม"
           }
         },
         "zh-Hans" : {
@@ -12391,6 +13363,12 @@
             "value" : "Готово 🍴 Раскладывайте по тарелкам"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จแล้ว 🍴 ตักใส่จานได้เลย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12465,6 +13443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Блюдо"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมนู"
           }
         },
         "zh-Hans" : {
@@ -12543,6 +13527,12 @@
             "value" : "Начать готовить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มทำอาหาร"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12617,6 +13607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открыть блюдо"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดเมนู"
           }
         },
         "zh-Hans" : {
@@ -12696,6 +13692,12 @@
             "value" : "Если приложение закроется во время готовки, таймеры кастрюль и прогресс сохранятся."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แม้แอปปิดระหว่างทำอาหาร เวลาของหม้อและความคืบหน้าก็ยังต่อเนื่องเหมือนเดิม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12771,6 +13773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Уменьшение движения"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลดการเคลื่อนไหว"
           }
         },
         "zh-Hans" : {
@@ -12850,6 +13858,12 @@
             "value" : "Если включить «Уменьшение движения», эффекты на экране станут спокойнее."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิด “ลดการเคลื่อนไหว” เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12921,6 +13935,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -13002,6 +14022,12 @@
             "value" : "Пауза"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดชั่วคราว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13077,6 +14103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Любимые блюда можно запускать прямо с экрана «Домой»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มเมนูที่ทำบ่อยได้จากหน้าจอโฮมเลย"
           }
         },
         "zh-Hans" : {
@@ -13155,6 +14187,12 @@
             "value" : "Мелко — спешить не нужно"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ละเอียด ๆ — ไม่ต้องรีบ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13229,6 +14267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Продолжить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำต่อ"
           }
         },
         "zh-Hans" : {
@@ -13307,6 +14351,12 @@
             "value" : "Достаньте продукты и поставьте сковороду"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เตรียมวัตถุดิบและตั้งกระทะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13381,6 +14431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Соберите продукты в одном месте"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วางวัตถุดิบไว้ที่เดียวกัน"
           }
         },
         "zh-Hans" : {
@@ -13459,6 +14515,12 @@
             "value" : "Половину оставьте для подачи"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แบ่งครึ่งหนึ่งไว้โรยตอนท้าย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13533,6 +14595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Согрейте тарелки и подготовьтесь к подаче"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อุ่นจานและเตรียมเสิร์ฟ"
           }
         },
         "zh-Hans" : {
@@ -13611,6 +14679,12 @@
             "value" : "Тарелки прогрейте горячей водой и вытрите насухо"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ราดน้ำร้อนอุ่นจาน แล้วเช็ดให้แห้ง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13685,6 +14759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прогрейте тарелки горячей водой"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ราดน้ำร้อนอุ่นจาน"
           }
         },
         "zh-Hans" : {
@@ -13763,6 +14843,12 @@
             "value" : "Прервать готовку и выйти"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดทำอาหารและออก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13837,6 +14923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открывает экран приготовления"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดหน้าจอทำอาหาร"
           }
         },
         "zh-Hans" : {
@@ -13915,6 +15007,12 @@
             "value" : "Если вы ставите устройство на кухонный стол, здесь можно увеличить текст ещё сильнее."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าตั้งเครื่องไว้บนเคาน์เตอร์ครัว คุณสามารถขยายตัวอักษรให้ใหญ่ขึ้นได้ที่นี่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13989,6 +15087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прервать готовку и выйти?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดทำอาหารและออกไหม"
           }
         },
         "zh-Hans" : {
@@ -14067,6 +15171,12 @@
             "value" : "Когда лопатка оставляет след, который на миг остаётся"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อใช้ไม้พายปาดแล้วมีรอยอยู่ชั่วครู่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14141,6 +15251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прервать и выйти"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดและออก"
           }
         },
         "zh-Hans" : {
@@ -14219,6 +15335,12 @@
             "value" : "Средне-слабый огонь, пока не станет мягким"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไฟกลางค่อนอ่อน จนหัวหอมนุ่ม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14293,6 +15415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сейчас"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้"
           }
         },
         "zh-Hans" : {
@@ -14371,6 +15499,12 @@
             "value" : "Сейчас · откладывать нельзя"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้ · เลื่อนไม่ได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14445,6 +15579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сейчас делаем"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่ต้องทำตอนนี้"
           }
         },
         "zh-Hans" : {
@@ -14523,6 +15663,12 @@
             "value" : "Сейчас делаем · можно не спешить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่ต้องทำตอนนี้ · ไม่ต้องรีบ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14597,6 +15743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поддержка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่วยเหลือ"
           }
         },
         "zh-Hans" : {
@@ -14675,6 +15827,12 @@
             "value" : "Прошло времени"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวลาที่ผ่านไป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14749,6 +15907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Источник · %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แหล่งที่มา · %@"
           }
         },
         "zh-Hans" : {
@@ -14827,6 +15991,12 @@
             "value" : "Можно не спешить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค่อย ๆ ทำได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14901,6 +16071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Как можно тоньше — спешить не нужно"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บางที่สุดเท่าที่ทำได้ — ไม่ต้องรีบ"
           }
         },
         "zh-Hans" : {
@@ -14979,6 +16155,12 @@
             "value" : "Натрите сыр и отмерьте ингредиенты для соуса"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขูดชีสและตวงวัตถุดิบสำหรับซอส"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15053,6 +16235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Натрите сыр и согрейте тарелки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขูดชีสและอุ่นจาน"
           }
         },
         "zh-Hans" : {
@@ -15131,6 +16319,12 @@
             "value" : "Держите нож плашмя и режьте тонко — толстые пластинки внутри сырые, а снаружи подгорают"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วางมีดเอียงแล้วหั่นบาง ๆ — ถ้าหนา ข้างในจะไม่สุกแต่ข้างนอกไหม้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15205,6 +16399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Крупный"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใหญ่"
           }
         },
         "zh-Hans" : {
@@ -15283,6 +16483,12 @@
             "value" : "Томите сливки"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เคี่ยวครีมเบา ๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15357,6 +16563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Влейте сливки и убавьте огонь"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เทครีมและลดไฟให้อ่อน"
           }
         },
         "zh-Hans" : {
@@ -15436,6 +16648,12 @@
             "value" : "Экран для крупного текста"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าจอที่รองรับตัวอักษรใหญ่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15510,6 +16728,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда постоянно поднимаются крупные пузыри"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อฟองใหญ่ลอยขึ้นไม่หยุด"
           }
         },
         "zh-Hans" : {
@@ -15589,6 +16813,12 @@
             "value" : "Управление с клавиатуры"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ควบคุมด้วยคีย์บอร์ด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15663,6 +16893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Легко подгорает — сразу переходите к следующему шагу"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไหม้ง่าย — ไปขั้นตอนถัดไปทันที"
           }
         },
         "zh-Hans" : {
@@ -15741,6 +16977,12 @@
             "value" : "Таймеры будут сброшены, а прогресс пропадёт."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวจับเวลาจะถูกรีเซ็ต และความคืบหน้าจะหายไป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15815,6 +17057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Таймлайн · пунктиром отмечено то, что можно отложить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไทม์ไลน์ · แถบเส้นประคือสิ่งที่เลื่อนได้"
           }
         },
         "zh-Hans" : {
@@ -15893,6 +17141,12 @@
             "value" : "Терракотовый — то, что нельзя откладывать: паста разварится или пригорит. Зелёный — подготовка: делайте не спеша, когда руки свободны."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีเทอร์ราคอตตาคือสิ่งที่ถ้าเลื่อนแล้วเส้นจะเปื่อยหรือซอสจะไหม้ ส่วนสีเขียวคืองานเตรียม ทำช้า ๆ ตอนมือว่างได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15967,6 +17221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Паста в томатно-сливочном соусе"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พาสต้าครีมมะเขือเทศ"
           }
         },
         "zh-Hans" : {
@@ -16045,6 +17305,12 @@
             "value" : "2 ст. л. томатной пасты, 200 мл сливок"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซอสมะเขือเทศเข้มข้น 2 ช้อนโต๊ะ วิปปิ้งครีม 200 มล."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16119,6 +17385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Распределите 2 ст. л. томатной пасты по дну сковороды"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ป้ายซอสมะเขือเทศเข้มข้น 2 ช้อนโต๊ะให้ทั่วก้นกระทะ"
           }
         },
         "zh-Hans" : {
@@ -16197,6 +17469,12 @@
             "value" : "Обжарьте томатную пасту"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผัดซอสมะเขือเทศเข้มข้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16271,6 +17549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Когда лук станет прозрачным и края слегка зарумянятся"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อหัวหอมใสและขอบเริ่มเป็นสีเหลืองทอง"
           }
         },
         "zh-Hans" : {
@@ -16349,6 +17633,12 @@
             "value" : "Натрите 30 г пармезана и отложите"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขูดพาร์เมซานชีส 30 กรัมเตรียมไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16423,6 +17713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 г пармезана, 2 ст. л. оливкового масла"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พาร์เมซานชีส 30 กรัม น้ำมันมะกอก 2 ช้อนโต๊ะ"
           }
         },
         "zh-Hans" : {
@@ -16501,6 +17797,12 @@
             "value" : "30 г пармезана натрите мелко и отложите"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขูดพาร์เมซานชีส 30 กรัมให้ละเอียดเตรียมไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16575,6 +17877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 г пасты — варить на 1 минуту меньше, чем написано на пачке"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พาสต้า 180 กรัม — ต้มน้อยกว่าที่ระบุบนซอง 1 นาที"
           }
         },
         "zh-Hans" : {
@@ -16653,6 +17961,12 @@
             "value" : "180 г пасты (2 порции), 1/2 луковицы, 3 зубчика чеснока"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พาสต้า 180 กรัม (2 ที่) หัวหอม 1/2 หัว กระเทียม 3 กลีบ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16727,6 +18041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Часть петрушки оставьте для подачи"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เหลือพาร์สลีย์ไว้โรยตอนท้ายด้วย"
           }
         },
         "zh-Hans" : {
@@ -16805,6 +18125,12 @@
             "value" : "Петрушку — только листья, крупно порубить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สับเฉพาะใบพาร์สลีย์แบบหยาบ ๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16879,6 +18205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сковорода должна быть достаточно широкой для всей пасты"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระทะที่กว้างพอใส่เส้นได้ทั้งหมด"
           }
         },
         "zh-Hans" : {
@@ -16957,6 +18289,12 @@
             "value" : "Встряхивайте сковороду 30 секунд — чтобы масло и вода соединились"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขย่ากระทะ 30 วินาที — ให้น้ำมันกับน้ำเข้ากัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17031,6 +18369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2–3 стручка перца чили, немного петрушки, 30 г пармезана"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พริกแห้ง 2–3 เม็ด พาร์สลีย์เล็กน้อย พาร์เมซานชีส 30 กรัม"
           }
         },
         "zh-Hans" : {
@@ -17109,6 +18453,12 @@
             "value" : "2–3 стручка перца разрежьте пополам и вытряхните семена"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผ่าพริกแห้ง 2–3 เม็ดครึ่งหนึ่ง แล้วสะบัดเม็ดออก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17185,6 +18535,12 @@
             "value" : "Мелко нарежьте перец чили и петрушку"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สับพริกแห้งและพาร์สลีย์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17259,6 +18615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Достаточно тонко, если пластинки просвечивают"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าแผ่นกระเทียมโปร่งแสงก็บางพอแล้ว"
           }
         },
         "zh-Hans" : {
@@ -17338,6 +18700,12 @@
             "value" : "Экран для складного iPhone"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าจอ iPhone แบบพับได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17415,6 +18783,12 @@
             "value" : "На широком экране складного iPhone кастрюли и дела видны рядом."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บนหน้าจอกว้างของ iPhone แบบพับได้ ดูหม้อกับงานที่ต้องทำเคียงข้างกัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17489,6 +18863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Соберите нужное в одном месте"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วางของที่ต้องใช้ไว้ที่เดียวกัน"
           }
         },
         "zh-Hans" : {
@@ -17568,6 +18948,12 @@
             "value" : "Продолжить начатое блюдо"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำต่อจากที่ค้างไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17642,6 +19028,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Было начато · %@ %@ — сначала закончите это, потом вернётесь к начатому"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ที่ทำค้างอยู่ · %@ %@ — ทำอันนี้ให้เสร็จก่อน แล้วค่อยกลับไปทำต่อ"
           }
         },
         "zh-Hans" : {
@@ -17720,6 +19112,12 @@
             "value" : "Один раз обжарить, чтобы ушла кислинка"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผัดสักครั้งเพื่อไล่รสเปรี้ยว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17794,6 +19192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если один раз обжарить, уйдёт кислинка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผัดสักครั้งจะช่วยไล่รสเปรี้ยว"
           }
         },
         "zh-Hans" : {
@@ -17871,6 +19275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Виджеты на экране «Домой»"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิดเจ็ตบนหน้าจอโฮม"
           }
         },
         "zh-Hans" : {

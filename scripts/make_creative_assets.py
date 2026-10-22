@@ -45,6 +45,7 @@ SEARCH = {
     "fr": ("Minuteur de cuisine", "Deux casseroles,<br>rien d’oublié", "La tâche du moment et le temps de chaque casserole, d’un coup d’œil"),
     "it": ("Timer da cucina", "Due pentole,<br>niente dimenticato", "Il compito di adesso e il tempo di ogni pentola, a colpo d’occhio"),
     "pt-BR": ("Timer de cozinha", "Duas panelas,<br>nada esquecido", "A tarefa de agora e o tempo de cada panela num relance"),
+    "th": ("ตัวจับเวลาทำอาหาร", "สองหม้อ<br>ไม่พลาดสักอย่าง", "งานตอนนี้และเวลาของแต่ละหม้อ เห็นได้ในพริบตา"),
 }
 
 # 헤더는 한 가지 약속: 면 삶는 그사이에 소스까지(앱의 부제 문장).
@@ -61,6 +62,7 @@ HEADER = {
     "fr": ("Minuteur de cuisine", "Pendant que les pâtes cuisent,<br>la sauce se termine"),
     "it": ("Timer da cucina", "Mentre la pasta bolle,<br>il sugo è pronto"),
     "pt-BR": ("Timer de cozinha", "Enquanto o macarrão cozinha,<br>o molho fica pronto"),
+    "th": ("ตัวจับเวลาทำอาหาร", "ระหว่างที่เส้นต้ม<br>ซอสก็เสร็จ"),
 }
 
 # ⚠️ 바탕 · 글자색은 앱 팔레트(Geusaie/Theme.swift)와 같다: cream · ink · terracotta.
