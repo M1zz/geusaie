@@ -129,3 +129,67 @@ https://m1zz.github.io/geusaie/en/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/en/
+
+## en-GB
+
+### 이름
+
+Geusaie: Pasta Cooking Timer
+
+### 부제
+
+Two pots, perfectly in sync
+
+### 키워드
+
+multi,kitchen,recipe,steps,aglio,olio,carbonara,spaghetti,dinner,hands-free,voice,sauce,boil,hob
+
+### 프로모션 텍스트
+
+Water on, garlic sliced, pasta in, sauce sautéed. One task at a time in large type, a countdown for each pot, and voice control for wet hands.
+
+### 설명
+
+Run two pots at once without missing a beat. Geusaie is a cooking timer that sets the order and timing so the sauce is finished while the pasta boils.
+It shows only the one task you need to do now, in large type, and counts down each pot separately.
+
+Cooking is hard not because your hands are slow, but because time doesn't run in a single line. The pasta won't wait for you, while slicing garlic can happen any time. Geusaie knows the difference and plans around it.
+
+Just one task at a time
+The top of the screen shows the single task your hands should do right now, in large type. A colour tells you at a glance whether it can wait or not. How to do it and how to tell it's done are written right there.
+
+A countdown for each pot
+The pasta pot and the sauce pan each show their own time left. You can see whether the water is heating, the pasta is boiling, or you are standing over the pan.
+
+If you run late, everything after slides with you
+No rigid schedule. Turn on the heat a little late and the later steps shift along, and the sauce is timed to start just as the pasta comes out.
+
+The whole timeline at a glance
+See when your hands, the pasta pot, and the sauce pan overlap. Dotted tasks can be done whenever your hands are free.
+
+Hands-free with your voice
+Turn on the microphone and say the Korean word for "next" (da-eum) to move on. Voice recognition currently understands Korean only. While the microphone is on, it is always shown on screen, and it turns off when you leave the cooking screen.
+
+Text you can read from a distance
+Prop your device on the worktop and step back a pace or two. The text can be enlarged in four steps.
+
+Never miss a pot
+When a pot is done, you get a notification along with the next task, even while you are in another app.
+
+Recipes inside
+Aglio e Olio
+Tomato Cream Pasta
+
+Works on iPhone and iPad. No account needed to get started.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/en/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/en/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/en/

@@ -9,6 +9,12 @@
             "value" : "Geusaie"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25,6 +31,12 @@
             "value" : "Uses the microphone so you can say “다음” (Korean for “next”) to move to the next step while you cook."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uses the microphone so you can say “다음” (Korean for “next”) to move to the next step while you cook."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36,6 +48,12 @@
     "NSSpeechRecognitionUsageDescription" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uses speech recognition only to catch the Korean word “다음” (“next”). Processed on your device whenever possible."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uses speech recognition only to catch the Korean word “다음” (“next”). Processed on your device whenever possible."
