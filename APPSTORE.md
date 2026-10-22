@@ -641,3 +641,67 @@ https://m1zz.github.io/geusaie/fr/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/fr/
+
+## it
+
+### 이름
+
+Geusaie: timer per la pasta
+
+### 부제
+
+Due pentole sotto controllo
+
+### 키워드
+
+cucina,ricette,passaggi,cronometro,carbonara,spaghetti,cena,sugo,bollire,voce,sveglia,aglio,olio
+
+### 프로모션 텍스트
+
+Acqua sul fuoco, aglio affettato, pasta in pentola, sugo in padella. Un compito alla volta in grande, un conto alla rovescia per pentola e la voce a mani bagnate.
+
+### 설명
+
+Due pentole insieme, senza perdere il filo. Geusaie è un timer da cucina che organizza ordine e tempi perché il sugo sia pronto mentre la pasta bolle.
+Mostra a caratteri grandi solo il compito da fare adesso e conta il tempo di ogni pentola separatamente.
+
+Cucinare è difficile non perché le tue mani siano lente, ma perché il tempo non scorre su un’unica linea. La pasta non aspetta, mentre affettare l’aglio si può fare quando si vuole. Geusaie conosce questa differenza e organizza i passaggi di conseguenza.
+
+Un solo compito alla volta
+In cima allo schermo compare a caratteri grandi l’unico compito che le tue mani devono fare adesso. Un colore ti dice a colpo d’occhio se si può rimandare o no. Come farlo e come capire che è pronto sono scritti lì accanto.
+
+Un conto alla rovescia per ogni pentola
+La pentola della pasta e la padella del sugo mostrano ciascuna il proprio tempo rimasto. Vedi subito se l’acqua si sta scaldando, se la pasta sta cuocendo o se sei impegnato alla padella.
+
+Se sei in ritardo, il resto slitta con te
+Nessun orario rigido. Se accendi il fuoco un po’ in ritardo, i passaggi successivi slittano di conseguenza e il sugo viene organizzato per iniziare proprio quando la pasta è pronta.
+
+Tutta la cronologia a colpo d’occhio
+Guarda quando si sovrappongono le tue mani, la pentola della pasta e la padella del sugo. I compiti tratteggiati si possono fare quando hai le mani libere.
+
+Avanti con la voce, a mani bagnate
+Attiva il microfono e di’ la parola coreana per «avanti» (da-eum) per passare al passaggio successivo. Per ora il riconoscimento vocale capisce solo il coreano. Finché il microfono è attivo, resta sempre visibile sullo schermo e si spegne quando esci dalla schermata di cottura.
+
+Testo leggibile da lontano
+Appoggia il dispositivo sul piano di lavoro e fai uno o due passi indietro. Il testo si può ingrandire in quattro livelli.
+
+Nessuna pentola dimenticata
+Quando una pentola è pronta ricevi una notifica insieme al compito successivo, anche se stai usando un’altra app.
+
+Ricette incluse
+Aglio e olio
+Pasta alla crema di pomodoro
+
+Funziona su iPhone e iPad. Nessun account per iniziare.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/it/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/it/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/it/

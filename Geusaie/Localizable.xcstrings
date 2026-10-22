@@ -33,6 +33,12 @@
             "value" : "N’écoute que le mot coréen « 다음 » (« suivant ») et n’enregistre jamais le son"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ascolta solo la parola coreana «다음» («avanti») e non salva mai l’audio"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -95,6 +101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — à faire maintenant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — fallo adesso"
           }
         },
         "ja" : {
@@ -161,6 +173,12 @@
             "value" : "Minuteur terminé : %@ %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer scaduto: %@ %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -223,6 +241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, reste %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, mancano %@"
           }
         },
         "ja" : {
@@ -289,6 +313,12 @@
             "value" : "%@, impossible à reporter"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, non si può rimandare"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -353,6 +383,12 @@
             "value" : "%@, environ %lld minutes, %lld casseroles"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, circa %lld minuti, %lld pentole"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -412,6 +448,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -481,6 +523,12 @@
             "value" : "%lld min %lld s"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld s"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -540,6 +588,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld s"
@@ -609,6 +663,12 @@
             "value" : "1 minute de moins — elles finissent de cuire dans la sauce"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 minuto in meno — finisce di cuocere nel sugo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -672,6 +732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver lit tous les minuteurs des casseroles et les tâches, sans rien oublier et dans le bon ordre."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver legge tutti i timer delle pentole e le cose da fare, senza saltare nulla e nell’ordine giusto."
           }
         },
         "ja" : {
@@ -739,6 +805,12 @@
             "value" : "VoiceOver plus pratique"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver più comodo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -801,6 +873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’eau chauffe"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’acqua bolle"
           }
         },
         "ja" : {
@@ -867,6 +945,12 @@
             "value" : "Les pâtes cuisent"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La pasta cuoce"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -929,6 +1013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’eau chauffe"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’acqua bolle"
           }
         },
         "ja" : {
@@ -995,6 +1085,12 @@
             "value" : "Les pâtes cuisent"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La pasta cuoce"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1057,6 +1153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La crème mijote"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La panna sobbolle"
           }
         },
         "ja" : {
@@ -1123,6 +1225,12 @@
             "value" : "L’ail trop doré devient amer — dès qu’il prend de la couleur, retirer du feu"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’aglio scuro diventa amaro — appena prende colore, togli dal fuoco"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1185,6 +1293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est presque bon"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quasi pronto"
           }
         },
         "ja" : {
@@ -1251,6 +1365,12 @@
             "value" : "Passer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1313,6 +1433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mettre les pâtes égouttées dans la sauce pendant 1 minute"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metti la pasta scolata nel sugo per 1 minuto"
           }
         },
         "ja" : {
@@ -1379,6 +1505,12 @@
             "value" : "Coupé en travers des fibres, il ramollit plus vite"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tagliata contro le fibre, si ammorbidisce prima"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1441,6 +1573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Continuer la cuisson"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua a cucinare"
           }
         },
         "ja" : {
@@ -1507,6 +1645,12 @@
             "value" : "Ouvre l’écran de cuisson de la recette choisie. Les minuteurs démarrent quand vous touchez Démarrer."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apre la schermata di cottura della ricetta scelta. I timer partono quando tocchi Avvia."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1571,6 +1715,12 @@
             "value" : "Hacher finement"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trita finemente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1630,6 +1780,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -1699,6 +1855,12 @@
             "value" : "Taille du texte"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dimensione del testo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1762,6 +1924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si vous agrandissez le texte de l’appareil, la liste des recettes et les écrans se réorganisent au lieu d’être coupés."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se ingrandisci il testo del dispositivo, l’elenco delle ricette e le schermate si riorganizzano senza essere tagliate."
           }
         },
         "ja" : {
@@ -1828,6 +1996,12 @@
             "value" : "Désactiver"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disattiva"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1890,6 +2064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pendant que l’eau chauffe, faire la préparation"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mentre bolle, sbriga la preparazione"
           }
         },
         "ja" : {
@@ -1956,6 +2136,12 @@
             "value" : "Pendant que l’eau chauffe, préparer l’oignon et l’ail"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mentre bolle, prepara cipolla e aglio"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2018,6 +2204,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À ébullition, plonger les pâtes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando bolle, butta la pasta"
           }
         },
         "ja" : {
@@ -2084,6 +2276,12 @@
             "value" : "Ne pas faire bouillir"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non farla bollire"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2146,6 +2344,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prévenez-moi quand c’est fini"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dimmi quando hai finito"
           }
         },
         "ja" : {
@@ -2212,6 +2416,12 @@
             "value" : "Terminé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2274,6 +2484,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mettre le reste de fromage et le poivre à côté"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tieni vicino il formaggio e il pepe avanzati"
           }
         },
         "ja" : {
@@ -2340,6 +2556,12 @@
             "value" : "Mes mains"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le mie mani"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2402,6 +2624,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous y êtes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ci sei tu"
           }
         },
         "ja" : {
@@ -2468,6 +2696,12 @@
             "value" : "Deux casseroles, un seul écran"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Due pentole, una sola schermata"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2530,6 +2764,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nous vous prévenons quand une casserole est prête."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ti avvisiamo quando una pentola è pronta."
           }
         },
         "ja" : {
@@ -2596,6 +2836,12 @@
             "value" : "12 minutes à partir de l’instant où elles entrent dans l’eau"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 minuti da quando entra nell’acqua"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2658,6 +2904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remuer une fois aussitôt pour qu’ils ne collent pas"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mescola subito una volta perché non si attacchino"
           }
         },
         "ja" : {
@@ -2724,6 +2976,12 @@
             "value" : "Si ça accroche, ajouter une cuillère d’eau"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se si attacca, aggiungi un cucchiaio d’acqua"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2786,6 +3044,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En retard · à faire tout de suite"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In ritardo · fallo subito"
           }
         },
         "ja" : {
@@ -2852,6 +3116,12 @@
             "value" : "Terminée"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Già usata"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2914,6 +3184,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand vous avez fini, dites « 다음 » (« suivant » en coréen)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando hai finito, di’ «다음» (in coreano «avanti»)"
           }
         },
         "ja" : {
@@ -2980,6 +3256,12 @@
             "value" : "Terminé ? Dites « 다음 »"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finito? Di’ «다음»"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3042,6 +3324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand vous avez fini, dites « 다음 » (« suivant » en coréen)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando hai finito, di’ «다음» (in coreano «avanti»)"
           }
         },
         "ja" : {
@@ -3108,6 +3396,12 @@
             "value" : "Suivant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3172,6 +3466,12 @@
             "value" : "Ensuite · %@ %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poi · %@ %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3234,6 +3534,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter l’ail haché et le poivre pendant 30 secondes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi aglio tritato e pepe per 30 secondi"
           }
         },
         "ja" : {
@@ -3301,6 +3607,12 @@
             "value" : "Mode sombre"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modalità scura"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3363,6 +3675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fermer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi"
           }
         },
         "ja" : {
@@ -3430,6 +3748,12 @@
             "value" : "Voyez l’état de chaque casserole même avec un contraste renforcé ou si les couleurs sont difficiles à distinguer."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riconosci lo stato di ogni pentola anche con il contrasto aumentato o se fai fatica a distinguere i colori."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3493,6 +3817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus de langues"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più lingue"
           }
         },
         "ja" : {
@@ -3559,6 +3889,12 @@
             "value" : "Plus grand"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più grande"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3621,6 +3957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aide"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aiuto"
           }
         },
         "ja" : {
@@ -3687,6 +4029,12 @@
             "value" : "Avec un couvercle, l’eau bout plus vite"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con il coperchio bolle più in fretta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3749,6 +4097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hacher finement 3 gousses d’ail"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trita finemente 3 spicchi d’aglio"
           }
         },
         "ja" : {
@@ -3815,6 +4169,12 @@
             "value" : "6 gousses d’ail en lamelles de 1 à 2 mm"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 spicchi d’aglio a fettine di 1–2 mm"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3877,6 +4237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand les bords de l’ail deviennent or pâle"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando i bordi dell’aglio diventano dorati chiari"
           }
         },
         "ja" : {
@@ -3943,6 +4309,12 @@
             "value" : "Hacher l’ail"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trita l’aglio"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4005,6 +4377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Émincer l’ail en fines lamelles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affetta l’aglio sottile"
           }
         },
         "ja" : {
@@ -4071,6 +4449,12 @@
             "value" : "Quand l’ail embaume"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando l’aglio sprigiona il suo profumo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4133,6 +4517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Faire revenir l’ail dans l’huile"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soffriggi l’aglio nell’olio"
           }
         },
         "ja" : {
@@ -4199,6 +4589,12 @@
             "value" : "Ajouter l’ail et le poivre"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi aglio e pepe"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4261,6 +4657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’ail brûle vite : remuer sans cesse"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’aglio brucia in fretta: continua a mescolare"
           }
         },
         "ja" : {
@@ -4327,6 +4729,12 @@
             "value" : "C’est plus simple si on le fait avant la finition"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se lo fai prima della finitura, è più comodo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4389,6 +4797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Désactiver le micro"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disattiva il microfono"
           }
         },
         "ja" : {
@@ -4455,6 +4869,12 @@
             "value" : "Activer le micro"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attiva il microfono"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4517,6 +4937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Micro activé · À l’écoute"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Microfono attivo · In ascolto"
           }
         },
         "ja" : {
@@ -4583,6 +5009,12 @@
             "value" : "Micro activé. À l’écoute du mot coréen « 다음 » (« suivant »)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Microfono attivo. In ascolto della parola coreana «다음» («avanti»)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4645,6 +5077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passer à l’étape suivante à la voix"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanti con la voce"
           }
         },
         "ja" : {
@@ -4711,6 +5149,12 @@
             "value" : "Lisible de loin"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leggibile anche da lontano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4773,6 +5217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nous écrire par e-mail"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivici via e-mail"
           }
         },
         "ja" : {
@@ -4839,6 +5289,12 @@
             "value" : "Ajouter les pâtes et mélanger pour finir"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi la pasta e salta per finire"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4901,6 +5357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuire les pâtes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuoci la pasta"
           }
         },
         "ja" : {
@@ -4967,6 +5429,12 @@
             "value" : "Pendant que les pâtes cuisent, la sauce se termine aussi."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mentre la pasta bolle, anche il sugo è pronto."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5029,6 +5497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pendant que les pâtes cuisent, la sauce se termine aussi. Chaque casserole indique ce qu’elle fait et le temps restant."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mentre la pasta bolle, anche il sugo è pronto. Ogni pentola mostra cosa sta facendo e quanto tempo manca."
           }
         },
         "ja" : {
@@ -5095,6 +5569,12 @@
             "value" : "Casserole des pâtes"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pentola della pasta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5157,6 +5637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Égoutter les pâtes en gardant l’eau de cuisson"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scola la pasta tenendo da parte l’acqua di cottura"
           }
         },
         "ja" : {
@@ -5223,6 +5709,12 @@
             "value" : "Ajouter l’eau de cuisson et émulsionner"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi l’acqua di cottura e manteca"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5285,6 +5777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une demi-tasse d’eau de cuisson, faire sauter vigoureusement pour émulsionner"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mezza tazza di acqua di cottura, salta con energia per mantecare"
           }
         },
         "ja" : {
@@ -5351,6 +5849,12 @@
             "value" : "Verser une demi-tasse d’eau de cuisson et monter le feu"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versa mezza tazza di acqua di cottura e alza il fuoco"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5413,6 +5917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "D’abord, garder une tasse d’eau de cuisson !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima metti da parte una tazza di acqua di cottura!"
           }
         },
         "ja" : {
@@ -5479,6 +5989,12 @@
             "value" : "D’abord, garder une tasse d’eau de cuisson !"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima metti da parte una tazza di acqua di cottura!"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5541,6 +6057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "D’abord, prélever une tasse (200 ml) d’eau de cuisson"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima prendi una tazza (200 ml) di acqua di cottura"
           }
         },
         "ja" : {
@@ -5607,6 +6129,12 @@
             "value" : "D’abord, prélever une tasse (200 ml) d’eau de cuisson"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima prendi una tazza (200 ml) di acqua di cottura"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5669,6 +6197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajuster la texture avec l’eau de cuisson — elle doit couler lentement"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regola la cremosità con l’acqua di cottura — deve scorrere piano"
           }
         },
         "ja" : {
@@ -5735,6 +6269,12 @@
             "value" : "Ajuster avec l’eau de cuisson, 1 minute de plus dans la sauce"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regola con l’acqua di cottura, ancora 1 minuto nel sugo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5797,6 +6337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les pâtes n’attendent pas, la préparation si"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La pasta non aspetta, la preparazione sì"
           }
         },
         "ja" : {
@@ -5863,6 +6409,12 @@
             "value" : "Ne pas trop égoutter : directement dans la poêle, encore humides"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non scuoterla: direttamente in padella, ancora umida"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5925,6 +6477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impossible à reporter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non si può rimandare"
           }
         },
         "ja" : {
@@ -5991,6 +6549,12 @@
             "value" : "Contact"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contatti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6053,6 +6617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 l d’eau, 2 c. à soupe de sel"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 l di acqua, 2 cucchiai di sale"
           }
         },
         "ja" : {
@@ -6119,6 +6689,12 @@
             "value" : "Porter l’eau à ébullition"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porta l’acqua a bollore"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6181,6 +6757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beaucoup d’eau, salée comme la mer — environ 5 minutes pour bouillir"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acqua abbondante e sale come nel mare — circa 5 minuti per bollire"
           }
         },
         "ja" : {
@@ -6247,6 +6829,12 @@
             "value" : "Mettre l’eau sur feu vif"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metti l’acqua sul fuoco vivace"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6309,6 +6897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impossible à reporter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non si può rimandare"
           }
         },
         "ja" : {
@@ -6375,6 +6969,12 @@
             "value" : "Quand de grosses bulles montent sans arrêt du fond"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando dal fondo salgono di continuo grosse bolle"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6437,6 +7037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez le bouton ou, si vous avez les mains mouillées, dites « 다음 » (« suivant » en coréen). Une notification vous prévient quand une casserole est prête."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca il pulsante o, se hai le mani bagnate, di’ «다음» (in coreano «avanti»). Quando una pentola è pronta ricevi una notifica."
           }
         },
         "ja" : {
@@ -6504,6 +7110,12 @@
             "value" : "Couleurs et contraste plus confortables"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colori e contrasto più comodi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6567,6 +7179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lisez dans l’app les réponses aux retours que vous nous avez envoyés."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leggi nell’app le risposte ai feedback che ci hai inviato."
           }
         },
         "ja" : {
@@ -6634,6 +7252,12 @@
             "value" : "Réponses à vos retours"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risposte ai tuoi feedback"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6696,6 +7320,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Venez voir"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vieni a dare un’occhiata"
           }
         },
         "ja" : {
@@ -6762,6 +7392,12 @@
             "value" : "Normal"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normale"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6824,6 +7460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Environ %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di solito %@"
           }
         },
         "ja" : {
@@ -6890,6 +7532,12 @@
             "value" : "1 minute de moins que sur le paquet — elles finissent dans la poêle"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 minuto in meno rispetto alla confezione — finisce di cuocere in padella"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6952,6 +7600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les étaler en éventail — 8 minutes à partir de l’instant où ils entrent dans l’eau"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponili a ventaglio — 8 minuti da quando entrano nell’acqua"
           }
         },
         "ja" : {
@@ -7018,6 +7672,12 @@
             "value" : "Éteindre le feu, ajouter le persil et le fromage"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spegni il fuoco, aggiungi prezzemolo e formaggio"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7080,6 +7740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Feu doux — si ça bout, la sauce tranche"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuoco basso — se bolle, si separa"
           }
         },
         "ja" : {
@@ -7146,6 +7812,12 @@
             "value" : "Libre"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7208,6 +7880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Revoir le mode d’emploi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rivedi come si usa"
           }
         },
         "ja" : {
@@ -7274,6 +7952,12 @@
             "value" : "La couleur indique l’urgence"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il colore indica l’urgenza"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7336,6 +8020,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand la couleur fonce et que ça sent la noisette"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando il colore si scurisce e senti un profumo di tostato"
           }
         },
         "ja" : {
@@ -7402,6 +8092,12 @@
             "value" : "Mesurer à l’avance 200 ml de crème et 2 c. à soupe de concentré de tomate"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misura prima 200 ml di panna e 2 cucchiai di concentrato di pomodoro"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7464,6 +8160,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verser 200 ml de crème et bien mélanger"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versa 200 ml di panna e mescola bene"
           }
         },
         "ja" : {
@@ -7530,6 +8232,12 @@
             "value" : "Mélanger, baisser le feu et réduire 1 min 30 s"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mescola, abbassa il fuoco e fai restringere per 1 min 30 s"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7592,6 +8300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réglages"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
           }
         },
         "ja" : {
@@ -7658,6 +8372,12 @@
             "value" : "Beaucoup de sel — environ 5 minutes pour bouillir"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sale abbondante — circa 5 minuti per bollire"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7720,6 +8440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Garder aussi le sel et le poivre à portée de main"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tieni a portata di mano anche sale e pepe"
           }
         },
         "ja" : {
@@ -7786,6 +8512,12 @@
             "value" : "C’est plus simple si on le fait avant de commencer la sauce"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se lo fai prima di iniziare il sugo, è più comodo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7848,6 +8580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand la sauce enrobe bien les pâtes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando il sugo avvolge bene la pasta"
           }
         },
         "ja" : {
@@ -7914,6 +8652,12 @@
             "value" : "Quand la sauce devient trouble, nappante et s’accroche aux pâtes"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando il sugo diventa lattiginoso, cremoso e si attacca alla pasta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7976,6 +8720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La sauce se planifie à rebours, à partir du moment où les pâtes sortent"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il sugo si organizza a ritroso, dal momento in cui la pasta è pronta"
           }
         },
         "ja" : {
@@ -8042,6 +8792,12 @@
             "value" : "Poêle de la sauce"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Padella del sugo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8104,6 +8860,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vos mains ont fini — il ne reste qu’à attendre les casseroles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le tue mani hanno finito — non resta che aspettare le pentole"
           }
         },
         "ja" : {
@@ -8170,6 +8932,12 @@
             "value" : "Les mains mouillées ? Dites « 다음 » (« suivant » en coréen). L’app passe à l’étape suivante sans que vous touchiez l’écran."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se hai le mani bagnate, di’ «다음» (in coreano «avanti»). L’app passa al passaggio successivo senza che tu tocchi lo schermo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8232,6 +9000,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g de spaghettis (2 personnes), 6 gousses d’ail, 6 c. à soupe d’huile d’olive"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g di spaghetti (2 porzioni), 6 spicchi d’aglio, 6 cucchiai di olio d’oliva"
           }
         },
         "ja" : {
@@ -8298,6 +9072,12 @@
             "value" : "Plonger 180 g de spaghettis en les étalant en éventail"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Butta 180 g di spaghetti disponendoli a ventaglio"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8360,6 +9140,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous pouvez commencer à finir"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi iniziare a concludere"
           }
         },
         "ja" : {
@@ -8426,6 +9212,12 @@
             "value" : "Commencer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8488,6 +9280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pour commencer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa fare per prima cosa"
           }
         },
         "ja" : {
@@ -8554,6 +9352,12 @@
             "value" : "Reprendre là où vous en étiez"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprendi da dove eri rimasto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8616,6 +9420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez « Commencer à cuisiner » ci-dessous pour lancer les minuteurs des casseroles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca «Inizia a cucinare» qui sotto e i timer delle pentole partono"
           }
         },
         "ja" : {
@@ -8683,6 +9493,12 @@
             "value" : "Branchez un clavier à l’iPad et passez à l’étape suivante d’une seule touche."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collega una tastiera all’iPad e passa al passaggio successivo con un solo tasto."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8745,6 +9561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À peine un frémissement — ne pas faire bouillir"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appena un sobbollire — non deve bollire"
           }
         },
         "ja" : {
@@ -8811,6 +9633,12 @@
             "value" : "À très petit feu, tout doucement"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A fuoco bassissimo, appena un sobbollire"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8873,6 +9701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Très grand"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grandissimo"
           }
         },
         "ja" : {
@@ -8939,6 +9773,12 @@
             "value" : "Pas encore"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non ancora"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9003,6 +9843,12 @@
             "value" : "Il reste des étapes. Si vous vous arrêtez maintenant, votre progression sera perdue."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ci sono ancora dei passaggi. Se ti fermi ora, i progressi andranno persi."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9065,6 +9911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pâtes aglio e olio"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aglio e olio"
           }
         },
         "ja" : {
@@ -9132,6 +9984,12 @@
             "value" : "Vous pourrez aussi utiliser l’app en anglais."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potrai usare l’app anche in inglese."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9194,6 +10052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "environ %lld min · %lld casseroles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "circa %lld min · %lld pentole"
           }
         },
         "ja" : {
@@ -9260,6 +10124,12 @@
             "value" : "Feu doux ! Seulement jusqu’à l’or pâle"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuoco basso! Solo fino al dorato chiaro"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9322,6 +10192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À feu doux, en remuant sans cesse"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A fuoco basso, mescolando di continuo"
           }
         },
         "ja" : {
@@ -9388,6 +10264,12 @@
             "value" : "Couper 1/2 oignon en fines lanières"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taglia 1/2 cipolla a listarelle sottili"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9452,6 +10334,12 @@
             "value" : "Faire revenir l’oignon"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soffriggi la cipolla"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9514,6 +10402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Émincer l’oignon en fines lanières"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affetta la cipolla a julienne"
           }
         },
         "ja" : {
@@ -9581,6 +10475,12 @@
             "value" : "Un écran sombre qui n’éblouit pas dans une cuisine peu éclairée."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una schermata scura che non abbaglia in una cucina poco illuminata."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9643,6 +10543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Peut se faire à tout moment"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si può fare in qualsiasi momento"
           }
         },
         "ja" : {
@@ -9710,6 +10616,12 @@
             "value" : "À la première ouverture après une mise à jour, découvrez ce qui a changé."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla prima apertura dopo un aggiornamento, scopri cosa c’è di nuovo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9775,6 +10687,12 @@
             "value" : "Nouveautés"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novità"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9837,6 +10755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il reste largement le temps"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’è tempo in abbondanza"
           }
         },
         "ja" : {
@@ -9904,6 +10828,12 @@
             "value" : "Au-delà de l’anglais, l’app sera disponible dans d’autres langues."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oltre all’inglese, l’app sarà disponibile in altre lingue."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9967,6 +10897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prise en charge de l’anglais"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supporto per l’inglese"
           }
         },
         "ja" : {
@@ -10033,6 +10969,12 @@
             "value" : "2 c. à soupe d’huile d’olive avec l’oignon, à feu moyen-doux"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 cucchiai di olio d’oliva con la cipolla, a fuoco medio-basso"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10095,6 +11037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 c. à soupe d’huile d’olive avec des lamelles d’ail et du piment"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 cucchiai di olio d’oliva con aglio a fettine e peperoncino"
           }
         },
         "ja" : {
@@ -10161,6 +11109,12 @@
             "value" : "Terminé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fatto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10223,6 +11177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heure de fin estimée"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ora di fine prevista"
           }
         },
         "ja" : {
@@ -10289,6 +11249,12 @@
             "value" : "Terminer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10351,6 +11317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Terminer la recette ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segnare come completata?"
           }
         },
         "ja" : {
@@ -10417,6 +11389,12 @@
             "value" : "C’est prêt 🍴 À table !"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È pronto 🍴 Impiatta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10479,6 +11457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recette"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricetta"
           }
         },
         "ja" : {
@@ -10545,6 +11529,12 @@
             "value" : "Commencer à cuisiner"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia a cucinare"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10607,6 +11597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvrir une recette"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apri ricetta"
           }
         },
         "ja" : {
@@ -10674,6 +11670,12 @@
             "value" : "Si l’app se ferme pendant que vous cuisinez, les minuteurs des casseroles et votre progression sont conservés."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se l’app si chiude mentre cucini, i timer delle pentole e i tuoi progressi restano così come sono."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10737,6 +11739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réduire les animations"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riduci movimento"
           }
         },
         "ja" : {
@@ -10804,6 +11812,12 @@
             "value" : "Avec « Réduire les animations » activé, les effets à l’écran deviennent plus calmes."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con «Riduci movimento» attivo, gli effetti sullo schermo diventano più sobri."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10863,6 +11877,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -10932,6 +11952,12 @@
             "value" : "Pause"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10995,6 +12021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lancez vos recettes préférées directement depuis l’écran d’accueil."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avvia le ricette che prepari più spesso direttamente dalla schermata Home."
           }
         },
         "ja" : {
@@ -11061,6 +12093,12 @@
             "value" : "Fin — rien ne presse"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sottile — senza fretta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11123,6 +12161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reprendre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprendi"
           }
         },
         "ja" : {
@@ -11189,6 +12233,12 @@
             "value" : "Sortir les ingrédients et poser la poêle"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tira fuori gli ingredienti e metti su la padella"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11251,6 +12301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rassembler les ingrédients au même endroit"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tieni tutto a portata di mano"
           }
         },
         "ja" : {
@@ -11317,6 +12373,12 @@
             "value" : "En garder la moitié pour la finition"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tienine metà per la finitura"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11379,6 +12441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réchauffer les assiettes et préparer le service"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scalda i piatti e preparati a impiattare"
           }
         },
         "ja" : {
@@ -11445,6 +12513,12 @@
             "value" : "Réchauffer les assiettes à l’eau chaude, puis les essuyer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scalda i piatti con acqua calda e asciugali"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11507,6 +12581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réchauffer les assiettes à l’eau chaude"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scalda i piatti con acqua calda"
           }
         },
         "ja" : {
@@ -11573,6 +12653,12 @@
             "value" : "Arrêter la cuisson et quitter"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interrompi la cottura ed esci"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11635,6 +12721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvre l’écran de cuisson"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apre la schermata di cottura"
           }
         },
         "ja" : {
@@ -11701,6 +12793,12 @@
             "value" : "Si vous posez l’appareil sur le plan de travail, vous pouvez agrandir encore le texte ici."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se appoggi il dispositivo sul piano di lavoro, qui puoi ingrandire ancora di più il testo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11763,6 +12861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arrêter la cuisson et quitter ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interrompere la cottura e uscire?"
           }
         },
         "ja" : {
@@ -11829,6 +12933,12 @@
             "value" : "Quand la spatule laisse une trace qui reste un instant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando la spatola lascia una traccia che resta per un attimo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11891,6 +13001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arrêter et quitter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interrompi ed esci"
           }
         },
         "ja" : {
@@ -11957,6 +13073,12 @@
             "value" : "À feu moyen-doux jusqu’à ce qu’il soit tendre"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A fuoco medio-basso finché non è morbida"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12019,6 +13141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maintenant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adesso"
           }
         },
         "ja" : {
@@ -12085,6 +13213,12 @@
             "value" : "Maintenant · impossible à reporter"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adesso · non si può rimandare"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12147,6 +13281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À faire maintenant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da fare adesso"
           }
         },
         "ja" : {
@@ -12213,6 +13353,12 @@
             "value" : "À faire maintenant · pas de précipitation"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da fare adesso · senza fretta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12275,6 +13421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assistance"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistenza"
           }
         },
         "ja" : {
@@ -12341,6 +13493,12 @@
             "value" : "Temps écoulé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempo trascorso"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12403,6 +13561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Source · %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fonte · %@"
           }
         },
         "ja" : {
@@ -12469,6 +13633,12 @@
             "value" : "Prenez votre temps"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prenditi il tuo tempo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12531,6 +13701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le plus fin possible — rien ne presse"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più sottili che puoi — senza fretta"
           }
         },
         "ja" : {
@@ -12597,6 +13773,12 @@
             "value" : "Râper le fromage et mesurer les ingrédients de la sauce"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratta il formaggio e pesa gli ingredienti del sugo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12659,6 +13841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Râper le fromage et réchauffer les assiettes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratta il formaggio e scalda i piatti"
           }
         },
         "ja" : {
@@ -12725,6 +13913,12 @@
             "value" : "Couteau à plat, bien fin — trop épais, l’ail reste cru à l’intérieur et brûle dehors"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coltello inclinato e fettine sottili — se sono spesse, dentro restano crude e fuori bruciano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12787,6 +13981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grand"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grande"
           }
         },
         "ja" : {
@@ -12853,6 +14053,12 @@
             "value" : "Laisser mijoter la crème"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fai sobbollire la panna"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12915,6 +14121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verser la crème et baisser le feu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versa la panna e abbassa il fuoco"
           }
         },
         "ja" : {
@@ -12982,6 +14194,12 @@
             "value" : "Écrans adaptés au grand texte"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermate per testo grande"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13044,6 +14262,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand de grosses bulles montent sans arrêt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando salgono di continuo grosse bolle"
           }
         },
         "ja" : {
@@ -13111,6 +14335,12 @@
             "value" : "Commande au clavier"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controllo da tastiera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13173,6 +14403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il brûle facilement — passer tout de suite à la suite"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si brucia facilmente — passa subito al passaggio successivo"
           }
         },
         "ja" : {
@@ -13239,6 +14475,12 @@
             "value" : "Les minuteurs seront réinitialisés et votre progression sera perdue."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I timer verranno azzerati e i progressi andranno persi."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13301,6 +14543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chronologie · les barres en pointillés peuvent attendre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cronologia · le barre tratteggiate si possono rimandare"
           }
         },
         "ja" : {
@@ -13367,6 +14615,12 @@
             "value" : "Le terracotta signale ce qui, si on le repousse, fait trop cuire les pâtes ou brûler la sauce. Le vert, c’est la préparation : prenez votre temps quand vos mains sont libres."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il color terracotta indica ciò che, se rimandato, fa scuocere la pasta o bruciare il sugo. Il verde è la preparazione: fallo con calma quando hai le mani libere."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13429,6 +14683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pâtes crémeuses à la tomate"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta alla crema di pomodoro"
           }
         },
         "ja" : {
@@ -13495,6 +14755,12 @@
             "value" : "2 c. à soupe de concentré de tomate, 200 ml de crème"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 cucchiai di concentrato di pomodoro, 200 ml di panna"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13557,6 +14823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Étaler 2 c. à soupe de concentré de tomate sur le fond de la poêle"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stendi 2 cucchiai di concentrato di pomodoro sul fondo della padella"
           }
         },
         "ja" : {
@@ -13623,6 +14895,12 @@
             "value" : "Faire revenir le concentré de tomate"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rosola il concentrato di pomodoro"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13685,6 +14963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quand il est translucide et doré sur les bords"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando è traslucida e dorata ai bordi"
           }
         },
         "ja" : {
@@ -13751,6 +15035,12 @@
             "value" : "Râper 30 g de parmesan"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratta 30 g di parmigiano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13813,6 +15103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 g de parmesan, 2 c. à soupe d’huile d’olive"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g di parmigiano, 2 cucchiai di olio d’oliva"
           }
         },
         "ja" : {
@@ -13879,6 +15175,12 @@
             "value" : "Râper finement 30 g de parmesan"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratta finemente 30 g di parmigiano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13941,6 +15243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g de pâtes — cuire 1 minute de moins que sur le paquet"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g di pasta — cuocila 1 minuto in meno rispetto alla confezione"
           }
         },
         "ja" : {
@@ -14007,6 +15315,12 @@
             "value" : "180 g de pâtes (2 personnes), 1/2 oignon, 3 gousses d’ail"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g di pasta (2 porzioni), 1/2 cipolla, 3 spicchi d’aglio"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14069,6 +15383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Garder aussi un peu de persil pour la finition"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tieni da parte un po’ di prezzemolo per la finitura"
           }
         },
         "ja" : {
@@ -14135,6 +15455,12 @@
             "value" : "Hacher grossièrement seulement les feuilles de persil"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trita grossolanamente solo le foglie di prezzemolo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14197,6 +15523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une poêle assez large pour toutes les pâtes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una padella abbastanza larga per tutta la pasta"
           }
         },
         "ja" : {
@@ -14263,6 +15595,12 @@
             "value" : "Secouer la poêle 30 secondes — pour que l’huile et l’eau se lient"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scuoti la padella per 30 secondi — così olio e acqua si legano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14325,6 +15663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 à 3 piments, un peu de persil, 30 g de parmesan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 peperoncini, un po’ di prezzemolo, 30 g di parmigiano"
           }
         },
         "ja" : {
@@ -14391,6 +15735,12 @@
             "value" : "Couper 2 à 3 piments en deux et enlever les graines"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taglia a metà 2–3 peperoncini e togli i semi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14455,6 +15805,12 @@
             "value" : "Hacher le piment et le persil"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trita il peperoncino e il prezzemolo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14517,6 +15873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est assez fin quand les lamelles sont translucides"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono abbastanza sottili quando le fettine sono trasparenti"
           }
         },
         "ja" : {
@@ -14584,6 +15946,12 @@
             "value" : "Écran d’iPhone pliable"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermata per iPhone pieghevole"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14649,6 +16017,12 @@
             "value" : "Sur le grand écran d’un iPhone pliable, voyez les casseroles et les tâches côte à côte."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sul grande schermo di un iPhone pieghevole vedi pentole e cose da fare affiancate."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14711,6 +16085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rassembler le nécessaire au même endroit"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tieni tutto il necessario a portata di mano"
           }
         },
         "ja" : {
@@ -14778,6 +16158,12 @@
             "value" : "Reprendre une recette en cours"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprendi la ricetta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14840,6 +16226,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Déjà commencé · %@ %@ — terminez ceci d’abord, puis reprenez"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quello che stavi facendo · %@ %@ — finisci prima questo, poi riprendi"
           }
         },
         "ja" : {
@@ -14906,6 +16298,12 @@
             "value" : "Le faire revenir une fois pour enlever l’acidité"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rosolalo una volta per togliere l’acidità"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14968,6 +16366,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une fois revenu, il perd son acidité"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se lo rosoli una volta, perde l’acidità"
           }
         },
         "ja" : {
@@ -15033,6 +16437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Widgets de l’écran d’accueil"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget nella schermata Home"
           }
         },
         "ja" : {
