@@ -1090,3 +1090,66 @@ https://m1zz.github.io/geusaie/el/privacy.html
 
 https://m1zz.github.io/geusaie/el/
 
+## fi
+
+### 이름
+
+Geusaie: pastan ajastin
+
+### 부제
+
+Kaksi kattilaa hallussa
+
+### 키워드
+
+keittiö,reseptit,vaiheet,sekuntikello,lähtölaskenta,carbonara,spagetti,illallinen,kastike,keitto
+
+### 프로모션 텍스트
+
+Vesi tulelle, valkosipuli viipaloitu, pasta kattilaan, kastike pannulle. Yksi tehtävä kerrallaan isolla, lähtölaskenta kullekin kattilalle ja äänikäyttö märin käsin.
+
+### 설명
+
+Kaksi kattilaa yhtä aikaa, ilman että mikään unohtuu. Geusaie on keittiöajastin, joka suunnittelee järjestyksen ja ajoituksen niin, että kastike valmistuu pastan kiehuessa.
+Se näyttää isolla vain sen yhden tehtävän, joka on vuorossa, ja laskee kunkin kattilan ajan erikseen.
+
+Ruoanlaitto on vaikeaa ei siksi, että kätesi olisivat hitaat, vaan siksi, että aika ei kulje yhtä linjaa. Pasta ei odota sinua, mutta valkosipulin pilkkominen onnistuu milloin tahansa. Geusaie tuntee eron ja rakentaa vaiheet sen mukaan.
+
+Vain yksi tehtävä kerrallaan
+Näytön ylälaidassa on isolla se yksi tehtävä, jonka kätesi tekevät juuri nyt. Väri kertoo yhdellä silmäyksellä, voiko sen siirtää vai ei. Miten se tehdään ja mistä tunnistat sen olevan valmis, on kirjoitettu heti viereen.
+
+Oma lähtölaskenta kullekin kattilalle
+Pastakattila ja kastikepannu näyttävät kumpikin oman jäljellä olevan aikansa. Näet heti, lämpeneekö vesi, kiehuuko pasta vai seisotko pannun ääressä.
+
+Jos myöhästyt, loput siirtyvät mukana
+Ei jäykkää aikataulua. Jos sytytät lämmön hieman myöhässä, seuraavat vaiheet siirtyvät mukana ja kastike ajoitetaan alkamaan juuri silloin, kun pasta nostetaan.
+
+Koko aikajana yhdellä silmäyksellä
+Näe, milloin kätesi, pastakattila ja kastikepannu osuvat päällekkäin. Katkoviivalla merkityt tehtävät voi tehdä, kun kätesi ovat vapaat.
+
+Äänellä märin käsin
+Kytke mikrofoni päälle ja sano korean sana ”seuraava” (da-eum) siirtyäksesi eteenpäin. Puheentunnistus ymmärtää toistaiseksi vain koreaa. Kun mikrofoni on päällä, se näkyy aina näytöllä ja sammuu, kun poistut ruoanlaittonäytöstä.
+
+Teksti, jonka lukee kauempaakin
+Nojaa laite tasoa vasten ja astu askel tai kaksi taaksepäin. Tekstiä voi suurentaa neljässä portaassa.
+
+Yksikään kattila ei unohdu
+Kun kattila on valmis, saat ilmoituksen seuraavan tehtävän kanssa, vaikka olisit toisessa sovelluksessa.
+
+Mukana olevat reseptit
+Aglio e olio
+Tomaatti-kermapasta
+
+Toimii iPhonella ja iPadilla. Aloittaminen ei vaadi tiliä.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/fi/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/fi/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/fi/

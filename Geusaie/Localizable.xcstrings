@@ -45,6 +45,12 @@
             "value" : "Solo escucha la palabra coreana «다음» («siguiente») y nunca guarda el audio"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuuntelee vain korean sanaa ”다음” (”seuraava”) eikä tallenna ääntä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — hazlo ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — tee nyt"
           }
         },
         "fr" : {
@@ -257,6 +269,12 @@
             "value" : "Fin del temporizador: %@ %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajastin päättyi: %@ %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -361,6 +379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, quedan %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, jäljellä %@"
           }
         },
         "fr" : {
@@ -469,6 +493,12 @@
             "value" : "%@, no puede esperar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ei voi odottaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -575,6 +605,12 @@
             "value" : "%@, unos %lld minutos, %lld ollas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, noin %lld minuuttia, %lld kattilaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -676,6 +712,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -787,6 +829,12 @@
             "value" : "%lld min %lld s"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld s"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -888,6 +936,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld s"
@@ -999,6 +1053,12 @@
             "value" : "1 minuto menos — termina de hacerse en la salsa"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minuutti vähemmän – valmistuu kastikkeessa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1104,6 +1164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver lee todos los tiempos de las ollas y las tareas, sin saltarse nada y en el orden correcto."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lukee kaikkien kattiloiden ajat ja tehtävät ääneen ilman puutteita ja oikeassa järjestyksessä."
           }
         },
         "fr" : {
@@ -1213,6 +1279,12 @@
             "value" : "Mejor con VoiceOver"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helpompi VoiceOver"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1317,6 +1389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hirviendo el agua"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vesi kiehuu"
           }
         },
         "fr" : {
@@ -1425,6 +1503,12 @@
             "value" : "Cociendo la pasta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta kiehuu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1529,6 +1613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hirviendo el agua"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vesi kiehuu"
           }
         },
         "fr" : {
@@ -1637,6 +1727,12 @@
             "value" : "Cociendo la pasta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta kiehuu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1741,6 +1837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reduciendo la nata"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerma hautuu"
           }
         },
         "fr" : {
@@ -1849,6 +1951,12 @@
             "value" : "El ajo dorado amarga — retíralo del fuego en cuanto coja color"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruskea valkosipuli on karvasta – ota pois lämmöltä heti kun väri tummuu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1953,6 +2061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Casi está"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melkein valmista"
           }
         },
         "fr" : {
@@ -2061,6 +2175,12 @@
             "value" : "Omitir"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohita"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2165,6 +2285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Echa la pasta escurrida en la salsa durante 1 minuto"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laita nostettu pasta kastikkeeseen 1 minuutiksi"
           }
         },
         "fr" : {
@@ -2273,6 +2399,12 @@
             "value" : "Si cortas en contra de la fibra, se ablanda antes"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syitä vastaan leikattuna se pehmenee nopeammin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2377,6 +2509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seguir cocinando"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka ruoanlaittoa"
           }
         },
         "fr" : {
@@ -2485,6 +2623,12 @@
             "value" : "Abre la pantalla de cocina de la receta elegida. Los temporizadores arrancan al tocar Empezar."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa valitun ruoan ruoanlaittonäytön. Ajastimet käynnistyvät, kun napautat Aloita."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2591,6 +2735,12 @@
             "value" : "Pícalo fino"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hienonna hienoksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2692,6 +2842,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -2803,6 +2959,12 @@
             "value" : "Tamaño del texto"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekstin koko"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2908,6 +3070,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si agrandas el texto del dispositivo, la lista de recetas y las pantallas se reorganizan en lugar de cortarse."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun suurennat laitteen tekstiä, reseptilista ja näytöt järjestyvät uudelleen eivätkä leikkaudu."
           }
         },
         "fr" : {
@@ -3016,6 +3184,12 @@
             "value" : "Apagar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammuta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3120,6 +3294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mientras hierve, aprovecha para preparar todo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tee valmistelut veden kuumetessa"
           }
         },
         "fr" : {
@@ -3228,6 +3408,12 @@
             "value" : "Mientras hierve, prepara la cebolla y el ajo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmistele sipuli ja valkosipuli veden kiehuessa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3332,6 +3518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuando hierva, echa la pasta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun vesi kiehuu, laita pasta kiehumaan"
           }
         },
         "fr" : {
@@ -3440,6 +3632,12 @@
             "value" : "Que no hierva"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei saa kiehua"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3544,6 +3742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avísame cuando termines"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerro, kun olet valmis"
           }
         },
         "fr" : {
@@ -3652,6 +3856,12 @@
             "value" : "Terminado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3756,6 +3966,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deja cerca el queso y la pimienta que sobren"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laita jäljelle jäänyt juusto ja pippuri viereen"
           }
         },
         "fr" : {
@@ -3864,6 +4080,12 @@
             "value" : "Mis manos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käteni"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3968,6 +4190,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estás en ello"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olet siinä mukana"
           }
         },
         "fr" : {
@@ -4076,6 +4304,12 @@
             "value" : "Dos ollas en una sola pantalla"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaksi kattilaa, yksi näyttö"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4180,6 +4414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Te avisamos cuando una olla esté lista."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerromme, kun kattila on valmis."
           }
         },
         "fr" : {
@@ -4288,6 +4528,12 @@
             "value" : "12 minutos desde que entra en el agua"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 minuuttia siitä, kun se menee veteen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4392,6 +4638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remueve una vez enseguida para que no se pegue"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sekoita heti kerran, ettei se tartu yhteen"
           }
         },
         "fr" : {
@@ -4500,6 +4752,12 @@
             "value" : "Si se pega, añade una cucharada de agua"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos tarttuu pohjaan, lisää lusikallinen vettä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4604,6 +4862,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vas tarde · hazlo ya"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myöhässä · tee heti"
           }
         },
         "fr" : {
@@ -4712,6 +4976,12 @@
             "value" : "Ya usada"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytetty loppuun"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4816,6 +5086,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuando termines, di «다음» (en coreano, «siguiente»)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun olet valmis, sano ”다음” (koreaksi ”seuraava”)"
           }
         },
         "fr" : {
@@ -4924,6 +5200,12 @@
             "value" : "¿Terminaste? Di «다음»"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis? Sano ”다음”"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5028,6 +5310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuando termines, di «다음» (en coreano, «siguiente»)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun olet valmis, sano ”다음” (koreaksi ”seuraava”)"
           }
         },
         "fr" : {
@@ -5136,6 +5424,12 @@
             "value" : "Siguiente"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraava"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5242,6 +5536,12 @@
             "value" : "Después · %@ %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraavaksi · %@ %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5346,6 +5646,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añade el ajo picado y la pimienta durante 30 segundos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää hienonnettu valkosipuli ja pippuri 30 sekunniksi"
           }
         },
         "fr" : {
@@ -5455,6 +5761,12 @@
             "value" : "Modo oscuro"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tumma tila"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5559,6 +5871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cerrar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulje"
           }
         },
         "fr" : {
@@ -5668,6 +5986,12 @@
             "value" : "Puedes ver cómo va cada olla aunque subas el contraste o te cueste distinguir los colores."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näet jokaisen kattilan tilan, vaikka kontrastia olisi lisätty tai värien erottaminen olisi vaikeaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5773,6 +6097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Más idiomas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kieliä"
           }
         },
         "fr" : {
@@ -5881,6 +6211,12 @@
             "value" : "Más grande"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suurempi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5985,6 +6321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ayuda"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohje"
           }
         },
         "fr" : {
@@ -6093,6 +6435,12 @@
             "value" : "Con la tapa hierve más rápido"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kannen kanssa vesi kiehuu nopeammin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6197,6 +6545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pica fino 3 dientes de ajo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hienonna 3 valkosipulinkynttä hienoksi"
           }
         },
         "fr" : {
@@ -6305,6 +6659,12 @@
             "value" : "6 dientes de ajo en láminas de 1-2 mm"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 valkosipulinkynttä 1–2 mm:n paksuisiksi siivuiksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6409,6 +6769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuando los bordes del ajo estén de un dorado pálido"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun valkosipulin reunat ovat vaaleankultaiset"
           }
         },
         "fr" : {
@@ -6517,6 +6883,12 @@
             "value" : "Pica el ajo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hienonna valkosipuli"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6621,6 +6993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corta el ajo en láminas finas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viipaloi valkosipuli ohuiksi siivuiksi"
           }
         },
         "fr" : {
@@ -6729,6 +7107,12 @@
             "value" : "Cuando suba el aroma del ajo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun valkosipuli alkaa tuoksua"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6833,6 +7217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sofríe el ajo en el aceite"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paista valkosipuli öljyssä"
           }
         },
         "fr" : {
@@ -6941,6 +7331,12 @@
             "value" : "Añade el ajo y la pimienta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää valkosipuli ja pippuri"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7045,6 +7441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El ajo se quema enseguida, así que no pares de remover"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valkosipuli palaa helposti, joten sekoita jatkuvasti"
           }
         },
         "fr" : {
@@ -7153,6 +7555,12 @@
             "value" : "Si lo haces antes del final, será más cómodo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helpompaa, jos teet sen ennen viimeistelyä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7257,6 +7665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apagar el micrófono"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammuta mikrofoni"
           }
         },
         "fr" : {
@@ -7365,6 +7779,12 @@
             "value" : "Activar el micrófono"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kytke mikrofoni päälle"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7469,6 +7889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Micrófono activado · Escuchando"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofoni päällä · Kuuntelee"
           }
         },
         "fr" : {
@@ -7577,6 +8003,12 @@
             "value" : "Micrófono activado. Escuchando la palabra coreana «다음» («siguiente»)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofoni päällä. Kuuntelee korean sanaa ”다음” (”seuraava”)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7681,6 +8113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avanzar con la voz"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eteenpäin äänellä"
           }
         },
         "fr" : {
@@ -7789,6 +8227,12 @@
             "value" : "Fácil de leer desde lejos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luettavissa kauempaakin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7893,6 +8337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escribir por correo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähetä sähköpostia"
           }
         },
         "fr" : {
@@ -8001,6 +8451,12 @@
             "value" : "Añade la pasta, mezcla y termina"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää pasta ja sekoita valmiiksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8105,6 +8561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuece la pasta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keitä pasta"
           }
         },
         "fr" : {
@@ -8213,6 +8675,12 @@
             "value" : "Mientras la pasta hierve, la salsa también queda lista."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastan kiehuessa myös kastike valmistuu."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8317,6 +8785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mientras la pasta hierve, la salsa también queda lista. Cada olla muestra qué está haciendo y cuánto tiempo le queda."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastan kiehuessa myös kastike valmistuu. Jokainen kattila näyttää, mitä se tekee ja kuinka paljon aikaa on jäljellä."
           }
         },
         "fr" : {
@@ -8425,6 +8899,12 @@
             "value" : "Olla de la pasta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastakattila"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8529,6 +9009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saca la pasta y reserva el agua de cocción"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nosta pasta pois ja säästä keitinvesi"
           }
         },
         "fr" : {
@@ -8637,6 +9123,12 @@
             "value" : "Añade el agua de cocción y emulsiona"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää keitinvesi ja emulgoi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8741,6 +9233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Media taza de agua de cocción, salteando con fuerza para emulsionar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoli kuppia keitinvettä, heiluta pannua voimakkaasti emulgoidaksesi"
           }
         },
         "fr" : {
@@ -8849,6 +9347,12 @@
             "value" : "Vierte media taza de agua de cocción y sube el fuego"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaada puoli kuppia keitinvettä ja nosta lämpöä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8953,6 +9457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Antes, reserva una taza de agua de cocción!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota ensin talteen kuppi keitinvettä!"
           }
         },
         "fr" : {
@@ -9061,6 +9571,12 @@
             "value" : "¡Antes, reserva una taza de agua de cocción!"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota ensin talteen kuppi keitinvettä!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9165,6 +9681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Antes, reserva una taza (200 ml) del agua de cocción"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota ensin talteen kuppi (200 ml) keitinvettä"
           }
         },
         "fr" : {
@@ -9273,6 +9795,12 @@
             "value" : "Antes, reserva una taza (200 ml) del agua de cocción"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota ensin talteen kuppi (200 ml) keitinvettä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9377,6 +9905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajusta la textura con agua de cocción — que caiga despacio"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säädä koostumus keitinvedellä – sen pitää valua hitaasti"
           }
         },
         "fr" : {
@@ -9485,6 +10019,12 @@
             "value" : "Ajusta con agua de cocción y 1 minuto más en la salsa"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säädä keitinvedellä, vielä 1 minuutti kastikkeessa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9589,6 +10129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La pasta no espera, pero la preparación sí"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta ei odota, valmistelu odottaa"
           }
         },
         "fr" : {
@@ -9697,6 +10243,12 @@
             "value" : "No la escurras del todo: pásala a la sartén todavía húmeda"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Älä ravistele kuivaksi – suoraan pannulle vielä märkänä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9801,6 +10353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No puede esperar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei voi odottaa"
           }
         },
         "fr" : {
@@ -9909,6 +10467,12 @@
             "value" : "Contacto"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhteystiedot"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10013,6 +10577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 l de agua y 2 cucharadas de sal"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 l vettä, 2 rkl suolaa"
           }
         },
         "fr" : {
@@ -10121,6 +10691,12 @@
             "value" : "Hierve el agua"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keitä vesi kiehuvaksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10225,6 +10801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mucha agua y sal como el mar: tarda unos 5 minutos en hervir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runsaasti vettä ja suolaa kuin merivedessä – kiehuminen kestää noin 5 minuuttia"
           }
         },
         "fr" : {
@@ -10333,6 +10915,12 @@
             "value" : "Pon el agua al fuego fuerte"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laita vesi tulelle korkealle lämmölle"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10437,6 +11025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esto no puede esperar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tämä ei voi odottaa"
           }
         },
         "fr" : {
@@ -10545,6 +11139,12 @@
             "value" : "Cuando suban burbujas grandes del fondo sin parar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun pohjasta nousee jatkuvasti isoja kuplia"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10649,6 +11249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca el botón o, si tienes las manos mojadas, di «다음» (en coreano, «siguiente»). Te avisaremos con una notificación cuando una olla esté lista."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta painiketta tai sano märin käsin ”다음” (koreaksi ”seuraava”). Saat ilmoituksen, kun kattila on valmis."
           }
         },
         "fr" : {
@@ -10758,6 +11364,12 @@
             "value" : "Colores y contraste más cómodos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mukavammat värit ja kontrasti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10863,6 +11475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lee en la app las respuestas a los comentarios que nos enviaste."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lue vastaukset lähettämääsi palautteeseen suoraan sovelluksessa."
           }
         },
         "fr" : {
@@ -10972,6 +11590,12 @@
             "value" : "Respuestas a tus comentarios"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vastaukset palautteeseesi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11076,6 +11700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ven a echar un vistazo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käy katsomassa"
           }
         },
         "fr" : {
@@ -11184,6 +11814,12 @@
             "value" : "Normal"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normaali"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11288,6 +11924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suele llevar %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yleensä %@"
           }
         },
         "fr" : {
@@ -11396,6 +12038,12 @@
             "value" : "1 minuto menos de lo que indica el paquete — termina en la sartén"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minuutti vähemmän kuin pakkauksessa – valmistuu pannulla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11500,6 +12148,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Échalos abriéndolos en abanico — 8 minutos desde que entran"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Levitä viuhkaksi – keitetään 8 minuuttia siitä, kun se menee veteen"
           }
         },
         "fr" : {
@@ -11608,6 +12262,12 @@
             "value" : "Apaga el fuego y añade el perejil y el queso"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammuta lämpö, lisää persilja ja juusto"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11712,6 +12372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fuego suave — si hierve, se corta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pieni lämpö – jos kiehuu, kastike eroaa"
           }
         },
         "fr" : {
@@ -11820,6 +12486,12 @@
             "value" : "Libre"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vapaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11924,6 +12596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ver de nuevo cómo se usa"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katso käyttöohje uudelleen"
           }
         },
         "fr" : {
@@ -12032,6 +12710,12 @@
             "value" : "El color indica la urgencia"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väri kertoo kiireellisyyden"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12136,6 +12820,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuando el color se oscurezca y huela a tostado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun väri syvenee ja tuoksu muuttuu paahteiseksi"
           }
         },
         "fr" : {
@@ -12244,6 +12934,12 @@
             "value" : "Mide antes 200 ml de nata y 2 cucharadas de concentrado de tomate"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mittaa etukäteen 200 ml kermaa ja 2 rkl tomaattipyrettä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12348,6 +13044,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vierte 200 ml de nata y mezcla bien"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaada 200 ml kermaa ja sekoita tasaiseksi"
           }
         },
         "fr" : {
@@ -12456,6 +13158,12 @@
             "value" : "Mezcla, baja el fuego y reduce 1 minuto y 30 segundos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sekoita, pienennä lämpöä ja keitä kokoon 1 min 30 s"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12560,6 +13268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset"
           }
         },
         "fr" : {
@@ -12668,6 +13382,12 @@
             "value" : "Mucha sal: tarda unos 5 minutos en hervir"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runsaasti suolaa – kiehuminen kestää noin 5 minuuttia"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12772,6 +13492,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ten también a mano la sal y la pimienta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pidä myös suola ja pippuri käden ulottuvilla"
           }
         },
         "fr" : {
@@ -12880,6 +13606,12 @@
             "value" : "Si lo haces antes de empezar la salsa, será más cómodo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helpompaa, jos teet sen ennen kastikkeen aloittamista"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12984,6 +13716,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuando la salsa cubra bien la pasta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun kastike peittää pastan tasaisesti"
           }
         },
         "fr" : {
@@ -13092,6 +13830,12 @@
             "value" : "Cuando la salsa quede turbia, ligada y pegada a la pasta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun kastike sameutuu, sakenee ja tarttuu pastaan"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13196,6 +13940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La salsa se planifica hacia atrás, desde el momento en que sale la pasta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kastike suunnitellaan taaksepäin siitä hetkestä, kun pasta nostetaan"
           }
         },
         "fr" : {
@@ -13304,6 +14054,12 @@
             "value" : "Sartén de la salsa"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kastikepannu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13408,6 +14164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tus manos ya terminaron — solo falta esperar a las ollas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kätesi ovat valmiit — enää kattiloita pitää odottaa"
           }
         },
         "fr" : {
@@ -13516,6 +14278,12 @@
             "value" : "Si tienes las manos mojadas, di «다음» (en coreano, «siguiente»). La app pasa al siguiente paso sin que toques la pantalla."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun kätesi ovat märät, sano ”다음” (koreaksi ”seuraava”). Sovellus siirtyy seuraavaan vaiheeseen ilman että kosketat näyttöä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13620,6 +14388,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g de espagueti (2 raciones), 6 dientes de ajo, 6 cucharadas de aceite de oliva"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g spagettia (2 annosta), 6 valkosipulinkynttä, 6 rkl oliiviöljyä"
           }
         },
         "fr" : {
@@ -13728,6 +14502,12 @@
             "value" : "Echa 180 g de espagueti abriéndolos en abanico"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laita 180 g spagettia viuhkamaisesti levitettynä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13832,6 +14612,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ya puedes ir terminando"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voit alkaa viimeistellä"
           }
         },
         "fr" : {
@@ -13940,6 +14726,12 @@
             "value" : "Empezar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14044,6 +14836,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo primero al empezar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tee tämä ensin"
           }
         },
         "fr" : {
@@ -14152,6 +14950,12 @@
             "value" : "Retomar donde lo dejaste"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka siitä, mihin jäit"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14256,6 +15060,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca «Empezar a cocinar» abajo y los temporizadores de las ollas se ponen en marcha"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta alla ”Aloita ruoanlaitto”, niin kattiloiden ajastimet käynnistyvät"
           }
         },
         "fr" : {
@@ -14365,6 +15175,12 @@
             "value" : "Conecta un teclado al iPad y pasa al siguiente paso con una sola tecla."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liitä iPadiin näppäimistö ja siirry seuraavaan vaiheeseen yhdellä näppäimellä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14469,6 +15285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apenas un hervor suave — que no hierva"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vain hiljaista poreilua – ei saa kiehua"
           }
         },
         "fr" : {
@@ -14577,6 +15399,12 @@
             "value" : "A fuego muy bajo, apenas burbujeando"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hyvin pienellä lämmöllä, vain hiljalleen poreillen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14681,6 +15509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muy grande"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suurin"
           }
         },
         "fr" : {
@@ -14789,6 +15623,12 @@
             "value" : "Aún no"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14895,6 +15735,12 @@
             "value" : "Aún quedan pasos. Si te detienes ahora, se perderá el progreso."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaiheita on vielä jäljellä. Jos lopetat nyt, edistyminen katoaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14996,6 +15842,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aglio e olio"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aglio e olio"
@@ -15108,6 +15960,12 @@
             "value" : "Podrás usar la app también en inglés."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voit käyttää sovellusta myös englanniksi."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15212,6 +16070,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "unos %lld min · %lld ollas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "noin %lld min · %lld kattilaa"
           }
         },
         "fr" : {
@@ -15320,6 +16184,12 @@
             "value" : "¡Fuego suave! Solo hasta un dorado pálido"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matala lämpö! Vain vaaleankultaiseksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15424,6 +16294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A fuego suave, sin dejar de remover"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matalalla lämmöllä, jatkuvasti sekoittaen"
           }
         },
         "fr" : {
@@ -15532,6 +16408,12 @@
             "value" : "Corta 1/2 cebolla en juliana fina"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leikkaa 1/2 sipulia hienoiksi suikaleiksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15638,6 +16520,12 @@
             "value" : "Sofríe la cebolla"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paista sipuli"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15742,6 +16630,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corta la cebolla en juliana"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leikkaa sipuli ohuiksi suikaleiksi"
           }
         },
         "fr" : {
@@ -15851,6 +16745,12 @@
             "value" : "Una pantalla oscura que no deslumbra en una cocina con poca luz."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tumma näyttö, joka ei häikäise hämärässä keittiössä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15955,6 +16855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se puede hacer en cualquier momento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voi tehdä milloin tahansa"
           }
         },
         "fr" : {
@@ -16064,6 +16970,12 @@
             "value" : "La primera vez que abras la app tras una actualización, te contamos qué hay de nuevo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun avaat sovelluksen ensimmäistä kertaa päivityksen jälkeen, näet mikä on uutta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16171,6 +17083,12 @@
             "value" : "Novedades"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uutuudet"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16275,6 +17193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hay tiempo de sobra"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aikaa on runsaasti"
           }
         },
         "fr" : {
@@ -16384,6 +17308,12 @@
             "value" : "Además del inglés, podrás usar la app en más idiomas."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Englannin lisäksi sovellusta voi käyttää useammalla kielellä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16489,6 +17419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compatibilidad con inglés"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Englannin tuki"
           }
         },
         "fr" : {
@@ -16597,6 +17533,12 @@
             "value" : "2 cucharadas de aceite de oliva con la cebolla, a fuego medio-bajo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 rkl oliiviöljyä ja sipuli keskipienellä lämmöllä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16701,6 +17643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 cucharadas de aceite de oliva con láminas de ajo y guindilla"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 rkl oliiviöljyä, valkosipulisiivuja ja chiliä"
           }
         },
         "fr" : {
@@ -16809,6 +17757,12 @@
             "value" : "Hecho"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16913,6 +17867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hora estimada de término"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arvioitu valmistumisaika"
           }
         },
         "fr" : {
@@ -17021,6 +17981,12 @@
             "value" : "Terminar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merkitse valmiiksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17125,6 +18091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Dar la receta por terminada?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merkitäänkö valmiiksi?"
           }
         },
         "fr" : {
@@ -17233,6 +18205,12 @@
             "value" : "¡Listo! 🍴 A emplatar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmista 🍴 Anna ruoka"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17337,6 +18315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Receta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruoka"
           }
         },
         "fr" : {
@@ -17445,6 +18429,12 @@
             "value" : "Empezar a cocinar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita ruoanlaitto"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17549,6 +18539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abrir receta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa ruoka"
           }
         },
         "fr" : {
@@ -17658,6 +18654,12 @@
             "value" : "Si la app se cierra mientras cocinas, los temporizadores de las ollas y tu progreso se conservan."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos sovellus sulkeutuu ruoanlaiton aikana, kattiloiden ajastimet ja edistyminen säilyvät."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17763,6 +18765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reducir movimiento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vähennä liikettä"
           }
         },
         "fr" : {
@@ -17872,6 +18880,12 @@
             "value" : "Con «Reducir movimiento» activado, los efectos de pantalla son más suaves."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun ”Vähennä liikettä” on päällä, näytön tehosteet rauhoittuvat."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17973,6 +18987,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -18084,6 +19104,12 @@
             "value" : "Pausa"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tauko"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18189,6 +19215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Empieza tus recetas favoritas directamente desde la pantalla de inicio."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita usein tekemäsi ruoat suoraan Koti-valikosta."
           }
         },
         "fr" : {
@@ -18297,6 +19329,12 @@
             "value" : "Fina — sin prisa"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hienoksi – ei kiirettä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18401,6 +19439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reanudar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka"
           }
         },
         "fr" : {
@@ -18509,6 +19553,12 @@
             "value" : "Saca los ingredientes y pon la sartén"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota ainekset esiin ja laita pannu liedelle"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18613,6 +19663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ten todo a mano"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pidä ainekset yhdessä paikassa"
           }
         },
         "fr" : {
@@ -18721,6 +19777,12 @@
             "value" : "Reserva la mitad para el final"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätä puolet viimeistelyyn"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18825,6 +19887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Calienta los platos y prepárate para servir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lämmitä lautaset ja valmistaudu tarjoilemaan"
           }
         },
         "fr" : {
@@ -18933,6 +20001,12 @@
             "value" : "Calienta los platos con agua caliente y sécalos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lämmitä lautaset kuumalla vedellä ja kuivaa ne"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19037,6 +20111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Calienta los platos con agua caliente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lämmitä lautaset kuumalla vedellä"
           }
         },
         "fr" : {
@@ -19145,6 +20225,12 @@
             "value" : "Dejar de cocinar y salir"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta ruoanlaitto ja poistu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19249,6 +20335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abre la pantalla de cocina"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa ruoanlaittonäytön"
           }
         },
         "fr" : {
@@ -19357,6 +20449,12 @@
             "value" : "Si apoyas el dispositivo en la encimera, aquí puedes agrandar más el texto."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos nojaat laitteen tasoa vasten, voit suurentaa tekstiä vielä täältä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19461,6 +20559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Dejar de cocinar y salir?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopetetaanko ruoanlaitto ja poistutaanko?"
           }
         },
         "fr" : {
@@ -19569,6 +20673,12 @@
             "value" : "Cuando al pasar la espátula quede una marca que tarda un momento en cerrarse"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun lasta jättää jäljen, joka pysyy hetken"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19673,6 +20783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dejar y salir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta ja poistu"
           }
         },
         "fr" : {
@@ -19781,6 +20897,12 @@
             "value" : "A fuego medio-bajo hasta que esté blanda"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keskipienellä lämmöllä, kunnes pehmeää"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19885,6 +21007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyt"
           }
         },
         "fr" : {
@@ -19993,6 +21121,12 @@
             "value" : "Ahora · no puede esperar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyt · ei voi odottaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20097,6 +21231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ahora toca"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tee nyt"
           }
         },
         "fr" : {
@@ -20205,6 +21345,12 @@
             "value" : "Ahora toca · sin prisa"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tee nyt · ei kiirettä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20309,6 +21455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soporte"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuki"
           }
         },
         "fr" : {
@@ -20417,6 +21569,12 @@
             "value" : "Tiempo transcurrido"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kulunut aika"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20521,6 +21679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fuente · %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähde · %@"
           }
         },
         "fr" : {
@@ -20629,6 +21793,12 @@
             "value" : "Puedes tomarlo con calma"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei hätää, ota rauhassa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20733,6 +21903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo más fino posible — sin prisa"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mahdollisimman ohueksi – ei kiirettä"
           }
         },
         "fr" : {
@@ -20841,6 +22017,12 @@
             "value" : "Ralla el queso y mide los ingredientes de la salsa"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raasta juusto ja mittaa kastikkeen ainekset"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20945,6 +22127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ralla el queso y calienta los platos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raasta juusto ja lämmitä lautaset"
           }
         },
         "fr" : {
@@ -21053,6 +22241,12 @@
             "value" : "Con el cuchillo inclinado, bien fino — si es grueso, queda crudo por dentro y se quema por fuera"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pidä veitsi litteänä ja leikkaa ohueksi – paksut siivut jäävät sisältä raaoiksi ja palavat päältä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21157,6 +22351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grande"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suuri"
           }
         },
         "fr" : {
@@ -21265,6 +22465,12 @@
             "value" : "Cuece la nata a fuego lento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hauduta kermaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21369,6 +22575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Echa la nata y baja el fuego"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaada kerma ja pienennä lämpöä"
           }
         },
         "fr" : {
@@ -21478,6 +22690,12 @@
             "value" : "Pantallas para texto grande"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytöt isolle tekstille"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21582,6 +22800,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuando suban burbujas grandes sin parar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun jatkuvasti nousee isoja kuplia"
           }
         },
         "fr" : {
@@ -21691,6 +22915,12 @@
             "value" : "Control con teclado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näppäimistöohjaus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21795,6 +23025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se quema fácil: pasa enseguida al siguiente paso"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palaa helposti – siirry heti seuraavaan vaiheeseen"
           }
         },
         "fr" : {
@@ -21903,6 +23139,12 @@
             "value" : "Los temporizadores se reiniciarán y se perderá el progreso."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajastimet nollataan ja edistyminen katoaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22007,6 +23249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cronología · las líneas de puntos se pueden dejar para después"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aikajana · katkoviivapalkit voivat odottaa"
           }
         },
         "fr" : {
@@ -22115,6 +23363,12 @@
             "value" : "El color terracota es lo que, si lo aplazas, hace que la pasta se pase o se queme. El verde es la preparación: hazla con calma cuando tengas las manos libres."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terrakotta on sitä, mikä jos jää odottamaan, ylikypsentää pastan tai palaa pohjaan. Vihreä on valmistelua – tee se rauhassa, kun kätesi ovat vapaat."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22219,6 +23473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pasta cremosa de tomate"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tomaatti-kermapasta"
           }
         },
         "fr" : {
@@ -22327,6 +23587,12 @@
             "value" : "2 cucharadas de concentrado de tomate, 200 ml de nata"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 rkl tomaattipyrettä, 200 ml kermaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22431,6 +23697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Extiende 2 cucharadas de concentrado de tomate por el fondo de la sartén"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Levitä 2 rkl tomaattipyrettä pannun pohjalle"
           }
         },
         "fr" : {
@@ -22539,6 +23811,12 @@
             "value" : "Sofríe el concentrado de tomate"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paista tomaattipyree"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22643,6 +23921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuando esté transparente y dorada por los bordes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun se on lasimaista ja reunoista kullanruskeaa"
           }
         },
         "fr" : {
@@ -22751,6 +24035,12 @@
             "value" : "Ralla 30 g de parmesano"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raasta 30 g parmigianoa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22855,6 +24145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 g de parmesano, 2 cucharadas de aceite de oliva"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 g parmigianoa, 2 rkl oliiviöljyä"
           }
         },
         "fr" : {
@@ -22963,6 +24259,12 @@
             "value" : "Ralla fino 30 g de parmesano"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raasta 30 g parmigianoa hienoksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23067,6 +24369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "180 g de pasta — cuécela 1 minuto menos de lo que indica el paquete"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g pastaa – keitä minuutti vähemmän kuin pakkauksessa"
           }
         },
         "fr" : {
@@ -23175,6 +24483,12 @@
             "value" : "180 g de pasta (2 raciones), 1/2 cebolla, 3 dientes de ajo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 g pastaa (2 annosta), 1/2 sipuli, 3 valkosipulinkynttä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23279,6 +24593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guarda también un poco de perejil para el final"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätä vähän persiljaa viimeistelyyn"
           }
         },
         "fr" : {
@@ -23387,6 +24707,12 @@
             "value" : "Pica solo las hojas de perejil, en trozos medianos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hienonna vain persiljan lehdet karkeasti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23491,6 +24817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Una sartén lo bastante ancha para toda la pasta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pannu, joka on tarpeeksi leveä koko pastalle"
           }
         },
         "fr" : {
@@ -23599,6 +24931,12 @@
             "value" : "Mueve la sartén 30 segundos para que el aceite y el agua se mezclen"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ravistele pannua 30 sekuntia – jotta öljy ja vesi sekoittuvat"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23703,6 +25041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2-3 guindillas, un poco de perejil, 30 g de parmesano"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 chiliä, vähän persiljaa, 30 g parmigianoa"
           }
         },
         "fr" : {
@@ -23811,6 +25155,12 @@
             "value" : "Parte 2-3 guindillas por la mitad y quita las semillas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Halkaise 2–3 chiliä ja ravistele siemenet pois"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23917,6 +25267,12 @@
             "value" : "Pica la guindilla y el perejil"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hienonna chili ja persilja"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24021,6 +25377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basta con que las láminas sean casi transparentes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riittävän ohut, kun siivut näyttävät läpikuultavilta"
           }
         },
         "fr" : {
@@ -24130,6 +25492,12 @@
             "value" : "Pantalla para iPhone plegable"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taitettavan iPhonen näyttö"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24237,6 +25605,12 @@
             "value" : "En la pantalla grande de un iPhone plegable, ve las ollas y las tareas lado a lado."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taitettavan iPhonen leveällä näytöllä näet kattilat ja tehtävät rinnakkain."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24341,6 +25715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ten todo lo necesario a mano"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pidä tarvittavat ainekset yhdessä paikassa"
           }
         },
         "fr" : {
@@ -24450,6 +25830,12 @@
             "value" : "Retomar la receta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka kesken jäänyttä ruokaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24554,6 +25940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo que estabas haciendo · %@ %@ — termina esto primero y luego retómalo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesken jäänyt · %@ %@ — tee tämä ensin valmiiksi ja jatka sitten"
           }
         },
         "fr" : {
@@ -24662,6 +26054,12 @@
             "value" : "Sofríelo una vez para quitar la acidez"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paista kerran, jotta happamuus katoaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24766,6 +26164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Al sofreírlo una vez, se va la acidez"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerran paistettuna happamuus katoaa"
           }
         },
         "fr" : {
@@ -24873,6 +26277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Widgets en la pantalla de inicio"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koti-valikon widgetit"
           }
         },
         "fr" : {
