@@ -69,6 +69,12 @@
             "value" : "Geusaie"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
             "value" : "ใช้ไมโครโฟนเพื่อให้คุณพูดคำภาษาเกาหลี “다음” (“ถัดไป”) เพื่อไปขั้นตอนถัดไประหว่างทำอาหาร"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng micrô để bạn nói từ tiếng Hàn “다음” (“tiếp theo”) nhằm chuyển sang bước tiếp theo khi đang nấu."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -231,6 +243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้การรู้จำเสียงพูดเฉพาะเพื่อจับคำภาษาเกาหลี “다음” (“ถัดไป”) ประมวลผลบนเครื่องเมื่อเป็นไปได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng nhận dạng giọng nói chỉ để nghe từ tiếng Hàn “다음” (“tiếp theo”). Khi có thể, việc xử lý diễn ra ngay trên thiết bị."
           }
         },
         "zh-Hans" : {

@@ -833,3 +833,67 @@ https://m1zz.github.io/geusaie/th/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/geusaie/th/
+
+## vi
+
+### 이름
+
+Geusaie: hẹn giờ nấu mì Ý
+
+### 부제
+
+Hai nồi không lo lỡ nhịp
+
+### 키워드
+
+công,thức,bước,bấm,đếm,ngược,bếp,carbonara,spaghetti,bữa,tối,sốt,luộc,giọng,nói,báo,nồi,aglio,olio
+
+### 프로모션 텍스트
+
+Bắc nước, thái tỏi, cho mì, xào sốt. Mỗi lần chỉ một việc bằng chữ lớn, đếm ngược riêng cho từng nồi và điều khiển bằng giọng nói khi tay ướt.
+
+### 설명
+
+Dùng hai nồi cùng lúc mà không lỡ nhịp. Geusaie là bộ hẹn giờ nấu ăn sắp xếp thứ tự và thời gian để nước sốt xong đúng lúc mì đang luộc.
+Chỉ hiển thị bằng chữ lớn một việc cần làm bây giờ và đếm thời gian riêng cho từng nồi.
+
+Nấu ăn khó không phải vì tay chậm, mà vì thời gian không chạy trên một đường thẳng. Mì không đợi ai, còn thái tỏi thì lúc nào cũng làm được. Geusaie biết sự khác biệt đó và sắp xếp các bước dựa trên nó.
+
+Mỗi lần chỉ một việc
+Phần trên cùng màn hình hiển thị bằng chữ lớn đúng một việc mà tay bạn cần làm lúc này. Màu sắc cho biết ngay việc đó có thể để sau hay không. Cách làm và cách nhận biết đã xong cũng được ghi ngay đó.
+
+Mỗi nồi một bộ đếm
+Nồi luộc mì và chảo nước sốt hiển thị thời gian còn lại của riêng mình. Nhìn là biết nước đang đun, mì đang luộc hay bạn đang đứng canh chảo.
+
+Làm trễ, các bước sau lùi theo
+Không áp đặt thời gian biểu cứng nhắc. Bật lửa trễ một chút thì các bước sau cũng lùi theo, và nước sốt được tính để bắt đầu đúng lúc mì vớt ra.
+
+Toàn bộ dòng thời gian trong một cái nhìn
+Xem khi nào đôi tay, nồi luộc mì và chảo nước sốt chồng lên nhau. Việc có nét đứt có thể làm khi tay rảnh.
+
+Dùng giọng nói khi tay ướt
+Bật micrô và nói từ tiếng Hàn nghĩa là “tiếp theo” (da-eum) để sang bước kế. Hiện nhận dạng giọng nói chỉ hiểu tiếng Hàn. Khi micrô bật, trên màn hình luôn có chỉ báo, và micrô tắt khi bạn rời màn hình nấu.
+
+Chữ đọc được từ xa
+Dựng thiết bị trên mặt bếp rồi lùi ra một hai bước. Cỡ chữ có thể phóng to bốn mức.
+
+Không bỏ sót nồi nào
+Khi nồi xong, bạn nhận thông báo kèm việc tiếp theo, kể cả khi đang dùng ứng dụng khác.
+
+Công thức có sẵn
+Mì Ý aglio e olio
+Mì Ý sốt kem cà chua
+
+Dùng được trên iPhone và iPad. Không cần tài khoản, mở ra là dùng được ngay.
+
+### 지원 URL
+
+https://m1zz.github.io/geusaie/vi/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/geusaie/vi/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/geusaie/vi/
