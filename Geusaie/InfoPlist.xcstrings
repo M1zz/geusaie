@@ -154,73 +154,73 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mikrofon se používá, abyste při vaření mohli přejít na další krok vyslovením korejského slova „다음“ („další“)."
+            "value" : "Mikrofon slouží k tomu, abyste při vaření mohli slovem „další“ přejít na další krok."
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bruger mikrofonen, så du kan gå videre til næste trin under madlavningen ved at sige det koreanske ord “다음” (“næste”)."
+            "value" : "Mikrofonen bruges, så du kan sige “næste” og gå videre til næste trin, mens du laver mad."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Das Mikrofon wird verwendet, damit du beim Kochen mit dem koreanischen Wort „다음“ („weiter“) zum nächsten Schritt springen kannst."
+            "value" : "Das Mikrofon wird verwendet, damit du beim Kochen mit „weiter“ zum nächsten Schritt springen kannst."
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Χρησιμοποιεί το μικρόφωνο ώστε να προχωράτε στο επόμενο βήμα ενώ μαγειρεύετε λέγοντας την κορεατική λέξη «다음» («επόμενο»)."
+            "value" : "Χρησιμοποιεί το μικρόφωνο για να λέτε «επόμενο» και να περνάτε στο επόμενο βήμα ενώ μαγειρεύετε."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uses the microphone so you can say “다음” (Korean for “next”) to move to the next step while you cook."
+            "value" : "Uses the microphone so you can say “next” to move to the next step while you cook."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uses the microphone so you can say “다음” (Korean for “next”) to move to the next step while you cook."
+            "value" : "Uses the microphone so you can say ‘next’ to move to the next step while you cook."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Usa el micrófono para que, mientras cocinas, puedas pasar al siguiente paso diciendo la palabra coreana «다음» («siguiente»)."
+            "value" : "Usa el micrófono para que puedas decir «siguiente» y pasar al siguiente paso mientras cocinas."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Käyttää mikrofonia, jotta voit siirtyä ruoanlaiton aikana seuraavaan vaiheeseen sanomalla korean sanan ”다음” (”seuraava”)."
+            "value" : "Mikrofonia käytetään, jotta voit ruokaa laittaessasi siirtyä seuraavaan vaiheeseen sanomalla ”seuraava”."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Utilise le micro pour que vous puissiez passer à l’étape suivante en disant le mot coréen « 다음 » (« suivant ») pendant que vous cuisinez."
+            "value" : "Le micro permet de dire « suivant » pour passer à l’étape d’après pendant que vous cuisinez."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Menggunakan mikrofon agar kamu bisa lanjut ke langkah berikutnya sambil memasak dengan mengucapkan kata Korea “다음” (“berikutnya”)."
+            "value" : "Menggunakan mikrofon agar kamu bisa mengucapkan “berikutnya” untuk lanjut ke langkah berikutnya saat memasak."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Usa il microfono per farti passare al passaggio successivo mentre cucini dicendo la parola coreana «다음» («avanti»)."
+            "value" : "Usa il microfono per farti dire «avanti» e passare al passo successivo mentre cucini."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "調理中に韓国語の「다음」（「次へ」）と言うだけで手順を進められるよう、マイクを使います。"
+            "value" : "調理中に「次へ」と言うだけで次の手順に進めるよう、マイクを使用します。"
           }
         },
         "ko" : {
@@ -232,67 +232,67 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bruker mikrofonen slik at du kan gå videre til neste trinn mens du lager mat ved å si det koreanske ordet «다음» («neste»)."
+            "value" : "Mikrofonen brukes slik at du kan si «neste» for å gå til neste trinn mens du lager mat."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gebruikt de microfoon zodat je tijdens het koken naar de volgende stap kunt gaan door het Koreaanse woord “다음” (“volgende”) te zeggen."
+            "value" : "Gebruikt de microfoon zodat je tijdens het koken ‘volgende’ kunt zeggen om naar de volgende stap te gaan."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Używa mikrofonu, abyś mógł podczas gotowania przejść do następnego kroku, mówiąc koreańskie słowo „다음” („dalej”)."
+            "value" : "Mikrofon pozwala podczas gotowania przejść do następnego kroku słowem „dalej”."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Usa o microfone para você passar à próxima etapa dizendo a palavra coreana “다음” (“próximo”) enquanto cozinha."
+            "value" : "Usa o microfone para você dizer “próximo” e ir para a próxima etapa enquanto cozinha."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Микрофон нужен, чтобы во время готовки переходить к следующему шагу, просто сказав по-корейски «다음» («далее»)."
+            "value" : "Микрофон нужен, чтобы во время готовки переходить к следующему шагу словом «далее»."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Använder mikrofonen så att du kan gå vidare till nästa steg under matlagningen genom att säga det koreanska ordet ”다음” (”nästa”)."
+            "value" : "Mikrofonen används så att du kan säga ”nästa” och gå till nästa steg medan du lagar mat."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ใช้ไมโครโฟนเพื่อให้คุณพูดคำภาษาเกาหลี “다음” (“ถัดไป”) เพื่อไปขั้นตอนถัดไประหว่างทำอาหาร"
+            "value" : "ใช้ไมโครโฟนเพื่อให้คุณพูดว่า “ถัดไป” แล้วไปยังขั้นตอนต่อไประหว่างทำอาหาร"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yemek yaparken Korece “다음” (“ileri”) sözcüğünü söyleyerek sonraki adıma geçebilmeniz için mikrofonu kullanır."
+            "value" : "Yemek yaparken “ileri” diyerek sonraki adıma geçebilmeniz için mikrofonu kullanır."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dùng micrô để bạn nói từ tiếng Hàn “다음” (“tiếp theo”) nhằm chuyển sang bước tiếp theo khi đang nấu."
+            "value" : "Dùng micrô để bạn nói “tiếp theo” và chuyển sang bước kế tiếp khi đang nấu."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "烹饪时，只需说一声韩语“다음”（“下一步”）就能进入下一步，因此需要使用麦克风。"
+            "value" : "使用麦克风，让你做饭时说“下一步”就能进入下一个步骤。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "烹飪時，只要說一聲韓語「다음」（「下一步」）就能進入下一步，因此需要使用麥克風。"
+            "value" : "使用麥克風，讓你烹飪時說「下一步」就能進到下一個步驟。"
           }
         }
       }
@@ -302,73 +302,73 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rozpoznávání řeči se používá jen k rozpoznání korejského slova „다음“ („další“). Pokud je to možné, zpracovává se přímo v zařízení."
+            "value" : "Rozpoznávání řeči slouží jen k zachycení slova „další“. Kdykoli je to možné, zpracovává se v zařízení."
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bruger talegenkendelse udelukkende til at genkende det koreanske ord “다음” (“næste”). Behandles på enheden, når det er muligt."
+            "value" : "Talegenkendelse bruges kun til at fange ordet “næste”. Behandles på enheden, når det er muligt."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Die Spracherkennung dient nur dazu, das koreanische Wort „다음“ („weiter“) zu erkennen. Sie läuft nach Möglichkeit auf dem Gerät."
+            "value" : "Die Spracherkennung dient nur dazu, das Wort „weiter“ zu erkennen. Sie läuft nach Möglichkeit auf dem Gerät."
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Χρησιμοποιεί την αναγνώριση ομιλίας μόνο για να ακούσει την κορεατική λέξη «다음» («επόμενο»). Όπου είναι δυνατόν, η επεξεργασία γίνεται στη συσκευή."
+            "value" : "Η αναγνώριση ομιλίας χρησιμοποιείται μόνο για τη λέξη «επόμενο». Η επεξεργασία γίνεται στη συσκευή όποτε είναι δυνατό."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uses speech recognition only to catch the Korean word “다음” (“next”). Processed on your device whenever possible."
+            "value" : "Uses speech recognition only to catch the word “next”. Processed on your device whenever possible."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uses speech recognition only to catch the Korean word “다음” (“next”). Processed on your device whenever possible."
+            "value" : "Uses speech recognition only to catch the word ‘next’. Processed on your device whenever possible."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Usa el reconocimiento de voz solo para entender la palabra coreana «다음» («siguiente»). Siempre que es posible, se procesa en el dispositivo."
+            "value" : "Usa el reconocimiento de voz solo para detectar la palabra «siguiente». Se procesa en el dispositivo siempre que es posible."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Käyttää puheentunnistusta vain korean sanan ”다음” (”seuraava”) tunnistamiseen. Käsittely tapahtuu mahdollisuuksien mukaan laitteella."
+            "value" : "Puheentunnistusta käytetään vain sanan ”seuraava” tunnistamiseen. Käsittely tehdään laitteella aina kun mahdollista."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Utilise la reconnaissance vocale uniquement pour repérer le mot coréen « 다음 » (« suivant »). Le traitement se fait sur l’appareil dans la mesure du possible."
+            "value" : "La reconnaissance vocale sert uniquement à repérer le mot « suivant ». Le traitement se fait sur l’appareil dès que possible."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Menggunakan pengenalan suara hanya untuk menangkap kata Korea “다음” (“berikutnya”). Jika memungkinkan, diproses di perangkat."
+            "value" : "Pengenalan suara hanya dipakai untuk menangkap kata “berikutnya”. Diproses di perangkat jika memungkinkan."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Usa il riconoscimento vocale solo per capire la parola coreana «다음» («avanti»). Quando possibile, l’elaborazione avviene sul dispositivo."
+            "value" : "Il riconoscimento vocale serve solo a cogliere la parola «avanti». L’elaborazione avviene sul dispositivo quando possibile."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "韓国語の「다음」（「次へ」）という言葉だけを聞き取るために、音声認識を使います。可能な限り端末内で処理します。"
+            "value" : "音声認識は「次へ」という言葉を聞き取るためだけに使います。可能な場合はデバイス上で処理します。"
           }
         },
         "ko" : {
@@ -380,67 +380,67 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bruker talegjenkjenning bare for å fange opp det koreanske ordet «다음» («neste»). Behandles på enheten når det er mulig."
+            "value" : "Talegjenkjenning brukes bare til å fange opp ordet «neste». Behandles på enheten når det er mulig."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gebruikt spraakherkenning alleen om het Koreaanse woord “다음” (“volgende”) te herkennen. Waar mogelijk wordt dit op het apparaat verwerkt."
+            "value" : "Spraakherkenning wordt alleen gebruikt om het woord ‘volgende’ op te vangen. Waar mogelijk gebeurt dit op je apparaat."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Używa rozpoznawania mowy wyłącznie do wychwycenia koreańskiego słowa „다음” („dalej”). Jeśli to możliwe, przetwarzanie odbywa się na urządzeniu."
+            "value" : "Rozpoznawanie mowy służy tylko do wychwycenia słowa „dalej”. W miarę możliwości działa na urządzeniu."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Usa o reconhecimento de fala apenas para entender a palavra coreana “다음” (“próximo”). Sempre que possível, o processamento é feito no aparelho."
+            "value" : "Usa o reconhecimento de voz só para captar a palavra “próximo”. O processamento é feito no aparelho sempre que possível."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Распознавание речи используется только для того, чтобы услышать корейское слово «다음» («далее»). По возможности обработка идёт на устройстве."
+            "value" : "Распознавание речи нужно только для слова «далее». По возможности обработка идёт на устройстве."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Använder taligenkänning bara för att fånga upp det koreanska ordet ”다음” (”nästa”). Behandlas på enheten när det är möjligt."
+            "value" : "Taligenkänning används bara för att uppfatta ordet ”nästa”. Behandlas på enheten när det går."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ใช้การรู้จำเสียงพูดเฉพาะเพื่อจับคำภาษาเกาหลี “다음” (“ถัดไป”) ประมวลผลบนเครื่องเมื่อเป็นไปได้"
+            "value" : "ใช้การรู้จำเสียงพูดเพื่อจับคำว่า “ถัดไป” เท่านั้น และประมวลผลบนอุปกรณ์เมื่อทำได้"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Konuşma tanımayı yalnızca Korece “다음” (“ileri”) sözcüğünü anlamak için kullanır. Mümkün olduğunda işlem cihazda yapılır."
+            "value" : "Konuşma tanıma yalnızca “ileri” kelimesini yakalamak için kullanılır. Mümkün olduğunda cihazda işlenir."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dùng nhận dạng giọng nói chỉ để nghe từ tiếng Hàn “다음” (“tiếp theo”). Khi có thể, việc xử lý diễn ra ngay trên thiết bị."
+            "value" : "Chỉ dùng nhận dạng giọng nói để bắt từ “tiếp theo”. Xử lý ngay trên thiết bị khi có thể."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "使用语音识别，只为听懂韩语“다음”（“下一步”）这个词。如有可能，会在设备上完成处理。"
+            "value" : "语音识别只用来听“下一步”这个词，并尽可能在设备上处理。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "使用語音辨識，只為聽懂韓語「다음」（「下一步」）這個詞。如有可能，會在裝置上完成處理。"
+            "value" : "語音辨識只用來聽「下一步」這個詞，並盡可能在裝置上處理。"
           }
         }
       }

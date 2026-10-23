@@ -16,12 +16,12 @@
 import os, signal, subprocess, sys, pathlib, tempfile, time
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-# 기기 화면 재료: 레포의 아이패드 원본 캡처(이 앱은 아이패드 앱이다 — 기기 그림도 아이패드).
+# 기기 화면 재료: 언어마다 docs/screenshots/marketing/<로케일>/ipad-0{2,3}-*.png (그 언어 UI의 아이패드 화면).
 SHOTS = ROOT / "docs" / "screenshots"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 스토어에 있는 언어는 한국어(ko) 하나다(DeployBar --storetext 그사이에).
+# 앱 언어 = 스토어 로케일 폴더 이름(deploy.env LOCALES 와 같다). 다르면 여기에 적는다.
 STORE = {}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
@@ -39,7 +39,7 @@ SEARCH = {
     "ja": ("料理タイマー", "鍋2つでも<br>うっかりなし", "今やることと鍋ごとの残り時間がひと目で"),
     "zh-Hans": ("烹饪计时器", "两口锅<br>也不手忙脚乱", "此刻要做的事和每口锅的剩余时间，一目了然"),
     "zh-Hant": ("烹飪計時器", "兩個鍋子<br>也不手忙腳亂", "此刻要做的事和每個鍋子的剩餘時間，一目了然"),
-    "ru": ("Кулинарный таймер", "Две кастрюли —<br>ничего не упущено", "Что делать сейчас и сколько осталось у каждой кастрюли"),
+    "ru": ("Кулинарный таймер", "Две кастрюли<br>без суеты", "Что делать сейчас и сколько осталось у каждой кастрюли"),
     "es": ("Temporizador de cocina", "Dos ollas<br>sin perder el hilo", "Qué hacer ahora y el tiempo de cada olla, de un vistazo"),
     "de": ("Küchentimer", "Zwei Töpfe,<br>nichts vergessen", "Was jetzt dran ist und die Restzeit jedes Topfs im Blick"),
     "fr": ("Minuteur de cuisine", "Deux casseroles,<br>rien d’oublié", "La tâche du moment et le temps de chaque casserole, d’un coup d’œil"),
@@ -49,9 +49,9 @@ SEARCH = {
     "vi": ("Hẹn giờ nấu ăn", "Hai nồi,<br>không bỏ sót", "Việc cần làm lúc này và thời gian từng nồi, nhìn là thấy"),
     "cs": ("Kuchyňský časovač", "Dva hrnce,<br>nic nezapomenuto", "Úkol na řadě a čas každého hrnce na první pohled"),
     "da": ("Køkkentimer", "To gryder,<br>intet glemt", "Opgaven lige nu og hver gryde tid, med ét blik"),
-    "el": ("Χρονόμετρο κουζίνας", "Δύο κατσαρόλες,<br>τίποτα δεν ξεχνιέται", "Η εργασία της στιγμής και ο χρόνος κάθε κατσαρόλας με μια ματιά"),
+    "el": ("Χρονόμετρο κουζίνας", "Δύο κατσαρόλες<br>χωρίς άγχος", "Η εργασία της στιγμής και ο χρόνος κάθε κατσαρόλας με μια ματιά"),
     "fi": ("Keittiöajastin", "Kaksi kattilaa,<br>mikään ei unohdu", "Vuorossa oleva tehtävä ja kunkin kattilan aika yhdellä silmäyksellä"),
-    "id": ("Timer dapur", "Dua panci,<br>tak ada yang terlewat", "Tugas saat ini dan sisa waktu tiap panci, sekali lihat"),
+    "id": ("Timer dapur", "Dua panci,<br>tanpa repot", "Tugas saat ini dan sisa waktu tiap panci, sekali lihat"),
     "nb": ("Kjøkkentimer", "To kjeler,<br>ingenting glemt", "Oppgaven nå og tiden for hver kjele, med ett blikk"),
     "nl": ("Keukentimer", "Twee pannen,<br>niets vergeten", "De taak van nu en de tijd van elke pan in één oogopslag"),
     "pl": ("Minutnik kuchenny", "Dwa garnki,<br>nic nie umknie", "Zadanie na teraz i czas każdego garnka jednym spojrzeniem"),
@@ -138,6 +138,16 @@ TMP = pathlib.Path(tempfile.gettempdir()) / "geusaie-creative"
 PROFILE = TMP / "chrome-profile"
 
 
+def shot(lang, *names):
+    """기기 화면 재료 — 그 언어의 아이패드 제출본(그 언어 UI). 그림 속 글자도 그 언어여야 한다.
+    이름을 여럿 주면 있는 첫 파일을 쓴다(한국어 세트는 예전 이름 ipad-02-cook-portrait.png)."""
+    for name in names:
+        path = SHOTS / "marketing" / STORE.get(lang, lang) / name
+        if path.exists():
+            return path.as_uri()
+    raise SystemExit(f"그 언어 아이패드 화면이 없다: {lang} {names}")
+
+
 def ipad(img, left, top, width, rotate=0):
     """아이패드 모양: 얇고 고른 테두리, 둥근 모서리(화면 비율은 캡처 그대로)."""
     pad = round(width * 0.028)
@@ -158,7 +168,7 @@ def search_html(lang):
     eyebrow, headline, sub = SEARCH[lang]
     sw, sh = r - l, b - t
     col = int(sw * 0.54)
-    img = (SHOTS / "raw" / "ipad" / "02-cook-portrait.png").as_uri()
+    img = shot(lang, "ipad-02-cook.png", "ipad-02-cook-portrait.png")
     pw = 1300
     left = l + col + 60
     return f"""
@@ -177,13 +187,14 @@ def header_html(lang):
     W, H, (l, t, r, b) = SPEC["header"]
     eyebrow, headline = HEADER[lang]
     sw, sh = r - l, b - t
-    land = (SHOTS / "marketing" / "ko" / "ipad-03-cook-landscape.png").as_uri()
-    port = (SHOTS / "raw" / "ipad" / "02-cook-portrait.png").as_uri()
+    # 양옆 두 대 모두 세로 화면: 왼쪽 = 시작 전(첫 할 일) · 오른쪽 = 조리 중(냄비 두 개)
+    land = shot(lang, "ipad-03-start.png")
+    port = shot(lang, "ipad-02-cook.png", "ipad-02-cook-portrait.png")
     return f"""
 <div class="glow" style="left:{l - 200}px;top:{t - 400}px;width:{sw + 400}px;height:{sh + 800}px;background:rgba(217,154,60,.16)"></div>
 {dots([(140, 110, 110, 0, .9), (380, 60, 64, 1, .9), (3560, 120, 120, 1, .9), (3400, 300, 64, 2, .85),
        (3680, 1380, 90, 0, .85), (70, 1420, 80, 2, .85)])}
-{ipad(land, -120, 560, 1160, -6)}
+{ipad(land, 130, 300, 800, -7)}
 {ipad(port, 2930, 330, 800, 7)}
 <div class="text" style="left:{l}px;top:{t}px;width:{sw}px;height:{sh}px;align-items:center;text-align:center">
   <div class="eyebrow" style="font-size:80px">{eyebrow}</div>
@@ -212,6 +223,11 @@ def chrome(args, log, done, timeout=300):
                 ok = True
                 break
             if proc.poll() is not None:
+                # 끝난 뒤에도 몇 번 더 본다 — 파일 크기가 세 번 같아야 '다 썼다'로 치는 검사가 있다
+                for _ in range(3):
+                    if done():
+                        break
+                    time.sleep(0.5)
                 ok = done()
                 break
         try:

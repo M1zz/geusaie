@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DF7B9EB4BF6E5D028FE2528 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 26D51AFF77E5E68F595483F0 /* Localizable.xcstrings */; };
+		A17C0DE00000000000000004 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A17C0DE00000000000000003 /* AppShortcuts.xcstrings */; };
 		A17C0DE00000000000000002 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A17C0DE00000000000000001 /* InfoPlist.xcstrings */; };
 		778274A66092B3FED678B0EA /* GeusaieSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */; };
 		B00000000000000000000001 /* GeusaieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000001 /* GeusaieApp.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieSpec.swift; sourceTree = "<group>"; };
 		26D51AFF77E5E68F595483F0 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		A17C0DE00000000000000003 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
 		A17C0DE00000000000000001 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		6C8467633B3CFB82B2ED926B /* GeusaieRoadmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeusaieRoadmap.swift; sourceTree = "<group>"; };
 		F00000000000000000000001 /* GeusaieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieApp.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				6C8467633B3CFB82B2ED926B /* GeusaieRoadmap.swift */,
 				26D51AFF77E5E68F595483F0 /* Localizable.xcstrings */,
 				A17C0DE00000000000000001 /* InfoPlist.xcstrings */,
+				A17C0DE00000000000000003 /* AppShortcuts.xcstrings */,
 			);
 			path = Geusaie;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				B0000000000000000000000C /* PrivacyInfo.xcprivacy in Resources */,
 				1DF7B9EB4BF6E5D028FE2528 /* Localizable.xcstrings in Resources */,
 				A17C0DE00000000000000002 /* InfoPlist.xcstrings in Resources */,
+				A17C0DE00000000000000004 /* AppShortcuts.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -104,7 +104,7 @@ The whole timeline at a glance
 See when your hands, the pasta pot, and the sauce pan overlap. Dotted tasks can be done whenever your hands are free.
 
 Hands-free with your voice
-Turn on the microphone and say the Korean word for "next" (da-eum) to move on. Voice recognition currently understands Korean only. While the microphone is on, it is always shown on screen, and it turns off when you leave the cooking screen.
+Turn on the microphone and say "next" to move on. While the microphone is on, it is always shown on screen, and it turns off when you leave the cooking screen.
 
 Text you can read from a distance
 Prop your device on the counter and step back a pace or two. The text can be enlarged in four steps.
@@ -168,7 +168,7 @@ The whole timeline at a glance
 See when your hands, the pasta pot, and the sauce pan overlap. Dotted tasks can be done whenever your hands are free.
 
 Hands-free with your voice
-Turn on the microphone and say the Korean word for "next" (da-eum) to move on. Voice recognition currently understands Korean only. While the microphone is on, it is always shown on screen, and it turns off when you leave the cooking screen.
+Turn on the microphone and say "next" to move on. While the microphone is on, it is always shown on screen, and it turns off when you leave the cooking screen.
 
 Text you can read from a distance
 Prop your device on the worktop and step back a pace or two. The text can be enlarged in four steps.
@@ -232,7 +232,7 @@ Geusaie：パスタ調理タイマー
 自分の手、パスタ鍋、ソース用フライパンがいつ重なるかを、タイムラインで見られます。点線の作業は、手が空いたときにやればよい作業です。
 
 手が濡れていても声で次へ
-マイクをオンにして、韓国語で「次へ」を意味する「ダウム」（da-eum）と言うと、次の手順に進みます。音声認識は現在、韓国語のみ対応です。マイクがオンの間は画面に常に表示され、調理画面を離れるとオフになります。
+マイクをオンにして「次へ」と言うと、次の手順に進みます。マイクがオンの間は画面に常に表示され、調理画面を離れるとオフになります。
 
 離れても読める文字
 調理台に立てかけて、一歩二歩離れて見られます。文字サイズは4段階に大きくできます。
@@ -296,7 +296,7 @@ Geusaie：意面烹饪计时器
 用时间线显示你的双手、煮面锅和酱汁锅什么时候重叠。虚线标出的事，等手空下来再做也可以。
 
 手湿时用语音翻页
-开启麦克风，说韩语里表示“下一步”的词 da-eum，就能进入下一步。语音识别目前只支持韩语。麦克风开启期间，屏幕上会一直显示提示，离开烹饪界面后会自动关闭。
+开启麦克风后说出“下一步”，即可切换到下一个步骤。麦克风开启期间，屏幕上会一直显示提示，离开烹饪界面后会自动关闭。
 
 站远也看得清的字
 把设备立在灶台边，退后一两步也能看清。字号可以调大四档。
@@ -360,7 +360,7 @@ Geusaie：義大利麵烹飪計時器
 用時間軸顯示你的雙手、煮麵鍋和醬汁鍋什麼時候重疊。虛線標出的事，等手空下來再做也可以。
 
 手濕時用語音換下一步
-開啟麥克風，說韓語裡表示「下一步」的詞 da-eum，就能進入下一步。語音辨識目前只支援韓語。麥克風開啟期間，畫面上會一直顯示提示，離開烹飪畫面後會自動關閉。
+開啟麥克風後說出「下一步」，即可切換到下一個步驟。麥克風開啟期間，畫面上會一直顯示提示，離開烹飪畫面後會自動關閉。
 
 站遠也看得清楚的字
 把裝置立在流理台邊，退後一兩步也能看清。字級可以放大四個等級。
@@ -424,7 +424,7 @@ Geusaie: таймер для пасты
 Таймлайн показывает, когда пересекаются ваши руки, кастрюля для пасты и сковорода для соуса. Дела, отмеченные пунктиром, можно делать, когда руки свободны.
 
 Голосом, когда руки мокрые
-Включите микрофон и скажите корейское слово «далее» — «да-ым» (da-eum), чтобы перейти дальше. Распознавание речи пока работает только с корейским. Пока микрофон включён, на экране всегда виден индикатор, а при выходе с экрана приготовления он выключается.
+Включите микрофон и скажите «далее», чтобы перейти к следующему шагу. Пока микрофон включён, на экране всегда виден индикатор, а при выходе с экрана приготовления он выключается.
 
 Текст, который видно издалека
 Поставьте устройство на стол и отойдите на шаг-два. Размер текста можно увеличить в четыре этапа.
@@ -488,7 +488,7 @@ Toda la cronología de un vistazo
 Mira cuándo coinciden tus manos, la olla de la pasta y la sartén de la salsa. Las tareas con línea de puntos se pueden hacer cuando tengas las manos libres.
 
 Con la voz, sin tocar la pantalla
-Activa el micrófono y di la palabra coreana para «siguiente» (da-eum) para avanzar. Por ahora el reconocimiento de voz solo entiende coreano. Mientras el micrófono está activo se muestra siempre en pantalla y se apaga al salir de la pantalla de cocina.
+Activa el micrófono y di «siguiente» para avanzar. Mientras el micrófono está activo se muestra siempre en pantalla y se apaga al salir de la pantalla de cocina.
 
 Texto que se lee desde lejos
 Apoya el dispositivo en la encimera y échate atrás un par de pasos. El texto se puede agrandar en cuatro niveles.
@@ -552,7 +552,7 @@ Die ganze Zeitleiste auf einen Blick
 Sieh, wann sich deine Hände, der Nudeltopf und die Soßenpfanne überschneiden. Gepunktete Aufgaben kannst du erledigen, wenn deine Hände frei sind.
 
 Per Sprache weiter bei nassen Händen
-Schalte das Mikrofon ein und sag das koreanische Wort für „weiter“ (da-eum), um zum nächsten Schritt zu gehen. Die Spracherkennung versteht derzeit nur Koreanisch. Solange das Mikrofon läuft, ist es immer auf dem Bildschirm zu sehen, und beim Verlassen der Kochansicht schaltet es sich aus.
+Schalte das Mikrofon ein und sag „weiter“, um zum nächsten Schritt zu gehen. Solange das Mikrofon läuft, ist es immer auf dem Bildschirm zu sehen, und beim Verlassen der Kochansicht schaltet es sich aus.
 
 Schrift, die man auch von Weitem liest
 Stell das Gerät auf die Arbeitsplatte und tritt ein, zwei Schritte zurück. Die Schrift lässt sich in vier Stufen vergrößern.
@@ -616,7 +616,7 @@ Toute la chronologie d’un coup d’œil
 Voyez quand vos mains, la casserole des pâtes et la poêle de la sauce se chevauchent. Les tâches en pointillés peuvent se faire quand vos mains sont libres.
 
 À la voix quand vos mains sont mouillées
-Activez le micro et dites le mot coréen pour « suivant » (da-eum) pour passer à l’étape suivante. La reconnaissance vocale ne comprend pour l’instant que le coréen. Tant que le micro est actif, il est toujours signalé à l’écran, et il s’éteint quand vous quittez l’écran de cuisson.
+Activez le micro et dites « suivant » pour passer à l’étape d’après. Tant que le micro est actif, il est toujours signalé à l’écran, et il s’éteint quand vous quittez l’écran de cuisson.
 
 Un texte lisible de loin
 Posez l’appareil sur le plan de travail et reculez d’un pas ou deux. Le texte peut être agrandi en quatre niveaux.
@@ -680,7 +680,7 @@ Tutta la cronologia a colpo d’occhio
 Guarda quando si sovrappongono le tue mani, la pentola della pasta e la padella del sugo. I compiti tratteggiati si possono fare quando hai le mani libere.
 
 Avanti con la voce, a mani bagnate
-Attiva il microfono e di’ la parola coreana per «avanti» (da-eum) per passare al passaggio successivo. Per ora il riconoscimento vocale capisce solo il coreano. Finché il microfono è attivo, resta sempre visibile sullo schermo e si spegne quando esci dalla schermata di cottura.
+Attiva il microfono e di’ «avanti» per passare al passaggio successivo. Finché il microfono è attivo, resta sempre visibile sullo schermo e si spegne quando esci dalla schermata di cottura.
 
 Testo leggibile da lontano
 Appoggia il dispositivo sul piano di lavoro e fai uno o due passi indietro. Il testo si può ingrandire in quattro livelli.
@@ -744,7 +744,7 @@ Toda a linha do tempo num relance
 Veja quando suas mãos, a panela do macarrão e a frigideira do molho se sobrepõem. As tarefas pontilhadas podem ser feitas quando suas mãos estiverem livres.
 
 Pela voz, de mãos molhadas
-Ligue o microfone e diga a palavra coreana para “próximo” (da-eum) para avançar. Por enquanto, o reconhecimento de voz entende apenas coreano. Enquanto o microfone está ligado, ele aparece sempre na tela e desliga quando você sai da tela de preparo.
+Ligue o microfone e diga “próximo” para avançar. Enquanto o microfone está ligado, ele aparece sempre na tela e desliga quando você sai da tela de preparo.
 
 Texto legível de longe
 Apoie o aparelho na bancada e dê um ou dois passos para trás. O texto pode ser aumentado em quatro níveis.
@@ -808,7 +808,7 @@ Geusaie: ตัวจับเวลาพาสต้า
 ดูว่ามือของคุณ หม้อต้มเส้น และกระทะซอสทับซ้อนกันตอนไหน งานที่เป็นเส้นประทำได้ตอนมือว่าง
 
 สั่งด้วยเสียงเมื่อมือเปียก
-เปิดไมโครโฟนแล้วพูดคำภาษาเกาหลีที่แปลว่า “ถัดไป” (da-eum) เพื่อไปขั้นตอนต่อไป ขณะนี้การรู้จำเสียงเข้าใจเฉพาะภาษาเกาหลี ระหว่างที่ไมโครโฟนเปิดอยู่จะแสดงบนหน้าจอเสมอ และจะปิดเมื่อออกจากหน้าจอทำอาหาร
+เปิดไมโครโฟนแล้วพูดว่า “ถัดไป” เพื่อไปขั้นตอนต่อไป ระหว่างที่ไมโครโฟนเปิดอยู่จะแสดงบนหน้าจอเสมอ และจะปิดเมื่อออกจากหน้าจอทำอาหาร
 
 ตัวอักษรที่อ่านได้แม้ยืนห่าง
 ตั้งเครื่องไว้บนเคาน์เตอร์แล้วถอยออกมาหนึ่งสองก้าว ขยายตัวอักษรได้สี่ระดับ
@@ -846,7 +846,7 @@ Hai nồi không lo lỡ nhịp
 
 ### 키워드
 
-công,thức,bước,bấm,đếm,ngược,bếp,carbonara,spaghetti,bữa,tối,sốt,luộc,giọng,nói,báo,nồi,aglio,olio
+công thức,đếm ngược,nhà bếp,spaghetti,carbonara,aglio olio,bữa tối,nước sốt,giọng nói,luộc,món ngon
 
 ### 프로모션 텍스트
 
@@ -872,7 +872,7 @@ Toàn bộ dòng thời gian trong một cái nhìn
 Xem khi nào đôi tay, nồi luộc mì và chảo nước sốt chồng lên nhau. Việc có nét đứt có thể làm khi tay rảnh.
 
 Dùng giọng nói khi tay ướt
-Bật micrô và nói từ tiếng Hàn nghĩa là “tiếp theo” (da-eum) để sang bước kế. Hiện nhận dạng giọng nói chỉ hiểu tiếng Hàn. Khi micrô bật, trên màn hình luôn có chỉ báo, và micrô tắt khi bạn rời màn hình nấu.
+Bật micrô và nói “tiếp theo” để sang bước kế. Khi micrô bật, trên màn hình luôn có chỉ báo, và micrô tắt khi bạn rời màn hình nấu.
 
 Chữ đọc được từ xa
 Dựng thiết bị trên mặt bếp rồi lùi ra một hai bước. Cỡ chữ có thể phóng to bốn mức.
@@ -936,7 +936,7 @@ Celá časová osa na první pohled
 Podívejte se, kdy se překrývají vaše ruce, hrnec na těstoviny a pánev na omáčku. Čárkované úkoly lze udělat, když máte volné ruce.
 
 Hlasem, když máte mokré ruce
-Zapněte mikrofon a řekněte korejské slovo pro „další“ (da-eum), abyste přešli na další krok. Rozpoznávání řeči zatím rozumí jen korejsky. Dokud je mikrofon zapnutý, je stále vidět na obrazovce a po opuštění obrazovky vaření se vypne.
+Zapněte mikrofon a řekněte „další“ a aplikace přejde na další krok. Dokud je mikrofon zapnutý, je stále vidět na obrazovce a po opuštění obrazovky vaření se vypne.
 
 Písmo čitelné zdálky
 Opřete zařízení na lince a ustupte o krok nebo dva. Text lze zvětšit ve čtyřech stupních.
@@ -1000,7 +1000,7 @@ Hele tidslinjen med ét blik
 Se, hvornår dine hænder, pastagryden og sauce-panden overlapper. Stiplede opgaver kan gøres, når dine hænder er frie.
 
 Stemmestyring med våde hænder
-Slå mikrofonen til og sig det koreanske ord for “næste” (da-eum) for at gå videre. Talegenkendelsen forstår i øjeblikket kun koreansk. Så længe mikrofonen er tændt, vises den altid på skærmen, og den slukkes, når du forlader madlavningsskærmen.
+Slå mikrofonen til og sig “næste” for at gå videre. Så længe mikrofonen er tændt, vises den altid på skærmen, og den slukkes, når du forlader madlavningsskærmen.
 
 Tekst, der kan læses på afstand
 Stil enheden op på køkkenbordet og træd et par skridt tilbage. Teksten kan gøres større i fire trin.
@@ -1064,7 +1064,7 @@ Geusaie: χρονόμετρο ζυμαρικών
 Δείτε πότε επικαλύπτονται τα χέρια σας, η κατσαρόλα των ζυμαρικών και το τηγάνι της σάλτσας. Οι διακεκομμένες εργασίες γίνονται όταν τα χέρια σας είναι ελεύθερα.
 
 Με τη φωνή, όταν έχετε βρεγμένα χέρια
-Ενεργοποιήστε το μικρόφωνο και πείτε την κορεατική λέξη για το «επόμενο» (da-eum) για να προχωρήσετε. Η αναγνώριση ομιλίας καταλαβαίνει προς το παρόν μόνο κορεατικά. Όσο το μικρόφωνο είναι ανοιχτό, φαίνεται πάντα στην οθόνη και κλείνει όταν φεύγετε από την οθόνη μαγειρέματος.
+Ενεργοποιήστε το μικρόφωνο και πείτε «επόμενο» για να προχωρήσετε. Όσο το μικρόφωνο είναι ανοιχτό, φαίνεται πάντα στην οθόνη και κλείνει όταν φεύγετε από την οθόνη μαγειρέματος.
 
 Κείμενο που διαβάζεται από μακριά
 Στηρίξτε τη συσκευή στον πάγκο και κάντε ένα-δύο βήματα πίσω. Το κείμενο μεγαλώνει σε τέσσερα επίπεδα.
@@ -1128,7 +1128,7 @@ Koko aikajana yhdellä silmäyksellä
 Näe, milloin kätesi, pastakattila ja kastikepannu osuvat päällekkäin. Katkoviivalla merkityt tehtävät voi tehdä, kun kätesi ovat vapaat.
 
 Äänellä märin käsin
-Kytke mikrofoni päälle ja sano korean sana ”seuraava” (da-eum) siirtyäksesi eteenpäin. Puheentunnistus ymmärtää toistaiseksi vain koreaa. Kun mikrofoni on päällä, se näkyy aina näytöllä ja sammuu, kun poistut ruoanlaittonäytöstä.
+Kytke mikrofoni päälle ja sano ”seuraava”, niin siirryt eteenpäin. Kun mikrofoni on päällä, se näkyy aina näytöllä ja sammuu, kun poistut ruoanlaittonäytöstä.
 
 Teksti, jonka lukee kauempaakin
 Nojaa laite tasoa vasten ja astu askel tai kaksi taaksepäin. Tekstiä voi suurentaa neljässä portaassa.
@@ -1192,7 +1192,7 @@ Seluruh lini masa dalam sekali lihat
 Lihat kapan tanganmu, panci pasta, dan wajan saus saling bertumpuk. Tugas bergaris putus-putus bisa dikerjakan saat tanganmu bebas.
 
 Dengan suara saat tangan basah
-Nyalakan mikrofon dan ucapkan kata Korea untuk “berikutnya” (da-eum) untuk lanjut. Pengenalan suara saat ini hanya memahami bahasa Korea. Selama mikrofon aktif, penandanya selalu terlihat di layar, dan mikrofon mati saat kamu meninggalkan layar memasak.
+Nyalakan mikrofon dan ucapkan “berikutnya” untuk lanjut. Selama mikrofon aktif, penandanya selalu terlihat di layar, dan mikrofon mati saat kamu meninggalkan layar memasak.
 
 Teks yang terbaca dari jauh
 Sandarkan perangkat di meja dapur lalu mundur satu atau dua langkah. Ukuran teks bisa diperbesar dalam empat tingkat.
@@ -1256,7 +1256,7 @@ Hele tidslinjen med ett blikk
 Se når hendene dine, pastakjelen og saussteikepannen overlapper. Oppgaver med stiplet strek kan gjøres når hendene dine er frie.
 
 Stemmestyring når du har våte hender
-Slå på mikrofonen og si det koreanske ordet for «neste» (da-eum) for å gå videre. Talegjenkjenningen forstår foreløpig bare koreansk. Mens mikrofonen er på, vises den alltid på skjermen, og den slås av når du forlater matlagingsskjermen.
+Slå på mikrofonen og si «neste» for å gå videre. Mens mikrofonen er på, vises den alltid på skjermen, og den slås av når du forlater matlagingsskjermen.
 
 Tekst som kan leses på avstand
 Sett enheten opp på kjøkkenbenken og ta et par skritt tilbake. Teksten kan gjøres større i fire trinn.
@@ -1320,7 +1320,7 @@ De hele tijdlijn in één oogopslag
 Zie wanneer je handen, de pastapan en de sauspan elkaar overlappen. Gestippelde taken kun je doen als je handen vrij zijn.
 
 Met je stem bij natte handen
-Zet de microfoon aan en zeg het Koreaanse woord voor “volgende” (da-eum) om verder te gaan. Spraakherkenning begrijpt voorlopig alleen Koreaans. Zolang de microfoon aanstaat, is hij altijd zichtbaar op het scherm en hij gaat uit als je het kookscherm verlaat.
+Zet de microfoon aan en zeg “volgende” om verder te gaan. Zolang de microfoon aanstaat, is hij altijd zichtbaar op het scherm en hij gaat uit als je het kookscherm verlaat.
 
 Tekst die je van een afstand leest
 Zet het apparaat op het aanrecht en stap een of twee passen terug. De tekst kun je in vier stappen vergroten.
@@ -1384,7 +1384,7 @@ Cała oś czasu jednym spojrzeniem
 Zobacz, kiedy nakładają się Twoje ręce, garnek na makaron i patelnia na sos. Zadania z przerywaną linią możesz zrobić, gdy masz wolne ręce.
 
 Głosem, gdy masz mokre ręce
-Włącz mikrofon i powiedz koreańskie słowo oznaczające „dalej” (da-eum), aby przejść dalej. Rozpoznawanie mowy rozumie na razie tylko koreański. Gdy mikrofon jest włączony, widać go zawsze na ekranie, a po opuszczeniu ekranu gotowania wyłącza się.
+Włącz mikrofon i powiedz „dalej”, aby przejść do następnego kroku. Gdy mikrofon jest włączony, widać go zawsze na ekranie, a po opuszczeniu ekranu gotowania wyłącza się.
 
 Tekst czytelny z daleka
 Oprzyj urządzenie na blacie i cofnij się o krok czy dwa. Tekst można powiększyć w czterech stopniach.
@@ -1448,7 +1448,7 @@ Hela tidslinjen med en blick
 Se när dina händer, pastagrytan och såspannan överlappar. Uppgifter med streckad linje kan göras när dina händer är lediga.
 
 Röststyrning när du har blöta händer
-Slå på mikrofonen och säg det koreanska ordet för ”nästa” (da-eum) för att gå vidare. Taligenkänningen förstår för närvarande bara koreanska. Medan mikrofonen är på syns den alltid på skärmen, och den stängs av när du lämnar matlagningsskärmen.
+Slå på mikrofonen och säg ”nästa” för att gå vidare. Medan mikrofonen är på syns den alltid på skärmen, och den stängs av när du lämnar matlagningsskärmen.
 
 Text som går att läsa på avstånd
 Luta enheten mot något på bänken och backa ett par steg. Texten kan göras större i fyra steg.
@@ -1512,7 +1512,7 @@ Tüm zaman çizelgesi tek bakışta
 Ellerinizin, makarna tenceresinin ve sos tavasının ne zaman çakıştığını görün. Kesikli çizgili işler elleriniz boşken yapılabilir.
 
 Elleriniz ıslakken sesle
-Mikrofonu açıp ilerlemek için Korecede “ileri” anlamına gelen sözcüğü (da-eum) söyleyin. Konuşma tanıma şimdilik yalnızca Korece anlar. Mikrofon açıkken ekranda her zaman görünür ve pişirme ekranından çıkınca kapanır.
+Mikrofonu açın ve ilerlemek için “ileri” deyin. Mikrofon açıkken ekranda her zaman görünür ve pişirme ekranından çıkınca kapanır.
 
 Uzaktan okunan yazı
 Cihazı tezgâha dayayıp bir iki adım geri çekilin. Yazı dört kademe büyütülebilir.

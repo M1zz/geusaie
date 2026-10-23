@@ -832,6 +832,17 @@ enum TimelineMetrics {
     static let lanePadding: CGFloat = 5
     static let labelColumn: CGFloat = 46
 
+    /// 레인 이름 칸 폭 — 가장 긴 낱말이 쪼개지지 않을 만큼 넓힌다.
+    /// 한국어는 46pt 로 넉넉하지만 "Kastrulja dlja pasty"·"Olla de la pasta" 같은 이름은 낱말이 길다.
+    static func labelColumn(_ lanes: [String], fontSize: CGFloat) -> CGFloat {
+        let font = UIFont.systemFont(ofSize: fontSize, weight: .heavy)
+        let widest = lanes
+            .flatMap { $0.split(whereSeparator: { $0.isWhitespace }) }
+            .map { (String($0) as NSString).size(withAttributes: [.font: font]).width }
+            .max() ?? 0
+        return min(max(labelColumn, ceil(widest) + 6), 96)
+    }
+
     /// 순간/아주 짧은 작업은 비율 막대 대신 고정 마커로
     static func isMarker(_ step: RecipeStep) -> Bool {
         step.duration <= 45
@@ -1000,8 +1011,9 @@ struct GanttTimeline: View {
     var body: some View {
         let plan = session.plan
         let total = CGFloat(max(1, plan.total))
+        let labelColumn = TimelineMetrics.labelColumn(recipe.lanes, fontSize: labelScale)
         let width = TimelineMetrics.trackWidth(recipe, plan,
-                                               viewport: viewport - TimelineMetrics.labelColumn,
+                                               viewport: viewport - labelColumn,
                                                scale: labelScale / 11)
         let layouts = recipe.lanes.map { lane -> LaneLayout in
             let p = TimelineMetrics.place(recipe.rowSteps(lane), plan: plan,
@@ -1024,7 +1036,8 @@ struct GanttTimeline: View {
                         Text(l.lane)
                             .font(.caption2.weight(.heavy))
                             .foregroundStyle(recipe.color(for: l.lane))
-                            .frame(width: TimelineMetrics.labelColumn,
+                            .minimumScaleFactor(0.8)
+                            .frame(width: labelColumn,
                                    height: TimelineMetrics.height(rows: l.rows),
                                    alignment: .leading)
                     }

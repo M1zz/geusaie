@@ -5,7 +5,8 @@ import AVFoundation
 // MARK: - "다음" 한 마디로 단계를 넘긴다
 //
 // 요리 중엔 손이 젖어 있거나 기름이 묻어 있다. 화면을 만지지 않고 말로 넘길 수 있게
-// 한국어 음성인식을 켜 두고 '다음'만 듣는다. 가능하면 기기 안에서만 처리한다.
+// 앱이 보이는 언어로 음성인식을 켜 두고 그 언어의 '다음'(버튼 글자와 같은 말)만 듣는다.
+// 가능하면 기기 안에서만 처리한다.
 
 @MainActor
 final class VoiceCue: ObservableObject {
@@ -14,7 +15,7 @@ final class VoiceCue: ObservableObject {
         case off          // 꺼짐 (사용자가 껐거나 아직 시작 전)
         case listening    // 듣는 중
         case denied       // 권한 없음
-        case unavailable  // 이 기기에서 한국어 인식을 못 씀
+        case unavailable  // 이 기기에서 그 언어 인식을 못 씀
     }
 
     @Published private(set) var state: State = .off
@@ -23,7 +24,8 @@ final class VoiceCue: ObservableObject {
     var onNext: (() -> Void)?
 
     private let engine = AVAudioEngine()
-    private let recognizer = SFSpeechRecognizer(locale: Locale(identifier: "ko_KR"))
+    private let language = VoiceCue.appLanguage
+    private lazy var recognizer = SFSpeechRecognizer(locale: Locale(identifier: VoiceCue.speechLocale(for: language)))
     private var request: SFSpeechAudioBufferRecognitionRequest?
     private var task: SFSpeechRecognitionTask?
 
@@ -98,7 +100,7 @@ final class VoiceCue: ObservableObject {
                     guard let self else { return }
                     if let text = result?.bestTranscription.formattedString, !text.isEmpty {
                         self.restarts = 0          // 소리가 들어오고 있다
-                        if Self.hearsNext(text) { self.fire() }
+                        if Self.hearsNext(text, language: self.language) { self.fire() }
                     }
                     if error != nil || result?.isFinal == true { self.restart() }
                 }
@@ -109,10 +111,51 @@ final class VoiceCue: ObservableObject {
         }
     }
 
+    // MARK: 언어
+
+    /// 지금 앱 화면이 쓰는 언어(번역 묶음 이름: ko · en · en-GB · zh-Hans …)
+    static var appLanguage: String { Bundle.main.preferredLocalizations.first ?? "ko" }
+
+    /// 음성 인식기에 줄 지역 로케일 — 화면 언어와 같은 말로 듣는다
+    static func speechLocale(for language: String) -> String {
+        let map = ["ko": "ko-KR", "en": "en-US", "en-GB": "en-GB", "ja": "ja-JP",
+                   "zh-Hans": "zh-CN", "zh-Hant": "zh-TW", "ru": "ru-RU", "es": "es-ES",
+                   "de": "de-DE", "fr": "fr-FR", "it": "it-IT", "pt-BR": "pt-BR", "th": "th-TH",
+                   "vi": "vi-VN", "cs": "cs-CZ", "da": "da-DK", "el": "el-GR", "fi": "fi-FI",
+                   "id": "id-ID", "nb": "nb-NO", "nl": "nl-NL", "pl": "pl-PL", "sv": "sv-SE",
+                   "tr": "tr-TR"]
+        return map[language] ?? map[String(language.prefix(2))] ?? "ko-KR"
+    }
+
+    /// 언어마다 '다음'으로 알아들을 말 — 첫 번째가 화면 버튼에 적힌 말이다
+    static func nextWords(for language: String) -> [String] {
+        let words: [String: [String]] = [
+            "ko": ["다음"],
+            "en": ["next"], "en-GB": ["next"],
+            "ja": ["次へ", "次", "つぎ", "ネクスト"],
+            "zh-Hans": ["下一步", "下一个", "下一"], "zh-Hant": ["下一步", "下一個", "下一"],
+            "ru": ["далее", "дальше", "следующ"],
+            "es": ["siguiente"], "de": ["weiter"], "fr": ["suivant"],
+            "it": ["avanti", "successivo"], "pt-BR": ["próximo"],
+            "th": ["ถัดไป", "ต่อไป"], "vi": ["tiếp theo", "tiếp"],
+            "cs": ["další"], "da": ["næste"], "el": ["επόμενο"], "fi": ["seuraava"],
+            "id": ["berikutnya", "lanjut"], "nb": ["neste"], "nl": ["volgende"],
+            "pl": ["dalej", "następn"], "sv": ["nästa"], "tr": ["ileri", "sonraki"],
+        ]
+        return words[language] ?? words[String(language.prefix(2))] ?? ["다음"]
+    }
+
     /// 방금 한 말의 끝이 '다음'인지 — 앞에서 한 번 나온 말이 계속 걸리지 않게 뒤만 본다
-    static func hearsNext(_ text: String) -> Bool {
-        let tail = text.split(separator: " ").suffix(2).joined()
-        return tail.contains("다음")
+    static func hearsNext(_ text: String, language: String = "ko") -> Bool {
+        let fold: (String) -> String = {
+            $0.folding(options: [.caseInsensitive, .diacriticInsensitive, .widthInsensitive],
+                       locale: Locale(identifier: language))
+        }
+        let tail = fold(text.split(separator: " ").suffix(2).joined(separator: " "))
+        let squeezed = tail.replacingOccurrences(of: " ", with: "")
+        return nextWords(for: language).map(fold).contains {
+            tail.contains($0) || squeezed.contains($0.replacingOccurrences(of: " ", with: ""))
+        }
     }
 
     private func fire() {

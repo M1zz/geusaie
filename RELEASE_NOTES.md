@@ -1,5 +1,200 @@
 # 그사이에 릴리즈 노트
 
+## 1.0.2
+
+### 앱스토어 (한국어) (ko)
+
+영어와 일본어 등 23개 언어로도 쓸 수 있습니다
+음성으로 넘길 때 앱 화면의 언어로 말하면 됩니다
+처음 열면 쓰는 법을 짧게 안내합니다
+설정에서 의견을 보내고 앞으로 만들 기능을 봅니다
+단축어와 Siri로 바로 요리를 열 수 있습니다
+
+### 앱스토어 (English) (en)
+
+Now in 24 languages
+Say next in the app language to move on
+A short guide on first launch
+Send feedback and see plans in Settings
+Open recipes with Shortcuts and Siri
+
+### App Store (en-GB)
+
+Now in 24 languages
+Say next in the app language to move on
+A short guide on first launch
+Send feedback and see plans in Settings
+Open recipes with Shortcuts and Siri
+
+### 앱스토어 (日本語) (ja)
+
+24の言語で使えるようになりました
+音声操作はアプリの表示言語で話せます
+初めて開くと使い方を短くご案内します
+設定から意見を送り、今後の機能を見られます
+ショートカットとSiriでレシピをすぐ開けます
+
+### 앱스토어 (中文简体) (zh-Hans)
+
+现已支持24种语言
+语音翻页时，用应用显示的语言说即可
+首次打开时会简短介绍用法
+可在设置中反馈意见，查看即将推出的功能
+通过快捷指令和Siri直接打开菜谱
+
+### 앱스토어 (中文繁體) (zh-Hant)
+
+現在支援24種語言
+語音換下一步時，用 App 顯示的語言說即可
+第一次開啟時會簡短介紹用法
+可在設定中回饋意見，查看即將推出的功能
+透過捷徑和Siri直接開啟食譜
+
+### 앱스토어 (Русский) (ru)
+
+Теперь на 24 языках
+Листайте голосом на языке приложения
+Короткая подсказка при первом запуске
+Отзыв и планы теперь в настройках
+Рецепты открываются через Команды и Siri
+
+### 앱스토어 (Español) (es)
+
+Ahora en 24 idiomas
+Di siguiente en el idioma de la app
+Guía breve la primera vez que la abres
+Opina y mira lo que viene en Ajustes
+Abre recetas con Atajos y Siri
+
+### 앱스토어 (Deutsch) (de)
+
+Jetzt in 24 Sprachen
+Sag weiter in der Sprache der App
+Kurze Einführung beim ersten Start
+Feedback und Pläne in den Einstellungen
+Rezepte per Kurzbefehl und Siri öffnen
+
+### 앱스토어 (Français) (fr)
+
+Disponible en 24 langues
+Dites suivant dans la langue de l’app
+Un court guide au premier lancement
+Avis et nouveautés à venir dans Réglages
+Vos recettes via Raccourcis et Siri
+
+### 앱스토어 (Italiano) (it)
+
+Ora in 24 lingue
+Di’ avanti nella lingua dell’app
+Una breve guida al primo avvio
+Invia un parere e scopri le novità
+Apri le ricette con Comandi e Siri
+
+### 앱스토어 (Português (Brasil)) (pt-BR)
+
+Agora em 24 idiomas
+Diga próximo no idioma do app
+Um guia rápido na primeira vez
+Opinião e novidades em Ajustes
+Abra receitas com Atalhos e Siri
+
+### 앱스토어 (ไทย) (th)
+
+ตอนนี้ใช้งานได้ 24 ภาษา
+สั่งด้วยเสียงเป็นภาษาของแอปได้เลย
+เปิดครั้งแรกมีคำแนะนำสั้นๆ
+ส่งความเห็นและดูสิ่งที่จะมาในการตั้งค่า
+เปิดสูตรด้วยคำสั่งลัดและ Siri
+
+### 앱스토어 (Tiếng Việt) (vi)
+
+Nay đã có 24 ngôn ngữ
+Nói tiếp theo bằng ngôn ngữ của ứng dụng
+Lần đầu mở sẽ có hướng dẫn ngắn
+Góp ý và xem tính năng sắp có ở Cài đặt
+Mở công thức bằng Phím tắt và Siri
+
+### 앱스토어 (Čeština) (cs)
+
+Nově ve 24 jazycích
+Řekněte další v jazyce aplikace
+Krátký úvod při prvním spuštění
+Názor a novinky najdete v Nastavení
+Recepty otevřete přes Zkratky a Siri
+
+### 앱스토어 (Dansk) (da)
+
+Nu på 24 sprog
+Sig næste på appens sprog
+En kort guide første gang
+Feedback og nyt på vej i Indstillinger
+Åbn opskrifter via Genveje og Siri
+
+### 앱스토어 (Ελληνικά) (el)
+
+Τώρα σε 24 γλώσσες
+Πείτε επόμενο στη γλώσσα της εφαρμογής
+Σύντομος οδηγός στο πρώτο άνοιγμα
+Σχόλια και νέα στις Ρυθμίσεις
+Συνταγές με Συντομεύσεις και Siri
+
+### 앱스토어 (Suomi) (fi)
+
+Nyt 24 kielellä
+Sano seuraava sovelluksen kielellä
+Lyhyt opastus ensimmäisellä kerralla
+Palaute ja tulevat ominaisuudet
+Avaa reseptit Pikakomennoilla ja Sirillä
+
+### 앱스토어 (Bahasa Indonesia) (id)
+
+Kini tersedia dalam 24 bahasa
+Ucapkan berikutnya dalam bahasa aplikasi
+Panduan singkat saat pertama dibuka
+Kirim masukan dan lihat rencana fitur
+Buka resep dengan Pintasan dan Siri
+
+### 앱스토어 (Norsk bokmål) (nb)
+
+Nå på 24 språk
+Si neste på appens språk
+En kort veiledning første gang
+Gi innspill og se hva som kommer
+Åpne oppskrifter med Snarveier og Siri
+
+### 앱스토어 (Nederlands) (nl)
+
+Nu in 24 talen
+Zeg volgende in de taal van de app
+Korte uitleg bij de eerste keer
+Feedback en plannen in Instellingen
+Open recepten met Opdrachten en Siri
+
+### 앱스토어 (Polski) (pl)
+
+Teraz w 24 językach
+Powiedz dalej w języku aplikacji
+Krótki przewodnik na start
+Opinie i plany w Ustawieniach
+Przepisy przez Skróty i Siri
+
+### 앱스토어 (Svenska) (sv)
+
+Nu på 24 språk
+Säg nästa på appens språk
+En kort guide första gången
+Feedback och nyheter i Inställningar
+Öppna recept med Genvägar och Siri
+
+### 앱스토어 (Türkçe) (tr)
+
+Artık 24 dilde
+Uygulamanın dilinde ileri deyin
+İlk açılışta kısa bir rehber
+Ayarlar’da görüş ve yenilikler
+Tarifleri Kestirmeler ve Siri ile açın
+
+
 ## 1.0.1
 
 ### 앱스토어 (한국어)

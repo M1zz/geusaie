@@ -6,73 +6,73 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Poslouchá jen korejské slovo „다음“ („další“) a zvuk neukládá"
+            "value" : "Reaguje jen na slovo „další“ a nikdy neukládá zvuk"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lytter kun efter det koreanske ord “다음” (“næste”) og gemmer aldrig lyd"
+            "value" : "Lytter kun efter ordet “næste” og gemmer aldrig lyd"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hört nur auf das koreanische Wort „다음“ („weiter“) und speichert keinen Ton"
+            "value" : "Hört nur auf das Wort „weiter“ und speichert keinen Ton"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ακούει μόνο την κορεατική λέξη «다음» («επόμενο») και δεν αποθηκεύει ποτέ ήχο"
+            "value" : "Ακούει μόνο τη λέξη «επόμενο» και δεν αποθηκεύει ποτέ ήχο"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Listens only for the Korean word “다음” (“next”) and never saves audio"
+            "value" : "Listens only for the word “next” and never saves audio"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Listens only for the Korean word “다음” (“next”) and never saves audio"
+            "value" : "Listens only for the word ‘next’ and never saves audio"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Solo escucha la palabra coreana «다음» («siguiente») y nunca guarda el audio"
+            "value" : "Solo reconoce la palabra «siguiente» y nunca guarda audio"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kuuntelee vain korean sanaa ”다음” (”seuraava”) eikä tallenna ääntä"
+            "value" : "Kuuntelee vain sanaa ”seuraava” eikä tallenna ääntä"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "N’écoute que le mot coréen « 다음 » (« suivant ») et n’enregistre jamais le son"
+            "value" : "N’écoute que le mot « suivant » et n’enregistre jamais le son"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hanya mendengarkan kata Korea “다음” (“berikutnya”) dan tidak pernah menyimpan suara"
+            "value" : "Hanya mendengar kata “berikutnya” dan tidak pernah menyimpan suara"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ascolta solo la parola coreana «다음» («avanti») e non salva mai l’audio"
+            "value" : "Riconosce solo la parola «avanti» e non salva mai l’audio"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "韓国語の「다음」（「次へ」）だけを聞き取り、音声は保存しません"
+            "value" : "「次へ」という言葉だけを聞き取り、音声は保存しません"
           }
         },
         "ko" : {
@@ -84,67 +84,67 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lytter bare etter det koreanske ordet «다음» («neste») og lagrer aldri lyd"
+            "value" : "Lytter bare etter ordet «neste» og lagrer aldri lyd"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Luistert alleen naar het Koreaanse woord “다음” (“volgende”) en slaat nooit geluid op"
+            "value" : "Luistert alleen naar het woord ‘volgende’ en slaat nooit geluid op"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nasłuchuje tylko koreańskiego słowa „다음” („dalej”) i nigdy nie zapisuje dźwięku"
+            "value" : "Reaguje tylko na słowo „dalej” i nigdy nie zapisuje dźwięku"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Só escuta a palavra coreana “다음” (“próximo”) e nunca grava o áudio"
+            "value" : "Só reconhece a palavra “próximo” e nunca grava o áudio"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Реагирует только на корейское слово «다음» («далее»), звук не сохраняется"
+            "value" : "Реагирует только на слово «далее» и не сохраняет звук"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lyssnar bara efter det koreanska ordet ”다음” (”nästa”) och sparar aldrig ljud"
+            "value" : "Lyssnar bara efter ordet ”nästa” och sparar aldrig ljud"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ฟังเฉพาะคำภาษาเกาหลี “다음” (“ถัดไป”) และไม่บันทึกเสียงไว้"
+            "value" : "ฟังแค่คำว่า “ถัดไป” และไม่บันทึกเสียงใดๆ"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yalnızca Korece “다음” (“ileri”) sözcüğünü dinler, sesi asla kaydetmez"
+            "value" : "Yalnızca “ileri” kelimesini dinler, sesi asla kaydetmez"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chỉ nghe từ tiếng Hàn “다음” (“tiếp theo”) và không lưu âm thanh"
+            "value" : "Chỉ nghe từ “tiếp theo” và không bao giờ lưu âm thanh"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "只识别韩语“다음”（“下一步”），不会保存任何声音"
+            "value" : "只听“下一步”这个词，不保存任何声音"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "只辨識韓語「다음」（「下一步」），不會儲存任何聲音"
+            "value" : "只聽「下一步」這個詞，不會儲存任何聲音"
           }
         }
       }
@@ -6669,73 +6669,73 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Až skončíte, řekněte „다음“ (korejsky „další“)"
+            "value" : "Až skončíte, řekněte „další“"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Når du er færdig, så sig “다음” (koreansk for “næste”)"
+            "value" : "Når du er færdig, så sig “næste”"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wenn du fertig bist, sag „다음“ (Koreanisch für „weiter“)"
+            "value" : "Wenn du fertig bist, sag „weiter“"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Όταν τελειώσετε, πείτε «다음» (στα κορεατικά «επόμενο»)"
+            "value" : "Όταν τελειώσετε, πείτε «επόμενο»"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "When you’re finished, say “다음” (Korean for “next”)"
+            "value" : "When you finish, say “next”"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "When you’re finished, say “다음” (Korean for “next”)"
+            "value" : "When you finish, say ‘next’"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cuando termines, di «다음» (en coreano, «siguiente»)"
+            "value" : "Cuando termines, di «siguiente»"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kun olet valmis, sano ”다음” (koreaksi ”seuraava”)"
+            "value" : "Kun olet valmis, sano ”seuraava”"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quand vous avez fini, dites « 다음 » (« suivant » en coréen)"
+            "value" : "Quand vous avez fini, dites « suivant »"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Setelah selesai, ucapkan “다음” (bahasa Korea untuk “berikutnya”)"
+            "value" : "Kalau sudah selesai, ucapkan “berikutnya”"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quando hai finito, di’ «다음» (in coreano «avanti»)"
+            "value" : "Quando hai finito, di’ «avanti»"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "終わったら「다음」（韓国語で「次へ」）と言ってください"
+            "value" : "終わったら「次へ」と言ってください"
           }
         },
         "ko" : {
@@ -6747,67 +6747,67 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Når du er ferdig, si «다음» (koreansk for «neste»)"
+            "value" : "Når du er ferdig, si «neste»"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zeg “다음” (Koreaans voor “volgende”) als je klaar bent"
+            "value" : "Zeg ‘volgende’ als je klaar bent"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gdy skończysz, powiedz „다음” (po koreańsku „dalej”)"
+            "value" : "Gdy skończysz, powiedz „dalej”"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quando terminar, diga “다음” (“próximo” em coreano)"
+            "value" : "Quando terminar, diga “próximo”"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Закончив, скажите «다음» (по-корейски «далее»)"
+            "value" : "Когда закончите, скажите «далее»"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "När du är klar, säg ”다음” (koreanska för ”nästa”)"
+            "value" : "När du är klar, säg ”nästa”"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เมื่อทำเสร็จ ให้พูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”)"
+            "value" : "ทำเสร็จแล้วให้พูดว่า “ถัดไป”"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "İşiniz bitince “다음” deyin (Korecede “ileri”)"
+            "value" : "Bitirince “ileri” deyin"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Khi làm xong, hãy nói “다음” (tiếng Hàn nghĩa là “tiếp theo”)"
+            "value" : "Làm xong thì nói “tiếp theo”"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "做完后，请说“다음”（韩语“下一步”）"
+            "value" : "做完后，请说“下一步”"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "做完後，請說「다음」（韓語「下一步」）"
+            "value" : "做完後，請說「下一步」"
           }
         }
       }
@@ -6817,73 +6817,73 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hotovo? Řekněte „다음“"
+            "value" : "Hotovo? Řekněte „další“"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Færdig? Sig “다음”"
+            "value" : "Færdig? Sig “næste”"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fertig? Sag „다음“"
+            "value" : "Fertig? Sag „weiter“"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Τελειώσατε; Πείτε «다음»"
+            "value" : "Έτοιμο; Πείτε «επόμενο»"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Done? Say “다음”"
+            "value" : "Done? Say “next”"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Done? Say “다음”"
+            "value" : "Done? Say ‘next’"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "¿Terminaste? Di «다음»"
+            "value" : "¿Listo? Di «siguiente»"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Valmis? Sano ”다음”"
+            "value" : "Valmista? Sano ”seuraava”"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terminé ? Dites « 다음 »"
+            "value" : "C’est fait ? Dites « suivant »"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sudah selesai? Ucapkan “다음”"
+            "value" : "Sudah? Ucapkan “berikutnya”"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Finito? Di’ «다음»"
+            "value" : "Fatto? Di’ «avanti»"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "終わったら「다음」"
+            "value" : "終わったら「次へ」"
           }
         },
         "ko" : {
@@ -6895,67 +6895,67 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ferdig? Si «다음»"
+            "value" : "Ferdig? Si «neste»"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Klaar? Zeg “다음”"
+            "value" : "Klaar? Zeg ‘volgende’"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Skończone? Powiedz „다음”"
+            "value" : "Gotowe? Powiedz „dalej”"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terminou? Diga “다음”"
+            "value" : "Terminou? Diga “próximo”"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Закончили? Скажите «다음»"
+            "value" : "Готово? Скажите «далее»"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Klar? Säg ”다음”"
+            "value" : "Klart? Säg ”nästa”"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เสร็จแล้ว? พูดว่า “다음”"
+            "value" : "เสร็จแล้ว? พูดว่า “ถัดไป”"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bitti mi? “다음” deyin"
+            "value" : "Bitti mi? “İleri” deyin"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Xong rồi? Hãy nói “다음”"
+            "value" : "Xong rồi? Nói “tiếp theo”"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "做完后说“다음”"
+            "value" : "做完了？说“下一步”"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "做完後說「다음」"
+            "value" : "做完了？說「下一步」"
           }
         }
       }
@@ -6965,73 +6965,73 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Až skončíte, řekněte „다음“ (korejsky „další“)"
+            "value" : "Až to budete mít, řekněte „další“"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Når du er færdig, så sig “다음” (koreansk for “næste”)"
+            "value" : "Når du er klar, så sig “næste”"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wenn du fertig bist, sag „다음“ (Koreanisch für „weiter“)"
+            "value" : "Wenn du so weit bist, sag „weiter“"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Όταν τελειώσετε, πείτε «다음» (στα κορεατικά «επόμενο»)"
+            "value" : "Μόλις τελειώσετε, πείτε «επόμενο»"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "When you’re done, say “다음” (Korean for “next”)"
+            "value" : "When you’re done, say “next”"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "When you’re done, say “다음” (Korean for “next”)"
+            "value" : "When you’re done, say ‘next’"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cuando termines, di «다음» (en coreano, «siguiente»)"
+            "value" : "Cuando acabes, di «siguiente»"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kun olet valmis, sano ”다음” (koreaksi ”seuraava”)"
+            "value" : "Kun saat sen tehtyä, sano ”seuraava”"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quand vous avez fini, dites « 다음 » (« suivant » en coréen)"
+            "value" : "Une fois terminé, dites « suivant »"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Setelah selesai, ucapkan “다음” (bahasa Korea untuk “berikutnya”)"
+            "value" : "Setelah selesai, ucapkan “berikutnya”"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quando hai finito, di’ «다음» (in coreano «avanti»)"
+            "value" : "Appena hai fatto, di’ «avanti»"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "終わったら「다음」（韓国語で「次へ」）と言ってください"
+            "value" : "終わったら「次へ」と言ってください"
           }
         },
         "ko" : {
@@ -7043,67 +7043,67 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Når du er ferdig, si «다음» (koreansk for «neste»)"
+            "value" : "Når du er klar, si «neste»"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zeg “다음” (Koreaans voor “volgende”) als je klaar bent"
+            "value" : "Zeg ‘volgende’ zodra je klaar bent"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gdy skończysz, powiedz „다음” (po koreańsku „dalej”)"
+            "value" : "Kiedy skończysz, powiedz „dalej”"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quando terminar, diga “다음” (“próximo” em coreano)"
+            "value" : "Quando acabar, diga “próximo”"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Закончив, скажите «다음» (по-корейски «далее»)"
+            "value" : "Закончив, скажите «далее»"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "När du är klar, säg ”다음” (koreanska för ”nästa”)"
+            "value" : "När du är färdig, säg ”nästa”"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เมื่อทำเสร็จ ให้พูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”)"
+            "value" : "เมื่อทำเสร็จ ให้พูดว่า “ถัดไป”"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "İşiniz bitince “다음” deyin (Korecede “ileri”)"
+            "value" : "İşiniz bitince “ileri” deyin"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Khi làm xong, hãy nói “다음” (tiếng Hàn nghĩa là “tiếp theo”)"
+            "value" : "Khi làm xong, hãy nói “tiếp theo”"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "做完后，请说“다음”（韩语“下一步”）"
+            "value" : "做完后，请说“下一步”"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "做完後，請說「다음」（韓語「下一步」）"
+            "value" : "做完後，請說「下一步」"
           }
         }
       }
@@ -10520,73 +10520,73 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mikrofon je zapnutý. Poslouchám korejské slovo „다음“ („další“)"
+            "value" : "Mikrofon zapnutý. Poslouchá slovo další"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mikrofon slået til. Lytter efter det koreanske ord “다음” (“næste”)"
+            "value" : "Mikrofon til. Lytter efter ordet næste"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mikrofon an. Hört auf das koreanische Wort „다음“ („weiter“)"
+            "value" : "Mikrofon an. Hört auf das Wort weiter"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Μικρόφωνο ενεργό. Ακούει την κορεατική λέξη «다음» («επόμενο»)"
+            "value" : "Μικρόφωνο ανοιχτό. Ακούει για τη λέξη επόμενο"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mic on. Listening for the Korean word “다음” (“next”)"
+            "value" : "Mic on. Listening for the word next"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mic on. Listening for the Korean word “다음” (“next”)"
+            "value" : "Mic on. Listening for the word next"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Micrófono activado. Escuchando la palabra coreana «다음» («siguiente»)"
+            "value" : "Micrófono activado. Escuchando la palabra siguiente"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mikrofoni päällä. Kuuntelee korean sanaa ”다음” (”seuraava”)"
+            "value" : "Mikrofoni päällä. Kuuntelee sanaa seuraava"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Micro activé. À l’écoute du mot coréen « 다음 » (« suivant »)"
+            "value" : "Micro activé. À l’écoute du mot suivant"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mikrofon aktif. Mendengarkan kata Korea “다음” (“berikutnya”)"
+            "value" : "Mikrofon aktif. Mendengarkan kata berikutnya"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Microfono attivo. In ascolto della parola coreana «다음» («avanti»)"
+            "value" : "Microfono attivo. In ascolto della parola avanti"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "マイクオン。韓国語の「다음」（「次へ」）を聞き取り中"
+            "value" : "マイクオン。「次へ」を聞き取り中"
           }
         },
         "ko" : {
@@ -10598,67 +10598,67 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mikrofon på. Lytter etter det koreanske ordet «다음» («neste»)"
+            "value" : "Mikrofon på. Lytter etter ordet neste"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Microfoon aan. Luistert naar het Koreaanse woord “다음” (“volgende”)"
+            "value" : "Microfoon aan. Luistert naar het woord volgende"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mikrofon włączony. Nasłuchuje koreańskiego słowa „다음” („dalej”)"
+            "value" : "Mikrofon włączony. Nasłuchuje słowa dalej"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Microfone ligado. Ouvindo a palavra coreana “다음” (“próximo”)"
+            "value" : "Microfone ligado. Ouvindo a palavra próximo"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Микрофон включён. Слушаю корейское слово «다음» («далее»)"
+            "value" : "Микрофон включён. Ждёт слово «далее»"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mikrofonen på. Lyssnar efter det koreanska ordet ”다음” (”nästa”)"
+            "value" : "Mikrofon på. Lyssnar efter ordet nästa"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เปิดไมโครโฟนอยู่ กำลังฟังคำภาษาเกาหลี “다음” (“ถัดไป”)"
+            "value" : "ไมค์เปิดอยู่ กำลังฟังคำว่าถัดไป"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mikrofon açık. Korece “다음” (“ileri”) sözcüğü dinleniyor"
+            "value" : "Mikrofon açık. İleri kelimesi dinleniyor"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Micrô đang bật. Đang nghe từ tiếng Hàn “다음” (“tiếp theo”)"
+            "value" : "Micrô đang bật. Đang nghe từ tiếp theo"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "麦克风已开启。正在聆听韩语“다음”（“下一步”）"
+            "value" : "麦克风已开启，正在听“下一步”"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "麥克風已開啟。正在聆聽韓語「다음」（「下一步」）"
+            "value" : "麥克風已開啟，正在聽「下一步」"
           }
         }
       }
@@ -14812,73 +14812,73 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Klepněte na tlačítko, nebo když máte mokré ruce, řekněte „다음“ (korejsky „další“). Až bude hrnec hotový, přijde oznámení."
+            "value" : "Klepněte na tlačítko, nebo když máte mokré ruce, řekněte „další“. Když je hrnec hotový, přijde oznámení."
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tryk på knappen, eller sig “다음” (koreansk for “næste”), når du har våde hænder. Du får en besked, når en gryde er klar."
+            "value" : "Tryk på knappen, eller sig “næste”, hvis du har våde hænder. Du får en notifikation, når en gryde er færdig."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tippe auf den Button oder sag bei nassen Händen „다음“ (Koreanisch für „weiter“). Wenn ein Topf fertig ist, bekommst du eine Mitteilung."
+            "value" : "Tippe auf den Button oder sag bei nassen Händen „weiter“. Wenn ein Topf fertig ist, bekommst du eine Mitteilung."
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Πατήστε το κουμπί ή, όταν έχετε βρεγμένα χέρια, πείτε «다음» (στα κορεατικά «επόμενο»). Όταν μια κατσαρόλα είναι έτοιμη, θα λάβετε ειδοποίηση."
+            "value" : "Πατήστε το κουμπί ή, αν έχετε βρεγμένα χέρια, πείτε «επόμενο». Όταν μια κατσαρόλα είναι έτοιμη, θα λάβετε ειδοποίηση."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tap the button, or say “다음” (Korean for “next”) when your hands are wet. You’ll get a notification when a pot is ready."
+            "value" : "Tap the button, or say “next” if your hands are wet. You’ll get a notification when a pot is ready."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tap the button, or say “다음” (Korean for “next”) when your hands are wet. You’ll get a notification when a pot is ready."
+            "value" : "Tap the button, or say ‘next’ if your hands are wet. You’ll get a notification when a pan is ready."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Toca el botón o, si tienes las manos mojadas, di «다음» (en coreano, «siguiente»). Te avisaremos con una notificación cuando una olla esté lista."
+            "value" : "Toca el botón o, si tienes las manos mojadas, di «siguiente». Te avisaremos con una notificación cuando una olla esté lista."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Napauta painiketta tai sano märin käsin ”다음” (koreaksi ”seuraava”). Saat ilmoituksen, kun kattila on valmis."
+            "value" : "Napauta painiketta tai sano märin käsin ”seuraava”. Saat ilmoituksen, kun kattila on valmis."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Touchez le bouton ou, si vous avez les mains mouillées, dites « 다음 » (« suivant » en coréen). Une notification vous prévient quand une casserole est prête."
+            "value" : "Touchez le bouton ou, si vous avez les mains mouillées, dites « suivant ». Une notification vous prévient quand une casserole est prête."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ketuk tombol, atau saat tangan basah, ucapkan “다음” (bahasa Korea untuk “berikutnya”). Kamu akan mendapat notifikasi saat panci sudah siap."
+            "value" : "Ketuk tombol, atau ucapkan “berikutnya” kalau tangan sedang basah. Kamu akan dapat notifikasi saat panci sudah siap."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tocca il pulsante o, se hai le mani bagnate, di’ «다음» (in coreano «avanti»). Quando una pentola è pronta ricevi una notifica."
+            "value" : "Tocca il pulsante o, se hai le mani bagnate, di’ «avanti». Quando una pentola è pronta ricevi una notifica."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ボタンを押すか、手が濡れているときは「다음」（韓国語で「次へ」）と言ってください。鍋が仕上がったら通知でお知らせします。"
+            "value" : "ボタンをタップするか、手が濡れていたら「次へ」と言ってください。鍋ができたら通知でお知らせします。"
           }
         },
         "ko" : {
@@ -14890,67 +14890,67 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Trykk på knappen, eller si «다음» (koreansk for «neste») når du har våte hender. Du får et varsel når en kjele er klar."
+            "value" : "Trykk på knappen, eller si «neste» hvis du er våt på hendene. Du får et varsel når en kjele er ferdig."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tik op de knop of zeg “다음” (Koreaans voor “volgende”) als je natte handen hebt. Je krijgt een melding zodra een pan klaar is."
+            "value" : "Tik op de knop, of zeg ‘volgende’ als je natte handen hebt. Je krijgt een melding als een pan klaar is."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dotknij przycisku albo, gdy masz mokre ręce, powiedz „다음” (po koreańsku „dalej”). Gdy garnek będzie gotowy, dostaniesz powiadomienie."
+            "value" : "Stuknij przycisk albo, gdy masz mokre ręce, powiedz „dalej”. Kiedy garnek będzie gotowy, dostaniesz powiadomienie."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Toque no botão ou, se estiver com as mãos molhadas, diga “다음” (“próximo” em coreano). Você recebe uma notificação quando uma panela ficar pronta."
+            "value" : "Toque no botão ou, se estiver com as mãos molhadas, diga “próximo”. Você recebe uma notificação quando uma panela fica pronta."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Нажмите кнопку или, если руки мокрые, скажите «다음» (по-корейски «далее»). Когда кастрюля будет готова, придёт уведомление."
+            "value" : "Нажмите кнопку или, если руки мокрые, скажите «далее». Когда кастрюля будет готова, придёт уведомление."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tryck på knappen eller säg ”다음” (koreanska för ”nästa”) när du har blöta händer. Du får en avisering när en gryta är klar."
+            "value" : "Tryck på knappen, eller säg ”nästa” om du är blöt om händerna. Du får en notis när en gryta är klar."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "แตะปุ่ม หรือถ้ามือเปียกให้พูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”) เมื่อหม้อเสร็จ จะมีการแจ้งเตือนบอก"
+            "value" : "แตะปุ่ม หรือถ้ามือเปียกก็พูดว่า “ถัดไป” เมื่อหม้อไหนเสร็จจะมีการแจ้งเตือน"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Düğmeye dokunun ya da elleriniz ıslakken “다음” deyin (Korecede “ileri”). Tencere hazır olunca bildirim alırsınız."
+            "value" : "Düğmeye dokunun ya da elleriniz ıslaksa “ileri” deyin. Bir tencere hazır olunca bildirim alırsınız."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chạm nút hoặc, khi tay ướt, hãy nói “다음” (tiếng Hàn nghĩa là “tiếp theo”). Khi nồi xong, bạn sẽ nhận được thông báo."
+            "value" : "Chạm vào nút, hoặc nếu tay đang ướt thì nói “tiếp theo”. Khi một nồi xong, bạn sẽ nhận được thông báo."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "点按钮，或者手湿的时候说“다음”（韩语“下一步”）。锅里的东西好了，会通过通知告诉你。"
+            "value" : "点按按钮，或者手湿的时候直接说“下一步”。锅里的东西好了会发通知提醒你。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "點按鈕，或在手濕的時候說「다음」（韓語「下一步」）。鍋子裡的東西好了，會用通知告訴你。"
+            "value" : "點一下按鈕，或手濕的時候直接說「下一步」。鍋子好了會用通知提醒你。"
           }
         }
       }
@@ -18811,73 +18811,73 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Když máte mokré ruce, řekněte „다음“ (korejsky „další“). Aplikace přejde na další krok, aniž byste se dotkli obrazovky."
+            "value" : "Mokré ruce? Stačí říct „další“ a aplikace přejde na další krok, aniž byste se dotkli displeje."
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Når du har våde hænder, så sig “다음” (koreansk for “næste”). Appen går videre til næste trin, uden at du rører skærmen."
+            "value" : "Våde hænder? Sig bare “næste”, så går appen videre uden at du rører skærmen."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sag bei nassen Händen einfach „다음“ (Koreanisch für „weiter“). Die App springt zum nächsten Schritt, ohne dass du den Bildschirm berührst."
+            "value" : "Nasse Hände? Sag einfach „weiter“. Die App springt zum nächsten Schritt, ohne dass du den Bildschirm berührst."
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Όταν έχετε βρεγμένα χέρια, πείτε «다음» (στα κορεατικά «επόμενο»). Η εφαρμογή προχωρά στο επόμενο βήμα χωρίς να αγγίξετε την οθόνη."
+            "value" : "Βρεγμένα χέρια; Πείτε απλώς «επόμενο» και η εφαρμογή περνά στο επόμενο βήμα χωρίς να αγγίξετε την οθόνη."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With wet hands, just say “다음” (Korean for “next”). The app moves on without a touch."
+            "value" : "Hands wet? Just say “next”. The app moves on without a touch."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With wet hands, just say “다음” (Korean for “next”). The app moves on without a touch."
+            "value" : "Hands wet? Just say ‘next’. The app moves on without a touch."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Si tienes las manos mojadas, di «다음» (en coreano, «siguiente»). La app pasa al siguiente paso sin que toques la pantalla."
+            "value" : "¿Manos mojadas? Di «siguiente» y pasarás al siguiente paso sin tocar la pantalla."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kun kätesi ovat märät, sano ”다음” (koreaksi ”seuraava”). Sovellus siirtyy seuraavaan vaiheeseen ilman että kosketat näyttöä."
+            "value" : "Märät kädet? Sano vain ”seuraava”, niin sovellus siirtyy eteenpäin ilman että kosket näyttöön."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Les mains mouillées ? Dites « 다음 » (« suivant » en coréen). L’app passe à l’étape suivante sans que vous touchiez l’écran."
+            "value" : "Mains mouillées ? Dites simplement « suivant ». L’app passe à l’étape d’après sans toucher l’écran."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saat tangan basah, coba ucapkan “다음” (bahasa Korea untuk “berikutnya”). Aplikasi akan lanjut ke langkah berikutnya tanpa perlu menyentuh layar."
+            "value" : "Tangan basah? Cukup ucapkan “berikutnya”, aplikasi lanjut ke tugas berikutnya tanpa menyentuh layar."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Se hai le mani bagnate, di’ «다음» (in coreano «avanti»). L’app passa al passaggio successivo senza che tu tocchi lo schermo."
+            "value" : "Mani bagnate? Di’ semplicemente «avanti» e passi al passo successivo senza toccare lo schermo."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "手が濡れているときは「다음」（韓国語で「次へ」）と言ってみてください。画面に触れなくても次の作業に進みます。"
+            "value" : "手が濡れていたら「次へ」と言ってみてください。画面に触れなくても次の作業に進みます。"
           }
         },
         "ko" : {
@@ -18889,67 +18889,67 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Når du har våte hender, si «다음» (koreansk for «neste»). Appen går videre til neste trinn uten at du trenger å røre skjermen."
+            "value" : "Våte hender? Bare si «neste», så går appen videre uten at du rører skjermen."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zeg bij natte handen “다음” (Koreaans voor “volgende”). De app gaat naar de volgende stap zonder dat je het scherm aanraakt."
+            "value" : "Natte handen? Zeg gewoon ‘volgende’. De app gaat verder zonder dat je het scherm aanraakt."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gdy masz mokre ręce, powiedz „다음” (po koreańsku „dalej”). Aplikacja przejdzie do kolejnego kroku bez dotykania ekranu."
+            "value" : "Mokre ręce? Po prostu powiedz „dalej”, a aplikacja przejdzie dalej bez dotykania ekranu."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Com as mãos molhadas, diga “다음” (“próximo” em coreano). O app passa para a próxima etapa sem você tocar na tela."
+            "value" : "Mãos molhadas? É só dizer “próximo” e o app passa para a próxima etapa sem você tocar na tela."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Если руки мокрые, скажите «다음» (по-корейски «далее»). Приложение перейдёт к следующему шагу без касания экрана."
+            "value" : "Руки мокрые? Просто скажите «далее» — приложение перейдёт к следующему шагу без касания экрана."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "När du har blöta händer, säg ”다음” (koreanska för ”nästa”). Appen går vidare till nästa steg utan att du rör skärmen."
+            "value" : "Blöta händer? Säg bara ”nästa” så går appen vidare utan att du rör skärmen."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ถ้ามือเปียก ลองพูดว่า “다음” (ภาษาเกาหลีแปลว่า “ถัดไป”) แอปจะไปขั้นตอนถัดไปโดยไม่ต้องแตะหน้าจอ"
+            "value" : "มือเปียกอยู่ใช่ไหม ลองพูดว่า “ถัดไป” ไม่ต้องแตะหน้าจอก็ไปขั้นต่อไปได้"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Elleriniz ıslakken “다음” deyin (Korecede “ileri”). Uygulama ekrana dokunmanıza gerek kalmadan sonraki adıma geçer."
+            "value" : "Elleriniz ıslak mı? Sadece “ileri” deyin, ekrana dokunmadan bir sonraki işe geçilir."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Khi tay ướt, hãy thử nói “다음” (tiếng Hàn nghĩa là “tiếp theo”). Ứng dụng sẽ chuyển sang bước tiếp theo mà không cần chạm vào màn hình."
+            "value" : "Tay đang ướt? Chỉ cần nói “tiếp theo”, ứng dụng sẽ chuyển sang việc kế tiếp mà không cần chạm màn hình."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "手湿的时候，说一声“다음”（韩语“下一步”）试试。不用碰屏幕，也能进入下一步。"
+            "value" : "手湿的时候，说声“下一步”试试。不用碰屏幕就能进入下一件事。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "手濕的時候，說一聲「다음」（韓語「下一步」）試試。不用碰螢幕，也能進入下一步。"
+            "value" : "手濕的時候，說聲「下一步」試試看。不用碰螢幕就能進到下一件事。"
           }
         }
       }
