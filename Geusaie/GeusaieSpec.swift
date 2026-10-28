@@ -30,6 +30,8 @@ enum GeusaieSpec: LeeoAppSpec {
     )
 
     /// 수익모델 (LeeoKit 3.x 부터 필수) — 인앱 결제가 없는 무료 앱.
+    /// App Store 숫자 ID — 설정의 친구에게 소개하기·리뷰 남기기 링크가 쓴다.
+    static let appStoreID: String? = "6793473149"
     static let monetization = LeeoMonetization.free
 
     /// 익명 사용 통계 → FeedbackHub(CloudKit). 기본값(Noop)이면 부트스트랩이 아무것도 보내지 않는다.
