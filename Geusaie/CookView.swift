@@ -66,7 +66,8 @@ struct CookView: View {
                 }
             }
         }
-        .dynamicTypeSize(textScale.dynamic)
+        // 앱에서 고른 크기와 기기 설정 중 큰 쪽 — 기기에서 키운 글자를 앱이 줄이지 않는다
+        .dynamicTypeSize(max(typeSize, textScale.dynamic))
         .onAppear {
             voice.onNext = {
                 session.advance()
@@ -211,9 +212,10 @@ struct CookView: View {
             Image(systemName: "chevron.down")
                 .font(.title3.weight(.bold))
                 .foregroundStyle(Theme.inkSoft)
-                .frame(width: 36, height: 36)
+                .frame(minWidth: 36, minHeight: 36)
         }
         .accessibilityLabel(inProgress ? String(localized: "조리 중단하고 나가기") : String(localized: "닫기"))
+        .accessibilityInputLabels([Text("닫기"), Text("조리 중단하고 나가기")])
     }
 
     /// 진행과 완성 예정은 같은 무게의 정보다 — 칸도 글자도 같은 크기로
@@ -239,7 +241,7 @@ struct CookView: View {
             Image(systemName: "textformat.size")
                 .font(.title3.weight(.bold))
                 .foregroundStyle(Theme.inkSoft)
-                .frame(width: 40, height: 40)
+                .frame(minWidth: 40, minHeight: 40)
         }
         .accessibilityLabel("글자 크기")
         .accessibilityValue(textScale.label)
@@ -261,6 +263,7 @@ struct CookView: View {
                 .lineLimit(1)
                 .minimumScaleFactor(0.5)   // 줄이더라도 자르지는 않는다
         }
+        .accessibilityElement(children: .combine)
         .padding(.horizontal, 12)
         .padding(.vertical, 6)
         .frame(maxWidth: .infinity)
@@ -359,13 +362,15 @@ struct MicButton: View {
         Button { voice.toggle() } label: {
             Image(systemName: voice.isListening ? "mic.fill" : "mic.slash.fill")
                 .font(.body.weight(.bold))
-                .foregroundStyle(voice.isListening ? .white : Theme.inkSoft)
+                .foregroundStyle(voice.isListening ? Theme.onAccent : Theme.inkSoft)
                 .frame(width: 48, height: 48)
                 .background(
                     Circle().fill(voice.isListening ? Theme.recording : Theme.ringTrack)
                 )
         }
         .accessibilityLabel(voice.isListening ? String(localized: "마이크 끄기") : String(localized: "마이크 켜기"))
+        .accessibilityInputLabels([Text("마이크"),
+                                   Text(voice.isListening ? "마이크 끄기" : "마이크 켜기")])
         .disabled(voice.state == .denied || voice.state == .unavailable)
         .opacity(voice.state == .denied || voice.state == .unavailable ? 0.4 : 1)
     }
@@ -374,6 +379,7 @@ struct MicButton: View {
 /// 마이크 사용 표시 — 켜져 있는 동안 숨길 수 없다. 없애려면 마이크를 꺼야 한다.
 struct ListeningBanner: View {
     @ObservedObject var voice: VoiceCue
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var pulse = false
 
     var body: some View {
@@ -381,8 +387,10 @@ struct ListeningBanner: View {
             Circle()
                 .fill(Theme.recording)
                 .frame(width: 14, height: 14)
-                .opacity(pulse ? 0.35 : 1)
-                .animation(.easeInOut(duration: 0.8).repeatForever(autoreverses: true), value: pulse)
+                // 동작 줄이기면 깜빡이지 않고 켜진 점으로만
+                .opacity(pulse && !reduceMotion ? 0.35 : 1)
+                .animation(reduceMotion ? nil : .easeInOut(duration: 0.8).repeatForever(autoreverses: true),
+                           value: pulse)
                 .onAppear { pulse = true }
             VStack(alignment: .leading, spacing: 2) {
                 Text("마이크 켜짐 · 듣는 중")
@@ -397,7 +405,7 @@ struct ListeningBanner: View {
             Button { voice.turnOff() } label: {
                 Text("끄기")
                     .font(.body.weight(.bold))
-                    .foregroundStyle(.white)
+                    .foregroundStyle(Theme.onAccent)
                     .padding(.horizontal, 14)
                     .padding(.vertical, 8)
                     .background(Capsule().fill(Theme.recording))
@@ -424,7 +432,7 @@ struct FilledButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.subheadline.weight(.bold))
-            .foregroundStyle(.white)
+            .foregroundStyle(Theme.onAccent)
             .padding(.vertical, 14)
             .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(tint))
             .opacity(configuration.isPressed ? 0.8 : 1)
@@ -561,6 +569,7 @@ struct NowStrip: View {
             .font(.subheadline.weight(.bold))
             .foregroundStyle(urgency == .calm ? Theme.inkSoft : urgency.accent)
             .textCase(.uppercase)
+            .accessibilityAddTraits(.isHeader)
     }
 
     /// 냄비에 매인 일 — 시간이 됐으니 지금 해야 한다
@@ -792,7 +801,7 @@ struct PotTile: View {
             RoundedRectangle(cornerRadius: 9, style: .continuous)
                 .fill(color)
                 .overlay(Image(systemName: "hand.raised.fill")
-                    .font(.footnote).foregroundStyle(.white))
+                    .font(.footnote).foregroundStyle(Theme.onAccent))
         case .finished:
             RoundedRectangle(cornerRadius: 9, style: .continuous)
                 .fill(color.opacity(0.25))
@@ -956,6 +965,7 @@ struct TimelineTicks: View {
 /// ScrollViewReader가 찾지 못해 scrollTo가 조용히 무시된다.
 struct NowFollowingScroll<Content: View>: View {
     @ObservedObject var session: CookSession
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     let nowX: CGFloat
     let width: CGFloat
     @ViewBuilder let content: () -> Content
@@ -985,7 +995,7 @@ struct NowFollowingScroll<Content: View>: View {
             }
             .onAppear { proxy.scrollTo(bucket, anchor: .center) }
             .onChange(of: bucket) { _, target in
-                withAnimation(.easeInOut(duration: 0.4)) {
+                withAnimation(reduceMotion ? nil : .easeInOut(duration: 0.4)) {
                     proxy.scrollTo(target, anchor: .center)
                 }
             }
@@ -1035,6 +1045,7 @@ struct GanttTimeline: View {
             Text("타임라인 · 점선은 미뤄도 되는 일")
                 .font(.caption.weight(.semibold))
                 .foregroundStyle(Theme.inkSoft)
+                .accessibilityAddTraits(.isHeader)
 
             HStack(alignment: .top, spacing: 0) {
                 // 고정 레인 라벨 (스크롤해도 남음) — 말풍선 줄 높이만큼 내려서 막대와 맞춤
@@ -1058,6 +1069,8 @@ struct GanttTimeline: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { viewport = $0 }
+            // 막대 그림은 눈으로 보는 것 — 같은 내용을 바로 아래 체크리스트가 순서대로 읽어 준다
+            .accessibilityHidden(true)
         }
         .padding(16)
         .background(
@@ -1081,7 +1094,7 @@ struct GanttTimeline: View {
                     Text(formatSeconds(session.elapsed))
                         .font(.caption2.weight(.heavy).monospaced())
                         .contentTransition(.identity)   // 숫자가 겹쳐 보이는 모핑 끄기
-                        .foregroundStyle(.white)
+                        .foregroundStyle(Theme.cream)
                         .padding(.horizontal, 6).padding(.vertical, 2)
                         .background(Capsule().fill(Theme.ink))
                         .offset(x: min(max(nowX - bubbleWidth / 2, 0), width - bubbleWidth))
@@ -1165,7 +1178,7 @@ struct StepBar: View {
                     Text(step.emoji).font(.caption2)
                 }
             }
-            .foregroundStyle(status == .upcoming ? Theme.ink.opacity(0.65) : .white)
+            .foregroundStyle(labelColor)
         } else {
             HStack(spacing: 3) {
                 if status == .done {
@@ -1178,8 +1191,17 @@ struct StepBar: View {
                     .lineLimit(1)
                     .minimumScaleFactor(0.5)   // 막대 안에서는 줄이되 자르지 않는다
             }
-            .foregroundStyle(status == .upcoming ? Theme.ink.opacity(0.65) : .white)
+            .foregroundStyle(labelColor)
             .padding(.horizontal, 6)
+        }
+    }
+
+    /// 지금 막대만 색이 꽉 차 있다 — 나머지는 옅은 바탕이라 본문색이 더 잘 읽힌다
+    private var labelColor: Color {
+        switch status {
+        case .upcoming: return Theme.ink.opacity(0.65)
+        case .active:   return Theme.onAccent
+        case .done:     return Theme.ink
         }
     }
 

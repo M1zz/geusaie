@@ -25,7 +25,6 @@ struct GeusaieApp: App {
     var body: some Scene {
         WindowGroup {
             RecipeListView()
-                .preferredColorScheme(.light)
                 // 요리를 몇 번 끝낸 뒤에만, 버전당 한 번 "즐겁게 쓰고 계신가요?"를 묻는다.
                 // 만족 → 시스템 리뷰 요청 / 아쉬움 → 피드백 화면
                 .leeoSatisfactionCheck(GeusaieSpec.self)

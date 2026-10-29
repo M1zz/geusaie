@@ -1,32 +1,56 @@
 import SwiftUI
+import UIKit
 
 // MARK: - 동시냄비 팔레트 (기획서 무드: 크림 · 테라코타 · 머스터드 · 그린)
+//
+// 색마다 네 벌: 밝은 화면 · 어두운 화면, 그리고 각각 '대비 증가'를 켰을 때.
+// 대비 증가 쪽은 글자로 쓰여도 배경과 4.5:1 이상 벌어지게 골랐다.
 
 extension Color {
     init(hex: UInt32) {
-        let r = Double((hex >> 16) & 0xFF) / 255.0
-        let g = Double((hex >> 8) & 0xFF) / 255.0
-        let b = Double(hex & 0xFF) / 255.0
-        self.init(red: r, green: g, blue: b)
+        self.init(uiColor: UIColor(hex: hex))
+    }
+
+    /// 화면 모드·대비 설정을 따라가는 색
+    static func adaptive(_ light: UInt32, dark: UInt32,
+                         lightHC: UInt32? = nil, darkHC: UInt32? = nil) -> Color {
+        Color(uiColor: UIColor { t in
+            let high = t.accessibilityContrast == .high
+            let hex = t.userInterfaceStyle == .dark
+                ? (high ? darkHC ?? dark : dark)
+                : (high ? lightHC ?? light : light)
+            return UIColor(hex: hex)
+        })
+    }
+}
+
+extension UIColor {
+    convenience init(hex: UInt32) {
+        self.init(red: CGFloat((hex >> 16) & 0xFF) / 255,
+                  green: CGFloat((hex >> 8) & 0xFF) / 255,
+                  blue: CGFloat(hex & 0xFF) / 255, alpha: 1)
     }
 }
 
 enum Theme {
-    static let cream      = Color(hex: 0xFAF6ED)   // 배경
-    static let card       = Color(hex: 0xF1EAD6)   // 카드 배경
-    static let cardBorder = Color(hex: 0xE3D9BE)
-    static let ink        = Color(hex: 0x2D2A24)   // 본문
-    static let inkSoft    = Color(hex: 0x8A8271)   // 보조 텍스트
-    static let terracotta = Color(hex: 0xC75B39)   // 포인트
-    static let mustard    = Color(hex: 0xD99A3C)
-    static let green      = Color(hex: 0x5B8C5A)
-    static let brick      = Color(hex: 0xA9432C)
-    static let ringTrack  = Color(hex: 0xE8E0CC)
-    static let recording  = Color(hex: 0xD93A2B)   // 마이크 사용 표시
+    static let cream      = Color.adaptive(0xFAF6ED, dark: 0x1E1B16)   // 배경
+    static let card       = Color.adaptive(0xF1EAD6, dark: 0x2A261F)   // 카드 배경
+    static let cardBorder = Color.adaptive(0xE3D9BE, dark: 0x3D372C, lightHC: 0xB8AA85, darkHC: 0x6A604C)
+    static let ink        = Color.adaptive(0x2D2A24, dark: 0xF3EEE2)   // 본문
+    static let inkSoft    = Color.adaptive(0x8A8271, dark: 0xADA592, lightHC: 0x5E5747, darkHC: 0xCFC7B4)   // 보조 텍스트
+    static let terracotta = Color.adaptive(0xC75B39, dark: 0xE07D5C, lightHC: 0xA8452A, darkHC: 0xF09A7C)   // 포인트
+    static let mustard    = Color.adaptive(0xD99A3C, dark: 0xE3AE5A, lightHC: 0x8A5E14, darkHC: 0xF0C47E)
+    static let green      = Color.adaptive(0x5B8C5A, dark: 0x82B381, lightHC: 0x3F6B3E, darkHC: 0xA3CDA2)
+    static let brick      = Color.adaptive(0xA9432C, dark: 0xE2735A, lightHC: 0x8C3220, darkHC: 0xF0937D)
+    static let ringTrack  = Color.adaptive(0xE8E0CC, dark: 0x3A342A)
+    static let recording  = Color.adaptive(0xD93A2B, dark: 0xF06A5C, lightHC: 0xB32A1D, darkHC: 0xFF8A7E)   // 마이크 사용 표시
+    /// 색 채운 버튼·막대 위 글자 — 어두운 화면에서는 채움이 밝아지니 글자를 어둡게
+    static let onAccent   = Color.adaptive(0xFFFFFF, dark: 0x1E1B16)
 
     /// 타이머 카드에 쓰는 색상 팔레트 (색인으로 선택)
     static let dishColors: [Color] = [terracotta, mustard, green, brick,
-                                      Color(hex: 0x7A6FA0), Color(hex: 0x4A7A8C)]
+                                      Color.adaptive(0x7A6FA0, dark: 0xA89ED0, lightHC: 0x5B5085, darkHC: 0xC3BBE6),
+                                      Color.adaptive(0x4A7A8C, dark: 0x7DB0C2, lightHC: 0x2F5D6E, darkHC: 0x9CCADA)]
 
     static func dishColor(_ index: Int) -> Color {
         dishColors[((index % dishColors.count) + dishColors.count) % dishColors.count]
@@ -66,7 +90,7 @@ enum TextScale: Int, CaseIterable, Identifiable {
         case .normal: return .large
         case .big:    return .xLarge
         case .bigger: return .xxLarge
-        // 접근성 크기(.accessibility*)는 전체 화면 위에서 배치가 무너져 쓰지 않는다
+        // 접근성 크기(.accessibility*)는 기기 설정에서 고르면 그대로 따른다 (→ CookView)
         case .huge:   return .xxxLarge
         }
     }

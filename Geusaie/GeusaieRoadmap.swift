@@ -17,20 +17,20 @@ import LeeoKit
 
 extension GeusaieSpec {
     static var roadmap: [LeeoRoadmapItem] {[
-        // MARK: 다음에 만들어요
-        .init(id: "a11y.voiceover", status: .planned,
+        // MARK: 만드는 중 · 다음에 만들어요
+        .init(id: "a11y.voiceover", status: .building,
               title: NSLocalizedString("VoiceOver로 더 편하게", comment: "Roadmap item: a11y.voiceover"),
               detail: NSLocalizedString("VoiceOver가 냄비 시간과 할 일을 빠짐없이, 알맞은 순서로 읽어 줘요.", comment: "Roadmap item detail: a11y.voiceover")),
-        .init(id: "a11y.largetext", status: .planned,
+        .init(id: "a11y.largetext", status: .building,
               title: NSLocalizedString("큰 글씨에 맞춘 화면", comment: "Roadmap item: a11y.largetext"),
               detail: NSLocalizedString("기기 글자 크기를 키워도 레시피 목록과 화면이 잘리지 않게 다시 배치돼요.", comment: "Roadmap item detail: a11y.largetext")),
-        .init(id: "display.dark", status: .planned,
+        .init(id: "display.dark", status: .building,
               title: NSLocalizedString("다크 모드", comment: "Roadmap item: display.dark"),
               detail: NSLocalizedString("어두운 부엌에서도 눈부시지 않게 어두운 화면으로 볼 수 있어요.", comment: "Roadmap item detail: display.dark")),
-        .init(id: "a11y.contrast", status: .planned,
+        .init(id: "a11y.contrast", status: .building,
               title: NSLocalizedString("보기 편한 색과 대비", comment: "Roadmap item: a11y.contrast"),
               detail: NSLocalizedString("대비를 높이거나 색을 구별하기 어려워도 냄비마다 상태를 알아볼 수 있어요.", comment: "Roadmap item detail: a11y.contrast")),
-        .init(id: "a11y.motion", status: .planned,
+        .init(id: "a11y.motion", status: .building,
               title: NSLocalizedString("움직임 줄이기", comment: "Roadmap item: a11y.motion"),
               detail: NSLocalizedString("움직임 줄이기를 켜면 화면 효과가 차분해져요.", comment: "Roadmap item detail: a11y.motion")),
         .init(id: "a11y.keyboard", status: .planned,
