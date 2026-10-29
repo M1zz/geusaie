@@ -1,5 +1,175 @@
 # 그사이에 릴리즈 노트
 
+## 1.0.3
+
+### 앱스토어 (한국어) (ko)
+
+설정에서 친구에게 앱을 소개할 수 있어요
+고마울 때 개발자에게 작은 팁을 보낼 수 있어요
+어두운 화면 모드에서도 편안하게 볼 수 있어요
+큰 글씨에서도 화면이 깔끔하게 보여요
+
+### 앱스토어 (English) (en)
+
+Share the app with friends from Settings
+Send the developer a small tip of thanks
+Now looks great in Dark Mode
+Looks tidy even with larger text sizes
+
+### App Store (en-GB)
+
+Share the app with friends from Settings
+Send the developer a small tip of thanks
+Now looks great in Dark Mode
+Looks tidy even with larger text sizes
+
+### 앱스토어 (日本語) (ja)
+
+設定から友だちにアプリを紹介できます
+開発者にちょっとしたチップを送れるようになりました
+ダークモードでも見やすくなりました
+大きな文字でも画面がすっきり見やすくなりました
+
+### 앱스토어 (中文简体) (zh-Hans)
+
+可在设置中把应用推荐给朋友
+现在可以给开发者送上一点小费表达感谢
+深色模式下也能舒适浏览
+使用大字体时界面也清晰整齐
+
+### 앱스토어 (中文繁體) (zh-Hant)
+
+可在設定中把 App 推薦給朋友
+現在可以給開發者一點小費表達感謝
+深色模式下也能舒適瀏覽
+使用大字體時畫面也清楚整齊
+
+### 앱스토어 (Русский) (ru)
+
+Поделитесь приложением из настроек
+Можно отправить разработчику чаевые
+Теперь удобно и в тёмном режиме
+Аккуратный вид даже с крупным шрифтом
+
+### 앱스토어 (Español) (es)
+
+Comparte la app con amigos desde Ajustes
+Puedes dar propina al desarrollador
+Ahora se ve genial en modo oscuro
+Se ve bien incluso con texto grande
+
+### 앱스토어 (Deutsch) (de)
+
+App in den Einstellungen weiterempfehlen
+Du kannst dem Entwickler Trinkgeld geben
+Jetzt auch im Dunkelmodus angenehm
+Auch mit großer Schrift übersichtlich
+
+### 앱스토어 (Français) (fr)
+
+Recommandez l'app depuis les Réglages
+Offrez un petit pourboire au développeur
+Désormais agréable en mode sombre
+Bien lisible avec un texte agrandi
+
+### 앱스토어 (Italiano) (it)
+
+Consiglia l'app dalle Impostazioni
+Puoi dare una mancia allo sviluppatore
+Ora piacevole anche in modalità scura
+Ordinata anche con testo più grande
+
+### 앱스토어 (Português (Brasil)) (pt-BR)
+
+Indique o app aos amigos nos Ajustes
+Dê uma gorjetinha ao desenvolvedor
+Agora fica ótimo no modo escuro
+Fica bem organizado com texto grande
+
+### 앱스토어 (ไทย) (th)
+
+แนะนำแอปให้เพื่อนได้จากการตั้งค่า
+ส่งทิปเล็กๆ ให้นักพัฒนาได้แล้ว
+ใช้งานในโหมดมืดได้สบายตา
+ตัวอักษรใหญ่ก็ยังดูเป็นระเบียบ
+
+### 앱스토어 (Tiếng Việt) (vi)
+
+Giới thiệu app cho bạn bè trong Cài đặt
+Gửi chút tiền tip cho nhà phát triển
+Dễ nhìn hơn ở chế độ tối
+Gọn gàng ngay cả khi dùng chữ lớn
+
+### 앱스토어 (Čeština) (cs)
+
+Doporučte aplikaci přátelům v Nastavení
+Můžete poslat vývojáři malé spropitné
+Nově příjemné i v tmavém režimu
+Přehledné i s větším písmem
+
+### 앱스토어 (Dansk) (da)
+
+Del appen med venner fra Indstillinger
+Du kan give udvikleren lidt drikkepenge
+Nu også behagelig i mørk tilstand
+Overskuelig selv med stor tekst
+
+### 앱스토어 (Ελληνικά) (el)
+
+Στείλτε την εφαρμογή σε φίλους
+Δώστε ένα φιλοδώρημα στον δημιουργό
+Τώρα ξεκούραστο και στη σκούρα εμφάνιση
+Καθαρή εμφάνιση και με μεγάλο κείμενο
+
+### 앱스토어 (Suomi) (fi)
+
+Jaa sovellus ystäville asetuksista
+Voit nyt antaa kehittäjälle pienen tipin
+Nyt miellyttävä myös tummassa tilassa
+Selkeä myös suurella tekstillä
+
+### 앱스토어 (Bahasa Indonesia) (id)
+
+Bagikan app ke teman dari Pengaturan
+Kini bisa kirim tip untuk pengembang
+Kini nyaman dilihat dalam mode gelap
+Tetap rapi meski memakai teks besar
+
+### 앱스토어 (Norsk bokmål) (nb)
+
+Del appen med venner fra Innstillinger
+Du kan gi utvikleren litt tips
+Nå behagelig også i mørk modus
+Ryddig også med stor tekst
+
+### 앱스토어 (Nederlands) (nl)
+
+Deel de app met vrienden in Instellingen
+Geef de ontwikkelaar een kleine fooi
+Nu ook prettig in donkere modus
+Ook met grote tekst overzichtelijk
+
+### 앱스토어 (Polski) (pl)
+
+Poleć aplikację znajomym w Ustawieniach
+Możesz dać twórcy aplikacji napiwek
+Teraz wygodnie także w trybie ciemnym
+Przejrzyście nawet z dużym tekstem
+
+### 앱스토어 (Svenska) (sv)
+
+Tipsa vänner om appen i Inställningar
+Du kan ge utvecklaren lite dricks
+Nu skönt även i mörkt läge
+Tydligt även med stor text
+
+### 앱스토어 (Türkçe) (tr)
+
+Uygulamayı Ayarlar'dan paylaşabilirsiniz
+Geliştiriciye bahşiş gönderebilirsiniz
+Artık koyu modda da göz yormuyor
+Büyük metinde de düzenli görünüm
+
 ## 1.0.2
 
 ### 앱스토어 (한국어) (ko)
