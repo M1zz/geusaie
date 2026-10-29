@@ -23,6 +23,7 @@
 		B0000000000000000000000C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000C /* PrivacyInfo.xcprivacy */; };
 		B10000000000000000000001 /* GeusaieFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* GeusaieFlags.swift */; };
 		B10000000000000000000002 /* GeusaieTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* GeusaieTips.swift */; };
+		B10000000000000000000077 /* GeusaieTipJar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000077 /* GeusaieTipJar.swift */; };
 		B10000000000000000000003 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* OnboardingView.swift */; };
 		B10000000000000000000004 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* SettingsView.swift */; };
 		B10000000000000000000005 /* GeusaieShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* GeusaieShortcuts.swift */; };
@@ -60,6 +61,7 @@
 		F000000000000000000000AA /* Geusaie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geusaie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10000000000000000000001 /* GeusaieFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieFlags.swift; sourceTree = "<group>"; };
 		F10000000000000000000002 /* GeusaieTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieTips.swift; sourceTree = "<group>"; };
+		F10000000000000000000077 /* GeusaieTipJar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieTipJar.swift; sourceTree = "<group>"; };
 		F10000000000000000000003 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		F10000000000000000000004 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F10000000000000000000005 /* GeusaieShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieShortcuts.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				F00000000000000000000007 /* CookView.swift */,
 				F10000000000000000000001 /* GeusaieFlags.swift */,
 				F10000000000000000000002 /* GeusaieTips.swift */,
+				F10000000000000000000077 /* GeusaieTipJar.swift */,
 				F10000000000000000000003 /* OnboardingView.swift */,
 				F10000000000000000000004 /* SettingsView.swift */,
 				F10000000000000000000005 /* GeusaieShortcuts.swift */,
@@ -282,6 +285,7 @@
 				B00000000000000000000007 /* CookView.swift in Sources */,
 				B10000000000000000000001 /* GeusaieFlags.swift in Sources */,
 				B10000000000000000000002 /* GeusaieTips.swift in Sources */,
+				B10000000000000000000077 /* GeusaieTipJar.swift in Sources */,
 				B10000000000000000000003 /* OnboardingView.swift in Sources */,
 				B10000000000000000000004 /* SettingsView.swift in Sources */,
 				B10000000000000000000005 /* GeusaieShortcuts.swift in Sources */,
@@ -565,7 +569,7 @@
 			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.24.0;
+				minimumVersion = 3.25.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -29,6 +29,8 @@ struct GeusaieApp: App {
                 // 요리를 몇 번 끝낸 뒤에만, 버전당 한 번 "즐겁게 쓰고 계신가요?"를 묻는다.
                 // 만족 → 시스템 리뷰 요청 / 아쉬움 → 피드백 화면
                 .leeoSatisfactionCheck(GeusaieSpec.self)
+                // 개발자 응원하기 — 팁 상품을 불러오고 결제 업데이트를 듣는다 (→ GeusaieTipJar.swift)
+                .task { await GeusaieSpec.tipJar.startStandalone() }
         }
     }
 }

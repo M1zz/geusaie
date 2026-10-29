@@ -31,6 +31,8 @@ struct CookView: View {
     /// 버튼으로 넘기는 기본 흐름만 남긴다 (→ GeusaieFlags.swift)
     private var voiceAllowed: Bool { LeeoRemoteFlags.isEnabled(GeusaieFlag.voiceCue) }
     @State private var showFinishConfirm = false
+    /// 지금까지 끝까지 마친 요리 수 — 완성 순간에 하나 늘린 값. 응원 부탁 카드가 쓴다.
+    @State private var cooksDone = 0
 
     /// 진행 중(러닝/일시정지) — 이때 나가거나 완성 처리하면 타이머가 초기화/종료됨
     private var inProgress: Bool {
@@ -74,7 +76,7 @@ struct CookView: View {
         }
         // 요리를 끝까지 마친 것 — 리뷰·만족도 질문은 이런 순간이 쌓인 뒤에만 뜬다
         .onChange(of: session.phase) { _, phase in
-            if phase == .done { LeeoEngagement.shared.registerSignificantEvent() }
+            if phase == .done { cooksDone = LeeoEngagement.shared.registerSignificantEvent() }
         }
         // 요리를 시작해야 듣기 시작한다 (준비 화면에서 마이크를 켤 이유가 없다)
         // 일시정지·완성 때는 끈다 — 화면이 꺼질 수 있는 상태에서 마이크가 켜져 있지 않게
@@ -275,7 +277,12 @@ struct CookView: View {
             if session.isReady {
                 startButton
             } else if session.phase == .done {
-                doneButton
+                // 막 요리를 끝낸 자리 — 쌓인 숫자가 고마울 만할 때만 응원 부탁 카드가 선다
+                VStack(spacing: 12) {
+                    LeeoTipAskSlot<GeusaieSpec>(tipJar: GeusaieSpec.tipJar,
+                                                reached: GeusaieTipMoments.reached(cooks: cooksDone))
+                    doneButton
+                }
             } else if stacked {
                 // 글자가 크면 두 줄로 — 큰 버튼 하나가 아래를 차지한다
                 VStack(spacing: 8) {
