@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: kuchyňský časovač pro dva hrnce najednou",
+  "description": "Omáčka je hotová, zatímco se vaří těstoviny. Geusaie ukáže jediný úkol pro teď, hlídá čas každého hrnce a na slovo „další“ jde dál. Zdarma.",
+  "hero": {
+    "headline": "Těstoviny se vaří.\nOmáčka mezitím taky.",
+    "lead": "Když dva hrnce jedou každý jiným tempem, Geusaie velkým písmem ukáže jedinou věc, kterou mají vaše ruce udělat právě teď. Omáčka se plánuje pozpátku od chvíle, kdy budete těstoviny scezovat.",
+    "cta": "Stáhnout zdarma z App Storu",
+    "note": "Všechny funkce jsou zdarma. Účet není potřeba."
+  },
+  "demo": {
+    "title": "Vyzkoušejte si to",
+    "lead": "Uvařte si aglio e olio dvacetkrát rychleji. Klepněte na Začít vařit a pak na Další pokaždé, když byste úkol měli hotový. Všimněte si, jak se karta změní, když přijde čas scedit těstoviny.",
+    "note": "Stejný recept a stejný výpočet pořadí jako v aplikaci. Jen hodiny běží rychleji.",
+    "again": "Začít znovu",
+    "app": {
+      "first": "S tímhle začněte",
+      "startHint": "Klepněte dole na „Začít vařit“ a časovače hrnců se rozběhnou",
+      "now": "Co dělat teď",
+      "nowCant": "Teď · nesmí se odkládat",
+      "late": "Zpoždění · udělejte to hned",
+      "calm": "Co dělat teď · bez spěchu",
+      "ready": "Hotovo 🍴 Naservírujte",
+      "handsDone": "Ruce jsou hotové — zbývá jen čekat na hrnce",
+      "upNext": "Potom · %@ %@",
+      "resume": "Rozdělané · %@ %@ — nejdřív dokončete tohle, pak se k tomu vraťte",
+      "saidNext": "Hotovo? Řekněte „další“",
+      "empty": "Volný",
+      "onIt": "Právě děláte",
+      "finished": "Dopotřebováno",
+      "start": "Začít vařit",
+      "next": "Další",
+      "elapsed": "Uplynulý čas",
+      "names": {
+        "ao-water-on": "Postavte vodu na vysoký plamen",
+        "ao-boil": "Přiveďte vodu k varu",
+        "ao-drop": "Až se uvaří, vhoďte těstoviny",
+        "ao-pasta": "Uvařte těstoviny",
+        "ao-reserve": "Vyjměte těstoviny a nechte si vodu z vaření",
+        "ao-garlic": "Osmahněte česnek na oleji",
+        "ao-toss": "Přilijte vodu z vaření a promíchejte do emulze",
+        "ao-prep": "Připravte suroviny a postavte pánev",
+        "ao-slice": "Nakrájejte česnek na tenké plátky",
+        "ao-pepper": "Nasekejte chilli a petrželku",
+        "ao-cheese": "Nastrouhejte sýr a ohřejte talíře"
+      },
+      "lanes": [
+        "Hrnec na těstoviny",
+        "Pánev na omáčku"
+      ],
+      "progress": {
+        "ao-boil": "Voda se vaří",
+        "ao-pasta": "Těstoviny se vaří"
+      }
+    }
+  },
+  "problem": {
+    "title": "Tři minutky, a těstoviny stejně rozvařené?",
+    "text": "Jedna minutka na těstoviny, druhá na omáčku a česnek hlídáte z hlavy, až nevíte, co je na řadě dřív. Zrovna krájíte, když se má scezovat, a omáčka dojede o dvě minuty později. Geusaie zná recept jako „nejdřív tohle, pak tamto“, a tak vám řekne jen jednu věc, kterou máte udělat teď."
+  },
+  "features": [
+    {
+      "title": "Co nepočká, zčervená",
+      "text": "Scedit těstoviny, sundat česnek, než se připálí: když by zpoždění zkazilo jídlo, karta se zbarví terakotově a řekne vám, ať krájení na chvíli odložíte.\nKdyž je hrnec hotový, přijde oznámení, i když se zrovna nedíváte, a v něm to, co máte hned udělat.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Krájení, když máte volné ruce",
+      "text": "Krájení česneku, strouhání sýra, odvažování: nic z toho nemá pevný čas, a tak se tu sekundy nepočítají. Proužek se plní, jen když máte volné ruce, zastaví se, když volá hrnec, a pak pokračuje tam, kde jste přestali.\nZapnete plotýnku o tři minuty později? Všechno další se posune o tři minuty. Plán se pokaždé přepočítá podle toho, co jste skutečně udělali.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Opřete o linku a pokračujte hlasem",
+      "text": "Čtyři velikosti písma, abyste přečetli text i z kroku dvou, a obrazovka při vaření nezhasne.\nMokré ruce? Řekněte `další` a aplikace přejde k dalšímu úkolu bez dotyku.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Ke stolu ve třech krocích",
+    "items": [
+      {
+        "title": "Vyberte jídlo",
+        "text": "Uvidíte, jak dlouho zhruba trvá a kolik hrnců potřebujete."
+      },
+      {
+        "title": "Klepněte na Začít vařit",
+        "text": "Nejdřív se ukáže první úkol a hodiny hrnců se rozběhnou v okamžiku klepnutí."
+      },
+      {
+        "title": "Hotovo? Další.",
+        "text": "Klepněte na tlačítko nebo řekněte „další“ a objeví se další úkol."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Barva říká, jak moc to spěchá",
+    "rows": [
+      [
+        "Zelená",
+        "Příprava. Klidně v pohodě."
+      ],
+      [
+        "Hořčicová",
+        "Na řadě je hrnec. Udělejte to teď, ale bez spěchu."
+      ],
+      [
+        "Terakotová",
+        "Když počkáte, těstoviny se rozvaří nebo česnek připálí. Teď hned."
+      ],
+      [
+        "Políčka hrnců",
+        "Zmenšující se čtverec je zbývající čas. Čas hrnců se nikdy neschovává."
+      ]
+    ],
+    "note": "Na časové ose jsou čárkované pruhy úkoly, které můžou počkat."
+  },
+  "pricing": {
+    "title": "Všechny funkce jsou zdarma",
+    "free": {
+      "name": "Zdarma",
+      "items": [
+        "Oba recepty",
+        "Samostatný časovač pro každý hrnec a celá časová osa",
+        "Oznámení, když je hrnec hotový",
+        "„Další“ hlasem",
+        "Čtyři velikosti písma",
+        "Otevření receptu přes Siri nebo Zkratky"
+      ]
+    },
+    "pro": {
+      "name": "Podpořte vývojáře (dobrovolně)",
+      "items": [
+        "Pokud vám aplikace pomáhá, můžete v Nastavení poslat malé spropitné",
+        "Spropitné nic neodemyká. I bez něj máte všechny funkce"
+      ],
+      "note": "Jednorázové spropitné, žádné předplatné."
+    },
+    "note": "Žádný účet, žádné reklamy a funguje i bez internetu."
+  },
+  "faq": {
+    "title": "Časté otázky",
+    "items": [
+      {
+        "q": "Říkám „další“, ale nic se neděje.",
+        "a": "Tlačítko mikrofonu vlevo dole je červené, když aplikace poslouchá, a šedé, když je vypnuté. Poprvé povolte mikrofon i rozpoznávání řeči; pokud jste je zamítli, zapněte je znovu v Nastavení > Geusaie. Aplikace poslouchá slovo napsané na tlačítku Další. V hodně hlučné kuchyni prostě klepněte na Další."
+      },
+      {
+        "q": "Hrnec je hotový, ale oznámení nepřišlo.",
+        "a": "Zkontrolujte, že máte zapnutá oznámení v Nastavení > Oznámení > Geusaie. Režim soustředění je může ztlumit. Oznámení chodí jen tehdy, když je hrnec hotový; příprava vás nikdy nehoní."
+      },
+      {
+        "q": "Co se stane s plánem, když začnu později?",
+        "a": "Přepočítá se podle toho, co jste skutečně udělali. Zapnete-li plotýnku o tři minuty později, všechno další se posune o tři minuty a omáčka zůstane naplánovaná pozpátku od chvíle, kdy budou těstoviny hotové."
+      },
+      {
+        "q": "Písmo je moc malé.",
+        "a": "Na obrazovce vaření klepněte vpravo nahoře na tlačítko velikosti písma a vyberte Normální, Velký, Větší nebo Největší. Volba se zapamatuje."
+      },
+      {
+        "q": "Zhasne obrazovka při vaření?",
+        "a": "Ne. Během vaření obrazovka zůstává zapnutá, takže na ni nemusíte sahat mokrýma rukama."
+      },
+      {
+        "q": "Jaká jídla jsou k dispozici?",
+        "a": "Aglio e olio (asi 15 minut, 2 hrnce) a těstoviny v rajčatovo-smetanové omáčce (asi 20 minut, 2 hrnce) podle receptů ze Serious Eats, Gimme Some Oven, RecipeTin Eats a The Burnt Butter Table. Hodí se jakékoli jídlo, kde se vaří ve dvou hrncích zároveň, tak nám napište, jaký recept byste chtěli."
+      },
+      {
+        "q": "Nahrává se můj hlas?",
+        "a": "Ne. Aplikace poslouchá jen slovo „další“ a zvuk nenahrává ani neukládá. Pokud to zařízení podporuje, rozpoznávání probíhá přímo v něm. Neshromažďují se žádné osobní údaje."
+      },
+      {
+        "q": "Dá se otevřít přes Siri?",
+        "a": "Ano. Vyberte jídlo v Siri nebo v aplikaci Zkratky a hned se otevře jeho obrazovka vaření. Hodiny se rozběhnou, až budete připraveni postavit vodu a klepnete na Začít vařit."
+      },
+      {
+        "q": "Na jakých zařízeních funguje?",
+        "a": "Na iPhonu a iPadu s iOS 17 nebo novějším. Účet ani připojení k internetu nejsou potřeba."
+      },
+      {
+        "q": "Jak nahlásit problém nebo navrhnout recept?",
+        "a": "V aplikaci přes Nastavení > Odeslat zpětnou vazbu, nebo e-mailem na adresu níže. Model zařízení a verze iOS nám pomůžou podívat se na to rychleji. Obvykle odpovídáme do několika dnů."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Dnes večer těstoviny\ni omáčka najednou",
+    "cta": "Stáhnout zdarma z App Storu"
+  },
+  "ui": {
+    "skip": "Přejít na obsah",
+    "languages": "Jazyk",
+    "privacy": "Zásady ochrany osobních údajů",
+    "contact": "Něco nejde, něco je divné nebo máte recept na mysli? Napište na {email}."
+  }
+}

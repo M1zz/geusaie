@@ -1,207 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geusaie — 煮義大利麵的同時，把醬汁也做好</title>
-<meta name="description" content="為兩個鍋子同時開火的料理準備的計時器。現在要做的事只用大字顯示一件，每個鍋子的剩餘時間分別計算，手濕的時候可用語音換下一步。">
-<meta property="og:title" content="Geusaie">
-<meta property="og:description" content="煮義大利麵的同時，把醬汁也做好。讓兩個鍋子同時運轉的烹飪計時器。">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<!-- hreflang:start -->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:end -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
-<style>
-  :root {
-    --cream: #FAF6ED;
-    --card: #F1EAD6;
-    --border: #E3D9BE;
-    --ink: #2D2A24;
-    --ink-soft: #8A8271;
-    --terracotta: #C75B39;
-    --green: #5B8C5A;
-    --mustard: #D99A3C;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
-                 "Noto Sans KR", system-ui, sans-serif;
-    line-height: 1.7;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 72px 0 40px; text-align: center; }
-  .logo { font-size: 56px; line-height: 1; }
-  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
-  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
-  .lede {
-    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
-    text-align: left;
-  }
-  section { padding: 44px 0; border-top: 1px solid var(--border); }
-  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
-  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .feature {
-    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-    padding: 20px 22px;
-  }
-  .feature h3 { margin: 0 0 6px; font-size: 18px; }
-  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
-  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
-  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
-  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-  .shots figure { margin: 0; max-width: 300px; }
-  .shots img {
-    width: 100%; border-radius: 22px; border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
-  }
-  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
-  .dot.now { background: var(--terracotta); }
-  .dot.calm { background: var(--green); }
-  .dot.pot { background: var(--mustard); }
-  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
-  footer a, a { color: var(--terracotta); }
-  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
-  @media (max-width: 600px) {
-    header { padding: 48px 0 28px; }
-    h1 { font-size: 32px; }
-    .tagline { font-size: 18px; }
-  }
-  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
-  .langnav b { color: var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geusaie：兩個鍋子同時開火的烹飪計時器</title>
+  <meta name="description" content="煮麵的同時把醬汁也做好。Geusaie 只用大字顯示現在要做的一件事，分別計算每個鍋子的剩餘時間。手濕時說「下一步」就好。免費。">
+  <meta name="theme-color" content="#C75B39" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1B16" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793473149">
+  <link rel="canonical" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geusaie：兩個鍋子同時開火的烹飪計時器">
+  <meta property="og:description" content="煮麵的同時把醬汁也做好。Geusaie 只用大字顯示現在要做的一件事，分別計算每個鍋子的剩餘時間。手濕時說「下一步」就好。免費。">
+  <meta property="og:url" content="https://m1zz.github.io/geusaie/zh-Hant/">
+  <meta property="og:image" content="https://m1zz.github.io/geusaie/img/zh-Hant/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C75B39}@media (prefers-color-scheme:dark){:root{--accent:#E07D5C}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">🍝</div>
-    <h1>Geusaie</h1>
-    <p class="tagline">煮義大利麵的同時，把醬汁也做好。</p>
-    <p class="lede">做菜難，不是因為手慢，而是因為兩個鍋子的時間流動得不一樣。麵不會等人，而切蒜什麼時候做都可以。Geusaie（韓語意為「在這段期間」）能分清這兩者，只把此刻手要做的一件事用大字顯示出來。</p>
+  <a class="skip" href="#main">跳到主要內容</a>
+  <header class="bar">
+    <a class="brand" href="../zh-Hant/"><img src="../icon.png" alt="" width="32" height="32">Geusaie</a>
+    <a class="lang-link" href="#languages">語言</a>
   </header>
 
-  <section>
-    <h2>這是一款怎樣的 App</h2>
-    <div class="features">
-      <div class="feature now">
-        <h3>不能拖的事</h3>
-        <p>撈麵、快要燒焦的大蒜。時間一到，畫面就會變紅，提醒你停下手邊的事。</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>煮麵的同時，<br>醬汁也好了</h1>
+        <p class="lead">兩個鍋子以不同的節奏進行時，Geusaie 只用大字顯示你的手現在要做的那一件事。醬汁的開始時間，會從麵起鍋的那一刻倒推回來。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793473149">在 App Store 免費下載</a><a class="try" href="#try">動手試試 ↓</a></div>
+        <p class="muted small">所有功能免費，不需要帳號。</p>
       </div>
-      <div class="feature calm">
-        <h3>可以延後的事</h3>
-        <p>切、磨、秤量。只在手空著的時候推進，鍋子一叫你就暫停，回來後接著做。</p>
-      </div>
-      <div class="feature">
-        <h3>每個鍋子各有計時器</h3>
-        <p>煮麵鍋和醬汁鍋分別顯示正在做什麼、還剩多少時間。</p>
-      </div>
-      <div class="feature">
-        <h3>語音換下一步</h3>
-        <p>手濕的時候，說一聲「下一步」。語音辨識會盡可能在裝置上處理。</p>
-      </div>
-      <div class="feature">
-        <h3>站遠也看得清楚的字</h3>
-        <p>立在流理台邊，退後一兩步也能看。字級可以在 App 內放大四個等級。</p>
-      </div>
-      <div class="feature">
-        <h3>不催你</h3>
-        <p>手上的事不會倒數秒數。進度條漲到頭就停下來等你。</p>
-      </div>
-    </div>
-  </section>
+      <div class="phone"><img src="../img/zh-Hant/02-start.jpg" alt="煮麵的同時， 醬汁也好了" width="720" height="1558" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2>畫面</h2>
-    <div class="shots">
-      <figure>
-        <img src="../images/home.png" alt="選料理的主畫面。蒜香橄欖油義大利麵，約 15 分鐘，2 個鍋子。">
-        <figcaption>選料理時只看需要的 — 要多久、幾個鍋子</figcaption>
-      </figure>
-      <figure>
-        <img src="../images/cook.png" alt="烹飪中的畫面。目前要做的事的卡片、兩個鍋子、時間軸。">
-        <figcaption>現在要做的事 · 鍋子狀態 · 完整時間軸</figcaption>
-      </figure>
-    </div>
-  </section>
 
-  <section>
-    <h2>顏色就是緊急程度</h2>
-    <table>
-      <tr>
-        <th><span class="dot calm"></span>綠色</th>
-        <td>備料的事。慢慢做就好。</td>
-      </tr>
-      <tr>
-        <th><span class="dot now"></span>赤陶色</th>
-        <td>拖延的話麵會煮爛或燒焦。現在就得做。</td>
-      </tr>
-      <tr>
-        <th><span class="dot pot"></span>鍋子格</th>
-        <td>方塊縮小的部分就是剩餘時間。鍋子是必須盯著的時鐘，所以這裡不會隱藏時間。</td>
-      </tr>
-    </table>
-  </section>
+    <section class="reveal" id="try">
+      <h2>動手試試</h2>
+      <p class="muted">用 20 倍速做一份蒜香橄欖油義大利麵。點一下「開始烹飪」，每當你「做完」一件事就點「下一步」。也看看到了該撈麵的時候，卡片會怎麼變。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;動手試試&quot;, &quot;lead&quot;: &quot;用 20 倍速做一份蒜香橄欖油義大利麵。點一下「開始烹飪」，每當你「做完」一件事就點「下一步」。也看看到了該撈麵的時候，卡片會怎麼變。&quot;, &quot;note&quot;: &quot;和 App 一樣的食譜、一樣的順序計算，只是時間跑得比較快。&quot;, &quot;again&quot;: &quot;從頭再來&quot;, &quot;app&quot;: {&quot;first&quot;: &quot;開始後先做這件事&quot;, &quot;startHint&quot;: &quot;點一下下方的「開始烹飪」，鍋子的計時就會開始&quot;, &quot;now&quot;: &quot;現在要做的事&quot;, &quot;nowCant&quot;: &quot;現在 · 不能再拖&quot;, &quot;late&quot;: &quot;已經晚了 · 現在就做&quot;, &quot;calm&quot;: &quot;現在要做的事 · 不用急&quot;, &quot;ready&quot;: &quot;完成囉 🍴 盛盤吧&quot;, &quot;handsDone&quot;: &quot;手上的事都做完了 — 只等鍋子的時間了&quot;, &quot;upNext&quot;: &quot;下一步 · %@ %@&quot;, &quot;resume&quot;: &quot;剛才在做 · %@ %@ — 先做完這一步再接著做&quot;, &quot;saidNext&quot;: &quot;做完了？說「下一步」&quot;, &quot;empty&quot;: &quot;空著&quot;, &quot;onIt&quot;: &quot;正在操作&quot;, &quot;finished&quot;: &quot;已用完&quot;, &quot;start&quot;: &quot;開始烹飪&quot;, &quot;next&quot;: &quot;下一步&quot;, &quot;elapsed&quot;: &quot;已用時間&quot;, &quot;names&quot;: {&quot;ao-water-on&quot;: &quot;把水煮上，開大火&quot;, &quot;ao-boil&quot;: &quot;把水煮開&quot;, &quot;ao-drop&quot;: &quot;水開後下麵&quot;, &quot;ao-pasta&quot;: &quot;煮麵&quot;, &quot;ao-reserve&quot;: &quot;留下煮麵水，把麵撈出來&quot;, &quot;ao-garlic&quot;: &quot;用油炒蒜&quot;, &quot;ao-toss&quot;: &quot;加煮麵水，乳化並拌勻&quot;, &quot;ao-prep&quot;: &quot;拿出食材，把平底鍋放上爐&quot;, &quot;ao-slice&quot;: &quot;把蒜切成薄片&quot;, &quot;ao-pepper&quot;: &quot;切碎乾辣椒和巴西里&quot;, &quot;ao-cheese&quot;: &quot;磨起司、溫盤子&quot;}, &quot;lanes&quot;: [&quot;煮麵鍋&quot;, &quot;醬汁鍋&quot;], &quot;progress&quot;: {&quot;ao-boil&quot;: &quot;正在煮水&quot;, &quot;ao-pasta&quot;: &quot;正在煮麵&quot;}}}"></div>
+    </section>
 
-  <section>
-    <h2>已收錄的料理</h2>
-    <table>
-      <tr><th>蒜香橄欖油義大利麵</th><td>約 15 分鐘 · 2 個鍋子 · 來源 Serious Eats、Gimme Some Oven</td></tr>
-      <tr><th>番茄奶油義大利麵</th><td>約 20 分鐘 · 2 個鍋子 · 來源 RecipeTin Eats、The Burnt Butter Table</td></tr>
-    </table>
-  </section>
+    <section class="problem reveal">
+      <h2>設了三個計時器，麵還是煮爛了？</h2>
+      <p>麵一個計時器、醬汁一個計時器，炒蒜的時間還要記在腦子裡，很快就搞不清先做哪個。正在切蒜，錯過了撈麵的時機，醬汁又比麵晚好兩分鐘。Geusaie 把食譜理解成「先做這個，再做那個」，所以只告訴你現在該做的那一件事。</p>
+    </section>
 
-  <section id="contact">
-    <h2>聯絡我們</h2>
-    <p>遇到卡住的地方、奇怪的問題，或想新增的食譜，都歡迎告訴我們。請寄信至 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>，或使用 App 內的「設定」▸「傳送意見回饋」。常見問題整理在<a href="support.html">支援頁面</a>。</p>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>不能等的事一到，卡片就變紅</h2>
+        <p>撈麵、快要炒焦的蒜，這種一耽擱就會毀掉整道菜的事一到，卡片就會變成赤陶色，提醒你先放下手邊的備料。<br>鍋子好了，就算你沒在看螢幕也會收到通知，並告訴你馬上要做什麼。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/04-deadline.jpg" alt="不能等的事一到，卡片就變紅" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
 
-  <!-- langnav:start -->
-  <nav class="langnav" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> · <a href="../en/" hreflang="en" lang="en">English</a> · <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <b>繁體中文</b> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../it/" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/" hreflang="th" lang="th">ไทย</a> · <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/" hreflang="da" lang="da">Dansk</a> · <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
-  <!-- langnav:end -->
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>備料只在手空的時候做</h2>
+        <p>切蒜片、刨起司、秤量，這些什麼時候做都可以，所以不倒數秒數。手空的時候進度條慢慢增加，鍋子一叫你就暫停，回來後從原處接著做。<br>晚 3 分鐘開火，後面的事也會一起延後 3 分鐘。時間表每次都依你實際做事的時間重新計算。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/03-prep.jpg" alt="備料只在手空的時候做" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>立在流理台邊，用聲音進到下一步</h2>
+        <p>字級可以放大四段，退後一兩步也看得清楚；烹飪時螢幕不會關閉。<br>手是濕的？說<code>下一步</code>，不用碰螢幕就會進到下一件事。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/05-bigtext.jpg" alt="立在流理台邊，用聲音進到下一步" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>三個步驟就能開始</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>選一道菜</h3><p>看看大概要多久、需要幾個鍋子就能選。</p></li>
+<li class="card"><span class="n">2</span><h3>點一下「開始烹飪」</h3><p>先顯示第一件要做的事，點下去的那一刻鍋子開始計時。</p></li>
+<li class="card"><span class="n">3</span><h3>做完就「下一步」</h3><p>點按鈕或說「下一步」，接下來要做的事就會出現。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>顏色就是緊急程度</h2>
+      <div class="card table">
+        <dl><div><dt>綠色</dt><dd>備料的事，慢慢來就好。</dd></div><div><dt>芥末黃</dt><dd>輪到鍋子的動作了，現在做就好，不算急。</dd></div><div><dt>赤陶色</dt><dd>再拖下去麵會軟、蒜會焦。現在就做。</dd></div><div><dt>鍋子格</dt><dd>方塊縮小多少，就是還剩多少時間。鍋子的時間從不隱藏。</dd></div></dl>
+      </div>
+      <p class="muted">時間軸上用虛線畫的長條，是可以往後延的事。</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>所有功能都免費</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>免費</h3>
+          <ul><li>兩道食譜全部可用</li><li>每個鍋子各自計時，加上完整時間軸</li><li>鍋子好了會發通知</li><li>用聲音說「下一步」</li><li>四段字級</li><li>透過 Siri 和捷徑直接打開</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>支持開發者（自由選擇）</h3>
+          <ul><li>覺得好用時，可以在設定裡送一點小費</li><li>小費不會解鎖任何功能，不送也能使用全部功能</li></ul>
+          <p class="muted">每次單獨付款，不是訂閱。</p>
+        </div>
+      </div>
+      <p class="muted">不需要帳號，沒有廣告，沒有網路也能做菜。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>常見問題</h2>
+      <div class="faq"><details><summary>說了「下一步」卻沒有反應。</summary><p>左下角的麥克風按鈕是紅色代表正在聆聽，灰色代表已關閉。第一次使用時要同時允許麥克風和語音辨識；如果之前拒絕了，可以到「設定」App &gt; Geusaie 重新打開。App 聽的是「下一步」按鈕上寫的那個詞。廚房很吵的時候，直接點畫面下方的「下一步」就好。</p></details>
+<details><summary>鍋子已經好了，卻沒收到通知。</summary><p>請到「設定」App &gt; 通知 &gt; Geusaie 確認通知已開啟。開啟專注模式時可能不會響。只有鍋子好了才會通知；切、刨這類備料不會通知，免得催你。</p></details>
+<details><summary>開始晚了，時間表會怎樣？</summary><p>會依你實際做事的時間重新計算。晚 3 分鐘開火，後面的事也一起延後 3 分鐘；醬汁則依麵起鍋的時間倒推安排。</p></details>
+<details><summary>字太小了。</summary><p>在烹飪畫面右上角的字級按鈕中，可以選擇標準、大、更大、特大。選好的字級下次會保留。</p></details>
+<details><summary>做菜時螢幕會關掉嗎？</summary><p>烹飪過程中螢幕不會關閉，手濕著也不用去碰螢幕。</p></details>
+<details><summary>有哪些菜？</summary><p>蒜香橄欖油義大利麵（約 15 分鐘，兩個鍋子）和番茄奶油義大利麵（約 20 分鐘，兩個鍋子），參考了 Serious Eats、Gimme Some Oven、RecipeTin Eats 和 The Burnt Butter Table 的食譜。只要是兩個鍋子同時開火的菜都很適合，歡迎告訴我們你想加的食譜。</p></details>
+<details><summary>我的聲音會被儲存嗎？</summary><p>不會。App 只聽「下一步」這一個詞，不錄音也不儲存任何聲音。裝置支援時，語音辨識只在裝置上進行。不收集任何個人資料。</p></details>
+<details><summary>可以用 Siri 打開嗎？</summary><p>可以。在 Siri 或「捷徑」App 中選一道菜，就會直接打開那道菜的烹飪畫面。準備好煮水、點一下「開始烹飪」後，計時才會開始。</p></details>
+<details><summary>支援哪些裝置？</summary><p>搭載 iOS 17 或以上版本的 iPhone 和 iPad。不需要帳號，也不需要連網。</p></details>
+<details><summary>怎麼回報問題或推薦食譜？</summary><p>請透過 App 的設定 &gt; 發送意見回饋，或寄信到下方信箱。附上裝置型號和 iOS 版本，我們能更快找出原因。通常會在幾天內回覆。</p></details></div>
+      <p class="contact">遇到問題、發現怪怪的地方，或有想加的食譜，都歡迎寄信到 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>今晚，麵和醬汁<br>剛好一起上桌</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793473149">在 App Store 免費下載</a>
+    </section>
+  </main>
 
   <footer>
-    <p>iPhone · iOS 17 以上 · 直向</p>
-    <div class="links">
-      <a href="support.html">支援 · 常見問題</a>
-      <a href="privacy.html">隱私權政策</a>
-      <a href="https://github.com/M1zz/geusaie">原始碼</a>
-    </div>
+    <nav id="languages" class="langs" aria-label="語言"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">隱私權政策</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Geusaie</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

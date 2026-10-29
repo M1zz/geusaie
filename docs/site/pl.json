@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: minutnik kuchenny na dwa garnki naraz",
+  "description": "Sos gotowy, gdy makaron się gotuje. Geusaie pokazuje jedno zadanie na teraz, odlicza czas garnków i idzie dalej, gdy powiesz „dalej”. Za darmo.",
+  "hero": {
+    "headline": "Makaron się gotuje,\na sos jest już gotowy",
+    "lead": "Gdy dwa garnki idą w różnym tempie, Geusaie pokazuje dużą czcionką jedną rzecz, którą twoje ręce mają zrobić teraz. Sos jest planowany wstecz od chwili, gdy makaron trzeba odcedzić.",
+    "cta": "Pobierz za darmo z App Store",
+    "note": "Wszystkie funkcje są darmowe. Konto nie jest potrzebne."
+  },
+  "demo": {
+    "title": "Wypróbuj",
+    "lead": "Ugotuj aglio e olio w tempie 20 razy szybszym. Stuknij Zacznij gotować, a potem Dalej za każdym razem, gdy skończyłbyś zadanie. Zobacz, jak zmienia się karta, gdy przychodzi pora odcedzić makaron.",
+    "note": "Ten sam przepis i ten sam układ kolejności co w aplikacji. Tylko zegar biegnie szybciej.",
+    "again": "Zacznij od nowa",
+    "app": {
+      "first": "Na początek",
+      "startHint": "Dotknij poniżej „Zacznij gotować”, a minutniki garnków ruszą",
+      "now": "Zrób teraz",
+      "nowCant": "Teraz · nie może czekać",
+      "late": "Spóźnienie · zrób to od razu",
+      "calm": "Zrób teraz · bez pośpiechu",
+      "ready": "Gotowe 🍴 Nakładaj na talerze",
+      "handsDone": "Ręce są wolne — zostało tylko czekać na garnki",
+      "upNext": "Potem · %@ %@",
+      "resume": "Zaczęte wcześniej · %@ %@ — dokończ najpierw to, potem wróć do tamtego",
+      "saidNext": "Gotowe? Powiedz „dalej”",
+      "empty": "Wolny",
+      "onIt": "Zajmujesz się tym",
+      "finished": "Zużyty",
+      "start": "Zacznij gotować",
+      "next": "Dalej",
+      "elapsed": "Upłynęło",
+      "names": {
+        "ao-water-on": "Postaw wodę na dużym ogniu",
+        "ao-boil": "Zagotuj wodę",
+        "ao-drop": "Gdy woda się zagotuje, wrzuć makaron",
+        "ao-pasta": "Ugotuj makaron",
+        "ao-reserve": "Wyjmij makaron i zachowaj wodę po gotowaniu",
+        "ao-garlic": "Podsmaż czosnek na oliwie",
+        "ao-toss": "Dolej wodę po gotowaniu i zemulguj",
+        "ao-prep": "Wyjmij składniki i postaw patelnię",
+        "ao-slice": "Pokrój czosnek w cienkie plasterki",
+        "ao-pepper": "Posiekaj chili i pietruszkę",
+        "ao-cheese": "Zetrzyj ser i podgrzej talerze"
+      },
+      "lanes": [
+        "Garnek na makaron",
+        "Patelnia na sos"
+      ],
+      "progress": {
+        "ao-boil": "Woda się gotuje",
+        "ao-pasta": "Makaron się gotuje"
+      }
+    }
+  },
+  "problem": {
+    "title": "Trzy minutniki, a makaron i tak rozgotowany?",
+    "text": "Jeden minutnik na makaron, drugi na sos, czas czosnku w głowie, i po chwili nie wiesz, co jest pierwsze. Akurat kroisz, gdy trzeba odcedzić, a sos dochodzi dwie minuty za późno. Geusaie zna przepis jako „najpierw to, potem tamto”, więc mówi ci tylko jedną rzecz do zrobienia teraz."
+  },
+  "features": [
+    {
+      "title": "Co nie może czekać, robi się czerwone",
+      "text": "Odcedzenie makaronu, czosnek o krok od przypalenia: gdy spóźnienie zepsułoby danie, karta zmienia kolor na terakotowy i każe odłożyć krojenie na bok.\nGdy garnek jest gotowy, dostajesz powiadomienie, nawet jeśli nie patrzysz na ekran, razem z tym, co trzeba zrobić od razu.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Krojenie wtedy, gdy masz wolne ręce",
+      "text": "Krojenie czosnku, tarcie sera, odmierzanie: nic z tego nie ma ustalonej godziny, więc aplikacja nie odlicza tu sekund. Pasek wypełnia się, gdy masz wolne ręce, zatrzymuje się, gdy woła garnek, i rusza dalej od tego samego miejsca.\nWłączysz palnik trzy minuty później? Wszystko dalej przesunie się o trzy minuty. Plan jest za każdym razem liczony od nowa na podstawie tego, co naprawdę zrobiłeś.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Postaw przy kuchence, dalej idź głosem",
+      "text": "Cztery rozmiary tekstu, żeby czytać z kroku czy dwóch, a ekran nie gaśnie, gdy gotujesz.\nMokre ręce? Powiedz `dalej`, a aplikacja przejdzie do następnego zadania bez dotykania.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Trzy kroki do obiadu",
+    "items": [
+      {
+        "title": "Wybierz danie",
+        "text": "Widzisz, ile mniej więcej potrwa i ile garnków potrzeba."
+      },
+      {
+        "title": "Stuknij Zacznij gotować",
+        "text": "Najpierw pokaże pierwsze zadanie, a zegary garnków ruszą w chwili stuknięcia."
+      },
+      {
+        "title": "Gotowe? Dalej.",
+        "text": "Stuknij przycisk albo powiedz „dalej”, a pojawi się następne zadanie."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Kolor mówi, jak bardzo to pilne",
+    "rows": [
+      [
+        "Zielony",
+        "Przygotowanie. Bez pośpiechu."
+      ],
+      [
+        "Musztardowy",
+        "Czas na garnek. Zrób to teraz, ale spokojnie."
+      ],
+      [
+        "Terakotowy",
+        "Jeśli zaczekasz, makaron się rozgotuje albo czosnek przypali. Teraz."
+      ],
+      [
+        "Pola garnków",
+        "Kurczący się kwadrat to pozostały czas. Czas garnków nigdy nie jest ukryty."
+      ]
+    ],
+    "note": "Na osi czasu przerywane paski oznaczają zadania, które mogą poczekać."
+  },
+  "pricing": {
+    "title": "Wszystkie funkcje są darmowe",
+    "free": {
+      "name": "Za darmo",
+      "items": [
+        "Oba przepisy",
+        "Osobny minutnik dla każdego garnka i cała oś czasu",
+        "Powiadomienie, gdy garnek jest gotowy",
+        "„Dalej” głosem",
+        "Cztery rozmiary tekstu",
+        "Otwieranie przepisu przez Siri lub Skróty"
+      ]
+    },
+    "pro": {
+      "name": "Wesprzyj twórcę (dobrowolnie)",
+      "items": [
+        "Jeśli aplikacja ci pomaga, możesz w Ustawieniach zostawić mały napiwek",
+        "Napiwek niczego nie odblokowuje. Bez niego wszystkie funkcje i tak są twoje"
+      ],
+      "note": "Jednorazowe napiwki, nie subskrypcja."
+    },
+    "note": "Bez konta, bez reklam i działa bez internetu."
+  },
+  "faq": {
+    "title": "Częste pytania",
+    "items": [
+      {
+        "q": "Mówię „dalej”, ale nic się nie dzieje.",
+        "a": "Przycisk mikrofonu w lewym dolnym rogu jest czerwony, gdy aplikacja słucha, i szary, gdy jest wyłączony. Za pierwszym razem pozwól na dostęp do mikrofonu i rozpoznawania mowy; jeśli odmówiłeś, włącz je ponownie w Ustawienia > Geusaie. Aplikacja słucha słowa napisanego na przycisku Dalej. W bardzo głośnej kuchni po prostu stuknij Dalej."
+      },
+      {
+        "q": "Garnek jest gotowy, ale nie przyszło powiadomienie.",
+        "a": "Sprawdź, czy powiadomienia są włączone w Ustawienia > Powiadomienia > Geusaie. Tryb skupienia może je wyciszać. Powiadomienia przychodzą tylko wtedy, gdy garnek jest gotowy; przygotowanie nigdy cię nie pogania."
+      },
+      {
+        "q": "Co z planem, jeśli zacznę później?",
+        "a": "Zostanie przeliczony na podstawie tego, co naprawdę zrobiłeś. Włączysz palnik trzy minuty później, a wszystko dalej przesunie się o trzy minuty; sos pozostanie zaplanowany wstecz od chwili, gdy makaron będzie gotowy."
+      },
+      {
+        "q": "Tekst jest za mały.",
+        "a": "Na ekranie gotowania stuknij w prawym górnym rogu przycisk rozmiaru tekstu i wybierz Normalny, Duży, Większy lub Największy. Wybór zostanie zapamiętany."
+      },
+      {
+        "q": "Czy ekran gaśnie podczas gotowania?",
+        "a": "Nie. Podczas gotowania ekran pozostaje włączony, więc nie musisz go dotykać mokrymi rękami."
+      },
+      {
+        "q": "Jakie dania są w aplikacji?",
+        "a": "Aglio e olio (około 15 minut, 2 garnki) i makaron w sosie pomidorowo-śmietanowym (około 20 minut, 2 garnki), na podstawie przepisów z Serious Eats, Gimme Some Oven, RecipeTin Eats i The Burnt Butter Table. Pasuje każde danie, w którym dwa garnki pracują naraz, więc napisz, jaki przepis chcesz zobaczyć."
+      },
+      {
+        "q": "Czy mój głos jest nagrywany?",
+        "a": "Nie. Aplikacja słucha tylko słowa „dalej” i niczego nie nagrywa ani nie zapisuje. Jeśli urządzenie to obsługuje, rozpoznawanie odbywa się na urządzeniu. Nie są zbierane żadne dane osobowe."
+      },
+      {
+        "q": "Czy mogę otworzyć ją przez Siri?",
+        "a": "Tak. Wybierz danie w Siri lub w aplikacji Skróty, a od razu otworzy się jego ekran gotowania. Zegary ruszą, gdy będziesz gotowy nastawić wodę i stukniesz Zacznij gotować."
+      },
+      {
+        "q": "Na jakich urządzeniach działa?",
+        "a": "Na iPhonie i iPadzie z iOS 17 lub nowszym. Konto ani internet nie są potrzebne."
+      },
+      {
+        "q": "Jak zgłosić problem lub zaproponować przepis?",
+        "a": "W aplikacji przez Ustawienia > Wyślij opinię albo mailowo na adres poniżej. Podaj model urządzenia i wersję iOS, a sprawdzimy to szybciej. Zwykle odpowiadamy w ciągu kilku dni."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Dziś wieczorem makaron\ni sos gotowe razem",
+    "cta": "Pobierz za darmo z App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Coś nie działa, coś cię zdziwiło albo masz przepis na myśli? Napisz na {email}."
+  }
+}

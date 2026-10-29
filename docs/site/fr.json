@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie : le minuteur de cuisine pour deux casseroles à la fois",
+  "description": "La sauce est prête pendant que les pâtes cuisent. Geusaie montre la seule tâche du moment, minute chaque casserole et avance à la voix. Gratuit.",
+  "hero": {
+    "headline": "Les pâtes cuisent.\nLa sauce suit, en même temps.",
+    "lead": "Quand deux casseroles avancent à des rythmes différents, Geusaie affiche en grand la seule chose que vos mains doivent faire maintenant. La sauce est calée à rebours sur le moment où les pâtes sortent de l’eau.",
+    "cta": "Télécharger gratuitement sur l’App Store",
+    "note": "Toutes les fonctions sont gratuites. Aucun compte requis."
+  },
+  "demo": {
+    "title": "Essayez",
+    "lead": "Préparez des pâtes aglio e olio en accéléré, 20 fois plus vite. Touchez « Commencer à cuisiner », puis « Suivant » chaque fois que vous auriez fini une tâche. Regardez comment la carte change quand il est temps d’égoutter les pâtes.",
+    "note": "Même recette et même calcul de l’ordre que dans l’app. Seule l’horloge va plus vite.",
+    "again": "Recommencer",
+    "app": {
+      "first": "Pour commencer",
+      "startHint": "Touchez « Commencer à cuisiner » ci-dessous pour lancer les minuteurs des casseroles",
+      "now": "À faire maintenant",
+      "nowCant": "Maintenant · impossible à reporter",
+      "late": "En retard · à faire tout de suite",
+      "calm": "À faire maintenant · pas de précipitation",
+      "ready": "C’est prêt 🍴 À table !",
+      "handsDone": "Vos mains ont fini — il ne reste qu’à attendre les casseroles",
+      "upNext": "Ensuite · %@ %@",
+      "resume": "Déjà commencé · %@ %@ — terminez ceci d’abord, puis reprenez",
+      "saidNext": "C’est fait ? Dites « suivant »",
+      "empty": "Libre",
+      "onIt": "Vous y êtes",
+      "finished": "Terminée",
+      "start": "Commencer à cuisiner",
+      "next": "Suivant",
+      "elapsed": "Temps écoulé",
+      "names": {
+        "ao-water-on": "Mettre l’eau sur feu vif",
+        "ao-boil": "Porter l’eau à ébullition",
+        "ao-drop": "À ébullition, plonger les pâtes",
+        "ao-pasta": "Cuire les pâtes",
+        "ao-reserve": "Égoutter les pâtes en gardant l’eau de cuisson",
+        "ao-garlic": "Faire revenir l’ail dans l’huile",
+        "ao-toss": "Ajouter l’eau de cuisson et émulsionner",
+        "ao-prep": "Sortir les ingrédients et poser la poêle",
+        "ao-slice": "Émincer l’ail en fines lamelles",
+        "ao-pepper": "Hacher le piment et le persil",
+        "ao-cheese": "Râper le fromage et réchauffer les assiettes"
+      },
+      "lanes": [
+        "Casserole des pâtes",
+        "Poêle de la sauce"
+      ],
+      "progress": {
+        "ao-boil": "L’eau chauffe",
+        "ao-pasta": "Les pâtes cuisent"
+      }
+    }
+  },
+  "problem": {
+    "title": "Trois minuteurs lancés, et les pâtes trop cuites quand même ?",
+    "text": "Un minuteur pour les pâtes, un pour la sauce, l’ail en tête, et on ne sait plus ce qui passe en premier. Vous êtes en train d’émincer quand il faut égoutter, et la sauce arrive deux minutes trop tard. Geusaie connaît la recette sous la forme « ceci, puis cela » et ne vous indique que la chose à faire maintenant."
+  },
+  "features": [
+    {
+      "title": "Ce qui ne peut pas attendre passe au rouge",
+      "text": "Égoutter les pâtes, l’ail sur le point de brûler : quand une tâche gâcherait le plat si elle prenait du retard, la carte devient terre cuite et vous dit de laisser la planche de côté.\nQuand une casserole est prête, une notification vous prévient même si vous ne regardez pas l’écran, avec la tâche à faire tout de suite.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "La découpe se glisse dans les temps morts",
+      "text": "Émincer l’ail, râper le fromage, peser : rien de tout cela n’est minuté, alors Geusaie ne décompte pas les secondes. La barre se remplit quand vos mains sont libres, s’arrête quand une casserole vous appelle et reprend là où vous en étiez.\nVous allumez le feu trois minutes en retard ? Tout ce qui suit glisse de trois minutes. Le planning est recalculé à partir de ce que vous avez vraiment fait.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Posé sur le plan de travail, piloté à la voix",
+      "text": "Quatre tailles de texte pour lire à un ou deux pas de distance, et l’écran reste allumé pendant la cuisson.\nLes mains mouillées ? Dites `suivant` et l’app passe à la tâche suivante sans que vous touchiez l’écran.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Trois étapes pour passer à table",
+    "items": [
+      {
+        "title": "Choisissez un plat",
+        "text": "Vous voyez le temps approximatif et le nombre de casseroles nécessaires."
+      },
+      {
+        "title": "Touchez « Commencer à cuisiner »",
+        "text": "La première tâche s’affiche, et les minuteurs des casseroles démarrent dès que vous touchez."
+      },
+      {
+        "title": "Fini ? Suivant.",
+        "text": "Touchez le bouton ou dites « suivant », et la tâche suivante apparaît."
+      }
+    ]
+  },
+  "reference": {
+    "title": "La couleur indique l’urgence",
+    "rows": [
+      [
+        "Vert",
+        "Préparation. Prenez votre temps."
+      ],
+      [
+        "Moutarde",
+        "Une casserole vous attend. C’est maintenant, mais sans urgence."
+      ],
+      [
+        "Terre cuite",
+        "Si vous attendez, les pâtes seront trop cuites ou l’ail brûlera. C’est maintenant."
+      ],
+      [
+        "Cases des casseroles",
+        "Le carré qui rétrécit, c’est le temps restant. Le temps des casseroles n’est jamais caché."
+      ]
+    ],
+    "note": "Sur la frise, les barres en pointillés sont les tâches qui peuvent attendre."
+  },
+  "pricing": {
+    "title": "Toutes les fonctions sont gratuites",
+    "free": {
+      "name": "Gratuit",
+      "items": [
+        "Les deux recettes",
+        "Un minuteur par casserole et la frise complète",
+        "Une notification quand une casserole est prête",
+        "« Suivant » à la voix",
+        "Quatre tailles de texte",
+        "Ouvrir une recette avec Siri ou Raccourcis"
+      ]
+    },
+    "pro": {
+      "name": "Soutenir le développeur (facultatif)",
+      "items": [
+        "Si l’app vous rend service, vous pouvez laisser un petit pourboire depuis les réglages",
+        "Un pourboire ne débloque rien. Sans lui, toutes les fonctions restent à vous"
+      ],
+      "note": "Des pourboires ponctuels, pas un abonnement."
+    },
+    "note": "Ni compte, ni publicité, et l’app fonctionne sans connexion Internet."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Je dis « suivant » mais rien ne se passe.",
+        "a": "Le bouton micro en bas à gauche est rouge quand l’app écoute et gris quand il est coupé. Autorisez le micro et la reconnaissance vocale la première fois. Si vous avez refusé, réactivez-les dans Réglages > Geusaie. L’app écoute le mot écrit sur son bouton Suivant. Dans une cuisine très bruyante, touchez simplement « Suivant »."
+      },
+      {
+        "q": "Une casserole est prête mais je n’ai pas reçu de notification.",
+        "a": "Vérifiez que les notifications sont activées dans Réglages > Notifications > Geusaie. Un mode de concentration peut les rendre silencieuses. Les notifications n’arrivent que lorsqu’une casserole est prête : la préparation ne vous presse jamais."
+      },
+      {
+        "q": "Que devient le planning si je commence en retard ?",
+        "a": "Il est recalculé à partir de ce que vous avez réellement fait. Si vous allumez le feu trois minutes plus tard, tout ce qui suit est décalé de trois minutes, et la sauce reste calée à rebours sur la sortie des pâtes."
+      },
+      {
+        "q": "Le texte est trop petit.",
+        "a": "Sur l’écran de cuisson, touchez le bouton de taille du texte en haut à droite et choisissez Normal, Grand, Plus grand ou Très grand. Votre choix est mémorisé."
+      },
+      {
+        "q": "L’écran s’éteint-il pendant la cuisson ?",
+        "a": "Non. L’écran reste allumé pendant que vous cuisinez, pour ne jamais avoir à le toucher avec les mains mouillées."
+      },
+      {
+        "q": "Quels plats sont proposés ?",
+        "a": "Des pâtes aglio e olio (environ 15 minutes, 2 casseroles) et des pâtes crémeuses à la tomate (environ 20 minutes, 2 casseroles), d’après des recettes de Serious Eats, Gimme Some Oven, RecipeTin Eats et The Burnt Butter Table. Tout plat avec deux casseroles en même temps s’y prête : dites-nous ce que vous aimeriez voir."
+      },
+      {
+        "q": "Ma voix est-elle enregistrée ?",
+        "a": "Non. L’app n’écoute que le mot « suivant » et n’enregistre ni ne conserve aucun son. Si votre appareil le permet, la reconnaissance se fait sur l’appareil. Aucune donnée personnelle n’est collectée."
+      },
+      {
+        "q": "Puis-je l’ouvrir avec Siri ?",
+        "a": "Oui. Choisissez un plat dans Siri ou l’app Raccourcis, et son écran de cuisson s’ouvre aussitôt. Les minuteurs démarrent quand vous touchez « Commencer à cuisiner », une fois prêt à mettre l’eau à chauffer."
+      },
+      {
+        "q": "Sur quels appareils fonctionne-t-elle ?",
+        "a": "Sur iPhone et iPad avec iOS 17 ou version ultérieure. Ni compte ni connexion Internet requis."
+      },
+      {
+        "q": "Comment signaler un problème ou proposer une recette ?",
+        "a": "Passez par Réglages > Envoyer un commentaire dans l’app, ou écrivez à l’adresse ci-dessous. Indiquez le modèle de votre appareil et la version d’iOS pour un traitement plus rapide. Nous répondons généralement en quelques jours."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Ce soir, les pâtes et\nla sauce arrivent ensemble",
+    "cta": "Télécharger gratuitement sur l’App Store"
+  },
+  "ui": {
+    "skip": "Aller au contenu",
+    "languages": "Langue",
+    "privacy": "Politique de confidentialité",
+    "contact": "Un blocage, un bug ou une recette en tête ? Écrivez à {email}."
+  }
+}

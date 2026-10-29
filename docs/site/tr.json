@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: iki tencereyi birlikte yöneten mutfak zamanlayıcısı",
+  "description": "Makarna haşlanırken sos da hazır. Geusaie şimdi yapılacak tek işi gösterir, her tencereyi ayrı sayar ve ileri dediğinde sonraki adıma geçer. Ücretsiz.",
+  "hero": {
+    "headline": "Makarna haşlanırken\nsos da hazır",
+    "lead": "İki tencere farklı hızda giderken Geusaie, ellerinin şu an yapması gereken tek işi büyük harflerle gösterir. Sos, makarnanın süzüleceği andan geriye doğru zamanlanır.",
+    "cta": "App Store'dan ücretsiz indir",
+    "note": "Tüm özellikler ücretsiz. Hesap gerekmez."
+  },
+  "demo": {
+    "title": "Kendin dene",
+    "lead": "Bir tabak aglio e olio'yu 20 kat hızla pişir. Yemeğe başla'ya dokun, ardından bir işi bitirmiş sayıldığın her an İleri'ye dokun. Makarnayı süzme vakti gelince kartın nasıl değiştiğine de bak.",
+    "note": "Uygulamadakiyle aynı tarif, aynı sıra hesabı. Sadece saat daha hızlı akıyor.",
+    "again": "Baştan başla",
+    "app": {
+      "first": "Başlayınca ilk iş",
+      "startHint": "Aşağıdaki “Yemeğe başla” düğmesine dokunun, tencerelerin zamanlayıcıları işlemeye başlasın",
+      "now": "Şimdi yapılacak",
+      "nowCant": "Şimdi · ertelenemez",
+      "late": "Gecikti · hemen yapın",
+      "calm": "Şimdi yapılacak · acele yok",
+      "ready": "Hazır 🍴 Tabaklara alın",
+      "handsDone": "Elleriniz işini bitirdi — geriye tencereleri beklemek kaldı",
+      "upNext": "Sonra · %@ %@",
+      "resume": "Yarım kalan · %@ %@ — önce bunu bitirin, sonra devam edin",
+      "saidNext": "Bitti mi? “İleri” deyin",
+      "empty": "Boş",
+      "onIt": "Sizde",
+      "finished": "Kullanımı bitti",
+      "start": "Yemeğe başla",
+      "next": "İleri",
+      "elapsed": "Geçen süre",
+      "names": {
+        "ao-water-on": "Suyu yüksek ateşe koyun",
+        "ao-boil": "Suyu kaynatın",
+        "ao-drop": "Kaynayınca makarnayı atın",
+        "ao-pasta": "Makarnayı haşlayın",
+        "ao-reserve": "Makarnayı alın, haşlama suyunu ayırın",
+        "ao-garlic": "Sarımsağı yağda kavurun",
+        "ao-toss": "Haşlama suyunu ekleyip emülsiyon yapın",
+        "ao-prep": "Malzemeleri çıkarın ve tavayı ocağa koyun",
+        "ao-slice": "Sarımsağı ince dilimleyin",
+        "ao-pepper": "Kuru biber ve maydanozu doğrayın",
+        "ao-cheese": "Peyniri rendeleyin, tabakları ısıtın"
+      },
+      "lanes": [
+        "Makarna tenceresi",
+        "Sos tavası"
+      ],
+      "progress": {
+        "ao-boil": "Su kaynıyor",
+        "ao-pasta": "Makarna haşlanıyor"
+      }
+    }
+  },
+  "problem": {
+    "title": "Üç zamanlayıcı kurdun, makarna yine de mi lapa oldu?",
+    "text": "Makarnaya bir zamanlayıcı, sosa bir zamanlayıcı, sarımsağın süresi de aklında; bir noktada hangisinin önce geldiğini karıştırırsın. Sarımsak doğrarken makarnayı süzme anını kaçırırsın, sos da makarnadan iki dakika geç hazır olur. Geusaie tarifi \"önce bu, sonra şu\" diye bilir, bu yüzden sana yalnızca şimdi yapman gereken tek işi söyler."
+  },
+  "features": [
+    {
+      "title": "Bekleyemeyecek iş gelince kart kırmızıya döner",
+      "text": "Makarnayı süzmek, yanmak üzere olan sarımsak: Geciktiğinde yemeği bozacak bir iş geldiğinde kart kiremit rengine döner ve doğrama işini bir kenara bırakmanı söyler.\nBir tencere hazır olduğunda ekrana bakmıyor olsan bile bildirim gelir, hemen yapman gereken işle birlikte.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Doğrama, elin boşken",
+      "text": "Sarımsak dilimlemek, peynir rendelemek, ölçmek: Bunların saati yok, bu yüzden saniye saymaz. Çubuk ellerin boşken dolar, bir tencere seslenince durur, döndüğünde kaldığı yerden devam eder.\nOcağı üç dakika geç yakarsan sonraki her şey de üç dakika kayar. Plan, gerçekte ne zaman ne yaptığına göre her seferinde yeniden hesaplanır.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Tezgâha yasla, sesinle ilerle",
+      "text": "Bir iki adım uzaktan okunabilsin diye yazı boyutu dört kademe büyür, pişirirken ekran kapanmaz.\nEllerin ıslak mı? `ileri` de, ekrana dokunmadan sonraki işe geçsin.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Üç adımda başla",
+    "items": [
+      {
+        "title": "Yemeği seç",
+        "text": "Ne kadar süreceğine ve kaç tencere gerektiğine bakman yeterli."
+      },
+      {
+        "title": "Yemeğe başla'ya dokun",
+        "text": "Önce ilk işini gösterir; dokunduğun an tencerelerin saati işlemeye başlar."
+      },
+      {
+        "title": "Bitti mi? İleri.",
+        "text": "Düğmeye dokun ya da \"ileri\" de, sıradaki iş gelsin."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Renk, ne kadar acil olduğunu söyler",
+    "rows": [
+      [
+        "Yeşil",
+        "Hazırlık işi. Acele etme."
+      ],
+      [
+        "Hardal",
+        "Sıra tencerede. Şimdi yap, ama telaş yok."
+      ],
+      [
+        "Kiremit",
+        "Beklersen makarna lapa olur ya da sarımsak yanar. Şimdi yap."
+      ],
+      [
+        "Tencere kutuları",
+        "Küçülen kare kalan süredir. Tencerelerin süresi asla gizlenmez."
+      ]
+    ],
+    "note": "Zaman çizelgesinde kesikli çubuklar, bekleyebilecek işlerdir."
+  },
+  "pricing": {
+    "title": "Tüm özellikler ücretsiz",
+    "free": {
+      "name": "Ücretsiz",
+      "items": [
+        "İki tarifin tamamı",
+        "Her tencere için ayrı zamanlayıcı ve tüm zaman çizelgesi",
+        "Tencere hazır olunca bildirim",
+        "Sesle \"ileri\"",
+        "Dört yazı boyutu",
+        "Siri ve Kestirmeler ile tarifi aç"
+      ]
+    },
+    "pro": {
+      "name": "Geliştiriciye destek ol (isteğe bağlı)",
+      "items": [
+        "Uygulama işine yaradıysa Ayarlar'dan küçük bir bahşiş gönderebilirsin",
+        "Bahşiş hiçbir şeyin kilidini açmaz. Göndermesen de tüm özellikler senin"
+      ],
+      "note": "Tek seferlik bahşişler, abonelik değil."
+    },
+    "note": "Hesap yok, reklam yok ve internet olmadan da çalışır."
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "items": [
+      {
+        "q": "\"İleri\" diyorum ama geçmiyor.",
+        "a": "Sol alttaki mikrofon düğmesi dinlerken kırmızı, kapalıyken gridir. İlk seferde hem mikrofona hem konuşma tanımaya izin vermelisin; reddettiysen Ayarlar uygulaması > Geusaie'den yeniden açabilirsin. Uygulama, İleri düğmesinde yazan kelimeyi dinler. Mutfak çok gürültülüyse alttaki İleri düğmesine dokun."
+      },
+      {
+        "q": "Tencere hazır oldu ama bildirim gelmedi.",
+        "a": "Ayarlar > Bildirimler > Geusaie'de bildirimlerin açık olduğunu kontrol et. Odak modu açıksa ses çıkmayabilir. Bildirimler yalnızca bir tencere hazır olduğunda gelir; doğrama, rendeleme gibi hazırlık işleri seni sıkıştırmamak için bildirim göndermez."
+      },
+      {
+        "q": "Geç başlarsam plan ne olur?",
+        "a": "Gerçekte ne zaman ne yaptığına göre yeniden hesaplanır. Ocağı üç dakika geç yakarsan sonraki işler de üç dakika kayar; sos ise makarnanın süzüleceği andan geriye doğru zamanlanmaya devam eder."
+      },
+      {
+        "q": "Yazılar çok küçük.",
+        "a": "Pişirme ekranında sağ üstteki yazı boyutu düğmesine dokun ve Normal, Büyük, Daha büyük ya da En büyük'ü seç. Seçimin hatırlanır."
+      },
+      {
+        "q": "Pişirirken ekran kapanır mı?",
+        "a": "Hayır. Pişirirken ekran açık kalır, böylece ıslak ellerle ekrana dokunman gerekmez."
+      },
+      {
+        "q": "Hangi yemekler var?",
+        "a": "Aglio e olio (yaklaşık 15 dakika, 2 tencere) ve domatesli kremalı makarna (yaklaşık 20 dakika, 2 tencere). Serious Eats, Gimme Some Oven, RecipeTin Eats ve The Burnt Butter Table tariflerinden yararlanıldı. İki tencerenin aynı anda kaynadığı her yemek uygundur, görmek istediğin tarifi bize yaz."
+      },
+      {
+        "q": "Sesim kaydediliyor mu?",
+        "a": "Hayır. Uygulama yalnızca \"ileri\" kelimesini dinler, ses kaydetmez ve saklamaz. Cihaz destekliyorsa konuşma tanıma yalnızca cihazda yapılır. Kişisel veri toplanmaz."
+      },
+      {
+        "q": "Siri ile açabilir miyim?",
+        "a": "Evet. Siri'de ya da Kestirmeler uygulamasında bir yemek seçtiğinde o yemeğin pişirme ekranı hemen açılır. Saatler, suyu koymaya hazır olup Yemeğe başla'ya dokunduğunda başlar."
+      },
+      {
+        "q": "Hangi cihazlarda çalışır?",
+        "a": "iOS 17 veya sonrası yüklü iPhone ve iPad'de. Hesap ya da internet bağlantısı gerekmez."
+      },
+      {
+        "q": "Sorun bildirmek ya da tarif önermek için ne yapmalıyım?",
+        "a": "Uygulamadaki Ayarlar > Geri Bildirim Gönder bölümünü kullan ya da aşağıdaki adrese e-posta gönder. Cihaz modelini ve iOS sürümünü eklersen daha hızlı bakabiliriz. Genellikle birkaç gün içinde yanıt veririz."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Bu akşam makarna da\nsos da tam zamanında",
+    "cta": "App Store'dan ücretsiz indir"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "languages": "Dil",
+    "privacy": "Gizlilik Politikası",
+    "contact": "Takıldığın, tuhaf bulduğun ya da eklenmesini istediğin bir tarif mi var? {email} adresine yaz."
+  }
+}

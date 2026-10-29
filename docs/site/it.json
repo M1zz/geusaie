@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: il timer da cucina per due pentole insieme",
+  "description": "Il sugo è pronto mentre la pasta bolle. Geusaie mostra l’unica cosa da fare adesso, conta ogni pentola a parte e va avanti quando dici avanti. Gratis.",
+  "hero": {
+    "headline": "La pasta bolle.\nIntanto il sugo è pronto.",
+    "lead": "Quando due pentole vanno a velocità diverse, Geusaie ti mostra in grande l’unica cosa che le tue mani devono fare adesso. Il sugo viene programmato a ritroso dal momento in cui scoli la pasta.",
+    "cta": "Scaricala gratis dall’App Store",
+    "note": "Tutte le funzioni sono gratuite. Nessun account richiesto."
+  },
+  "demo": {
+    "title": "Provalo",
+    "lead": "Cucina un piatto di aglio e olio a velocità 20x. Tocca «Inizia a cucinare», poi «Avanti» ogni volta che avresti finito un compito. Guarda come cambia la scheda quando arriva il momento di scolare la pasta.",
+    "note": "Stessa ricetta e stesso calcolo dei tempi dell’app. Corre solo l’orologio.",
+    "again": "Ricomincia",
+    "app": {
+      "first": "Cosa fare per prima cosa",
+      "startHint": "Tocca «Inizia a cucinare» qui sotto e i timer delle pentole partono",
+      "now": "Da fare adesso",
+      "nowCant": "Adesso · non si può rimandare",
+      "late": "In ritardo · fallo subito",
+      "calm": "Da fare adesso · senza fretta",
+      "ready": "È pronto 🍴 Impiatta",
+      "handsDone": "Le tue mani hanno finito — non resta che aspettare le pentole",
+      "upNext": "Poi · %@ %@",
+      "resume": "Quello che stavi facendo · %@ %@ — finisci prima questo, poi riprendi",
+      "saidNext": "Fatto? Di’ «avanti»",
+      "empty": "Libera",
+      "onIt": "Ci sei tu",
+      "finished": "Già usata",
+      "start": "Inizia a cucinare",
+      "next": "Avanti",
+      "elapsed": "Tempo trascorso",
+      "names": {
+        "ao-water-on": "Metti l’acqua sul fuoco vivace",
+        "ao-boil": "Porta l’acqua a bollore",
+        "ao-drop": "Quando bolle, butta la pasta",
+        "ao-pasta": "Cuoci la pasta",
+        "ao-reserve": "Scola la pasta tenendo da parte l’acqua di cottura",
+        "ao-garlic": "Soffriggi l’aglio nell’olio",
+        "ao-toss": "Aggiungi l’acqua di cottura e manteca",
+        "ao-prep": "Tira fuori gli ingredienti e metti su la padella",
+        "ao-slice": "Affetta l’aglio sottile",
+        "ao-pepper": "Trita il peperoncino e il prezzemolo",
+        "ao-cheese": "Gratta il formaggio e scalda i piatti"
+      },
+      "lanes": [
+        "Pentola della pasta",
+        "Padella del sugo"
+      ],
+      "progress": {
+        "ao-boil": "L’acqua bolle",
+        "ao-pasta": "La pasta cuoce"
+      }
+    }
+  },
+  "problem": {
+    "title": "Tre timer accesi e la pasta comunque scotta?",
+    "text": "Un timer per la pasta, uno per il sugo e l’aglio a memoria, e a un certo punto non sai più cosa viene prima. Stai affettando proprio quando c’è da scolare, e il sugo arriva con due minuti di ritardo. Geusaie conosce la ricetta come «prima questo, poi quello» e ti dice solo l’unica cosa da fare adesso."
+  },
+  "features": [
+    {
+      "title": "Quando non può aspettare, la scheda diventa rossa",
+      "text": "Scolare la pasta, l’aglio che sta per bruciarsi: quando un compito rovinerebbe il piatto se slittasse, la scheda diventa color terracotta e ti dice di lasciare un attimo il tagliere.\nQuando una pentola è pronta, ti arriva una notifica anche se non stai guardando, con la cosa da fare subito.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Tagliare solo quando hai le mani libere",
+      "text": "Affettare l’aglio, grattugiare il formaggio, pesare: niente di tutto questo ha un orario, quindi Geusaie non conta i secondi. La barra si riempie mentre hai le mani libere, si ferma quando una pentola ti chiama e riprende da dove eri rimasto.\nAccendi il fuoco tre minuti dopo? Tutto il resto slitta di tre minuti. Il programma viene ricalcolato da quello che hai fatto davvero.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Appoggiato sul piano di lavoro, vai avanti a voce",
+      "text": "Quattro dimensioni del testo per leggerlo anche a un paio di passi, e lo schermo resta acceso mentre cucini.\nMani bagnate? Di’ `avanti` e passa al compito successivo senza toccare nulla.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Tre passi per arrivare in tavola",
+    "items": [
+      {
+        "title": "Scegli un piatto",
+        "text": "Vedi quanto ci vuole più o meno e quante pentole servono."
+      },
+      {
+        "title": "Tocca «Inizia a cucinare»",
+        "text": "Prima ti mostra il primo compito, poi i timer delle pentole partono appena tocchi."
+      },
+      {
+        "title": "Fatto? Avanti.",
+        "text": "Tocca il pulsante o di’ «avanti» e compare il compito successivo."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Il colore dice quanto è urgente",
+    "rows": [
+      [
+        "Verde",
+        "Preparazione. Fai con calma."
+      ],
+      [
+        "Senape",
+        "Una pentola ha bisogno di te. È ora, ma senza fretta."
+      ],
+      [
+        "Terracotta",
+        "Se aspetti, la pasta scuoce o l’aglio brucia. Fallo adesso."
+      ],
+      [
+        "Riquadri delle pentole",
+        "Il quadrato che si restringe è il tempo che resta. Il tempo delle pentole non viene mai nascosto."
+      ]
+    ],
+    "note": "Sulla linea del tempo, le barre tratteggiate sono compiti che possono aspettare."
+  },
+  "pricing": {
+    "title": "Tutte le funzioni sono gratuite",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Entrambe le ricette",
+        "Un timer per ogni pentola e la linea del tempo completa",
+        "Una notifica quando una pentola è pronta",
+        "«Avanti» a voce",
+        "Quattro dimensioni del testo",
+        "Apri una ricetta con Siri o Comandi Rapidi"
+      ]
+    },
+    "pro": {
+      "name": "Sostieni lo sviluppatore (facoltativo)",
+      "items": [
+        "Se l’app ti è utile, puoi lasciare una piccola mancia dalle impostazioni",
+        "La mancia non sblocca nulla. Anche senza, tutte le funzioni restano tue"
+      ],
+      "note": "Mance singole, non un abbonamento."
+    },
+    "note": "Niente account, niente pubblicità, e funziona anche senza connessione."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Dico «avanti» ma non succede niente.",
+        "a": "Il pulsante del microfono in basso a sinistra è rosso quando ascolta e grigio quando è spento. La prima volta consenti sia il microfono sia il riconoscimento vocale; se hai rifiutato, riattivali in Impostazioni > Geusaie. L’app ascolta la parola scritta sul suo pulsante Avanti. In una cucina molto rumorosa, tocca semplicemente «Avanti»."
+      },
+      {
+        "q": "Una pentola è pronta ma non è arrivata la notifica.",
+        "a": "Controlla che le notifiche siano attive in Impostazioni > Notifiche > Geusaie. Una modalità Full immersion può silenziarle. Le notifiche arrivano solo quando una pentola è pronta; la preparazione non ti mette mai fretta."
+      },
+      {
+        "q": "Cosa succede ai tempi se inizio in ritardo?",
+        "a": "Vengono ricalcolati da quello che hai fatto davvero. Se accendi il fuoco tre minuti dopo, tutto ciò che segue slitta di tre minuti, e il sugo resta programmato a ritroso sul momento in cui la pasta è pronta."
+      },
+      {
+        "q": "Il testo è troppo piccolo.",
+        "a": "Nella schermata di cottura, tocca il pulsante della dimensione del testo in alto a destra e scegli Normale, Grande, Più grande o Grandissimo. La scelta viene ricordata."
+      },
+      {
+        "q": "Lo schermo si spegne mentre cucino?",
+        "a": "No. Mentre cucini lo schermo resta acceso, così non devi mai toccarlo con le mani bagnate."
+      },
+      {
+        "q": "Quali piatti ci sono?",
+        "a": "Aglio e olio (circa 15 minuti, 2 pentole) e pasta alla crema di pomodoro (circa 20 minuti, 2 pentole), da ricette di Serious Eats, Gimme Some Oven, RecipeTin Eats e The Burnt Butter Table. Va bene qualsiasi piatto con due pentole sul fuoco insieme: dicci quale vorresti."
+      },
+      {
+        "q": "La mia voce viene registrata?",
+        "a": "No. L’app ascolta solo la parola «avanti» e non registra né salva alcun audio. Se il dispositivo lo supporta, il riconoscimento avviene sul dispositivo. Non vengono raccolti dati personali."
+      },
+      {
+        "q": "Posso aprirla con Siri?",
+        "a": "Sì. Scegli un piatto in Siri o nell’app Comandi Rapidi e si apre subito la sua schermata di cottura. I timer partono quando tocchi «Inizia a cucinare», quando sei pronto a mettere su l’acqua."
+      },
+      {
+        "q": "Su quali dispositivi funziona?",
+        "a": "Su iPhone e iPad con iOS 17 o versioni successive. Non servono account né connessione a Internet."
+      },
+      {
+        "q": "Come segnalo un problema o propongo una ricetta?",
+        "a": "Da Impostazioni > Invia feedback nell’app, oppure scrivendo all’indirizzo qui sotto. Indicare il modello del dispositivo e la versione di iOS ci aiuta a verificare prima. Di solito rispondiamo in pochi giorni."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Stasera pasta e sugo\narrivano insieme",
+    "cta": "Scaricala gratis dall’App Store"
+  },
+  "ui": {
+    "skip": "Vai al contenuto",
+    "languages": "Lingua",
+    "privacy": "Privacy",
+    "contact": "Ti sei bloccato, hai notato qualcosa di strano o hai una ricetta in mente? Scrivi a {email}."
+  }
+}

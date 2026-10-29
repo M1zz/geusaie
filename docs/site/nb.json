@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: kjøkkentimeren for to kjeler samtidig",
+  "description": "Sausen er ferdig mens pastaen koker. Geusaie viser den ene oppgaven som gjelder nå, teller hver kjele for seg og går videre når du sier neste. Gratis.",
+  "hero": {
+    "headline": "Pastaen koker.\nImens blir sausen ferdig.",
+    "lead": "Når to kjeler går i hvert sitt tempo, viser Geusaie med stor tekst den ene tingen hendene dine skal gjøre akkurat nå. Sausen beregnes baklengs fra øyeblikket pastaen skal siles.",
+    "cta": "Last ned gratis i App Store",
+    "note": "Alle funksjoner er gratis. Ingen konto trengs."
+  },
+  "demo": {
+    "title": "Prøv selv",
+    "lead": "Lag en porsjon aglio e olio i 20 ganger fart. Trykk på Start matlagingen, og trykk deretter på Neste hver gang du ville vært ferdig med en oppgave. Se hvordan kortet endrer seg når det er tid for å sile pastaen.",
+    "note": "Samme oppskrift og samme planlegging som i appen. Bare klokken går fortere.",
+    "again": "Start på nytt",
+    "app": {
+      "first": "Dette gjør du først",
+      "startHint": "Trykk på «Start matlagingen» nedenfor, så begynner gryteklokkene å gå",
+      "now": "Gjør nå",
+      "nowCant": "Nå · kan ikke vente",
+      "late": "Forsinket · gjør det med en gang",
+      "calm": "Gjør nå · ingen hast",
+      "ready": "Ferdig 🍴 Server opp",
+      "handsDone": "Hendene dine er ferdige — nå er det bare å vente på kjelene",
+      "upNext": "Deretter · %@ %@",
+      "resume": "Det du holdt på med · %@ %@ — gjør dette ferdig først, og fortsett så",
+      "saidNext": "Ferdig? Si «neste»",
+      "empty": "Ledig",
+      "onIt": "Du er i gang",
+      "finished": "Brukt ferdig",
+      "start": "Start matlagingen",
+      "next": "Neste",
+      "elapsed": "Medgått tid",
+      "names": {
+        "ao-water-on": "Sett vannet på med høy varme",
+        "ao-boil": "Få vannet til å koke",
+        "ao-drop": "Når det koker, legg i pastaen",
+        "ao-pasta": "Kok pastaen",
+        "ao-reserve": "Ta opp pastaen og ta vare på kokevannet",
+        "ao-garlic": "Fres hvitløken i olje",
+        "ao-toss": "Tilsett kokevann og emulger",
+        "ao-prep": "Ta frem ingrediensene og sett på pannen",
+        "ao-slice": "Skjær hvitløken i tynne skiver",
+        "ao-pepper": "Hakk chili og persille",
+        "ao-cheese": "Riv osten og varm tallerkenene"
+      },
+      "lanes": [
+        "Pastakjele",
+        "Saussteikepanne"
+      ],
+      "progress": {
+        "ao-boil": "Vannet koker",
+        "ao-pasta": "Pastaen koker"
+      }
+    }
+  },
+  "problem": {
+    "title": "Tre tidtakere i gang, og pastaen ble likevel bløt?",
+    "text": "Én tidtaker for pastaen, én for sausen og hvitløken i hodet, og plutselig vet du ikke hva som kommer først. Du står og kutter akkurat når pastaen skal siles, og sausen blir to minutter forsinket. Geusaie kjenner oppskriften som «først dette, så det», og forteller deg bare den ene tingen du skal gjøre nå."
+  },
+  "features": [
+    {
+      "title": "Det som ikke kan vente, blir rødt",
+      "text": "Sile pastaen, hvitløk like før den brenner seg: Når en oppgave vil ødelegge maten om den blir forsinket, blir kortet terrakottafarget og ber deg legge fra deg kuttingen et øyeblikk.\nNår en kjele er ferdig, får du et varsel selv om du ikke ser på skjermen, sammen med det du må gjøre med en gang.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Kutting når hendene er ledige",
+      "text": "Kutte hvitløk, rive ost, måle opp: ingenting av dette har et fast klokkeslett, så det telles ikke sekunder her. Linjen fylles mens hendene er ledige, stopper når en kjele roper, og fortsetter der du slapp.\nSlår du på platen tre minutter for sent, flyttes alt etterpå tre minutter. Planen regnes ut på nytt fra det du faktisk har gjort.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Sett den på benken, gå videre med stemmen",
+      "text": "Fire tekststørrelser, så du kan lese den fra et par skritt unna, og skjermen slukker ikke mens du lager mat.\nVåte hender? Si `neste`, så går appen videre til neste oppgave uten berøring.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Tre steg til middag",
+    "items": [
+      {
+        "title": "Velg en rett",
+        "text": "Du ser omtrent hvor lang tid den tar og hvor mange kjeler du trenger."
+      },
+      {
+        "title": "Trykk på Start matlagingen",
+        "text": "Først vises den første oppgaven, og kjeleklokkene starter i det du trykker."
+      },
+      {
+        "title": "Ferdig? Neste.",
+        "text": "Trykk på knappen eller si «neste», så dukker neste oppgave opp."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Fargen viser hvor mye det haster",
+    "rows": [
+      [
+        "Grønn",
+        "Forberedelse. Ta den med ro."
+      ],
+      [
+        "Sennepsgul",
+        "En kjele trenger deg. Gjør det nå, men uten stress."
+      ],
+      [
+        "Terrakotta",
+        "Venter du, blir pastaen bløt eller hvitløken brent. Gjør det nå."
+      ],
+      [
+        "Kjelefelter",
+        "Firkanten som krymper er tiden som er igjen. Kjeletiden skjules aldri."
+      ]
+    ],
+    "note": "På tidslinjen er stiplede felt oppgaver som kan vente."
+  },
+  "pricing": {
+    "title": "Alle funksjoner er gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Begge oppskriftene",
+        "En tidtaker for hver kjele og hele tidslinjen",
+        "Varsel når en kjele er ferdig",
+        "«Neste» med stemmen",
+        "Fire tekststørrelser",
+        "Åpne en oppskrift med Siri eller Snarveier"
+      ]
+    },
+    "pro": {
+      "name": "Støtt utvikleren (frivillig)",
+      "items": [
+        "Hvis appen hjelper deg, kan du gi et lite tips i Innstillinger",
+        "Tips låser ikke opp noe. Uten tips har du fortsatt alle funksjonene"
+      ],
+      "note": "Engangsbeløp, ikke abonnement."
+    },
+    "note": "Ingen konto, ingen reklame, og den fungerer uten internett."
+  },
+  "faq": {
+    "title": "Vanlige spørsmål",
+    "items": [
+      {
+        "q": "Jeg sier «neste», men ingenting skjer.",
+        "a": "Mikrofonknappen nede til venstre er rød mens appen lytter, og grå når den er av. Første gang må du gi tilgang til både mikrofon og talegjenkjenning. Har du sagt nei, kan du slå dem på igjen i Innstillinger > Geusaie. Appen lytter etter ordet som står på Neste-knappen. På et veldig bråkete kjøkken trykker du bare på Neste."
+      },
+      {
+        "q": "En kjele ble ferdig, men jeg fikk ikke noe varsel.",
+        "a": "Sjekk at varslinger er slått på i Innstillinger > Varslinger > Geusaie. En fokusmodus kan dempe dem. Varsler kommer bare når en kjele er ferdig; forberedelsene maser aldri på deg."
+      },
+      {
+        "q": "Hva skjer med planen hvis jeg starter senere?",
+        "a": "Den regnes ut på nytt fra det du faktisk har gjort. Slår du på platen tre minutter senere, flyttes alt etterpå tre minutter, og sausen beregnes fortsatt baklengs fra når pastaen er klar."
+      },
+      {
+        "q": "Teksten er for liten.",
+        "a": "Trykk på knappen for tekststørrelse øverst til høyre på matlagingsskjermen, og velg Normal, Stor, Større eller Størst. Valget blir husket."
+      },
+      {
+        "q": "Slukker skjermen mens jeg lager mat?",
+        "a": "Nei. Skjermen holder seg på mens du lager mat, så du slipper å ta på den med våte hender."
+      },
+      {
+        "q": "Hvilke retter er med?",
+        "a": "Aglio e olio (omtrent 15 minutter, 2 kjeler) og pasta i tomat- og fløtesaus (omtrent 20 minutter, 2 kjeler), basert på oppskrifter fra Serious Eats, Gimme Some Oven, RecipeTin Eats og The Burnt Butter Table. Alle retter med to kjeler i gang samtidig passer godt, så si gjerne fra hva du vil se."
+      },
+      {
+        "q": "Blir stemmen min tatt opp?",
+        "a": "Nei. Appen lytter bare etter ordet «neste» og tar ikke opp eller lagrer lyd. Hvis enheten støtter det, skjer talegjenkjenningen på selve enheten. Ingen personopplysninger samles inn."
+      },
+      {
+        "q": "Kan jeg åpne den med Siri?",
+        "a": "Ja. Velg en rett i Siri eller Snarveier-appen, så åpnes matlagingsskjermen med en gang. Klokkene starter først når du er klar til å sette på vannet og trykker på Start matlagingen."
+      },
+      {
+        "q": "Hvilke enheter fungerer den på?",
+        "a": "iPhone og iPad med iOS 17 eller nyere. Ingen konto eller internettforbindelse trengs."
+      },
+      {
+        "q": "Hvordan melder jeg fra om feil eller foreslår en oppskrift?",
+        "a": "Via Innstillinger > Send tilbakemelding i appen, eller på e-post til adressen nedenfor. Ta gjerne med enhetsmodell og iOS-versjon, så kan vi se på det raskere. Vi svarer vanligvis innen noen dager."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "I kveld blir pasta\nog saus ferdig samtidig",
+    "cta": "Last ned gratis i App Store"
+  },
+  "ui": {
+    "skip": "Gå til innhold",
+    "languages": "Språk",
+    "privacy": "Personvern",
+    "contact": "Står du fast, har du sett noe rart, eller har du en oppskrift i tankene? Skriv til {email}."
+  }
+}

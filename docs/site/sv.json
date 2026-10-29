@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: kökstimern för två grytor samtidigt",
+  "description": "Såsen blir klar medan pastan kokar. Geusaie visar uppgiften som gäller nu, räknar varje gryta för sig och går vidare när du säger nästa. Gratis.",
+  "hero": {
+    "headline": "Pastan kokar.\nUnder tiden blir såsen klar.",
+    "lead": "När två grytor går i olika takt visar Geusaie med stor text den enda sak dina händer ska göra just nu. Såsen räknas baklänges från stunden då pastan ska hällas av.",
+    "cta": "Hämta gratis på App Store",
+    "note": "Alla funktioner är gratis. Inget konto behövs."
+  },
+  "demo": {
+    "title": "Testa själv",
+    "lead": "Laga en portion aglio e olio i 20 gånger fart. Tryck på Börja laga mat och sedan på Nästa varje gång du skulle ha gjort klart en uppgift. Se hur kortet ändras när det är dags att hälla av pastan.",
+    "note": "Samma recept och samma planering som i appen. Bara klockan går fortare.",
+    "again": "Börja om",
+    "app": {
+      "first": "Det här först",
+      "startHint": "Tryck på ”Börja laga mat” nedan så startar grytornas timrar",
+      "now": "Gör nu",
+      "nowCant": "Nu · kan inte vänta",
+      "late": "Försenad · gör det direkt",
+      "calm": "Gör nu · ingen brådska",
+      "ready": "Klart 🍴 Dags att anrätta",
+      "handsDone": "Dina händer är klara — nu är det bara att vänta på grytorna",
+      "upNext": "Därefter · %@ %@",
+      "resume": "Det du höll på med · %@ %@ — gör klart det här först och fortsätt sedan",
+      "saidNext": "Klart? Säg ”nästa”",
+      "empty": "Ledig",
+      "onIt": "Du är i gång",
+      "finished": "Färdiganvänd",
+      "start": "Börja laga mat",
+      "next": "Nästa",
+      "elapsed": "Förfluten tid",
+      "names": {
+        "ao-water-on": "Sätt på vattnet på hög värme",
+        "ao-boil": "Koka upp vattnet",
+        "ao-drop": "När det kokar, lägg i pastan",
+        "ao-pasta": "Koka pastan",
+        "ao-reserve": "Ta upp pastan och spara kokvattnet",
+        "ao-garlic": "Fräs vitlöken i olja",
+        "ao-toss": "Tillsätt kokvatten och emulgera",
+        "ao-prep": "Plocka fram ingredienserna och sätt på pannan",
+        "ao-slice": "Skiva vitlöken tunt",
+        "ao-pepper": "Hacka chili och persilja",
+        "ao-cheese": "Riv osten och värm tallrikarna"
+      },
+      "lanes": [
+        "Pastagryta",
+        "Såspanna"
+      ],
+      "progress": {
+        "ao-boil": "Vattnet kokar",
+        "ao-pasta": "Pastan kokar"
+      }
+    }
+  },
+  "problem": {
+    "title": "Tre timers igång och ändå blev pastan mjuk?",
+    "text": "En timer för pastan, en för såsen och vitlöken i huvudet, och plötsligt vet du inte vad som kommer först. Du står och skär precis när pastan ska hällas av, och såsen blir två minuter sen. Geusaie känner receptet som ”först det här, sedan det där” och säger bara den enda sak du ska göra nu."
+  },
+  "features": [
+    {
+      "title": "Det som inte kan vänta blir rött",
+      "text": "Hälla av pastan, vitlök precis innan den bränns: när en uppgift skulle förstöra maten om den blev sen blir kortet terrakottafärgat och ber dig lägga undan skärandet en stund.\nNär en gryta är klar får du en notis även om du inte tittar, tillsammans med det du ska göra direkt.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Skär när händerna är lediga",
+      "text": "Skiva vitlök, riva ost, mäta upp: inget av det har en fast tid, så här räknas inga sekunder ner. Stapeln fylls medan händerna är lediga, stannar när en gryta ropar och fortsätter där du slutade.\nSlår du på plattan tre minuter för sent flyttas allt därefter tre minuter. Planen räknas om utifrån vad du faktiskt har gjort.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Ställ den på bänken, gå vidare med rösten",
+      "text": "Fyra textstorlekar så att du kan läsa på ett par stegs avstånd, och skärmen släcks inte medan du lagar mat.\nBlöta händer? Säg `nästa` så går appen vidare till nästa uppgift utan att du rör skärmen.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Tre steg till middag",
+    "items": [
+      {
+        "title": "Välj en rätt",
+        "text": "Du ser ungefär hur lång tid den tar och hur många grytor som behövs."
+      },
+      {
+        "title": "Tryck på Börja laga mat",
+        "text": "Först visas din första uppgift, och grytornas klockor startar när du trycker."
+      },
+      {
+        "title": "Klar? Nästa.",
+        "text": "Tryck på knappen eller säg ”nästa”, så dyker nästa uppgift upp."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Färgen visar hur bråttom det är",
+    "rows": [
+      [
+        "Grönt",
+        "Förberedelser. Ta det lugnt."
+      ],
+      [
+        "Senapsgult",
+        "En gryta behöver dig. Gör det nu, men utan stress."
+      ],
+      [
+        "Terrakotta",
+        "Väntar du blir pastan mjuk eller vitlöken bränd. Gör det nu."
+      ],
+      [
+        "Grytrutor",
+        "Kvadraten som krymper är tiden som är kvar. Grytornas tid döljs aldrig."
+      ]
+    ],
+    "note": "På tidslinjen är streckade staplar uppgifter som kan vänta."
+  },
+  "pricing": {
+    "title": "Alla funktioner är gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Båda recepten",
+        "En timer för varje gryta och hela tidslinjen",
+        "Notis när en gryta är klar",
+        "”Nästa” med rösten",
+        "Fyra textstorlekar",
+        "Öppna ett recept med Siri eller Genvägar"
+      ]
+    },
+    "pro": {
+      "name": "Stötta utvecklaren (frivilligt)",
+      "items": [
+        "Om appen hjälper dig kan du ge en liten dricks i Inställningar",
+        "Dricks låser inte upp något. Utan den har du fortfarande alla funktioner"
+      ],
+      "note": "Engångsbelopp, inte en prenumeration."
+    },
+    "note": "Inget konto, ingen reklam, och den fungerar utan internet."
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "items": [
+      {
+        "q": "Jag säger ”nästa” men inget händer.",
+        "a": "Mikrofonknappen längst ned till vänster är röd medan appen lyssnar och grå när den är avstängd. Första gången behöver du tillåta både mikrofon och taligenkänning. Om du sa nej kan du slå på dem igen i Inställningar > Geusaie. Appen lyssnar efter ordet som står på knappen Nästa. I ett väldigt bullrigt kök trycker du bara på Nästa."
+      },
+      {
+        "q": "En gryta blev klar men jag fick ingen notis.",
+        "a": "Kontrollera att notiser är på i Inställningar > Notiser > Geusaie. Ett fokusläge kan tysta dem. Notiser kommer bara när en gryta är klar; förberedelserna stressar dig aldrig."
+      },
+      {
+        "q": "Vad händer med planen om jag börjar sent?",
+        "a": "Den räknas om utifrån vad du faktiskt har gjort. Slår du på plattan tre minuter senare flyttas allt därefter tre minuter, och såsen räknas fortfarande baklänges från när pastan är klar."
+      },
+      {
+        "q": "Texten är för liten.",
+        "a": "Tryck på knappen för textstorlek uppe till höger på matlagningsskärmen och välj Normal, Stor, Större eller Störst. Ditt val sparas."
+      },
+      {
+        "q": "Släcks skärmen medan jag lagar mat?",
+        "a": "Nej. Skärmen är tänd medan du lagar mat, så du behöver aldrig röra den med blöta händer."
+      },
+      {
+        "q": "Vilka rätter finns med?",
+        "a": "Aglio e olio (cirka 15 minuter, 2 grytor) och pasta i tomat- och gräddsås (cirka 20 minuter, 2 grytor), baserade på recept från Serious Eats, Gimme Some Oven, RecipeTin Eats och The Burnt Butter Table. Alla rätter med två grytor igång samtidigt passar bra, så berätta gärna vad du vill se."
+      },
+      {
+        "q": "Spelas min röst in?",
+        "a": "Nej. Appen lyssnar bara efter ordet ”nästa” och spelar inte in eller sparar ljud. Om enheten stöder det sker taligenkänningen på själva enheten. Inga personuppgifter samlas in."
+      },
+      {
+        "q": "Kan jag öppna den med Siri?",
+        "a": "Ja. Välj en rätt i Siri eller appen Genvägar så öppnas dess matlagningsskärm direkt. Klockorna startar först när du är redo att sätta på vattnet och trycker på Börja laga mat."
+      },
+      {
+        "q": "Vilka enheter fungerar den på?",
+        "a": "iPhone och iPad med iOS 17 eller senare. Inget konto eller internet behövs."
+      },
+      {
+        "q": "Hur rapporterar jag ett fel eller föreslår ett recept?",
+        "a": "Via Inställningar > Skicka feedback i appen, eller via mejl till adressen nedan. Ange gärna enhetsmodell och iOS-version så kan vi titta på det snabbare. Vi svarar oftast inom några dagar."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "I kväll blir pasta\noch sås klara samtidigt",
+    "cta": "Hämta gratis på App Store"
+  },
+  "ui": {
+    "skip": "Hoppa till innehållet",
+    "languages": "Språk",
+    "privacy": "Integritetspolicy",
+    "contact": "Har du kört fast, sett något konstigt eller har ett recept i tankarna? Skriv till {email}."
+  }
+}

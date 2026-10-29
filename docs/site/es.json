@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: el temporizador de cocina para dos ollas a la vez",
+  "description": "La salsa queda lista mientras hierve la pasta. Geusaie muestra la única tarea de ahora, cronometra cada olla y avanza cuando dices siguiente. Gratis.",
+  "hero": {
+    "headline": "La pasta hierve.\nLa salsa, mientras tanto, también.",
+    "lead": "Cuando dos ollas van a ritmos distintos, Geusaie te muestra en grande lo único que tus manos tienen que hacer ahora. La salsa se programa hacia atrás desde el momento en que sale la pasta.",
+    "cta": "Descárgala gratis en el App Store",
+    "note": "Todas las funciones son gratis. No necesitas cuenta."
+  },
+  "demo": {
+    "title": "Pruébalo",
+    "lead": "Cocina unos espaguetis aglio e olio a 20 veces la velocidad real. Toca «Empezar a cocinar» y luego «Siguiente» cada vez que habrías terminado una tarea. Fíjate en cómo cambia la tarjeta cuando toca escurrir la pasta.",
+    "note": "La misma receta y el mismo cálculo de orden que en la app. Solo el reloj va más rápido.",
+    "again": "Empezar de nuevo",
+    "app": {
+      "first": "Lo primero al empezar",
+      "startHint": "Toca «Empezar a cocinar» abajo y los temporizadores de las ollas se ponen en marcha",
+      "now": "Ahora toca",
+      "nowCant": "Ahora · no puede esperar",
+      "late": "Vas tarde · hazlo ya",
+      "calm": "Ahora toca · sin prisa",
+      "ready": "¡Listo! 🍴 A emplatar",
+      "handsDone": "Tus manos ya terminaron — solo falta esperar a las ollas",
+      "upNext": "Después · %@ %@",
+      "resume": "Lo que estabas haciendo · %@ %@ — termina esto primero y luego retómalo",
+      "saidNext": "¿Listo? Di «siguiente»",
+      "empty": "Libre",
+      "onIt": "Estás en ello",
+      "finished": "Ya usada",
+      "start": "Empezar a cocinar",
+      "next": "Siguiente",
+      "elapsed": "Tiempo transcurrido",
+      "names": {
+        "ao-water-on": "Pon el agua al fuego fuerte",
+        "ao-boil": "Hierve el agua",
+        "ao-drop": "Cuando hierva, echa la pasta",
+        "ao-pasta": "Cuece la pasta",
+        "ao-reserve": "Saca la pasta y reserva el agua de cocción",
+        "ao-garlic": "Sofríe el ajo en el aceite",
+        "ao-toss": "Añade el agua de cocción y emulsiona",
+        "ao-prep": "Saca los ingredientes y pon la sartén",
+        "ao-slice": "Corta el ajo en láminas finas",
+        "ao-pepper": "Pica la guindilla y el perejil",
+        "ao-cheese": "Ralla el queso y calienta los platos"
+      },
+      "lanes": [
+        "Olla de la pasta",
+        "Sartén de la salsa"
+      ],
+      "progress": {
+        "ao-boil": "Hirviendo el agua",
+        "ao-pasta": "Cociendo la pasta"
+      }
+    }
+  },
+  "problem": {
+    "title": "¿Tres temporizadores en marcha y aun así se te pasó la pasta?",
+    "text": "Uno para la pasta, otro para la salsa y el ajo de cabeza, y de pronto ya no sabes qué va primero. Estás picando cuando hay que escurrir, y la salsa llega dos minutos tarde. Geusaie conoce la receta como «esto y luego aquello», así que solo te dice lo que toca hacer ahora."
+  },
+  "features": [
+    {
+      "title": "Lo que no puede esperar se pone rojo",
+      "text": "Escurrir la pasta, el ajo a punto de quemarse: cuando una tarea estropearía el plato si se retrasa, la tarjeta se vuelve color terracota y te dice que dejes la tabla un momento.\nCuando una olla termina, te llega una notificación aunque no estés mirando, con lo que hay que hacer en ese momento.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Picar, solo cuando tienes las manos libres",
+      "text": "Laminar ajo, rallar queso, medir: nada de eso va contra el reloj, así que Geusaie no cuenta segundos. La barra avanza mientras tienes las manos libres, se detiene cuando una olla te llama y sigue justo donde la dejaste.\nSi enciendes el fuego tres minutos tarde, todo lo demás se corre tres minutos. El horario se recalcula a partir de lo que de verdad hiciste.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Apoyado en la encimera, avanzas con la voz",
+      "text": "Cuatro tamaños de letra para leerlo a uno o dos pasos, y la pantalla no se apaga mientras cocinas.\n¿Manos mojadas? Di `siguiente` y pasa a la próxima tarea sin tocar nada.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Tres pasos hasta la mesa",
+    "items": [
+      {
+        "title": "Elige un plato",
+        "text": "Verás cuánto tarda más o menos y cuántas ollas necesitas."
+      },
+      {
+        "title": "Toca «Empezar a cocinar»",
+        "text": "Primero te muestra la primera tarea, y los relojes de las ollas arrancan en cuanto tocas."
+      },
+      {
+        "title": "¿Listo? Siguiente.",
+        "text": "Toca el botón o di «siguiente» y aparece lo que toca después."
+      }
+    ]
+  },
+  "reference": {
+    "title": "El color te dice cuánto urge",
+    "rows": [
+      [
+        "Verde",
+        "Preparación. Sin prisa."
+      ],
+      [
+        "Mostaza",
+        "Una olla te necesita. Es ahora, pero sin agobios."
+      ],
+      [
+        "Terracota",
+        "Si esperas, la pasta se pasa o el ajo se quema. Hazlo ya."
+      ],
+      [
+        "Casillas de las ollas",
+        "El cuadrado que se encoge es el tiempo que queda. El tiempo de las ollas nunca se oculta."
+      ]
+    ],
+    "note": "En la línea de tiempo, las barras punteadas son tareas que pueden esperar."
+  },
+  "pricing": {
+    "title": "Todas las funciones son gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Las dos recetas",
+        "Un temporizador por olla y la línea de tiempo completa",
+        "Notificación cuando una olla está lista",
+        "«Siguiente» con la voz",
+        "Cuatro tamaños de letra",
+        "Abrir recetas con Siri o Atajos"
+      ]
+    },
+    "pro": {
+      "name": "Apoyar al desarrollador (opcional)",
+      "items": [
+        "Si la app te ayuda, puedes dejar una pequeña propina desde Ajustes",
+        "Las propinas no desbloquean nada. Sin ellas, todas las funciones siguen siendo tuyas"
+      ],
+      "note": "Propinas sueltas, no una suscripción."
+    },
+    "note": "Sin cuenta, sin anuncios y funciona sin conexión a internet."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "Digo «siguiente» y no avanza.",
+        "a": "El botón del micrófono, abajo a la izquierda, está rojo mientras escucha y gris cuando está apagado. La primera vez tienes que permitir el micrófono y el reconocimiento de voz; si lo rechazaste, vuelve a activarlos en Ajustes > Geusaie. La app escucha la palabra que aparece en su botón Siguiente. En una cocina muy ruidosa, toca «Siguiente»."
+      },
+      {
+        "q": "Una olla terminó y no me llegó la notificación.",
+        "a": "Comprueba que las notificaciones estén activadas en Ajustes > Notificaciones > Geusaie. Un modo de concentración puede silenciarlas. Las notificaciones solo llegan cuando una olla está lista; la preparación nunca te mete prisa."
+      },
+      {
+        "q": "¿Qué pasa con el horario si empiezo tarde?",
+        "a": "Se recalcula a partir de lo que hiciste realmente. Si enciendes el fuego tres minutos tarde, todo lo que sigue se mueve tres minutos, y la salsa sigue programada hacia atrás desde que sale la pasta."
+      },
+      {
+        "q": "La letra es muy pequeña.",
+        "a": "En la pantalla de cocina, toca el botón de tamaño de letra arriba a la derecha y elige Normal, Grande, Más grande o Muy grande. Tu elección se guarda."
+      },
+      {
+        "q": "¿Se apaga la pantalla mientras cocino?",
+        "a": "No. La pantalla se mantiene encendida mientras cocinas, para que nunca tengas que tocarla con las manos mojadas."
+      },
+      {
+        "q": "¿Qué platos incluye?",
+        "a": "Aglio e olio (unos 15 minutos, 2 ollas) y pasta cremosa de tomate (unos 20 minutos, 2 ollas), basadas en recetas de Serious Eats, Gimme Some Oven, RecipeTin Eats y The Burnt Butter Table. Cualquier plato con dos ollas a la vez encaja bien, así que cuéntanos cuál te gustaría."
+      },
+      {
+        "q": "¿Se graba mi voz?",
+        "a": "No. Solo escucha la palabra «siguiente» y no graba ni guarda ningún audio. Si tu dispositivo lo permite, el reconocimiento se hace en el propio dispositivo. No se recopilan datos personales."
+      },
+      {
+        "q": "¿Puedo abrirla con Siri?",
+        "a": "Sí. Elige un plato en Siri o en la app Atajos y se abre directamente su pantalla de cocina. Los relojes arrancan cuando tocas «Empezar a cocinar», cuando ya estés listo para poner el agua."
+      },
+      {
+        "q": "¿En qué dispositivos funciona?",
+        "a": "En iPhone y iPad con iOS 17 o posterior. No necesitas cuenta ni conexión a internet."
+      },
+      {
+        "q": "¿Cómo informo de un problema o propongo una receta?",
+        "a": "Desde Ajustes > Enviar comentarios en la app, o escribiendo al correo de abajo. Si indicas el modelo del dispositivo y la versión de iOS, podremos revisarlo antes. Solemos responder en pocos días."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Esta noche, pasta y salsa\nllegan a la vez",
+    "cta": "Descárgala gratis en el App Store"
+  },
+  "ui": {
+    "skip": "Saltar al contenido",
+    "languages": "Idioma",
+    "privacy": "Política de privacidad",
+    "contact": "¿Te has atascado, viste algo raro o tienes una receta en mente? Escribe a {email}."
+  }
+}

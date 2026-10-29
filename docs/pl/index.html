@@ -1,207 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geusaie — Gdy makaron się gotuje, sos też się robi</title>
-<meta name="description" content="Minutnik do dań, w których pracują dwa garnki naraz. Zawsze jedno zadanie dużą czcionką, osobne odliczanie dla każdego garnka i sterowanie głosem, gdy masz mokre ręce.">
-<meta property="og:title" content="Geusaie">
-<meta property="og:description" content="Gdy makaron się gotuje, sos też się robi. Kuchenny minutnik dla dwóch garnków naraz.">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://m1zz.github.io/geusaie/pl/">
-<!-- hreflang:start -->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:end -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
-<style>
-  :root {
-    --cream: #FAF6ED;
-    --card: #F1EAD6;
-    --border: #E3D9BE;
-    --ink: #2D2A24;
-    --ink-soft: #8A8271;
-    --terracotta: #C75B39;
-    --green: #5B8C5A;
-    --mustard: #D99A3C;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
-                 "Noto Sans KR", system-ui, sans-serif;
-    line-height: 1.7;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 72px 0 40px; text-align: center; }
-  .logo { font-size: 56px; line-height: 1; }
-  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
-  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
-  .lede {
-    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
-    text-align: left;
-  }
-  section { padding: 44px 0; border-top: 1px solid var(--border); }
-  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
-  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .feature {
-    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-    padding: 20px 22px;
-  }
-  .feature h3 { margin: 0 0 6px; font-size: 18px; }
-  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
-  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
-  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
-  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-  .shots figure { margin: 0; max-width: 300px; }
-  .shots img {
-    width: 100%; border-radius: 22px; border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
-  }
-  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
-  .dot.now { background: var(--terracotta); }
-  .dot.calm { background: var(--green); }
-  .dot.pot { background: var(--mustard); }
-  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
-  footer a, a { color: var(--terracotta); }
-  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
-  @media (max-width: 600px) {
-    header { padding: 48px 0 28px; }
-    h1 { font-size: 32px; }
-    .tagline { font-size: 18px; }
-  }
-  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
-  .langnav b { color: var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geusaie: minutnik kuchenny na dwa garnki naraz</title>
+  <meta name="description" content="Sos gotowy, gdy makaron się gotuje. Geusaie pokazuje jedno zadanie na teraz, odlicza czas garnków i idzie dalej, gdy powiesz „dalej”. Za darmo.">
+  <meta name="theme-color" content="#C75B39" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1B16" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793473149">
+  <link rel="canonical" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geusaie: minutnik kuchenny na dwa garnki naraz">
+  <meta property="og:description" content="Sos gotowy, gdy makaron się gotuje. Geusaie pokazuje jedno zadanie na teraz, odlicza czas garnków i idzie dalej, gdy powiesz „dalej”. Za darmo.">
+  <meta property="og:url" content="https://m1zz.github.io/geusaie/pl/">
+  <meta property="og:image" content="https://m1zz.github.io/geusaie/img/pl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C75B39}@media (prefers-color-scheme:dark){:root{--accent:#E07D5C}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">🍝</div>
-    <h1>Geusaie</h1>
-    <p class="tagline">Gdy makaron się gotuje, sos też się robi.</p>
-    <p class="lede">Gotowanie jest trudne nie dlatego, że masz powolne ręce, ale dlatego, że czas dwóch garnków płynie inaczej. Makaron na nikogo nie czeka, a krojenie czosnku można zrobić w dowolnej chwili. Geusaie („tymczasem” po koreańsku) odróżnia jedno od drugiego i pokazuje dużą czcionką tylko to jedno zadanie, które Twoje ręce mają wykonać teraz.</p>
+  <a class="skip" href="#main">Przejdź do treści</a>
+  <header class="bar">
+    <a class="brand" href="../pl/"><img src="../icon.png" alt="" width="32" height="32">Geusaie</a>
+    <a class="lang-link" href="#languages">Język</a>
   </header>
 
-  <section>
-    <h2>Czym jest ta aplikacja</h2>
-    <div class="features">
-      <div class="feature now">
-        <h3>Zadania, które nie mogą czekać</h3>
-        <p>Wyjęcie makaronu, czosnek tuż przed przypaleniem. Gdy nadejdzie czas, ekran robi się czerwony i każe porzucić to, co robisz.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Makaron się gotuje,<br>a sos jest już gotowy</h1>
+        <p class="lead">Gdy dwa garnki idą w różnym tempie, Geusaie pokazuje dużą czcionką jedną rzecz, którą twoje ręce mają zrobić teraz. Sos jest planowany wstecz od chwili, gdy makaron trzeba odcedzić.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793473149">Pobierz za darmo z App Store</a><a class="try" href="#try">Wypróbuj ↓</a></div>
+        <p class="muted small">Wszystkie funkcje są darmowe. Konto nie jest potrzebne.</p>
       </div>
-      <div class="feature calm">
-        <h3>Zadania, które można przesunąć</h3>
-        <p>Krojenie, tarcie, odmierzanie. Posuwają się naprzód tylko, gdy masz wolne ręce, wstrzymują się, gdy garnek woła, i wracają od miejsca, w którym stanęły.</p>
-      </div>
-      <div class="feature">
-        <h3>Osobny minutnik dla każdego garnka</h3>
-        <p>Garnek na makaron i patelnia na sos pokazują osobno, co robią i ile zostało czasu.</p>
-      </div>
-      <div class="feature">
-        <h3>Sterowanie głosem</h3>
-        <p>Gdy masz mokre ręce, powiedz „dalej”. Rozpoznawanie mowy, jeśli to możliwe, działa na urządzeniu.</p>
-      </div>
-      <div class="feature">
-        <h3>Tekst czytelny z daleka</h3>
-        <p>Oprzyj urządzenie na blacie i cofnij się o krok czy dwa. Tekst można powiększyć w aplikacji w czterech stopniach.</p>
-      </div>
-      <div class="feature">
-        <h3>Bez poganiania</h3>
-        <p>Zadania wykonywane rękami nie mają odliczania sekund. Pasek się wypełnia, zatrzymuje i czeka.</p>
-      </div>
-    </div>
-  </section>
+      <div class="phone"><img src="../img/pl/02-start.jpg" alt="Makaron się gotuje, a sos jest już gotowy" width="720" height="1558" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2>Ekrany</h2>
-    <div class="shots">
-      <figure>
-        <img src="../images/home.png" alt="Ekran główny do wyboru dania. Aglio e olio, ok. 15 minut, 2 garnki.">
-        <figcaption>Tylko to, co potrzebne przy wyborze — ile to trwa i ile garnków potrzeba</figcaption>
-      </figure>
-      <figure>
-        <img src="../images/cook.png" alt="Ekran gotowania: karta bieżącego zadania, dwa pola garnków i oś czasu.">
-        <figcaption>Co robić teraz · stan garnków · cała oś czasu</figcaption>
-      </figure>
-    </div>
-  </section>
 
-  <section>
-    <h2>Kolor pokazuje pilność</h2>
-    <table>
-      <tr>
-        <th><span class="dot calm"></span>Zielony</th>
-        <td>To przygotowania. Rób je spokojnie.</td>
-      </tr>
-      <tr>
-        <th><span class="dot now"></span>Terakota</th>
-        <td>Jeśli odłożysz, makaron się rozgotuje albo coś się przypali. Zrób to teraz.</td>
-      </tr>
-      <tr>
-        <th><span class="dot pot"></span>Pola garnków</th>
-        <td>O ile kwadrat się zmniejsza, tyle zostaje czasu. Garnek to zegar, którego trzeba pilnować, więc czas nigdy nie jest tu ukrywany.</td>
-      </tr>
-    </table>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Wypróbuj</h2>
+      <p class="muted">Ugotuj aglio e olio w tempie 20 razy szybszym. Stuknij Zacznij gotować, a potem Dalej za każdym razem, gdy skończyłbyś zadanie. Zobacz, jak zmienia się karta, gdy przychodzi pora odcedzić makaron.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Wypróbuj&quot;, &quot;lead&quot;: &quot;Ugotuj aglio e olio w tempie 20 razy szybszym. Stuknij Zacznij gotować, a potem Dalej za każdym razem, gdy skończyłbyś zadanie. Zobacz, jak zmienia się karta, gdy przychodzi pora odcedzić makaron.&quot;, &quot;note&quot;: &quot;Ten sam przepis i ten sam układ kolejności co w aplikacji. Tylko zegar biegnie szybciej.&quot;, &quot;again&quot;: &quot;Zacznij od nowa&quot;, &quot;app&quot;: {&quot;first&quot;: &quot;Na początek&quot;, &quot;startHint&quot;: &quot;Dotknij poniżej „Zacznij gotować”, a minutniki garnków ruszą&quot;, &quot;now&quot;: &quot;Zrób teraz&quot;, &quot;nowCant&quot;: &quot;Teraz · nie może czekać&quot;, &quot;late&quot;: &quot;Spóźnienie · zrób to od razu&quot;, &quot;calm&quot;: &quot;Zrób teraz · bez pośpiechu&quot;, &quot;ready&quot;: &quot;Gotowe 🍴 Nakładaj na talerze&quot;, &quot;handsDone&quot;: &quot;Ręce są wolne — zostało tylko czekać na garnki&quot;, &quot;upNext&quot;: &quot;Potem · %@ %@&quot;, &quot;resume&quot;: &quot;Zaczęte wcześniej · %@ %@ — dokończ najpierw to, potem wróć do tamtego&quot;, &quot;saidNext&quot;: &quot;Gotowe? Powiedz „dalej”&quot;, &quot;empty&quot;: &quot;Wolny&quot;, &quot;onIt&quot;: &quot;Zajmujesz się tym&quot;, &quot;finished&quot;: &quot;Zużyty&quot;, &quot;start&quot;: &quot;Zacznij gotować&quot;, &quot;next&quot;: &quot;Dalej&quot;, &quot;elapsed&quot;: &quot;Upłynęło&quot;, &quot;names&quot;: {&quot;ao-water-on&quot;: &quot;Postaw wodę na dużym ogniu&quot;, &quot;ao-boil&quot;: &quot;Zagotuj wodę&quot;, &quot;ao-drop&quot;: &quot;Gdy woda się zagotuje, wrzuć makaron&quot;, &quot;ao-pasta&quot;: &quot;Ugotuj makaron&quot;, &quot;ao-reserve&quot;: &quot;Wyjmij makaron i zachowaj wodę po gotowaniu&quot;, &quot;ao-garlic&quot;: &quot;Podsmaż czosnek na oliwie&quot;, &quot;ao-toss&quot;: &quot;Dolej wodę po gotowaniu i zemulguj&quot;, &quot;ao-prep&quot;: &quot;Wyjmij składniki i postaw patelnię&quot;, &quot;ao-slice&quot;: &quot;Pokrój czosnek w cienkie plasterki&quot;, &quot;ao-pepper&quot;: &quot;Posiekaj chili i pietruszkę&quot;, &quot;ao-cheese&quot;: &quot;Zetrzyj ser i podgrzej talerze&quot;}, &quot;lanes&quot;: [&quot;Garnek na makaron&quot;, &quot;Patelnia na sos&quot;], &quot;progress&quot;: {&quot;ao-boil&quot;: &quot;Woda się gotuje&quot;, &quot;ao-pasta&quot;: &quot;Makaron się gotuje&quot;}}}"></div>
+    </section>
 
-  <section>
-    <h2>Dołączone przepisy</h2>
-    <table>
-      <tr><th>Aglio e olio</th><td>Ok. 15 min · 2 garnki · Źródła: Serious Eats, Gimme Some Oven</td></tr>
-      <tr><th>Makaron w sosie pomidorowo-śmietanowym</th><td>Ok. 20 min · 2 garnki · Źródła: RecipeTin Eats, The Burnt Butter Table</td></tr>
-    </table>
-  </section>
+    <section class="problem reveal">
+      <h2>Trzy minutniki, a makaron i tak rozgotowany?</h2>
+      <p>Jeden minutnik na makaron, drugi na sos, czas czosnku w głowie, i po chwili nie wiesz, co jest pierwsze. Akurat kroisz, gdy trzeba odcedzić, a sos dochodzi dwie minuty za późno. Geusaie zna przepis jako „najpierw to, potem tamto”, więc mówi ci tylko jedną rzecz do zrobienia teraz.</p>
+    </section>
 
-  <section id="contact">
-    <h2>Kontakt</h2>
-    <p>Coś nie działa, coś wygląda dziwnie albo chcesz dodać przepis? Wszystko mile widziane. Napisz na <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> lub użyj w aplikacji Ustawienia ▸ Wyślij opinię. Najczęstsze pytania znajdziesz na <a href="support.html">stronie pomocy</a>.</p>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Co nie może czekać, robi się czerwone</h2>
+        <p>Odcedzenie makaronu, czosnek o krok od przypalenia: gdy spóźnienie zepsułoby danie, karta zmienia kolor na terakotowy i każe odłożyć krojenie na bok.<br>Gdy garnek jest gotowy, dostajesz powiadomienie, nawet jeśli nie patrzysz na ekran, razem z tym, co trzeba zrobić od razu.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/04-deadline.jpg" alt="Co nie może czekać, robi się czerwone" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
 
-  <!-- langnav:start -->
-  <nav class="langnav" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> · <a href="../en/" hreflang="en" lang="en">English</a> · <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../it/" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/" hreflang="th" lang="th">ไทย</a> · <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/" hreflang="da" lang="da">Dansk</a> · <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> · <b>Polski</b> · <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
-  <!-- langnav:end -->
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Krojenie wtedy, gdy masz wolne ręce</h2>
+        <p>Krojenie czosnku, tarcie sera, odmierzanie: nic z tego nie ma ustalonej godziny, więc aplikacja nie odlicza tu sekund. Pasek wypełnia się, gdy masz wolne ręce, zatrzymuje się, gdy woła garnek, i rusza dalej od tego samego miejsca.<br>Włączysz palnik trzy minuty później? Wszystko dalej przesunie się o trzy minuty. Plan jest za każdym razem liczony od nowa na podstawie tego, co naprawdę zrobiłeś.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/03-prep.jpg" alt="Krojenie wtedy, gdy masz wolne ręce" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Postaw przy kuchence, dalej idź głosem</h2>
+        <p>Cztery rozmiary tekstu, żeby czytać z kroku czy dwóch, a ekran nie gaśnie, gdy gotujesz.<br>Mokre ręce? Powiedz <code>dalej</code>, a aplikacja przejdzie do następnego zadania bez dotykania.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/05-bigtext.jpg" alt="Postaw przy kuchence, dalej idź głosem" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Trzy kroki do obiadu</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Wybierz danie</h3><p>Widzisz, ile mniej więcej potrwa i ile garnków potrzeba.</p></li>
+<li class="card"><span class="n">2</span><h3>Stuknij Zacznij gotować</h3><p>Najpierw pokaże pierwsze zadanie, a zegary garnków ruszą w chwili stuknięcia.</p></li>
+<li class="card"><span class="n">3</span><h3>Gotowe? Dalej.</h3><p>Stuknij przycisk albo powiedz „dalej”, a pojawi się następne zadanie.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Kolor mówi, jak bardzo to pilne</h2>
+      <div class="card table">
+        <dl><div><dt>Zielony</dt><dd>Przygotowanie. Bez pośpiechu.</dd></div><div><dt>Musztardowy</dt><dd>Czas na garnek. Zrób to teraz, ale spokojnie.</dd></div><div><dt>Terakotowy</dt><dd>Jeśli zaczekasz, makaron się rozgotuje albo czosnek przypali. Teraz.</dd></div><div><dt>Pola garnków</dt><dd>Kurczący się kwadrat to pozostały czas. Czas garnków nigdy nie jest ukryty.</dd></div></dl>
+      </div>
+      <p class="muted">Na osi czasu przerywane paski oznaczają zadania, które mogą poczekać.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Wszystkie funkcje są darmowe</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Za darmo</h3>
+          <ul><li>Oba przepisy</li><li>Osobny minutnik dla każdego garnka i cała oś czasu</li><li>Powiadomienie, gdy garnek jest gotowy</li><li>„Dalej” głosem</li><li>Cztery rozmiary tekstu</li><li>Otwieranie przepisu przez Siri lub Skróty</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Wesprzyj twórcę (dobrowolnie)</h3>
+          <ul><li>Jeśli aplikacja ci pomaga, możesz w Ustawieniach zostawić mały napiwek</li><li>Napiwek niczego nie odblokowuje. Bez niego wszystkie funkcje i tak są twoje</li></ul>
+          <p class="muted">Jednorazowe napiwki, nie subskrypcja.</p>
+        </div>
+      </div>
+      <p class="muted">Bez konta, bez reklam i działa bez internetu.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Częste pytania</h2>
+      <div class="faq"><details><summary>Mówię „dalej”, ale nic się nie dzieje.</summary><p>Przycisk mikrofonu w lewym dolnym rogu jest czerwony, gdy aplikacja słucha, i szary, gdy jest wyłączony. Za pierwszym razem pozwól na dostęp do mikrofonu i rozpoznawania mowy; jeśli odmówiłeś, włącz je ponownie w Ustawienia &gt; Geusaie. Aplikacja słucha słowa napisanego na przycisku Dalej. W bardzo głośnej kuchni po prostu stuknij Dalej.</p></details>
+<details><summary>Garnek jest gotowy, ale nie przyszło powiadomienie.</summary><p>Sprawdź, czy powiadomienia są włączone w Ustawienia &gt; Powiadomienia &gt; Geusaie. Tryb skupienia może je wyciszać. Powiadomienia przychodzą tylko wtedy, gdy garnek jest gotowy; przygotowanie nigdy cię nie pogania.</p></details>
+<details><summary>Co z planem, jeśli zacznę później?</summary><p>Zostanie przeliczony na podstawie tego, co naprawdę zrobiłeś. Włączysz palnik trzy minuty później, a wszystko dalej przesunie się o trzy minuty; sos pozostanie zaplanowany wstecz od chwili, gdy makaron będzie gotowy.</p></details>
+<details><summary>Tekst jest za mały.</summary><p>Na ekranie gotowania stuknij w prawym górnym rogu przycisk rozmiaru tekstu i wybierz Normalny, Duży, Większy lub Największy. Wybór zostanie zapamiętany.</p></details>
+<details><summary>Czy ekran gaśnie podczas gotowania?</summary><p>Nie. Podczas gotowania ekran pozostaje włączony, więc nie musisz go dotykać mokrymi rękami.</p></details>
+<details><summary>Jakie dania są w aplikacji?</summary><p>Aglio e olio (około 15 minut, 2 garnki) i makaron w sosie pomidorowo-śmietanowym (około 20 minut, 2 garnki), na podstawie przepisów z Serious Eats, Gimme Some Oven, RecipeTin Eats i The Burnt Butter Table. Pasuje każde danie, w którym dwa garnki pracują naraz, więc napisz, jaki przepis chcesz zobaczyć.</p></details>
+<details><summary>Czy mój głos jest nagrywany?</summary><p>Nie. Aplikacja słucha tylko słowa „dalej” i niczego nie nagrywa ani nie zapisuje. Jeśli urządzenie to obsługuje, rozpoznawanie odbywa się na urządzeniu. Nie są zbierane żadne dane osobowe.</p></details>
+<details><summary>Czy mogę otworzyć ją przez Siri?</summary><p>Tak. Wybierz danie w Siri lub w aplikacji Skróty, a od razu otworzy się jego ekran gotowania. Zegary ruszą, gdy będziesz gotowy nastawić wodę i stukniesz Zacznij gotować.</p></details>
+<details><summary>Na jakich urządzeniach działa?</summary><p>Na iPhonie i iPadzie z iOS 17 lub nowszym. Konto ani internet nie są potrzebne.</p></details>
+<details><summary>Jak zgłosić problem lub zaproponować przepis?</summary><p>W aplikacji przez Ustawienia &gt; Wyślij opinię albo mailowo na adres poniżej. Podaj model urządzenia i wersję iOS, a sprawdzimy to szybciej. Zwykle odpowiadamy w ciągu kilku dni.</p></details></div>
+      <p class="contact">Coś nie działa, coś cię zdziwiło albo masz przepis na myśli? Napisz na <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Dziś wieczorem makaron<br>i sos gotowe razem</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793473149">Pobierz za darmo z App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p>iPhone · iOS 17 lub nowszy · orientacja pionowa</p>
-    <div class="links">
-      <a href="support.html">Pomoc · Najczęstsze pytania</a>
-      <a href="privacy.html">Polityka prywatności</a>
-      <a href="https://github.com/M1zz/geusaie">Kod źródłowy</a>
-    </div>
+    <nav id="languages" class="langs" aria-label="Język"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl" aria-current="page">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Polityka prywatności</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Geusaie</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

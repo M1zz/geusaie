@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: keittiöajastin kahdelle kattilalle yhtä aikaa",
+  "description": "Kastike valmistuu pastan kiehuessa. Geusaie näyttää yhden tehtävän kerrallaan, laskee kunkin kattilan ajan ja jatkaa, kun sanot seuraava. Ilmainen.",
+  "hero": {
+    "headline": "Pasta kiehuu.\nKastike valmistuu sillä välin.",
+    "lead": "Kun kaksi kattilaa etenee eri tahtiin, Geusaie näyttää isolla sen yhden asian, joka käsiesi pitää tehdä juuri nyt. Kastike ajoitetaan takaperin siitä hetkestä, kun pasta kaadetaan siivilään.",
+    "cta": "Lataa ilmaiseksi App Storesta",
+    "note": "Kaikki ominaisuudet ovat ilmaisia. Tiliä ei tarvita."
+  },
+  "demo": {
+    "title": "Kokeile itse",
+    "lead": "Valmista annos aglio e oliota 20-kertaisella nopeudella. Napauta Aloita ruoanlaitto ja sitten Seuraava aina, kun olisit saanut tehtävän tehtyä. Katso, miten kortti muuttuu, kun on aika kaataa pasta siivilään.",
+    "note": "Sama resepti ja sama järjestyksen laskenta kuin sovelluksessa. Vain kello käy nopeammin.",
+    "again": "Aloita alusta",
+    "app": {
+      "first": "Tee tämä ensin",
+      "startHint": "Napauta alla ”Aloita ruoanlaitto”, niin kattiloiden ajastimet käynnistyvät",
+      "now": "Tee nyt",
+      "nowCant": "Nyt · ei voi odottaa",
+      "late": "Myöhässä · tee heti",
+      "calm": "Tee nyt · ei kiirettä",
+      "ready": "Valmista 🍴 Anna ruoka",
+      "handsDone": "Kätesi ovat valmiit — enää kattiloita pitää odottaa",
+      "upNext": "Seuraavaksi · %@ %@",
+      "resume": "Kesken jäänyt · %@ %@ — tee tämä ensin valmiiksi ja jatka sitten",
+      "saidNext": "Valmista? Sano ”seuraava”",
+      "empty": "Vapaa",
+      "onIt": "Olet siinä mukana",
+      "finished": "Käytetty loppuun",
+      "start": "Aloita ruoanlaitto",
+      "next": "Seuraava",
+      "elapsed": "Kulunut aika",
+      "names": {
+        "ao-water-on": "Laita vesi tulelle korkealle lämmölle",
+        "ao-boil": "Keitä vesi kiehuvaksi",
+        "ao-drop": "Kun vesi kiehuu, laita pasta kiehumaan",
+        "ao-pasta": "Keitä pasta",
+        "ao-reserve": "Nosta pasta pois ja säästä keitinvesi",
+        "ao-garlic": "Paista valkosipuli öljyssä",
+        "ao-toss": "Lisää keitinvesi ja emulgoi",
+        "ao-prep": "Ota ainekset esiin ja laita pannu liedelle",
+        "ao-slice": "Viipaloi valkosipuli ohuiksi siivuiksi",
+        "ao-pepper": "Hienonna chili ja persilja",
+        "ao-cheese": "Raasta juusto ja lämmitä lautaset"
+      },
+      "lanes": [
+        "Pastakattila",
+        "Kastikepannu"
+      ],
+      "progress": {
+        "ao-boil": "Vesi kiehuu",
+        "ao-pasta": "Pasta kiehuu"
+      }
+    }
+  },
+  "problem": {
+    "title": "Kolme ajastinta käynnissä, ja pasta silti ylikypsää?",
+    "text": "Yksi ajastin pastalle, toinen kastikkeelle ja valkosipuli päässä, ja kohta et enää tiedä, mikä tulee ensin. Leikkaat juuri, kun pasta pitäisi kaataa siivilään, ja kastike valmistuu kaksi minuuttia myöhässä. Geusaie tuntee reseptin muodossa ”ensin tämä, sitten tuo” ja kertoo vain sen yhden asian, joka pitää tehdä nyt."
+  },
+  "features": [
+    {
+      "title": "Mikä ei voi odottaa, muuttuu punaiseksi",
+      "text": "Pastan siivilöinti, palamaisillaan oleva valkosipuli: kun tehtävä pilaisi ruoan myöhästyessään, kortti muuttuu terrakotan väriseksi ja pyytää jättämään pilkkomisen hetkeksi.\nKun kattila on valmis, saat ilmoituksen, vaikka et katsoisi näyttöä, ja siinä lukee, mitä tehdä heti.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Pilko, kun kädet ovat vapaina",
+      "text": "Valkosipulin viipalointi, juuston raastaminen, mittaaminen: millään näistä ei ole kiinteää aikaa, joten sekunteja ei lasketa. Palkki täyttyy, kun kätesi ovat vapaina, pysähtyy, kun kattila kutsuu, ja jatkuu siitä, mihin jäit.\nLaitatko levyn päälle kolme minuuttia myöhässä? Kaikki sen jälkeen siirtyy kolme minuuttia. Aikataulu lasketaan joka kerta uudelleen sen mukaan, mitä oikeasti teit.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Nojaa tasolle, jatka äänellä",
+      "text": "Neljä tekstikokoa, jotta luet tekstin parin askeleen päästä, eikä näyttö sammu ruokaa laittaessa.\nKädet märkinä? Sano `seuraava`, niin sovellus siirtyy seuraavaan tehtävään ilman kosketusta.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Kolme askelta päivälliseen",
+    "items": [
+      {
+        "title": "Valitse ruoka",
+        "text": "Näet suunnilleen, kauanko se vie ja montako kattilaa tarvitset."
+      },
+      {
+        "title": "Napauta Aloita ruoanlaitto",
+        "text": "Ensin näet ensimmäisen tehtävän, ja kattiloiden kellot käynnistyvät napautuksesta."
+      },
+      {
+        "title": "Valmista? Seuraava.",
+        "text": "Napauta painiketta tai sano ”seuraava”, niin seuraava tehtävä tulee esiin."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Väri kertoo kiireen",
+    "rows": [
+      [
+        "Vihreä",
+        "Esivalmistelu. Ei kiirettä."
+      ],
+      [
+        "Sinapinkeltainen",
+        "Kattila tarvitsee sinua. Tee se nyt, mutta rauhassa."
+      ],
+      [
+        "Terrakotta",
+        "Jos odotat, pasta ylikypsyy tai valkosipuli palaa. Nyt."
+      ],
+      [
+        "Kattilaruudut",
+        "Kutistuva neliö on jäljellä oleva aika. Kattiloiden aikaa ei koskaan piiloteta."
+      ]
+    ],
+    "note": "Aikajanalla katkoviivalla piirretyt palkit ovat tehtäviä, jotka voivat odottaa."
+  },
+  "pricing": {
+    "title": "Kaikki ominaisuudet ovat ilmaisia",
+    "free": {
+      "name": "Ilmainen",
+      "items": [
+        "Molemmat reseptit",
+        "Oma ajastin jokaiselle kattilalle ja koko aikajana",
+        "Ilmoitus, kun kattila on valmis",
+        "”Seuraava” äänellä",
+        "Neljä tekstikokoa",
+        "Avaa resepti Sirillä tai Pikakomennoilla"
+      ]
+    },
+    "pro": {
+      "name": "Tue kehittäjää (vapaaehtoinen)",
+      "items": [
+        "Jos sovellus auttaa, voit antaa pienen tipin asetuksista",
+        "Tippi ei avaa mitään. Ilman sitäkin kaikki ominaisuudet ovat käytössäsi"
+      ],
+      "note": "Kertamaksuja, ei tilausta."
+    },
+    "note": "Ei tiliä, ei mainoksia, ja toimii ilman internetiä."
+  },
+  "faq": {
+    "title": "Usein kysyttyä",
+    "items": [
+      {
+        "q": "Sanon ”seuraava”, mutta mitään ei tapahdu.",
+        "a": "Mikrofonipainike vasemmassa alakulmassa on punainen, kun sovellus kuuntelee, ja harmaa, kun se on pois päältä. Salli ensimmäisellä kerralla sekä mikrofoni että puheentunnistus. Jos kielsit ne, voit ottaa ne uudelleen käyttöön kohdassa Asetukset > Geusaie. Sovellus kuuntelee sanaa, joka lukee sen Seuraava-painikkeessa. Hyvin meluisassa keittiössä napauta vain Seuraava."
+      },
+      {
+        "q": "Kattila valmistui, mutta en saanut ilmoitusta.",
+        "a": "Tarkista, että ilmoitukset ovat päällä kohdassa Asetukset > Ilmoitukset > Geusaie. Keskittyminen voi hiljentää ne. Ilmoituksia tulee vain, kun kattila on valmis; esivalmistelut eivät koskaan hoputa sinua."
+      },
+      {
+        "q": "Mitä aikataululle käy, jos aloitan myöhässä?",
+        "a": "Se lasketaan uudelleen sen mukaan, mitä oikeasti teit. Kun laitat levyn päälle kolme minuuttia myöhemmin, kaikki sen jälkeen siirtyy kolme minuuttia, ja kastike ajoitetaan edelleen takaperin siitä, kun pasta on valmis."
+      },
+      {
+        "q": "Teksti on liian pientä.",
+        "a": "Napauta ruoanlaittonäkymän oikeasta yläkulmasta tekstikoon painiketta ja valitse Normaali, Suuri, Suurempi tai Suurin. Valintasi muistetaan."
+      },
+      {
+        "q": "Sammuuko näyttö ruokaa laittaessa?",
+        "a": "Ei. Näyttö pysyy päällä, kun laitat ruokaa, joten sinun ei tarvitse koskea siihen märin käsin."
+      },
+      {
+        "q": "Mitä ruokia sovelluksessa on?",
+        "a": "Aglio e olio (noin 15 minuuttia, 2 kattilaa) ja tomaatti-kermapasta (noin 20 minuuttia, 2 kattilaa), jotka perustuvat Serious Eatsin, Gimme Some Ovenin, RecipeTin Eatsin ja The Burnt Butter Tablen resepteihin. Mikä tahansa ruoka, jossa kaksi kattilaa on käynnissä yhtä aikaa, sopii hyvin, joten kerro, minkä reseptin haluaisit."
+      },
+      {
+        "q": "Tallennetaanko ääneni?",
+        "a": "Ei. Sovellus kuuntelee vain sanaa ”seuraava” eikä tallenna tai säilytä ääntä. Jos laite tukee sitä, puheentunnistus tapahtuu laitteessa. Henkilötietoja ei kerätä."
+      },
+      {
+        "q": "Voinko avata sen Sirillä?",
+        "a": "Kyllä. Valitse ruoka Sirissä tai Pikakomennot-apissa, niin sen ruoanlaittonäkymä aukeaa heti. Kellot käynnistyvät, kun olet valmis laittamaan veden kiehumaan ja napautat Aloita ruoanlaitto."
+      },
+      {
+        "q": "Millä laitteilla se toimii?",
+        "a": "iPhonella ja iPadilla, joissa on iOS 17 tai uudempi. Tiliä tai internetyhteyttä ei tarvita."
+      },
+      {
+        "q": "Miten ilmoitan ongelmasta tai ehdotan reseptiä?",
+        "a": "Sovelluksen kohdasta Asetukset > Lähetä palautetta tai sähköpostilla alla olevaan osoitteeseen. Kerro laitteen malli ja iOS-versio, niin pääsemme asiaan nopeammin. Vastaamme yleensä muutamassa päivässä."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Tänä iltana pasta\nja kastike valmistuvat yhtä aikaa",
+    "cta": "Lataa ilmaiseksi App Storesta"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "languages": "Kieli",
+    "privacy": "Tietosuojakäytäntö",
+    "contact": "Jäikö jokin jumiin, huomasitko jotain outoa tai onko mielessä resepti? Kirjoita osoitteeseen {email}."
+  }
+}

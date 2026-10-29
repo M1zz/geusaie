@@ -1,207 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geusaie — パスタを茹でている間に、ソースまで</title>
-<meta name="description" content="鍋を2つ同時に使う料理のためのタイマー。今やることを大きく1つだけ、鍋ごとの残り時間を別々に、手が濡れているときは声で次へ進めます。">
-<meta property="og:title" content="Geusaie">
-<meta property="og:description" content="パスタを茹でている間に、ソースまで。鍋2つを同時に回す料理タイマー。">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://m1zz.github.io/geusaie/ja/">
-<!-- hreflang:start -->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:end -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
-<style>
-  :root {
-    --cream: #FAF6ED;
-    --card: #F1EAD6;
-    --border: #E3D9BE;
-    --ink: #2D2A24;
-    --ink-soft: #8A8271;
-    --terracotta: #C75B39;
-    --green: #5B8C5A;
-    --mustard: #D99A3C;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
-                 "Noto Sans KR", system-ui, sans-serif;
-    line-height: 1.7;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 72px 0 40px; text-align: center; }
-  .logo { font-size: 56px; line-height: 1; }
-  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
-  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
-  .lede {
-    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
-    text-align: left;
-  }
-  section { padding: 44px 0; border-top: 1px solid var(--border); }
-  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
-  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .feature {
-    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-    padding: 20px 22px;
-  }
-  .feature h3 { margin: 0 0 6px; font-size: 18px; }
-  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
-  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
-  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
-  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-  .shots figure { margin: 0; max-width: 300px; }
-  .shots img {
-    width: 100%; border-radius: 22px; border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
-  }
-  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
-  .dot.now { background: var(--terracotta); }
-  .dot.calm { background: var(--green); }
-  .dot.pot { background: var(--mustard); }
-  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
-  footer a, a { color: var(--terracotta); }
-  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
-  @media (max-width: 600px) {
-    header { padding: 48px 0 28px; }
-    h1 { font-size: 32px; }
-    .tagline { font-size: 18px; }
-  }
-  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
-  .langnav b { color: var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geusaie：鍋2つを同時に回す料理タイマー</title>
+  <meta name="description" content="パスタを茹でている間にソースまで。今やることを1つだけ大きく表示し、鍋ごとの残り時間を別々に数えます。手が濡れていたら「次へ」と言うだけ。無料。">
+  <meta name="theme-color" content="#C75B39" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1B16" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793473149">
+  <link rel="canonical" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geusaie：鍋2つを同時に回す料理タイマー">
+  <meta property="og:description" content="パスタを茹でている間にソースまで。今やることを1つだけ大きく表示し、鍋ごとの残り時間を別々に数えます。手が濡れていたら「次へ」と言うだけ。無料。">
+  <meta property="og:url" content="https://m1zz.github.io/geusaie/ja/">
+  <meta property="og:image" content="https://m1zz.github.io/geusaie/img/ja/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C75B39}@media (prefers-color-scheme:dark){:root{--accent:#E07D5C}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">🍝</div>
-    <h1>Geusaie</h1>
-    <p class="tagline">パスタを茹でている間に、ソースまで。</p>
-    <p class="lede">料理が難しいのは、手が遅いからではなく、2つの鍋の時間が別々に流れているからです。麺は待ってくれませんが、にんにくを切る作業はいつでもできます。Geusaie（韓国語で「その間に」）はこの違いを見分けて、今、手がやるべきことを1つだけ大きく見せます。</p>
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="bar">
+    <a class="brand" href="../ja/"><img src="../icon.png" alt="" width="32" height="32">Geusaie</a>
+    <a class="lang-link" href="#languages">言語</a>
   </header>
 
-  <section>
-    <h2>こんなアプリです</h2>
-    <div class="features">
-      <div class="feature now">
-        <h3>後回しにできない作業</h3>
-        <p>麺をあげる、焦げる寸前のにんにく。時間になると画面が赤くなり、今の作業を止めるよう知らせます。</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>パスタを茹でる間に、<br>ソースまで</h1>
+        <p class="lead">2つの鍋が違うペースで進む料理で、今あなたの手がやるべきことを1つだけ大きく表示します。ソースはパスタが茹で上がる時刻から逆算して始まります。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793473149">App Storeで無料ダウンロード</a><a class="try" href="#try">試してみる ↓</a></div>
+        <p class="muted small">すべての機能が無料で、アカウントも不要です。</p>
       </div>
-      <div class="feature calm">
-        <h3>後回しにできる作業</h3>
-        <p>切る、おろす、計量する。手が空いているときだけ進み、鍋に呼ばれたら中断して、戻ってきたら続きから再開します。</p>
-      </div>
-      <div class="feature">
-        <h3>鍋ごとのタイマー</h3>
-        <p>パスタ鍋とソース用フライパンが、それぞれ何をしている最中で、あとどれくらいかを別々に表示します。</p>
-      </div>
-      <div class="feature">
-        <h3>声で次へ</h3>
-        <p>手が濡れているときは「次へ」と言ってください。音声認識は可能な限り端末内で処理します。</p>
-      </div>
-      <div class="feature">
-        <h3>離れても読める文字</h3>
-        <p>調理台に立てかけて、一歩二歩離れて見られます。文字サイズはアプリ内で4段階に大きくできます。</p>
-      </div>
-      <div class="feature">
-        <h3>急かさない</h3>
-        <p>手の作業には秒数のカウントがありません。バーが伸びて止まり、待っていてくれます。</p>
-      </div>
-    </div>
-  </section>
+      <div class="phone"><img src="../img/ja/02-start.jpg" alt="パスタを茹でる間に、 ソースまで" width="720" height="1558" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2>画面</h2>
-    <div class="shots">
-      <figure>
-        <img src="../images/home.png" alt="料理を選ぶホーム画面。アーリオ・オーリオ、約15分、鍋2個。">
-        <figcaption>選ぶときに必要なことだけ — かかる時間と鍋の数</figcaption>
-      </figure>
-      <figure>
-        <img src="../images/cook.png" alt="調理中の画面。今やることのカード、鍋の2つの枠、タイムライン。">
-        <figcaption>今やること · 鍋の状態 · 全体のタイムライン</figcaption>
-      </figure>
-    </div>
-  </section>
 
-  <section>
-    <h2>色で急ぎ度がわかる</h2>
-    <table>
-      <tr>
-        <th><span class="dot calm"></span>緑</th>
-        <td>下ごしらえの作業です。ゆっくりで大丈夫です。</td>
-      </tr>
-      <tr>
-        <th><span class="dot now"></span>テラコタ</th>
-        <td>後回しにすると麺が伸びたり焦げたりします。今すぐやりましょう。</td>
-      </tr>
-      <tr>
-        <th><span class="dot pot"></span>鍋の枠</th>
-        <td>四角が小さくなる分だけ残り時間です。鍋は必ず見守る時計なので、ここでは時間を隠しません。</td>
-      </tr>
-    </table>
-  </section>
+    <section class="reveal" id="try">
+      <h2>試してみる</h2>
+      <p class="muted">アーリオ・オーリオを20倍速で作ってみましょう。「調理を始める」を押し、作業を終えたつもりで「次へ」を押してください。パスタを湯切りするタイミングでカードがどう変わるかも見てみてください。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;試してみる&quot;, &quot;lead&quot;: &quot;アーリオ・オーリオを20倍速で作ってみましょう。「調理を始める」を押し、作業を終えたつもりで「次へ」を押してください。パスタを湯切りするタイミングでカードがどう変わるかも見てみてください。&quot;, &quot;note&quot;: &quot;アプリと同じレシピ、同じ段取り計算です。時間だけが速く進みます。&quot;, &quot;again&quot;: &quot;最初からやり直す&quot;, &quot;app&quot;: {&quot;first&quot;: &quot;始めたら最初にやること&quot;, &quot;startHint&quot;: &quot;下の「調理を始める」を押すと鍋のタイマーが動き出します&quot;, &quot;now&quot;: &quot;今やること&quot;, &quot;nowCant&quot;: &quot;今すぐ · 後回しにできません&quot;, &quot;late&quot;: &quot;遅れています · 今すぐ&quot;, &quot;calm&quot;: &quot;今やること · ゆっくりでOK&quot;, &quot;ready&quot;: &quot;できあがり 🍴 お皿に盛りつけましょう&quot;, &quot;handsDone&quot;: &quot;手の作業は終わりました — あとは鍋を待つだけです&quot;, &quot;upNext&quot;: &quot;次は · %@ %@&quot;, &quot;resume&quot;: &quot;さっきの作業 · %@ %@ — これを先に済ませてから続けます&quot;, &quot;saidNext&quot;: &quot;終わったら「次へ」&quot;, &quot;empty&quot;: &quot;空き&quot;, &quot;onIt&quot;: &quot;作業中&quot;, &quot;finished&quot;: &quot;使い終わり&quot;, &quot;start&quot;: &quot;調理を始める&quot;, &quot;next&quot;: &quot;次へ&quot;, &quot;elapsed&quot;: &quot;経過時間&quot;, &quot;names&quot;: {&quot;ao-water-on&quot;: &quot;水を火にかけて強火にする&quot;, &quot;ao-boil&quot;: &quot;お湯を沸かす&quot;, &quot;ao-drop&quot;: &quot;沸いたら麺を入れる&quot;, &quot;ao-pasta&quot;: &quot;麺を茹でる&quot;, &quot;ao-reserve&quot;: &quot;ゆで汁を残して麺をあげる&quot;, &quot;ao-garlic&quot;: &quot;にんにくをオイルで炒める&quot;, &quot;ao-toss&quot;: &quot;ゆで汁を加えて乳化させ、和える&quot;, &quot;ao-prep&quot;: &quot;材料を出してフライパンを置く&quot;, &quot;ao-slice&quot;: &quot;にんにくを薄切りにする&quot;, &quot;ao-pepper&quot;: &quot;唐辛子とパセリを刻む&quot;, &quot;ao-cheese&quot;: &quot;チーズをおろしてお皿を温める&quot;}, &quot;lanes&quot;: [&quot;パスタ鍋&quot;, &quot;ソース用フライパン&quot;], &quot;progress&quot;: {&quot;ao-boil&quot;: &quot;お湯を沸かし中&quot;, &quot;ao-pasta&quot;: &quot;麺を茹で中&quot;}}}"></div>
+    </section>
 
-  <section>
-    <h2>収録レシピ</h2>
-    <table>
-      <tr><th>アーリオ・オーリオ</th><td>約15分 · 鍋2個 · 出典 Serious Eats、Gimme Some Oven</td></tr>
-      <tr><th>トマトクリームパスタ</th><td>約20分 · 鍋2個 · 出典 RecipeTin Eats、The Burnt Butter Table</td></tr>
-    </table>
-  </section>
+    <section class="problem reveal">
+      <h2>タイマーを3つかけたのに、パスタがのびたことはありませんか？</h2>
+      <p>パスタのタイマー、ソースのタイマー、にんにくを炒める時間を別々に計っていると、どれが先かわからなくなります。にんにくを切っている間に湯切りのタイミングを逃し、ソースはパスタより遅れて仕上がる。Geusaieはレシピを「これの次にこれ」として理解しているので、今やることを1つだけ教えてくれます。</p>
+    </section>
 
-  <section id="contact">
-    <h2>お問い合わせ</h2>
-    <p>困ったこと、おかしなこと、入れてほしいレシピなど、何でも歓迎です。<a href="mailto:leeo@kakao.com">leeo@kakao.com</a> へのメールか、アプリの「設定」▸「フィードバックを送る」からお知らせください。よくある質問は<a href="support.html">サポートページ</a>にまとめています。</p>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>待てない作業が来ると、カードが赤くなる</h2>
+        <p>パスタの湯切り、焦げる寸前のにんにく。遅れると料理が台なしになる作業が来ると、カードがテラコッタ色に変わり、まな板の作業はいったん止めるよう知らせます。<br>鍋ができあがると、画面を見ていなくても通知が届き、すぐやるべきことも一緒に教えてくれます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/04-deadline.jpg" alt="待てない作業が来ると、カードが赤くなる" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
 
-  <!-- langnav:start -->
-  <nav class="langnav" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> · <a href="../en/" hreflang="en" lang="en">English</a> · <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <b>日本語</b> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../it/" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/" hreflang="th" lang="th">ไทย</a> · <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/" hreflang="da" lang="da">Dansk</a> · <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
-  <!-- langnav:end -->
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>切る作業は、手が空いたときだけ</h2>
+        <p>にんにくを切る、チーズをおろす、計量する。どれも時間に縛られない作業なので、秒は数えません。手が空いている間だけバーが進み、鍋に呼ばれたら止まり、戻れば続きから再開します。<br>火をつけるのが3分遅れたら、その後の作業もまとめて3分ずれます。段取りは、実際にやった時刻から毎回計算し直します。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/03-prep.jpg" alt="切る作業は、手が空いたときだけ" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>キッチンに立てかけて、声で進める</h2>
+        <p>1〜2歩離れても読めるように文字サイズを4段階で大きくでき、調理中は画面が消えません。<br>手が濡れていたら<code>次へ</code>と言ってください。画面に触れずに次の作業へ進みます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/05-bigtext.jpg" alt="キッチンに立てかけて、声で進める" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>始めるのは3ステップだけ</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>料理を選ぶ</h3><p>かかる時間の目安と、必要な鍋の数を見て選べます。</p></li>
+<li class="card"><span class="n">2</span><h3>「調理を始める」を押す</h3><p>最初の作業を先に表示し、押した瞬間から鍋のタイマーが動き出します。</p></li>
+<li class="card"><span class="n">3</span><h3>終わったら「次へ」</h3><p>ボタンを押すか「次へ」と言えば、次にやることが表示されます。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>色が、そのまま急ぎ具合です</h2>
+      <div class="card table">
+        <dl><div><dt>緑</dt><dd>下ごしらえです。ゆっくりで大丈夫。</dd></div><div><dt>マスタード</dt><dd>鍋の作業の番です。今やればよく、急ぐほどではありません。</dd></div><div><dt>テラコッタ</dt><dd>後回しにするとパスタがのびたり焦げたりします。今すぐ。</dd></div><div><dt>鍋の枠</dt><dd>四角が縮んだ分が残り時間です。鍋の時間は隠しません。</dd></div></dl>
+      </div>
+      <p class="muted">タイムラインで点線のバーは、後回しにしてもいい作業です。</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>すべての機能が無料です</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>無料</h3>
+          <ul><li>2つのレシピすべて</li><li>鍋ごとのタイマーと全体のタイムライン</li><li>鍋ができたときの通知</li><li>声で「次へ」</li><li>4段階の文字サイズ</li><li>Siriやショートカットからすぐ開ける</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>開発者を応援する（任意）</h3>
+          <ul><li>役に立ったと思ったら、設定から小さなチップを送れます</li><li>チップで開く機能はありません。送らなくても、すべての機能はそのままです</li></ul>
+          <p class="muted">1回ずつのチップで、サブスクリプションではありません。</p>
+        </div>
+      </div>
+      <p class="muted">アカウントも広告もなく、インターネットがなくても料理できます。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>よくある質問</h2>
+      <div class="faq"><details><summary>「次へ」と言っても進みません。</summary><p>左下のマイクボタンが赤なら聞き取り中、グレーならオフです。最初にマイクと音声認識の両方を許可する必要があり、許可しなかった場合は設定アプリ &gt; Geusaieでオンにできます。アプリは「次へ」ボタンに書かれている言葉を聞き取ります。周りがとてもうるさいときは、画面下の「次へ」ボタンを押してください。</p></details>
+<details><summary>鍋ができたのに通知が来ません。</summary><p>設定アプリ &gt; 通知 &gt; Geusaieで通知がオンになっているか確認してください。集中モードがオンだと音が鳴らないことがあります。通知が届くのは鍋ができあがったときだけです。切る・おろすといった下ごしらえは、急かさないよう通知しません。</p></details>
+<details><summary>始めるのが遅れたら、段取りはどうなりますか？</summary><p>実際にやった時刻から計算し直します。火をつけるのが3分遅れれば、その後の作業も3分ずれます。ソースはパスタが茹で上がる時刻に合わせて逆算されます。</p></details>
+<details><summary>文字が小さいです。</summary><p>調理画面の右上にある文字サイズのボタンから、標準・大・さらに大・特大を選べます。選んだサイズは次回もそのままです。</p></details>
+<details><summary>調理中に画面は消えますか？</summary><p>調理中は画面が消えません。手が濡れていても画面に触れずに済むようにしています。</p></details>
+<details><summary>どんな料理が入っていますか？</summary><p>アーリオ・オーリオ（約15分・鍋2つ）とトマトクリームパスタ（約20分・鍋2つ）です。Serious Eats、Gimme Some Oven、RecipeTin Eats、The Burnt Butter Tableのレシピを参考にしています。鍋2つを同時に使う料理なら何でも向いているので、入れてほしいレシピがあれば教えてください。</p></details>
+<details><summary>声は保存されますか？</summary><p>いいえ。「次へ」という言葉だけを聞き取り、音声を録音したり保存したりしません。端末が対応していれば、音声認識も端末内だけで処理します。個人情報は収集しません。</p></details>
+<details><summary>Siriで開けますか？</summary><p>はい。Siriやショートカットアプリで料理を選ぶと、その料理の調理画面がすぐに開きます。タイマーは、お湯を沸かす準備ができて「調理を始める」を押したときに動き出します。</p></details>
+<details><summary>どの端末で使えますか？</summary><p>iOS 17以降のiPhoneとiPadで使えます。アカウントは不要で、インターネットがなくても使えます。</p></details>
+<details><summary>不具合の報告やレシピの提案は？</summary><p>アプリの設定 &gt; フィードバックを送る、または下のメールアドレスからお送りください。端末のモデルとiOSのバージョンを書いていただけると、より早く確認できます。通常は数日以内にお返事します。</p></details></div>
+      <p class="contact">困ったこと、気になったこと、入れてほしいレシピは<a href="mailto:leeo@kakao.com">leeo@kakao.com</a>までお送りください。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>今夜は、パスタも<br>ソースもぴったりに</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793473149">App Storeで無料ダウンロード</a>
+    </section>
+  </main>
 
   <footer>
-    <p>iPhone · iOS 17以降 · 縦向き</p>
-    <div class="links">
-      <a href="support.html">サポート · よくある質問</a>
-      <a href="privacy.html">プライバシーポリシー</a>
-      <a href="https://github.com/M1zz/geusaie">ソースコード</a>
-    </div>
+    <nav id="languages" class="langs" aria-label="言語"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">プライバシーポリシー</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Geusaie</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: timer masak untuk dua panci sekaligus",
+  "description": "Saus beres selagi pasta direbus. Geusaie menampilkan satu tugas sekarang, menghitung waktu tiap panci, dan lanjut saat kamu bilang berikutnya. Gratis.",
+  "hero": {
+    "headline": "Pasta direbus,\nsaus ikut beres",
+    "lead": "Saat dua panci berjalan dengan tempo berbeda, Geusaie menampilkan besar-besar satu hal yang perlu dikerjakan tanganmu sekarang. Saus dijadwalkan mundur dari saat pasta diangkat.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Semua fitur gratis. Tidak perlu akun."
+  },
+  "demo": {
+    "title": "Coba sendiri",
+    "lead": "Masak sepiring aglio e olio dengan kecepatan 20x. Ketuk Mulai memasak, lalu ketuk Berikutnya setiap kali kamu anggap satu tugas selesai. Lihat juga bagaimana kartunya berubah saat tiba waktunya mengangkat pasta.",
+    "note": "Resep dan perhitungan urutan yang sama dengan aplikasinya. Hanya jamnya yang berjalan lebih cepat.",
+    "again": "Ulangi dari awal",
+    "app": {
+      "first": "Yang pertama dilakukan",
+      "startHint": "Ketuk “Mulai memasak” di bawah, lalu timer panci mulai berjalan",
+      "now": "Lakukan sekarang",
+      "nowCant": "Sekarang · tidak bisa ditunda",
+      "late": "Terlambat · lakukan sekarang juga",
+      "calm": "Lakukan sekarang · santai saja",
+      "ready": "Sudah matang 🍴 Saatnya disajikan",
+      "handsDone": "Tanganmu sudah selesai — tinggal menunggu panci",
+      "upNext": "Selanjutnya · %@ %@",
+      "resume": "Yang sedang dikerjakan · %@ %@ — selesaikan ini dulu, lalu lanjutkan",
+      "saidNext": "Sudah? Ucapkan “berikutnya”",
+      "empty": "Kosong",
+      "onIt": "Sedang dikerjakan",
+      "finished": "Sudah selesai dipakai",
+      "start": "Mulai memasak",
+      "next": "Berikutnya",
+      "elapsed": "Waktu berlalu",
+      "names": {
+        "ao-water-on": "Panaskan air dengan api besar",
+        "ao-boil": "Didihkan air",
+        "ao-drop": "Setelah mendidih, masukkan pasta",
+        "ao-pasta": "Rebus pasta",
+        "ao-reserve": "Angkat pasta dan sisakan air rebusan",
+        "ao-garlic": "Tumis bawang putih dengan minyak",
+        "ao-toss": "Tambahkan air rebusan dan emulsikan",
+        "ao-prep": "Siapkan bahan dan taruh wajan di atas kompor",
+        "ao-slice": "Iris tipis bawang putih",
+        "ao-pepper": "Cincang cabai dan peterseli",
+        "ao-cheese": "Parut keju dan hangatkan piring"
+      },
+      "lanes": [
+        "Panci pasta",
+        "Wajan saus"
+      ],
+      "progress": {
+        "ao-boil": "Air sedang mendidih",
+        "ao-pasta": "Pasta sedang direbus"
+      }
+    }
+  },
+  "problem": {
+    "title": "Sudah pasang tiga timer, tapi pastanya tetap lembek?",
+    "text": "Satu timer untuk pasta, satu untuk saus, waktu menumis bawang putih diingat sendiri, lalu bingung mana yang duluan. Lagi mengiris, momen mengangkat pasta terlewat, dan saus baru matang dua menit kemudian. Geusaie memahami resep sebagai \"ini dulu, lalu itu\", jadi hanya memberi tahu satu hal yang perlu dikerjakan sekarang."
+  },
+  "features": [
+    {
+      "title": "Yang tidak bisa menunggu, kartunya jadi merah",
+      "text": "Mengangkat pasta, bawang putih yang hampir gosong: saat tiba tugas yang bisa merusak masakan kalau telat, kartu berubah warna terakota dan memintamu menunda pekerjaan talenan sebentar.\nSaat satu panci selesai, notifikasi tetap datang meski kamu tidak melihat layar, lengkap dengan apa yang harus segera dikerjakan.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Mengiris hanya saat tangan senggang",
+      "text": "Mengiris bawang putih, memarut keju, menakar: semua ini tidak terikat waktu, jadi aplikasi tidak menghitung mundur detiknya. Bilah terisi hanya saat tanganmu senggang, berhenti ketika panci memanggil, lalu lanjut dari posisi terakhir.\nTerlambat menyalakan kompor tiga menit? Semua tugas berikutnya ikut bergeser tiga menit. Jadwal dihitung ulang dari waktu yang benar-benar kamu jalani.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Taruh di meja dapur, lanjut dengan suara",
+      "text": "Ukuran teks bisa diperbesar empat tingkat agar tetap terbaca dari satu dua langkah, dan layar tidak mati selama memasak.\nTangan basah? Ucapkan `berikutnya` dan aplikasi pindah ke tugas berikutnya tanpa disentuh.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Pilih masakan",
+        "text": "Cukup lihat kira-kira berapa lama dan berapa panci yang dibutuhkan."
+      },
+      {
+        "title": "Ketuk Mulai memasak",
+        "text": "Tugas pertama ditampilkan dulu, dan jam panci mulai berjalan begitu kamu mengetuk."
+      },
+      {
+        "title": "Selesai? Berikutnya.",
+        "text": "Ketuk tombolnya atau ucapkan \"berikutnya\", lalu tugas selanjutnya muncul."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Warna menunjukkan seberapa mendesak",
+    "rows": [
+      [
+        "Hijau",
+        "Pekerjaan persiapan. Santai saja."
+      ],
+      [
+        "Mustard",
+        "Giliran tugas di panci. Kerjakan sekarang, tapi tidak perlu buru-buru."
+      ],
+      [
+        "Terakota",
+        "Kalau ditunda, pasta jadi lembek atau bawang putih gosong. Kerjakan sekarang."
+      ],
+      [
+        "Kotak panci",
+        "Persegi yang menyusut adalah sisa waktunya. Waktu panci tidak pernah disembunyikan."
+      ]
+    ],
+    "note": "Di linimasa, bilah bergaris putus-putus adalah tugas yang boleh ditunda."
+  },
+  "pricing": {
+    "title": "Semua fitur gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Kedua resep",
+        "Timer untuk tiap panci dan linimasa lengkap",
+        "Notifikasi saat panci selesai",
+        "Ucapkan \"berikutnya\" untuk lanjut",
+        "Empat ukuran teks",
+        "Buka resep lewat Siri atau Pintasan"
+      ]
+    },
+    "pro": {
+      "name": "Dukung pengembang (opsional)",
+      "items": [
+        "Kalau aplikasinya membantu, kamu bisa mengirim tip kecil dari Pengaturan",
+        "Tip tidak membuka apa pun. Tanpa tip, semua fitur tetap bisa dipakai"
+      ],
+      "note": "Tip sekali bayar, bukan langganan."
+    },
+    "note": "Tanpa akun, tanpa iklan, dan tetap bisa dipakai tanpa internet."
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Sudah bilang \"berikutnya\" tapi tidak lanjut.",
+        "a": "Tombol mikrofon di kiri bawah berwarna merah saat sedang mendengarkan dan abu-abu saat mati. Pertama kali, izinkan mikrofon dan pengenalan suara; kalau sempat ditolak, nyalakan lagi di app Pengaturan > Geusaie. Aplikasi mendengarkan kata yang tertulis di tombol Berikutnya. Kalau dapur sangat bising, ketuk saja tombol Berikutnya di bawah."
+      },
+      {
+        "q": "Panci sudah selesai tapi tidak ada notifikasi.",
+        "a": "Periksa apakah notifikasi sudah aktif di Pengaturan > Notifikasi > Geusaie. Mode Fokus bisa membuat bunyinya tidak keluar. Notifikasi hanya datang saat panci selesai; persiapan seperti mengiris atau memarut tidak diberi notifikasi supaya kamu tidak merasa dikejar."
+      },
+      {
+        "q": "Kalau mulainya terlambat, jadwalnya bagaimana?",
+        "a": "Dihitung ulang dari waktu yang benar-benar kamu jalani. Terlambat menyalakan kompor tiga menit, tugas berikutnya ikut mundur tiga menit, sementara saus tetap dijadwalkan mundur dari saat pasta diangkat."
+      },
+      {
+        "q": "Teksnya terlalu kecil.",
+        "a": "Di layar memasak, ketuk tombol ukuran teks di kanan atas lalu pilih Normal, Besar, Lebih besar, atau Terbesar. Pilihanmu akan diingat."
+      },
+      {
+        "q": "Apakah layar mati saat memasak?",
+        "a": "Tidak. Selama memasak layar tetap menyala, jadi kamu tidak perlu menyentuhnya dengan tangan basah."
+      },
+      {
+        "q": "Masakan apa saja yang ada?",
+        "a": "Aglio e olio (sekitar 15 menit, 2 panci) dan pasta saus krim tomat (sekitar 20 menit, 2 panci), berdasarkan resep dari Serious Eats, Gimme Some Oven, RecipeTin Eats, dan The Burnt Butter Table. Masakan apa pun yang memakai dua panci sekaligus cocok, jadi beri tahu kami resep yang ingin kamu lihat."
+      },
+      {
+        "q": "Apakah suaraku direkam?",
+        "a": "Tidak. Aplikasi hanya mendengarkan kata \"berikutnya\" dan tidak merekam atau menyimpan suara. Jika perangkat mendukung, pengenalan suara hanya diproses di perangkat. Tidak ada data pribadi yang dikumpulkan."
+      },
+      {
+        "q": "Bisa dibuka lewat Siri?",
+        "a": "Bisa. Pilih masakan di Siri atau app Pintasan, dan layar memasaknya langsung terbuka. Jam baru berjalan saat kamu siap merebus air dan mengetuk Mulai memasak."
+      },
+      {
+        "q": "Bisa dipakai di perangkat apa saja?",
+        "a": "iPhone dan iPad dengan iOS 17 atau lebih baru. Tidak perlu akun maupun koneksi internet."
+      },
+      {
+        "q": "Bagaimana cara melaporkan masalah atau mengusulkan resep?",
+        "a": "Lewat Pengaturan > Kirim Masukan di aplikasi, atau email ke alamat di bawah. Sertakan model perangkat dan versi iOS supaya kami bisa memeriksanya lebih cepat. Biasanya kami membalas dalam beberapa hari."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Malam ini, pasta dan\nsaus siap bersamaan",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Langsung ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Ada kendala, menemukan yang aneh, atau punya resep yang ingin ditambahkan? Kirim ke {email}."
+  }
+}

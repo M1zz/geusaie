@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: the cooking timer for two pots at once",
+  "description": "The sauce is ready while the pasta boils. Geusaie shows the one task for your hands now, times each pan and moves on when you say next. Free.",
+  "hero": {
+    "headline": "Pasta in one pan.\nSauce done in the meantime.",
+    "lead": "When two pans cook at different speeds, Geusaie shows the one thing your hands need to do right now. The sauce is timed backwards from the moment the pasta comes out.",
+    "cta": "Get it free on the App Store",
+    "note": "Every feature is free. No account needed."
+  },
+  "demo": {
+    "title": "Have a go",
+    "lead": "Cook a pan of aglio e olio at 20× speed. Tap Start Cooking, then tap Next each time you'd have finished a task. Watch what the card does when it's time to drain the pasta.",
+    "note": "Same recipe and same scheduling as the app. Only the clock runs faster.",
+    "again": "Start again",
+    "app": {
+      "first": "First up when you start",
+      "startHint": "Tap Start Cooking below and the pot timers begin",
+      "now": "Do this now",
+      "nowCant": "Now · can’t wait",
+      "late": "Late · do it right now",
+      "calm": "Do this now · no rush",
+      "ready": "It’s ready 🍴 Time to plate up",
+      "handsDone": "Your hands are done — just wait for the pots",
+      "upNext": "Next · %@ %@",
+      "resume": "You were on · %@ %@ — finish this first, then pick it back up",
+      "saidNext": "Done? Say ‘next’",
+      "empty": "Empty",
+      "onIt": "You’re on it",
+      "finished": "Finished with this pot",
+      "start": "Start Cooking",
+      "next": "Next",
+      "elapsed": "Elapsed time",
+      "names": {
+        "ao-water-on": "Put the water on high heat",
+        "ao-boil": "Bring the water to a boil",
+        "ao-drop": "Add the pasta once it boils",
+        "ao-pasta": "Boil the pasta",
+        "ao-reserve": "Lift out the pasta, keeping the pasta water",
+        "ao-garlic": "Sauté the garlic in oil",
+        "ao-toss": "Add pasta water and toss to emulsify",
+        "ao-prep": "Set out ingredients and put the pan on",
+        "ao-slice": "Slice the garlic thin",
+        "ao-pepper": "Chop the chilli and parsley",
+        "ao-cheese": "Grate the cheese and warm the plates"
+      },
+      "lanes": [
+        "Pasta pot",
+        "Sauce pan"
+      ],
+      "progress": {
+        "ao-boil": "Boiling the water",
+        "ao-pasta": "Boiling the pasta"
+      }
+    }
+  },
+  "problem": {
+    "title": "Three timers going, and the pasta still went soggy?",
+    "text": "A pasta timer, a sauce timer and the garlic in your head, and suddenly you can't tell what comes first. You're halfway through slicing when the pasta needs draining, and the sauce turns up two minutes late. Geusaie knows the recipe as \"this, then that\", so it only ever tells you the one thing to do now."
+  },
+  "features": [
+    {
+      "title": "When it can't wait, the card turns red",
+      "text": "Draining the pasta, garlic about to catch: when a task would spoil the dish if it slipped, the card turns terracotta and tells you to put the chopping aside.\nWhen a pan is done, a notification reaches you even if you're not looking, and tells you what to do straight away.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Chopping fills the gaps",
+      "text": "Slicing garlic, grating cheese, weighing out: none of it is on a clock, so Geusaie never counts down the seconds. The bar fills while your hands are free, pauses when a pan needs you, and carries on where you left off.\nPut the hob on three minutes late and everything after shifts by three minutes. The schedule is recalculated from what you actually did.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Prop it up on the worktop, move on by voice",
+      "text": "Four text sizes, so you can read it from a step or two away, and the screen stays on while you cook.\nHands wet? Say `next` and it moves to the next task without a touch.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Three steps to dinner",
+    "items": [
+      {
+        "title": "Pick a dish",
+        "text": "Each one shows roughly how long it takes and how many pans you need."
+      },
+      {
+        "title": "Tap Start Cooking",
+        "text": "It shows your first task, and the pan timers start the moment you tap."
+      },
+      {
+        "title": "Done? Next.",
+        "text": "Tap the button or say next, and your next task appears."
+      }
+    ]
+  },
+  "reference": {
+    "title": "The colour tells you how urgent it is",
+    "rows": [
+      [
+        "Green",
+        "Prep work. Take your time."
+      ],
+      [
+        "Mustard",
+        "A pan needs you. Do it now, but there's no rush."
+      ],
+      [
+        "Terracotta",
+        "Leave it and the pasta goes soggy or the garlic burns. Do it now."
+      ],
+      [
+        "Pan tiles",
+        "The shrinking square is the time left. Pan timers are never hidden."
+      ]
+    ],
+    "note": "On the timeline, dashed bars are tasks that can wait."
+  },
+  "pricing": {
+    "title": "Every feature is free",
+    "free": {
+      "name": "Free",
+      "items": [
+        "Both recipes",
+        "A timer for each pan, plus the full timeline",
+        "A notification when a pan is done",
+        "Hands-free \"next\"",
+        "Four text sizes",
+        "Open a recipe from Siri or Shortcuts"
+      ]
+    },
+    "pro": {
+      "name": "Tip the developer (optional)",
+      "items": [
+        "If the app helps, you can send a small tip from Settings",
+        "Tips don't unlock anything. Without one, every feature is still yours"
+      ],
+      "note": "One-off tips, not a subscription."
+    },
+    "note": "No account, no ads, and it works without an internet connection."
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "q": "Saying next doesn't move on.",
+        "a": "The mic button at the bottom left is red while it's listening and grey when it's off. Allow both microphone and speech recognition the first time; if you said no, turn them back on in Settings > Geusaie. It listens for the word on the Next button in the app's language. In a very noisy kitchen, just tap Next."
+      },
+      {
+        "q": "A pan finished but I didn't get a notification.",
+        "a": "Check that notifications are on in Settings > Notifications > Geusaie. A Focus can silence them. Notifications only come when a pan is done; prep work never nags you."
+      },
+      {
+        "q": "What happens to the schedule if I start late?",
+        "a": "It's recalculated from when you actually did things. Put the hob on three minutes late and everything after moves by three minutes, while the sauce stays timed backwards from when the pasta comes out."
+      },
+      {
+        "q": "The text is too small.",
+        "a": "On the cooking screen, tap the text size button at the top right and choose Normal, Large, Larger or Largest. Your choice is remembered."
+      },
+      {
+        "q": "Does the screen switch off while I cook?",
+        "a": "No. The screen stays on while you're cooking, so you never have to touch it with wet hands."
+      },
+      {
+        "q": "Which dishes are included?",
+        "a": "Aglio e Olio (about 15 minutes, 2 pans) and Tomato Cream Pasta (about 20 minutes, 2 pans), based on recipes from Serious Eats, Gimme Some Oven, RecipeTin Eats and The Burnt Butter Table. Any dish with two pans on the go at once is a good fit, so let us know what you'd like next."
+      },
+      {
+        "q": "Is my voice recorded?",
+        "a": "No. It only listens for the word next and never records or stores audio. Where the device supports it, speech is recognised on the device. No personal data is collected."
+      },
+      {
+        "q": "Can I open it with Siri?",
+        "a": "Yes. Pick a dish in Siri or the Shortcuts app and its cooking screen opens straight away. The timers start when you tap Start Cooking, once you're ready to put the water on."
+      },
+      {
+        "q": "Which devices does it work on?",
+        "a": "iPhone and iPad with iOS 17 or later. No account or internet connection needed."
+      },
+      {
+        "q": "How do I report a problem or suggest a recipe?",
+        "a": "Use Settings > Send Feedback in the app, or email us below. Including your device model and iOS version helps us look into it faster. We usually reply within a few days."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Tonight, the pasta and\nthe sauce land together",
+    "cta": "Get it free on the App Store"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "languages": "Language",
+    "privacy": "Privacy Policy",
+    "contact": "Stuck, found a bug, or have a recipe in mind? Write to {email}."
+  }
+}

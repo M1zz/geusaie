@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: der Kochtimer für zwei Töpfe gleichzeitig",
+  "description": "Die Soße wird fertig, während die Pasta kocht. Geusaie zeigt die eine Aufgabe für jetzt, zählt jeden Topf getrennt und hört auf „weiter“. Gratis.",
+  "hero": {
+    "headline": "Die Pasta kocht.\nDie Soße wird nebenbei fertig.",
+    "lead": "Wenn zwei Töpfe unterschiedlich schnell laufen, zeigt Geusaie groß die eine Sache, die deine Hände jetzt erledigen sollten. Die Soße wird rückwärts von dem Moment geplant, in dem die Pasta aus dem Wasser kommt.",
+    "cta": "Kostenlos im App Store laden",
+    "note": "Alle Funktionen sind kostenlos. Kein Konto nötig."
+  },
+  "demo": {
+    "title": "Probier es aus",
+    "lead": "Koch eine Portion Aglio e Olio in 20-facher Geschwindigkeit. Tippe auf „Kochen starten“ und dann jedes Mal auf „Weiter“, wenn du eine Aufgabe erledigt hättest. Achte darauf, wie sich die Karte verändert, wenn die Pasta abgegossen werden muss.",
+    "note": "Gleiches Rezept, gleiche Zeitplanung wie in der App. Nur die Uhr läuft schneller.",
+    "again": "Von vorn",
+    "app": {
+      "first": "Das ist als Erstes dran",
+      "startHint": "Tippe unten auf „Kochen starten“, dann laufen die Topf-Timer los",
+      "now": "Jetzt dran",
+      "nowCant": "Jetzt · kann nicht warten",
+      "late": "Verspätet · jetzt sofort",
+      "calm": "Jetzt dran · ohne Eile",
+      "ready": "Fertig 🍴 Ab auf den Teller",
+      "handsDone": "Deine Hände sind fertig — jetzt heißt es nur noch auf die Töpfe warten",
+      "upNext": "Danach · %@ %@",
+      "resume": "Angefangen · %@ %@ — erst das hier erledigen, dann weitermachen",
+      "saidNext": "Fertig? Sag „weiter“",
+      "empty": "Frei",
+      "onIt": "Du bist dran",
+      "finished": "Fertig benutzt",
+      "start": "Kochen starten",
+      "next": "Weiter",
+      "elapsed": "Vergangene Zeit",
+      "names": {
+        "ao-water-on": "Wasser aufsetzen und auf hoher Stufe erhitzen",
+        "ao-boil": "Wasser zum Kochen bringen",
+        "ao-drop": "Wenn es kocht, die Nudeln hineingeben",
+        "ao-pasta": "Nudeln kochen",
+        "ao-reserve": "Nudeln herausnehmen, Nudelwasser aufbewahren",
+        "ao-garlic": "Knoblauch im Öl anbraten",
+        "ao-toss": "Nudelwasser dazugeben und emulgieren",
+        "ao-prep": "Zutaten bereitlegen und die Pfanne aufsetzen",
+        "ao-slice": "Knoblauch in dünne Scheiben schneiden",
+        "ao-pepper": "Peperoncino und Petersilie hacken",
+        "ao-cheese": "Käse reiben und Teller vorwärmen"
+      },
+      "lanes": [
+        "Nudeltopf",
+        "Soßenpfanne"
+      ],
+      "progress": {
+        "ao-boil": "Wasser kocht",
+        "ao-pasta": "Nudeln kochen"
+      }
+    }
+  },
+  "problem": {
+    "title": "Drei Timer gestellt und die Pasta trotzdem verkocht?",
+    "text": "Ein Timer für die Pasta, einer für die Soße, und den Knoblauch hast du im Kopf. Irgendwann weißt du nicht mehr, was zuerst dran ist. Du schneidest gerade, als die Pasta raus muss, und die Soße ist zwei Minuten zu spät. Geusaie kennt das Rezept als „erst das, dann das“ und sagt dir nur die eine Sache, die jetzt zählt."
+  },
+  "features": [
+    {
+      "title": "Was nicht warten kann, färbt die Karte rot",
+      "text": "Pasta abgießen, Knoblauch kurz vorm Verbrennen: Wenn eine Aufgabe das Essen ruiniert, sobald sie sich verschiebt, wird die Karte terrakottarot und sagt dir, dass du das Schnippeln kurz liegen lassen sollst.\nIst ein Topf fertig, bekommst du eine Mitteilung, auch wenn du gerade nicht hinschaust, samt der Aufgabe, die jetzt dran ist.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Schnippeln, wenn die Hände frei sind",
+      "text": "Knoblauch schneiden, Käse reiben, abwiegen: Das hat keine feste Uhrzeit, deshalb zählt Geusaie hier keine Sekunden. Der Balken füllt sich, solange deine Hände frei sind, hält an, wenn ein Topf dich braucht, und läuft dann genau dort weiter.\nSchaltest du den Herd drei Minuten später ein, rutscht alles Weitere um drei Minuten mit. Der Plan wird immer neu aus dem berechnet, was du tatsächlich gemacht hast.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Auf die Arbeitsplatte stellen, per Stimme weiter",
+      "text": "Vier Schriftgrößen, damit du alles auch aus ein, zwei Schritten Entfernung lesen kannst. Beim Kochen bleibt der Bildschirm an.\nNasse Hände? Sag `weiter`, und es geht ohne Berührung zur nächsten Aufgabe.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten zum Essen",
+    "items": [
+      {
+        "title": "Gericht wählen",
+        "text": "Du siehst, wie lange es ungefähr dauert und wie viele Töpfe du brauchst."
+      },
+      {
+        "title": "„Kochen starten“ tippen",
+        "text": "Zuerst siehst du deine erste Aufgabe. Ab dem Tippen laufen die Topfuhren."
+      },
+      {
+        "title": "Fertig? Weiter.",
+        "text": "Tippe auf den Button oder sag „weiter“, dann kommt die nächste Aufgabe."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Die Farbe zeigt, wie dringend es ist",
+    "rows": [
+      [
+        "Grün",
+        "Vorbereitung. Lass dir Zeit."
+      ],
+      [
+        "Senfgelb",
+        "Ein Topf braucht dich. Jetzt erledigen, aber ohne Hektik."
+      ],
+      [
+        "Terrakotta",
+        "Wartest du, wird die Pasta weich oder der Knoblauch verbrennt. Jetzt machen."
+      ],
+      [
+        "Topf-Kacheln",
+        "Das schrumpfende Quadrat ist die verbleibende Zeit. Topfzeiten werden nie versteckt."
+      ]
+    ],
+    "note": "Auf der Zeitleiste stehen gestrichelte Balken für Aufgaben, die warten können."
+  },
+  "pricing": {
+    "title": "Alle Funktionen sind kostenlos",
+    "free": {
+      "name": "Kostenlos",
+      "items": [
+        "Beide Rezepte",
+        "Ein Timer pro Topf und die ganze Zeitleiste",
+        "Mitteilung, wenn ein Topf fertig ist",
+        "Weiter per Stimme",
+        "Vier Schriftgrößen",
+        "Rezepte über Siri und Kurzbefehle öffnen"
+      ]
+    },
+    "pro": {
+      "name": "Entwickler unterstützen (freiwillig)",
+      "items": [
+        "Wenn dir die App hilft, kannst du in den Einstellungen ein kleines Trinkgeld geben",
+        "Trinkgeld schaltet nichts frei. Auch ohne bleiben alle Funktionen da"
+      ],
+      "note": "Einmalige Beträge, kein Abo."
+    },
+    "note": "Kein Konto, keine Werbung, und es funktioniert auch ohne Internet."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Ich sage „weiter“, aber nichts passiert.",
+        "a": "Der Mikrofon-Button unten links ist rot, solange zugehört wird, und grau, wenn er aus ist. Erlaube beim ersten Mal Mikrofon und Spracherkennung. Falls du abgelehnt hast, kannst du beides unter Einstellungen > Geusaie wieder einschalten. Die App hört auf das Wort, das auf ihrem Weiter-Button steht. In einer sehr lauten Küche tippst du einfach auf „Weiter“."
+      },
+      {
+        "q": "Ein Topf ist fertig, aber es kam keine Mitteilung.",
+        "a": "Prüfe unter Einstellungen > Mitteilungen > Geusaie, ob Mitteilungen erlaubt sind. Ein aktiver Fokus kann sie stummschalten. Mitteilungen kommen nur, wenn ein Topf fertig ist. Bei der Vorbereitung drängelt die App nie."
+      },
+      {
+        "q": "Was passiert mit dem Plan, wenn ich später anfange?",
+        "a": "Er wird aus dem neu berechnet, was du tatsächlich getan hast. Schaltest du den Herd drei Minuten später ein, rutscht alles Weitere um drei Minuten. Die Soße bleibt rückwärts auf den Moment geplant, in dem die Pasta fertig ist."
+      },
+      {
+        "q": "Die Schrift ist zu klein.",
+        "a": "Tippe im Kochbildschirm oben rechts auf den Button für die Schriftgröße und wähle Normal, Groß, Größer oder Am größten. Deine Wahl bleibt gespeichert."
+      },
+      {
+        "q": "Geht der Bildschirm beim Kochen aus?",
+        "a": "Nein. Während du kochst, bleibt der Bildschirm an, damit du ihn mit nassen Händen nicht anfassen musst."
+      },
+      {
+        "q": "Welche Gerichte sind dabei?",
+        "a": "Aglio e Olio (etwa 15 Minuten, 2 Töpfe) und Tomaten-Sahne-Pasta (etwa 20 Minuten, 2 Töpfe), nach Rezepten von Serious Eats, Gimme Some Oven, RecipeTin Eats und The Burnt Butter Table. Jedes Gericht, bei dem zwei Töpfe gleichzeitig laufen, passt gut. Schreib uns, was du dir als Nächstes wünschst."
+      },
+      {
+        "q": "Wird meine Stimme aufgenommen?",
+        "a": "Nein. Die App hört nur auf das Wort „weiter“ und nimmt nichts auf und speichert nichts. Wenn dein Gerät es unterstützt, läuft die Spracherkennung direkt auf dem Gerät. Es werden keine persönlichen Daten erfasst."
+      },
+      {
+        "q": "Kann ich die App mit Siri öffnen?",
+        "a": "Ja. Wähle in Siri oder der Kurzbefehle-App ein Gericht, und sein Kochbildschirm öffnet sich sofort. Die Uhren starten erst, wenn du auf „Kochen starten“ tippst, also wenn du bereit bist, das Wasser aufzusetzen."
+      },
+      {
+        "q": "Auf welchen Geräten läuft die App?",
+        "a": "Auf iPhone und iPad mit iOS 17 oder neuer. Kein Konto und keine Internetverbindung nötig."
+      },
+      {
+        "q": "Wie melde ich ein Problem oder schlage ein Rezept vor?",
+        "a": "Über Einstellungen > Feedback senden in der App oder per E-Mail an die Adresse unten. Mit Gerätemodell und iOS-Version können wir schneller helfen. Meist antworten wir innerhalb weniger Tage."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Heute Abend sind Pasta\nund Soße gleichzeitig fertig",
+    "cta": "Kostenlos im App Store laden"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutz",
+    "contact": "Hängst du irgendwo fest, ist dir etwas aufgefallen oder hast du ein Rezept im Kopf? Schreib an {email}."
+  }
+}

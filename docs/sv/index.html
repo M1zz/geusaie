@@ -1,207 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geusaie — Medan pastan kokar blir såsen också klar</title>
-<meta name="description" content="En timer för rätter där två grytor går samtidigt. Bara en uppgift i taget i stor text, en egen nedräkning för varje gryta och röststyrning när du har blöta händer.">
-<meta property="og:title" content="Geusaie">
-<meta property="og:description" content="Medan pastan kokar blir såsen också klar. En kökstimer för två grytor samtidigt.">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://m1zz.github.io/geusaie/sv/">
-<!-- hreflang:start -->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:end -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
-<style>
-  :root {
-    --cream: #FAF6ED;
-    --card: #F1EAD6;
-    --border: #E3D9BE;
-    --ink: #2D2A24;
-    --ink-soft: #8A8271;
-    --terracotta: #C75B39;
-    --green: #5B8C5A;
-    --mustard: #D99A3C;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
-                 "Noto Sans KR", system-ui, sans-serif;
-    line-height: 1.7;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 72px 0 40px; text-align: center; }
-  .logo { font-size: 56px; line-height: 1; }
-  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
-  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
-  .lede {
-    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
-    text-align: left;
-  }
-  section { padding: 44px 0; border-top: 1px solid var(--border); }
-  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
-  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .feature {
-    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-    padding: 20px 22px;
-  }
-  .feature h3 { margin: 0 0 6px; font-size: 18px; }
-  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
-  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
-  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
-  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-  .shots figure { margin: 0; max-width: 300px; }
-  .shots img {
-    width: 100%; border-radius: 22px; border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
-  }
-  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
-  .dot.now { background: var(--terracotta); }
-  .dot.calm { background: var(--green); }
-  .dot.pot { background: var(--mustard); }
-  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
-  footer a, a { color: var(--terracotta); }
-  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
-  @media (max-width: 600px) {
-    header { padding: 48px 0 28px; }
-    h1 { font-size: 32px; }
-    .tagline { font-size: 18px; }
-  }
-  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
-  .langnav b { color: var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geusaie: kökstimern för två grytor samtidigt</title>
+  <meta name="description" content="Såsen blir klar medan pastan kokar. Geusaie visar uppgiften som gäller nu, räknar varje gryta för sig och går vidare när du säger nästa. Gratis.">
+  <meta name="theme-color" content="#C75B39" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1B16" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793473149">
+  <link rel="canonical" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geusaie: kökstimern för två grytor samtidigt">
+  <meta property="og:description" content="Såsen blir klar medan pastan kokar. Geusaie visar uppgiften som gäller nu, räknar varje gryta för sig och går vidare när du säger nästa. Gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/geusaie/sv/">
+  <meta property="og:image" content="https://m1zz.github.io/geusaie/img/sv/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C75B39}@media (prefers-color-scheme:dark){:root{--accent:#E07D5C}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">🍝</div>
-    <h1>Geusaie</h1>
-    <p class="tagline">Medan pastan kokar blir såsen också klar.</p>
-    <p class="lede">Matlagning är svårt, inte för att dina händer är långsamma, utan för att tiden i de två grytorna går olika. Pastan väntar inte på dig, medan man kan skära vitlök när som helst. Geusaie (”under tiden” på koreanska) skiljer på de två och visar i stor text bara den enda uppgiften som dina händer ska göra just nu.</p>
+  <a class="skip" href="#main">Hoppa till innehållet</a>
+  <header class="bar">
+    <a class="brand" href="../sv/"><img src="../icon.png" alt="" width="32" height="32">Geusaie</a>
+    <a class="lang-link" href="#languages">Språk</a>
   </header>
 
-  <section>
-    <h2>Så är appen</h2>
-    <div class="features">
-      <div class="feature now">
-        <h3>Uppgifter som inte kan vänta</h3>
-        <p>Att ta upp pastan, vitlök precis innan den bränns. När det är dags blir skärmen röd och ber dig lägga ifrån dig det du håller på med.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Pastan kokar.<br>Under tiden blir såsen klar.</h1>
+        <p class="lead">När två grytor går i olika takt visar Geusaie med stor text den enda sak dina händer ska göra just nu. Såsen räknas baklänges från stunden då pastan ska hällas av.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793473149">Hämta gratis på App Store</a><a class="try" href="#try">Testa själv ↓</a></div>
+        <p class="muted small">Alla funktioner är gratis. Inget konto behövs.</p>
       </div>
-      <div class="feature calm">
-        <h3>Uppgifter som kan skjutas upp</h3>
-        <p>Skära, riva, väga upp. De går bara framåt medan dina händer är lediga, pausas när en gryta ropar och fortsätter där de slutade.</p>
-      </div>
-      <div class="feature">
-        <h3>En timer för varje gryta</h3>
-        <p>Pastagrytan och såspannan visar var och en vad de gör och hur mycket tid som är kvar.</p>
-      </div>
-      <div class="feature">
-        <h3>Röststyrning</h3>
-        <p>När du har blöta händer, säg ”nästa”. Taligenkänningen sker så långt det går på enheten.</p>
-      </div>
-      <div class="feature">
-        <h3>Text som går att läsa på avstånd</h3>
-        <p>Luta enheten mot något på bänken och backa ett par steg. Texten kan göras större i fyra steg i appen.</p>
-      </div>
-      <div class="feature">
-        <h3>Utan stress</h3>
-        <p>Uppgifter som dina händer utför har ingen sekundnedräkning. Stapeln fylls, stannar och väntar.</p>
-      </div>
-    </div>
-  </section>
+      <div class="phone"><img src="../img/sv/02-start.jpg" alt="Pastan kokar. Under tiden blir såsen klar." width="720" height="1558" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2>Skärmar</h2>
-    <div class="shots">
-      <figure>
-        <img src="../images/home.png" alt="Startskärmen där du väljer maträtt. Aglio e olio, ca 15 minuter, 2 grytor.">
-        <figcaption>Bara det du behöver när du väljer – hur lång tid det tar och hur många grytor som behövs</figcaption>
-      </figure>
-      <figure>
-        <img src="../images/cook.png" alt="Matlagningsskärmen: kortet med uppgiften just nu, två grytfält och tidslinjen.">
-        <figcaption>Vad som ska göras nu · grytornas status · hela tidslinjen</figcaption>
-      </figure>
-    </div>
-  </section>
 
-  <section>
-    <h2>Färgen visar hur brådskande det är</h2>
-    <table>
-      <tr>
-        <th><span class="dot calm"></span>Grön</th>
-        <td>Förberedelser. Ta det lugnt.</td>
-      </tr>
-      <tr>
-        <th><span class="dot now"></span>Terrakotta</th>
-        <td>Om du väntar blir pastan för mjuk eller så bränns det vid. Gör det nu.</td>
-      </tr>
-      <tr>
-        <th><span class="dot pot"></span>Grytfält</th>
-        <td>Hur mycket fyrkanten krymper är tiden som är kvar. En gryta är en klocka man måste hålla koll på, så här döljs tiden aldrig.</td>
-      </tr>
-    </table>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Testa själv</h2>
+      <p class="muted">Laga en portion aglio e olio i 20 gånger fart. Tryck på Börja laga mat och sedan på Nästa varje gång du skulle ha gjort klart en uppgift. Se hur kortet ändras när det är dags att hälla av pastan.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Testa själv&quot;, &quot;lead&quot;: &quot;Laga en portion aglio e olio i 20 gånger fart. Tryck på Börja laga mat och sedan på Nästa varje gång du skulle ha gjort klart en uppgift. Se hur kortet ändras när det är dags att hälla av pastan.&quot;, &quot;note&quot;: &quot;Samma recept och samma planering som i appen. Bara klockan går fortare.&quot;, &quot;again&quot;: &quot;Börja om&quot;, &quot;app&quot;: {&quot;first&quot;: &quot;Det här först&quot;, &quot;startHint&quot;: &quot;Tryck på ”Börja laga mat” nedan så startar grytornas timrar&quot;, &quot;now&quot;: &quot;Gör nu&quot;, &quot;nowCant&quot;: &quot;Nu · kan inte vänta&quot;, &quot;late&quot;: &quot;Försenad · gör det direkt&quot;, &quot;calm&quot;: &quot;Gör nu · ingen brådska&quot;, &quot;ready&quot;: &quot;Klart 🍴 Dags att anrätta&quot;, &quot;handsDone&quot;: &quot;Dina händer är klara — nu är det bara att vänta på grytorna&quot;, &quot;upNext&quot;: &quot;Därefter · %@ %@&quot;, &quot;resume&quot;: &quot;Det du höll på med · %@ %@ — gör klart det här först och fortsätt sedan&quot;, &quot;saidNext&quot;: &quot;Klart? Säg ”nästa”&quot;, &quot;empty&quot;: &quot;Ledig&quot;, &quot;onIt&quot;: &quot;Du är i gång&quot;, &quot;finished&quot;: &quot;Färdiganvänd&quot;, &quot;start&quot;: &quot;Börja laga mat&quot;, &quot;next&quot;: &quot;Nästa&quot;, &quot;elapsed&quot;: &quot;Förfluten tid&quot;, &quot;names&quot;: {&quot;ao-water-on&quot;: &quot;Sätt på vattnet på hög värme&quot;, &quot;ao-boil&quot;: &quot;Koka upp vattnet&quot;, &quot;ao-drop&quot;: &quot;När det kokar, lägg i pastan&quot;, &quot;ao-pasta&quot;: &quot;Koka pastan&quot;, &quot;ao-reserve&quot;: &quot;Ta upp pastan och spara kokvattnet&quot;, &quot;ao-garlic&quot;: &quot;Fräs vitlöken i olja&quot;, &quot;ao-toss&quot;: &quot;Tillsätt kokvatten och emulgera&quot;, &quot;ao-prep&quot;: &quot;Plocka fram ingredienserna och sätt på pannan&quot;, &quot;ao-slice&quot;: &quot;Skiva vitlöken tunt&quot;, &quot;ao-pepper&quot;: &quot;Hacka chili och persilja&quot;, &quot;ao-cheese&quot;: &quot;Riv osten och värm tallrikarna&quot;}, &quot;lanes&quot;: [&quot;Pastagryta&quot;, &quot;Såspanna&quot;], &quot;progress&quot;: {&quot;ao-boil&quot;: &quot;Vattnet kokar&quot;, &quot;ao-pasta&quot;: &quot;Pastan kokar&quot;}}}"></div>
+    </section>
 
-  <section>
-    <h2>Medföljande recept</h2>
-    <table>
-      <tr><th>Aglio e olio</th><td>Ca 15 min · 2 grytor · Källor: Serious Eats, Gimme Some Oven</td></tr>
-      <tr><th>Pasta i tomat- och gräddsås</th><td>Ca 20 min · 2 grytor · Källor: RecipeTin Eats, The Burnt Butter Table</td></tr>
-    </table>
-  </section>
+    <section class="problem reveal">
+      <h2>Tre timers igång och ändå blev pastan mjuk?</h2>
+      <p>En timer för pastan, en för såsen och vitlöken i huvudet, och plötsligt vet du inte vad som kommer först. Du står och skär precis när pastan ska hällas av, och såsen blir två minuter sen. Geusaie känner receptet som ”först det här, sedan det där” och säger bara den enda sak du ska göra nu.</p>
+    </section>
 
-  <section id="contact">
-    <h2>Kontakt</h2>
-    <p>Kör du fast, ser du något konstigt eller vill du ha ett recept till? Allt är välkommet. Skriv till <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> eller använd Inställningar ▸ Skicka feedback i appen. Vanliga frågor finns på <a href="support.html">supportsidan</a>.</p>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Det som inte kan vänta blir rött</h2>
+        <p>Hälla av pastan, vitlök precis innan den bränns: när en uppgift skulle förstöra maten om den blev sen blir kortet terrakottafärgat och ber dig lägga undan skärandet en stund.<br>När en gryta är klar får du en notis även om du inte tittar, tillsammans med det du ska göra direkt.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/04-deadline.jpg" alt="Det som inte kan vänta blir rött" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
 
-  <!-- langnav:start -->
-  <nav class="langnav" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> · <a href="../en/" hreflang="en" lang="en">English</a> · <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../it/" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/" hreflang="th" lang="th">ไทย</a> · <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/" hreflang="da" lang="da">Dansk</a> · <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/" hreflang="pl" lang="pl">Polski</a> · <b>Svenska</b> · <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
-  <!-- langnav:end -->
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Skär när händerna är lediga</h2>
+        <p>Skiva vitlök, riva ost, mäta upp: inget av det har en fast tid, så här räknas inga sekunder ner. Stapeln fylls medan händerna är lediga, stannar när en gryta ropar och fortsätter där du slutade.<br>Slår du på plattan tre minuter för sent flyttas allt därefter tre minuter. Planen räknas om utifrån vad du faktiskt har gjort.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/03-prep.jpg" alt="Skär när händerna är lediga" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ställ den på bänken, gå vidare med rösten</h2>
+        <p>Fyra textstorlekar så att du kan läsa på ett par stegs avstånd, och skärmen släcks inte medan du lagar mat.<br>Blöta händer? Säg <code>nästa</code> så går appen vidare till nästa uppgift utan att du rör skärmen.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/05-bigtext.jpg" alt="Ställ den på bänken, gå vidare med rösten" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Tre steg till middag</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Välj en rätt</h3><p>Du ser ungefär hur lång tid den tar och hur många grytor som behövs.</p></li>
+<li class="card"><span class="n">2</span><h3>Tryck på Börja laga mat</h3><p>Först visas din första uppgift, och grytornas klockor startar när du trycker.</p></li>
+<li class="card"><span class="n">3</span><h3>Klar? Nästa.</h3><p>Tryck på knappen eller säg ”nästa”, så dyker nästa uppgift upp.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Färgen visar hur bråttom det är</h2>
+      <div class="card table">
+        <dl><div><dt>Grönt</dt><dd>Förberedelser. Ta det lugnt.</dd></div><div><dt>Senapsgult</dt><dd>En gryta behöver dig. Gör det nu, men utan stress.</dd></div><div><dt>Terrakotta</dt><dd>Väntar du blir pastan mjuk eller vitlöken bränd. Gör det nu.</dd></div><div><dt>Grytrutor</dt><dd>Kvadraten som krymper är tiden som är kvar. Grytornas tid döljs aldrig.</dd></div></dl>
+      </div>
+      <p class="muted">På tidslinjen är streckade staplar uppgifter som kan vänta.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Alla funktioner är gratis</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Båda recepten</li><li>En timer för varje gryta och hela tidslinjen</li><li>Notis när en gryta är klar</li><li>”Nästa” med rösten</li><li>Fyra textstorlekar</li><li>Öppna ett recept med Siri eller Genvägar</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Stötta utvecklaren (frivilligt)</h3>
+          <ul><li>Om appen hjälper dig kan du ge en liten dricks i Inställningar</li><li>Dricks låser inte upp något. Utan den har du fortfarande alla funktioner</li></ul>
+          <p class="muted">Engångsbelopp, inte en prenumeration.</p>
+        </div>
+      </div>
+      <p class="muted">Inget konto, ingen reklam, och den fungerar utan internet.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Vanliga frågor</h2>
+      <div class="faq"><details><summary>Jag säger ”nästa” men inget händer.</summary><p>Mikrofonknappen längst ned till vänster är röd medan appen lyssnar och grå när den är avstängd. Första gången behöver du tillåta både mikrofon och taligenkänning. Om du sa nej kan du slå på dem igen i Inställningar &gt; Geusaie. Appen lyssnar efter ordet som står på knappen Nästa. I ett väldigt bullrigt kök trycker du bara på Nästa.</p></details>
+<details><summary>En gryta blev klar men jag fick ingen notis.</summary><p>Kontrollera att notiser är på i Inställningar &gt; Notiser &gt; Geusaie. Ett fokusläge kan tysta dem. Notiser kommer bara när en gryta är klar; förberedelserna stressar dig aldrig.</p></details>
+<details><summary>Vad händer med planen om jag börjar sent?</summary><p>Den räknas om utifrån vad du faktiskt har gjort. Slår du på plattan tre minuter senare flyttas allt därefter tre minuter, och såsen räknas fortfarande baklänges från när pastan är klar.</p></details>
+<details><summary>Texten är för liten.</summary><p>Tryck på knappen för textstorlek uppe till höger på matlagningsskärmen och välj Normal, Stor, Större eller Störst. Ditt val sparas.</p></details>
+<details><summary>Släcks skärmen medan jag lagar mat?</summary><p>Nej. Skärmen är tänd medan du lagar mat, så du behöver aldrig röra den med blöta händer.</p></details>
+<details><summary>Vilka rätter finns med?</summary><p>Aglio e olio (cirka 15 minuter, 2 grytor) och pasta i tomat- och gräddsås (cirka 20 minuter, 2 grytor), baserade på recept från Serious Eats, Gimme Some Oven, RecipeTin Eats och The Burnt Butter Table. Alla rätter med två grytor igång samtidigt passar bra, så berätta gärna vad du vill se.</p></details>
+<details><summary>Spelas min röst in?</summary><p>Nej. Appen lyssnar bara efter ordet ”nästa” och spelar inte in eller sparar ljud. Om enheten stöder det sker taligenkänningen på själva enheten. Inga personuppgifter samlas in.</p></details>
+<details><summary>Kan jag öppna den med Siri?</summary><p>Ja. Välj en rätt i Siri eller appen Genvägar så öppnas dess matlagningsskärm direkt. Klockorna startar först när du är redo att sätta på vattnet och trycker på Börja laga mat.</p></details>
+<details><summary>Vilka enheter fungerar den på?</summary><p>iPhone och iPad med iOS 17 eller senare. Inget konto eller internet behövs.</p></details>
+<details><summary>Hur rapporterar jag ett fel eller föreslår ett recept?</summary><p>Via Inställningar &gt; Skicka feedback i appen, eller via mejl till adressen nedan. Ange gärna enhetsmodell och iOS-version så kan vi titta på det snabbare. Vi svarar oftast inom några dagar.</p></details></div>
+      <p class="contact">Har du kört fast, sett något konstigt eller har ett recept i tankarna? Skriv till <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>I kväll blir pasta<br>och sås klara samtidigt</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793473149">Hämta gratis på App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p>iPhone · iOS 17 eller senare · stående</p>
-    <div class="links">
-      <a href="support.html">Support · Vanliga frågor</a>
-      <a href="privacy.html">Integritetspolicy</a>
-      <a href="https://github.com/M1zz/geusaie">Källkod</a>
-    </div>
+    <nav id="languages" class="langs" aria-label="Språk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv" aria-current="page">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Integritetspolicy</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Geusaie</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

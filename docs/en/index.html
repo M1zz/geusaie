@@ -1,207 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geusaie — Finish the sauce while the pasta boils</title>
-<meta name="description" content="A timer for dishes where two pots run at once. One task at a time in large type, a separate countdown for each pot, and hands-free control when your hands are wet.">
-<meta property="og:title" content="Geusaie">
-<meta property="og:description" content="Finish the sauce while the pasta boils. A cooking timer for two pots at once.">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://m1zz.github.io/geusaie/en/">
-<!-- hreflang:start -->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:end -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
-<style>
-  :root {
-    --cream: #FAF6ED;
-    --card: #F1EAD6;
-    --border: #E3D9BE;
-    --ink: #2D2A24;
-    --ink-soft: #8A8271;
-    --terracotta: #C75B39;
-    --green: #5B8C5A;
-    --mustard: #D99A3C;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
-                 "Noto Sans KR", system-ui, sans-serif;
-    line-height: 1.7;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 72px 0 40px; text-align: center; }
-  .logo { font-size: 56px; line-height: 1; }
-  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
-  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
-  .lede {
-    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
-    text-align: left;
-  }
-  section { padding: 44px 0; border-top: 1px solid var(--border); }
-  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
-  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .feature {
-    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-    padding: 20px 22px;
-  }
-  .feature h3 { margin: 0 0 6px; font-size: 18px; }
-  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
-  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
-  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
-  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-  .shots figure { margin: 0; max-width: 300px; }
-  .shots img {
-    width: 100%; border-radius: 22px; border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
-  }
-  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
-  .dot.now { background: var(--terracotta); }
-  .dot.calm { background: var(--green); }
-  .dot.pot { background: var(--mustard); }
-  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
-  footer a, a { color: var(--terracotta); }
-  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
-  @media (max-width: 600px) {
-    header { padding: 48px 0 28px; }
-    h1 { font-size: 32px; }
-    .tagline { font-size: 18px; }
-  }
-  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
-  .langnav b { color: var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geusaie: the cooking timer for two pots at once</title>
+  <meta name="description" content="The sauce gets done while the pasta boils. Geusaie shows the one task for your hands now, times each pot and moves on when you say next. Free.">
+  <meta name="theme-color" content="#C75B39" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1B16" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793473149">
+  <link rel="canonical" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geusaie: the cooking timer for two pots at once">
+  <meta property="og:description" content="The sauce gets done while the pasta boils. Geusaie shows the one task for your hands now, times each pot and moves on when you say next. Free.">
+  <meta property="og:url" content="https://m1zz.github.io/geusaie/en/">
+  <meta property="og:image" content="https://m1zz.github.io/geusaie/img/en/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C75B39}@media (prefers-color-scheme:dark){:root{--accent:#E07D5C}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">🍝</div>
-    <h1>Geusaie</h1>
-    <p class="tagline">Finish the sauce while the pasta boils.</p>
-    <p class="lede">Cooking is hard not because your hands are slow, but because two pots run on different clocks. The pasta won’t wait for you, while slicing garlic can happen any time. Geusaie (“in the meantime”) tells the two apart and shows just the one thing your hands should do right now, in large type.</p>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="bar">
+    <a class="brand" href="../en/"><img src="../icon.png" alt="" width="32" height="32">Geusaie</a>
+    <a class="lang-link" href="#languages">Language</a>
   </header>
 
-  <section>
-    <h2>What it does</h2>
-    <div class="features">
-      <div class="feature now">
-        <h3>Tasks that can’t wait</h3>
-        <p>Lifting the pasta, garlic just before it burns. When the time comes the screen turns red and tells you to stop what you’re doing.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Pasta in one pot.<br>Sauce done in the meantime.</h1>
+        <p class="lead">When two pots run at different speeds, Geusaie shows the one thing your hands need to do right now. The sauce is timed backwards from the moment the pasta comes out.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793473149">Get it free on the App Store</a><a class="try" href="#try">Try a run ↓</a></div>
+        <p class="muted small">Every feature is free. No account needed.</p>
       </div>
-      <div class="feature calm">
-        <h3>Tasks that can slide</h3>
-        <p>Slicing, grating, measuring. They move forward only while your hands are free, pause when a pot calls you, and pick up where you left off.</p>
-      </div>
-      <div class="feature">
-        <h3>A timer for each pot</h3>
-        <p>The pasta pot and the sauce pan each show what they are doing and how much time is left.</p>
-      </div>
-      <div class="feature">
-        <h3>Voice control</h3>
-        <p>With wet hands, say “next”. Voice recognition is processed on the device whenever possible.</p>
-      </div>
-      <div class="feature">
-        <h3>Text you can read from a distance</h3>
-        <p>Prop it on the counter and step back a pace or two. You can enlarge the text in four steps inside the app.</p>
-      </div>
-      <div class="feature">
-        <h3>No nagging</h3>
-        <p>There is no countdown for the tasks your hands do. The bar fills up, stops, and waits for you.</p>
-      </div>
-    </div>
-  </section>
+      <div class="phone"><img src="../img/en/02-start.jpg" alt="Pasta in one pot. Sauce done in the meantime." width="720" height="1558" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2>Screens</h2>
-    <div class="shots">
-      <figure>
-        <img src="../images/home.png" alt="The home screen for choosing a dish. Aglio e olio, about 15 minutes, 2 pots.">
-        <figcaption>Only what you need to choose — how long it takes and how many pots</figcaption>
-      </figure>
-      <figure>
-        <img src="../images/cook.png" alt="The cooking screen: the task card for now, two pot tiles, and the timeline.">
-        <figcaption>What to do now · pot status · the whole timeline</figcaption>
-      </figure>
-    </div>
-  </section>
 
-  <section>
-    <h2>Color shows how urgent</h2>
-    <table>
-      <tr>
-        <th><span class="dot calm"></span>Green</th>
-        <td>Prep work. Take your time.</td>
-      </tr>
-      <tr>
-        <th><span class="dot now"></span>Terracotta</th>
-        <td>If you wait, the pasta overcooks or something burns. Do it now.</td>
-      </tr>
-      <tr>
-        <th><span class="dot pot"></span>Pot tiles</th>
-        <td>The square shrinks as time runs out. A pot is a clock you must watch, so the time is never hidden here.</td>
-      </tr>
-    </table>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Try a run</h2>
+      <p class="muted">Cook a pan of aglio e olio at 20× speed. Tap Start Cooking, then tap Next each time you'd have finished a task. Watch what the card does when it's time to drain the pasta.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Try a run&quot;, &quot;lead&quot;: &quot;Cook a pan of aglio e olio at 20× speed. Tap Start Cooking, then tap Next each time you&#x27;d have finished a task. Watch what the card does when it&#x27;s time to drain the pasta.&quot;, &quot;note&quot;: &quot;Same recipe and same scheduling as the app. Only the clock runs faster.&quot;, &quot;again&quot;: &quot;Start over&quot;, &quot;app&quot;: {&quot;first&quot;: &quot;First up when you start&quot;, &quot;startHint&quot;: &quot;Tap Start Cooking below and the pot timers begin&quot;, &quot;now&quot;: &quot;Do this now&quot;, &quot;nowCant&quot;: &quot;Now · can’t wait&quot;, &quot;late&quot;: &quot;Late · do it right now&quot;, &quot;calm&quot;: &quot;Do this now · no rush&quot;, &quot;ready&quot;: &quot;It’s ready 🍴 Time to plate up&quot;, &quot;handsDone&quot;: &quot;Your hands are done — just wait for the pots&quot;, &quot;upNext&quot;: &quot;Next · %@ %@&quot;, &quot;resume&quot;: &quot;You were on · %@ %@ — finish this first, then pick it back up&quot;, &quot;saidNext&quot;: &quot;Done? Say “next”&quot;, &quot;empty&quot;: &quot;Empty&quot;, &quot;onIt&quot;: &quot;You’re on it&quot;, &quot;finished&quot;: &quot;Finished with this pot&quot;, &quot;start&quot;: &quot;Start Cooking&quot;, &quot;next&quot;: &quot;Next&quot;, &quot;elapsed&quot;: &quot;Elapsed time&quot;, &quot;names&quot;: {&quot;ao-water-on&quot;: &quot;Put the water on high heat&quot;, &quot;ao-boil&quot;: &quot;Bring the water to a boil&quot;, &quot;ao-drop&quot;: &quot;Add the pasta once it boils&quot;, &quot;ao-pasta&quot;: &quot;Boil the pasta&quot;, &quot;ao-reserve&quot;: &quot;Lift out the pasta, keeping the pasta water&quot;, &quot;ao-garlic&quot;: &quot;Sauté the garlic in oil&quot;, &quot;ao-toss&quot;: &quot;Add pasta water and toss to emulsify&quot;, &quot;ao-prep&quot;: &quot;Set out ingredients and put the pan on&quot;, &quot;ao-slice&quot;: &quot;Slice the garlic thin&quot;, &quot;ao-pepper&quot;: &quot;Chop the chili and parsley&quot;, &quot;ao-cheese&quot;: &quot;Grate the cheese and warm the plates&quot;}, &quot;lanes&quot;: [&quot;Pasta pot&quot;, &quot;Sauce pan&quot;], &quot;progress&quot;: {&quot;ao-boil&quot;: &quot;Boiling the water&quot;, &quot;ao-pasta&quot;: &quot;Boiling the pasta&quot;}}}"></div>
+    </section>
 
-  <section>
-    <h2>Recipes inside</h2>
-    <table>
-      <tr><th>Aglio e Olio</th><td>About 15 min · 2 pots · Sources: Serious Eats, Gimme Some Oven</td></tr>
-      <tr><th>Tomato Cream Pasta</th><td>About 20 min · 2 pots · Sources: RecipeTin Eats, The Burnt Butter Table</td></tr>
-    </table>
-  </section>
+    <section class="problem reveal">
+      <h2>Three timers running, and the pasta still went soft?</h2>
+      <p>A pasta timer, a sauce timer and the garlic in your head, and suddenly you can't tell what comes first. You're mid-slice when the pasta needs draining, and the sauce lands two minutes late. Geusaie knows the recipe as "this, then that", so it only ever tells you the one thing to do now.</p>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Stuck on something, found something odd, or want a recipe added? All welcome. Email <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> or use Settings ▸ Send Feedback in the app. Common questions are on the <a href="support.html">support page</a>.</p>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>When it can't wait, the card turns red</h2>
+        <p>Draining the pasta, garlic about to burn: when a task would ruin the dish if it slipped, the card turns terracotta and tells you to set the chopping aside.<br>When a pot is done, a notification reaches you even if you're not looking, and tells you what to do right now.</p>
+      </div>
+      <div class="phone"><img src="../img/en/04-deadline.jpg" alt="When it can&#x27;t wait, the card turns red" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
 
-  <!-- langnav:start -->
-  <nav class="langnav" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> · <b>English</b> · <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../it/" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/" hreflang="th" lang="th">ไทย</a> · <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/" hreflang="da" lang="da">Dansk</a> · <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
-  <!-- langnav:end -->
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Chopping fills the gaps</h2>
+        <p>Slicing garlic, grating cheese, measuring: none of it is on a clock, so Geusaie never counts down seconds for it. The bar fills while your hands are free, pauses when a pot calls, and picks up where you left off.<br>Light the burner three minutes late and everything after shifts by three minutes. The schedule is recalculated from what you actually did.</p>
+      </div>
+      <div class="phone"><img src="../img/en/03-prep.jpg" alt="Chopping fills the gaps" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Prop it on the counter, move on by voice</h2>
+        <p>Four text sizes, so you can read it from a step or two away, and the screen stays on while you cook.<br>Hands wet? Say <code>next</code> and it moves to the next task without a touch.</p>
+      </div>
+      <div class="phone"><img src="../img/en/05-bigtext.jpg" alt="Prop it on the counter, move on by voice" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Three steps to dinner</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Pick a dish</h3><p>Each one shows roughly how long it takes and how many pots you need.</p></li>
+<li class="card"><span class="n">2</span><h3>Tap Start Cooking</h3><p>It shows your first task, and the pot clocks start the moment you tap.</p></li>
+<li class="card"><span class="n">3</span><h3>Done? Next.</h3><p>Tap the button or say next, and your next task appears.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>The color tells you how urgent it is</h2>
+      <div class="card table">
+        <dl><div><dt>Green</dt><dd>Prep work. Take your time.</dd></div><div><dt>Mustard</dt><dd>A pot needs you. Do it now, but no rush.</dd></div><div><dt>Terracotta</dt><dd>Wait and the pasta goes soft or the garlic burns. Do it now.</dd></div><div><dt>Pot tiles</dt><dd>The shrinking square is the time left. Pot timers are never hidden.</dd></div></dl>
+      </div>
+      <p class="muted">On the timeline, dashed bars are tasks that can wait.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Every feature is free</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Free</h3>
+          <ul><li>Both recipes</li><li>A timer for each pot, plus the full timeline</li><li>A notification when a pot is done</li><li>Hands-free "next"</li><li>Four text sizes</li><li>Open a recipe from Siri or Shortcuts</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Tip the developer (optional)</h3>
+          <ul><li>If the app helps, you can send a small tip from Settings</li><li>Tips don't unlock anything. Without one, every feature is still yours</li></ul>
+          <p class="muted">One-time tips, not a subscription.</p>
+        </div>
+      </div>
+      <p class="muted">No account, no ads, and it works without an internet connection.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Questions</h2>
+      <div class="faq"><details><summary>Saying next doesn't move on.</summary><p>The mic button at the bottom left is red while it's listening and grey when it's off. Allow both microphone and speech recognition the first time; if you said no, turn them back on in Settings &gt; Geusaie. It listens for the word on the Next button in the app's language. In a very noisy kitchen, just tap Next.</p></details>
+<details><summary>A pot finished but I didn't get a notification.</summary><p>Check that notifications are on in Settings &gt; Notifications &gt; Geusaie. A Focus can silence them. Notifications only come when a pot is done; prep work never nags you.</p></details>
+<details><summary>What happens to the schedule if I start late?</summary><p>It's recalculated from when you actually did things. Light the burner three minutes late and everything after moves by three minutes, while the sauce stays timed backwards from when the pasta comes out.</p></details>
+<details><summary>The text is too small.</summary><p>On the cooking screen, tap the text size button at the top right and choose Normal, Large, Larger or Largest. Your choice is remembered.</p></details>
+<details><summary>Does the screen turn off while I cook?</summary><p>No. The screen stays on while you're cooking, so you never have to touch it with wet hands.</p></details>
+<details><summary>Which dishes are included?</summary><p>Aglio e olio (about 15 minutes, 2 pots) and tomato cream pasta (about 20 minutes, 2 pots), based on recipes from Serious Eats, Gimme Some Oven, RecipeTin Eats and The Burnt Butter Table. Any dish with two pots going at once is a good fit, so tell us what you'd like to see next.</p></details>
+<details><summary>Is my voice recorded?</summary><p>No. It only listens for the word next and never records or stores audio. Where the device supports it, speech is recognized on the device. No personal data is collected.</p></details>
+<details><summary>Can I open it with Siri?</summary><p>Yes. Pick a dish in Siri or the Shortcuts app and its cooking screen opens straight away. The clocks start when you tap Start Cooking, once you're ready to put the water on.</p></details>
+<details><summary>Which devices does it run on?</summary><p>iPhone and iPad with iOS 17 or later. No account or internet connection needed.</p></details>
+<details><summary>How do I report a problem or suggest a recipe?</summary><p>Use Settings &gt; Send Feedback in the app, or email us below. Including your device model and iOS version helps us look into it faster. We usually reply within a few days.</p></details></div>
+      <p class="contact">Stuck, found a bug, or have a recipe in mind? Write to <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Tonight, the pasta and<br>the sauce land together</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793473149">Get it free on the App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p>iPhone · iOS 17 or later · portrait</p>
-    <div class="links">
-      <a href="support.html">Support · FAQ</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="https://github.com/M1zz/geusaie">Source code</a>
-    </div>
+    <nav id="languages" class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en" aria-current="page">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacy Policy</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Geusaie</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

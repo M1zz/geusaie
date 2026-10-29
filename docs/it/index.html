@@ -1,207 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geusaie — Mentre la pasta bolle, anche il sugo è pronto</title>
-<meta name="description" content="Un timer per i piatti con due pentole in funzione insieme. Un solo compito alla volta a caratteri grandi, un conto alla rovescia per ogni pentola e il controllo vocale quando hai le mani bagnate.">
-<meta property="og:title" content="Geusaie">
-<meta property="og:description" content="Mentre la pasta bolle, anche il sugo è pronto. Un timer da cucina per due pentole insieme.">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://m1zz.github.io/geusaie/it/">
-<!-- hreflang:start -->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:end -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
-<style>
-  :root {
-    --cream: #FAF6ED;
-    --card: #F1EAD6;
-    --border: #E3D9BE;
-    --ink: #2D2A24;
-    --ink-soft: #8A8271;
-    --terracotta: #C75B39;
-    --green: #5B8C5A;
-    --mustard: #D99A3C;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
-                 "Noto Sans KR", system-ui, sans-serif;
-    line-height: 1.7;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 72px 0 40px; text-align: center; }
-  .logo { font-size: 56px; line-height: 1; }
-  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
-  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
-  .lede {
-    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
-    text-align: left;
-  }
-  section { padding: 44px 0; border-top: 1px solid var(--border); }
-  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
-  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .feature {
-    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-    padding: 20px 22px;
-  }
-  .feature h3 { margin: 0 0 6px; font-size: 18px; }
-  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
-  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
-  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
-  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-  .shots figure { margin: 0; max-width: 300px; }
-  .shots img {
-    width: 100%; border-radius: 22px; border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
-  }
-  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
-  .dot.now { background: var(--terracotta); }
-  .dot.calm { background: var(--green); }
-  .dot.pot { background: var(--mustard); }
-  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
-  footer a, a { color: var(--terracotta); }
-  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
-  @media (max-width: 600px) {
-    header { padding: 48px 0 28px; }
-    h1 { font-size: 32px; }
-    .tagline { font-size: 18px; }
-  }
-  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
-  .langnav b { color: var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geusaie: il timer da cucina per due pentole insieme</title>
+  <meta name="description" content="Il sugo è pronto mentre la pasta bolle. Geusaie mostra l’unica cosa da fare adesso, conta ogni pentola a parte e va avanti quando dici avanti. Gratis.">
+  <meta name="theme-color" content="#C75B39" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1B16" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793473149">
+  <link rel="canonical" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geusaie: il timer da cucina per due pentole insieme">
+  <meta property="og:description" content="Il sugo è pronto mentre la pasta bolle. Geusaie mostra l’unica cosa da fare adesso, conta ogni pentola a parte e va avanti quando dici avanti. Gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/geusaie/it/">
+  <meta property="og:image" content="https://m1zz.github.io/geusaie/img/it/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C75B39}@media (prefers-color-scheme:dark){:root{--accent:#E07D5C}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">🍝</div>
-    <h1>Geusaie</h1>
-    <p class="tagline">Mentre la pasta bolle, anche il sugo è pronto.</p>
-    <p class="lede">Cucinare è difficile non perché le tue mani siano lente, ma perché il tempo delle due pentole scorre in modo diverso. La pasta non aspetta, mentre affettare l’aglio si può fare quando si vuole. Geusaie («nel frattempo» in coreano) distingue le due cose e ti mostra a caratteri grandi solo il compito che le tue mani devono fare adesso.</p>
+  <a class="skip" href="#main">Vai al contenuto</a>
+  <header class="bar">
+    <a class="brand" href="../it/"><img src="../icon.png" alt="" width="32" height="32">Geusaie</a>
+    <a class="lang-link" href="#languages">Lingua</a>
   </header>
 
-  <section>
-    <h2>Cosa fa l’app</h2>
-    <div class="features">
-      <div class="feature now">
-        <h3>Compiti che non si possono rimandare</h3>
-        <p>Scolare la pasta, l’aglio un attimo prima che bruci. Quando arriva il momento, lo schermo diventa rosso e ti dice di lasciare ciò che stai facendo.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>La pasta bolle.<br>Intanto il sugo è pronto.</h1>
+        <p class="lead">Quando due pentole vanno a velocità diverse, Geusaie ti mostra in grande l’unica cosa che le tue mani devono fare adesso. Il sugo viene programmato a ritroso dal momento in cui scoli la pasta.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793473149">Scaricala gratis dall’App Store</a><a class="try" href="#try">Provalo ↓</a></div>
+        <p class="muted small">Tutte le funzioni sono gratuite. Nessun account richiesto.</p>
       </div>
-      <div class="feature calm">
-        <h3>Compiti che si possono spostare</h3>
-        <p>Tagliare, grattugiare, pesare. Vanno avanti solo mentre hai le mani libere, si fermano quando una pentola ti chiama e riprendono da dove eri rimasto.</p>
-      </div>
-      <div class="feature">
-        <h3>Un timer per ogni pentola</h3>
-        <p>La pentola della pasta e la padella del sugo mostrano ciascuna cosa stanno facendo e quanto tempo manca.</p>
-      </div>
-      <div class="feature">
-        <h3>Controllo vocale</h3>
-        <p>Con le mani bagnate, di’ «avanti». Quando possibile, il riconoscimento vocale funziona sul dispositivo.</p>
-      </div>
-      <div class="feature">
-        <h3>Testo leggibile da lontano</h3>
-        <p>Appoggialo sul piano di lavoro e fai uno o due passi indietro. Nell’app il testo si può ingrandire in quattro livelli.</p>
-      </div>
-      <div class="feature">
-        <h3>Senza metterti fretta</h3>
-        <p>I compiti delle tue mani non hanno un conto alla rovescia. La barra si riempie, si ferma e aspetta.</p>
-      </div>
-    </div>
-  </section>
+      <div class="phone"><img src="../img/it/02-start.jpg" alt="La pasta bolle. Intanto il sugo è pronto." width="720" height="1558" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2>Schermate</h2>
-    <div class="shots">
-      <figure>
-        <img src="../images/home.png" alt="La schermata iniziale per scegliere una ricetta. Aglio e olio, circa 15 minuti, 2 pentole.">
-        <figcaption>Solo ciò che serve per scegliere — quanto ci vuole e quante pentole servono</figcaption>
-      </figure>
-      <figure>
-        <img src="../images/cook.png" alt="La schermata di cottura: la scheda del compito attuale, due caselle per le pentole e la cronologia.">
-        <figcaption>Cosa fare adesso · stato delle pentole · l’intera cronologia</figcaption>
-      </figure>
-    </div>
-  </section>
 
-  <section>
-    <h2>Il colore indica l’urgenza</h2>
-    <table>
-      <tr>
-        <th><span class="dot calm"></span>Verde</th>
-        <td>È preparazione. Fallo con calma.</td>
-      </tr>
-      <tr>
-        <th><span class="dot now"></span>Terracotta</th>
-        <td>Se rimandi, la pasta scuoce o brucia. Da fare adesso.</td>
-      </tr>
-      <tr>
-        <th><span class="dot pot"></span>Caselle delle pentole</th>
-        <td>Quanto si rimpicciolisce il quadrato è il tempo che resta. Una pentola è un orologio da tenere d’occhio, quindi qui il tempo non viene mai nascosto.</td>
-      </tr>
-    </table>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Provalo</h2>
+      <p class="muted">Cucina un piatto di aglio e olio a velocità 20x. Tocca «Inizia a cucinare», poi «Avanti» ogni volta che avresti finito un compito. Guarda come cambia la scheda quando arriva il momento di scolare la pasta.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Provalo&quot;, &quot;lead&quot;: &quot;Cucina un piatto di aglio e olio a velocità 20x. Tocca «Inizia a cucinare», poi «Avanti» ogni volta che avresti finito un compito. Guarda come cambia la scheda quando arriva il momento di scolare la pasta.&quot;, &quot;note&quot;: &quot;Stessa ricetta e stesso calcolo dei tempi dell’app. Corre solo l’orologio.&quot;, &quot;again&quot;: &quot;Ricomincia&quot;, &quot;app&quot;: {&quot;first&quot;: &quot;Cosa fare per prima cosa&quot;, &quot;startHint&quot;: &quot;Tocca «Inizia a cucinare» qui sotto e i timer delle pentole partono&quot;, &quot;now&quot;: &quot;Da fare adesso&quot;, &quot;nowCant&quot;: &quot;Adesso · non si può rimandare&quot;, &quot;late&quot;: &quot;In ritardo · fallo subito&quot;, &quot;calm&quot;: &quot;Da fare adesso · senza fretta&quot;, &quot;ready&quot;: &quot;È pronto 🍴 Impiatta&quot;, &quot;handsDone&quot;: &quot;Le tue mani hanno finito — non resta che aspettare le pentole&quot;, &quot;upNext&quot;: &quot;Poi · %@ %@&quot;, &quot;resume&quot;: &quot;Quello che stavi facendo · %@ %@ — finisci prima questo, poi riprendi&quot;, &quot;saidNext&quot;: &quot;Fatto? Di’ «avanti»&quot;, &quot;empty&quot;: &quot;Libera&quot;, &quot;onIt&quot;: &quot;Ci sei tu&quot;, &quot;finished&quot;: &quot;Già usata&quot;, &quot;start&quot;: &quot;Inizia a cucinare&quot;, &quot;next&quot;: &quot;Avanti&quot;, &quot;elapsed&quot;: &quot;Tempo trascorso&quot;, &quot;names&quot;: {&quot;ao-water-on&quot;: &quot;Metti l’acqua sul fuoco vivace&quot;, &quot;ao-boil&quot;: &quot;Porta l’acqua a bollore&quot;, &quot;ao-drop&quot;: &quot;Quando bolle, butta la pasta&quot;, &quot;ao-pasta&quot;: &quot;Cuoci la pasta&quot;, &quot;ao-reserve&quot;: &quot;Scola la pasta tenendo da parte l’acqua di cottura&quot;, &quot;ao-garlic&quot;: &quot;Soffriggi l’aglio nell’olio&quot;, &quot;ao-toss&quot;: &quot;Aggiungi l’acqua di cottura e manteca&quot;, &quot;ao-prep&quot;: &quot;Tira fuori gli ingredienti e metti su la padella&quot;, &quot;ao-slice&quot;: &quot;Affetta l’aglio sottile&quot;, &quot;ao-pepper&quot;: &quot;Trita il peperoncino e il prezzemolo&quot;, &quot;ao-cheese&quot;: &quot;Gratta il formaggio e scalda i piatti&quot;}, &quot;lanes&quot;: [&quot;Pentola della pasta&quot;, &quot;Padella del sugo&quot;], &quot;progress&quot;: {&quot;ao-boil&quot;: &quot;L’acqua bolle&quot;, &quot;ao-pasta&quot;: &quot;La pasta cuoce&quot;}}}"></div>
+    </section>
 
-  <section>
-    <h2>Ricette incluse</h2>
-    <table>
-      <tr><th>Aglio e olio</th><td>Circa 15 min · 2 pentole · Fonti: Serious Eats, Gimme Some Oven</td></tr>
-      <tr><th>Pasta alla crema di pomodoro</th><td>Circa 20 min · 2 pentole · Fonti: RecipeTin Eats, The Burnt Butter Table</td></tr>
-    </table>
-  </section>
+    <section class="problem reveal">
+      <h2>Tre timer accesi e la pasta comunque scotta?</h2>
+      <p>Un timer per la pasta, uno per il sugo e l’aglio a memoria, e a un certo punto non sai più cosa viene prima. Stai affettando proprio quando c’è da scolare, e il sugo arriva con due minuti di ritardo. Geusaie conosce la ricetta come «prima questo, poi quello» e ti dice solo l’unica cosa da fare adesso.</p>
+    </section>
 
-  <section id="contact">
-    <h2>Contatti</h2>
-    <p>Se ti blocchi, vedi qualcosa di strano o vorresti una ricetta in più, scrivici: è tutto benvenuto. Manda un’e-mail a <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> o usa Impostazioni ▸ Invia feedback nell’app. Le domande frequenti sono nella <a href="support.html">pagina di assistenza</a>.</p>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Quando non può aspettare, la scheda diventa rossa</h2>
+        <p>Scolare la pasta, l’aglio che sta per bruciarsi: quando un compito rovinerebbe il piatto se slittasse, la scheda diventa color terracotta e ti dice di lasciare un attimo il tagliere.<br>Quando una pentola è pronta, ti arriva una notifica anche se non stai guardando, con la cosa da fare subito.</p>
+      </div>
+      <div class="phone"><img src="../img/it/04-deadline.jpg" alt="Quando non può aspettare, la scheda diventa rossa" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
 
-  <!-- langnav:start -->
-  <nav class="langnav" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> · <a href="../en/" hreflang="en" lang="en">English</a> · <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <b>Italiano</b> · <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/" hreflang="th" lang="th">ไทย</a> · <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/" hreflang="da" lang="da">Dansk</a> · <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
-  <!-- langnav:end -->
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tagliare solo quando hai le mani libere</h2>
+        <p>Affettare l’aglio, grattugiare il formaggio, pesare: niente di tutto questo ha un orario, quindi Geusaie non conta i secondi. La barra si riempie mentre hai le mani libere, si ferma quando una pentola ti chiama e riprende da dove eri rimasto.<br>Accendi il fuoco tre minuti dopo? Tutto il resto slitta di tre minuti. Il programma viene ricalcolato da quello che hai fatto davvero.</p>
+      </div>
+      <div class="phone"><img src="../img/it/03-prep.jpg" alt="Tagliare solo quando hai le mani libere" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Appoggiato sul piano di lavoro, vai avanti a voce</h2>
+        <p>Quattro dimensioni del testo per leggerlo anche a un paio di passi, e lo schermo resta acceso mentre cucini.<br>Mani bagnate? Di’ <code>avanti</code> e passa al compito successivo senza toccare nulla.</p>
+      </div>
+      <div class="phone"><img src="../img/it/05-bigtext.jpg" alt="Appoggiato sul piano di lavoro, vai avanti a voce" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Tre passi per arrivare in tavola</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Scegli un piatto</h3><p>Vedi quanto ci vuole più o meno e quante pentole servono.</p></li>
+<li class="card"><span class="n">2</span><h3>Tocca «Inizia a cucinare»</h3><p>Prima ti mostra il primo compito, poi i timer delle pentole partono appena tocchi.</p></li>
+<li class="card"><span class="n">3</span><h3>Fatto? Avanti.</h3><p>Tocca il pulsante o di’ «avanti» e compare il compito successivo.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Il colore dice quanto è urgente</h2>
+      <div class="card table">
+        <dl><div><dt>Verde</dt><dd>Preparazione. Fai con calma.</dd></div><div><dt>Senape</dt><dd>Una pentola ha bisogno di te. È ora, ma senza fretta.</dd></div><div><dt>Terracotta</dt><dd>Se aspetti, la pasta scuoce o l’aglio brucia. Fallo adesso.</dd></div><div><dt>Riquadri delle pentole</dt><dd>Il quadrato che si restringe è il tempo che resta. Il tempo delle pentole non viene mai nascosto.</dd></div></dl>
+      </div>
+      <p class="muted">Sulla linea del tempo, le barre tratteggiate sono compiti che possono aspettare.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Tutte le funzioni sono gratuite</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Entrambe le ricette</li><li>Un timer per ogni pentola e la linea del tempo completa</li><li>Una notifica quando una pentola è pronta</li><li>«Avanti» a voce</li><li>Quattro dimensioni del testo</li><li>Apri una ricetta con Siri o Comandi Rapidi</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Sostieni lo sviluppatore (facoltativo)</h3>
+          <ul><li>Se l’app ti è utile, puoi lasciare una piccola mancia dalle impostazioni</li><li>La mancia non sblocca nulla. Anche senza, tutte le funzioni restano tue</li></ul>
+          <p class="muted">Mance singole, non un abbonamento.</p>
+        </div>
+      </div>
+      <p class="muted">Niente account, niente pubblicità, e funziona anche senza connessione.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Domande frequenti</h2>
+      <div class="faq"><details><summary>Dico «avanti» ma non succede niente.</summary><p>Il pulsante del microfono in basso a sinistra è rosso quando ascolta e grigio quando è spento. La prima volta consenti sia il microfono sia il riconoscimento vocale; se hai rifiutato, riattivali in Impostazioni &gt; Geusaie. L’app ascolta la parola scritta sul suo pulsante Avanti. In una cucina molto rumorosa, tocca semplicemente «Avanti».</p></details>
+<details><summary>Una pentola è pronta ma non è arrivata la notifica.</summary><p>Controlla che le notifiche siano attive in Impostazioni &gt; Notifiche &gt; Geusaie. Una modalità Full immersion può silenziarle. Le notifiche arrivano solo quando una pentola è pronta; la preparazione non ti mette mai fretta.</p></details>
+<details><summary>Cosa succede ai tempi se inizio in ritardo?</summary><p>Vengono ricalcolati da quello che hai fatto davvero. Se accendi il fuoco tre minuti dopo, tutto ciò che segue slitta di tre minuti, e il sugo resta programmato a ritroso sul momento in cui la pasta è pronta.</p></details>
+<details><summary>Il testo è troppo piccolo.</summary><p>Nella schermata di cottura, tocca il pulsante della dimensione del testo in alto a destra e scegli Normale, Grande, Più grande o Grandissimo. La scelta viene ricordata.</p></details>
+<details><summary>Lo schermo si spegne mentre cucino?</summary><p>No. Mentre cucini lo schermo resta acceso, così non devi mai toccarlo con le mani bagnate.</p></details>
+<details><summary>Quali piatti ci sono?</summary><p>Aglio e olio (circa 15 minuti, 2 pentole) e pasta alla crema di pomodoro (circa 20 minuti, 2 pentole), da ricette di Serious Eats, Gimme Some Oven, RecipeTin Eats e The Burnt Butter Table. Va bene qualsiasi piatto con due pentole sul fuoco insieme: dicci quale vorresti.</p></details>
+<details><summary>La mia voce viene registrata?</summary><p>No. L’app ascolta solo la parola «avanti» e non registra né salva alcun audio. Se il dispositivo lo supporta, il riconoscimento avviene sul dispositivo. Non vengono raccolti dati personali.</p></details>
+<details><summary>Posso aprirla con Siri?</summary><p>Sì. Scegli un piatto in Siri o nell’app Comandi Rapidi e si apre subito la sua schermata di cottura. I timer partono quando tocchi «Inizia a cucinare», quando sei pronto a mettere su l’acqua.</p></details>
+<details><summary>Su quali dispositivi funziona?</summary><p>Su iPhone e iPad con iOS 17 o versioni successive. Non servono account né connessione a Internet.</p></details>
+<details><summary>Come segnalo un problema o propongo una ricetta?</summary><p>Da Impostazioni &gt; Invia feedback nell’app, oppure scrivendo all’indirizzo qui sotto. Indicare il modello del dispositivo e la versione di iOS ci aiuta a verificare prima. Di solito rispondiamo in pochi giorni.</p></details></div>
+      <p class="contact">Ti sei bloccato, hai notato qualcosa di strano o hai una ricetta in mente? Scrivi a <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Stasera pasta e sugo<br>arrivano insieme</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793473149">Scaricala gratis dall’App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p>iPhone · iOS 17 o successivo · verticale</p>
-    <div class="links">
-      <a href="support.html">Assistenza · Domande frequenti</a>
-      <a href="privacy.html">Informativa sulla privacy</a>
-      <a href="https://github.com/M1zz/geusaie">Codice sorgente</a>
-    </div>
+    <nav id="languages" class="langs" aria-label="Lingua"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it" aria-current="page">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacy</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Geusaie</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,207 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geusaie — ระหว่างที่เส้นพาสต้ากำลังต้ม ซอสก็เสร็จไปด้วย</title>
-<meta name="description" content="ตัวจับเวลาสำหรับเมนูที่ใช้สองหม้อพร้อมกัน แสดงงานเดียวด้วยตัวอักษรใหญ่ นับถอยหลังแยกแต่ละหม้อ และสั่งด้วยเสียงได้เมื่อมือเปียก">
-<meta property="og:title" content="Geusaie">
-<meta property="og:description" content="ระหว่างที่เส้นพาสต้ากำลังต้ม ซอสก็เสร็จไปด้วย ตัวจับเวลาทำอาหารสำหรับสองหม้อพร้อมกัน">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://m1zz.github.io/geusaie/th/">
-<!-- hreflang:start -->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:end -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
-<style>
-  :root {
-    --cream: #FAF6ED;
-    --card: #F1EAD6;
-    --border: #E3D9BE;
-    --ink: #2D2A24;
-    --ink-soft: #8A8271;
-    --terracotta: #C75B39;
-    --green: #5B8C5A;
-    --mustard: #D99A3C;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
-                 "Noto Sans KR", system-ui, sans-serif;
-    line-height: 1.7;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 72px 0 40px; text-align: center; }
-  .logo { font-size: 56px; line-height: 1; }
-  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
-  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
-  .lede {
-    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
-    text-align: left;
-  }
-  section { padding: 44px 0; border-top: 1px solid var(--border); }
-  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
-  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .feature {
-    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-    padding: 20px 22px;
-  }
-  .feature h3 { margin: 0 0 6px; font-size: 18px; }
-  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
-  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
-  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
-  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-  .shots figure { margin: 0; max-width: 300px; }
-  .shots img {
-    width: 100%; border-radius: 22px; border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
-  }
-  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
-  .dot.now { background: var(--terracotta); }
-  .dot.calm { background: var(--green); }
-  .dot.pot { background: var(--mustard); }
-  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
-  footer a, a { color: var(--terracotta); }
-  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
-  @media (max-width: 600px) {
-    header { padding: 48px 0 28px; }
-    h1 { font-size: 32px; }
-    .tagline { font-size: 18px; }
-  }
-  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
-  .langnav b { color: var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geusaie: ตัวจับเวลาทำอาหารสำหรับสองหม้อพร้อมกัน</title>
+  <meta name="description" content="ต้มเส้นไปพลาง ซอสก็เสร็จไปด้วย Geusaie บอกงานเดียวที่ต้องทำตอนนี้ด้วยตัวอักษรใหญ่ นับเวลาแต่ละหม้อแยกกัน มือเปียกก็แค่พูดว่า ถัดไป ใช้ฟรี">
+  <meta name="theme-color" content="#C75B39" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1B16" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793473149">
+  <link rel="canonical" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geusaie: ตัวจับเวลาทำอาหารสำหรับสองหม้อพร้อมกัน">
+  <meta property="og:description" content="ต้มเส้นไปพลาง ซอสก็เสร็จไปด้วย Geusaie บอกงานเดียวที่ต้องทำตอนนี้ด้วยตัวอักษรใหญ่ นับเวลาแต่ละหม้อแยกกัน มือเปียกก็แค่พูดว่า ถัดไป ใช้ฟรี">
+  <meta property="og:url" content="https://m1zz.github.io/geusaie/th/">
+  <meta property="og:image" content="https://m1zz.github.io/geusaie/img/th/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C75B39}@media (prefers-color-scheme:dark){:root{--accent:#E07D5C}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">🍝</div>
-    <h1>Geusaie</h1>
-    <p class="tagline">ระหว่างที่เส้นพาสต้ากำลังต้ม ซอสก็เสร็จไปด้วย</p>
-    <p class="lede">การทำอาหารยากไม่ใช่เพราะมือช้า แต่เพราะเวลาของสองหม้อเดินไม่เท่ากัน เส้นไม่รอเรา แต่การหั่นกระเทียมทำตอนไหนก็ได้ Geusaie (แปลว่า “ในระหว่างนั้น” ในภาษาเกาหลี) แยกสองแบบนี้ออกจากกัน แล้วแสดงด้วยตัวอักษรใหญ่เพียงงานเดียวที่มือต้องทำตอนนี้</p>
+  <a class="skip" href="#main">ข้ามไปยังเนื้อหา</a>
+  <header class="bar">
+    <a class="brand" href="../th/"><img src="../icon.png" alt="" width="32" height="32">Geusaie</a>
+    <a class="lang-link" href="#languages">ภาษา</a>
   </header>
 
-  <section>
-    <h2>แอปนี้เป็นอย่างไร</h2>
-    <div class="features">
-      <div class="feature now">
-        <h3>งานที่เลื่อนไม่ได้</h3>
-        <p>ตักเส้นขึ้น กระเทียมที่ใกล้ไหม้ เมื่อถึงเวลา หน้าจอจะเป็นสีแดงและบอกให้หยุดสิ่งที่ทำอยู่</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>ต้มเส้นไปพลาง<br>ซอสก็เสร็จไปด้วย</h1>
+        <p class="lead">เมื่อสองหม้อเดินด้วยจังหวะต่างกัน Geusaie จะแสดงงานเดียวที่มือของคุณต้องทำตอนนี้ด้วยตัวอักษรใหญ่ ส่วนซอสจะเริ่มโดยนับย้อนจากเวลาที่เส้นพร้อมตักขึ้น</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793473149">ดาวน์โหลดฟรีบน App Store</a><a class="try" href="#try">ลองดูเลย ↓</a></div>
+        <p class="muted small">ใช้ได้ทุกฟีเจอร์ฟรี ไม่ต้องมีบัญชี</p>
       </div>
-      <div class="feature calm">
-        <h3>งานที่เลื่อนได้</h3>
-        <p>หั่น ขูด ตวง งานเหล่านี้จะเดินหน้าเฉพาะตอนมือว่าง ถ้าหม้อเรียกก็หยุดไว้ แล้วกลับมาทำต่อจากเดิม</p>
-      </div>
-      <div class="feature">
-        <h3>ตัวจับเวลาแยกแต่ละหม้อ</h3>
-        <p>หม้อต้มเส้นและกระทะซอสจะแสดงแยกกันว่ากำลังทำอะไรและเหลือเวลาเท่าไร</p>
-      </div>
-      <div class="feature">
-        <h3>ไปต่อด้วยเสียง</h3>
-        <p>ถ้ามือเปียก ให้พูดว่า “ถัดไป” การรู้จำเสียงจะประมวลผลบนเครื่องเมื่อเป็นไปได้</p>
-      </div>
-      <div class="feature">
-        <h3>ตัวอักษรที่อ่านได้แม้ยืนห่าง</h3>
-        <p>ตั้งไว้บนเคาน์เตอร์แล้วถอยออกมาหนึ่งสองก้าวก็ยังเห็น ขยายตัวอักษรได้สี่ระดับในแอป</p>
-      </div>
-      <div class="feature">
-        <h3>ไม่เร่งรัด</h3>
-        <p>งานที่มือทำไม่มีการนับวินาที แถบจะค่อย ๆ เต็มแล้วหยุดรออยู่</p>
-      </div>
-    </div>
-  </section>
+      <div class="phone"><img src="../img/th/02-start.jpg" alt="ต้มเส้นไปพลาง ซอสก็เสร็จไปด้วย" width="720" height="1558" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2>หน้าจอ</h2>
-    <div class="shots">
-      <figure>
-        <img src="../images/home.png" alt="หน้าจอหลักสำหรับเลือกเมนู อาลิโอ โอลิโอ ประมาณ 15 นาที 2 หม้อ">
-        <figcaption>แสดงเฉพาะสิ่งที่ต้องใช้ตอนเลือก — ใช้เวลานานแค่ไหนและต้องใช้กี่หม้อ</figcaption>
-      </figure>
-      <figure>
-        <img src="../images/cook.png" alt="หน้าจอระหว่างทำอาหาร การ์ดงานที่ต้องทำตอนนี้ ช่องหม้อสองช่อง และไทม์ไลน์">
-        <figcaption>สิ่งที่ต้องทำตอนนี้ · สถานะหม้อ · ไทม์ไลน์ทั้งหมด</figcaption>
-      </figure>
-    </div>
-  </section>
 
-  <section>
-    <h2>สีบอกความเร่งด่วน</h2>
-    <table>
-      <tr>
-        <th><span class="dot calm"></span>สีเขียว</th>
-        <td>งานเตรียม ทำช้า ๆ ได้</td>
-      </tr>
-      <tr>
-        <th><span class="dot now"></span>สีเทอร์ราคอตตา</th>
-        <td>ถ้าเลื่อน เส้นจะเปื่อยหรือไหม้ ต้องทำเดี๋ยวนี้</td>
-      </tr>
-      <tr>
-        <th><span class="dot pot"></span>ช่องหม้อ</th>
-        <td>สี่เหลี่ยมที่เล็กลงคือเวลาที่เหลือ หม้อคือนาฬิกาที่ต้องเฝ้าดู จึงไม่ซ่อนเวลาไว้ที่นี่</td>
-      </tr>
-    </table>
-  </section>
+    <section class="reveal" id="try">
+      <h2>ลองดูเลย</h2>
+      <p class="muted">ลองทำอาลิโอ โอลิโอหนึ่งจานด้วยความเร็ว 20 เท่า แตะ “เริ่มทำอาหาร” แล้วแตะ “ถัดไป” ทุกครั้งที่คิดว่าทำงานนั้นเสร็จ ลองดูด้วยว่าการ์ดเปลี่ยนไปอย่างไรเมื่อถึงเวลาตักเส้น</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;ลองดูเลย&quot;, &quot;lead&quot;: &quot;ลองทำอาลิโอ โอลิโอหนึ่งจานด้วยความเร็ว 20 เท่า แตะ “เริ่มทำอาหาร” แล้วแตะ “ถัดไป” ทุกครั้งที่คิดว่าทำงานนั้นเสร็จ ลองดูด้วยว่าการ์ดเปลี่ยนไปอย่างไรเมื่อถึงเวลาตักเส้น&quot;, &quot;note&quot;: &quot;สูตรเดียวกันและคำนวณลำดับแบบเดียวกับในแอป แค่เวลาเดินเร็วขึ้น&quot;, &quot;again&quot;: &quot;เริ่มใหม่อีกครั้ง&quot;, &quot;app&quot;: {&quot;first&quot;: &quot;ทำสิ่งนี้ก่อนเมื่อเริ่ม&quot;, &quot;startHint&quot;: &quot;แตะ “เริ่มทำอาหาร” ด้านล่าง แล้วตัวจับเวลาของหม้อจะเริ่มเดิน&quot;, &quot;now&quot;: &quot;สิ่งที่ต้องทำตอนนี้&quot;, &quot;nowCant&quot;: &quot;ตอนนี้ · เลื่อนไม่ได้&quot;, &quot;late&quot;: &quot;ช้าแล้ว · ทำเดี๋ยวนี้&quot;, &quot;calm&quot;: &quot;สิ่งที่ต้องทำตอนนี้ · ไม่ต้องรีบ&quot;, &quot;ready&quot;: &quot;เสร็จแล้ว 🍴 ตักใส่จานได้เลย&quot;, &quot;handsDone&quot;: &quot;มือว่างแล้ว — เหลือแค่รอหม้อ&quot;, &quot;upNext&quot;: &quot;ถัดไป · %@ %@&quot;, &quot;resume&quot;: &quot;ที่ทำค้างอยู่ · %@ %@ — ทำอันนี้ให้เสร็จก่อน แล้วค่อยกลับไปทำต่อ&quot;, &quot;saidNext&quot;: &quot;เสร็จแล้ว? พูดว่า “ถัดไป”&quot;, &quot;empty&quot;: &quot;ว่าง&quot;, &quot;onIt&quot;: &quot;กำลังทำอยู่&quot;, &quot;finished&quot;: &quot;ใช้เสร็จแล้ว&quot;, &quot;start&quot;: &quot;เริ่มทำอาหาร&quot;, &quot;next&quot;: &quot;ถัดไป&quot;, &quot;elapsed&quot;: &quot;เวลาที่ผ่านไป&quot;, &quot;names&quot;: {&quot;ao-water-on&quot;: &quot;ตั้งน้ำบนไฟแรง&quot;, &quot;ao-boil&quot;: &quot;ต้มน้ำให้เดือด&quot;, &quot;ao-drop&quot;: &quot;เมื่อน้ำเดือด ใส่เส้น&quot;, &quot;ao-pasta&quot;: &quot;ต้มเส้น&quot;, &quot;ao-reserve&quot;: &quot;ตักเส้นขึ้น แล้วเก็บน้ำต้มเส้นไว้&quot;, &quot;ao-garlic&quot;: &quot;ผัดกระเทียมกับน้ำมัน&quot;, &quot;ao-toss&quot;: &quot;ใส่น้ำต้มเส้นแล้วเคล้าให้เข้ากัน&quot;, &quot;ao-prep&quot;: &quot;เตรียมวัตถุดิบและตั้งกระทะ&quot;, &quot;ao-slice&quot;: &quot;หั่นกระเทียมเป็นแว่นบาง ๆ&quot;, &quot;ao-pepper&quot;: &quot;สับพริกแห้งและพาร์สลีย์&quot;, &quot;ao-cheese&quot;: &quot;ขูดชีสและอุ่นจาน&quot;}, &quot;lanes&quot;: [&quot;หม้อต้มเส้น&quot;, &quot;กระทะซอส&quot;], &quot;progress&quot;: {&quot;ao-boil&quot;: &quot;กำลังต้มน้ำ&quot;, &quot;ao-pasta&quot;: &quot;กำลังต้มเส้น&quot;}}}"></div>
+    </section>
 
-  <section>
-    <h2>สูตรที่มีให้</h2>
-    <table>
-      <tr><th>อาลิโอ โอลิโอ</th><td>ประมาณ 15 นาที · 2 หม้อ · ที่มา Serious Eats, Gimme Some Oven</td></tr>
-      <tr><th>พาสต้าครีมมะเขือเทศ</th><td>ประมาณ 20 นาที · 2 หม้อ · ที่มา RecipeTin Eats, The Burnt Butter Table</td></tr>
-    </table>
-  </section>
+    <section class="problem reveal">
+      <h2>ตั้งจับเวลาไว้สามตัว แต่เส้นก็ยังเละอยู่ดีใช่ไหม</h2>
+      <p>ตั้งเวลาต้มเส้นหนึ่งตัว ซอสอีกตัว แล้วยังต้องจำเวลาผัดกระเทียมเอง สุดท้ายก็งงว่าอะไรต้องมาก่อน กำลังหั่นกระเทียมอยู่ก็พลาดจังหวะตักเส้น ซอสเสร็จช้ากว่าเส้นไปสองนาที Geusaie รู้จักสูตรในแบบ “ทำอันนี้ แล้วค่อยอันนั้น” จึงบอกคุณแค่งานเดียวที่ต้องทำตอนนี้</p>
+    </section>
 
-  <section id="contact">
-    <h2>ติดต่อเรา</h2>
-    <p>ติดขัดตรงไหน เจออะไรแปลก ๆ หรืออยากให้เพิ่มสูตร บอกเราได้เลย ส่งอีเมลมาที่ <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> หรือใช้ การตั้งค่า ▸ ส่งความคิดเห็น ในแอป คำถามที่พบบ่อยรวมอยู่ใน<a href="support.html">หน้าช่วยเหลือ</a></p>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>งานที่รอไม่ได้ การ์ดจะเปลี่ยนเป็นสีแดง</h2>
+        <p>ตักเส้นขึ้น กระเทียมที่ใกล้ไหม้ เมื่อถึงงานที่ถ้าช้าไปอาหารจะเสีย การ์ดจะเปลี่ยนเป็นสีดินเผาและบอกให้วางงานเตรียมวัตถุดิบไว้ก่อน<br>เมื่อหม้อไหนเสร็จ จะมีการแจ้งเตือนแม้คุณไม่ได้มองจอ พร้อมบอกว่าต้องทำอะไรต่อทันที</p>
+      </div>
+      <div class="phone"><img src="../img/th/04-deadline.jpg" alt="งานที่รอไม่ได้ การ์ดจะเปลี่ยนเป็นสีแดง" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
 
-  <!-- langnav:start -->
-  <nav class="langnav" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> · <a href="../en/" hreflang="en" lang="en">English</a> · <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../it/" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <b>ไทย</b> · <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/" hreflang="da" lang="da">Dansk</a> · <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
-  <!-- langnav:end -->
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>งานหั่นงานขูด ทำตอนมือว่าง</h2>
+        <p>ฝานกระเทียม ขูดชีส ตวงวัตถุดิบ งานพวกนี้ไม่ผูกกับเวลา แอปจึงไม่นับถอยหลังเป็นวินาที แถบจะค่อยๆ เต็มเฉพาะตอนที่มือว่าง หยุดเมื่อหม้อเรียก แล้วทำต่อจากเดิมเมื่อกลับมา<br>เปิดไฟช้าไปสามนาที งานที่ตามมาก็เลื่อนไปสามนาทีด้วย ตารางเวลาจะคำนวณใหม่ทุกครั้งจากเวลาที่คุณทำจริง</p>
+      </div>
+      <div class="phone"><img src="../img/th/03-prep.jpg" alt="งานหั่นงานขูด ทำตอนมือว่าง" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>ตั้งไว้ข้างเตา แล้วพูดเพื่อไปต่อ</h2>
+        <p>ขยายตัวอักษรได้สี่ระดับ อ่านได้แม้ยืนห่างหนึ่งสองก้าว และหน้าจอจะไม่ดับระหว่างทำอาหาร<br>มือเปียกอยู่ใช่ไหม พูดว่า <code>ถัดไป</code> แล้วแอปจะไปงานถัดไปโดยไม่ต้องแตะจอ</p>
+      </div>
+      <div class="phone"><img src="../img/th/05-bigtext.jpg" alt="ตั้งไว้ข้างเตา แล้วพูดเพื่อไปต่อ" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>เริ่มได้ในสามขั้นตอน</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>เลือกเมนู</h3><p>ดูแค่ว่าใช้เวลาราวกี่นาทีและต้องใช้กี่หม้อ</p></li>
+<li class="card"><span class="n">2</span><h3>แตะ “เริ่มทำอาหาร”</h3><p>แอปจะแสดงงานแรกให้ก่อน และนาฬิกาของหม้อเริ่มเดินทันทีที่แตะ</p></li>
+<li class="card"><span class="n">3</span><h3>เสร็จแล้วกด “ถัดไป”</h3><p>แตะปุ่มหรือพูดว่า “ถัดไป” แล้วงานต่อไปจะขึ้นมา</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>สีบอกว่าเร่งแค่ไหน</h2>
+      <div class="card table">
+        <dl><div><dt>สีเขียว</dt><dd>งานเตรียมวัตถุดิบ ทำช้าๆ ได้</dd></div><div><dt>สีมัสตาร์ด</dt><dd>ถึงคิวงานที่หม้อ ทำตอนนี้ได้เลยแต่ยังไม่รีบ</dd></div><div><dt>สีดินเผา</dt><dd>ถ้าปล่อยไว้ เส้นจะเละหรือกระเทียมจะไหม้ ต้องทำตอนนี้</dd></div><div><dt>ช่องหม้อ</dt><dd>สี่เหลี่ยมหดลงเท่าไร ก็คือเวลาที่เหลือ เวลาของหม้อไม่เคยถูกซ่อน</dd></div></dl>
+      </div>
+      <p class="muted">บนไทม์ไลน์ แถบเส้นประคืองานที่เลื่อนออกไปได้</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>ใช้ได้ทุกฟีเจอร์ฟรี</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>ฟรี</h3>
+          <ul><li>ทั้งสองสูตร</li><li>ตัวจับเวลาแยกแต่ละหม้อ พร้อมไทม์ไลน์ทั้งหมด</li><li>แจ้งเตือนเมื่อหม้อเสร็จ</li><li>พูดว่า “ถัดไป” เพื่อไปต่อ</li><li>ขนาดตัวอักษรสี่ระดับ</li><li>เปิดสูตรได้จาก Siri และคำสั่งลัด</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>สนับสนุนผู้พัฒนา (ไม่บังคับ)</h3>
+          <ul><li>ถ้าแอปช่วยได้ คุณส่งทิปเล็กๆ ได้จากการตั้งค่า</li><li>ทิปไม่ได้ปลดล็อกอะไร ไม่ส่งก็ใช้ได้ทุกฟีเจอร์เหมือนเดิม</li></ul>
+          <p class="muted">ทิปจ่ายครั้งต่อครั้ง ไม่ใช่การสมัครสมาชิก</p>
+        </div>
+      </div>
+      <p class="muted">ไม่มีบัญชี ไม่มีโฆษณา และใช้ทำอาหารได้แม้ไม่มีอินเทอร์เน็ต</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>คำถามที่พบบ่อย</h2>
+      <div class="faq"><details><summary>พูดว่า “ถัดไป” แล้วไม่ไปต่อ</summary><p>ปุ่มไมโครโฟนมุมซ้ายล่างเป็นสีแดงแปลว่ากำลังฟัง ถ้าเป็นสีเทาแปลว่าปิดอยู่ ครั้งแรกต้องอนุญาตทั้งไมโครโฟนและการรู้จำเสียงพูด ถ้าเคยปฏิเสธไว้ เปิดได้อีกครั้งที่แอปการตั้งค่า &gt; Geusaie แอปจะฟังคำที่เขียนอยู่บนปุ่ม “ถัดไป” ถ้าครัวเสียงดังมาก ให้แตะปุ่ม “ถัดไป” ด้านล่างแทน</p></details>
+<details><summary>หม้อเสร็จแล้วแต่ไม่มีการแจ้งเตือน</summary><p>ตรวจดูว่าเปิดการแจ้งเตือนไว้ที่แอปการตั้งค่า &gt; การแจ้งเตือน &gt; Geusaie ถ้าเปิดโหมดโฟกัสอยู่ เสียงอาจไม่ดัง การแจ้งเตือนจะมาเฉพาะตอนที่หม้อเสร็จ งานเตรียมอย่างหั่นหรือขูดจะไม่แจ้งเตือน เพื่อไม่ให้รู้สึกถูกเร่ง</p></details>
+<details><summary>ถ้าเริ่มช้า ตารางเวลาจะเป็นอย่างไร</summary><p>แอปจะคำนวณใหม่จากเวลาที่คุณทำจริง เปิดไฟช้าไปสามนาที งานที่ตามมาก็เลื่อนไปสามนาทีด้วย ส่วนซอสจะยังนับย้อนจากเวลาที่เส้นพร้อมตักขึ้น</p></details>
+<details><summary>ตัวอักษรเล็กเกินไป</summary><p>ในหน้าทำอาหาร แตะปุ่มขนาดตัวอักษรที่มุมขวาบน แล้วเลือก ปกติ ใหญ่ ใหญ่ขึ้น หรือ ใหญ่สุด ขนาดที่เลือกจะถูกจำไว้ครั้งต่อไป</p></details>
+<details><summary>หน้าจอจะดับระหว่างทำอาหารไหม</summary><p>ไม่ดับ ระหว่างทำอาหารหน้าจอจะเปิดค้างไว้ คุณจึงไม่ต้องแตะจอขณะมือเปียก</p></details>
+<details><summary>มีเมนูอะไรบ้าง</summary><p>อาลิโอ โอลิโอ (ราว 15 นาที ใช้ 2 หม้อ) และพาสต้าครีมมะเขือเทศ (ราว 20 นาที ใช้ 2 หม้อ) อ้างอิงสูตรจาก Serious Eats, Gimme Some Oven, RecipeTin Eats และ The Burnt Butter Table เมนูไหนที่ใช้สองหม้อพร้อมกันก็เหมาะทั้งนั้น บอกเราได้เลยว่าอยากให้เพิ่มสูตรอะไร</p></details>
+<details><summary>เสียงของฉันถูกเก็บไว้ไหม</summary><p>ไม่ แอปฟังแค่คำว่า “ถัดไป” และไม่บันทึกหรือเก็บเสียงใดๆ ถ้าอุปกรณ์รองรับ การรู้จำเสียงจะทำบนอุปกรณ์เท่านั้น แอปไม่เก็บข้อมูลส่วนบุคคล</p></details>
+<details><summary>เปิดด้วย Siri ได้ไหม</summary><p>ได้ เลือกเมนูใน Siri หรือแอปคำสั่งลัด แล้วหน้าทำอาหารของเมนูนั้นจะเปิดขึ้นทันที นาฬิกาจะเริ่มเดินเมื่อคุณพร้อมตั้งน้ำและแตะ “เริ่มทำอาหาร”</p></details>
+<details><summary>ใช้กับอุปกรณ์อะไรได้บ้าง</summary><p>iPhone และ iPad ที่ใช้ iOS 17 ขึ้นไป ไม่ต้องมีบัญชีและไม่ต้องใช้อินเทอร์เน็ต</p></details>
+<details><summary>จะแจ้งปัญหาหรือเสนอสูตรได้อย่างไร</summary><p>ส่งได้จากการตั้งค่า &gt; ส่งความคิดเห็น ในแอป หรืออีเมลด้านล่าง ถ้าระบุรุ่นอุปกรณ์และเวอร์ชัน iOS มาด้วย เราจะตรวจสอบได้เร็วขึ้น ปกติเราตอบกลับภายในไม่กี่วัน</p></details></div>
+      <p class="contact">ติดขัดตรงไหน เจออะไรแปลกๆ หรืออยากให้เพิ่มสูตรไหน ส่งมาที่ <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> ได้เลย</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>คืนนี้ เส้นกับซอส<br>เสร็จพร้อมกันพอดี</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793473149">ดาวน์โหลดฟรีบน App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p>iPhone · iOS 17 ขึ้นไป · แนวตั้ง</p>
-    <div class="links">
-      <a href="support.html">ช่วยเหลือ · คำถามที่พบบ่อย</a>
-      <a href="privacy.html">นโยบายความเป็นส่วนตัว</a>
-      <a href="https://github.com/M1zz/geusaie">ซอร์สโค้ด</a>
-    </div>
+    <nav id="languages" class="langs" aria-label="ภาษา"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th" aria-current="page">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">นโยบายความเป็นส่วนตัว</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Geusaie</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

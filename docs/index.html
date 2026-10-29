@@ -1,236 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>그사이에 — 면 삶는 그사이에 소스까지</title>
-<meta name="description" content="냄비 두 개가 동시에 도는 요리를 위한 타이머. 지금 할 일 하나만 크게, 냄비마다 남은 시간을 따로, 손이 젖었으면 말로 넘깁니다.">
-<meta property="og:title" content="그사이에">
-<meta property="og:description" content="면 삶는 그사이에 소스까지. 냄비 두 개를 동시에 돌리는 요리 타이머.">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:start -->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:end -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
-<style>
-  :root {
-    --cream: #FAF6ED;
-    --card: #F1EAD6;
-    --border: #E3D9BE;
-    --ink: #2D2A24;
-    --ink-soft: #8A8271;
-    --terracotta: #C75B39;
-    --green: #5B8C5A;
-    --mustard: #D99A3C;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
-                 "Noto Sans KR", system-ui, sans-serif;
-    line-height: 1.7;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 72px 0 40px; text-align: center; }
-  .logo { font-size: 56px; line-height: 1; }
-  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
-  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
-  .lede {
-    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
-    text-align: left;
-  }
-  section { padding: 44px 0; border-top: 1px solid var(--border); }
-  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
-  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .feature {
-    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-    padding: 20px 22px;
-  }
-  .feature h3 { margin: 0 0 6px; font-size: 18px; }
-  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
-  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
-  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
-  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-  .shots figure { margin: 0; max-width: 300px; }
-  .shots img {
-    width: 100%; border-radius: 22px; border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
-  }
-  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
-  .dot.now { background: var(--terracotta); }
-  .dot.calm { background: var(--green); }
-  .dot.pot { background: var(--mustard); }
-  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
-  footer a, a { color: var(--terracotta); }
-  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
-  @media (max-width: 600px) {
-    header { padding: 48px 0 28px; }
-    h1 { font-size: 32px; }
-    .tagline { font-size: 18px; }
-  }
-  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
-  .langnav b { color: var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>그사이에: 냄비 두 개를 함께 돌리는 요리 타이머</title>
+  <meta name="description" content="면 삶는 그사이에 소스까지. 지금 할 일 하나만 크게 보여 주고, 냄비마다 남은 시간을 따로 셉니다. 손이 젖었으면 다음이라고 말하면 넘어갑니다. 무료.">
+  <meta name="theme-color" content="#C75B39" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1B16" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793473149">
+  <link rel="canonical" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="그사이에: 냄비 두 개를 함께 돌리는 요리 타이머">
+  <meta property="og:description" content="면 삶는 그사이에 소스까지. 지금 할 일 하나만 크게 보여 주고, 냄비마다 남은 시간을 따로 셉니다. 손이 젖었으면 다음이라고 말하면 넘어갑니다. 무료.">
+  <meta property="og:url" content="https://m1zz.github.io/geusaie/">
+  <meta property="og:image" content="https://m1zz.github.io/geusaie/img/ko/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="demo.css">
+  <style>:root{--accent:#C75B39}@media (prefers-color-scheme:dark){:root{--accent:#E07D5C}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">🍝</div>
-    <h1>그사이에</h1>
-    <p class="tagline">면 삶는 그사이에 소스까지.</p>
-    <p class="lede">
-      요리가 어려운 건 손이 느려서가 아니라, 냄비 두 개의 시간이 서로 다르게 흐르기 때문입니다.
-      면은 사람을 기다려 주지 않고, 마늘 써는 일은 언제 해도 됩니다.
-      그사이에는 이 둘을 구분해서, 지금 손이 할 일 하나만 크게 보여 줍니다.
-    </p>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="bar">
+    <a class="brand" href=""><img src="icon.png" alt="" width="32" height="32">그사이에</a>
+    <a class="lang-link" href="#languages">언어</a>
   </header>
 
-  <section>
-    <h2>이런 앱입니다</h2>
-    <div class="features">
-      <div class="feature now">
-        <h3>미룰 수 없는 일</h3>
-        <p>면 건지기, 타기 직전의 마늘. 시간이 되면 화면이 붉어지고 하던 일을 멈추라고 알려 줍니다.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>면 삶는 그사이에<br>소스까지</h1>
+        <p class="lead">냄비 두 개가 서로 다른 속도로 도는 요리에서, 지금 손이 할 일 하나만 크게 보여 줍니다. 소스는 면이 나오는 시각에 맞춰 거꾸로 시작됩니다.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793473149">App Store에서 무료로 받기</a><a class="try" href="#try">직접 해 보세요 ↓</a></div>
+        <p class="muted small">모든 기능이 무료이고, 계정이 필요 없습니다.</p>
       </div>
-      <div class="feature calm">
-        <h3>밀려도 되는 일</h3>
-        <p>썰기, 갈기, 계량. 손이 빌 때만 진행되고, 냄비가 부르면 멈췄다가 돌아와서 이어서 합니다.</p>
+      <div class="phone"><img src="img/ko/02-start.jpg" alt="면 삶는 그사이에 소스까지" width="720" height="1558" decoding="async"></div>
+    </section>
+
+
+    <section class="reveal" id="try">
+      <h2>직접 해 보세요</h2>
+      <p class="muted">알리오 올리오 한 판을 20배 빠르게 돌려 봅니다. 요리 시작을 누르고, 할 일을 마쳤다 치고 다음을 눌러 보세요. 면 건질 때가 오면 카드가 어떻게 바뀌는지도 보세요.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;직접 해 보세요&quot;, &quot;lead&quot;: &quot;알리오 올리오 한 판을 20배 빠르게 돌려 봅니다. 요리 시작을 누르고, 할 일을 마쳤다 치고 다음을 눌러 보세요. 면 건질 때가 오면 카드가 어떻게 바뀌는지도 보세요.&quot;, &quot;note&quot;: &quot;앱과 같은 레시피, 같은 순서 계산입니다. 시간만 빠르게 흐릅니다.&quot;, &quot;again&quot;: &quot;처음부터 다시&quot;, &quot;app&quot;: {&quot;first&quot;: &quot;시작하면 이것부터&quot;, &quot;startHint&quot;: &quot;아래 요리 시작을 누르면 냄비 시계가 돕니다&quot;, &quot;now&quot;: &quot;지금 할 일&quot;, &quot;nowCant&quot;: &quot;지금 · 미룰 수 없어요&quot;, &quot;late&quot;: &quot;늦었어요 · 지금 바로&quot;, &quot;calm&quot;: &quot;지금 할 일 · 천천히 해도 돼요&quot;, &quot;ready&quot;: &quot;완성됐어요 🍴 접시에 담으세요&quot;, &quot;handsDone&quot;: &quot;손은 다 했어요 — 냄비만 기다리면 돼요&quot;, &quot;upNext&quot;: &quot;다음 · %@ %@&quot;, &quot;resume&quot;: &quot;하던 일 · %@ %@ — 이것부터 하고 이어서&quot;, &quot;saidNext&quot;: &quot;다 했으면 \&quot;다음\&quot;&quot;, &quot;empty&quot;: &quot;비어 있음&quot;, &quot;onIt&quot;: &quot;내가 하는 중&quot;, &quot;finished&quot;: &quot;다 썼어요&quot;, &quot;start&quot;: &quot;요리 시작&quot;, &quot;next&quot;: &quot;다음&quot;, &quot;elapsed&quot;: &quot;진행 시간&quot;, &quot;names&quot;: {&quot;ao-water-on&quot;: &quot;물 올리고 센 불 켜기&quot;, &quot;ao-boil&quot;: &quot;물 끓이기&quot;, &quot;ao-drop&quot;: &quot;끓으면 면 넣기&quot;, &quot;ao-pasta&quot;: &quot;면 삶기&quot;, &quot;ao-reserve&quot;: &quot;면수 남기고 면 건지기&quot;, &quot;ao-garlic&quot;: &quot;마늘·오일 볶기&quot;, &quot;ao-toss&quot;: &quot;면수 넣고 유화·버무리기&quot;, &quot;ao-prep&quot;: &quot;재료 꺼내고 팬 올리기&quot;, &quot;ao-slice&quot;: &quot;마늘 얇게 편 썰기&quot;, &quot;ao-pepper&quot;: &quot;페퍼론치노·파슬리 다지기&quot;, &quot;ao-cheese&quot;: &quot;치즈 갈고 접시 데우기&quot;}, &quot;lanes&quot;: [&quot;면냄비&quot;, &quot;소스팬&quot;], &quot;progress&quot;: {&quot;ao-boil&quot;: &quot;물 끓이는 중&quot;, &quot;ao-pasta&quot;: &quot;면 삶는 중&quot;}}}"></div>
+    </section>
+
+    <section class="problem reveal">
+      <h2>타이머를 세 개 맞춰 놓고도 면이 퍼진 적 있나요?</h2>
+      <p>면 타이머, 소스 타이머, 마늘 볶는 시간을 따로 재다 보면 어느 게 먼저인지 헷갈립니다. 마늘을 썰다 면 건질 때를 놓치고, 소스는 면보다 늦게 끝납니다. 그사이에는 레시피를 '무엇 다음에 무엇'으로 알고 있어서, 지금 해야 할 일 하나만 알려 줍니다.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>미룰 수 없는 일이 오면 카드가 붉어집니다</h2>
+        <p>면 건지기, 타기 직전의 마늘처럼 늦으면 음식이 상하는 일이 오면 카드가 테라코타색으로 바뀌고, 하던 도마 일은 잠시 멈추라고 알려 줍니다.<br>냄비가 다 되면 화면을 보고 있지 않아도 알림이 오고, 바로 해야 할 일을 함께 알려 줍니다.</p>
       </div>
-      <div class="feature">
-        <h3>냄비마다 타이머</h3>
-        <p>면냄비와 소스팬이 각각 무엇을 하는 중인지, 얼마나 남았는지 따로 보여 줍니다.</p>
+      <div class="phone"><img src="img/ko/04-deadline.jpg" alt="미룰 수 없는 일이 오면 카드가 붉어집니다" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>썰고 가는 일은 손이 빌 때만</h2>
+        <p>마늘 썰기, 치즈 갈기, 계량은 언제 해도 되는 일이라 초를 세지 않습니다. 막대가 차오르다 냄비가 부르면 멈추고, 돌아오면 하던 자리에서 이어집니다.<br>불을 3분 늦게 켜면 뒤따르는 일도 함께 3분 밀립니다. 시간표는 실제로 한 시각에서 매번 다시 계산합니다.</p>
       </div>
-      <div class="feature">
-        <h3>말로 넘기기</h3>
-        <p>손이 젖어 있으면 “다음”이라고 말하세요. 한국어 음성 인식은 가능한 한 기기 안에서 처리합니다.</p>
+      <div class="phone"><img src="img/ko/03-prep.jpg" alt="썰고 가는 일은 손이 빌 때만" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>조리대에 세워 두고, 말로 넘깁니다</h2>
+        <p>한두 걸음 떨어져서도 읽히도록 글자 크기를 네 단계로 키울 수 있고, 요리하는 동안에는 화면이 꺼지지 않습니다.<br>손이 젖었으면 <code>다음</code>이라고 말하세요. 화면을 만지지 않아도 다음 일로 넘어갑니다.</p>
       </div>
-      <div class="feature">
-        <h3>세워 두고 보는 글자</h3>
-        <p>조리대에 올려 두고 한두 걸음 떨어져 봅니다. 글자 크기는 앱 안에서 네 단계로 키울 수 있습니다.</p>
+      <div class="phone"><img src="img/ko/05-bigtext.jpg" alt="조리대에 세워 두고, 말로 넘깁니다" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>시작은 세 단계면 됩니다</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>요리를 고릅니다</h3><p>몇 분 걸리는지, 냄비가 몇 개 필요한지만 보고 고르면 됩니다.</p></li>
+<li class="card"><span class="n">2</span><h3>요리 시작을 누릅니다</h3><p>첫 할 일을 먼저 보여 주고, 누르는 순간부터 냄비 시계가 돕니다.</p></li>
+<li class="card"><span class="n">3</span><h3>끝나면 다음</h3><p>버튼을 누르거나 다음이라고 말하면 그때 할 일이 나옵니다.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>색이 곧 급한 정도입니다</h2>
+      <div class="card table">
+        <dl><div><dt>초록</dt><dd>도마 일입니다. 천천히 해도 됩니다.</dd></div><div><dt>머스터드</dt><dd>냄비에 할 동작이 왔습니다. 지금 하면 되지만 급하지는 않습니다.</dd></div><div><dt>테라코타</dt><dd>미루면 면이 퍼지거나 탑니다. 지금 해야 합니다.</dd></div><div><dt>냄비 칸</dt><dd>네모가 줄어드는 만큼이 남은 시간입니다. 냄비 시간은 숨기지 않습니다.</dd></div></dl>
       </div>
-      <div class="feature">
-        <h3>재촉하지 않기</h3>
-        <p>내 손이 하는 일에는 초를 세지 않습니다. 막대가 차오르다 멈추고 기다립니다.</p>
+      <p class="muted">타임라인에서 점선으로 그린 막대는 미뤄도 되는 일입니다.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>모든 기능이 무료입니다</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>무료</h3>
+          <ul><li>레시피 두 가지 전부</li><li>냄비마다 따로 세는 타이머와 전체 타임라인</li><li>냄비가 다 되면 오는 알림</li><li>말로 넘기기</li><li>글자 크기 네 단계</li><li>Siri와 단축어로 바로 열기</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>개발자 응원하기 (선택)</h3>
+          <ul><li>고마울 때 설정에서 작은 팁을 보낼 수 있습니다</li><li>팁은 기능을 열지 않습니다. 보내지 않아도 모든 기능이 그대로입니다</li></ul>
+          <p class="muted">한 번씩 보내는 팁이고, 구독이 아닙니다.</p>
+        </div>
       </div>
-    </div>
-  </section>
+      <p class="muted">계정도 광고도 없고, 인터넷이 없어도 요리할 수 있습니다.</p>
+    </section>
 
-  <section>
-    <h2>화면</h2>
-    <div class="shots">
-      <figure>
-        <img src="images/home.png" alt="요리를 고르는 홈 화면. 알리오 올리오 약 15분, 냄비 2개.">
-        <figcaption>고를 때 필요한 것만 — 얼마나 걸리고 냄비가 몇 개인지</figcaption>
-      </figure>
-      <figure>
-        <img src="images/cook.png" alt="조리 중 화면. 지금 할 일 카드, 냄비 두 칸, 타임라인.">
-        <figcaption>지금 할 일 · 냄비 상태 · 전체 타임라인</figcaption>
-      </figure>
-    </div>
-  </section>
+    <section class="reveal" id="faq">
+      <h2>자주 묻는 질문</h2>
+      <div class="faq"><details><summary>다음이라고 말해도 안 넘어가요.</summary><p>왼쪽 아래 마이크 버튼이 빨간색이면 듣는 중이고, 회색이면 꺼진 상태입니다. 처음 켤 때 마이크와 음성 인식 권한을 모두 허용해야 하며, 거절했다면 설정 앱 &gt; 그사이에에서 다시 켤 수 있습니다. 주변이 아주 시끄러우면 화면 아래의 다음 버튼을 눌러 주세요.</p></details>
+<details><summary>냄비가 다 됐는데 알림이 안 와요.</summary><p>설정 앱 &gt; 알림 &gt; 그사이에에서 알림이 켜져 있는지 확인해 주세요. 집중 모드가 켜져 있으면 소리가 나지 않을 수 있습니다. 알림은 냄비가 다 됐을 때만 옵니다. 썰기나 갈기 같은 도마 일은 재촉하지 않으려고 알리지 않습니다.</p></details>
+<details><summary>시작이 늦어지면 시간표는 어떻게 되나요?</summary><p>실제로 한 시각에서 다시 계산합니다. 불을 3분 늦게 켜면 뒤따르는 일도 함께 3분 밀리고, 소스는 면이 나오는 시각에 맞춰 거꾸로 잡힙니다.</p></details>
+<details><summary>글자가 작아요.</summary><p>조리 화면 오른쪽 위의 <code>가가</code> 버튼에서 보통, 크게, 더 크게, 아주 크게 중에 고를 수 있습니다. 고른 크기는 다음에도 그대로 남습니다.</p></details>
+<details><summary>요리하는 동안 화면이 꺼지나요?</summary><p>조리 중에는 화면이 꺼지지 않습니다. 손이 젖어 있어도 화면을 만질 일이 없게 했습니다.</p></details>
+<details><summary>어떤 요리가 들어 있나요?</summary><p>알리오 올리오(약 15분, 냄비 2개)와 토마토 크림 파스타(약 20분, 냄비 2개)입니다. Serious Eats, Gimme Some Oven, RecipeTin Eats, The Burnt Butter Table의 레시피를 참고했습니다. 냄비 두 개가 동시에 도는 요리라면 무엇이든 맞으니, 넣고 싶은 레시피를 알려 주세요.</p></details>
+<details><summary>제 목소리가 저장되나요?</summary><p>아니요. 다음이라는 말만 알아듣고 소리는 녹음하거나 저장하지 않습니다. 기기가 지원하면 음성 인식도 기기 안에서만 처리합니다. 수집하는 개인정보가 없습니다.</p></details>
+<details><summary>Siri로 열 수 있나요?</summary><p>네. Siri나 단축어 앱에서 요리를 고르면 그 요리의 조리 화면이 바로 열립니다. 시계는 물 올릴 준비가 됐을 때 요리 시작을 누르면 돌기 시작합니다.</p></details>
+<details><summary>어떤 기기에서 쓸 수 있나요?</summary><p>iOS 17 이상의 iPhone과 iPad에서 쓸 수 있습니다. 계정이 필요 없고, 인터넷이 없어도 됩니다.</p></details>
+<details><summary>문제를 알리거나 레시피를 제안하려면요?</summary><p>앱의 설정 &gt; 피드백 보내기나 아래 메일로 보내 주세요. 기기 모델과 iOS 버전을 함께 적어 주시면 더 빨리 확인할 수 있습니다. 보통 며칠 안에 답을 드립니다.</p></details></div>
+      <p class="contact">막히는 것, 이상한 것, 넣고 싶은 레시피 모두 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>로 보내 주세요.</p>
+    </section>
 
-  <section>
-    <h2>색이 곧 급한 정도</h2>
-    <table>
-      <tr>
-        <th><span class="dot calm"></span>초록</th>
-        <td>도마 일입니다. 천천히 해도 됩니다.</td>
-      </tr>
-      <tr>
-        <th><span class="dot now"></span>테라코타</th>
-        <td>미루면 면이 퍼지거나 탑니다. 지금 해야 합니다.</td>
-      </tr>
-      <tr>
-        <th><span class="dot pot"></span>냄비 칸</th>
-        <td>네모가 줄어드는 만큼이 남은 시간입니다. 냄비는 반드시 지켜야 하는 시계라 여기서는 시간을 숨기지 않습니다.</td>
-      </tr>
-    </table>
-  </section>
-
-  <section>
-    <h2>지금 담긴 레시피</h2>
-    <table>
-      <tr><th>알리오 올리오</th><td>약 15분 · 냄비 2개 · 출처 Serious Eats, Gimme Some Oven</td></tr>
-      <tr><th>토마토 크림 파스타</th><td>약 20분 · 냄비 2개 · 출처 RecipeTin Eats, The Burnt Butter Table</td></tr>
-    </table>
-  </section>
-
-  <section id="contact">
-    <h2>문의</h2>
-    <p>
-      막히는 것, 이상한 것, 넣고 싶은 레시피 모두 환영합니다.
-      메일 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> 이나 앱의 설정 ▸ 피드백 보내기로 알려 주세요.
-      자주 묻는 것은 <a href="support.html">지원 페이지</a>에 모아 두었습니다.
-    </p>
-  </section>
-
-  <section class="lang-en" lang="en" id="english">
-    <h2>In English</h2>
-    <p>
-      Geusaie (“in the meantime”) is a cooking timer for dishes where two pots run at the same time.
-      While the pasta boils, the sauce gets done too. Instead of juggling several separate timers,
-      the app lays every task on one shared timeline, so you can see which jobs overlap and what has to happen right now.
-    </p>
-    <ul>
-      <li><b>One thing to do, shown big.</b> The card at the top always tells you the single task that needs your hands now.</li>
-      <li><b>A clock for each pot.</b> The pasta pot and the sauce pan each show what they are doing and how much time is left.</li>
-      <li><b>Prep fills the gaps.</b> Slicing and grating only move forward while your hands are free, and wait when a pot needs you.</li>
-      <li><b>Hands-free.</b> Say the Korean word for “next” to move on when your hands are wet. Speech is processed on the device whenever possible and never recorded.</li>
-      <li><b>No account needed.</b> The app works offline and collects no personal data.</li>
-    </ul>
-    <p>
-      The app is currently available in Korean, with two pasta recipes (aglio e olio and tomato cream pasta).
-      Questions or ideas? Email <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>,
-      or read the <a href="privacy.html">privacy policy</a>.
-    </p>
-  </section>
-
-  <!-- langnav:start -->
-  <nav class="langnav" aria-label="Language"><b>한국어</b> · <a href="en/" hreflang="en" lang="en">English</a> · <a href="en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="ja/" hreflang="ja" lang="ja">日本語</a> · <a href="ru/" hreflang="ru" lang="ru">Русский</a> · <a href="es/" hreflang="es" lang="es">Español</a> · <a href="de/" hreflang="de" lang="de">Deutsch</a> · <a href="fr/" hreflang="fr" lang="fr">Français</a> · <a href="it/" hreflang="it" lang="it">Italiano</a> · <a href="pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="th/" hreflang="th" lang="th">ไทย</a> · <a href="vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="cs/" hreflang="cs" lang="cs">Čeština</a> · <a href="da/" hreflang="da" lang="da">Dansk</a> · <a href="el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="pl/" hreflang="pl" lang="pl">Polski</a> · <a href="sv/" hreflang="sv" lang="sv">Svenska</a> · <a href="tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
-  <!-- langnav:end -->
+    <section class="closing reveal">
+      <h2>오늘 저녁은<br>면도 소스도 제때</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793473149">App Store에서 무료로 받기</a>
+    </section>
+  </main>
 
   <footer>
-    <p>iPhone · iOS 17 이상 · 세로 모드</p>
-    <div class="links">
-      <a href="support.html">지원 · 자주 묻는 것</a>
-      <a href="privacy.html">개인정보 처리방침</a>
-      <a href="https://github.com/M1zz/geusaie">소스 코드</a>
-    </div>
+    <nav id="languages" class="langs" aria-label="언어"><a href="" hreflang="ko" lang="ko" aria-current="page">한국어</a>
+<a href="en/" hreflang="en" lang="en">English</a>
+<a href="en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="es/" hreflang="es" lang="es">Español</a>
+<a href="de/" hreflang="de" lang="de">Deutsch</a>
+<a href="fr/" hreflang="fr" lang="fr">Français</a>
+<a href="it/" hreflang="it" lang="it">Italiano</a>
+<a href="pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="th/" hreflang="th" lang="th">ไทย</a>
+<a href="vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="da/" hreflang="da" lang="da">Dansk</a>
+<a href="el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">개인정보 처리방침</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Geusaie</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="demo.js"></script>
 </body>
 </html>

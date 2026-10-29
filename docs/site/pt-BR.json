@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: o timer de cozinha para duas panelas ao mesmo tempo",
+  "description": "O molho fica pronto enquanto o macarrão cozinha. O Geusaie mostra a tarefa de agora, cronometra cada panela e avança quando você diz próximo. Grátis.",
+  "hero": {
+    "headline": "O macarrão cozinha.\nO molho fica pronto junto.",
+    "lead": "Quando duas panelas andam em ritmos diferentes, o Geusaie mostra em letras grandes a única coisa que suas mãos precisam fazer agora. O molho é programado de trás para frente, a partir da hora em que o macarrão sai da água.",
+    "cta": "Baixe grátis na App Store",
+    "note": "Todos os recursos são gratuitos. Não precisa de conta."
+  },
+  "demo": {
+    "title": "Experimente",
+    "lead": "Prepare um aglio e olio em velocidade 20x. Toque em Começar a cozinhar e depois em Próximo sempre que você teria terminado uma tarefa. Veja como o cartão muda quando chega a hora de escorrer o macarrão.",
+    "note": "Mesma receita e mesmo cálculo de ordem do app. Só o relógio anda mais rápido.",
+    "again": "Começar de novo",
+    "app": {
+      "first": "O que fazer primeiro",
+      "startHint": "Toque em “Começar a cozinhar” abaixo e os timers das panelas começam a contar",
+      "now": "Para fazer agora",
+      "nowCant": "Agora · não dá para adiar",
+      "late": "Atrasado · faça agora mesmo",
+      "calm": "Para fazer agora · sem pressa",
+      "ready": "Ficou pronto 🍴 Hora de servir",
+      "handsDone": "Suas mãos terminaram — agora é só esperar as panelas",
+      "upNext": "Depois · %@ %@",
+      "resume": "O que você estava fazendo · %@ %@ — termine isto primeiro e depois continue",
+      "saidNext": "Terminou? Diga “próximo”",
+      "empty": "Livre",
+      "onIt": "Você está nela",
+      "finished": "Já usada",
+      "start": "Começar a cozinhar",
+      "next": "Próximo",
+      "elapsed": "Tempo decorrido",
+      "names": {
+        "ao-water-on": "Ponha a água no fogo alto",
+        "ao-boil": "Ferva a água",
+        "ao-drop": "Quando ferver, coloque o macarrão",
+        "ao-pasta": "Cozinhe o macarrão",
+        "ao-reserve": "Escorra o macarrão guardando a água do cozimento",
+        "ao-garlic": "Doure o alho no azeite",
+        "ao-toss": "Junte a água do cozimento e emulsione",
+        "ao-prep": "Separe os ingredientes e leve a frigideira ao fogo",
+        "ao-slice": "Fatie o alho bem fino",
+        "ao-pepper": "Pique a pimenta e a salsinha",
+        "ao-cheese": "Rale o queijo e aqueça os pratos"
+      },
+      "lanes": [
+        "Panela do macarrão",
+        "Frigideira do molho"
+      ],
+      "progress": {
+        "ao-boil": "Fervendo a água",
+        "ao-pasta": "Cozinhando o macarrão"
+      }
+    }
+  },
+  "problem": {
+    "title": "Três timers ligados e o macarrão passou do ponto mesmo assim?",
+    "text": "Um timer para o macarrão, outro para o molho e o alho de cabeça, e de repente você não sabe mais o que vem primeiro. Você está fatiando bem na hora de escorrer, e o molho fica pronto dois minutos depois. O Geusaie conhece a receita como “isto, depois aquilo” e só mostra a única coisa a fazer agora."
+  },
+  "features": [
+    {
+      "title": "O que não pode esperar fica vermelho",
+      "text": "Escorrer o macarrão, o alho quase queimando: quando uma tarefa estragaria o prato se atrasasse, o cartão fica cor de terracota e avisa para deixar a tábua de lado.\nQuando uma panela termina, chega uma notificação mesmo que você não esteja olhando, com o que precisa ser feito na hora.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Picar só quando as mãos estão livres",
+      "text": "Fatiar alho, ralar queijo, medir: nada disso tem hora marcada, então o Geusaie não conta segundos. A barra enche enquanto suas mãos estão livres, para quando uma panela chama e continua de onde você parou.\nAcendeu o fogo três minutos depois? Todo o resto anda três minutos junto. O cronograma é recalculado a partir do que você realmente fez.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Apoiado na bancada, avance com a voz",
+      "text": "Quatro tamanhos de texto para ler a um ou dois passos de distância, e a tela não apaga enquanto você cozinha.\nMãos molhadas? Diga `próximo` e o app passa para a próxima tarefa sem você encostar na tela.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Três passos até a mesa",
+    "items": [
+      {
+        "title": "Escolha um prato",
+        "text": "Você vê mais ou menos quanto tempo leva e quantas panelas precisa."
+      },
+      {
+        "title": "Toque em Começar a cozinhar",
+        "text": "Ele mostra sua primeira tarefa, e os relógios das panelas começam assim que você toca."
+      },
+      {
+        "title": "Terminou? Próximo.",
+        "text": "Toque no botão ou diga “próximo” e aparece a tarefa seguinte."
+      }
+    ]
+  },
+  "reference": {
+    "title": "A cor diz o quanto é urgente",
+    "rows": [
+      [
+        "Verde",
+        "Preparo. Sem pressa."
+      ],
+      [
+        "Mostarda",
+        "Uma panela precisa de você. É agora, mas sem correria."
+      ],
+      [
+        "Terracota",
+        "Se esperar, o macarrão passa do ponto ou o alho queima. Faça agora."
+      ],
+      [
+        "Quadros das panelas",
+        "O quadrado que diminui é o tempo que falta. O tempo das panelas nunca fica escondido."
+      ]
+    ],
+    "note": "Na linha do tempo, as barras tracejadas são tarefas que podem esperar."
+  },
+  "pricing": {
+    "title": "Todos os recursos são gratuitos",
+    "free": {
+      "name": "Grátis",
+      "items": [
+        "As duas receitas",
+        "Um timer para cada panela e a linha do tempo completa",
+        "Notificação quando uma panela fica pronta",
+        "“Próximo” por voz",
+        "Quatro tamanhos de texto",
+        "Abrir receitas pela Siri ou pelos Atalhos"
+      ]
+    },
+    "pro": {
+      "name": "Apoie o desenvolvedor (opcional)",
+      "items": [
+        "Se o app ajudar, você pode mandar uma pequena gorjeta pelos Ajustes",
+        "A gorjeta não libera nada. Sem ela, todos os recursos continuam seus"
+      ],
+      "note": "Gorjetas avulsas, não uma assinatura."
+    },
+    "note": "Sem conta, sem anúncios, e funciona sem internet."
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "Digo “próximo” e nada acontece.",
+        "a": "O botão do microfone, no canto inferior esquerdo, fica vermelho enquanto escuta e cinza quando está desligado. Na primeira vez, permita o microfone e o reconhecimento de fala; se recusou, ative de novo em Ajustes > Geusaie. O app escuta a palavra escrita no botão Próximo. Numa cozinha muito barulhenta, é só tocar em Próximo."
+      },
+      {
+        "q": "Uma panela terminou e não recebi notificação.",
+        "a": "Confira se as notificações estão ativadas em Ajustes > Notificações > Geusaie. Um modo de Foco pode silenciá-las. As notificações só chegam quando uma panela fica pronta; o preparo nunca apressa você."
+      },
+      {
+        "q": "O que acontece com o cronograma se eu começar atrasado?",
+        "a": "Ele é recalculado a partir do que você realmente fez. Se acender o fogo três minutos depois, tudo o que vem a seguir anda três minutos, e o molho continua programado de trás para frente a partir da hora em que o macarrão sai."
+      },
+      {
+        "q": "O texto está pequeno.",
+        "a": "Na tela de preparo, toque no botão de tamanho do texto no canto superior direito e escolha Normal, Grande, Maior ou Máximo. Sua escolha fica salva."
+      },
+      {
+        "q": "A tela apaga enquanto eu cozinho?",
+        "a": "Não. A tela fica acesa enquanto você cozinha, para você nunca precisar tocar nela com as mãos molhadas."
+      },
+      {
+        "q": "Quais pratos estão incluídos?",
+        "a": "Aglio e olio (cerca de 15 minutos, 2 panelas) e macarrão ao molho de tomate com creme (cerca de 20 minutos, 2 panelas), com base em receitas de Serious Eats, Gimme Some Oven, RecipeTin Eats e The Burnt Butter Table. Qualquer prato com duas panelas ao mesmo tempo combina, então conte para a gente qual você quer."
+      },
+      {
+        "q": "Minha voz é gravada?",
+        "a": "Não. O app só escuta a palavra “próximo” e não grava nem guarda áudio. Quando o aparelho permite, o reconhecimento é feito no próprio aparelho. Nenhum dado pessoal é coletado."
+      },
+      {
+        "q": "Dá para abrir com a Siri?",
+        "a": "Sim. Escolha um prato na Siri ou no app Atalhos e a tela de preparo dele abre na hora. Os relógios começam quando você toca em Começar a cozinhar, quando estiver pronto para pôr a água no fogo."
+      },
+      {
+        "q": "Em quais aparelhos funciona?",
+        "a": "No iPhone e no iPad com iOS 17 ou posterior. Não precisa de conta nem de internet."
+      },
+      {
+        "q": "Como relato um problema ou sugiro uma receita?",
+        "a": "Em Ajustes > Enviar feedback no app, ou pelo e-mail abaixo. Informar o modelo do aparelho e a versão do iOS ajuda a gente a verificar mais rápido. Costumamos responder em poucos dias."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Hoje à noite, macarrão\ne molho ficam prontos juntos",
+    "cta": "Baixe grátis na App Store"
+  },
+  "ui": {
+    "skip": "Pular para o conteúdo",
+    "languages": "Idioma",
+    "privacy": "Política de Privacidade",
+    "contact": "Travou em algo, viu um problema ou tem uma receita em mente? Escreva para {email}."
+  }
+}

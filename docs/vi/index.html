@@ -1,207 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geusaie — Trong lúc mì đang luộc, nước sốt cũng xong</title>
-<meta name="description" content="Bộ hẹn giờ cho món ăn dùng hai nồi cùng lúc. Mỗi lần chỉ một việc, hiển thị bằng chữ lớn, đếm ngược riêng cho từng nồi và điều khiển bằng giọng nói khi tay ướt.">
-<meta property="og:title" content="Geusaie">
-<meta property="og:description" content="Trong lúc mì đang luộc, nước sốt cũng xong. Bộ hẹn giờ nấu ăn cho hai nồi cùng lúc.">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://m1zz.github.io/geusaie/vi/">
-<!-- hreflang:start -->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:end -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
-<style>
-  :root {
-    --cream: #FAF6ED;
-    --card: #F1EAD6;
-    --border: #E3D9BE;
-    --ink: #2D2A24;
-    --ink-soft: #8A8271;
-    --terracotta: #C75B39;
-    --green: #5B8C5A;
-    --mustard: #D99A3C;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
-                 "Noto Sans KR", system-ui, sans-serif;
-    line-height: 1.7;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 72px 0 40px; text-align: center; }
-  .logo { font-size: 56px; line-height: 1; }
-  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
-  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
-  .lede {
-    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
-    text-align: left;
-  }
-  section { padding: 44px 0; border-top: 1px solid var(--border); }
-  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
-  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .feature {
-    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-    padding: 20px 22px;
-  }
-  .feature h3 { margin: 0 0 6px; font-size: 18px; }
-  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
-  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
-  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
-  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-  .shots figure { margin: 0; max-width: 300px; }
-  .shots img {
-    width: 100%; border-radius: 22px; border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
-  }
-  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
-  .dot.now { background: var(--terracotta); }
-  .dot.calm { background: var(--green); }
-  .dot.pot { background: var(--mustard); }
-  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
-  footer a, a { color: var(--terracotta); }
-  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
-  @media (max-width: 600px) {
-    header { padding: 48px 0 28px; }
-    h1 { font-size: 32px; }
-    .tagline { font-size: 18px; }
-  }
-  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
-  .langnav b { color: var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geusaie: hẹn giờ nấu ăn cho hai nồi cùng lúc</title>
+  <meta name="description" content="Luộc mì xong là sốt cũng vừa xong. Geusaie hiện chữ lớn đúng một việc cần làm, đếm giờ riêng từng nồi, tay ướt thì chỉ cần nói tiếp theo. Miễn phí.">
+  <meta name="theme-color" content="#C75B39" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1B16" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793473149">
+  <link rel="canonical" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geusaie: hẹn giờ nấu ăn cho hai nồi cùng lúc">
+  <meta property="og:description" content="Luộc mì xong là sốt cũng vừa xong. Geusaie hiện chữ lớn đúng một việc cần làm, đếm giờ riêng từng nồi, tay ướt thì chỉ cần nói tiếp theo. Miễn phí.">
+  <meta property="og:url" content="https://m1zz.github.io/geusaie/vi/">
+  <meta property="og:image" content="https://m1zz.github.io/geusaie/img/vi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C75B39}@media (prefers-color-scheme:dark){:root{--accent:#E07D5C}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">🍝</div>
-    <h1>Geusaie</h1>
-    <p class="tagline">Trong lúc mì đang luộc, nước sốt cũng xong.</p>
-    <p class="lede">Nấu ăn khó không phải vì tay chậm, mà vì thời gian của hai nồi chạy khác nhau. Mì không đợi ai, còn thái tỏi thì lúc nào cũng làm được. Geusaie (nghĩa là “trong lúc đó” trong tiếng Hàn) phân biệt hai loại việc này và chỉ hiển thị bằng chữ lớn đúng một việc mà tay bạn cần làm lúc này.</p>
+  <a class="skip" href="#main">Bỏ qua đến nội dung</a>
+  <header class="bar">
+    <a class="brand" href="../vi/"><img src="../icon.png" alt="" width="32" height="32">Geusaie</a>
+    <a class="lang-link" href="#languages">Ngôn ngữ</a>
   </header>
 
-  <section>
-    <h2>Ứng dụng này làm được gì</h2>
-    <div class="features">
-      <div class="feature now">
-        <h3>Việc không thể để sau</h3>
-        <p>Vớt mì, tỏi sắp cháy. Đến giờ, màn hình chuyển đỏ và báo bạn bỏ việc đang làm.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Trong lúc luộc mì,<br>nước sốt cũng xong</h1>
+        <p class="lead">Khi hai nồi chạy theo nhịp khác nhau, Geusaie hiện chữ lớn đúng một việc tay bạn cần làm ngay bây giờ. Nước sốt được tính ngược từ lúc mì vớt ra.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793473149">Tải miễn phí trên App Store</a><a class="try" href="#try">Thử ngay ↓</a></div>
+        <p class="muted small">Mọi tính năng đều miễn phí. Không cần tài khoản.</p>
       </div>
-      <div class="feature calm">
-        <h3>Việc có thể dời lại</h3>
-        <p>Thái, bào, đong. Chỉ tiến hành khi tay rảnh, tạm dừng khi nồi gọi và làm tiếp từ chỗ đã dừng.</p>
-      </div>
-      <div class="feature">
-        <h3>Mỗi nồi một bộ hẹn giờ</h3>
-        <p>Nồi luộc mì và chảo nước sốt hiển thị riêng việc đang làm và thời gian còn lại.</p>
-      </div>
-      <div class="feature">
-        <h3>Chuyển bước bằng giọng nói</h3>
-        <p>Khi tay ướt, hãy nói “tiếp theo”. Khi có thể, giọng nói sẽ được xử lý ngay trên thiết bị.</p>
-      </div>
-      <div class="feature">
-        <h3>Chữ đọc được từ xa</h3>
-        <p>Dựng trên mặt bếp rồi lùi ra một hai bước vẫn đọc được. Cỡ chữ có thể phóng to bốn mức trong ứng dụng.</p>
-      </div>
-      <div class="feature">
-        <h3>Không hối thúc</h3>
-        <p>Các việc do tay bạn làm không có đếm giây. Thanh tiến độ đầy dần rồi dừng lại chờ bạn.</p>
-      </div>
-    </div>
-  </section>
+      <div class="phone"><img src="../img/vi/02-start.jpg" alt="Trong lúc luộc mì, nước sốt cũng xong" width="720" height="1558" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2>Màn hình</h2>
-    <div class="shots">
-      <figure>
-        <img src="../images/home.png" alt="Màn hình chính để chọn món. Mì Ý aglio e olio, khoảng 15 phút, 2 nồi.">
-        <figcaption>Chỉ những gì cần khi chọn — mất bao lâu và cần mấy nồi</figcaption>
-      </figure>
-      <figure>
-        <img src="../images/cook.png" alt="Màn hình khi nấu: thẻ việc cần làm lúc này, hai ô nồi và dòng thời gian.">
-        <figcaption>Việc cần làm bây giờ · trạng thái nồi · toàn bộ dòng thời gian</figcaption>
-      </figure>
-    </div>
-  </section>
 
-  <section>
-    <h2>Màu cho biết mức khẩn cấp</h2>
-    <table>
-      <tr>
-        <th><span class="dot calm"></span>Xanh lá</th>
-        <td>Việc chuẩn bị. Cứ thong thả.</td>
-      </tr>
-      <tr>
-        <th><span class="dot now"></span>Màu đất nung</th>
-        <td>Để lại thì mì nhũn hoặc cháy. Phải làm ngay.</td>
-      </tr>
-      <tr>
-        <th><span class="dot pot"></span>Ô nồi</th>
-        <td>Hình vuông nhỏ lại đến đâu là thời gian còn lại đến đó. Nồi là chiếc đồng hồ phải canh chừng, nên ở đây thời gian không bao giờ bị ẩn.</td>
-      </tr>
-    </table>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Thử ngay</h2>
+      <p class="muted">Nấu một đĩa mì Ý aglio e olio ở tốc độ gấp 20 lần. Chạm Bắt đầu nấu, rồi chạm Tiếp theo mỗi khi bạn coi như đã xong một việc. Hãy xem thẻ thay đổi thế nào khi đến lúc vớt mì.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Thử ngay&quot;, &quot;lead&quot;: &quot;Nấu một đĩa mì Ý aglio e olio ở tốc độ gấp 20 lần. Chạm Bắt đầu nấu, rồi chạm Tiếp theo mỗi khi bạn coi như đã xong một việc. Hãy xem thẻ thay đổi thế nào khi đến lúc vớt mì.&quot;, &quot;note&quot;: &quot;Cùng công thức, cùng cách tính thứ tự như trong ứng dụng. Chỉ có đồng hồ chạy nhanh hơn.&quot;, &quot;again&quot;: &quot;Làm lại từ đầu&quot;, &quot;app&quot;: {&quot;first&quot;: &quot;Việc đầu tiên khi bắt đầu&quot;, &quot;startHint&quot;: &quot;Chạm “Bắt đầu nấu” bên dưới để các bộ hẹn giờ của nồi bắt đầu chạy&quot;, &quot;now&quot;: &quot;Việc cần làm bây giờ&quot;, &quot;nowCant&quot;: &quot;Bây giờ · không thể để lại sau&quot;, &quot;late&quot;: &quot;Trễ rồi · làm ngay bây giờ&quot;, &quot;calm&quot;: &quot;Việc cần làm bây giờ · không cần vội&quot;, &quot;ready&quot;: &quot;Xong rồi 🍴 Dọn ra đĩa thôi&quot;, &quot;handsDone&quot;: &quot;Tay bạn đã xong việc — chỉ còn chờ nồi&quot;, &quot;upNext&quot;: &quot;Tiếp theo · %@ %@&quot;, &quot;resume&quot;: &quot;Việc đang làm dở · %@ %@ — làm xong việc này trước rồi làm tiếp&quot;, &quot;saidNext&quot;: &quot;Xong rồi? Nói “tiếp theo”&quot;, &quot;empty&quot;: &quot;Trống&quot;, &quot;onIt&quot;: &quot;Bạn đang làm&quot;, &quot;finished&quot;: &quot;Đã dùng xong&quot;, &quot;start&quot;: &quot;Bắt đầu nấu&quot;, &quot;next&quot;: &quot;Tiếp theo&quot;, &quot;elapsed&quot;: &quot;Thời gian đã trôi qua&quot;, &quot;names&quot;: {&quot;ao-water-on&quot;: &quot;Bắc nước lên bếp, bật lửa lớn&quot;, &quot;ao-boil&quot;: &quot;Đun sôi nước&quot;, &quot;ao-drop&quot;: &quot;Khi nước sôi, cho mì vào&quot;, &quot;ao-pasta&quot;: &quot;Luộc mì&quot;, &quot;ao-reserve&quot;: &quot;Vớt mì ra và giữ lại nước luộc mì&quot;, &quot;ao-garlic&quot;: &quot;Phi tỏi với dầu&quot;, &quot;ao-toss&quot;: &quot;Cho nước luộc mì vào và đánh cho hòa quyện&quot;, &quot;ao-prep&quot;: &quot;Lấy nguyên liệu ra và bắc chảo lên&quot;, &quot;ao-slice&quot;: &quot;Thái tỏi lát mỏng&quot;, &quot;ao-pepper&quot;: &quot;Băm ớt khô và mùi tây&quot;, &quot;ao-cheese&quot;: &quot;Bào phô mai và làm ấm đĩa&quot;}, &quot;lanes&quot;: [&quot;Nồi luộc mì&quot;, &quot;Chảo nước sốt&quot;], &quot;progress&quot;: {&quot;ao-boil&quot;: &quot;Đang đun sôi nước&quot;, &quot;ao-pasta&quot;: &quot;Đang luộc mì&quot;}}}"></div>
+    </section>
 
-  <section>
-    <h2>Công thức có sẵn</h2>
-    <table>
-      <tr><th>Mì Ý aglio e olio</th><td>Khoảng 15 phút · 2 nồi · Nguồn: Serious Eats, Gimme Some Oven</td></tr>
-      <tr><th>Mì Ý sốt kem cà chua</th><td>Khoảng 20 phút · 2 nồi · Nguồn: RecipeTin Eats, The Burnt Butter Table</td></tr>
-    </table>
-  </section>
+    <section class="problem reveal">
+      <h2>Đặt ba cái hẹn giờ mà mì vẫn bị nhũn?</h2>
+      <p>Một hẹn giờ cho mì, một cho sốt, còn thời gian phi tỏi thì nhớ trong đầu, rồi chẳng biết việc nào trước. Đang thái tỏi thì lỡ lúc vớt mì, còn sốt xong muộn hơn mì hai phút. Geusaie hiểu công thức theo kiểu “xong việc này đến việc kia”, nên chỉ nói cho bạn đúng một việc cần làm lúc này.</p>
+    </section>
 
-  <section id="contact">
-    <h2>Liên hệ</h2>
-    <p>Bị vướng, thấy điều gì lạ hay muốn thêm công thức, chúng tôi đều hoan nghênh. Hãy gửi email tới <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> hoặc dùng Cài đặt ▸ Gửi phản hồi trong ứng dụng. Các câu hỏi thường gặp nằm ở <a href="support.html">trang hỗ trợ</a>.</p>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Việc không thể chờ thì thẻ chuyển đỏ</h2>
+        <p>Vớt mì, tỏi sắp cháy: khi đến việc mà trễ là hỏng món, thẻ chuyển sang màu đất nung và nhắc bạn tạm gác việc sơ chế.<br>Khi một nồi xong, bạn nhận thông báo dù không nhìn màn hình, kèm việc cần làm ngay.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/04-deadline.jpg" alt="Việc không thể chờ thì thẻ chuyển đỏ" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
 
-  <!-- langnav:start -->
-  <nav class="langnav" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> · <a href="../en/" hreflang="en" lang="en">English</a> · <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../it/" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/" hreflang="th" lang="th">ไทย</a> · <b>Tiếng Việt</b> · <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/" hreflang="da" lang="da">Dansk</a> · <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
-  <!-- langnav:end -->
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Thái, bào chỉ làm khi rảnh tay</h2>
+        <p>Thái tỏi, bào phô mai, cân đong: những việc này không gắn với đồng hồ nên ứng dụng không đếm từng giây. Thanh tiến độ chỉ tăng khi tay bạn rảnh, dừng khi nồi gọi và làm tiếp từ chỗ cũ khi bạn quay lại.<br>Bật bếp trễ ba phút thì các việc sau cũng lùi ba phút. Lịch được tính lại mỗi lần từ thời điểm bạn thực sự làm.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/03-prep.jpg" alt="Thái, bào chỉ làm khi rảnh tay" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Dựng cạnh bếp, nói để qua bước</h2>
+        <p>Phóng chữ được bốn mức để đứng cách một hai bước vẫn đọc rõ, và màn hình không tắt khi đang nấu.<br>Tay ướt? Hãy nói <code>tiếp theo</code>, ứng dụng sẽ sang việc kế tiếp mà không cần chạm màn hình.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/05-bigtext.jpg" alt="Dựng cạnh bếp, nói để qua bước" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Bắt đầu chỉ với ba bước</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Chọn món</h3><p>Chỉ cần xem mất khoảng bao lâu và cần mấy nồi.</p></li>
+<li class="card"><span class="n">2</span><h3>Chạm Bắt đầu nấu</h3><p>Ứng dụng cho xem việc đầu tiên trước, và đồng hồ của nồi chạy ngay khi bạn chạm.</p></li>
+<li class="card"><span class="n">3</span><h3>Xong thì Tiếp theo</h3><p>Chạm nút hoặc nói “tiếp theo”, việc kế tiếp sẽ hiện ra.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Màu sắc cho biết mức độ gấp</h2>
+      <div class="card table">
+        <dl><div><dt>Xanh lá</dt><dd>Việc sơ chế. Cứ từ từ.</dd></div><div><dt>Vàng mù tạt</dt><dd>Đến lượt việc ở nồi. Làm bây giờ là được, chưa gấp.</dd></div><div><dt>Màu đất nung</dt><dd>Để lâu là mì nhũn hoặc tỏi cháy. Làm ngay.</dd></div><div><dt>Ô của nồi</dt><dd>Ô vuông co lại bao nhiêu là thời gian còn lại bấy nhiêu. Thời gian của nồi không bao giờ bị giấu.</dd></div></dl>
+      </div>
+      <p class="muted">Trên dòng thời gian, thanh nét đứt là việc có thể để sau.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Mọi tính năng đều miễn phí</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Miễn phí</h3>
+          <ul><li>Cả hai công thức</li><li>Hẹn giờ riêng từng nồi và toàn bộ dòng thời gian</li><li>Thông báo khi một nồi xong</li><li>Nói “tiếp theo” để qua bước</li><li>Bốn cỡ chữ</li><li>Mở công thức bằng Siri hoặc Phím tắt</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Ủng hộ nhà phát triển (tùy chọn)</h3>
+          <ul><li>Nếu thấy hữu ích, bạn có thể gửi một khoản tip nhỏ trong Cài đặt</li><li>Tip không mở khóa gì cả. Không gửi thì mọi tính năng vẫn như cũ</li></ul>
+          <p class="muted">Tip trả từng lần, không phải gói đăng ký.</p>
+        </div>
+      </div>
+      <p class="muted">Không tài khoản, không quảng cáo, không có mạng vẫn nấu được.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Câu hỏi thường gặp</h2>
+      <div class="faq"><details><summary>Nói “tiếp theo” mà không qua bước.</summary><p>Nút micro ở góc dưới bên trái có màu đỏ khi đang nghe, màu xám khi đã tắt. Lần đầu bạn cần cho phép cả micro và nhận dạng giọng nói; nếu đã từ chối, hãy bật lại trong ứng dụng Cài đặt &gt; Geusaie. Ứng dụng nghe đúng từ ghi trên nút Tiếp theo. Nếu bếp quá ồn, hãy chạm nút Tiếp theo ở dưới.</p></details>
+<details><summary>Nồi đã xong mà không có thông báo.</summary><p>Hãy kiểm tra thông báo đã bật trong Cài đặt &gt; Thông báo &gt; Geusaie. Khi bật chế độ Tập trung, âm thanh có thể bị tắt. Thông báo chỉ đến khi một nồi xong; việc sơ chế như thái hay bào sẽ không nhắc để bạn khỏi bị hối thúc.</p></details>
+<details><summary>Bắt đầu trễ thì lịch nấu thế nào?</summary><p>Lịch được tính lại từ thời điểm bạn thực sự làm. Bật bếp trễ ba phút thì các việc sau cũng lùi ba phút, còn nước sốt vẫn được tính ngược từ lúc mì vớt ra.</p></details>
+<details><summary>Chữ nhỏ quá.</summary><p>Trên màn hình nấu, chạm nút cỡ chữ ở góc trên bên phải và chọn Thường, Lớn, Lớn hơn hoặc Lớn nhất. Lựa chọn của bạn được giữ cho lần sau.</p></details>
+<details><summary>Màn hình có tắt khi đang nấu không?</summary><p>Không. Trong lúc nấu màn hình luôn sáng, để bạn không phải chạm vào khi tay ướt.</p></details>
+<details><summary>Có những món nào?</summary><p>Mì Ý aglio e olio (khoảng 15 phút, 2 nồi) và mì Ý sốt kem cà chua (khoảng 20 phút, 2 nồi), dựa trên công thức của Serious Eats, Gimme Some Oven, RecipeTin Eats và The Burnt Butter Table. Món nào dùng hai nồi cùng lúc cũng hợp, nên hãy cho chúng tôi biết bạn muốn thêm công thức nào.</p></details>
+<details><summary>Giọng nói của tôi có bị lưu lại không?</summary><p>Không. Ứng dụng chỉ nghe từ “tiếp theo”, không ghi âm và không lưu âm thanh. Nếu thiết bị hỗ trợ, việc nhận dạng chỉ diễn ra trên thiết bị. Không thu thập dữ liệu cá nhân.</p></details>
+<details><summary>Có mở bằng Siri được không?</summary><p>Được. Chọn món trong Siri hoặc ứng dụng Phím tắt, màn hình nấu của món đó sẽ mở ngay. Đồng hồ chỉ chạy khi bạn sẵn sàng bắc nước và chạm Bắt đầu nấu.</p></details>
+<details><summary>Dùng được trên thiết bị nào?</summary><p>iPhone và iPad chạy iOS 17 trở lên. Không cần tài khoản hay kết nối Internet.</p></details>
+<details><summary>Làm sao báo lỗi hoặc đề xuất công thức?</summary><p>Gửi từ Cài đặt &gt; Gửi góp ý trong ứng dụng, hoặc qua email bên dưới. Ghi kèm dòng máy và phiên bản iOS sẽ giúp chúng tôi kiểm tra nhanh hơn. Chúng tôi thường trả lời trong vài ngày.</p></details></div>
+      <p class="contact">Gặp khó khăn, thấy điều gì lạ hay muốn thêm công thức, hãy gửi về <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Tối nay, mì và sốt<br>xong cùng một lúc</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793473149">Tải miễn phí trên App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p>iPhone · iOS 17 trở lên · màn hình dọc</p>
-    <div class="links">
-      <a href="support.html">Hỗ trợ · Câu hỏi thường gặp</a>
-      <a href="privacy.html">Chính sách quyền riêng tư</a>
-      <a href="https://github.com/M1zz/geusaie">Mã nguồn</a>
-    </div>
+    <nav id="languages" class="langs" aria-label="Ngôn ngữ"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Geusaie</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

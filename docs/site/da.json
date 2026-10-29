@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: køkkentimeren til to gryder på én gang",
+  "description": "Saucen er klar, mens pastaen koger. Geusaie viser den ene opgave, der er på nu, tæller hver gryde for sig og går videre, når du siger næste. Gratis.",
+  "hero": {
+    "headline": "Pastaen koger.\nImens bliver saucen færdig.",
+    "lead": "Når to gryder kører i hvert sit tempo, viser Geusaie med stor tekst den ene ting, dine hænder skal gøre lige nu. Saucen bliver regnet baglæns fra det øjeblik, pastaen skal hældes fra.",
+    "cta": "Hent gratis i App Store",
+    "note": "Alle funktioner er gratis. Ingen konto nødvendig."
+  },
+  "demo": {
+    "title": "Prøv selv",
+    "lead": "Lav en portion aglio e olio i 20 gange fart. Tryk på Start madlavningen, og tryk så på Næste, hver gang du ville være færdig med en opgave. Se, hvordan kortet ændrer sig, når pastaen skal hældes fra.",
+    "note": "Samme opskrift og samme planlægning som i appen. Kun uret går hurtigere.",
+    "again": "Start forfra",
+    "app": {
+      "first": "Det første, du skal gøre",
+      "startHint": "Tryk på “Start madlavningen” nedenfor, så begynder gryderne at tælle ned",
+      "now": "Gør det nu",
+      "nowCant": "Nu · kan ikke vente",
+      "late": "Forsinket · gør det med det samme",
+      "calm": "Gør det nu · ingen hast",
+      "ready": "Det er klar 🍴 Anret",
+      "handsDone": "Dine hænder er færdige — nu venter du bare på gryderne",
+      "upNext": "Derefter · %@ %@",
+      "resume": "Det du var i gang med · %@ %@ — gør dette færdigt først, og tag så fat igen",
+      "saidNext": "Færdig? Sig “næste”",
+      "empty": "Ledig",
+      "onIt": "Du er i gang",
+      "finished": "Brugt færdig",
+      "start": "Start madlavningen",
+      "next": "Næste",
+      "elapsed": "Forløbet tid",
+      "names": {
+        "ao-water-on": "Sæt vandet over på høj varme",
+        "ao-boil": "Bring vandet i kog",
+        "ao-drop": "Når det koger, kom pastaen i",
+        "ao-pasta": "Kog pastaen",
+        "ao-reserve": "Tag pastaen op og gem kogevandet",
+        "ao-garlic": "Svits hvidløget i olie",
+        "ao-toss": "Tilsæt kogevand og emulger",
+        "ao-prep": "Tag ingredienserne frem og sæt panden på",
+        "ao-slice": "Skær hvidløget i tynde skiver",
+        "ao-pepper": "Hak chili og persille",
+        "ao-cheese": "Riv osten og varm tallerkenerne"
+      },
+      "lanes": [
+        "Pastagryde",
+        "Sauce-pande"
+      ],
+      "progress": {
+        "ao-boil": "Vandet koger",
+        "ao-pasta": "Pastaen koger"
+      }
+    }
+  },
+  "problem": {
+    "title": "Tre timere i gang, og alligevel blev pastaen blød?",
+    "text": "En timer til pastaen, en til saucen og hvidløget i hovedet, og pludselig ved du ikke, hvad der kommer først. Du står og skærer, lige når pastaen skal hældes fra, og saucen er to minutter forsinket. Geusaie kender opskriften som \"først det her, så det der\" og fortæller dig kun den ene ting, du skal gøre nu."
+  },
+  "features": [
+    {
+      "title": "Det, der ikke kan vente, bliver rødt",
+      "text": "Hæld pastaen fra, hvidløg lige før det brænder på: Når en opgave vil ødelægge retten, hvis den bliver forsinket, bliver kortet terrakottafarvet og beder dig lægge snittearbejdet fra dig et øjeblik.\nNår en gryde er færdig, får du en notifikation, også selvom du ikke kigger, med det, du skal gøre med det samme.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Snit, når hænderne er fri",
+      "text": "Skære hvidløg, rive ost, afmåle: intet af det har et fast tidspunkt, så der tælles ikke sekunder ned. Bjælken fyldes, mens dine hænder er fri, stopper, når en gryde kalder, og fortsætter, hvor du slap.\nTænder du blusset tre minutter for sent, rykker alt det efterfølgende tre minutter. Planen regnes forfra ud fra det, du faktisk har gjort.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Stil den på køkkenbordet, og gå videre med stemmen",
+      "text": "Fire tekststørrelser, så du kan læse den på et par skridts afstand, og skærmen slukker ikke, mens du laver mad.\nVåde hænder? Sig `næste`, så går appen videre til næste opgave uden berøring.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Tre trin til aftensmaden",
+    "items": [
+      {
+        "title": "Vælg en ret",
+        "text": "Du ser cirka hvor lang tid den tager, og hvor mange gryder du skal bruge."
+      },
+      {
+        "title": "Tryk på Start madlavningen",
+        "text": "Først vises din første opgave, og grydernes ure starter, i det øjeblik du trykker."
+      },
+      {
+        "title": "Færdig? Næste.",
+        "text": "Tryk på knappen eller sig \"næste\", så kommer den næste opgave frem."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Farven viser, hvor meget det haster",
+    "rows": [
+      [
+        "Grøn",
+        "Forberedelse. Tag den med ro."
+      ],
+      [
+        "Sennepsgul",
+        "En gryde har brug for dig. Gør det nu, men uden stress."
+      ],
+      [
+        "Terrakotta",
+        "Venter du, bliver pastaen blød eller hvidløget brænder på. Gør det nu."
+      ],
+      [
+        "Grydefelter",
+        "Firkanten, der skrumper, er den tid, der er tilbage. Grydernes tid bliver aldrig skjult."
+      ]
+    ],
+    "note": "På tidslinjen er stiplede bjælker opgaver, der godt kan vente."
+  },
+  "pricing": {
+    "title": "Alle funktioner er gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Begge opskrifter",
+        "En timer til hver gryde og hele tidslinjen",
+        "Notifikation, når en gryde er færdig",
+        "\"Næste\" med stemmen",
+        "Fire tekststørrelser",
+        "Åbn en opskrift med Siri eller Genveje"
+      ]
+    },
+    "pro": {
+      "name": "Støt udvikleren (frivilligt)",
+      "items": [
+        "Hvis appen hjælper dig, kan du give lidt drikkepenge i Indstillinger",
+        "Drikkepenge låser ikke noget op. Uden dem har du stadig alle funktioner"
+      ],
+      "note": "Engangsbeløb, ikke et abonnement."
+    },
+    "note": "Ingen konto, ingen reklamer, og den virker uden internet."
+  },
+  "faq": {
+    "title": "Ofte stillede spørgsmål",
+    "items": [
+      {
+        "q": "Jeg siger \"næste\", men der sker ikke noget.",
+        "a": "Mikrofonknappen nederst til venstre er rød, mens appen lytter, og grå, når den er slået fra. Første gang skal du give adgang til både mikrofon og talegenkendelse. Har du sagt nej, kan du slå dem til igen i Indstillinger > Geusaie. Appen lytter efter det ord, der står på dens Næste-knap. I et meget larmende køkken trykker du bare på Næste."
+      },
+      {
+        "q": "En gryde blev færdig, men jeg fik ingen notifikation.",
+        "a": "Tjek, at notifikationer er slået til i Indstillinger > Notifikationer > Geusaie. Et fokus kan gøre dem lydløse. Der kommer kun notifikationer, når en gryde er færdig; forberedelsen presser dig aldrig."
+      },
+      {
+        "q": "Hvad sker der med planen, hvis jeg starter for sent?",
+        "a": "Den regnes om ud fra det, du faktisk har gjort. Tænder du blusset tre minutter senere, rykker alt efterfølgende tre minutter, og saucen bliver stadig regnet baglæns fra det øjeblik, pastaen er klar."
+      },
+      {
+        "q": "Teksten er for lille.",
+        "a": "Tryk på knappen for tekststørrelse øverst til højre på madlavningsskærmen, og vælg Normal, Stor, Større eller Størst. Dit valg bliver husket."
+      },
+      {
+        "q": "Slukker skærmen, mens jeg laver mad?",
+        "a": "Nej. Skærmen forbliver tændt, mens du laver mad, så du aldrig behøver røre den med våde hænder."
+      },
+      {
+        "q": "Hvilke retter er med?",
+        "a": "Aglio e olio (ca. 15 minutter, 2 gryder) og pasta i tomat-flødesauce (ca. 20 minutter, 2 gryder), baseret på opskrifter fra Serious Eats, Gimme Some Oven, RecipeTin Eats og The Burnt Butter Table. Enhver ret med to gryder i gang på én gang passer godt, så skriv endelig, hvad du gerne vil se."
+      },
+      {
+        "q": "Bliver min stemme optaget?",
+        "a": "Nej. Appen lytter kun efter ordet \"næste\" og optager eller gemmer ikke lyd. Hvis enheden understøtter det, sker talegenkendelsen på selve enheden. Der indsamles ingen personoplysninger."
+      },
+      {
+        "q": "Kan jeg åbne den med Siri?",
+        "a": "Ja. Vælg en ret i Siri eller appen Genveje, så åbner dens madlavningsskærm med det samme. Urene starter først, når du er klar til at sætte vandet over og trykker på Start madlavningen."
+      },
+      {
+        "q": "Hvilke enheder virker den på?",
+        "a": "iPhone og iPad med iOS 17 eller nyere. Ingen konto eller internetforbindelse nødvendig."
+      },
+      {
+        "q": "Hvordan melder jeg en fejl eller foreslår en opskrift?",
+        "a": "Via Indstillinger > Send feedback i appen eller på mail til adressen nedenfor. Skriv gerne din enhedsmodel og iOS-version, så kan vi se på det hurtigere. Vi svarer som regel inden for få dage."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "I aften er pasta\nog sauce klar samtidig",
+    "cta": "Hent gratis i App Store"
+  },
+  "ui": {
+    "skip": "Gå til indhold",
+    "languages": "Sprog",
+    "privacy": "Privatlivspolitik",
+    "contact": "Sidder du fast, har du set noget mærkeligt, eller har du en opskrift i tankerne? Skriv til {email}."
+  }
+}

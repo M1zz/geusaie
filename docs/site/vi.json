@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: hẹn giờ nấu ăn cho hai nồi cùng lúc",
+  "description": "Luộc mì xong là sốt cũng vừa xong. Geusaie hiện chữ lớn đúng một việc cần làm, đếm giờ riêng từng nồi, tay ướt thì chỉ cần nói tiếp theo. Miễn phí.",
+  "hero": {
+    "headline": "Trong lúc luộc mì,\nnước sốt cũng xong",
+    "lead": "Khi hai nồi chạy theo nhịp khác nhau, Geusaie hiện chữ lớn đúng một việc tay bạn cần làm ngay bây giờ. Nước sốt được tính ngược từ lúc mì vớt ra.",
+    "cta": "Tải miễn phí trên App Store",
+    "note": "Mọi tính năng đều miễn phí. Không cần tài khoản."
+  },
+  "demo": {
+    "title": "Thử ngay",
+    "lead": "Nấu một đĩa mì Ý aglio e olio ở tốc độ gấp 20 lần. Chạm Bắt đầu nấu, rồi chạm Tiếp theo mỗi khi bạn coi như đã xong một việc. Hãy xem thẻ thay đổi thế nào khi đến lúc vớt mì.",
+    "note": "Cùng công thức, cùng cách tính thứ tự như trong ứng dụng. Chỉ có đồng hồ chạy nhanh hơn.",
+    "again": "Làm lại từ đầu",
+    "app": {
+      "first": "Việc đầu tiên khi bắt đầu",
+      "startHint": "Chạm “Bắt đầu nấu” bên dưới để các bộ hẹn giờ của nồi bắt đầu chạy",
+      "now": "Việc cần làm bây giờ",
+      "nowCant": "Bây giờ · không thể để lại sau",
+      "late": "Trễ rồi · làm ngay bây giờ",
+      "calm": "Việc cần làm bây giờ · không cần vội",
+      "ready": "Xong rồi 🍴 Dọn ra đĩa thôi",
+      "handsDone": "Tay bạn đã xong việc — chỉ còn chờ nồi",
+      "upNext": "Tiếp theo · %@ %@",
+      "resume": "Việc đang làm dở · %@ %@ — làm xong việc này trước rồi làm tiếp",
+      "saidNext": "Xong rồi? Nói “tiếp theo”",
+      "empty": "Trống",
+      "onIt": "Bạn đang làm",
+      "finished": "Đã dùng xong",
+      "start": "Bắt đầu nấu",
+      "next": "Tiếp theo",
+      "elapsed": "Thời gian đã trôi qua",
+      "names": {
+        "ao-water-on": "Bắc nước lên bếp, bật lửa lớn",
+        "ao-boil": "Đun sôi nước",
+        "ao-drop": "Khi nước sôi, cho mì vào",
+        "ao-pasta": "Luộc mì",
+        "ao-reserve": "Vớt mì ra và giữ lại nước luộc mì",
+        "ao-garlic": "Phi tỏi với dầu",
+        "ao-toss": "Cho nước luộc mì vào và đánh cho hòa quyện",
+        "ao-prep": "Lấy nguyên liệu ra và bắc chảo lên",
+        "ao-slice": "Thái tỏi lát mỏng",
+        "ao-pepper": "Băm ớt khô và mùi tây",
+        "ao-cheese": "Bào phô mai và làm ấm đĩa"
+      },
+      "lanes": [
+        "Nồi luộc mì",
+        "Chảo nước sốt"
+      ],
+      "progress": {
+        "ao-boil": "Đang đun sôi nước",
+        "ao-pasta": "Đang luộc mì"
+      }
+    }
+  },
+  "problem": {
+    "title": "Đặt ba cái hẹn giờ mà mì vẫn bị nhũn?",
+    "text": "Một hẹn giờ cho mì, một cho sốt, còn thời gian phi tỏi thì nhớ trong đầu, rồi chẳng biết việc nào trước. Đang thái tỏi thì lỡ lúc vớt mì, còn sốt xong muộn hơn mì hai phút. Geusaie hiểu công thức theo kiểu “xong việc này đến việc kia”, nên chỉ nói cho bạn đúng một việc cần làm lúc này."
+  },
+  "features": [
+    {
+      "title": "Việc không thể chờ thì thẻ chuyển đỏ",
+      "text": "Vớt mì, tỏi sắp cháy: khi đến việc mà trễ là hỏng món, thẻ chuyển sang màu đất nung và nhắc bạn tạm gác việc sơ chế.\nKhi một nồi xong, bạn nhận thông báo dù không nhìn màn hình, kèm việc cần làm ngay.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Thái, bào chỉ làm khi rảnh tay",
+      "text": "Thái tỏi, bào phô mai, cân đong: những việc này không gắn với đồng hồ nên ứng dụng không đếm từng giây. Thanh tiến độ chỉ tăng khi tay bạn rảnh, dừng khi nồi gọi và làm tiếp từ chỗ cũ khi bạn quay lại.\nBật bếp trễ ba phút thì các việc sau cũng lùi ba phút. Lịch được tính lại mỗi lần từ thời điểm bạn thực sự làm.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Dựng cạnh bếp, nói để qua bước",
+      "text": "Phóng chữ được bốn mức để đứng cách một hai bước vẫn đọc rõ, và màn hình không tắt khi đang nấu.\nTay ướt? Hãy nói `tiếp theo`, ứng dụng sẽ sang việc kế tiếp mà không cần chạm màn hình.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "Bắt đầu chỉ với ba bước",
+    "items": [
+      {
+        "title": "Chọn món",
+        "text": "Chỉ cần xem mất khoảng bao lâu và cần mấy nồi."
+      },
+      {
+        "title": "Chạm Bắt đầu nấu",
+        "text": "Ứng dụng cho xem việc đầu tiên trước, và đồng hồ của nồi chạy ngay khi bạn chạm."
+      },
+      {
+        "title": "Xong thì Tiếp theo",
+        "text": "Chạm nút hoặc nói “tiếp theo”, việc kế tiếp sẽ hiện ra."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Màu sắc cho biết mức độ gấp",
+    "rows": [
+      [
+        "Xanh lá",
+        "Việc sơ chế. Cứ từ từ."
+      ],
+      [
+        "Vàng mù tạt",
+        "Đến lượt việc ở nồi. Làm bây giờ là được, chưa gấp."
+      ],
+      [
+        "Màu đất nung",
+        "Để lâu là mì nhũn hoặc tỏi cháy. Làm ngay."
+      ],
+      [
+        "Ô của nồi",
+        "Ô vuông co lại bao nhiêu là thời gian còn lại bấy nhiêu. Thời gian của nồi không bao giờ bị giấu."
+      ]
+    ],
+    "note": "Trên dòng thời gian, thanh nét đứt là việc có thể để sau."
+  },
+  "pricing": {
+    "title": "Mọi tính năng đều miễn phí",
+    "free": {
+      "name": "Miễn phí",
+      "items": [
+        "Cả hai công thức",
+        "Hẹn giờ riêng từng nồi và toàn bộ dòng thời gian",
+        "Thông báo khi một nồi xong",
+        "Nói “tiếp theo” để qua bước",
+        "Bốn cỡ chữ",
+        "Mở công thức bằng Siri hoặc Phím tắt"
+      ]
+    },
+    "pro": {
+      "name": "Ủng hộ nhà phát triển (tùy chọn)",
+      "items": [
+        "Nếu thấy hữu ích, bạn có thể gửi một khoản tip nhỏ trong Cài đặt",
+        "Tip không mở khóa gì cả. Không gửi thì mọi tính năng vẫn như cũ"
+      ],
+      "note": "Tip trả từng lần, không phải gói đăng ký."
+    },
+    "note": "Không tài khoản, không quảng cáo, không có mạng vẫn nấu được."
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "Nói “tiếp theo” mà không qua bước.",
+        "a": "Nút micro ở góc dưới bên trái có màu đỏ khi đang nghe, màu xám khi đã tắt. Lần đầu bạn cần cho phép cả micro và nhận dạng giọng nói; nếu đã từ chối, hãy bật lại trong ứng dụng Cài đặt > Geusaie. Ứng dụng nghe đúng từ ghi trên nút Tiếp theo. Nếu bếp quá ồn, hãy chạm nút Tiếp theo ở dưới."
+      },
+      {
+        "q": "Nồi đã xong mà không có thông báo.",
+        "a": "Hãy kiểm tra thông báo đã bật trong Cài đặt > Thông báo > Geusaie. Khi bật chế độ Tập trung, âm thanh có thể bị tắt. Thông báo chỉ đến khi một nồi xong; việc sơ chế như thái hay bào sẽ không nhắc để bạn khỏi bị hối thúc."
+      },
+      {
+        "q": "Bắt đầu trễ thì lịch nấu thế nào?",
+        "a": "Lịch được tính lại từ thời điểm bạn thực sự làm. Bật bếp trễ ba phút thì các việc sau cũng lùi ba phút, còn nước sốt vẫn được tính ngược từ lúc mì vớt ra."
+      },
+      {
+        "q": "Chữ nhỏ quá.",
+        "a": "Trên màn hình nấu, chạm nút cỡ chữ ở góc trên bên phải và chọn Thường, Lớn, Lớn hơn hoặc Lớn nhất. Lựa chọn của bạn được giữ cho lần sau."
+      },
+      {
+        "q": "Màn hình có tắt khi đang nấu không?",
+        "a": "Không. Trong lúc nấu màn hình luôn sáng, để bạn không phải chạm vào khi tay ướt."
+      },
+      {
+        "q": "Có những món nào?",
+        "a": "Mì Ý aglio e olio (khoảng 15 phút, 2 nồi) và mì Ý sốt kem cà chua (khoảng 20 phút, 2 nồi), dựa trên công thức của Serious Eats, Gimme Some Oven, RecipeTin Eats và The Burnt Butter Table. Món nào dùng hai nồi cùng lúc cũng hợp, nên hãy cho chúng tôi biết bạn muốn thêm công thức nào."
+      },
+      {
+        "q": "Giọng nói của tôi có bị lưu lại không?",
+        "a": "Không. Ứng dụng chỉ nghe từ “tiếp theo”, không ghi âm và không lưu âm thanh. Nếu thiết bị hỗ trợ, việc nhận dạng chỉ diễn ra trên thiết bị. Không thu thập dữ liệu cá nhân."
+      },
+      {
+        "q": "Có mở bằng Siri được không?",
+        "a": "Được. Chọn món trong Siri hoặc ứng dụng Phím tắt, màn hình nấu của món đó sẽ mở ngay. Đồng hồ chỉ chạy khi bạn sẵn sàng bắc nước và chạm Bắt đầu nấu."
+      },
+      {
+        "q": "Dùng được trên thiết bị nào?",
+        "a": "iPhone và iPad chạy iOS 17 trở lên. Không cần tài khoản hay kết nối Internet."
+      },
+      {
+        "q": "Làm sao báo lỗi hoặc đề xuất công thức?",
+        "a": "Gửi từ Cài đặt > Gửi góp ý trong ứng dụng, hoặc qua email bên dưới. Ghi kèm dòng máy và phiên bản iOS sẽ giúp chúng tôi kiểm tra nhanh hơn. Chúng tôi thường trả lời trong vài ngày."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Tối nay, mì và sốt\nxong cùng một lúc",
+    "cta": "Tải miễn phí trên App Store"
+  },
+  "ui": {
+    "skip": "Bỏ qua đến nội dung",
+    "languages": "Ngôn ngữ",
+    "privacy": "Chính sách quyền riêng tư",
+    "contact": "Gặp khó khăn, thấy điều gì lạ hay muốn thêm công thức, hãy gửi về {email}."
+  }
+}

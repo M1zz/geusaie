@@ -1,0 +1,194 @@
+{
+  "title": "Geusaie: de kooktimer voor twee pannen tegelijk",
+  "description": "De saus is klaar terwijl de pasta kookt. Geusaie toont de ene taak van nu, telt elke pan apart af en gaat door als je volgende zegt. Gratis.",
+  "hero": {
+    "headline": "De pasta kookt.\nIntussen is de saus ook klaar.",
+    "lead": "Als twee pannen op een ander tempo gaan, laat Geusaie groot zien wat je handen nu moeten doen. De saus wordt teruggerekend vanaf het moment dat de pasta uit het water komt.",
+    "cta": "Gratis downloaden in de App Store",
+    "note": "Alle functies zijn gratis. Geen account nodig."
+  },
+  "demo": {
+    "title": "Probeer het",
+    "lead": "Kook een pan aglio e olio op 20x snelheid. Tik op ‘Begin met koken’ en daarna op ‘Volgende’ telkens als je een taak af zou hebben. Kijk hoe de kaart verandert als de pasta moet worden afgegoten.",
+    "note": "Hetzelfde recept en dezelfde planning als in de app. Alleen de klok loopt sneller.",
+    "again": "Opnieuw beginnen",
+    "app": {
+      "first": "Dit eerst",
+      "startHint": "Tik hieronder op “Begin met koken”, dan gaan de timers van de pannen lopen",
+      "now": "Nu doen",
+      "nowCant": "Nu · kan niet wachten",
+      "late": "Te laat · doe het meteen",
+      "calm": "Nu doen · geen haast",
+      "ready": "Het is klaar 🍴 Opscheppen maar",
+      "handsDone": "Je handen zijn klaar — nu alleen nog wachten op de pannen",
+      "upNext": "Daarna · %@ %@",
+      "resume": "Waar je mee bezig was · %@ %@ — maak dit eerst af en ga dan verder",
+      "saidNext": "Klaar? Zeg ‘volgende’",
+      "empty": "Leeg",
+      "onIt": "Je bent bezig",
+      "finished": "Uitgediend",
+      "start": "Begin met koken",
+      "next": "Volgende",
+      "elapsed": "Verstreken tijd",
+      "names": {
+        "ao-water-on": "Zet het water op hoog vuur",
+        "ao-boil": "Breng het water aan de kook",
+        "ao-drop": "Als het kookt, doe je de pasta erin",
+        "ao-pasta": "Kook de pasta",
+        "ao-reserve": "Schep de pasta eruit en bewaar het kookwater",
+        "ao-garlic": "Bak de knoflook in de olie",
+        "ao-toss": "Voeg het kookwater toe en emulgeer",
+        "ao-prep": "Pak de ingrediënten en zet de pan op het vuur",
+        "ao-slice": "Snijd de knoflook in dunne plakjes",
+        "ao-pepper": "Hak de peperoncino en de peterselie",
+        "ao-cheese": "Rasp de kaas en verwarm de borden"
+      },
+      "lanes": [
+        "Pastapan",
+        "Sauspan"
+      ],
+      "progress": {
+        "ao-boil": "Water kookt",
+        "ao-pasta": "Pasta kookt"
+      }
+    }
+  },
+  "problem": {
+    "title": "Drie timers aan en toch een papperige pasta?",
+    "text": "Een timer voor de pasta, een voor de saus en de knoflook in je hoofd, en ineens weet je niet meer wat eerst moet. Je staat te snijden als de pasta moet worden afgegoten, en de saus is twee minuten te laat. Geusaie kent het recept als ‘eerst dit, dan dat’ en vertelt je alleen wat je nu moet doen."
+  },
+  "features": [
+    {
+      "title": "Wat niet kan wachten, kleurt rood",
+      "text": "Pasta afgieten, knoflook die bijna aanbrandt: als een taak het gerecht verpest zodra hij uitloopt, wordt de kaart terracotta en zegt hij dat je het snijwerk even moet laten liggen.\nIs een pan klaar, dan krijg je een melding, ook als je niet kijkt, met wat je meteen moet doen.",
+      "shot": "04-deadline"
+    },
+    {
+      "title": "Snijden als je handen vrij zijn",
+      "text": "Knoflook snijden, kaas raspen, afwegen: daar hangt geen klok aan, dus Geusaie telt hier geen seconden af. De balk loopt vol zolang je handen vrij zijn, pauzeert als een pan je nodig heeft en gaat verder waar je gebleven was.\nZet je het vuur drie minuten later aan, dan schuift alles daarna drie minuten op. De planning wordt steeds opnieuw berekend op basis van wat je echt hebt gedaan.",
+      "shot": "03-prep"
+    },
+    {
+      "title": "Op het aanrecht zetten, met je stem verder",
+      "text": "Vier tekstgroottes, zodat je het op een stap of twee afstand nog kunt lezen, en het scherm blijft aan terwijl je kookt.\nNatte handen? Zeg `volgende` en de app gaat door naar de volgende taak zonder dat je iets aanraakt.",
+      "shot": "05-bigtext"
+    }
+  ],
+  "steps": {
+    "title": "In drie stappen aan tafel",
+    "items": [
+      {
+        "title": "Kies een gerecht",
+        "text": "Je ziet ongeveer hoelang het duurt en hoeveel pannen je nodig hebt."
+      },
+      {
+        "title": "Tik op ‘Begin met koken’",
+        "text": "Eerst zie je je eerste taak. Vanaf het tikken lopen de klokken van de pannen."
+      },
+      {
+        "title": "Klaar? Volgende.",
+        "text": "Tik op de knop of zeg ‘volgende’ en je volgende taak verschijnt."
+      }
+    ]
+  },
+  "reference": {
+    "title": "De kleur laat zien hoe dringend het is",
+    "rows": [
+      [
+        "Groen",
+        "Voorbereiding. Neem je tijd."
+      ],
+      [
+        "Mosterdgeel",
+        "Een pan heeft je nodig. Nu doen, maar zonder haast."
+      ],
+      [
+        "Terracotta",
+        "Wacht je, dan wordt de pasta papperig of verbrandt de knoflook. Nu doen."
+      ],
+      [
+        "Panvakken",
+        "Het krimpende vierkant is de resterende tijd. De tijd van de pannen wordt nooit verborgen."
+      ]
+    ],
+    "note": "Op de tijdlijn zijn gestippelde balken taken die kunnen wachten."
+  },
+  "pricing": {
+    "title": "Alle functies zijn gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Beide recepten",
+        "Een timer per pan en de volledige tijdlijn",
+        "Een melding als een pan klaar is",
+        "‘Volgende’ met je stem",
+        "Vier tekstgroottes",
+        "Een recept openen met Siri of Opdrachten"
+      ]
+    },
+    "pro": {
+      "name": "Steun de ontwikkelaar (optioneel)",
+      "items": [
+        "Helpt de app je, dan kun je via Instellingen een kleine fooi geven",
+        "Een fooi ontgrendelt niets. Ook zonder blijven alle functies van jou"
+      ],
+      "note": "Losse fooien, geen abonnement."
+    },
+    "note": "Geen account, geen advertenties, en het werkt zonder internet."
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Ik zeg ‘volgende’ maar er gebeurt niets.",
+        "a": "De microfoonknop linksonder is rood terwijl de app luistert en grijs als hij uit staat. Sta de eerste keer zowel de microfoon als spraakherkenning toe. Heb je geweigerd, zet ze dan weer aan via Instellingen > Geusaie. De app luistert naar het woord op de knop Volgende. In een heel lawaaiige keuken tik je gewoon op ‘Volgende’."
+      },
+      {
+        "q": "Een pan was klaar, maar ik kreeg geen melding.",
+        "a": "Controleer of meldingen aanstaan via Instellingen > Berichtgeving > Geusaie. Een focus kan ze dempen. Meldingen komen alleen als een pan klaar is; bij de voorbereiding word je nooit opgejaagd."
+      },
+      {
+        "q": "Wat gebeurt er met de planning als ik later begin?",
+        "a": "Die wordt opnieuw berekend op basis van wat je echt hebt gedaan. Zet je het vuur drie minuten later aan, dan schuift alles daarna drie minuten op, en de saus blijft teruggerekend vanaf het moment dat de pasta klaar is."
+      },
+      {
+        "q": "De tekst is te klein.",
+        "a": "Tik op het kookscherm rechtsboven op de knop voor tekstgrootte en kies Normaal, Groot, Groter of Grootst. Je keuze wordt onthouden."
+      },
+      {
+        "q": "Gaat het scherm uit tijdens het koken?",
+        "a": "Nee. Het scherm blijft aan zolang je kookt, zodat je het nooit met natte handen hoeft aan te raken."
+      },
+      {
+        "q": "Welke gerechten zitten erin?",
+        "a": "Aglio e olio (ongeveer 15 minuten, 2 pannen) en pasta in tomatenroomsaus (ongeveer 20 minuten, 2 pannen), gebaseerd op recepten van Serious Eats, Gimme Some Oven, RecipeTin Eats en The Burnt Butter Table. Elk gerecht met twee pannen tegelijk past goed, dus laat ons weten wat je graag zou zien."
+      },
+      {
+        "q": "Wordt mijn stem opgenomen?",
+        "a": "Nee. De app luistert alleen naar het woord ‘volgende’ en neemt niets op en bewaart geen geluid. Als je apparaat het ondersteunt, gebeurt de spraakherkenning op het apparaat zelf. Er worden geen persoonsgegevens verzameld."
+      },
+      {
+        "q": "Kan ik de app openen met Siri?",
+        "a": "Ja. Kies een gerecht in Siri of de Opdrachten-app en het kookscherm opent meteen. De klokken starten pas als je op ‘Begin met koken’ tikt, zodra je klaar bent om het water op te zetten."
+      },
+      {
+        "q": "Op welke apparaten werkt de app?",
+        "a": "Op iPhone en iPad met iOS 17 of nieuwer. Geen account of internetverbinding nodig."
+      },
+      {
+        "q": "Hoe meld ik een probleem of stel ik een recept voor?",
+        "a": "Via Instellingen > Stuur feedback in de app, of mail naar het adres hieronder. Met je apparaatmodel en iOS-versie kunnen we het sneller bekijken. We antwoorden meestal binnen een paar dagen."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Vanavond zijn pasta\nen saus tegelijk klaar",
+    "cta": "Gratis downloaden in de App Store"
+  },
+  "ui": {
+    "skip": "Naar inhoud",
+    "languages": "Taal",
+    "privacy": "Privacybeleid",
+    "contact": "Loop je ergens vast, zie je iets vreemds of heb je een recept in gedachten? Schrijf naar {email}."
+  }
+}

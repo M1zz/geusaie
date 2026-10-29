@@ -1,207 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="da">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geusaie — Mens pastaen koger, bliver saucen også færdig</title>
-<meta name="description" content="En timer til retter, hvor to gryder kører samtidig. Kun én opgave ad gangen med stor tekst, en separat nedtælling for hver gryde og stemmestyring, når du har våde hænder.">
-<meta property="og:title" content="Geusaie">
-<meta property="og:description" content="Mens pastaen koger, bliver saucen også færdig. En køkkentimer til to gryder på én gang.">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://m1zz.github.io/geusaie/da/">
-<!-- hreflang:start -->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
-<!-- hreflang:end -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
-<style>
-  :root {
-    --cream: #FAF6ED;
-    --card: #F1EAD6;
-    --border: #E3D9BE;
-    --ink: #2D2A24;
-    --ink-soft: #8A8271;
-    --terracotta: #C75B39;
-    --green: #5B8C5A;
-    --mustard: #D99A3C;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
-                 "Noto Sans KR", system-ui, sans-serif;
-    line-height: 1.7;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 72px 0 40px; text-align: center; }
-  .logo { font-size: 56px; line-height: 1; }
-  h1 { font-size: 40px; margin: 12px 0 8px; letter-spacing: -0.02em; }
-  .tagline { font-size: 20px; color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
-  .lede {
-    max-width: 62ch; margin: 28px auto 0; font-size: 17px; color: var(--ink);
-    text-align: left;
-  }
-  section { padding: 44px 0; border-top: 1px solid var(--border); }
-  h2 { font-size: 26px; margin: 0 0 20px; letter-spacing: -0.01em; }
-  .features { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .feature {
-    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-    padding: 20px 22px;
-  }
-  .feature h3 { margin: 0 0 6px; font-size: 18px; }
-  .feature p { margin: 0; color: var(--ink-soft); font-size: 15px; }
-  .feature.now { border-color: rgba(199, 91, 57, .5); background: rgba(199, 91, 57, .10); }
-  .feature.calm { border-color: rgba(91, 140, 90, .45); background: rgba(91, 140, 90, .10); }
-  .shots { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
-  .shots figure { margin: 0; max-width: 300px; }
-  .shots img {
-    width: 100%; border-radius: 22px; border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(45, 42, 36, .10);
-  }
-  .shots figcaption { margin-top: 10px; font-size: 14px; color: var(--ink-soft); text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--ink-soft); font-weight: 700; width: 34%; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
-  .dot.now { background: var(--terracotta); }
-  .dot.calm { background: var(--green); }
-  .dot.pot { background: var(--mustard); }
-  footer { padding: 40px 0 64px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--border); }
-  footer a, a { color: var(--terracotta); }
-  .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
-  @media (max-width: 600px) {
-    header { padding: 48px 0 28px; }
-    h1 { font-size: 32px; }
-    .tagline { font-size: 18px; }
-  }
-  .langnav { margin-top: 28px; font-size: 14px; color: var(--ink-soft); line-height: 2; }
-  .langnav b { color: var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geusaie: køkkentimeren til to gryder på én gang</title>
+  <meta name="description" content="Saucen er klar, mens pastaen koger. Geusaie viser den ene opgave, der er på nu, tæller hver gryde for sig og går videre, når du siger næste. Gratis.">
+  <meta name="theme-color" content="#C75B39" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1E1B16" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793473149">
+  <link rel="canonical" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/geusaie/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/geusaie/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/geusaie/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/geusaie/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/geusaie/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/geusaie/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/geusaie/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/geusaie/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/geusaie/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/geusaie/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/geusaie/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/geusaie/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/geusaie/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/geusaie/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/geusaie/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/geusaie/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/geusaie/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/geusaie/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/geusaie/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/geusaie/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/geusaie/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/geusaie/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/geusaie/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/geusaie/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/geusaie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geusaie: køkkentimeren til to gryder på én gang">
+  <meta property="og:description" content="Saucen er klar, mens pastaen koger. Geusaie viser den ene opgave, der er på nu, tæller hver gryde for sig og går videre, når du siger næste. Gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/geusaie/da/">
+  <meta property="og:image" content="https://m1zz.github.io/geusaie/img/da/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C75B39}@media (prefers-color-scheme:dark){:root{--accent:#E07D5C}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">🍝</div>
-    <h1>Geusaie</h1>
-    <p class="tagline">Mens pastaen koger, bliver saucen også færdig.</p>
-    <p class="lede">Madlavning er svært, ikke fordi dine hænder er langsomme, men fordi tiden i de to gryder løber forskelligt. Pastaen venter ikke på dig, mens man kan skære hvidløg når som helst. Geusaie (“i mellemtiden” på koreansk) kender forskel på de to og viser kun den ene opgave, dine hænder skal gøre lige nu, med stor tekst.</p>
+  <a class="skip" href="#main">Gå til indhold</a>
+  <header class="bar">
+    <a class="brand" href="../da/"><img src="../icon.png" alt="" width="32" height="32">Geusaie</a>
+    <a class="lang-link" href="#languages">Sprog</a>
   </header>
 
-  <section>
-    <h2>Sådan er appen</h2>
-    <div class="features">
-      <div class="feature now">
-        <h3>Opgaver, der ikke kan vente</h3>
-        <p>At tage pastaen op, hvidløg lige før det brænder på. Når tiden er inde, bliver skærmen rød og siger, at du skal slippe det, du har i hænderne.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Pastaen koger.<br>Imens bliver saucen færdig.</h1>
+        <p class="lead">Når to gryder kører i hvert sit tempo, viser Geusaie med stor tekst den ene ting, dine hænder skal gøre lige nu. Saucen bliver regnet baglæns fra det øjeblik, pastaen skal hældes fra.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793473149">Hent gratis i App Store</a><a class="try" href="#try">Prøv selv ↓</a></div>
+        <p class="muted small">Alle funktioner er gratis. Ingen konto nødvendig.</p>
       </div>
-      <div class="feature calm">
-        <h3>Opgaver, der kan udskydes</h3>
-        <p>At skære, rive, veje af. De skrider kun frem, mens dine hænder er frie, holder pause, når en gryde kalder, og fortsætter, hvor de slap.</p>
-      </div>
-      <div class="feature">
-        <h3>En timer til hver gryde</h3>
-        <p>Pastagryden og sauce-panden viser hver især, hvad de laver, og hvor lang tid der er tilbage.</p>
-      </div>
-      <div class="feature">
-        <h3>Stemmestyring</h3>
-        <p>Når du har våde hænder, så sig “næste”. Talegenkendelsen foregår så vidt muligt på enheden.</p>
-      </div>
-      <div class="feature">
-        <h3>Tekst, der kan læses på afstand</h3>
-        <p>Stil den op på køkkenbordet og træd et par skridt tilbage. Teksten kan gøres større i fire trin i appen.</p>
-      </div>
-      <div class="feature">
-        <h3>Uden jag</h3>
-        <p>Opgaver, som dine hænder udfører, har ingen nedtælling. Bjælken fyldes op, standser og venter.</p>
-      </div>
-    </div>
-  </section>
+      <div class="phone"><img src="../img/da/02-start.jpg" alt="Pastaen koger. Imens bliver saucen færdig." width="720" height="1558" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2>Skærme</h2>
-    <div class="shots">
-      <figure>
-        <img src="../images/home.png" alt="Startskærmen, hvor du vælger en ret. Aglio e olio, ca. 15 minutter, 2 gryder.">
-        <figcaption>Kun det, du skal bruge, når du vælger – hvor lang tid det tager, og hvor mange gryder der skal bruges</figcaption>
-      </figure>
-      <figure>
-        <img src="../images/cook.png" alt="Madlavningsskærmen: kortet med opgaven lige nu, to gryde-felter og tidslinjen.">
-        <figcaption>Hvad skal gøres nu · gryders status · hele tidslinjen</figcaption>
-      </figure>
-    </div>
-  </section>
 
-  <section>
-    <h2>Farven viser, hvor hastende det er</h2>
-    <table>
-      <tr>
-        <th><span class="dot calm"></span>Grøn</th>
-        <td>Forberedelse. Tag den med ro.</td>
-      </tr>
-      <tr>
-        <th><span class="dot now"></span>Terrakotta</th>
-        <td>Hvis du venter, bliver pastaen for blød, eller det brænder på. Gør det nu.</td>
-      </tr>
-      <tr>
-        <th><span class="dot pot"></span>Gryde-felter</th>
-        <td>Hvor meget firkanten skrumper, er den tid, der er tilbage. En gryde er et ur, man skal holde øje med, så her skjules tiden aldrig.</td>
-      </tr>
-    </table>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Prøv selv</h2>
+      <p class="muted">Lav en portion aglio e olio i 20 gange fart. Tryk på Start madlavningen, og tryk så på Næste, hver gang du ville være færdig med en opgave. Se, hvordan kortet ændrer sig, når pastaen skal hældes fra.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Prøv selv&quot;, &quot;lead&quot;: &quot;Lav en portion aglio e olio i 20 gange fart. Tryk på Start madlavningen, og tryk så på Næste, hver gang du ville være færdig med en opgave. Se, hvordan kortet ændrer sig, når pastaen skal hældes fra.&quot;, &quot;note&quot;: &quot;Samme opskrift og samme planlægning som i appen. Kun uret går hurtigere.&quot;, &quot;again&quot;: &quot;Start forfra&quot;, &quot;app&quot;: {&quot;first&quot;: &quot;Det første, du skal gøre&quot;, &quot;startHint&quot;: &quot;Tryk på “Start madlavningen” nedenfor, så begynder gryderne at tælle ned&quot;, &quot;now&quot;: &quot;Gør det nu&quot;, &quot;nowCant&quot;: &quot;Nu · kan ikke vente&quot;, &quot;late&quot;: &quot;Forsinket · gør det med det samme&quot;, &quot;calm&quot;: &quot;Gør det nu · ingen hast&quot;, &quot;ready&quot;: &quot;Det er klar 🍴 Anret&quot;, &quot;handsDone&quot;: &quot;Dine hænder er færdige — nu venter du bare på gryderne&quot;, &quot;upNext&quot;: &quot;Derefter · %@ %@&quot;, &quot;resume&quot;: &quot;Det du var i gang med · %@ %@ — gør dette færdigt først, og tag så fat igen&quot;, &quot;saidNext&quot;: &quot;Færdig? Sig “næste”&quot;, &quot;empty&quot;: &quot;Ledig&quot;, &quot;onIt&quot;: &quot;Du er i gang&quot;, &quot;finished&quot;: &quot;Brugt færdig&quot;, &quot;start&quot;: &quot;Start madlavningen&quot;, &quot;next&quot;: &quot;Næste&quot;, &quot;elapsed&quot;: &quot;Forløbet tid&quot;, &quot;names&quot;: {&quot;ao-water-on&quot;: &quot;Sæt vandet over på høj varme&quot;, &quot;ao-boil&quot;: &quot;Bring vandet i kog&quot;, &quot;ao-drop&quot;: &quot;Når det koger, kom pastaen i&quot;, &quot;ao-pasta&quot;: &quot;Kog pastaen&quot;, &quot;ao-reserve&quot;: &quot;Tag pastaen op og gem kogevandet&quot;, &quot;ao-garlic&quot;: &quot;Svits hvidløget i olie&quot;, &quot;ao-toss&quot;: &quot;Tilsæt kogevand og emulger&quot;, &quot;ao-prep&quot;: &quot;Tag ingredienserne frem og sæt panden på&quot;, &quot;ao-slice&quot;: &quot;Skær hvidløget i tynde skiver&quot;, &quot;ao-pepper&quot;: &quot;Hak chili og persille&quot;, &quot;ao-cheese&quot;: &quot;Riv osten og varm tallerkenerne&quot;}, &quot;lanes&quot;: [&quot;Pastagryde&quot;, &quot;Sauce-pande&quot;], &quot;progress&quot;: {&quot;ao-boil&quot;: &quot;Vandet koger&quot;, &quot;ao-pasta&quot;: &quot;Pastaen koger&quot;}}}"></div>
+    </section>
 
-  <section>
-    <h2>Medfølgende opskrifter</h2>
-    <table>
-      <tr><th>Aglio e olio</th><td>Ca. 15 min. · 2 gryder · Kilder: Serious Eats, Gimme Some Oven</td></tr>
-      <tr><th>Pasta i tomat-flødesauce</th><td>Ca. 20 min. · 2 gryder · Kilder: RecipeTin Eats, The Burnt Butter Table</td></tr>
-    </table>
-  </section>
+    <section class="problem reveal">
+      <h2>Tre timere i gang, og alligevel blev pastaen blød?</h2>
+      <p>En timer til pastaen, en til saucen og hvidløget i hovedet, og pludselig ved du ikke, hvad der kommer først. Du står og skærer, lige når pastaen skal hældes fra, og saucen er to minutter forsinket. Geusaie kender opskriften som "først det her, så det der" og fortæller dig kun den ene ting, du skal gøre nu.</p>
+    </section>
 
-  <section id="contact">
-    <h2>Kontakt</h2>
-    <p>Sidder du fast, ser du noget mærkeligt, eller vil du have en opskrift med? Alt er velkomment. Skriv til <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>, eller brug Indstillinger ▸ Send feedback i appen. Ofte stillede spørgsmål finder du på <a href="support.html">supportsiden</a>.</p>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Det, der ikke kan vente, bliver rødt</h2>
+        <p>Hæld pastaen fra, hvidløg lige før det brænder på: Når en opgave vil ødelægge retten, hvis den bliver forsinket, bliver kortet terrakottafarvet og beder dig lægge snittearbejdet fra dig et øjeblik.<br>Når en gryde er færdig, får du en notifikation, også selvom du ikke kigger, med det, du skal gøre med det samme.</p>
+      </div>
+      <div class="phone"><img src="../img/da/04-deadline.jpg" alt="Det, der ikke kan vente, bliver rødt" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
 
-  <!-- langnav:start -->
-  <nav class="langnav" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> · <a href="../en/" hreflang="en" lang="en">English</a> · <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../it/" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/" hreflang="th" lang="th">ไทย</a> · <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> · <b>Dansk</b> · <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
-  <!-- langnav:end -->
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Snit, når hænderne er fri</h2>
+        <p>Skære hvidløg, rive ost, afmåle: intet af det har et fast tidspunkt, så der tælles ikke sekunder ned. Bjælken fyldes, mens dine hænder er fri, stopper, når en gryde kalder, og fortsætter, hvor du slap.<br>Tænder du blusset tre minutter for sent, rykker alt det efterfølgende tre minutter. Planen regnes forfra ud fra det, du faktisk har gjort.</p>
+      </div>
+      <div class="phone"><img src="../img/da/03-prep.jpg" alt="Snit, når hænderne er fri" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Stil den på køkkenbordet, og gå videre med stemmen</h2>
+        <p>Fire tekststørrelser, så du kan læse den på et par skridts afstand, og skærmen slukker ikke, mens du laver mad.<br>Våde hænder? Sig <code>næste</code>, så går appen videre til næste opgave uden berøring.</p>
+      </div>
+      <div class="phone"><img src="../img/da/05-bigtext.jpg" alt="Stil den på køkkenbordet, og gå videre med stemmen" width="720" height="1558" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Tre trin til aftensmaden</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Vælg en ret</h3><p>Du ser cirka hvor lang tid den tager, og hvor mange gryder du skal bruge.</p></li>
+<li class="card"><span class="n">2</span><h3>Tryk på Start madlavningen</h3><p>Først vises din første opgave, og grydernes ure starter, i det øjeblik du trykker.</p></li>
+<li class="card"><span class="n">3</span><h3>Færdig? Næste.</h3><p>Tryk på knappen eller sig "næste", så kommer den næste opgave frem.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Farven viser, hvor meget det haster</h2>
+      <div class="card table">
+        <dl><div><dt>Grøn</dt><dd>Forberedelse. Tag den med ro.</dd></div><div><dt>Sennepsgul</dt><dd>En gryde har brug for dig. Gør det nu, men uden stress.</dd></div><div><dt>Terrakotta</dt><dd>Venter du, bliver pastaen blød eller hvidløget brænder på. Gør det nu.</dd></div><div><dt>Grydefelter</dt><dd>Firkanten, der skrumper, er den tid, der er tilbage. Grydernes tid bliver aldrig skjult.</dd></div></dl>
+      </div>
+      <p class="muted">På tidslinjen er stiplede bjælker opgaver, der godt kan vente.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Alle funktioner er gratis</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Begge opskrifter</li><li>En timer til hver gryde og hele tidslinjen</li><li>Notifikation, når en gryde er færdig</li><li>"Næste" med stemmen</li><li>Fire tekststørrelser</li><li>Åbn en opskrift med Siri eller Genveje</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Støt udvikleren (frivilligt)</h3>
+          <ul><li>Hvis appen hjælper dig, kan du give lidt drikkepenge i Indstillinger</li><li>Drikkepenge låser ikke noget op. Uden dem har du stadig alle funktioner</li></ul>
+          <p class="muted">Engangsbeløb, ikke et abonnement.</p>
+        </div>
+      </div>
+      <p class="muted">Ingen konto, ingen reklamer, og den virker uden internet.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Ofte stillede spørgsmål</h2>
+      <div class="faq"><details><summary>Jeg siger "næste", men der sker ikke noget.</summary><p>Mikrofonknappen nederst til venstre er rød, mens appen lytter, og grå, når den er slået fra. Første gang skal du give adgang til både mikrofon og talegenkendelse. Har du sagt nej, kan du slå dem til igen i Indstillinger &gt; Geusaie. Appen lytter efter det ord, der står på dens Næste-knap. I et meget larmende køkken trykker du bare på Næste.</p></details>
+<details><summary>En gryde blev færdig, men jeg fik ingen notifikation.</summary><p>Tjek, at notifikationer er slået til i Indstillinger &gt; Notifikationer &gt; Geusaie. Et fokus kan gøre dem lydløse. Der kommer kun notifikationer, når en gryde er færdig; forberedelsen presser dig aldrig.</p></details>
+<details><summary>Hvad sker der med planen, hvis jeg starter for sent?</summary><p>Den regnes om ud fra det, du faktisk har gjort. Tænder du blusset tre minutter senere, rykker alt efterfølgende tre minutter, og saucen bliver stadig regnet baglæns fra det øjeblik, pastaen er klar.</p></details>
+<details><summary>Teksten er for lille.</summary><p>Tryk på knappen for tekststørrelse øverst til højre på madlavningsskærmen, og vælg Normal, Stor, Større eller Størst. Dit valg bliver husket.</p></details>
+<details><summary>Slukker skærmen, mens jeg laver mad?</summary><p>Nej. Skærmen forbliver tændt, mens du laver mad, så du aldrig behøver røre den med våde hænder.</p></details>
+<details><summary>Hvilke retter er med?</summary><p>Aglio e olio (ca. 15 minutter, 2 gryder) og pasta i tomat-flødesauce (ca. 20 minutter, 2 gryder), baseret på opskrifter fra Serious Eats, Gimme Some Oven, RecipeTin Eats og The Burnt Butter Table. Enhver ret med to gryder i gang på én gang passer godt, så skriv endelig, hvad du gerne vil se.</p></details>
+<details><summary>Bliver min stemme optaget?</summary><p>Nej. Appen lytter kun efter ordet "næste" og optager eller gemmer ikke lyd. Hvis enheden understøtter det, sker talegenkendelsen på selve enheden. Der indsamles ingen personoplysninger.</p></details>
+<details><summary>Kan jeg åbne den med Siri?</summary><p>Ja. Vælg en ret i Siri eller appen Genveje, så åbner dens madlavningsskærm med det samme. Urene starter først, når du er klar til at sætte vandet over og trykker på Start madlavningen.</p></details>
+<details><summary>Hvilke enheder virker den på?</summary><p>iPhone og iPad med iOS 17 eller nyere. Ingen konto eller internetforbindelse nødvendig.</p></details>
+<details><summary>Hvordan melder jeg en fejl eller foreslår en opskrift?</summary><p>Via Indstillinger &gt; Send feedback i appen eller på mail til adressen nedenfor. Skriv gerne din enhedsmodel og iOS-version, så kan vi se på det hurtigere. Vi svarer som regel inden for få dage.</p></details></div>
+      <p class="contact">Sidder du fast, har du set noget mærkeligt, eller har du en opskrift i tankerne? Skriv til <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>I aften er pasta<br>og sauce klar samtidig</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793473149">Hent gratis i App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p>iPhone · iOS 17 eller nyere · stående</p>
-    <div class="links">
-      <a href="support.html">Support · Ofte stillede spørgsmål</a>
-      <a href="privacy.html">Privatlivspolitik</a>
-      <a href="https://github.com/M1zz/geusaie">Kildekode</a>
-    </div>
+    <nav id="languages" class="langs" aria-label="Sprog"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da" aria-current="page">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privatlivspolitik</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Geusaie</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>
