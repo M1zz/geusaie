@@ -13,6 +13,7 @@ struct CookView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.dynamicTypeSize) private var typeSize
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(\.foldLayout) private var fold
     /// 세워 두고 보는 화면이라 기본이 이미 크다 — 여기서 더 키울 수 있다
     @AppStorage("textScale") private var textScaleRaw = TextScale.big.rawValue
 
@@ -46,22 +47,35 @@ struct CookView: View {
         ZStack {
             Theme.cream.ignoresSafeArea()
             if let recipe = session.recipe {
-                GeometryReader { geo in
-                    // 가로로 길면(아이패드·가로모드) 지금 할 일과 타임라인을 나란히 둔다.
-                    // 조리대 위에 눕혀 두면 세로보다 가로가 자연스럽다.
-                    let wide = geo.size.width > geo.size.height * 1.1
-                    VStack(spacing: 0) {
-                        topBar(recipe)
-                        // 마이크가 켜져 있는 동안은 어떤 배치에서도 늘 보인다 (가이드라인 2.5.14)
-                        if voice.isListening {
-                            ListeningBanner(voice: voice)
+                // 아이폰 듀오를 펴면 고르는 쪽(가로면 왼쪽, 세로면 아래)은 내 손 · 냄비 · 버튼,
+                // 결과 쪽은 전체 타임라인과 순서. 접혀 있으면 고르는 쪽만, 곧 지금 화면 그대로다.
+                FoldSplitView {
+                    GeometryReader { geo in
+                        // 가로로 길면(아이패드·가로모드) 지금 할 일과 타임라인을 나란히 둔다.
+                        // 조리대 위에 눕혀 두면 세로보다 가로가 자연스럽다.
+                        let wide = geo.size.width > geo.size.height * 1.1
+                        VStack(spacing: 0) {
+                            topBar(recipe)
+                            // 마이크가 켜져 있는 동안은 어떤 배치에서도 늘 보인다 (가이드라인 2.5.14)
+                            if voice.isListening {
+                                ListeningBanner(voice: voice)
+                            }
+                            if fold.isUnfolded {
+                                handsBody(recipe)
+                            } else if wide {
+                                wideBody(recipe)
+                            } else {
+                                tallBody(recipe)
+                            }
+                            controls
                         }
-                        if wide {
-                            wideBody(recipe)
-                        } else {
-                            tallBody(recipe)
+                    }
+                } result: {
+                    ScrollView {
+                        VStack(alignment: .leading, spacing: 12) {
+                            timelineAndList(recipe)
                         }
-                        controls
+                        .padding(16)
                     }
                 }
             }
@@ -135,6 +149,19 @@ struct CookView: View {
             }
             .frame(maxWidth: 760)
             .frame(maxWidth: .infinity)
+            .padding(.horizontal, 16)
+            .padding(.top, 2)
+            .padding(.bottom, 10)
+        }
+    }
+
+    /// 펼친 아이폰 듀오의 고르는 쪽 — 지금 내 손과 냄비. 전체 그림은 접힌 선 건너편에 있다.
+    private func handsBody(_ recipe: Recipe) -> some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 12) {
+                NowStrip(session: session, voice: voice)
+                PotBoard(recipe: recipe, session: session)
+            }
             .padding(.horizontal, 16)
             .padding(.top, 2)
             .padding(.bottom, 10)

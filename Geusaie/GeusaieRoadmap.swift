@@ -73,7 +73,7 @@ struct RoadmapScreen: View {
                     LeeoFeedbackView<GeusaieSpec>(initialType: .feature)
                         .toolbar {
                             ToolbarItem(placement: .cancellationAction) {
-                                Button("닫기") { showFeedback = false }
+                                Button { showFeedback = false } label: { Label("닫기", systemImage: "xmark") }
                             }
                         }
                 }

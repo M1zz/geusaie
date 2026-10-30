@@ -1,5 +1,6 @@
 import SwiftUI
 import UIKit
+import LeeoKit
 
 // MARK: - 홈: 무엇을 만들지 고른다 → 병렬 타임라인이 펼쳐진다
 
@@ -9,25 +10,45 @@ struct RecipeListView: View {
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
     @State private var showOnboarding = false
     @State private var showSettings = false
+    @Environment(\.foldLayout) private var fold
+    /// 펼친 아이폰 듀오에서 결과 쪽에 시작 전 화면을 보여 주는 요리. 처음엔 맨 위 요리.
+    @State private var previewed = RecipeDB.all.first
 
     var body: some View {
         NavigationStack {
-            ZStack {
-                Theme.cream.ignoresSafeArea()
-                ScrollView {
-                    VStack(alignment: .leading, spacing: 20) {
-                        header
-                        ForEach(RecipeDB.all) { recipe in
-                            RecipeCard(recipe: recipe) {
-                                session.prepare(recipe)   // 시작은 조리 화면의 버튼으로
+            // 아이폰 듀오를 펴면 고르는 쪽은 요리 목록, 결과 쪽은 고른 요리의 시작 전 화면(타임라인 · 순서).
+            // 접혀 있거나 보통 아이폰 · 아이패드면 목록만, 곧 지금 화면 그대로다.
+            FoldSplitView {
+                ZStack {
+                    Theme.cream.ignoresSafeArea()
+                    ScrollView {
+                        VStack(alignment: .leading, spacing: 20) {
+                            header
+                            ForEach(RecipeDB.all) { recipe in
+                                RecipeCard(recipe: recipe,
+                                           isSelected: fold.isUnfolded && recipe == previewed) {
+                                    // 펼쳐 있으면 결과 쪽에 시작 전 화면을 띄운다. 시작은 거기 버튼으로.
+                                    if fold.isUnfolded {
+                                        previewed = recipe
+                                    } else {
+                                        session.prepare(recipe)   // 시작은 조리 화면의 버튼으로
+                                    }
+                                }
                             }
+                            footNote
                         }
-                        footNote
+                        .padding(16)
+                        // 아이패드에서 카드가 화면 끝까지 늘어나지 않게
+                        .frame(maxWidth: 760)
+                        .frame(maxWidth: .infinity)
                     }
-                    .padding(16)
-                    // 아이패드에서 카드가 화면 끝까지 늘어나지 않게
-                    .frame(maxWidth: 760)
-                    .frame(maxWidth: .infinity)
+                }
+            } result: {
+                if let previewed {
+                    RecipePreviewPane(recipe: previewed) {
+                        session.prepare(previewed)
+                        session.begin()
+                    }
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
@@ -55,7 +76,7 @@ struct RecipeListView: View {
                 DispatchQueue.main.async { openFromShortcut(id) }
             }
             .sheet(isPresented: $showSettings) { SettingsView() }
-            .fullScreenCover(isPresented: $showOnboarding) { GeusaieOnboardingView() }
+            .fullScreenCover(isPresented: $showOnboarding) { GeusaieOnboardingView().foldConfined() }
         }
         .tint(Theme.terracotta)
         .fullScreenCover(isPresented: Binding(
@@ -153,6 +174,8 @@ struct RecipeListView: View {
 
 struct RecipeCard: View {
     let recipe: Recipe
+    /// 펼친 아이폰 듀오에서 결과 쪽에 보이는 요리인가.
+    var isSelected = false
     let onStart: () -> Void
 
     var body: some View {
@@ -181,15 +204,58 @@ struct RecipeCard: View {
                     .fill(Theme.card)
                     .overlay(
                         RoundedRectangle(cornerRadius: 20, style: .continuous)
-                            .stroke(Theme.cardBorder, lineWidth: 1)
+                            .stroke(isSelected ? Theme.terracotta : Theme.cardBorder,
+                                    lineWidth: isSelected ? 2.5 : 1)
                     )
             )
         }
         .buttonStyle(.plain)
+        .accessibilityAddTraits(isSelected ? .isSelected : [])
         // 이모지·재생 아이콘을 따로 읽지 않고 한 문장으로
         .accessibilityLabel(String(localized: "\(recipe.name), 약 \(Int((Double(recipe.estimatedSeconds) / 60).rounded()))분, 냄비 \(recipe.potCount)개"))
         .accessibilityHint("조리 화면을 엽니다")
         // 음성 명령은 요리 이름만 말해도 열리게
         .accessibilityInputLabels([Text(recipe.name)])
+    }
+}
+
+// MARK: - 아이폰 듀오 결과 쪽 — 고른 요리의 시작 전 화면
+//
+// 조리 화면의 '시작 전'과 같은 것(타임라인 · 순서)을 목록 옆에 둔다. 고르는 동안 무엇이 언제 오는지 보고,
+// 요리 시작을 누르면 조리 화면이 바로 돌기 시작한다. 시계는 시작 전이라 돌지 않는다.
+
+struct RecipePreviewPane: View {
+    let recipe: Recipe
+    let onStart: () -> Void
+    /// 시작 전 계획만 그리는 세션. 시작하지 않으므로 시계도 알림도 돌지 않는다.
+    @StateObject private var preview = CookSession()
+
+    var body: some View {
+        ZStack {
+            Theme.cream.ignoresSafeArea()
+            ScrollView {
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("\(recipe.emoji) \(recipe.name)")
+                        .font(.title2.weight(.heavy))
+                        .foregroundStyle(Theme.ink)
+                        .accessibilityAddTraits(.isHeader)
+                    if preview.recipe == recipe {
+                        GanttTimeline(recipe: recipe, session: preview)
+                        StepChecklist(recipe: recipe, session: preview)
+                    }
+                }
+                .padding(16)
+            }
+        }
+        .safeAreaInset(edge: .bottom) {
+            Button(action: onStart) {
+                Label("요리 시작", systemImage: "play.fill").frame(maxWidth: .infinity)
+            }
+            .buttonStyle(FilledButton(tint: Theme.terracotta))
+            .padding(.horizontal, 16)
+            .padding(.vertical, 8)
+            .background(Theme.cream)
+        }
+        .onChange(of: recipe, initial: true) { _, recipe in preview.prepare(recipe) }
     }
 }

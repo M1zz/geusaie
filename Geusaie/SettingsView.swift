@@ -48,11 +48,12 @@ struct SettingsView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("닫기") { dismiss() }
+                    // 세로로 서는 툴바(아이폰 듀오)에서는 아이콘 없는 아이템이 사라진다.
+                    Button { dismiss() } label: { Label("닫기", systemImage: "xmark") }
                 }
             }
             .fullScreenCover(isPresented: $showOnboarding) {
-                GeusaieOnboardingView()
+                GeusaieOnboardingView().foldConfined()
             }
         }
         .tint(Theme.terracotta)

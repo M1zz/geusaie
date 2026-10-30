@@ -30,6 +30,8 @@ struct GeusaieApp: App {
                 .leeoSatisfactionCheck(GeusaieSpec.self)
                 // 개발자 응원하기 — 팁 상품을 불러오고 결제 업데이트를 듣는다 (→ GeusaieTipJar.swift)
                 .task { await GeusaieSpec.tipJar.startStandalone() }
+                // 아이폰 듀오: 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
+                .foldAware()
         }
     }
 }
