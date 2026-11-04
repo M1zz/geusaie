@@ -11,45 +11,32 @@ struct RecipeListView: View {
     @State private var showOnboarding = false
     @State private var showSettings = false
     @Environment(\.foldLayout) private var fold
+    @Environment(\.horizontalSizeClass) private var hSize
+    @Environment(\.verticalSizeClass) private var vSize
     /// 펼친 아이폰 듀오에서 결과 쪽에 시작 전 화면을 보여 주는 요리. 처음엔 맨 위 요리.
     @State private var previewed = RecipeDB.all.first
 
+    /// 아이패드를 넓게 쓸 때 — 왼쪽은 요리 목록, 오른쪽은 고른 요리의 시작 전 화면.
+    /// Split View 로 좁아지면(가로 compact) 아이폰처럼 목록만.
+    private var sideBySide: Bool { hSize == .regular && vSize == .regular }
+
     var body: some View {
         NavigationStack {
-            // 아이폰 듀오를 펴면 고르는 쪽은 요리 목록, 결과 쪽은 고른 요리의 시작 전 화면(타임라인 · 순서).
-            // 접혀 있거나 보통 아이폰 · 아이패드면 목록만, 곧 지금 화면 그대로다.
-            FoldSplitView {
-                ZStack {
-                    Theme.cream.ignoresSafeArea()
-                    ScrollView {
-                        VStack(alignment: .leading, spacing: 20) {
-                            header
-                            ForEach(RecipeDB.all) { recipe in
-                                RecipeCard(recipe: recipe,
-                                           isSelected: fold.isUnfolded && recipe == previewed) {
-                                    // 펼쳐 있으면 결과 쪽에 시작 전 화면을 띄운다. 시작은 거기 버튼으로.
-                                    if fold.isUnfolded {
-                                        previewed = recipe
-                                    } else {
-                                        session.prepare(recipe)   // 시작은 조리 화면의 버튼으로
-                                        OpenRecipeIntent.donate(recipe.id)
-                                    }
-                                }
-                            }
-                            footNote
-                        }
-                        .padding(16)
-                        // 아이패드에서 카드가 화면 끝까지 늘어나지 않게
-                        .frame(maxWidth: 760)
-                        .frame(maxWidth: .infinity)
+            Group {
+                if sideBySide && !fold.isUnfolded {
+                    HStack(spacing: 0) {
+                        recipeList(selecting: true)
+                            .frame(width: 400)
+                        Divider().overlay(Theme.cardBorder)
+                        previewPane
                     }
-                }
-            } result: {
-                if let previewed {
-                    RecipePreviewPane(recipe: previewed) {
-                        session.prepare(previewed)
-                        session.begin()
-                        OpenRecipeIntent.donate(previewed.id)
+                } else {
+                    // 아이폰 듀오를 펴면 고르는 쪽은 요리 목록, 결과 쪽은 고른 요리의 시작 전 화면(타임라인 · 순서).
+                    // 접혀 있거나 보통 아이폰이면 목록만, 곧 지금 화면 그대로다.
+                    FoldSplitView {
+                        recipeList(selecting: fold.isUnfolded)
+                    } result: {
+                        previewPane
                     }
                 }
             }
@@ -64,6 +51,9 @@ struct RecipeListView: View {
                 }
             }
             .onAppear {
+                // 워치 · 알림의 [다음 단계]가 이 세션을 넘긴다
+                session.mirrorsToWatch = true
+                CookRemote.shared.session = session
                 // 뷰가 그려지는 도중에 상태를 바꾸지 않도록 한 틱 뒤에
                 DispatchQueue.main.async {
                     startDemoIfRequested()
@@ -86,6 +76,44 @@ struct RecipeListView: View {
             set: { if !$0 { session.reset() } }
         )) {
             CookView(session: session)
+        }
+    }
+
+    /// 요리 목록. selecting 이면 카드를 눌러 옆 화면에 고르고, 아니면 바로 조리 화면을 연다.
+    private func recipeList(selecting: Bool) -> some View {
+        ZStack {
+            Theme.cream.ignoresSafeArea()
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20) {
+                    header
+                    ForEach(RecipeDB.all) { recipe in
+                        RecipeCard(recipe: recipe, isSelected: selecting && recipe == previewed) {
+                            // 옆에 시작 전 화면이 있으면 거기 띄운다. 시작은 거기 버튼으로.
+                            if selecting {
+                                previewed = recipe
+                            } else {
+                                session.prepare(recipe)   // 시작은 조리 화면의 버튼으로
+                                OpenRecipeIntent.donate(recipe.id)
+                            }
+                        }
+                    }
+                    footNote
+                }
+                .padding(16)
+                // 아이패드에서 카드가 화면 끝까지 늘어나지 않게
+                .frame(maxWidth: 760)
+                .frame(maxWidth: .infinity)
+            }
+        }
+    }
+
+    @ViewBuilder private var previewPane: some View {
+        if let previewed {
+            RecipePreviewPane(recipe: previewed) {
+                session.prepare(previewed)
+                session.begin()
+                OpenRecipeIntent.donate(previewed.id)
+            }
         }
     }
 

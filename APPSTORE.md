@@ -52,7 +52,13 @@ DeployBar 가 이 파일을 읽어 App Store Connect 의 스토어 페이지를 
 알리오 올리오
 토마토 크림 파스타
 
-iPhone과 iPad에서 쓸 수 있습니다. 계정 없이 바로 시작합니다.
+주방 스탠드 위의 iPad
+iPad를 세워 두면 지금 할 일 하나를 아주 크게, 냄비마다 남은 시간을 전부 나란히 보여 줍니다. 버튼도 커서 젖은 손으로 눌러도 됩니다. 가로, 세로, 화면 나누기 어느 쪽이든 맞춰집니다.
+
+손목에서 다음 단계로
+Apple Watch를 차고 있으면 냄비가 다 되는 순간 손목이 울립니다. 알림에서 바로 다음 단계로 넘기고, 워치 앱에서는 냄비마다 남은 시간을 한 화면에 봅니다. 시계 화면에는 가장 먼저 끝나는 냄비의 남은 시간이 뜹니다.
+
+iPhone, iPad, Apple Watch에서 쓸 수 있습니다. 계정 없이 바로 시작합니다.
 
 ### 지원 URL
 
@@ -116,7 +122,13 @@ Recipes inside
 Aglio e Olio
 Tomato Cream Pasta
 
-Works on iPhone and iPad. No account needed to get started.
+iPad on the kitchen stand
+Stand your iPad up and it shows the one thing to do now in huge type, with every pot's time left side by side. The buttons are big enough to press with wet hands, in portrait, landscape or Split View.
+
+Next step from your wrist
+With Apple Watch, your wrist taps the moment a pot is done. Move to the next step right from the notification, see every pot's time left on one screen, and keep the pot that finishes first on your watch face.
+
+Works on iPhone, iPad and Apple Watch. No account needed to get started.
 
 ### 지원 URL
 
@@ -180,7 +192,13 @@ Recipes inside
 Aglio e Olio
 Tomato Cream Pasta
 
-Works on iPhone and iPad. No account needed to get started.
+iPad on the kitchen stand
+Stand your iPad up and it shows the one thing to do now in huge type, with every pan's time left side by side. The buttons are big enough to press with wet hands, in portrait, landscape or Split View.
+
+Next step from your wrist
+With Apple Watch, your wrist taps the moment a pan is done. Move to the next step right from the notification, see every pan's time left on one screen, and keep the pan that finishes first on your watch face.
+
+Works on iPhone, iPad and Apple Watch. No account needed to get started.
 
 ### 지원 URL
 
@@ -244,7 +262,13 @@ Geusaie：パスタ調理タイマー
 アーリオ・オーリオ
 トマトクリームパスタ
 
-iPhoneとiPadで使えます。アカウント不要で、すぐに始められます。
+キッチンスタンドのiPad
+iPadを立てておくと、今やることをひとつだけ大きく、鍋ごとの残り時間をすべて並べて表示します。ボタンも大きいので濡れた手でも押せます。縦向き、横向き、Split Viewのどれにも対応します。
+
+手首で次のステップへ
+Apple Watchをつけていれば、鍋ができた瞬間に手首に知らせが届きます。通知からそのまま次のステップへ進め、ウォッチのアプリでは鍋ごとの残り時間をひと目で確認できます。文字盤にはいちばん先に終わる鍋の残り時間を表示できます。
+
+iPhone、iPad、Apple Watchで使えます。アカウント不要で、すぐに始められます。
 
 ### 지원 URL
 
@@ -308,7 +332,13 @@ Geusaie：意面烹饪计时器
 蒜香橄榄油意面
 番茄奶油意面
 
-支持 iPhone 和 iPad。无需账号，打开就能用。
+立在厨房支架上的 iPad
+把 iPad 立起来，当前要做的那件事会以超大字显示，每口锅的剩余时间并排一目了然。按钮也很大，湿着手也能按。竖屏、横屏、分屏浏览都能适配。
+
+在手腕上进入下一步
+戴着 Apple Watch 时，锅一煮好手腕就会振动。直接在通知里进入下一步，手表 App 一屏看清每口锅的剩余时间，表盘上还能显示最先煮好的那口锅还剩多久。
+
+支持 iPhone、iPad 和 Apple Watch。无需账号，打开就能用。
 
 ### 지원 URL
 
@@ -372,7 +402,13 @@ Geusaie：義大利麵烹飪計時器
 蒜香橄欖油義大利麵
 番茄奶油義大利麵
 
-支援 iPhone 和 iPad。不需要帳號，打開就能用。
+立在廚房架上的 iPad
+把 iPad 立起來，現在要做的那件事會用超大字顯示，每個鍋子的剩餘時間並排一目瞭然。按鈕也很大，手濕濕的也能按。直向、橫向、分割畫面都能配合。
+
+在手腕上進入下一步
+戴著 Apple Watch 時，鍋子一煮好手腕就會震動。直接在通知裡進入下一步，手錶 App 一個畫面看清每個鍋子的剩餘時間，錶面上也能顯示最先煮好的鍋子還剩多久。
+
+支援 iPhone、iPad 和 Apple Watch。不需要帳號，打開就能用。
 
 ### 지원 URL
 
@@ -436,7 +472,13 @@ Geusaie: таймер для пасты
 Алио-олио
 Паста в томатно-сливочном соусе
 
-Работает на iPhone и iPad. Учётная запись не нужна — можно сразу начинать.
+iPad на кухонной подставке
+Поставьте iPad — и текущий шаг будет показан крупно, а оставшееся время всех кастрюль — рядом. Кнопки большие, их легко нажать мокрыми руками. Работает в вертикальной и горизонтальной ориентации и в Split View.
+
+Следующий шаг с запястья
+С Apple Watch запястье вибрирует, как только кастрюля готова. Переходите к следующему шагу прямо из уведомления, смотрите время всех кастрюль на одном экране, а на циферблате держите ту, что будет готова первой.
+
+Работает на iPhone, iPad и Apple Watch. Учётная запись не нужна — можно сразу начинать.
 
 ### 지원 URL
 
@@ -500,7 +542,13 @@ Recetas incluidas
 Aglio e olio
 Pasta cremosa de tomate
 
-Funciona en iPhone y iPad. No necesitas cuenta para empezar.
+El iPad en el atril de cocina
+Pon el iPad de pie y verás en grande lo único que toca hacer ahora, con el tiempo de cada olla uno al lado del otro. Los botones son grandes para pulsarlos con las manos mojadas, en vertical, en horizontal o en Split View.
+
+El siguiente paso desde la muñeca
+Con el Apple Watch notarás un toque en la muñeca en cuanto una olla esté lista. Pasa al siguiente paso desde la notificación, mira el tiempo de todas las ollas en una sola pantalla y lleva en la esfera la que termina primero.
+
+Funciona en iPhone, iPad y Apple Watch. No necesitas cuenta para empezar.
 
 ### 지원 URL
 
@@ -564,7 +612,13 @@ Enthaltene Rezepte
 Aglio e Olio
 Tomaten-Sahne-Pasta
 
-Für iPhone und iPad. Ohne Konto sofort startklar.
+iPad auf dem Küchenständer
+Stell das iPad auf: Der eine Schritt, der jetzt dran ist, steht groß in der Mitte, die Restzeiten aller Töpfe direkt daneben. Die Tasten sind groß genug für nasse Hände – im Hoch- und Querformat und in Split View.
+
+Nächster Schritt am Handgelenk
+Mit der Apple Watch tippt dein Handgelenk, sobald ein Topf fertig ist. Geh direkt in der Mitteilung zum nächsten Schritt, sieh alle Topfzeiten auf einem Bildschirm und hab den Topf, der als Erstes fertig ist, auf dem Zifferblatt.
+
+Für iPhone, iPad und Apple Watch. Ohne Konto sofort startklar.
 
 ### 지원 URL
 
@@ -628,7 +682,13 @@ Recettes incluses
 Pâtes aglio e olio
 Pâtes crémeuses à la tomate
 
-Fonctionne sur iPhone et iPad. Aucun compte requis pour commencer.
+L’iPad sur le support de cuisine
+Posez l’iPad debout : l’étape à faire maintenant s’affiche en très grand, avec le temps restant de chaque casserole côte à côte. Les boutons sont assez grands pour des mains mouillées, en portrait, en paysage ou en Split View.
+
+L’étape suivante au poignet
+Avec l’Apple Watch, votre poignet vibre dès qu’une casserole est prête. Passez à l’étape suivante depuis la notification, voyez le temps de toutes les casseroles sur un seul écran et gardez sur le cadran celle qui finit en premier.
+
+Fonctionne sur iPhone, iPad et Apple Watch. Aucun compte requis pour commencer.
 
 ### 지원 URL
 
@@ -692,7 +752,13 @@ Ricette incluse
 Aglio e olio
 Pasta alla crema di pomodoro
 
-Funziona su iPhone e iPad. Nessun account per iniziare.
+L’iPad sul supporto da cucina
+Metti l’iPad in piedi: la cosa da fare adesso appare in grande, con il tempo rimasto di ogni pentola fianco a fianco. I pulsanti sono grandi, da premere anche con le mani bagnate, in verticale, in orizzontale o in Split View.
+
+Il passo successivo dal polso
+Con Apple Watch il polso vibra appena una pentola è pronta. Passa al passo successivo dalla notifica, vedi il tempo di tutte le pentole in una schermata e tieni sul quadrante quella che finisce per prima.
+
+Funziona su iPhone, iPad e Apple Watch. Nessun account per iniziare.
 
 ### 지원 URL
 
@@ -756,7 +822,13 @@ Receitas incluídas
 Aglio e olio
 Macarrão ao molho de tomate com creme
 
-Funciona no iPhone e no iPad. Não precisa de conta para começar.
+O iPad no suporte da cozinha
+Deixe o iPad em pé e a única coisa a fazer agora aparece bem grande, com o tempo de cada panela lado a lado. Os botões são grandes para apertar com a mão molhada, na vertical, na horizontal ou em Split View.
+
+A próxima etapa no pulso
+Com o Apple Watch, o pulso vibra assim que uma panela fica pronta. Avance para a próxima etapa direto na notificação, veja o tempo de todas as panelas em uma tela e deixe no mostrador a que termina primeiro.
+
+Funciona no iPhone, no iPad e no Apple Watch. Não precisa de conta para começar.
 
 ### 지원 URL
 
@@ -820,7 +892,13 @@ Geusaie: ตัวจับเวลาพาสต้า
 อาลิโอ โอลิโอ
 พาสต้าครีมมะเขือเทศ
 
-ใช้ได้บน iPhone และ iPad ไม่ต้องมีบัญชี เริ่มใช้ได้ทันที
+iPad บนขาตั้งในครัว
+ตั้ง iPad ไว้ แล้วสิ่งที่ต้องทำตอนนี้จะแสดงตัวใหญ่ พร้อมเวลาที่เหลือของทุกหม้อเรียงกัน ปุ่มก็ใหญ่ กดได้แม้มือเปียก ใช้ได้ทั้งแนวตั้ง แนวนอน และ Split View
+
+ไปขั้นต่อไปจากข้อมือ
+ถ้าใส่ Apple Watch ข้อมือจะสั่นทันทีที่หม้อเสร็จ กดไปขั้นต่อไปได้จากการแจ้งเตือน ดูเวลาของทุกหม้อในหน้าจอเดียว และแสดงหม้อที่จะเสร็จก่อนบนหน้าปัดได้
+
+ใช้ได้บน iPhone, iPad และ Apple Watch ไม่ต้องมีบัญชี เริ่มใช้ได้ทันที
 
 ### 지원 URL
 
@@ -884,7 +962,13 @@ Công thức có sẵn
 Mì Ý aglio e olio
 Mì Ý sốt kem cà chua
 
-Dùng được trên iPhone và iPad. Không cần tài khoản, mở ra là dùng được ngay.
+iPad trên giá bếp
+Dựng iPad lên, việc cần làm ngay sẽ hiện thật to, cùng thời gian còn lại của từng nồi xếp cạnh nhau. Nút bấm lớn, tay ướt vẫn bấm được, ở chiều dọc, chiều ngang hay Split View.
+
+Bước tiếp theo ngay trên cổ tay
+Khi đeo Apple Watch, cổ tay sẽ rung ngay lúc nồi xong. Chuyển sang bước tiếp theo ngay từ thông báo, xem thời gian của mọi nồi trên một màn hình và đặt nồi xong sớm nhất lên mặt đồng hồ.
+
+Dùng được trên iPhone, iPad và Apple Watch. Không cần tài khoản, mở ra là dùng được ngay.
 
 ### 지원 URL
 
@@ -948,7 +1032,13 @@ Zahrnuté recepty
 Aglio e olio
 Těstoviny v rajčatovo-smetanové omáčce
 
-Funguje na iPhonu a iPadu. K zahájení není potřeba žádný účet.
+iPad na kuchyňském stojanu
+Postavte iPad a krok, který je právě na řadě, uvidíte velkým písmem, se zbývajícím časem všech hrnců vedle sebe. Tlačítka jsou dost velká i pro mokré ruce – na výšku, na šířku i v režimu Split View.
+
+Další krok ze zápěstí
+S Apple Watch ucítíte klepnutí na zápěstí, jakmile je hrnec hotový. Na další krok přejdete přímo z oznámení, časy všech hrnců vidíte na jedné obrazovce a na ciferníku máte ten, který bude hotový první.
+
+Funguje na iPhonu, iPadu a Apple Watch. K zahájení není potřeba žádný účet.
 
 ### 지원 URL
 
@@ -1012,7 +1102,13 @@ Medfølgende opskrifter
 Aglio e olio
 Pasta i tomat-flødesauce
 
-Virker på iPhone og iPad. Ingen konto nødvendig for at komme i gang.
+iPad på køkkenstativet
+Stil din iPad op, så står det ene, du skal gøre nu, med stor skrift, og alle gryders tid tilbage vises side om side. Knapperne er store nok til våde hænder – på højkant, på langs og i Split View.
+
+Næste trin fra håndleddet
+Med Apple Watch prikker den på håndleddet, så snart en gryde er færdig. Gå videre til næste trin direkte fra notifikationen, se alle gryders tid på én skærm, og hav den gryde, der bliver færdig først, på urskiven.
+
+Virker på iPhone, iPad og Apple Watch. Ingen konto nødvendig for at komme i gang.
 
 ### 지원 URL
 
@@ -1076,7 +1172,13 @@ Geusaie: χρονόμετρο ζυμαρικών
 Aglio e olio
 Ζυμαρικά με κρέμα ντομάτας
 
-Λειτουργεί σε iPhone και iPad. Δεν χρειάζεται λογαριασμός για να ξεκινήσετε.
+Το iPad στη βάση της κουζίνας
+Στήστε το iPad και το ένα πράγμα που πρέπει να κάνετε τώρα εμφανίζεται με πολύ μεγάλα γράμματα, με τον χρόνο κάθε κατσαρόλας δίπλα δίπλα. Τα κουμπιά είναι αρκετά μεγάλα για βρεγμένα χέρια, σε κατακόρυφο, οριζόντιο προσανατολισμό ή Split View.
+
+Το επόμενο βήμα από τον καρπό
+Με το Apple Watch, ο καρπός σας δονείται μόλις μια κατσαρόλα είναι έτοιμη. Περάστε στο επόμενο βήμα από την ειδοποίηση, δείτε τον χρόνο όλων των κατσαρολών σε μία οθόνη και έχετε στην πρόσοψη αυτή που τελειώνει πρώτη.
+
+Λειτουργεί σε iPhone, iPad και Apple Watch. Δεν χρειάζεται λογαριασμός για να ξεκινήσετε.
 
 ### 지원 URL
 
@@ -1140,7 +1242,13 @@ Mukana olevat reseptit
 Aglio e olio
 Tomaatti-kermapasta
 
-Toimii iPhonella ja iPadilla. Aloittaminen ei vaadi tiliä.
+iPad keittiötelineessä
+Nosta iPad pystyyn, niin juuri nyt tehtävä asia näkyy isolla ja jokaisen kattilan jäljellä oleva aika vierekkäin. Painikkeet ovat tarpeeksi isoja märille käsille – pysty- ja vaakasuunnassa sekä Split Viewissä.
+
+Seuraava vaihe ranteesta
+Apple Watchin kanssa ranne värähtää heti, kun kattila on valmis. Siirry seuraavaan vaiheeseen suoraan ilmoituksesta, näe kaikkien kattiloiden ajat yhdellä näytöllä ja pidä ensimmäisenä valmistuva kattila kellotaulussa.
+
+Toimii iPhonella, iPadilla ja Apple Watchilla. Aloittaminen ei vaadi tiliä.
 
 ### 지원 URL
 
@@ -1204,7 +1312,13 @@ Resep yang tersedia
 Aglio e olio
 Pasta saus krim tomat
 
-Bisa dipakai di iPhone dan iPad. Tidak perlu akun untuk memulai.
+iPad di dudukan dapur
+Berdirikan iPad, lalu satu hal yang harus dilakukan sekarang tampil besar, dengan sisa waktu tiap panci berjajar. Tombolnya besar sehingga bisa ditekan dengan tangan basah, dalam posisi tegak, mendatar, atau Split View.
+
+Langkah berikutnya dari pergelangan tangan
+Dengan Apple Watch, pergelangan tangan bergetar begitu panci selesai. Lanjutkan ke langkah berikutnya langsung dari notifikasi, lihat waktu semua panci di satu layar, dan tampilkan panci yang paling cepat selesai di tampilan jam.
+
+Bisa dipakai di iPhone, iPad, dan Apple Watch. Tidak perlu akun untuk memulai.
 
 ### 지원 URL
 
@@ -1268,7 +1382,13 @@ Oppskrifter som følger med
 Aglio e olio
 Pasta i tomat- og fløtesaus
 
-Fungerer på iPhone og iPad. Ingen konto nødvendig for å komme i gang.
+iPad på kjøkkenstativet
+Sett iPad-en opp, så vises det ene du skal gjøre nå i stor skrift, med tiden som er igjen for hver gryte side om side. Knappene er store nok for våte hender – stående, liggende og i Split View.
+
+Neste steg fra håndleddet
+Med Apple Watch kjenner du et prikk på håndleddet så snart en gryte er ferdig. Gå videre til neste steg rett fra varslingen, se tiden for alle gryter på én skjerm, og ha gryta som blir ferdig først på urskiven.
+
+Fungerer på iPhone, iPad og Apple Watch. Ingen konto nødvendig for å komme i gang.
 
 ### 지원 URL
 
@@ -1332,7 +1452,13 @@ Meegeleverde recepten
 Aglio e olio
 Pasta in tomatenroomsaus
 
-Werkt op iPhone en iPad. Je hebt geen account nodig om te beginnen.
+iPad op de keukenstandaard
+Zet je iPad rechtop en dat ene wat je nu moet doen staat groot in beeld, met de resterende tijd van elke pan ernaast. De knoppen zijn groot genoeg voor natte handen, staand, liggend en in Split View.
+
+Volgende stap vanaf je pols
+Met Apple Watch tikt je pols zodra een pan klaar is. Ga meteen vanuit de melding door naar de volgende stap, zie de tijd van alle pannen op één scherm en zet de pan die het eerst klaar is op je wijzerplaat.
+
+Werkt op iPhone, iPad en Apple Watch. Je hebt geen account nodig om te beginnen.
 
 ### 지원 URL
 
@@ -1396,7 +1522,13 @@ Dołączone przepisy
 Aglio e olio
 Makaron w sosie pomidorowo-śmietanowym
 
-Działa na iPhonie i iPadzie. Aby zacząć, nie potrzeba konta.
+iPad na kuchennym stojaku
+Postaw iPada, a to, co trzeba zrobić teraz, zobaczysz bardzo dużymi literami, z czasem każdego garnka obok siebie. Przyciski są na tyle duże, że naciśniesz je mokrymi rękami – w pionie, w poziomie i w Split View.
+
+Następny krok z nadgarstka
+Z Apple Watch poczujesz wibrację na nadgarstku, gdy tylko garnek będzie gotowy. Przejdź do następnego kroku prosto z powiadomienia, zobacz czasy wszystkich garnków na jednym ekranie, a na tarczy miej ten, który skończy się pierwszy.
+
+Działa na iPhonie, iPadzie i Apple Watch. Aby zacząć, nie potrzeba konta.
 
 ### 지원 URL
 
@@ -1460,7 +1592,13 @@ Medföljande recept
 Aglio e olio
 Pasta i tomat- och gräddsås
 
-Fungerar på iPhone och iPad. Inget konto behövs för att komma igång.
+iPad i köksstället
+Ställ upp din iPad så visas det enda du ska göra nu i stor text, med tiden kvar för varje kastrull sida vid sida. Knapparna är stora nog för blöta händer – stående, liggande och i Split View.
+
+Nästa steg från handleden
+Med Apple Watch känner du ett tryck på handleden så fort en kastrull är klar. Gå vidare till nästa steg direkt från notisen, se alla kastrullers tid på en skärm och ha kastrullen som blir klar först på urtavlan.
+
+Fungerar på iPhone, iPad och Apple Watch. Inget konto behövs för att komma igång.
 
 ### 지원 URL
 
@@ -1524,7 +1662,13 @@ Dahil olan tarifler
 Aglio e olio
 Domatesli kremalı makarna
 
-iPhone ve iPad’de çalışır. Başlamak için hesap gerekmez.
+Mutfak standında iPad
+iPad’i ayakta bırakın; şu an yapmanız gereken tek şey kocaman görünür, her tencerenin kalan süresi de yan yana durur. Düğmeler ıslak elle basılacak kadar büyüktür; dikey, yatay ve Split View’da çalışır.
+
+Sonraki adım bileğinizde
+Apple Watch takılıysa tencere hazır olduğu anda bileğiniz titrer. Bildirimden doğrudan sonraki adıma geçin, tüm tencerelerin süresini tek ekranda görün ve ilk bitecek tencereyi saat kadranında tutun.
+
+iPhone, iPad ve Apple Watch’ta çalışır. Başlamak için hesap gerekmez.
 
 ### 지원 URL
 

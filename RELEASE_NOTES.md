@@ -1,5 +1,175 @@
 # 그사이에 릴리즈 노트
 
+## 1.1.0
+
+### 앱스토어 (한국어) (ko)
+
+iPad를 세워 두면 할 일과 냄비 시간이 크게 보여요
+Apple Watch에서 냄비마다 남은 시간을 봐요
+냄비가 다 되면 손목에서 바로 다음 단계로 넘겨요
+키보드로도 다음 단계로 넘길 수 있어요
+
+### 앱스토어 (English) (en)
+
+Stand your iPad up to see big pot timers
+See every pot's time left on Apple Watch
+Go to the next step from your wrist
+Press Return on a keyboard to go next
+
+### App Store (en-GB)
+
+Stand your iPad up to see big pan timers
+See every pan's time left on Apple Watch
+Go to the next step from your wrist
+Press Return on a keyboard to go next
+
+### 앱스토어 (日本語) (ja)
+
+iPadを立てると今やることと鍋の時間が大きく表示
+Apple Watchで鍋ごとの残り時間を確認できます
+鍋ができたら手首からすぐ次のステップへ
+キーボードでも次のステップに進めます
+
+### 앱스토어 (中文简体) (zh-Hans)
+
+iPad 立起来，当前步骤和锅的时间大字显示
+在 Apple Watch 上查看每口锅的剩余时间
+锅煮好后直接在手腕上进入下一步
+用键盘也能进入下一步
+
+### 앱스토어 (中文繁體) (zh-Hant)
+
+iPad 立起來，目前步驟和鍋子時間大字顯示
+在 Apple Watch 上查看每個鍋子的剩餘時間
+鍋子煮好後直接在手腕上進入下一步
+用鍵盤也能進入下一步
+
+### 앱스토어 (Русский) (ru)
+
+Крупные таймеры кастрюль на iPad
+Время каждой кастрюли на Apple Watch
+Следующий шаг прямо с запястья
+Клавиша Return тоже ведёт дальше
+
+### 앱스토어 (Español) (es)
+
+Temporizadores grandes en el iPad de pie
+El tiempo de cada olla en el Apple Watch
+Pasa al siguiente paso desde la muñeca
+Pulsa Intro en el teclado para seguir
+
+### 앱스토어 (Deutsch) (de)
+
+Große Topf-Timer auf dem iPad im Ständer
+Restzeit jedes Topfs auf der Apple Watch
+Nächster Schritt direkt am Handgelenk
+Mit der Eingabetaste weiter zum Schritt
+
+### 앱스토어 (Français) (fr)
+
+Grands minuteurs sur l’iPad posé debout
+Chaque casserole minutée sur Apple Watch
+Étape suivante directement au poignet
+Touche Entrée du clavier pour avancer
+
+### 앱스토어 (Italiano) (it)
+
+Timer grandi con l’iPad in piedi
+Il tempo di ogni pentola su Apple Watch
+Passo successivo direttamente dal polso
+Premi Invio sulla tastiera e prosegui
+
+### 앱스토어 (Português (Brasil)) (pt-BR)
+
+Timers grandes com o iPad em pé
+O tempo de cada panela no Apple Watch
+Próxima etapa direto no pulso
+Aperte Return no teclado para avançar
+
+### 앱스토어 (ไทย) (th)
+
+ตั้ง iPad ไว้ เห็นเวลาหม้อตัวใหญ่
+ดูเวลาที่เหลือของทุกหม้อบน Apple Watch
+ไปขั้นต่อไปได้จากข้อมือ
+กดปุ่ม Return บนคีย์บอร์ดเพื่อไปต่อ
+
+### 앱스토어 (Tiếng Việt) (vi)
+
+Dựng iPad lên để xem giờ nồi thật to
+Xem thời gian từng nồi trên Apple Watch
+Chuyển bước tiếp theo ngay trên cổ tay
+Nhấn Return trên bàn phím để đi tiếp
+
+### 앱스토어 (Čeština) (cs)
+
+Velké časovače hrnců na postaveném iPadu
+Čas každého hrnce na Apple Watch
+Další krok přímo ze zápěstí
+Na další krok i klávesou Return
+
+### 앱스토어 (Dansk) (da)
+
+Store grydeure på din opstillede iPad
+Hver grydes tid tilbage på Apple Watch
+Næste trin direkte fra håndleddet
+Tryk på Retur for at gå videre
+
+### 앱스토어 (Ελληνικά) (el)
+
+Μεγάλοι χρόνοι κατσαρόλας στο iPad
+Ο χρόνος κάθε κατσαρόλας στο Apple Watch
+Επόμενο βήμα κατευθείαν από τον καρπό
+Πατήστε Return για να συνεχίσετε
+
+### 앱스토어 (Suomi) (fi)
+
+Isot kattila-ajat iPadilla telineessä
+Jokaisen kattilan aika Apple Watchissa
+Seuraava vaihe suoraan ranteesta
+Rivinvaihtonäppäin vie seuraavaan
+
+### 앱스토어 (Bahasa Indonesia) (id)
+
+Timer panci besar saat iPad berdiri
+Sisa waktu tiap panci di Apple Watch
+Lanjut ke langkah berikutnya dari jam
+Tekan Return di keyboard untuk lanjut
+
+### 앱스토어 (Norsk bokmål) (nb)
+
+Store grytetidtakere på iPad som står
+Tiden for hver gryte på Apple Watch
+Neste steg rett fra håndleddet
+Trykk Retur for å gå videre
+
+### 앱스토어 (Nederlands) (nl)
+
+Grote pantimers op een iPad in de houder
+De tijd van elke pan op je Apple Watch
+Volgende stap direct vanaf je pols
+Druk op Return om door te gaan
+
+### 앱스토어 (Polski) (pl)
+
+Duże minutniki garnków na iPadzie
+Czas każdego garnka na Apple Watch
+Następny krok prosto z nadgarstka
+Klawisz Return też przechodzi dalej
+
+### 앱스토어 (Svenska) (sv)
+
+Stora kastrulltimer på iPad i stället
+Varje kastrulls tid kvar på Apple Watch
+Nästa steg direkt från handleden
+Tryck på Retur för att gå vidare
+
+### 앱스토어 (Türkçe) (tr)
+
+Standdaki iPad’de büyük tencere süreleri
+Her tencerenin süresi Apple Watch’ta
+Sonraki adıma doğrudan bilekten geçin
+Klavyede Return ile sonraki adıma geçin
+
 ## 1.0.3
 
 ### 앱스토어 (한국어) (ko)

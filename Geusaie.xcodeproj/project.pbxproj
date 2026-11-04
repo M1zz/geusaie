@@ -7,10 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05F44E5DBE8A07C7B8AA9DF1 /* CookSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7CE2435BE7B7F293B06CF /* CookSnapshot.swift */; };
+		12F1EC57169641C11D7F6381 /* GeusaieWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A5F8F0CD5FD1B0016F08BD14 /* GeusaieWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		16B1B65081E409028AA37A5C /* GeusaieWatchWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 58565FAF82A6E46770DA501C /* GeusaieWatchWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1DF7B9EB4BF6E5D028FE2528 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 26D51AFF77E5E68F595483F0 /* Localizable.xcstrings */; };
-		A17C0DE00000000000000004 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A17C0DE00000000000000003 /* AppShortcuts.xcstrings */; };
-		A17C0DE00000000000000002 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A17C0DE00000000000000001 /* InfoPlist.xcstrings */; };
+		319D864818BE22E46FDCD9BA /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DD445A049EB1B94CA9E3887B /* Localizable.xcstrings */; };
+		373E40F956619E3D9C5604F8 /* WatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C67A9E5A1D1A4695D3C922 /* WatchLink.swift */; };
+		394D3FFEFB3BDB2E4CF7B917 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E4468F4E2E28D4684DE3DAA1 /* InfoPlist.xcstrings */; };
+		3DCB27865DC5DC9E0F18F04D /* CookSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7CE2435BE7B7F293B06CF /* CookSnapshot.swift */; };
+		460F86B2579E0EE370382664 /* WatchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4D33D4016BDDD78972A6B /* WatchStore.swift */; };
+		4896F8EBD6975F02F566F5E3 /* NextStepIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D223BB00DE08F1BFAA313 /* NextStepIntent.swift */; };
+		4A8C1394C3E64795B61F47F8 /* WatchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4D33D4016BDDD78972A6B /* WatchStore.swift */; };
+		53B99B854C9BE8D3DE80904F /* PotComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180BE3D7DAEC075EB555710 /* PotComplication.swift */; };
+		6BA8B303ADF68B2727E7F673 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DD445A049EB1B94CA9E3887B /* Localizable.xcstrings */; };
+		773CF4E3A25409747371D0E0 /* GeusaieWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1131D44783EDC2BB08231 /* GeusaieWatchApp.swift */; };
 		778274A66092B3FED678B0EA /* GeusaieSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */; };
+		7C14D1CC6EEB94745629E0C1 /* CookSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7CE2435BE7B7F293B06CF /* CookSnapshot.swift */; };
+		86B93E329CC8EE8051262967 /* WatchDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862C42175C3F6C8EBE2FB27C /* WatchDemo.swift */; };
+		8C89B34B00635260EAA5D96B /* CookRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7835BF2E066785435900BFC5 /* CookRemote.swift */; };
+		A17C0DE00000000000000002 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A17C0DE00000000000000001 /* InfoPlist.xcstrings */; };
+		A17C0DE00000000000000004 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A17C0DE00000000000000003 /* AppShortcuts.xcstrings */; };
 		B00000000000000000000001 /* GeusaieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000001 /* GeusaieApp.swift */; };
 		B00000000000000000000002 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000002 /* Theme.swift */; };
 		B00000000000000000000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000003 /* Models.swift */; };
@@ -23,16 +39,33 @@
 		B0000000000000000000000C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000C /* PrivacyInfo.xcprivacy */; };
 		B10000000000000000000001 /* GeusaieFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* GeusaieFlags.swift */; };
 		B10000000000000000000002 /* GeusaieTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* GeusaieTips.swift */; };
-		B10000000000000000000077 /* GeusaieTipJar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000077 /* GeusaieTipJar.swift */; };
 		B10000000000000000000003 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* OnboardingView.swift */; };
 		B10000000000000000000004 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* SettingsView.swift */; };
 		B10000000000000000000005 /* GeusaieShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* GeusaieShortcuts.swift */; };
+		B10000000000000000000077 /* GeusaieTipJar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000077 /* GeusaieTipJar.swift */; };
 		B20000000000000000000001 /* PlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000000000000000000001 /* PlanTests.swift */; };
 		C8882293AB2D976FF90E57AD /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7E83D3BFB9A6AE9D99CDF579 /* LeeoKit */; };
+		D361B9AC4028C598BAEB63EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4E9827BBA4CB743E6492BA /* Assets.xcassets */; };
+		E458BB7F77B5F2F6B8D2B1CE /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D0ED7BD55AB3F8533FF9B93B /* AppShortcuts.xcstrings */; };
 		E6916DFAAA09F8527EB64F18 /* GeusaieRoadmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8467633B3CFB82B2ED926B /* GeusaieRoadmap.swift */; };
+		F14CCCECA2853E5FB025739C /* KitchenStandBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B994DCCFCB272F4C17E0CB /* KitchenStandBody.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		047701DB73A28A2D9F0E43F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00000000000000000000002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB007E8A1F77183A4F5887BB;
+			remoteInfo = GeusaieWatch;
+		};
+		23C63FFB2FC7CE43EA6860D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00000000000000000000002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AA4084FB5FF4F7EF3BB605;
+			remoteInfo = GeusaieWatchWidget;
+		};
 		D20000000000000000000002 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D00000000000000000000002 /* Project object */;
@@ -42,12 +75,54 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0809DAEF5A835082BEDFFD34 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				16B1B65081E409028AA37A5C /* GeusaieWatchWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE7528F5E0577D5D1CDE64A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				12F1EC57169641C11D7F6381 /* GeusaieWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		05DD843F6ACC6C0369F60ABD /* GeusaieSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieSpec.swift; sourceTree = "<group>"; };
 		26D51AFF77E5E68F595483F0 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		A17C0DE00000000000000003 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
-		A17C0DE00000000000000001 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		3180BE3D7DAEC075EB555710 /* PotComplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PotComplication.swift; sourceTree = "<group>"; };
+		32D5F9CF9381E980E3FB89EF /* GeusaieWatch.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = GeusaieWatch.entitlements; sourceTree = "<group>"; };
+		4FF7CE2435BE7B7F293B06CF /* CookSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CookSnapshot.swift; sourceTree = "<group>"; };
+		58565FAF82A6E46770DA501C /* GeusaieWatchWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GeusaieWatchWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE4D33D4016BDDD78972A6B /* WatchStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchStore.swift; sourceTree = "<group>"; };
 		6C8467633B3CFB82B2ED926B /* GeusaieRoadmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeusaieRoadmap.swift; sourceTree = "<group>"; };
+		71E2EB2F07DDFD9C6DFAF8C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7835BF2E066785435900BFC5 /* CookRemote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CookRemote.swift; sourceTree = "<group>"; };
+		78C67A9E5A1D1A4695D3C922 /* WatchLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchLink.swift; sourceTree = "<group>"; };
+		80C39DA2307ACC9DA18D17FD /* GeusaieWatchWidget.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = GeusaieWatchWidget.entitlements; sourceTree = "<group>"; };
+		862C42175C3F6C8EBE2FB27C /* WatchDemo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchDemo.swift; sourceTree = "<group>"; };
+		91B1131D44783EDC2BB08231 /* GeusaieWatchApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeusaieWatchApp.swift; sourceTree = "<group>"; };
+		A17C0DE00000000000000001 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		A17C0DE00000000000000003 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		A5F8F0CD5FD1B0016F08BD14 /* GeusaieWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeusaieWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44D223BB00DE08F1BFAA313 /* NextStepIntent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NextStepIntent.swift; sourceTree = "<group>"; };
+		C3B994DCCFCB272F4C17E0CB /* KitchenStandBody.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KitchenStandBody.swift; sourceTree = "<group>"; };
+		D0ED7BD55AB3F8533FF9B93B /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		DD445A049EB1B94CA9E3887B /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E4468F4E2E28D4684DE3DAA1 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		F00000000000000000000001 /* GeusaieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieApp.swift; sourceTree = "<group>"; };
 		F00000000000000000000002 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F00000000000000000000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
@@ -61,15 +136,30 @@
 		F000000000000000000000AA /* Geusaie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geusaie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10000000000000000000001 /* GeusaieFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieFlags.swift; sourceTree = "<group>"; };
 		F10000000000000000000002 /* GeusaieTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieTips.swift; sourceTree = "<group>"; };
-		F10000000000000000000077 /* GeusaieTipJar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieTipJar.swift; sourceTree = "<group>"; };
 		F10000000000000000000003 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		F10000000000000000000004 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F10000000000000000000005 /* GeusaieShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieShortcuts.swift; sourceTree = "<group>"; };
+		F10000000000000000000077 /* GeusaieTipJar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieTipJar.swift; sourceTree = "<group>"; };
 		F20000000000000000000001 /* PlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTests.swift; sourceTree = "<group>"; };
 		F200000000000000000000AA /* GeusaieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeusaieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4E9827BBA4CB743E6492BA /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		092ACD68ECC29F906B5790D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D4A44EA69BEDB5DB14005F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E00000000000000000000002 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,12 +178,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46F2BA505106FF425E0F687A /* GeusaieWatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3180BE3D7DAEC075EB555710 /* PotComplication.swift */,
+				71E2EB2F07DDFD9C6DFAF8C9 /* Info.plist */,
+				80C39DA2307ACC9DA18D17FD /* GeusaieWatchWidget.entitlements */,
+			);
+			name = GeusaieWatchWidget;
+			path = GeusaieWatchWidget;
+			sourceTree = "<group>";
+		};
+		6058125092C76EF4B73AF2C7 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		6A00AA6CA6DA1FD4ED9AB150 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4FF7CE2435BE7B7F293B06CF /* CookSnapshot.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		927FEB7FD8E7F4CD433D94C8 /* GeusaieWatch */ = {
+			isa = PBXGroup;
+			children = (
+				91B1131D44783EDC2BB08231 /* GeusaieWatchApp.swift */,
+				78C67A9E5A1D1A4695D3C922 /* WatchLink.swift */,
+				6BE4D33D4016BDDD78972A6B /* WatchStore.swift */,
+				B44D223BB00DE08F1BFAA313 /* NextStepIntent.swift */,
+				862C42175C3F6C8EBE2FB27C /* WatchDemo.swift */,
+				FF4E9827BBA4CB743E6492BA /* Assets.xcassets */,
+				DD445A049EB1B94CA9E3887B /* Localizable.xcstrings */,
+				E4468F4E2E28D4684DE3DAA1 /* InfoPlist.xcstrings */,
+				D0ED7BD55AB3F8533FF9B93B /* AppShortcuts.xcstrings */,
+				32D5F9CF9381E980E3FB89EF /* GeusaieWatch.entitlements */,
+			);
+			name = GeusaieWatch;
+			path = GeusaieWatch;
+			sourceTree = "<group>";
+		};
+		95E8DC196765C8F1EA468AF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6058125092C76EF4B73AF2C7 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C00000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
 				C00000000000000000000002 /* Geusaie */,
 				C20000000000000000000001 /* GeusaieTests */,
 				C00000000000000000000003 /* Products */,
+				6A00AA6CA6DA1FD4ED9AB150 /* Shared */,
+				95E8DC196765C8F1EA468AF0 /* Frameworks */,
+				927FEB7FD8E7F4CD433D94C8 /* GeusaieWatch */,
+				46F2BA505106FF425E0F687A /* GeusaieWatchWidget */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +268,8 @@
 				26D51AFF77E5E68F595483F0 /* Localizable.xcstrings */,
 				A17C0DE00000000000000001 /* InfoPlist.xcstrings */,
 				A17C0DE00000000000000003 /* AppShortcuts.xcstrings */,
+				7835BF2E066785435900BFC5 /* CookRemote.swift */,
+				C3B994DCCFCB272F4C17E0CB /* KitchenStandBody.swift */,
 			);
 			path = Geusaie;
 			sourceTree = "<group>";
@@ -130,6 +279,8 @@
 			children = (
 				F000000000000000000000AA /* Geusaie.app */,
 				F200000000000000000000AA /* GeusaieTests.xctest */,
+				A5F8F0CD5FD1B0016F08BD14 /* GeusaieWatch.app */,
+				58565FAF82A6E46770DA501C /* GeusaieWatchWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +296,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		16AA4084FB5FF4F7EF3BB605 /* GeusaieWatchWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8E68A86102D9C5C402C47E4 /* Build configuration list for PBXNativeTarget "GeusaieWatchWidget" */;
+			buildPhases = (
+				205C4481FEB261AA6CD4B156 /* Sources */,
+				092ACD68ECC29F906B5790D3 /* Frameworks */,
+				16C876C499D2C4130C7C1A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeusaieWatchWidget;
+			productName = GeusaieWatchWidget;
+			productReference = 58565FAF82A6E46770DA501C /* GeusaieWatchWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D00000000000000000000001 /* Geusaie */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A00000000000000000000006 /* Build configuration list for PBXNativeTarget "Geusaie" */;
@@ -152,10 +320,12 @@
 				E00000000000000000000001 /* Sources */,
 				E00000000000000000000002 /* Frameworks */,
 				E00000000000000000000003 /* Resources */,
+				1DE7528F5E0577D5D1CDE64A /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3A7279AD38F0DF29BBD1122D /* PBXTargetDependency */,
 			);
 			name = Geusaie;
 			packageProductDependencies = (
@@ -182,6 +352,25 @@
 			productName = GeusaieTests;
 			productReference = F200000000000000000000AA /* GeusaieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB007E8A1F77183A4F5887BB /* GeusaieWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE42E1640DD2DD1A17D9E62A /* Build configuration list for PBXNativeTarget "GeusaieWatch" */;
+			buildPhases = (
+				E331AAB65283E52145EFE3CE /* Sources */,
+				73D4A44EA69BEDB5DB14005F /* Frameworks */,
+				7971435A997A85FB4DB21FDE /* Resources */,
+				0809DAEF5A835082BEDFFD34 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028E078097634BF5987251EB /* PBXTargetDependency */,
+			);
+			name = GeusaieWatch;
+			productName = GeusaieWatch;
+			productReference = A5F8F0CD5FD1B0016F08BD14 /* GeusaieWatch.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -243,11 +432,32 @@
 			targets = (
 				D00000000000000000000001 /* Geusaie */,
 				D20000000000000000000001 /* GeusaieTests */,
+				DB007E8A1F77183A4F5887BB /* GeusaieWatch */,
+				16AA4084FB5FF4F7EF3BB605 /* GeusaieWatchWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		16C876C499D2C4130C7C1A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319D864818BE22E46FDCD9BA /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7971435A997A85FB4DB21FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D361B9AC4028C598BAEB63EC /* Assets.xcassets in Resources */,
+				6BA8B303ADF68B2727E7F673 /* Localizable.xcstrings in Resources */,
+				394D3FFEFB3BDB2E4CF7B917 /* InfoPlist.xcstrings in Resources */,
+				E458BB7F77B5F2F6B8D2B1CE /* AppShortcuts.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E00000000000000000000003 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +480,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		205C4481FEB261AA6CD4B156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B99B854C9BE8D3DE80904F /* PotComplication.swift in Sources */,
+				7C14D1CC6EEB94745629E0C1 /* CookSnapshot.swift in Sources */,
+				4A8C1394C3E64795B61F47F8 /* WatchStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E00000000000000000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,6 +510,9 @@
 				B10000000000000000000004 /* SettingsView.swift in Sources */,
 				B10000000000000000000005 /* GeusaieShortcuts.swift in Sources */,
 				E6916DFAAA09F8527EB64F18 /* GeusaieRoadmap.swift in Sources */,
+				8C89B34B00635260EAA5D96B /* CookRemote.swift in Sources */,
+				F14CCCECA2853E5FB025739C /* KitchenStandBody.swift in Sources */,
+				05F44E5DBE8A07C7B8AA9DF1 /* CookSnapshot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +524,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E331AAB65283E52145EFE3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773CF4E3A25409747371D0E0 /* GeusaieWatchApp.swift in Sources */,
+				373E40F956619E3D9C5604F8 /* WatchLink.swift in Sources */,
+				460F86B2579E0EE370382664 /* WatchStore.swift in Sources */,
+				4896F8EBD6975F02F566F5E3 /* NextStepIntent.swift in Sources */,
+				86B93E329CC8EE8051262967 /* WatchDemo.swift in Sources */,
+				3DCB27865DC5DC9E0F18F04D /* CookSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		028E078097634BF5987251EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GeusaieWatchWidget;
+			target = 16AA4084FB5FF4F7EF3BB605 /* GeusaieWatchWidget */;
+			targetProxy = 23C63FFB2FC7CE43EA6860D9 /* PBXContainerItemProxy */;
+		};
+		3A7279AD38F0DF29BBD1122D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GeusaieWatch;
+			target = DB007E8A1F77183A4F5887BB /* GeusaieWatch */;
+			targetProxy = 047701DB73A28A2D9F0E43F4 /* PBXContainerItemProxy */;
+		};
 		D20000000000000000000003 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D00000000000000000000001 /* Geusaie */;
@@ -312,6 +560,99 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		030CEDBEFB97CE2F7C4FDFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = GeusaieWatchWidget/GeusaieWatchWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeusaieWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "그사이에";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.geusaie.watchkitapp.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		76A854AB2FF3ED4105A60256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeusaieWatch/GeusaieWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "그사이에";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.leeo.geusaie;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.geusaie.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		8CC59E9BD1BF78038B304E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = GeusaieWatchWidget/GeusaieWatchWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeusaieWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "그사이에";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.geusaie.watchkitapp.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 		A00000000000000000000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -455,7 +796,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.geusaie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -488,7 +829,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.geusaie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -531,6 +872,39 @@
 			};
 			name = Release;
 		};
+		E3C7AAED934DEEDA9AB84C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeusaieWatch/GeusaieWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "그사이에";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.leeo.geusaie;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.geusaie.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -557,6 +931,24 @@
 			buildConfigurations = (
 				A20000000000000000000003 /* Debug */,
 				A20000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8E68A86102D9C5C402C47E4 /* Build configuration list for PBXNativeTarget "GeusaieWatchWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC59E9BD1BF78038B304E9E /* Release */,
+				030CEDBEFB97CE2F7C4FDFF7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE42E1640DD2DD1A17D9E62A /* Build configuration list for PBXNativeTarget "GeusaieWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A854AB2FF3ED4105A60256 /* Release */,
+				E3C7AAED934DEEDA9AB84C18 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

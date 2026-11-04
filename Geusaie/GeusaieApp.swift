@@ -20,6 +20,9 @@ struct GeusaieApp: App {
         }
         #endif
         try? Tips.configure([.displayFrequency(.immediate)])
+
+        // Apple Watch 와 알림의 [다음 단계] (→ CookRemote.swift). 앱이 알림 버튼으로 깨어나도 받게 시작하자마자 단다.
+        CookRemote.shared.activate()
     }
 
     var body: some Scene {

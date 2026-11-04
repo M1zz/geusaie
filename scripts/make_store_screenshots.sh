@@ -4,6 +4,7 @@
 # 사용법:
 #   scripts/make_store_screenshots.sh iphone <시뮬레이터 UDID> <언어 ...>   (아이폰 6.9" — 1320x2868 원본)
 #   scripts/make_store_screenshots.sh ipad   <시뮬레이터 UDID> <언어 ...>   (아이패드 13" — 2064x2752 원본)
+#   scripts/make_store_screenshots.sh watch  <워치 시뮬레이터 UDID> <언어 ...> (Apple Watch 46mm — 416x496, -watchDemo 장면)
 #
 # 미리: Debug 빌드를 그 시뮬레이터에 설치하고(데모 인자는 DEBUG 전용),
 #       xcrun simctl status_bar <UDID> override --time 9:41 --batteryState charged --batteryLevel 100
@@ -26,10 +27,13 @@ locale_of() {
   esac
 }
 
+BUNDLE=com.leeo.geusaie
+[ "$KIND" = watch ] && BUNDLE=com.leeo.geusaie.watchkitapp
+
 cap() {  # cap <언어> <파일> <인자...>
   L=$1; OUT=$2; shift 2
-  xcrun simctl terminate "$U" com.leeo.geusaie >/dev/null 2>&1 || true
-  perl -e 'alarm 60; exec @ARGV' xcrun simctl launch "$U" com.leeo.geusaie \
+  xcrun simctl terminate "$U" $BUNDLE >/dev/null 2>&1 || true
+  perl -e 'alarm 60; exec @ARGV' xcrun simctl launch "$U" $BUNDLE \
     -AppleLanguages "($L)" -AppleLocale "$(locale_of "$L")" "$@" >/dev/null
   sleep "${WAIT:-4}"
   perl -e 'alarm 120; exec @ARGV' xcrun simctl io "$U" screenshot "$OUT" >/dev/null 2>&1
@@ -47,6 +51,11 @@ for L in "$@"; do
     for f in "$R"/0*.png; do
       ffmpeg -loglevel error -y -i "$f" -vf "scale=1242:2699,crop=1242:2688" "$M/$(basename "$f")"
     done
+  elif [ "$KIND" = watch ]; then
+    # 워치는 원본이 곧 제출본이다 (416x496). 요리는 아이폰에서 오므로 데모 장면을 앱이 스스로 띄운다.
+    W="$ROOT/docs/screenshots/watch/$L"; mkdir -p "$W"
+    cap "$L" "$W/01-cooking.png" -watchDemo cooking
+    cap "$L" "$W/02-boil.png"    -watchDemo boil
   else
     # 아이패드 상태 막대의 날짜는 SpringBoard 가 시스템 언어로 그린다 — 앱 인자로는 안 바뀐다.
     # 그래서 시스템 언어만 바꾸고 SpringBoard 를 다시 띄운다(시뮬레이터를 끄거나 지우지 않는다).

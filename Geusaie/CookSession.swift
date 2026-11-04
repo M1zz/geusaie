@@ -36,6 +36,8 @@ final class CookSession: ObservableObject {
     }
 
     private var ticker: AnyCancellable?
+    /// 워치로 지금 부엌을 비추는 세션인가 — 홈 화면의 진짜 세션만. 미리보기 세션은 비추지 않는다.
+    var mirrorsToWatch = false
     private var lastAccrual = 0
     private var finishedAt: Int?
 
@@ -104,8 +106,11 @@ final class CookSession: ObservableObject {
     // MARK: 두 계층 — 지금 무엇을 해야 하는가
 
     /// 지금 차례가 된, 냄비에 매인 내 동작. 이게 있으면 도마 일은 멈춘다.
-    var dueAction: RecipeStep? {
-        guard let recipe else { return nil }
+    var dueAction: RecipeStep? { dueActions.first }
+
+    /// 차례가 된 냄비 동작 전부 — 늦으면 상하는 것부터
+    private var dueActions: [RecipeStep] {
+        guard let recipe else { return [] }
         let p = plan
         let e = elapsed
         let due = recipe.chains.flatMap { chain -> [RecipeStep] in
@@ -121,7 +126,7 @@ final class CookSession: ObservableObject {
         // 늦으면 상하는 것부터, 그다음은 먼저 차례가 온 것부터
         return due.sorted {
             $0.deadline == $1.deadline ? p.start($0) < p.start($1) : $0.deadline
-        }.first
+        }
     }
 
     /// 지금 하고 있는(또는 돌아가서 이어 할) 도마 일
@@ -334,17 +339,7 @@ final class CookSession: ObservableObject {
         let e = elapsed
 
         if let due = dueAction {
-            state.doneAt[due.id] = e
-            if state.startedAt[due.id] == nil { state.startedAt[due.id] = plan.start(due) }
-            // 그 동작이 냄비를 걸어두는 일이었다면, 지금부터 냄비가 돈다
-            if let chain = recipe.chains.first(where: { c in c.contains { $0.id == due.id } }),
-               let idx = chain.firstIndex(where: { $0.id == due.id }),
-               idx + 1 < chain.count, chain[idx + 1].role == .cook {
-                let cook = chain[idx + 1]
-                state.startedAt[cook.id] = e
-                scheduleCookAlarm(cook, from: e)
-            }
-            haptic(.success)
+            completeAction(due, in: recipe, at: e)
         } else if let prep = currentPrep {
             state.doneAt[prep.id] = e
             if state.startedAt[prep.id] == nil { state.startedAt[prep.id] = e }
@@ -352,6 +347,35 @@ final class CookSession: ObservableObject {
         }
 
         if allHandsDone && runningCooks.isEmpty { finish() }
+    }
+
+    /// 냄비 동작 하나를 끝낸다. 그 동작이 냄비를 걸어두는 일이었다면, 지금부터 냄비가 돈다.
+    private func completeAction(_ due: RecipeStep, in recipe: Recipe, at e: Int) {
+        state.doneAt[due.id] = e
+        if state.startedAt[due.id] == nil { state.startedAt[due.id] = plan.start(due) }
+        if let chain = recipe.chains.first(where: { c in c.contains { $0.id == due.id } }),
+           let idx = chain.firstIndex(where: { $0.id == due.id }),
+           idx + 1 < chain.count, chain[idx + 1].role == .cook {
+            let cook = chain[idx + 1]
+            state.startedAt[cook.id] = e
+            scheduleCookAlarm(cook, from: e)
+        }
+        haptic(.success)
+    }
+
+    /// 워치 · 알림의 [다음 단계] — '이 일을 끝냈다'.
+    /// 화면이 꺼져 있던 사이의 일을 먼저 따라잡고, 그 일이 아직 내 차례일 때만 끝낸다.
+    /// (젖은 손으로 두 번 눌러도 다음 일까지 건너뛰지 않는다)
+    func complete(stepID: String) {
+        tick(Date())
+        guard case .running = phase, let recipe else { return }
+        if let due = dueActions.first(where: { $0.id == stepID }) {
+            completeAction(due, in: recipe, at: elapsed)
+            if allHandsDone && runningCooks.isEmpty { finish() }
+        } else if activeHandsSteps.first?.id == stepID {
+            advance()
+        }
+        if mirrorsToWatch { CookRemote.shared.publish(watchSnapshot) }
     }
 
     /// 단계 종료 — "다음"과 같다
@@ -397,6 +421,7 @@ final class CookSession: ObservableObject {
 
     private func tick(_ date: Date) {
         now = date
+        defer { if mirrorsToWatch { CookRemote.shared.publish(watchSnapshot) } }
         guard case .running = phase, let recipe else { return }
         let e = elapsed
         state.now = e
@@ -436,6 +461,60 @@ final class CookSession: ObservableObject {
             haptic(.success)
             UIApplication.shared.isIdleTimerDisabled = false
         }
+    }
+
+    // MARK: 워치 — 지금 부엌 한 장
+    //
+    // 바뀐 것이 있을 때만 보낸다(CookRemote 가 같은 장은 거른다). 그래서 매초 줄어드는 숫자는 담지 않고,
+    // 냄비가 끝나는 '시각'을 담는다 — 워치가 그 시각까지 혼자 센다.
+
+    var watchSnapshot: CookSnapshot? {
+        guard let recipe else { return nil }
+        let running: Bool
+        let base: Date
+        switch phase {
+        case .running(let startedAt): running = true; base = startedAt
+        case .paused: running = false; base = now
+        default: return nil
+        }
+        let hands = activeHandsSteps.first
+        let due = dueAction
+        let pots = potStates.map { pot -> CookSnapshot.Pot in
+            var endsAt: Date?
+            if running, pot.kind == .cooking, let step = pot.step, let began = state.startedAt[step.id] {
+                endsAt = base.addingTimeInterval(TimeInterval(began + step.duration))
+            }
+            return CookSnapshot.Pot(lane: pot.lane, colorIndex: recipe.laneIndex(pot.lane), text: pot.text,
+                                    endsAt: endsAt, remaining: running ? 0 : pot.remaining)
+        }
+        let alarms = running ? recipe.steps.compactMap { cook -> CookSnapshot.Alarm? in
+            guard cook.role == .cook, let began = state.startedAt[cook.id], state.doneAt[cook.id] == nil else { return nil }
+            let at = base.addingTimeInterval(TimeInterval(began + cook.duration))
+            guard at > Date() else { return nil }
+            return alarm(for: cook, in: recipe, at: at)
+        } : []
+        return CookSnapshot(
+            recipe: "\(recipe.emoji) \(recipe.name)",
+            nowTitle: hands.map { "\($0.emoji) \($0.name)" } ?? String(localized: "손은 다 했어요 — 냄비만 기다리면 돼요"),
+            nowUrgent: due.map { $0.deadline || isOverdue($0) } ?? false,
+            nowStepID: hands?.id,
+            running: running,
+            pots: pots,
+            alarms: alarms)
+    }
+
+    /// 냄비가 다 되는 순간의 알림 한 통 — 아이폰이 거는 것과 워치가 거는 것이 같은 글이다
+    private func alarm(for cook: RecipeStep, in recipe: Recipe, at: Date) -> CookSnapshot.Alarm {
+        // 그 냄비에서 다음에 할 동작 = 이 시간이 끝나는 순간의 마감
+        let chain = recipe.chains.first { c in c.contains { $0.id == cook.id } } ?? []
+        let idx = chain.firstIndex { $0.id == cook.id } ?? 0
+        let next = idx + 1 < chain.count ? chain[idx + 1] : nil
+        return CookSnapshot.Alarm(
+            id: "cook-\(cook.id)", at: at,
+            title: String(localized: "\(cook.emoji) \(cook.name) 다 됐어요"),
+            body: next.map { String(localized: "\($0.emoji) \($0.name) — 지금 하세요") } ?? String(localized: "보러 오세요"),
+            urgent: next?.deadline ?? false,
+            stepID: next.flatMap { $0.role == .action ? $0.id : nil })
     }
 
     // MARK: 스크럽 — 드래그로 진행 상황 이동
@@ -478,19 +557,10 @@ final class CookSession: ObservableObject {
         let after = TimeInterval(began + cook.duration - elapsed)
         guard after > 1 else { return }
 
-        // 그 냄비에서 다음에 할 동작 = 이 시간이 끝나는 순간의 마감
-        let chain = recipe.chains.first { c in c.contains { $0.id == cook.id } } ?? []
-        let idx = chain.firstIndex { $0.id == cook.id } ?? 0
-        let next = idx + 1 < chain.count ? chain[idx + 1] : nil
-
-        let c = UNMutableNotificationContent()
-        c.title = String(localized: "\(cook.emoji) \(cook.name) 다 됐어요")
-        c.body = next.map { String(localized: "\($0.emoji) \($0.name) — 지금 하세요") } ?? String(localized: "보러 오세요")
-        c.sound = .default
-        c.interruptionLevel = (next?.deadline ?? false) ? .timeSensitive : .active
+        let a = alarm(for: cook, in: recipe, at: Date().addingTimeInterval(after))
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: after, repeats: false)
         UNUserNotificationCenter.current()
-            .add(UNNotificationRequest(identifier: "cook-\(cook.id)", content: c, trigger: trigger))
+            .add(UNNotificationRequest(identifier: a.id, content: CookRemote.content(for: a), trigger: trigger))
     }
 
     private func cancelNotifications() {

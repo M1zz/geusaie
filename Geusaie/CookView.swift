@@ -14,10 +14,15 @@ struct CookView: View {
     @Environment(\.dynamicTypeSize) private var typeSize
     @Environment(\.scenePhase) private var scenePhase
     @Environment(\.foldLayout) private var fold
+    @Environment(\.horizontalSizeClass) private var hSize
+    @Environment(\.verticalSizeClass) private var vSize
     /// 세워 두고 보는 화면이라 기본이 이미 크다 — 여기서 더 키울 수 있다
     @AppStorage("textScale") private var textScaleRaw = TextScale.big.rawValue
 
     private var textScale: TextScale { TextScale(rawValue: textScaleRaw) ?? .big }
+    /// 아이패드를 주방 스탠드에 세워 둔 화면 — 가로 · 세로 모두 넓고 높을 때.
+    /// Split View 로 좁아지면(가로 compact) 아이폰 배치로, 가로로 눕힌 아이폰(세로 compact)도 그대로다.
+    private var kitchenStand: Bool { hSize == .regular && vSize == .regular }
     /// 글자를 키우면 고정 배치로는 다 안 들어간다 — 그때는 전부 스크롤로 내려 보낸다.
     /// (내가 지정한 크기와 기기 설정, 둘 중 하나라도 크면)
     private var stacked: Bool {
@@ -62,6 +67,10 @@ struct CookView: View {
                             }
                             if fold.isUnfolded {
                                 handsBody(recipe)
+                            } else if kitchenStand {
+                                KitchenStandBody(recipe: recipe, session: session, voice: voice) {
+                                    timelineAndList(recipe)
+                                }
                             } else if wide {
                                 wideBody(recipe)
                             } else {
@@ -313,22 +322,24 @@ struct CookView: View {
                                                 reached: GeusaieTipMoments.reached(cooks: cooksDone))
                     doneButton
                 }
-            } else if stacked {
+            } else if stacked && !kitchenStand {
                 // 글자가 크면 두 줄로 — 큰 버튼 하나가 아래를 차지한다
                 VStack(spacing: 8) {
                     HStack(spacing: 10) { secondaryControls }
                     primaryControl
                 }
             } else {
-                HStack(spacing: 12) {
-                    secondaryControls
+                HStack(spacing: kitchenStand ? 20 : 12) {
+                    // 주방 스탠드에서는 마이크 · 일시정지를 한쪽에 묶고, '다음'이 남는 폭을 다 가진다
+                    HStack(spacing: kitchenStand ? 20 : 12) { secondaryControls }
+                        .frame(width: kitchenStand ? 380 : nil)
                     primaryControl
                 }
             }
         }
-        .padding(.horizontal, 16)
-        .padding(.top, 8)
-        .padding(.bottom, 4)
+        .padding(.horizontal, kitchenStand ? 24 : 16)
+        .padding(.top, kitchenStand ? 16 : 8)
+        .padding(.bottom, kitchenStand ? 12 : 4)
         .background(Theme.cream.shadow(color: .black.opacity(0.05), radius: 6, y: -3))
     }
 
@@ -336,32 +347,35 @@ struct CookView: View {
         Button { session.begin() } label: {
             Label("요리 시작", systemImage: "play.fill").frame(maxWidth: .infinity)
         }
-        .buttonStyle(FilledButton(tint: Theme.terracotta))
+        .buttonStyle(filled(Theme.terracotta))
     }
 
     private var doneButton: some View {
         Button { dismiss() } label: {
             Label("완료", systemImage: "checkmark").frame(maxWidth: .infinity)
         }
-        .buttonStyle(FilledButton(tint: Theme.green))
+        .buttonStyle(filled(Theme.green))
     }
+
+    /// 주방 스탠드에서는 젖은 손으로 멀리서 누르니 버튼이 크다
+    private func filled(_ tint: Color) -> FilledButton { FilledButton(tint: tint, large: kitchenStand) }
 
     /// 마이크와 일시정지 — 자주 누르지 않는 것들
     @ViewBuilder private var secondaryControls: some View {
         if voiceAllowed {
-            MicButton(voice: voice)
+            MicButton(voice: voice, side: kitchenStand ? 96 : 48)
                 .popoverTip(voiceTip)
         }
         if session.isActive {
             Button { session.pause() } label: {
                 Label("일시정지", systemImage: "pause.fill").frame(maxWidth: .infinity)
             }
-            .buttonStyle(FilledButton(tint: Theme.inkSoft))
+            .buttonStyle(filled(Theme.inkSoft))
         } else {
             Button { session.resume() } label: {
                 Label("재개", systemImage: "play.fill").frame(maxWidth: .infinity)
             }
-            .buttonStyle(FilledButton(tint: Theme.terracotta))
+            .buttonStyle(filled(Theme.terracotta))
         }
     }
 
@@ -371,12 +385,14 @@ struct CookView: View {
             Button { showFinishConfirm = true } label: {
                 Label("완성 처리", systemImage: "flag.checkered").frame(maxWidth: .infinity)
             }
-            .buttonStyle(FilledButton(tint: Theme.terracotta))
+            .buttonStyle(filled(Theme.terracotta))
         } else {
             Button { session.advance() } label: {
                 Label("다음", systemImage: "arrow.right").frame(maxWidth: .infinity)
             }
-            .buttonStyle(FilledButton(tint: Theme.terracotta))
+            .buttonStyle(filled(Theme.terracotta))
+            // 키보드를 붙인 아이패드에서는 Return 한 번으로 넘긴다
+            .keyboardShortcut(.defaultAction)
         }
     }
 }
@@ -384,13 +400,14 @@ struct CookView: View {
 /// 음성 듣기 토글 — 손이 젖어 있을 때를 위한 것이라, 끄고 켜는 게 늘 보여야 한다
 struct MicButton: View {
     @ObservedObject var voice: VoiceCue
+    var side: CGFloat = 48
 
     var body: some View {
         Button { voice.toggle() } label: {
             Image(systemName: voice.isListening ? "mic.fill" : "mic.slash.fill")
-                .font(.body.weight(.bold))
+                .font(side > 48 ? .largeTitle.weight(.bold) : .body.weight(.bold))
                 .foregroundStyle(voice.isListening ? Theme.onAccent : Theme.inkSoft)
-                .frame(width: 48, height: 48)
+                .frame(width: side, height: side)
                 .background(
                     Circle().fill(voice.isListening ? Theme.recording : Theme.ringTrack)
                 )
@@ -456,12 +473,14 @@ struct ListeningBanner: View {
 
 struct FilledButton: ButtonStyle {
     let tint: Color
+    /// 주방 스탠드(아이패드) — 젖은 손 · 1미터 거리에서 누르는 크기
+    var large = false
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .font(.subheadline.weight(.bold))
+            .font(large ? .largeTitle.weight(.heavy) : .subheadline.weight(.bold))
             .foregroundStyle(Theme.onAccent)
-            .padding(.vertical, 14)
-            .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(tint))
+            .padding(.vertical, large ? 26 : 14)
+            .background(RoundedRectangle(cornerRadius: large ? 24 : 14, style: .continuous).fill(tint))
             .opacity(configuration.isPressed ? 0.8 : 1)
     }
 }
@@ -471,7 +490,17 @@ struct FilledButton: ButtonStyle {
 struct NowStrip: View {
     @ObservedObject var session: CookSession
     @ObservedObject var voice: VoiceCue
+    /// 주방 스탠드(아이패드) — 1미터 밖에서 읽히게 할 일 이름을 아주 크게
+    var hero = false
     @Environment(\.dynamicTypeSize) private var typeSize
+    @ScaledMetric(relativeTo: .largeTitle) private var heroSize: CGFloat = 60
+
+    // 글자 크기 — 보통 화면과 주방 스탠드
+    private var titleFont: Font { hero ? .system(size: heroSize, weight: .heavy) : .title.weight(.heavy) }
+    private var emojiFont: Font { hero ? .system(size: heroSize) : .title }
+    private var headerFont: Font { hero ? .title2.weight(.heavy) : .subheadline.weight(.bold) }
+    private var lineFont: Font { hero ? .title3.weight(.semibold) : .subheadline.weight(.semibold) }
+    private var bodyFont: Font { hero ? .title3 : .body }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -481,18 +510,18 @@ struct NowStrip: View {
                     titleText(first)
                     if let tip = first.tip {
                         Label(tip, systemImage: first.icon)
-                            .font(.body)
+                            .font(bodyFont)
                             .foregroundStyle(Theme.inkSoft)
                             .fixedSize(horizontal: false, vertical: true)
                     }
                 }
                 Text("아래 요리 시작을 누르면 냄비 시계가 돕니다")
-                    .font(.subheadline.weight(.semibold))
+                    .font(lineFont)
                     .foregroundStyle(Theme.inkSoft)
             } else if session.phase == .done {
                 header("지금 할 일")
                 Text("완성됐어요 🍴 접시에 담으세요")
-                    .font(.title.weight(.heavy))
+                    .font(titleFont)
                     .foregroundStyle(Theme.ink)
             } else if let due = session.dueAction {
                 // 냄비가 부른다 — 미룰 수 없는 일
@@ -504,7 +533,7 @@ struct NowStrip: View {
                     Divider().overlay(Theme.cardBorder)
                     Label("하던 일 · \(flex.emoji) \(flex.name) — 이것부터 하고 이어서",
                           systemImage: "arrow.uturn.left")
-                        .font(.subheadline.weight(.semibold))
+                        .font(lineFont)
                         .foregroundStyle(Theme.inkSoft)
                         .fixedSize(horizontal: false, vertical: true)
                 }
@@ -515,30 +544,30 @@ struct NowStrip: View {
                 if let next = session.upNext {
                     Divider().overlay(Theme.cardBorder)
                     Label("다음 · \(next.emoji) \(next.name)", systemImage: "arrow.right")
-                        .font(.subheadline.weight(.semibold))
+                        .font(lineFont)
                         .foregroundStyle(Theme.inkSoft)
                         .fixedSize(horizontal: false, vertical: true)
                 }
             } else {
                 header("지금 할 일")
                 Text("손은 다 했어요 — 냄비만 기다리면 돼요")
-                    .font(.title2.weight(.heavy))
+                    .font(hero ? titleFont : .title2.weight(.heavy))
                     .foregroundStyle(Theme.ink)
                 if let next = session.nextAction {
                     Label("다음 · \(next.emoji) \(next.name)", systemImage: "hourglass")
-                        .font(.subheadline.weight(.semibold))
+                        .font(lineFont)
                         .foregroundStyle(Theme.inkSoft)
                 }
             }
         }
-        .padding(16)
+        .padding(hero ? 28 : 16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
-            RoundedRectangle(cornerRadius: 18, style: .continuous)
+            RoundedRectangle(cornerRadius: hero ? 28 : 18, style: .continuous)
                 .fill(urgency.fill)
                 .overlay(
-                    RoundedRectangle(cornerRadius: 18, style: .continuous)
-                        .stroke(urgency.border, lineWidth: urgency == .calm ? 1 : 2)
+                    RoundedRectangle(cornerRadius: hero ? 28 : 18, style: .continuous)
+                        .stroke(urgency.border, lineWidth: urgency == .calm ? (hero ? 2 : 1) : (hero ? 4 : 2))
                 )
         )
         .animation(.easeInOut(duration: 0.35), value: urgency)
@@ -593,7 +622,7 @@ struct NowStrip: View {
 
     private func header(_ text: LocalizedStringKey) -> some View {
         Text(text)
-            .font(.subheadline.weight(.bold))
+            .font(headerFont)
             .foregroundStyle(urgency == .calm ? Theme.inkSoft : urgency.accent)
             .textCase(.uppercase)
             .accessibilityAddTraits(.isHeader)
@@ -607,7 +636,7 @@ struct NowStrip: View {
                                              ? 1 - Double(session.countdown(for: step))
                                                  / Double(step.duration)
                                              : 1),
-                        tint: urgency.accent)
+                        tint: urgency.accent, height: hero ? 14 : 6)
             details(step)
             hint("다 했으면 \"다음\"이라고 말해 주세요")
         }
@@ -624,18 +653,21 @@ struct NowStrip: View {
 
     private func titleText(_ step: RecipeStep) -> some View {
         HStack(alignment: .firstTextBaseline, spacing: 10) {
-            Text(step.emoji).font(.title)
+            Text(step.emoji).font(emojiFont)
             Text(step.name)
-                .font(.title.weight(.heavy))
+                .font(titleFont)
                 .foregroundStyle(Theme.ink)
-                .fixedSize(horizontal: false, vertical: true)
+                // 아주 큰 글씨에서 긴 이름은 잘리지 않고 조금 줄어든다
+                .lineLimit(hero ? 3 : nil)
+                .minimumScaleFactor(hero ? 0.6 : 1)
+                .fixedSize(horizontal: false, vertical: !hero)
         }
     }
 
     /// 줄어드는 숫자가 아니라, 원래 이만큼 걸리는 일이라는 표시
     private func usualDuration(_ step: RecipeStep) -> some View {
         Text("보통 \(koreanDuration(step.duration))")
-            .font(.subheadline.weight(.semibold))
+            .font(lineFont)
             .foregroundStyle(Theme.inkSoft)
             .fixedSize()
     }
@@ -649,20 +681,20 @@ struct NowStrip: View {
                         .frame(width: 5, height: 5)
                         .padding(.top, 9)
                     Text(line)
-                        .font(.body)
+                        .font(bodyFont)
                         .foregroundStyle(Theme.ink.opacity(0.85))
                         .fixedSize(horizontal: false, vertical: true)
                 }
             }
             if step.detail.isEmpty, let tip = step.tip {
                 Label(tip, systemImage: step.icon)
-                    .font(.body)
+                    .font(bodyFont)
                     .foregroundStyle(Theme.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
             }
             if let done = step.doneWhen {
                 Label(done, systemImage: "checkmark.circle")
-                    .font(.body.weight(.semibold))
+                    .font(hero ? .title2.weight(.bold) : .body.weight(.semibold))
                     .foregroundStyle(urgency.accent)
                     .fixedSize(horizontal: false, vertical: true)
             }
@@ -677,12 +709,12 @@ struct NowStrip: View {
             titleRow(step)
             if session.interrupted.contains(step.id) && did < step.duration {
                 Label("아까 하던 데서 이어서", systemImage: "arrow.uturn.left")
-                    .font(.subheadline.weight(.bold))
+                    .font(hero ? .title3.weight(.bold) : .subheadline.weight(.bold))
                     .foregroundStyle(Theme.inkSoft)
             }
             ProgressBar(fraction: Pace.eased(step.duration > 0
                                              ? Double(did) / Double(step.duration) : 1),
-                        tint: Theme.green)
+                        tint: Theme.green, height: hero ? 14 : 6)
             details(step)
             hint(session.isWaitingForNext ? "다 했으면 \"다음\"이라고 말해 주세요" : "다 하면 \"다음\"이라고 말해 주세요")
         }
@@ -692,7 +724,7 @@ struct NowStrip: View {
     @ViewBuilder private func hint(_ text: LocalizedStringKey) -> some View {
         if voice.isListening {
             Label(text, systemImage: "waveform")
-                .font(.subheadline.weight(.semibold))
+                .font(lineFont)
                 .foregroundStyle(urgency.accent)
                 .fixedSize(horizontal: false, vertical: true)
         }
@@ -723,6 +755,7 @@ enum Pace {
 struct ProgressBar: View {
     let fraction: Double
     let tint: Color
+    var height: CGFloat = 6
 
     var body: some View {
         GeometryReader { geo in
@@ -732,7 +765,7 @@ struct ProgressBar: View {
                     .frame(width: max(4, geo.size.width * min(max(fraction, 0), 1)))
             }
         }
-        .frame(height: 6)
+        .frame(height: height)
         .animation(.linear(duration: 0.5), value: fraction)
     }
 }
@@ -746,6 +779,10 @@ struct ProgressBar: View {
 struct PotBoard: View {
     let recipe: Recipe
     @ObservedObject var session: CookSession
+    /// 주방 스탠드(아이패드) — 남은 시간을 멀리서도 읽히게
+    var hero = false
+    /// 냄비를 위아래로 쌓는다 (가로로 세운 아이패드의 오른쪽 열)
+    var vertical = false
 
     private let gap: CGFloat = 12
     /// 칸 높이 — 폭을 재지도, 비율로 계산하지도 않는다(스크롤 안에서는 둘 다 제자리를 못 찾는다).
@@ -753,15 +790,29 @@ struct PotBoard: View {
     /// 최소 높이만 정하고, 글이 길어지면 칸이 따라 커진다 (높이를 못 박으면 글이 잘린다)
     @ScaledMetric(relativeTo: .title3) private var tileMinHeight: CGFloat = 84
 
+    @ScaledMetric(relativeTo: .title3) private var heroTileMinHeight: CGFloat = 150
+
     var body: some View {
-        HStack(alignment: .top, spacing: gap) {
-            ForEach(session.potStates) { pot in
-                PotTile(pot: pot, color: recipe.color(for: pot.lane))
-                    .frame(maxWidth: .infinity, minHeight: tileMinHeight, alignment: .topLeading)
+        if hero {
+            let layout = vertical ? AnyLayout(VStackLayout(spacing: 16)) : AnyLayout(HStackLayout(alignment: .top, spacing: 16))
+            layout {
+                ForEach(session.potStates) { pot in
+                    PotTile(pot: pot, color: recipe.color(for: pot.lane), hero: true)
+                        .frame(maxWidth: .infinity, minHeight: heroTileMinHeight, alignment: .topLeading)
+                }
             }
+            .frame(maxWidth: .infinity, alignment: .topLeading)
+            .fixedSize(horizontal: false, vertical: true)
+        } else {
+            HStack(alignment: .top, spacing: gap) {
+                ForEach(session.potStates) { pot in
+                    PotTile(pot: pot, color: recipe.color(for: pot.lane))
+                        .frame(maxWidth: .infinity, minHeight: tileMinHeight, alignment: .topLeading)
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .fixedSize(horizontal: false, vertical: true)
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .fixedSize(horizontal: false, vertical: true)
     }
 }
 
@@ -769,45 +820,51 @@ struct PotBoard: View {
 struct PotTile: View {
     let pot: CookSession.PotState
     let color: Color
+    var hero = false
 
     @ScaledMetric(relativeTo: .title3) private var markerSide: CGFloat = 34
+    @ScaledMetric(relativeTo: .largeTitle) private var heroMarkerSide: CGFloat = 64
+    @ScaledMetric(relativeTo: .largeTitle) private var heroTimeSize: CGFloat = 60
 
     private var isLive: Bool { pot.kind == .cooking || pot.kind == .handsOn }
 
     var body: some View {
-        HStack(spacing: 10) {
+        HStack(spacing: hero ? 18 : 10) {
             marker
-                .frame(width: markerSide, height: markerSide)
+                .frame(width: hero ? heroMarkerSide : markerSide, height: hero ? heroMarkerSide : markerSide)
 
-            VStack(alignment: .leading, spacing: 1) {
+            VStack(alignment: .leading, spacing: hero ? 4 : 1) {
                 Text(pot.lane)
-                    .font(.caption.weight(.heavy))
+                    .font(hero ? .title3.weight(.heavy) : .caption.weight(.heavy))
                     .foregroundStyle(color)
                     .fixedSize(horizontal: false, vertical: true)
                 Text(pot.text)
-                    .font(.subheadline.weight(.bold))
+                    .font(hero ? .title2.weight(.bold) : .subheadline.weight(.bold))
                     .foregroundStyle(isLive ? Theme.ink : Theme.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
 
                 // 냄비는 반드시 지켜야 하는 시계라, 여기서는 남은 시간을 숨기지 않는다
                 if pot.kind == .cooking {
                     Text(formatSeconds(pot.remaining))
-                        .font(.system(.title3, design: .monospaced).weight(.heavy))
+                        .font(hero ? .system(size: heroTimeSize, weight: .heavy, design: .monospaced)
+                                   : .system(.title3, design: .monospaced).weight(.heavy))
                         .contentTransition(.identity)
                         .foregroundStyle(pot.remaining <= 30 ? Theme.terracotta : Theme.ink)
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.5)
                 }
             }
             Spacer(minLength: 0)
         }
-        .padding(10)
+        .padding(hero ? 20 : 10)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
-            RoundedRectangle(cornerRadius: 14, style: .continuous)
+            RoundedRectangle(cornerRadius: hero ? 22 : 14, style: .continuous)
                 .fill(isLive ? color.opacity(0.14) : Theme.card)
                 .overlay(
-                    RoundedRectangle(cornerRadius: 14, style: .continuous)
+                    RoundedRectangle(cornerRadius: hero ? 22 : 14, style: .continuous)
                         .stroke(isLive ? color.opacity(0.45) : Theme.cardBorder,
-                                lineWidth: isLive ? 1.5 : 1)
+                                lineWidth: isLive ? (hero ? 3 : 1.5) : 1)
                 )
         )
         // 줄어드는 네모는 그림이라 읽을 게 없다 — 냄비 이름 · 상태 · 남은 시간을 한 줄로
@@ -828,12 +885,12 @@ struct PotTile: View {
             RoundedRectangle(cornerRadius: 9, style: .continuous)
                 .fill(color)
                 .overlay(Image(systemName: "hand.raised.fill")
-                    .font(.footnote).foregroundStyle(Theme.onAccent))
+                    .font(hero ? .title : .footnote).foregroundStyle(Theme.onAccent))
         case .finished:
             RoundedRectangle(cornerRadius: 9, style: .continuous)
                 .fill(color.opacity(0.25))
                 .overlay(Image(systemName: "checkmark")
-                    .font(.footnote.weight(.bold)).foregroundStyle(color))
+                    .font(hero ? .title.weight(.bold) : .footnote.weight(.bold)).foregroundStyle(color))
         case .empty:
             RoundedRectangle(cornerRadius: 9, style: .continuous)
                 .stroke(Theme.cardBorder, style: StrokeStyle(lineWidth: 1.5, dash: [4, 4]))
