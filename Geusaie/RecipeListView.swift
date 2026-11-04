@@ -32,6 +32,7 @@ struct RecipeListView: View {
                                         previewed = recipe
                                     } else {
                                         session.prepare(recipe)   // 시작은 조리 화면의 버튼으로
+                                        OpenRecipeIntent.donate(recipe.id)
                                     }
                                 }
                             }
@@ -48,6 +49,7 @@ struct RecipeListView: View {
                     RecipePreviewPane(recipe: previewed) {
                         session.prepare(previewed)
                         session.begin()
+                        OpenRecipeIntent.donate(previewed.id)
                     }
                 }
             }

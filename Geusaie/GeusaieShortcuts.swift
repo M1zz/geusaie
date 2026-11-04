@@ -23,8 +23,20 @@ struct OpenRecipeIntent: AppIntent {
     static var description = IntentDescription("고른 요리의 조리 화면을 열어요. 시작 버튼을 누르면 타이머가 돌아요.")
     static var openAppWhenRun = true
 
-    @Parameter(title: "요리")
+    @Parameter(title: "요리", description: "조리 화면을 열 요리")
     var recipe: RecipeChoice
+
+    init() {}
+
+    init(recipe: RecipeChoice) {
+        self.recipe = recipe
+    }
+
+    /// 목록에서 손으로 요리를 열었을 때 Siri 에 알린다 — 자주 여는 요리를 Siri 가 먼저 떠올린다.
+    static func donate(_ recipeID: String) {
+        guard let choice = RecipeChoice(rawValue: recipeID) else { return }
+        IntentDonationManager.shared.donate(intent: OpenRecipeIntent(recipe: choice))
+    }
 
     @MainActor
     func perform() async throws -> some IntentResult {

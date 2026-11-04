@@ -35355,6 +35355,453 @@
           }
         }
       }
+    },
+    "조리 화면을 열 요리" : {
+      "comment" : "Siri/Shortcuts: description of the dish parameter of 'Open a Dish'",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jídlo, jehož obrazovka vaření se otevře"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retten, hvis madlavningsskærm skal åbnes"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Gericht, dessen Kochansicht geöffnet wird"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η συνταγή της οποίας θα ανοίξει η οθόνη μαγειρέματος"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The dish whose cooking screen to open"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The dish whose cooking screen to open"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La receta cuya pantalla de cocina se abrirá"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruoka, jonka ruoanlaittonäyttö avataan"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La recette dont ouvrir l’écran de cuisson"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hidangan yang layar memasaknya akan dibuka"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ricetta di cui aprire la schermata di cottura"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調理画面を開く料理"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "조리 화면을 열 요리"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retten som matlagingsskjermen skal åpnes for"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het gerecht waarvan het kookscherm wordt geopend"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Danie, którego ekran gotowania ma się otworzyć"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A receita cuja tela de preparo será aberta"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Блюдо, для которого открыть экран приготовления"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rätten vars matlagningsskärm ska öppnas"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมนูที่จะเปิดหน้าจอทำอาหาร"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pişirme ekranı açılacak yemek"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Món sẽ mở màn hình nấu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要打开烹饪界面的菜谱"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要開啟烹飪畫面的料理"
+          }
+        }
+      }
+    },
+    "앱 이름 없이 Siri로" : {
+      "comment" : "Roadmap item: siri-ai",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri bez názvu aplikace"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri uden appens navn"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri ohne App-Namen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri χωρίς το όνομα της εφαρμογής"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just ask Siri"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just ask Siri"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri sin decir el nombre de la app"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri ilman sovelluksen nimeä"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri sans nommer l’app"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri tanpa menyebut nama aplikasi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri senza dire il nome dell’app"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリ名なしでSiriに"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱 이름 없이 Siri로"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri uten appnavnet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri zonder de appnaam"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri bez nazwy aplikacji"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri sem dizer o nome do app"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri без названия приложения"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri utan appens namn"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สั่ง Siri ได้โดยไม่ต้องเอ่ยชื่อแอป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama adı olmadan Siri"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gọi Siri không cần tên ứng dụng"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不说应用名也能用 Siri"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不說 App 名稱也能用 Siri"
+          }
+        }
+      }
+    },
+    "앱 이름을 말하지 않아도 Siri에게 만들 요리를 말하면 조리 화면이 바로 열려요." : {
+      "comment" : "Roadmap item detail: siri-ai",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Řekněte Siri, co chcete vařit, bez názvu aplikace, a obrazovka vaření se hned otevře."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sig til Siri, hvad du vil lave, uden at nævne appen, så åbner madlavningsskærmen med det samme."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sag Siri einfach, was du kochen möchtest – ohne App-Namen – und die Kochansicht öffnet sich sofort."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πείτε στη Siri τι θέλετε να μαγειρέψετε, χωρίς να αναφέρετε την εφαρμογή, και η οθόνη μαγειρέματος ανοίγει αμέσως."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tell Siri what you want to cook, no app name needed, and the cooking screen opens right away."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tell Siri what you want to cook, no app name needed, and the cooking screen opens straight away."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dile a Siri qué quieres cocinar, sin nombrar la app, y la pantalla de cocina se abrirá al instante."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerro Sirille, mitä haluat tehdä ruoaksi, ilman sovelluksen nimeä, niin ruoanlaittonäyttö aukeaa heti."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dites à Siri ce que vous voulez cuisiner, sans nommer l’app, et l’écran de cuisson s’ouvre aussitôt."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cukup beri tahu Siri hidangan yang ingin dimasak, tanpa menyebut nama aplikasi, dan layar memasak langsung terbuka."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di’ a Siri cosa vuoi cucinare, senza nominare l’app, e la schermata di cottura si apre subito."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリ名を言わなくても、作りたい料理をSiriに伝えるだけで調理画面がすぐに開きます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱 이름을 말하지 않아도 Siri에게 만들 요리를 말하면 조리 화면이 바로 열려요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si til Siri hva du vil lage, uten å nevne appen, så åpnes matlagingsskjermen med en gang."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeg tegen Siri wat je wilt koken, zonder de appnaam, en het kookscherm gaat meteen open."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiedz Siri, co chcesz ugotować, bez podawania nazwy aplikacji, a ekran gotowania od razu się otworzy."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diga à Siri o que você quer cozinhar, sem falar o nome do app, e a tela de preparo abre na hora."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Просто скажите Siri, что хотите приготовить, — без названия приложения, — и экран приготовления сразу откроется."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säg till Siri vad du vill laga, utan att nämna appen, så öppnas matlagningsskärmen direkt."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แค่บอก Siri ว่าอยากทำเมนูไหน ไม่ต้องเอ่ยชื่อแอป หน้าจอทำอาหารก็เปิดขึ้นทันที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamanın adını söylemeden Siri’ye ne pişirmek istediğini söyle, pişirme ekranı hemen açılsın."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ cần nói với Siri món bạn muốn nấu, không cần nhắc tên ứng dụng, màn hình nấu sẽ mở ngay."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不用说出应用名，只要告诉 Siri 想做的菜，烹饪界面就会马上打开。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不用說出 App 名稱，只要告訴 Siri 想做的料理，烹飪畫面就會馬上開啟。"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
