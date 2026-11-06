@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: køkkentimeren til to gryder på én gang",
-  "description": "Saucen er klar, mens pastaen koger. Geusaie viser den ene opgave, der er på nu, tæller hver gryde for sig og går videre, når du siger næste. Gratis.",
+  "description": "Saucen er klar, mens pastaen koger. Geusaie viser den ene opgave, der er på nu, tæller hver gryde for sig og går videre, når du siger næste. Pastaopskrifterne er gratis.",
   "hero": {
     "headline": "Pastaen koger.\nImens bliver saucen færdig.",
     "lead": "Når to gryder kører i hvert sit tempo, viser Geusaie med stor tekst den ene ting, dine hænder skal gøre lige nu. Saucen bliver regnet baglæns fra det øjeblik, pastaen skal hældes fra.",
     "cta": "Hent gratis i App Store",
-    "note": "Alle funktioner er gratis. Ingen konto nødvendig."
+    "note": "Pastaopskrifterne og alle madlavningsfunktioner er gratis. Ingen konto nødvendig."
   },
   "demo": {
     "title": "Prøv selv",
@@ -114,25 +114,24 @@
     "note": "På tidslinjen er stiplede bjælker opgaver, der godt kan vente."
   },
   "pricing": {
-    "title": "Alle funktioner er gratis",
+    "title": "Pastaopskrifterne er gratis for altid",
     "free": {
       "name": "Gratis",
       "items": [
-        "Begge opskrifter",
+        "Begge pastaopskrifter",
         "En timer til hver gryde og hele tidslinjen",
         "Notifikation, når en gryde er færdig",
         "\"Næste\" med stemmen",
-        "Fire tekststørrelser",
-        "Åbn en opskrift med Siri eller Genveje"
+        "Fire tekststørrelser"
       ]
     },
     "pro": {
-      "name": "Støt udvikleren (frivilligt)",
+      "name": "Geusaie Pro",
       "items": [
-        "Hvis appen hjælper dig, kan du give lidt drikkepenge i Indstillinger",
-        "Drikkepenge låser ikke noget op. Uden dem har du stadig alle funktioner"
+        "Opskriftspakken Supper & gryderetter: kimchigryde & rullet omelet, doenjanggryde & squashfrikadeller",
+        "Åbn en opskrift med Siri eller Genveje"
       ],
-      "note": "Engangsbeløb, ikke et abonnement."
+      "note": "Vælg et ugentligt, månedligt eller årligt abonnement, eller betal én gang for altid. Drikkepenge i Indstillinger er noget for sig og låser ikke noget op."
     },
     "note": "Ingen konto, ingen reklamer, og den virker uden internet."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Hvilke retter er med?",
-        "a": "Aglio e olio (ca. 15 minutter, 2 gryder) og pasta i tomat-flødesauce (ca. 20 minutter, 2 gryder), baseret på opskrifter fra Serious Eats, Gimme Some Oven, RecipeTin Eats og The Burnt Butter Table. Enhver ret med to gryder i gang på én gang passer godt, så skriv endelig, hvad du gerne vil se."
+        "a": "Aglio e olio (ca. 15 minutter, 2 gryder) og pasta i tomat-flødesauce (ca. 20 minutter, 2 gryder), baseret på opskrifter fra Serious Eats, Gimme Some Oven, RecipeTin Eats og The Burnt Butter Table. Med Geusaie Pro får du også pakken Supper & gryderetter: kimchigryde & rullet omelet og doenjanggryde & squashfrikadeller. Enhver ret med to gryder i gang på én gang passer godt, så skriv endelig, hvad du gerne vil se."
       },
       {
         "q": "Bliver min stemme optaget?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Kan jeg åbne den med Siri?",
-        "a": "Ja. Vælg en ret i Siri eller appen Genveje, så åbner dens madlavningsskærm med det samme. Urene starter først, når du er klar til at sætte vandet over og trykker på Start madlavningen."
+        "a": "Ja, med Geusaie Pro. Vælg en ret i Siri eller appen Genveje, så åbner dens madlavningsskærm med det samme. Urene starter først, når du er klar til at sætte vandet over og trykker på Start madlavningen."
       },
       {
         "q": "Hvilke enheder virker den på?",

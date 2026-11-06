@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: keittiöajastin kahdelle kattilalle yhtä aikaa",
-  "description": "Kastike valmistuu pastan kiehuessa. Geusaie näyttää yhden tehtävän kerrallaan, laskee kunkin kattilan ajan ja jatkaa, kun sanot seuraava. Ilmainen.",
+  "description": "Kastike valmistuu pastan kiehuessa. Geusaie näyttää yhden tehtävän kerrallaan, laskee kunkin kattilan ajan ja jatkaa, kun sanot seuraava. Pastareseptit ovat ilmaisia.",
   "hero": {
     "headline": "Pasta kiehuu.\nKastike valmistuu sillä välin.",
     "lead": "Kun kaksi kattilaa etenee eri tahtiin, Geusaie näyttää isolla sen yhden asian, joka käsiesi pitää tehdä juuri nyt. Kastike ajoitetaan takaperin siitä hetkestä, kun pasta kaadetaan siivilään.",
     "cta": "Lataa ilmaiseksi App Storesta",
-    "note": "Kaikki ominaisuudet ovat ilmaisia. Tiliä ei tarvita."
+    "note": "Pastareseptit ja kaikki ruoanlaiton toiminnot ovat ilmaisia. Tiliä ei tarvita."
   },
   "demo": {
     "title": "Kokeile itse",
@@ -114,25 +114,24 @@
     "note": "Aikajanalla katkoviivalla piirretyt palkit ovat tehtäviä, jotka voivat odottaa."
   },
   "pricing": {
-    "title": "Kaikki ominaisuudet ovat ilmaisia",
+    "title": "Pastareseptit ovat aina ilmaisia",
     "free": {
       "name": "Ilmainen",
       "items": [
-        "Molemmat reseptit",
+        "Molemmat pastareseptit",
         "Oma ajastin jokaiselle kattilalle ja koko aikajana",
         "Ilmoitus, kun kattila on valmis",
         "”Seuraava” äänellä",
-        "Neljä tekstikokoa",
-        "Avaa resepti Sirillä tai Pikakomennoilla"
+        "Neljä tekstikokoa"
       ]
     },
     "pro": {
-      "name": "Tue kehittäjää (vapaaehtoinen)",
+      "name": "Geusaie Pro",
       "items": [
-        "Jos sovellus auttaa, voit antaa pienen tipin asetuksista",
-        "Tippi ei avaa mitään. Ilman sitäkin kaikki ominaisuudet ovat käytössäsi"
+        "Reseptipaketti Keitot ja padat: kimchipata & kääretty munakas, doenjang-pata & kesäkurpitsaletut",
+        "Avaa resepti Sirillä tai Pikakomennoilla"
       ],
-      "note": "Kertamaksuja, ei tilausta."
+      "note": "Valitse viikko-, kuukausi- tai vuositilaus tai maksa kerran pysyvästi. Asetusten tipit ovat erikseen eivätkä avaa mitään."
     },
     "note": "Ei tiliä, ei mainoksia, ja toimii ilman internetiä."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Mitä ruokia sovelluksessa on?",
-        "a": "Aglio e olio (noin 15 minuuttia, 2 kattilaa) ja tomaatti-kermapasta (noin 20 minuuttia, 2 kattilaa), jotka perustuvat Serious Eatsin, Gimme Some Ovenin, RecipeTin Eatsin ja The Burnt Butter Tablen resepteihin. Mikä tahansa ruoka, jossa kaksi kattilaa on käynnissä yhtä aikaa, sopii hyvin, joten kerro, minkä reseptin haluaisit."
+        "a": "Aglio e olio (noin 15 minuuttia, 2 kattilaa) ja tomaatti-kermapasta (noin 20 minuuttia, 2 kattilaa), jotka perustuvat Serious Eatsin, Gimme Some Ovenin, RecipeTin Eatsin ja The Burnt Butter Tablen resepteihin. Geusaie Pro tuo lisäksi paketin Keitot ja padat: kimchipata & kääretty munakas sekä doenjang-pata & kesäkurpitsaletut. Mikä tahansa ruoka, jossa kaksi kattilaa on käynnissä yhtä aikaa, sopii hyvin, joten kerro, minkä reseptin haluaisit."
       },
       {
         "q": "Tallennetaanko ääneni?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Voinko avata sen Sirillä?",
-        "a": "Kyllä. Valitse ruoka Sirissä tai Pikakomennot-apissa, niin sen ruoanlaittonäkymä aukeaa heti. Kellot käynnistyvät, kun olet valmis laittamaan veden kiehumaan ja napautat Aloita ruoanlaitto."
+        "a": "Kyllä, Geusaie Prolla. Valitse ruoka Sirissä tai Pikakomennot-apissa, niin sen ruoanlaittonäkymä aukeaa heti. Kellot käynnistyvät, kun olet valmis laittamaan veden kiehumaan ja napautat Aloita ruoanlaitto."
       },
       {
         "q": "Millä laitteilla se toimii?",

@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: der Kochtimer für zwei Töpfe gleichzeitig",
-  "description": "Die Soße wird fertig, während die Pasta kocht. Geusaie zeigt die eine Aufgabe für jetzt, zählt jeden Topf getrennt und hört auf „weiter“. Gratis.",
+  "description": "Die Soße wird fertig, während die Pasta kocht. Geusaie zeigt die eine Aufgabe für jetzt, zählt jeden Topf getrennt und hört auf „weiter“. Die Pasta-Rezepte sind gratis.",
   "hero": {
     "headline": "Die Pasta kocht.\nDie Soße wird nebenbei fertig.",
     "lead": "Wenn zwei Töpfe unterschiedlich schnell laufen, zeigt Geusaie groß die eine Sache, die deine Hände jetzt erledigen sollten. Die Soße wird rückwärts von dem Moment geplant, in dem die Pasta aus dem Wasser kommt.",
     "cta": "Kostenlos im App Store laden",
-    "note": "Alle Funktionen sind kostenlos. Kein Konto nötig."
+    "note": "Die Pasta-Rezepte und alle Kochfunktionen sind kostenlos. Kein Konto nötig."
   },
   "demo": {
     "title": "Probier es aus",
@@ -114,25 +114,24 @@
     "note": "Auf der Zeitleiste stehen gestrichelte Balken für Aufgaben, die warten können."
   },
   "pricing": {
-    "title": "Alle Funktionen sind kostenlos",
+    "title": "Die Pasta-Rezepte bleiben kostenlos",
     "free": {
       "name": "Kostenlos",
       "items": [
-        "Beide Rezepte",
+        "Beide Pasta-Rezepte",
         "Ein Timer pro Topf und die ganze Zeitleiste",
         "Mitteilung, wenn ein Topf fertig ist",
         "Weiter per Stimme",
-        "Vier Schriftgrößen",
-        "Rezepte über Siri und Kurzbefehle öffnen"
+        "Vier Schriftgrößen"
       ]
     },
     "pro": {
-      "name": "Entwickler unterstützen (freiwillig)",
+      "name": "Geusaie Pro",
       "items": [
-        "Wenn dir die App hilft, kannst du in den Einstellungen ein kleines Trinkgeld geben",
-        "Trinkgeld schaltet nichts frei. Auch ohne bleiben alle Funktionen da"
+        "Rezeptpaket „Suppen & Eintöpfe“: Kimchi-Eintopf & Omelettrolle, Doenjang-Eintopf & Zucchini-Puffer",
+        "Rezepte über Siri und Kurzbefehle öffnen"
       ],
-      "note": "Einmalige Beträge, kein Abo."
+      "note": "Wähle ein Wochen-, Monats- oder Jahresabo oder zahle einmal für immer. Trinkgeld in den Einstellungen ist davon getrennt und schaltet nichts frei."
     },
     "note": "Kein Konto, keine Werbung, und es funktioniert auch ohne Internet."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Welche Gerichte sind dabei?",
-        "a": "Aglio e Olio (etwa 15 Minuten, 2 Töpfe) und Tomaten-Sahne-Pasta (etwa 20 Minuten, 2 Töpfe), nach Rezepten von Serious Eats, Gimme Some Oven, RecipeTin Eats und The Burnt Butter Table. Jedes Gericht, bei dem zwei Töpfe gleichzeitig laufen, passt gut. Schreib uns, was du dir als Nächstes wünschst."
+        "a": "Aglio e Olio (etwa 15 Minuten, 2 Töpfe) und Tomaten-Sahne-Pasta (etwa 20 Minuten, 2 Töpfe), nach Rezepten von Serious Eats, Gimme Some Oven, RecipeTin Eats und The Burnt Butter Table. Mit Geusaie Pro kommt das Paket „Suppen & Eintöpfe“ dazu: Kimchi-Eintopf & Omelettrolle und Doenjang-Eintopf & Zucchini-Puffer. Jedes Gericht, bei dem zwei Töpfe gleichzeitig laufen, passt gut. Schreib uns, was du dir als Nächstes wünschst."
       },
       {
         "q": "Wird meine Stimme aufgenommen?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Kann ich die App mit Siri öffnen?",
-        "a": "Ja. Wähle in Siri oder der Kurzbefehle-App ein Gericht, und sein Kochbildschirm öffnet sich sofort. Die Uhren starten erst, wenn du auf „Kochen starten“ tippst, also wenn du bereit bist, das Wasser aufzusetzen."
+        "a": "Ja, mit Geusaie Pro. Wähle in Siri oder der Kurzbefehle-App ein Gericht, und sein Kochbildschirm öffnet sich sofort. Die Uhren starten erst, wenn du auf „Kochen starten“ tippst, also wenn du bereit bist, das Wasser aufzusetzen."
       },
       {
         "q": "Auf welchen Geräten läuft die App?",

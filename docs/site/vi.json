@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: hẹn giờ nấu ăn cho hai nồi cùng lúc",
-  "description": "Luộc mì xong là sốt cũng vừa xong. Geusaie hiện chữ lớn đúng một việc cần làm, đếm giờ riêng từng nồi, tay ướt thì chỉ cần nói tiếp theo. Miễn phí.",
+  "description": "Luộc mì xong là sốt cũng vừa xong. Geusaie hiện chữ lớn đúng một việc cần làm, đếm giờ riêng từng nồi, tay ướt thì chỉ cần nói tiếp theo. Các công thức mì Ý đều miễn phí.",
   "hero": {
     "headline": "Trong lúc luộc mì,\nnước sốt cũng xong",
     "lead": "Khi hai nồi chạy theo nhịp khác nhau, Geusaie hiện chữ lớn đúng một việc tay bạn cần làm ngay bây giờ. Nước sốt được tính ngược từ lúc mì vớt ra.",
     "cta": "Tải miễn phí trên App Store",
-    "note": "Mọi tính năng đều miễn phí. Không cần tài khoản."
+    "note": "Các công thức mì Ý và mọi tính năng nấu đều miễn phí. Không cần tài khoản."
   },
   "demo": {
     "title": "Thử ngay",
@@ -114,25 +114,24 @@
     "note": "Trên dòng thời gian, thanh nét đứt là việc có thể để sau."
   },
   "pricing": {
-    "title": "Mọi tính năng đều miễn phí",
+    "title": "Các món mì Ý luôn miễn phí",
     "free": {
       "name": "Miễn phí",
       "items": [
-        "Cả hai công thức",
+        "Cả hai công thức mì Ý",
         "Hẹn giờ riêng từng nồi và toàn bộ dòng thời gian",
         "Thông báo khi một nồi xong",
         "Nói “tiếp theo” để qua bước",
-        "Bốn cỡ chữ",
-        "Mở công thức bằng Siri hoặc Phím tắt"
+        "Bốn cỡ chữ"
       ]
     },
     "pro": {
-      "name": "Ủng hộ nhà phát triển (tùy chọn)",
+      "name": "Geusaie Pro",
       "items": [
-        "Nếu thấy hữu ích, bạn có thể gửi một khoản tip nhỏ trong Cài đặt",
-        "Tip không mở khóa gì cả. Không gửi thì mọi tính năng vẫn như cũ"
+        "Gói công thức Canh và món hầm: canh kim chi và trứng cuộn, canh tương đậu và bánh bí ngòi",
+        "Mở công thức bằng Siri hoặc Phím tắt"
       ],
-      "note": "Tip trả từng lần, không phải gói đăng ký."
+      "note": "Chọn gói đăng ký theo tuần, tháng hoặc năm, hoặc trả một lần để dùng mãi mãi. Tiền tip trong Cài đặt là riêng và không mở khóa gì."
     },
     "note": "Không tài khoản, không quảng cáo, không có mạng vẫn nấu được."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Có những món nào?",
-        "a": "Mì Ý aglio e olio (khoảng 15 phút, 2 nồi) và mì Ý sốt kem cà chua (khoảng 20 phút, 2 nồi), dựa trên công thức của Serious Eats, Gimme Some Oven, RecipeTin Eats và The Burnt Butter Table. Món nào dùng hai nồi cùng lúc cũng hợp, nên hãy cho chúng tôi biết bạn muốn thêm công thức nào."
+        "a": "Mì Ý aglio e olio (khoảng 15 phút, 2 nồi) và mì Ý sốt kem cà chua (khoảng 20 phút, 2 nồi), dựa trên công thức của Serious Eats, Gimme Some Oven, RecipeTin Eats và The Burnt Butter Table. Geusaie Pro có thêm gói Canh và món hầm: canh kim chi và trứng cuộn, canh tương đậu và bánh bí ngòi. Món nào dùng hai nồi cùng lúc cũng hợp, nên hãy cho chúng tôi biết bạn muốn thêm công thức nào."
       },
       {
         "q": "Giọng nói của tôi có bị lưu lại không?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Có mở bằng Siri được không?",
-        "a": "Được. Chọn món trong Siri hoặc ứng dụng Phím tắt, màn hình nấu của món đó sẽ mở ngay. Đồng hồ chỉ chạy khi bạn sẵn sàng bắc nước và chạm Bắt đầu nấu."
+        "a": "Được, với Geusaie Pro. Chọn món trong Siri hoặc ứng dụng Phím tắt, màn hình nấu của món đó sẽ mở ngay. Đồng hồ chỉ chạy khi bạn sẵn sàng bắc nước và chạm Bắt đầu nấu."
       },
       {
         "q": "Dùng được trên thiết bị nào?",

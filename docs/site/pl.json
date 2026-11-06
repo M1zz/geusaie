@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: minutnik kuchenny na dwa garnki naraz",
-  "description": "Sos gotowy, gdy makaron się gotuje. Geusaie pokazuje jedno zadanie na teraz, odlicza czas garnków i idzie dalej, gdy powiesz „dalej”. Za darmo.",
+  "description": "Sos gotowy, gdy makaron się gotuje. Geusaie pokazuje jedno zadanie na teraz, odlicza czas garnków i idzie dalej, gdy powiesz „dalej”. Przepisy na makaron są za darmo.",
   "hero": {
     "headline": "Makaron się gotuje,\na sos jest już gotowy",
     "lead": "Gdy dwa garnki idą w różnym tempie, Geusaie pokazuje dużą czcionką jedną rzecz, którą twoje ręce mają zrobić teraz. Sos jest planowany wstecz od chwili, gdy makaron trzeba odcedzić.",
     "cta": "Pobierz za darmo z App Store",
-    "note": "Wszystkie funkcje są darmowe. Konto nie jest potrzebne."
+    "note": "Przepisy na makaron i wszystkie funkcje gotowania są darmowe. Konto nie jest potrzebne."
   },
   "demo": {
     "title": "Wypróbuj",
@@ -114,25 +114,24 @@
     "note": "Na osi czasu przerywane paski oznaczają zadania, które mogą poczekać."
   },
   "pricing": {
-    "title": "Wszystkie funkcje są darmowe",
+    "title": "Przepisy na makaron zawsze za darmo",
     "free": {
       "name": "Za darmo",
       "items": [
-        "Oba przepisy",
+        "Oba przepisy na makaron",
         "Osobny minutnik dla każdego garnka i cała oś czasu",
         "Powiadomienie, gdy garnek jest gotowy",
         "„Dalej” głosem",
-        "Cztery rozmiary tekstu",
-        "Otwieranie przepisu przez Siri lub Skróty"
+        "Cztery rozmiary tekstu"
       ]
     },
     "pro": {
-      "name": "Wesprzyj twórcę (dobrowolnie)",
+      "name": "Geusaie Pro",
       "items": [
-        "Jeśli aplikacja ci pomaga, możesz w Ustawieniach zostawić mały napiwek",
-        "Napiwek niczego nie odblokowuje. Bez niego wszystkie funkcje i tak są twoje"
+        "Pakiet przepisów „Zupy i gulasze”: gulasz z kimchi i zwijany omlet, gulasz z doenjangiem i placki z cukinii",
+        "Otwieranie przepisu przez Siri lub Skróty"
       ],
-      "note": "Jednorazowe napiwki, nie subskrypcja."
+      "note": "Wybierz subskrypcję tygodniową, miesięczną lub roczną albo zapłać raz na zawsze. Napiwki w Ustawieniach są osobno i niczego nie odblokowują."
     },
     "note": "Bez konta, bez reklam i działa bez internetu."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Jakie dania są w aplikacji?",
-        "a": "Aglio e olio (około 15 minut, 2 garnki) i makaron w sosie pomidorowo-śmietanowym (około 20 minut, 2 garnki), na podstawie przepisów z Serious Eats, Gimme Some Oven, RecipeTin Eats i The Burnt Butter Table. Pasuje każde danie, w którym dwa garnki pracują naraz, więc napisz, jaki przepis chcesz zobaczyć."
+        "a": "Aglio e olio (około 15 minut, 2 garnki) i makaron w sosie pomidorowo-śmietanowym (około 20 minut, 2 garnki), na podstawie przepisów z Serious Eats, Gimme Some Oven, RecipeTin Eats i The Burnt Butter Table. Geusaie Pro dodaje pakiet „Zupy i gulasze”: gulasz z kimchi i zwijany omlet oraz gulasz z doenjangiem i placki z cukinii. Pasuje każde danie, w którym dwa garnki pracują naraz, więc napisz, jaki przepis chcesz zobaczyć."
       },
       {
         "q": "Czy mój głos jest nagrywany?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Czy mogę otworzyć ją przez Siri?",
-        "a": "Tak. Wybierz danie w Siri lub w aplikacji Skróty, a od razu otworzy się jego ekran gotowania. Zegary ruszą, gdy będziesz gotowy nastawić wodę i stukniesz Zacznij gotować."
+        "a": "Tak, w Geusaie Pro. Wybierz danie w Siri lub w aplikacji Skróty, a od razu otworzy się jego ekran gotowania. Zegary ruszą, gdy będziesz gotowy nastawić wodę i stukniesz Zacznij gotować."
       },
       {
         "q": "Na jakich urządzeniach działa?",

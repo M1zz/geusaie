@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: kjøkkentimeren for to kjeler samtidig",
-  "description": "Sausen er ferdig mens pastaen koker. Geusaie viser den ene oppgaven som gjelder nå, teller hver kjele for seg og går videre når du sier neste. Gratis.",
+  "description": "Sausen er ferdig mens pastaen koker. Geusaie viser den ene oppgaven som gjelder nå, teller hver kjele for seg og går videre når du sier neste. Pastaoppskriftene er gratis.",
   "hero": {
     "headline": "Pastaen koker.\nImens blir sausen ferdig.",
     "lead": "Når to kjeler går i hvert sitt tempo, viser Geusaie med stor tekst den ene tingen hendene dine skal gjøre akkurat nå. Sausen beregnes baklengs fra øyeblikket pastaen skal siles.",
     "cta": "Last ned gratis i App Store",
-    "note": "Alle funksjoner er gratis. Ingen konto trengs."
+    "note": "Pastaoppskriftene og alle matlagingsfunksjoner er gratis. Ingen konto trengs."
   },
   "demo": {
     "title": "Prøv selv",
@@ -114,25 +114,24 @@
     "note": "På tidslinjen er stiplede felt oppgaver som kan vente."
   },
   "pricing": {
-    "title": "Alle funksjoner er gratis",
+    "title": "Pastaoppskriftene er gratis for alltid",
     "free": {
       "name": "Gratis",
       "items": [
-        "Begge oppskriftene",
+        "Begge pastaoppskriftene",
         "En tidtaker for hver kjele og hele tidslinjen",
         "Varsel når en kjele er ferdig",
         "«Neste» med stemmen",
-        "Fire tekststørrelser",
-        "Åpne en oppskrift med Siri eller Snarveier"
+        "Fire tekststørrelser"
       ]
     },
     "pro": {
-      "name": "Støtt utvikleren (frivillig)",
+      "name": "Geusaie Pro",
       "items": [
-        "Hvis appen hjelper deg, kan du gi et lite tips i Innstillinger",
-        "Tips låser ikke opp noe. Uten tips har du fortsatt alle funksjonene"
+        "Oppskriftspakken Supper & gryter: kimchigryte & rullet omelett, doenjanggryte & squashpuffer",
+        "Åpne en oppskrift med Siri eller Snarveier"
       ],
-      "note": "Engangsbeløp, ikke abonnement."
+      "note": "Velg abonnement per uke, måned eller år, eller betal én gang for alltid. Tips i Innstillinger er noe eget og låser ikke opp noe."
     },
     "note": "Ingen konto, ingen reklame, og den fungerer uten internett."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Hvilke retter er med?",
-        "a": "Aglio e olio (omtrent 15 minutter, 2 kjeler) og pasta i tomat- og fløtesaus (omtrent 20 minutter, 2 kjeler), basert på oppskrifter fra Serious Eats, Gimme Some Oven, RecipeTin Eats og The Burnt Butter Table. Alle retter med to kjeler i gang samtidig passer godt, så si gjerne fra hva du vil se."
+        "a": "Aglio e olio (omtrent 15 minutter, 2 kjeler) og pasta i tomat- og fløtesaus (omtrent 20 minutter, 2 kjeler), basert på oppskrifter fra Serious Eats, Gimme Some Oven, RecipeTin Eats og The Burnt Butter Table. Med Geusaie Pro får du også pakken Supper & gryter: kimchigryte & rullet omelett og doenjanggryte & squashpuffer. Alle retter med to kjeler i gang samtidig passer godt, så si gjerne fra hva du vil se."
       },
       {
         "q": "Blir stemmen min tatt opp?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Kan jeg åpne den med Siri?",
-        "a": "Ja. Velg en rett i Siri eller Snarveier-appen, så åpnes matlagingsskjermen med en gang. Klokkene starter først når du er klar til å sette på vannet og trykker på Start matlagingen."
+        "a": "Ja, med Geusaie Pro. Velg en rett i Siri eller Snarveier-appen, så åpnes matlagingsskjermen med en gang. Klokkene starter først når du er klar til å sette på vannet og trykker på Start matlagingen."
       },
       {
         "q": "Hvilke enheter fungerer den på?",

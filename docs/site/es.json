@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: el temporizador de cocina para dos ollas a la vez",
-  "description": "La salsa queda lista mientras hierve la pasta. Geusaie muestra la única tarea de ahora, cronometra cada olla y avanza cuando dices siguiente. Gratis.",
+  "description": "La salsa queda lista mientras hierve la pasta. Geusaie muestra la única tarea de ahora, cronometra cada olla y avanza cuando dices siguiente. Las recetas de pasta son gratis.",
   "hero": {
     "headline": "La pasta hierve.\nLa salsa, mientras tanto, también.",
     "lead": "Cuando dos ollas van a ritmos distintos, Geusaie te muestra en grande lo único que tus manos tienen que hacer ahora. La salsa se programa hacia atrás desde el momento en que sale la pasta.",
     "cta": "Descárgala gratis en el App Store",
-    "note": "Todas las funciones son gratis. No necesitas cuenta."
+    "note": "Las recetas de pasta y todas las funciones de cocina son gratis. No necesitas cuenta."
   },
   "demo": {
     "title": "Pruébalo",
@@ -114,25 +114,24 @@
     "note": "En la línea de tiempo, las barras punteadas son tareas que pueden esperar."
   },
   "pricing": {
-    "title": "Todas las funciones son gratis",
+    "title": "Las recetas de pasta, gratis para siempre",
     "free": {
       "name": "Gratis",
       "items": [
-        "Las dos recetas",
+        "Las dos recetas de pasta",
         "Un temporizador por olla y la línea de tiempo completa",
         "Notificación cuando una olla está lista",
         "«Siguiente» con la voz",
-        "Cuatro tamaños de letra",
-        "Abrir recetas con Siri o Atajos"
+        "Cuatro tamaños de letra"
       ]
     },
     "pro": {
-      "name": "Apoyar al desarrollador (opcional)",
+      "name": "Geusaie Pro",
       "items": [
-        "Si la app te ayuda, puedes dejar una pequeña propina desde Ajustes",
-        "Las propinas no desbloquean nada. Sin ellas, todas las funciones siguen siendo tuyas"
+        "Pack de recetas «Sopas y guisos»: guiso de kimchi y tortilla enrollada, guiso de doenjang y buñuelos de calabacín",
+        "Abrir recetas con Siri o Atajos"
       ],
-      "note": "Propinas sueltas, no una suscripción."
+      "note": "Elige una suscripción semanal, mensual o anual, o paga una sola vez para siempre. Las propinas de Ajustes van aparte y no desbloquean nada."
     },
     "note": "Sin cuenta, sin anuncios y funciona sin conexión a internet."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "¿Qué platos incluye?",
-        "a": "Aglio e olio (unos 15 minutos, 2 ollas) y pasta cremosa de tomate (unos 20 minutos, 2 ollas), basadas en recetas de Serious Eats, Gimme Some Oven, RecipeTin Eats y The Burnt Butter Table. Cualquier plato con dos ollas a la vez encaja bien, así que cuéntanos cuál te gustaría."
+        "a": "Aglio e olio (unos 15 minutos, 2 ollas) y pasta cremosa de tomate (unos 20 minutos, 2 ollas), basadas en recetas de Serious Eats, Gimme Some Oven, RecipeTin Eats y The Burnt Butter Table. Con Geusaie Pro tienes además el pack «Sopas y guisos»: guiso de kimchi y tortilla enrollada, y guiso de doenjang y buñuelos de calabacín. Cualquier plato con dos ollas a la vez encaja bien, así que cuéntanos cuál te gustaría."
       },
       {
         "q": "¿Se graba mi voz?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "¿Puedo abrirla con Siri?",
-        "a": "Sí. Elige un plato en Siri o en la app Atajos y se abre directamente su pantalla de cocina. Los relojes arrancan cuando tocas «Empezar a cocinar», cuando ya estés listo para poner el agua."
+        "a": "Sí, con Geusaie Pro. Elige un plato en Siri o en la app Atajos y se abre directamente su pantalla de cocina. Los relojes arrancan cuando tocas «Empezar a cocinar», cuando ya estés listo para poner el agua."
       },
       {
         "q": "¿En qué dispositivos funciona?",

@@ -1,11 +1,11 @@
 {
   "title": "Geusaie : le minuteur de cuisine pour deux casseroles à la fois",
-  "description": "La sauce est prête pendant que les pâtes cuisent. Geusaie montre la seule tâche du moment, minute chaque casserole et avance à la voix. Gratuit.",
+  "description": "La sauce est prête pendant que les pâtes cuisent. Geusaie montre la seule tâche du moment, minute chaque casserole et avance à la voix. Les recettes de pâtes sont gratuites.",
   "hero": {
     "headline": "Les pâtes cuisent.\nLa sauce suit, en même temps.",
     "lead": "Quand deux casseroles avancent à des rythmes différents, Geusaie affiche en grand la seule chose que vos mains doivent faire maintenant. La sauce est calée à rebours sur le moment où les pâtes sortent de l’eau.",
     "cta": "Télécharger gratuitement sur l’App Store",
-    "note": "Toutes les fonctions sont gratuites. Aucun compte requis."
+    "note": "Les recettes de pâtes et tous les outils de cuisson sont gratuits. Aucun compte requis."
   },
   "demo": {
     "title": "Essayez",
@@ -114,25 +114,24 @@
     "note": "Sur la frise, les barres en pointillés sont les tâches qui peuvent attendre."
   },
   "pricing": {
-    "title": "Toutes les fonctions sont gratuites",
+    "title": "Les recettes de pâtes restent gratuites",
     "free": {
       "name": "Gratuit",
       "items": [
-        "Les deux recettes",
+        "Les deux recettes de pâtes",
         "Un minuteur par casserole et la frise complète",
         "Une notification quand une casserole est prête",
         "« Suivant » à la voix",
-        "Quatre tailles de texte",
-        "Ouvrir une recette avec Siri ou Raccourcis"
+        "Quatre tailles de texte"
       ]
     },
     "pro": {
-      "name": "Soutenir le développeur (facultatif)",
+      "name": "Geusaie Pro",
       "items": [
-        "Si l’app vous rend service, vous pouvez laisser un petit pourboire depuis les réglages",
-        "Un pourboire ne débloque rien. Sans lui, toutes les fonctions restent à vous"
+        "Le pack de recettes « Soupes et ragoûts » : ragoût de kimchi et omelette roulée, ragoût de doenjang et beignets de courgette",
+        "Ouvrir une recette avec Siri ou Raccourcis"
       ],
-      "note": "Des pourboires ponctuels, pas un abonnement."
+      "note": "Abonnement à la semaine, au mois ou à l’année, ou achat unique à vie. Les pourboires dans Réglages sont à part et ne débloquent rien."
     },
     "note": "Ni compte, ni publicité, et l’app fonctionne sans connexion Internet."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Quels plats sont proposés ?",
-        "a": "Des pâtes aglio e olio (environ 15 minutes, 2 casseroles) et des pâtes crémeuses à la tomate (environ 20 minutes, 2 casseroles), d’après des recettes de Serious Eats, Gimme Some Oven, RecipeTin Eats et The Burnt Butter Table. Tout plat avec deux casseroles en même temps s’y prête : dites-nous ce que vous aimeriez voir."
+        "a": "Des pâtes aglio e olio (environ 15 minutes, 2 casseroles) et des pâtes crémeuses à la tomate (environ 20 minutes, 2 casseroles), d’après des recettes de Serious Eats, Gimme Some Oven, RecipeTin Eats et The Burnt Butter Table. Geusaie Pro ajoute le pack « Soupes et ragoûts » : ragoût de kimchi et omelette roulée, ragoût de doenjang et beignets de courgette. Tout plat avec deux casseroles en même temps s’y prête : dites-nous ce que vous aimeriez voir."
       },
       {
         "q": "Ma voix est-elle enregistrée ?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Puis-je l’ouvrir avec Siri ?",
-        "a": "Oui. Choisissez un plat dans Siri ou l’app Raccourcis, et son écran de cuisson s’ouvre aussitôt. Les minuteurs démarrent quand vous touchez « Commencer à cuisiner », une fois prêt à mettre l’eau à chauffer."
+        "a": "Oui, avec Geusaie Pro. Choisissez un plat dans Siri ou l’app Raccourcis, et son écran de cuisson s’ouvre aussitôt. Les minuteurs démarrent quand vous touchez « Commencer à cuisiner », une fois prêt à mettre l’eau à chauffer."
       },
       {
         "q": "Sur quels appareils fonctionne-t-elle ?",

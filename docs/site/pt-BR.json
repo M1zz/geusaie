@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: o timer de cozinha para duas panelas ao mesmo tempo",
-  "description": "O molho fica pronto enquanto o macarrão cozinha. O Geusaie mostra a tarefa de agora, cronometra cada panela e avança quando você diz próximo. Grátis.",
+  "description": "O molho fica pronto enquanto o macarrão cozinha. O Geusaie mostra a tarefa de agora, cronometra cada panela e avança quando você diz próximo. As receitas de macarrão são grátis.",
   "hero": {
     "headline": "O macarrão cozinha.\nO molho fica pronto junto.",
     "lead": "Quando duas panelas andam em ritmos diferentes, o Geusaie mostra em letras grandes a única coisa que suas mãos precisam fazer agora. O molho é programado de trás para frente, a partir da hora em que o macarrão sai da água.",
     "cta": "Baixe grátis na App Store",
-    "note": "Todos os recursos são gratuitos. Não precisa de conta."
+    "note": "As receitas de macarrão e todos os recursos de preparo são gratuitos. Não precisa de conta."
   },
   "demo": {
     "title": "Experimente",
@@ -114,25 +114,24 @@
     "note": "Na linha do tempo, as barras tracejadas são tarefas que podem esperar."
   },
   "pricing": {
-    "title": "Todos os recursos são gratuitos",
+    "title": "As receitas de macarrão são grátis para sempre",
     "free": {
       "name": "Grátis",
       "items": [
-        "As duas receitas",
+        "As duas receitas de macarrão",
         "Um timer para cada panela e a linha do tempo completa",
         "Notificação quando uma panela fica pronta",
         "“Próximo” por voz",
-        "Quatro tamanhos de texto",
-        "Abrir receitas pela Siri ou pelos Atalhos"
+        "Quatro tamanhos de texto"
       ]
     },
     "pro": {
-      "name": "Apoie o desenvolvedor (opcional)",
+      "name": "Geusaie Pro",
       "items": [
-        "Se o app ajudar, você pode mandar uma pequena gorjeta pelos Ajustes",
-        "A gorjeta não libera nada. Sem ela, todos os recursos continuam seus"
+        "Pacote de receitas “Sopas e ensopados”: ensopado de kimchi e omelete enrolado, ensopado de doenjang e bolinhos de abobrinha",
+        "Abrir receitas pela Siri ou pelos Atalhos"
       ],
-      "note": "Gorjetas avulsas, não uma assinatura."
+      "note": "Escolha uma assinatura semanal, mensal ou anual, ou pague uma vez e use para sempre. As gorjetas nos Ajustes são à parte e não liberam nada."
     },
     "note": "Sem conta, sem anúncios, e funciona sem internet."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Quais pratos estão incluídos?",
-        "a": "Aglio e olio (cerca de 15 minutos, 2 panelas) e macarrão ao molho de tomate com creme (cerca de 20 minutos, 2 panelas), com base em receitas de Serious Eats, Gimme Some Oven, RecipeTin Eats e The Burnt Butter Table. Qualquer prato com duas panelas ao mesmo tempo combina, então conte para a gente qual você quer."
+        "a": "Aglio e olio (cerca de 15 minutos, 2 panelas) e macarrão ao molho de tomate com creme (cerca de 20 minutos, 2 panelas), com base em receitas de Serious Eats, Gimme Some Oven, RecipeTin Eats e The Burnt Butter Table. Com o Geusaie Pro, você também tem o pacote “Sopas e ensopados”: ensopado de kimchi e omelete enrolado, e ensopado de doenjang e bolinhos de abobrinha. Qualquer prato com duas panelas ao mesmo tempo combina, então conte para a gente qual você quer."
       },
       {
         "q": "Minha voz é gravada?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Dá para abrir com a Siri?",
-        "a": "Sim. Escolha um prato na Siri ou no app Atalhos e a tela de preparo dele abre na hora. Os relógios começam quando você toca em Começar a cozinhar, quando estiver pronto para pôr a água no fogo."
+        "a": "Sim, com o Geusaie Pro. Escolha um prato na Siri ou no app Atalhos e a tela de preparo dele abre na hora. Os relógios começam quando você toca em Começar a cozinhar, quando estiver pronto para pôr a água no fogo."
       },
       {
         "q": "Em quais aparelhos funciona?",

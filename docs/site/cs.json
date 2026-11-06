@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: kuchyňský časovač pro dva hrnce najednou",
-  "description": "Omáčka je hotová, zatímco se vaří těstoviny. Geusaie ukáže jediný úkol pro teď, hlídá čas každého hrnce a na slovo „další“ jde dál. Zdarma.",
+  "description": "Omáčka je hotová, zatímco se vaří těstoviny. Geusaie ukáže jediný úkol pro teď, hlídá čas každého hrnce a na slovo „další“ jde dál. Recepty na těstoviny jsou zdarma.",
   "hero": {
     "headline": "Těstoviny se vaří.\nOmáčka mezitím taky.",
     "lead": "Když dva hrnce jedou každý jiným tempem, Geusaie velkým písmem ukáže jedinou věc, kterou mají vaše ruce udělat právě teď. Omáčka se plánuje pozpátku od chvíle, kdy budete těstoviny scezovat.",
     "cta": "Stáhnout zdarma z App Storu",
-    "note": "Všechny funkce jsou zdarma. Účet není potřeba."
+    "note": "Recepty na těstoviny a všechny funkce pro vaření jsou zdarma. Účet není potřeba."
   },
   "demo": {
     "title": "Vyzkoušejte si to",
@@ -114,25 +114,24 @@
     "note": "Na časové ose jsou čárkované pruhy úkoly, které můžou počkat."
   },
   "pricing": {
-    "title": "Všechny funkce jsou zdarma",
+    "title": "Recepty na těstoviny jsou zdarma natrvalo",
     "free": {
       "name": "Zdarma",
       "items": [
-        "Oba recepty",
+        "Oba recepty na těstoviny",
         "Samostatný časovač pro každý hrnec a celá časová osa",
         "Oznámení, když je hrnec hotový",
         "„Další“ hlasem",
-        "Čtyři velikosti písma",
-        "Otevření receptu přes Siri nebo Zkratky"
+        "Čtyři velikosti písma"
       ]
     },
     "pro": {
-      "name": "Podpořte vývojáře (dobrovolně)",
+      "name": "Geusaie Pro",
       "items": [
-        "Pokud vám aplikace pomáhá, můžete v Nastavení poslat malé spropitné",
-        "Spropitné nic neodemyká. I bez něj máte všechny funkce"
+        "Balíček receptů „Polévky a dušená jídla“: kimči polévka a rolovaná omeleta, polévka s doenjangem a cuketové placičky",
+        "Otevření receptu přes Siri nebo Zkratky"
       ],
-      "note": "Jednorázové spropitné, žádné předplatné."
+      "note": "Vyberte si týdenní, měsíční nebo roční předplatné, nebo jednou zaplaťte navždy. Spropitné v Nastavení je zvlášť a nic neodemyká."
     },
     "note": "Žádný účet, žádné reklamy a funguje i bez internetu."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Jaká jídla jsou k dispozici?",
-        "a": "Aglio e olio (asi 15 minut, 2 hrnce) a těstoviny v rajčatovo-smetanové omáčce (asi 20 minut, 2 hrnce) podle receptů ze Serious Eats, Gimme Some Oven, RecipeTin Eats a The Burnt Butter Table. Hodí se jakékoli jídlo, kde se vaří ve dvou hrncích zároveň, tak nám napište, jaký recept byste chtěli."
+        "a": "Aglio e olio (asi 15 minut, 2 hrnce) a těstoviny v rajčatovo-smetanové omáčce (asi 20 minut, 2 hrnce) podle receptů ze Serious Eats, Gimme Some Oven, RecipeTin Eats a The Burnt Butter Table. Geusaie Pro přidává balíček „Polévky a dušená jídla“: kimči polévku a rolovanou omeletu a polévku s doenjangem a cuketové placičky. Hodí se jakékoli jídlo, kde se vaří ve dvou hrncích zároveň, tak nám napište, jaký recept byste chtěli."
       },
       {
         "q": "Nahrává se můj hlas?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Dá se otevřít přes Siri?",
-        "a": "Ano. Vyberte jídlo v Siri nebo v aplikaci Zkratky a hned se otevře jeho obrazovka vaření. Hodiny se rozběhnou, až budete připraveni postavit vodu a klepnete na Začít vařit."
+        "a": "Ano, s Geusaie Pro. Vyberte jídlo v Siri nebo v aplikaci Zkratky a hned se otevře jeho obrazovka vaření. Hodiny se rozběhnou, až budete připraveni postavit vodu a klepnete na Začít vařit."
       },
       {
         "q": "Na jakých zařízeních funguje?",

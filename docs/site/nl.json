@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: de kooktimer voor twee pannen tegelijk",
-  "description": "De saus is klaar terwijl de pasta kookt. Geusaie toont de ene taak van nu, telt elke pan apart af en gaat door als je volgende zegt. Gratis.",
+  "description": "De saus is klaar terwijl de pasta kookt. Geusaie toont de ene taak van nu, telt elke pan apart af en gaat door als je volgende zegt. De pastarecepten zijn gratis.",
   "hero": {
     "headline": "De pasta kookt.\nIntussen is de saus ook klaar.",
     "lead": "Als twee pannen op een ander tempo gaan, laat Geusaie groot zien wat je handen nu moeten doen. De saus wordt teruggerekend vanaf het moment dat de pasta uit het water komt.",
     "cta": "Gratis downloaden in de App Store",
-    "note": "Alle functies zijn gratis. Geen account nodig."
+    "note": "De pastarecepten en alle kookfuncties zijn gratis. Geen account nodig."
   },
   "demo": {
     "title": "Probeer het",
@@ -114,25 +114,24 @@
     "note": "Op de tijdlijn zijn gestippelde balken taken die kunnen wachten."
   },
   "pricing": {
-    "title": "Alle functies zijn gratis",
+    "title": "De pastarecepten blijven gratis",
     "free": {
       "name": "Gratis",
       "items": [
-        "Beide recepten",
+        "Beide pastarecepten",
         "Een timer per pan en de volledige tijdlijn",
         "Een melding als een pan klaar is",
         "‘Volgende’ met je stem",
-        "Vier tekstgroottes",
-        "Een recept openen met Siri of Opdrachten"
+        "Vier tekstgroottes"
       ]
     },
     "pro": {
-      "name": "Steun de ontwikkelaar (optioneel)",
+      "name": "Geusaie Pro",
       "items": [
-        "Helpt de app je, dan kun je via Instellingen een kleine fooi geven",
-        "Een fooi ontgrendelt niets. Ook zonder blijven alle functies van jou"
+        "Receptpakket ‘Soepen & stoofpotten’: kimchistoof & opgerolde omelet, doenjangstoof & courgettebeignets",
+        "Een recept openen met Siri of Opdrachten"
       ],
-      "note": "Losse fooien, geen abonnement."
+      "note": "Kies een abonnement per week, maand of jaar, of betaal één keer voor altijd. Fooien via Instellingen staan daar los van en ontgrendelen niets."
     },
     "note": "Geen account, geen advertenties, en het werkt zonder internet."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Welke gerechten zitten erin?",
-        "a": "Aglio e olio (ongeveer 15 minuten, 2 pannen) en pasta in tomatenroomsaus (ongeveer 20 minuten, 2 pannen), gebaseerd op recepten van Serious Eats, Gimme Some Oven, RecipeTin Eats en The Burnt Butter Table. Elk gerecht met twee pannen tegelijk past goed, dus laat ons weten wat je graag zou zien."
+        "a": "Aglio e olio (ongeveer 15 minuten, 2 pannen) en pasta in tomatenroomsaus (ongeveer 20 minuten, 2 pannen), gebaseerd op recepten van Serious Eats, Gimme Some Oven, RecipeTin Eats en The Burnt Butter Table. Met Geusaie Pro krijg je ook het pakket ‘Soepen & stoofpotten’: kimchistoof & opgerolde omelet en doenjangstoof & courgettebeignets. Elk gerecht met twee pannen tegelijk past goed, dus laat ons weten wat je graag zou zien."
       },
       {
         "q": "Wordt mijn stem opgenomen?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Kan ik de app openen met Siri?",
-        "a": "Ja. Kies een gerecht in Siri of de Opdrachten-app en het kookscherm opent meteen. De klokken starten pas als je op ‘Begin met koken’ tikt, zodra je klaar bent om het water op te zetten."
+        "a": "Ja, met Geusaie Pro. Kies een gerecht in Siri of de Opdrachten-app en het kookscherm opent meteen. De klokken starten pas als je op ‘Begin met koken’ tikt, zodra je klaar bent om het water op te zetten."
       },
       {
         "q": "Op welke apparaten werkt de app?",

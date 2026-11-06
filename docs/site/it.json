@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: il timer da cucina per due pentole insieme",
-  "description": "Il sugo è pronto mentre la pasta bolle. Geusaie mostra l’unica cosa da fare adesso, conta ogni pentola a parte e va avanti quando dici avanti. Gratis.",
+  "description": "Il sugo è pronto mentre la pasta bolle. Geusaie mostra l’unica cosa da fare adesso, conta ogni pentola a parte e va avanti quando dici avanti. Le ricette di pasta sono gratis.",
   "hero": {
     "headline": "La pasta bolle.\nIntanto il sugo è pronto.",
     "lead": "Quando due pentole vanno a velocità diverse, Geusaie ti mostra in grande l’unica cosa che le tue mani devono fare adesso. Il sugo viene programmato a ritroso dal momento in cui scoli la pasta.",
     "cta": "Scaricala gratis dall’App Store",
-    "note": "Tutte le funzioni sono gratuite. Nessun account richiesto."
+    "note": "Le ricette di pasta e tutte le funzioni di cottura sono gratuite. Nessun account richiesto."
   },
   "demo": {
     "title": "Provalo",
@@ -114,25 +114,24 @@
     "note": "Sulla linea del tempo, le barre tratteggiate sono compiti che possono aspettare."
   },
   "pricing": {
-    "title": "Tutte le funzioni sono gratuite",
+    "title": "Le ricette di pasta restano gratuite",
     "free": {
       "name": "Gratis",
       "items": [
-        "Entrambe le ricette",
+        "Entrambe le ricette di pasta",
         "Un timer per ogni pentola e la linea del tempo completa",
         "Una notifica quando una pentola è pronta",
         "«Avanti» a voce",
-        "Quattro dimensioni del testo",
-        "Apri una ricetta con Siri o Comandi Rapidi"
+        "Quattro dimensioni del testo"
       ]
     },
     "pro": {
-      "name": "Sostieni lo sviluppatore (facoltativo)",
+      "name": "Geusaie Pro",
       "items": [
-        "Se l’app ti è utile, puoi lasciare una piccola mancia dalle impostazioni",
-        "La mancia non sblocca nulla. Anche senza, tutte le funzioni restano tue"
+        "Il pacchetto «Zuppe e stufati»: stufato di kimchi e frittata arrotolata, stufato di doenjang e frittelle di zucchine",
+        "Apri una ricetta con Siri o Comandi Rapidi"
       ],
-      "note": "Mance singole, non un abbonamento."
+      "note": "Scegli un abbonamento settimanale, mensile o annuale, oppure paga una volta sola per sempre. Le mance dalle Impostazioni sono a parte e non sbloccano nulla."
     },
     "note": "Niente account, niente pubblicità, e funziona anche senza connessione."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Quali piatti ci sono?",
-        "a": "Aglio e olio (circa 15 minuti, 2 pentole) e pasta alla crema di pomodoro (circa 20 minuti, 2 pentole), da ricette di Serious Eats, Gimme Some Oven, RecipeTin Eats e The Burnt Butter Table. Va bene qualsiasi piatto con due pentole sul fuoco insieme: dicci quale vorresti."
+        "a": "Aglio e olio (circa 15 minuti, 2 pentole) e pasta alla crema di pomodoro (circa 20 minuti, 2 pentole), da ricette di Serious Eats, Gimme Some Oven, RecipeTin Eats e The Burnt Butter Table. Con Geusaie Pro c’è anche il pacchetto «Zuppe e stufati»: stufato di kimchi e frittata arrotolata, stufato di doenjang e frittelle di zucchine. Va bene qualsiasi piatto con due pentole sul fuoco insieme: dicci quale vorresti."
       },
       {
         "q": "La mia voce viene registrata?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Posso aprirla con Siri?",
-        "a": "Sì. Scegli un piatto in Siri o nell’app Comandi Rapidi e si apre subito la sua schermata di cottura. I timer partono quando tocchi «Inizia a cucinare», quando sei pronto a mettere su l’acqua."
+        "a": "Sì, con Geusaie Pro. Scegli un piatto in Siri o nell’app Comandi Rapidi e si apre subito la sua schermata di cottura. I timer partono quando tocchi «Inizia a cucinare», quando sei pronto a mettere su l’acqua."
       },
       {
         "q": "Su quali dispositivi funziona?",

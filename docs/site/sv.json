@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: kökstimern för två grytor samtidigt",
-  "description": "Såsen blir klar medan pastan kokar. Geusaie visar uppgiften som gäller nu, räknar varje gryta för sig och går vidare när du säger nästa. Gratis.",
+  "description": "Såsen blir klar medan pastan kokar. Geusaie visar uppgiften som gäller nu, räknar varje gryta för sig och går vidare när du säger nästa. Pastarecepten är gratis.",
   "hero": {
     "headline": "Pastan kokar.\nUnder tiden blir såsen klar.",
     "lead": "När två grytor går i olika takt visar Geusaie med stor text den enda sak dina händer ska göra just nu. Såsen räknas baklänges från stunden då pastan ska hällas av.",
     "cta": "Hämta gratis på App Store",
-    "note": "Alla funktioner är gratis. Inget konto behövs."
+    "note": "Pastarecepten och alla matlagningsfunktioner är gratis. Inget konto behövs."
   },
   "demo": {
     "title": "Testa själv",
@@ -114,25 +114,24 @@
     "note": "På tidslinjen är streckade staplar uppgifter som kan vänta."
   },
   "pricing": {
-    "title": "Alla funktioner är gratis",
+    "title": "Pastarecepten är gratis för alltid",
     "free": {
       "name": "Gratis",
       "items": [
-        "Båda recepten",
+        "Båda pastarecepten",
         "En timer för varje gryta och hela tidslinjen",
         "Notis när en gryta är klar",
         "”Nästa” med rösten",
-        "Fyra textstorlekar",
-        "Öppna ett recept med Siri eller Genvägar"
+        "Fyra textstorlekar"
       ]
     },
     "pro": {
-      "name": "Stötta utvecklaren (frivilligt)",
+      "name": "Geusaie Pro",
       "items": [
-        "Om appen hjälper dig kan du ge en liten dricks i Inställningar",
-        "Dricks låser inte upp något. Utan den har du fortfarande alla funktioner"
+        "Receptpaketet Soppor & grytor: kimchigryta & rullad omelett, doenjanggryta & zucchinibiffar",
+        "Öppna ett recept med Siri eller Genvägar"
       ],
-      "note": "Engångsbelopp, inte en prenumeration."
+      "note": "Välj prenumeration per vecka, månad eller år, eller betala en gång för alltid. Dricks i Inställningar är separat och låser inte upp något."
     },
     "note": "Inget konto, ingen reklam, och den fungerar utan internet."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Vilka rätter finns med?",
-        "a": "Aglio e olio (cirka 15 minuter, 2 grytor) och pasta i tomat- och gräddsås (cirka 20 minuter, 2 grytor), baserade på recept från Serious Eats, Gimme Some Oven, RecipeTin Eats och The Burnt Butter Table. Alla rätter med två grytor igång samtidigt passar bra, så berätta gärna vad du vill se."
+        "a": "Aglio e olio (cirka 15 minuter, 2 grytor) och pasta i tomat- och gräddsås (cirka 20 minuter, 2 grytor), baserade på recept från Serious Eats, Gimme Some Oven, RecipeTin Eats och The Burnt Butter Table. Med Geusaie Pro får du även paketet Soppor & grytor: kimchigryta & rullad omelett och doenjanggryta & zucchinibiffar. Alla rätter med två grytor igång samtidigt passar bra, så berätta gärna vad du vill se."
       },
       {
         "q": "Spelas min röst in?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Kan jag öppna den med Siri?",
-        "a": "Ja. Välj en rätt i Siri eller appen Genvägar så öppnas dess matlagningsskärm direkt. Klockorna startar först när du är redo att sätta på vattnet och trycker på Börja laga mat."
+        "a": "Ja, med Geusaie Pro. Välj en rätt i Siri eller appen Genvägar så öppnas dess matlagningsskärm direkt. Klockorna startar först när du är redo att sätta på vattnet och trycker på Börja laga mat."
       },
       {
         "q": "Vilka enheter fungerar den på?",

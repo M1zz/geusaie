@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: timer masak untuk dua panci sekaligus",
-  "description": "Saus beres selagi pasta direbus. Geusaie menampilkan satu tugas sekarang, menghitung waktu tiap panci, dan lanjut saat kamu bilang berikutnya. Gratis.",
+  "description": "Saus beres selagi pasta direbus. Geusaie menampilkan satu tugas sekarang, menghitung waktu tiap panci, dan lanjut saat kamu bilang berikutnya. Resep pastanya gratis.",
   "hero": {
     "headline": "Pasta direbus,\nsaus ikut beres",
     "lead": "Saat dua panci berjalan dengan tempo berbeda, Geusaie menampilkan besar-besar satu hal yang perlu dikerjakan tanganmu sekarang. Saus dijadwalkan mundur dari saat pasta diangkat.",
     "cta": "Unduh gratis di App Store",
-    "note": "Semua fitur gratis. Tidak perlu akun."
+    "note": "Resep pasta dan semua fitur memasak gratis. Tidak perlu akun."
   },
   "demo": {
     "title": "Coba sendiri",
@@ -114,25 +114,24 @@
     "note": "Di linimasa, bilah bergaris putus-putus adalah tugas yang boleh ditunda."
   },
   "pricing": {
-    "title": "Semua fitur gratis",
+    "title": "Resep pasta gratis selamanya",
     "free": {
       "name": "Gratis",
       "items": [
-        "Kedua resep",
+        "Kedua resep pasta",
         "Timer untuk tiap panci dan linimasa lengkap",
         "Notifikasi saat panci selesai",
         "Ucapkan \"berikutnya\" untuk lanjut",
-        "Empat ukuran teks",
-        "Buka resep lewat Siri atau Pintasan"
+        "Empat ukuran teks"
       ]
     },
     "pro": {
-      "name": "Dukung pengembang (opsional)",
+      "name": "Geusaie Pro",
       "items": [
-        "Kalau aplikasinya membantu, kamu bisa mengirim tip kecil dari Pengaturan",
-        "Tip tidak membuka apa pun. Tanpa tip, semua fitur tetap bisa dipakai"
+        "Paket resep Sup & Rebusan: Sup Kimchi & Telur Gulung, Sup Doenjang & Jeon Zukini",
+        "Buka resep lewat Siri atau Pintasan"
       ],
-      "note": "Tip sekali bayar, bukan langganan."
+      "note": "Pilih langganan mingguan, bulanan, atau tahunan, atau bayar sekali untuk selamanya. Tip di Pengaturan terpisah dan tidak membuka apa pun."
     },
     "note": "Tanpa akun, tanpa iklan, dan tetap bisa dipakai tanpa internet."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Masakan apa saja yang ada?",
-        "a": "Aglio e olio (sekitar 15 menit, 2 panci) dan pasta saus krim tomat (sekitar 20 menit, 2 panci), berdasarkan resep dari Serious Eats, Gimme Some Oven, RecipeTin Eats, dan The Burnt Butter Table. Masakan apa pun yang memakai dua panci sekaligus cocok, jadi beri tahu kami resep yang ingin kamu lihat."
+        "a": "Aglio e olio (sekitar 15 menit, 2 panci) dan pasta saus krim tomat (sekitar 20 menit, 2 panci), berdasarkan resep dari Serious Eats, Gimme Some Oven, RecipeTin Eats, dan The Burnt Butter Table. Geusaie Pro menambahkan paket Sup & Rebusan: Sup Kimchi & Telur Gulung dan Sup Doenjang & Jeon Zukini. Masakan apa pun yang memakai dua panci sekaligus cocok, jadi beri tahu kami resep yang ingin kamu lihat."
       },
       {
         "q": "Apakah suaraku direkam?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Bisa dibuka lewat Siri?",
-        "a": "Bisa. Pilih masakan di Siri atau app Pintasan, dan layar memasaknya langsung terbuka. Jam baru berjalan saat kamu siap merebus air dan mengetuk Mulai memasak."
+        "a": "Bisa, dengan Geusaie Pro. Pilih masakan di Siri atau app Pintasan, dan layar memasaknya langsung terbuka. Jam baru berjalan saat kamu siap merebus air dan mengetuk Mulai memasak."
       },
       {
         "q": "Bisa dipakai di perangkat apa saja?",

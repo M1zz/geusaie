@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: iki tencereyi birlikte yöneten mutfak zamanlayıcısı",
-  "description": "Makarna haşlanırken sos da hazır. Geusaie şimdi yapılacak tek işi gösterir, her tencereyi ayrı sayar ve ileri dediğinde sonraki adıma geçer. Ücretsiz.",
+  "description": "Makarna haşlanırken sos da hazır. Geusaie şimdi yapılacak tek işi gösterir, her tencereyi ayrı sayar ve ileri dediğinde sonraki adıma geçer. Makarna tarifleri ücretsiz.",
   "hero": {
     "headline": "Makarna haşlanırken\nsos da hazır",
     "lead": "İki tencere farklı hızda giderken Geusaie, ellerinin şu an yapması gereken tek işi büyük harflerle gösterir. Sos, makarnanın süzüleceği andan geriye doğru zamanlanır.",
     "cta": "App Store'dan ücretsiz indir",
-    "note": "Tüm özellikler ücretsiz. Hesap gerekmez."
+    "note": "Makarna tarifleri ve tüm pişirme özellikleri ücretsiz. Hesap gerekmez."
   },
   "demo": {
     "title": "Kendin dene",
@@ -114,25 +114,24 @@
     "note": "Zaman çizelgesinde kesikli çubuklar, bekleyebilecek işlerdir."
   },
   "pricing": {
-    "title": "Tüm özellikler ücretsiz",
+    "title": "Makarna tarifleri hep ücretsiz",
     "free": {
       "name": "Ücretsiz",
       "items": [
-        "İki tarifin tamamı",
+        "İki makarna tarifi",
         "Her tencere için ayrı zamanlayıcı ve tüm zaman çizelgesi",
         "Tencere hazır olunca bildirim",
         "Sesle \"ileri\"",
-        "Dört yazı boyutu",
-        "Siri ve Kestirmeler ile tarifi aç"
+        "Dört yazı boyutu"
       ]
     },
     "pro": {
-      "name": "Geliştiriciye destek ol (isteğe bağlı)",
+      "name": "Geusaie Pro",
       "items": [
-        "Uygulama işine yaradıysa Ayarlar'dan küçük bir bahşiş gönderebilirsin",
-        "Bahşiş hiçbir şeyin kilidini açmaz. Göndermesen de tüm özellikler senin"
+        "Çorbalar ve Güveçler tarif paketi: Kimchi Güveci ve Rulo Omlet, Doenjang Güveci ve Kabak Mücveri",
+        "Siri ve Kestirmeler ile tarifi aç"
       ],
-      "note": "Tek seferlik bahşişler, abonelik değil."
+      "note": "Haftalık, aylık ya da yıllık abonelik seç veya bir kez öde, ömür boyu kullan. Ayarlar'daki bahşiş ayrıdır ve hiçbir şeyin kilidini açmaz."
     },
     "note": "Hesap yok, reklam yok ve internet olmadan da çalışır."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Hangi yemekler var?",
-        "a": "Aglio e olio (yaklaşık 15 dakika, 2 tencere) ve domatesli kremalı makarna (yaklaşık 20 dakika, 2 tencere). Serious Eats, Gimme Some Oven, RecipeTin Eats ve The Burnt Butter Table tariflerinden yararlanıldı. İki tencerenin aynı anda kaynadığı her yemek uygundur, görmek istediğin tarifi bize yaz."
+        "a": "Aglio e olio (yaklaşık 15 dakika, 2 tencere) ve domatesli kremalı makarna (yaklaşık 20 dakika, 2 tencere). Serious Eats, Gimme Some Oven, RecipeTin Eats ve The Burnt Butter Table tariflerinden yararlanıldı. Geusaie Pro ile Çorbalar ve Güveçler paketi de gelir: Kimchi Güveci ve Rulo Omlet, Doenjang Güveci ve Kabak Mücveri. İki tencerenin aynı anda kaynadığı her yemek uygundur, görmek istediğin tarifi bize yaz."
       },
       {
         "q": "Sesim kaydediliyor mu?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Siri ile açabilir miyim?",
-        "a": "Evet. Siri'de ya da Kestirmeler uygulamasında bir yemek seçtiğinde o yemeğin pişirme ekranı hemen açılır. Saatler, suyu koymaya hazır olup Yemeğe başla'ya dokunduğunda başlar."
+        "a": "Evet, Geusaie Pro ile. Siri'de ya da Kestirmeler uygulamasında bir yemek seçtiğinde o yemeğin pişirme ekranı hemen açılır. Saatler, suyu koymaya hazır olup Yemeğe başla'ya dokunduğunda başlar."
       },
       {
         "q": "Hangi cihazlarda çalışır?",

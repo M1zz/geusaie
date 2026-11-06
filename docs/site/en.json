@@ -1,11 +1,11 @@
 {
   "title": "Geusaie: the cooking timer for two pots at once",
-  "description": "The sauce gets done while the pasta boils. Geusaie shows the one task for your hands now, times each pot and moves on when you say next. Free.",
+  "description": "The sauce gets done while the pasta boils. Geusaie shows the one task for your hands now, times each pot and moves on when you say next. The pasta recipes are free.",
   "hero": {
     "headline": "Pasta in one pot.\nSauce done in the meantime.",
     "lead": "When two pots run at different speeds, Geusaie shows the one thing your hands need to do right now. The sauce is timed backwards from the moment the pasta comes out.",
     "cta": "Get it free on the App Store",
-    "note": "Every feature is free. No account needed."
+    "note": "Both pasta recipes and every cooking tool are free. No account needed."
   },
   "demo": {
     "title": "Try a run",
@@ -114,25 +114,24 @@
     "note": "On the timeline, dashed bars are tasks that can wait."
   },
   "pricing": {
-    "title": "Every feature is free",
+    "title": "The pasta recipes are free for good",
     "free": {
       "name": "Free",
       "items": [
-        "Both recipes",
+        "Both pasta recipes",
         "A timer for each pot, plus the full timeline",
         "A notification when a pot is done",
         "Hands-free \"next\"",
-        "Four text sizes",
-        "Open a recipe from Siri or Shortcuts"
+        "Four text sizes"
       ]
     },
     "pro": {
-      "name": "Tip the developer (optional)",
+      "name": "Geusaie Pro",
       "items": [
-        "If the app helps, you can send a small tip from Settings",
-        "Tips don't unlock anything. Without one, every feature is still yours"
+        "The Soups & Stews recipe pack: Kimchi Stew & Rolled Omelette, Doenjang Stew & Zucchini Fritters",
+        "Open a recipe from Siri or Shortcuts"
       ],
-      "note": "One-time tips, not a subscription."
+      "note": "Choose a weekly, monthly or yearly subscription, or pay once for lifetime. Tips from Settings are separate and unlock nothing."
     },
     "note": "No account, no ads, and it works without an internet connection."
   },
@@ -161,7 +160,7 @@
       },
       {
         "q": "Which dishes are included?",
-        "a": "Aglio e olio (about 15 minutes, 2 pots) and tomato cream pasta (about 20 minutes, 2 pots), based on recipes from Serious Eats, Gimme Some Oven, RecipeTin Eats and The Burnt Butter Table. Any dish with two pots going at once is a good fit, so tell us what you'd like to see next."
+        "a": "Aglio e olio (about 15 minutes, 2 pots) and tomato cream pasta (about 20 minutes, 2 pots), based on recipes from Serious Eats, Gimme Some Oven, RecipeTin Eats and The Burnt Butter Table. Geusaie Pro adds the Soups & Stews pack: Kimchi Stew & Rolled Omelette and Doenjang Stew & Zucchini Fritters. Any dish with two pots going at once is a good fit, so tell us what you'd like to see next."
       },
       {
         "q": "Is my voice recorded?",
@@ -169,7 +168,7 @@
       },
       {
         "q": "Can I open it with Siri?",
-        "a": "Yes. Pick a dish in Siri or the Shortcuts app and its cooking screen opens straight away. The clocks start when you tap Start Cooking, once you're ready to put the water on."
+        "a": "Yes, with Geusaie Pro. Pick a dish in Siri or the Shortcuts app and its cooking screen opens straight away. The clocks start when you tap Start Cooking, once you're ready to put the water on."
       },
       {
         "q": "Which devices does it run on?",
