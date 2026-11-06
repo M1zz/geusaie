@@ -60,6 +60,11 @@ Apple Watch를 차고 있으면 냄비가 다 되는 순간 손목이 울립니�
 
 iPhone, iPad, Apple Watch에서 쓸 수 있습니다. 계정 없이 바로 시작합니다.
 
+구독 안내
+그사이에 Pro 구독은 자동 갱신 구독입니다. 갱신일 24시간 전까지 해지하지 않으면 Apple 계정으로 자동 결제되며, 설정의 구독 관리에서 언제든 해지할 수 있습니다.
+이용약관(EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+개인정보처리방침: https://m1zz.github.io/geusaie/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/support.html
@@ -129,6 +134,11 @@ Next step from your wrist
 With Apple Watch, your wrist taps the moment a pot is done. Move to the next step right from the notification, see every pot's time left on one screen, and keep the pot that finishes first on your watch face.
 
 Works on iPhone, iPad and Apple Watch. No account needed to get started.
+
+Subscriptions
+Geusaie Pro is an auto-renewing subscription. Payment is charged to your Apple Account, and the subscription renews unless canceled at least 24 hours before the period ends. Manage or cancel anytime in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/geusaie/en/privacy.html
 
 ### 지원 URL
 
@@ -200,6 +210,11 @@ With Apple Watch, your wrist taps the moment a pan is done. Move to the next ste
 
 Works on iPhone, iPad and Apple Watch. No account needed to get started.
 
+Subscriptions
+Geusaie Pro is an auto-renewing subscription. Payment is charged to your Apple Account, and the subscription renews unless cancelled at least 24 hours before the period ends. Manage or cancel anytime in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/geusaie/en/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/en/support.html
@@ -269,6 +284,11 @@ iPadを立てておくと、今やることをひとつだけ大きく、鍋ご�
 Apple Watchをつけていれば、鍋ができた瞬間に手首に知らせが届きます。通知からそのまま次のステップへ進め、ウォッチのアプリでは鍋ごとの残り時間をひと目で確認できます。文字盤にはいちばん先に終わる鍋の残り時間を表示できます。
 
 iPhone、iPad、Apple Watchで使えます。アカウント不要で、すぐに始められます。
+
+サブスクリプションについて
+GeusaieのProは自動更新のサブスクリプションです。期間終了の24時間前までに解約しない限り、Apple Accountに自動で請求されます。設定のサブスクリプション管理からいつでも解約できます。
+利用規約（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+プライバシーポリシー: https://m1zz.github.io/geusaie/ja/privacy.html
 
 ### 지원 URL
 
@@ -340,6 +360,11 @@ Geusaie：意面烹饪计时器
 
 支持 iPhone、iPad 和 Apple Watch。无需账号，打开就能用。
 
+订阅说明
+Geusaie Pro 为自动续期订阅。费用从你的 Apple 账户扣除，除非在当期结束前至少 24 小时取消，否则将自动续期。可随时在“设置”中管理或取消。
+使用条款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隐私政策: https://m1zz.github.io/geusaie/zh-Hans/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/zh-Hans/support.html
@@ -409,6 +434,11 @@ Geusaie：義大利麵烹飪計時器
 戴著 Apple Watch 時，鍋子一煮好手腕就會震動。直接在通知裡進入下一步，手錶 App 一個畫面看清每個鍋子的剩餘時間，錶面上也能顯示最先煮好的鍋子還剩多久。
 
 支援 iPhone、iPad 和 Apple Watch。不需要帳號，打開就能用。
+
+訂閱說明
+Geusaie Pro 為自動續訂訂閱。費用會從你的 Apple 帳號扣款，除非在當期結束前至少 24 小時取消，否則將自動續訂。可隨時在「設定」中管理或取消。
+使用條款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隱私權政策: https://m1zz.github.io/geusaie/zh-Hant/privacy.html
 
 ### 지원 URL
 
@@ -480,6 +510,11 @@ iPad на кухонной подставке
 
 Работает на iPhone, iPad и Apple Watch. Учётная запись не нужна — можно сразу начинать.
 
+Подписки
+Geusaie Pro — подписка с автопродлением. Оплата списывается с вашего Apple Account, а подписка продлевается, если не отменить её минимум за 24 часа до конца периода. Управлять подпиской и отменить её можно в Настройках.
+Условия использования (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Политика конфиденциальности: https://m1zz.github.io/geusaie/ru/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/ru/support.html
@@ -549,6 +584,11 @@ El siguiente paso desde la muñeca
 Con el Apple Watch notarás un toque en la muñeca en cuanto una olla esté lista. Pasa al siguiente paso desde la notificación, mira el tiempo de todas las ollas en una sola pantalla y lleva en la esfera la que termina primero.
 
 Funciona en iPhone, iPad y Apple Watch. No necesitas cuenta para empezar.
+
+Suscripciones
+Geusaie Pro es una suscripción de renovación automática. El cargo se realiza en tu cuenta de Apple y la suscripción se renueva salvo que la canceles al menos 24 horas antes de que termine el periodo. Puedes gestionarla o cancelarla cuando quieras en Ajustes.
+Términos de uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de privacidad: https://m1zz.github.io/geusaie/es/privacy.html
 
 ### 지원 URL
 
@@ -620,6 +660,11 @@ Mit der Apple Watch tippt dein Handgelenk, sobald ein Topf fertig ist. Geh direk
 
 Für iPhone, iPad und Apple Watch. Ohne Konto sofort startklar.
 
+Abonnements
+Geusaie Pro ist ein Abo mit automatischer Verlängerung. Die Zahlung erfolgt über deinen Apple Account. Das Abo verlängert sich, sofern du nicht mindestens 24 Stunden vor Ablauf des Zeitraums kündigst. Verwalten oder kündigen kannst du es jederzeit in den Einstellungen.
+Nutzungsbedingungen (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Datenschutzerklärung: https://m1zz.github.io/geusaie/de/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/de/support.html
@@ -689,6 +734,11 @@ L’étape suivante au poignet
 Avec l’Apple Watch, votre poignet vibre dès qu’une casserole est prête. Passez à l’étape suivante depuis la notification, voyez le temps de toutes les casseroles sur un seul écran et gardez sur le cadran celle qui finit en premier.
 
 Fonctionne sur iPhone, iPad et Apple Watch. Aucun compte requis pour commencer.
+
+Abonnements
+Geusaie Pro est un abonnement à renouvellement automatique. Le paiement est débité sur votre compte Apple, et l’abonnement se renouvelle sauf résiliation au moins 24 heures avant la fin de la période. Gérez-le ou résiliez-le à tout moment dans Réglages.
+Conditions d'utilisation (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Politique de confidentialité: https://m1zz.github.io/geusaie/fr/privacy.html
 
 ### 지원 URL
 
@@ -760,6 +810,11 @@ Con Apple Watch il polso vibra appena una pentola è pronta. Passa al passo succ
 
 Funziona su iPhone, iPad e Apple Watch. Nessun account per iniziare.
 
+Abbonamenti
+Geusaie Pro è un abbonamento a rinnovo automatico. Il pagamento viene addebitato sul tuo Apple Account e l’abbonamento si rinnova se non lo disdici almeno 24 ore prima della scadenza. Puoi gestirlo o disdirlo in qualsiasi momento in Impostazioni.
+Condizioni d'uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Informativa sulla privacy: https://m1zz.github.io/geusaie/it/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/it/support.html
@@ -829,6 +884,11 @@ A próxima etapa no pulso
 Com o Apple Watch, o pulso vibra assim que uma panela fica pronta. Avance para a próxima etapa direto na notificação, veja o tempo de todas as panelas em uma tela e deixe no mostrador a que termina primeiro.
 
 Funciona no iPhone, no iPad e no Apple Watch. Não precisa de conta para começar.
+
+Assinaturas
+Geusaie Pro é uma assinatura com renovação automática. A cobrança é feita na sua Conta Apple e a assinatura é renovada, a menos que você cancele pelo menos 24 horas antes do fim do período. Gerencie ou cancele quando quiser em Ajustes.
+Termos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de Privacidade: https://m1zz.github.io/geusaie/pt-BR/privacy.html
 
 ### 지원 URL
 
@@ -900,6 +960,11 @@ iPad บนขาตั้งในครัว
 
 ใช้ได้บน iPhone, iPad และ Apple Watch ไม่ต้องมีบัญชี เริ่มใช้ได้ทันที
 
+การสมัครสมาชิก
+Geusaie Pro เป็นการสมัครสมาชิกที่ต่ออายุอัตโนมัติ ระบบจะเรียกเก็บเงินจากบัญชี Apple ของคุณและต่ออายุเว้นแต่จะยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบ จัดการหรือยกเลิกได้ทุกเมื่อในการตั้งค่า
+ข้อกำหนดการใช้งาน (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+นโยบายความเป็นส่วนตัว: https://m1zz.github.io/geusaie/th/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/th/support.html
@@ -969,6 +1034,11 @@ Bước tiếp theo ngay trên cổ tay
 Khi đeo Apple Watch, cổ tay sẽ rung ngay lúc nồi xong. Chuyển sang bước tiếp theo ngay từ thông báo, xem thời gian của mọi nồi trên một màn hình và đặt nồi xong sớm nhất lên mặt đồng hồ.
 
 Dùng được trên iPhone, iPad và Apple Watch. Không cần tài khoản, mở ra là dùng được ngay.
+
+Gói đăng ký
+Geusaie Pro là gói đăng ký tự động gia hạn. Phí được tính vào Tài khoản Apple của bạn và tự gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kỳ hạn kết thúc. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong Cài đặt.
+Điều khoản sử dụng (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Chính sách quyền riêng tư: https://m1zz.github.io/geusaie/vi/privacy.html
 
 ### 지원 URL
 
@@ -1040,6 +1110,11 @@ S Apple Watch ucítíte klepnutí na zápěstí, jakmile je hrnec hotový. Na da
 
 Funguje na iPhonu, iPadu a Apple Watch. K zahájení není potřeba žádný účet.
 
+Předplatné
+Geusaie Pro je automaticky obnovované předplatné. Platba se strhává z vašeho účtu Apple a předplatné se obnoví, pokud ho nezrušíte alespoň 24 hodin před koncem období. Spravovat nebo zrušit ho můžete kdykoli v Nastavení.
+Podmínky použití (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Zásady ochrany osobních údajů: https://m1zz.github.io/geusaie/cs/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/cs/support.html
@@ -1109,6 +1184,11 @@ Næste trin fra håndleddet
 Med Apple Watch prikker den på håndleddet, så snart en gryde er færdig. Gå videre til næste trin direkte fra notifikationen, se alle gryders tid på én skærm, og hav den gryde, der bliver færdig først, på urskiven.
 
 Virker på iPhone, iPad og Apple Watch. Ingen konto nødvendig for at komme i gang.
+
+Abonnementer
+Geusaie Pro er et abonnement, der fornyes automatisk. Betalingen trækkes på din Apple-konto, og abonnementet fornyes, medmindre du opsiger det mindst 24 timer før perioden slutter. Administrer eller opsig når som helst i Indstillinger.
+Brugsvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privatlivspolitik: https://m1zz.github.io/geusaie/da/privacy.html
 
 ### 지원 URL
 
@@ -1180,6 +1260,11 @@ Aglio e olio
 
 Λειτουργεί σε iPhone, iPad και Apple Watch. Δεν χρειάζεται λογαριασμός για να ξεκινήσετε.
 
+Συνδρομές
+Η συνδρομή Geusaie Pro ανανεώνεται αυτόματα. Η χρέωση γίνεται στον λογαριασμό Apple σας και η συνδρομή ανανεώνεται, εκτός αν την ακυρώσετε τουλάχιστον 24 ώρες πριν λήξει η περίοδος. Μπορείτε να τη διαχειριστείτε ή να την ακυρώσετε οποτεδήποτε από τις Ρυθμίσεις.
+Όροι χρήσης (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Πολιτική απορρήτου: https://m1zz.github.io/geusaie/el/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/el/support.html
@@ -1249,6 +1334,11 @@ Seuraava vaihe ranteesta
 Apple Watchin kanssa ranne värähtää heti, kun kattila on valmis. Siirry seuraavaan vaiheeseen suoraan ilmoituksesta, näe kaikkien kattiloiden ajat yhdellä näytöllä ja pidä ensimmäisenä valmistuva kattila kellotaulussa.
 
 Toimii iPhonella, iPadilla ja Apple Watchilla. Aloittaminen ei vaadi tiliä.
+
+Tilaukset
+Geusaie Pro on automaattisesti uusiutuva tilaus. Maksu veloitetaan Apple-tililtäsi, ja tilaus uusiutuu, ellei sitä peruta vähintään 24 tuntia ennen jakson päättymistä. Hallitse tai peru tilaus milloin tahansa Asetuksissa.
+Käyttöehdot (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Tietosuojakäytäntö: https://m1zz.github.io/geusaie/fi/privacy.html
 
 ### 지원 URL
 
@@ -1320,6 +1410,11 @@ Dengan Apple Watch, pergelangan tangan bergetar begitu panci selesai. Lanjutkan 
 
 Bisa dipakai di iPhone, iPad, dan Apple Watch. Tidak perlu akun untuk memulai.
 
+Langganan
+Geusaie Pro adalah langganan yang diperpanjang otomatis. Pembayaran ditagihkan ke Akun Apple Anda dan langganan diperpanjang kecuali dibatalkan paling lambat 24 jam sebelum periode berakhir. Kelola atau batalkan kapan saja di Pengaturan.
+Ketentuan Penggunaan (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Kebijakan Privasi: https://m1zz.github.io/geusaie/id/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/id/support.html
@@ -1389,6 +1484,11 @@ Neste steg fra håndleddet
 Med Apple Watch kjenner du et prikk på håndleddet så snart en gryte er ferdig. Gå videre til neste steg rett fra varslingen, se tiden for alle gryter på én skjerm, og ha gryta som blir ferdig først på urskiven.
 
 Fungerer på iPhone, iPad og Apple Watch. Ingen konto nødvendig for å komme i gang.
+
+Abonnementer
+Geusaie Pro er et abonnement som fornyes automatisk. Betalingen belastes Apple-kontoen din, og abonnementet fornyes med mindre du sier det opp minst 24 timer før perioden er over. Administrer eller si opp når som helst i Innstillinger.
+Bruksvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Personvernerklæring: https://m1zz.github.io/geusaie/nb/privacy.html
 
 ### 지원 URL
 
@@ -1460,6 +1560,11 @@ Met Apple Watch tikt je pols zodra een pan klaar is. Ga meteen vanuit de melding
 
 Werkt op iPhone, iPad en Apple Watch. Je hebt geen account nodig om te beginnen.
 
+Abonnementen
+Geusaie Pro is een automatisch verlengend abonnement. De betaling loopt via je Apple Account en het abonnement wordt verlengd tenzij je minstens 24 uur voor het einde van de periode opzegt. Beheer of zeg op wanneer je wilt in Instellingen.
+Gebruiksvoorwaarden (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacybeleid: https://m1zz.github.io/geusaie/nl/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/nl/support.html
@@ -1529,6 +1634,11 @@ Następny krok z nadgarstka
 Z Apple Watch poczujesz wibrację na nadgarstku, gdy tylko garnek będzie gotowy. Przejdź do następnego kroku prosto z powiadomienia, zobacz czasy wszystkich garnków na jednym ekranie, a na tarczy miej ten, który skończy się pierwszy.
 
 Działa na iPhonie, iPadzie i Apple Watch. Aby zacząć, nie potrzeba konta.
+
+Subskrypcje
+Geusaie Pro to subskrypcja odnawiana automatycznie. Opłata jest pobierana z Twojego konta Apple, a subskrypcja odnawia się, jeśli nie anulujesz jej co najmniej 24 godziny przed końcem okresu. Zarządzaj nią lub anuluj ją w dowolnej chwili w Ustawieniach.
+Warunki korzystania (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Polityka prywatności: https://m1zz.github.io/geusaie/pl/privacy.html
 
 ### 지원 URL
 
@@ -1600,6 +1710,11 @@ Med Apple Watch känner du ett tryck på handleden så fort en kastrull är klar
 
 Fungerar på iPhone, iPad och Apple Watch. Inget konto behövs för att komma igång.
 
+Prenumerationer
+Geusaie Pro är en prenumeration som förnyas automatiskt. Betalningen dras från ditt Apple-konto och prenumerationen förnyas om du inte avslutar den minst 24 timmar innan perioden slutar. Hantera eller avsluta när som helst i Inställningar.
+Användarvillkor (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Integritetspolicy: https://m1zz.github.io/geusaie/sv/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/geusaie/sv/support.html
@@ -1669,6 +1784,11 @@ Sonraki adım bileğinizde
 Apple Watch takılıysa tencere hazır olduğu anda bileğiniz titrer. Bildirimden doğrudan sonraki adıma geçin, tüm tencerelerin süresini tek ekranda görün ve ilk bitecek tencereyi saat kadranında tutun.
 
 iPhone, iPad ve Apple Watch’ta çalışır. Başlamak için hesap gerekmez.
+
+Abonelikler
+Geusaie Pro otomatik yenilenen bir aboneliktir. Ödeme Apple Hesabınızdan alınır ve dönem bitmeden en az 24 saat önce iptal edilmezse abonelik yenilenir. Ayarlar'dan istediğiniz zaman yönetebilir veya iptal edebilirsiniz.
+Kullanım Koşulları (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Gizlilik Politikası: https://m1zz.github.io/geusaie/tr/privacy.html
 
 ### 지원 URL
 
