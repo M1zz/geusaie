@@ -97,6 +97,14 @@ final class Purchases {
     /// 사다가 막혔을 때 그대로 보여 줄 말.
     private(set) var failureMessage: String?
 
+    /// **팔기 시작했는가.** Pro 상품을 하나도 못 불러온 기기는 아무것도 잠그지 않는다.
+    ///
+    /// ⚠️ App Store Connect 에 상품이 서기 전에 빌드가 나가면, 살 수 없는데 막히는 사람이 생긴다.
+    ///    한 번이라도 불러온 기기는 기억해 둔다 — 그 뒤로 잠깐 오프라인이어도 다시 잠근다.
+    private(set) var isSelling = UserDefaults.standard.bool(forKey: Purchases.onSaleKey)
+
+    private static let onSaleKey = "plans.onSale"
+
     @ObservationIgnored private var observation: AnyCancellable?
 
     private init() {
@@ -117,10 +125,10 @@ final class Purchases {
         return tipJar
     }
 
-    func allows(_ feature: GeusaieFeature) -> Bool { isPro }
+    func allows(_ feature: GeusaieFeature) -> Bool { isPro || !isSelling }
 
     /// 이 요리를 열 수 있는가. 지금 담긴 두 레시피는 늘 열린다.
-    func allows(_ recipe: Recipe) -> Bool { isPro || !RecipeDB.isInPack(recipe) }
+    func allows(_ recipe: Recipe) -> Bool { isPro || !isSelling || !RecipeDB.isInPack(recipe) }
 
     var ownsLifetime: Bool { !ownedProductIDs.isDisjoint(with: GeusaieProducts.lifetimeIDs) || store.isGrandfathered }
 
@@ -180,5 +188,9 @@ final class Purchases {
         ownedProductIDs = store.purchasedProductIDs
         isWorking = store.purchasingProductID != nil || store.isRestoring
         failureMessage = store.lastError
+        if !isSelling, products.contains(where: { GeusaieProducts.productIDs.contains($0.id) }) {
+            UserDefaults.standard.set(true, forKey: Self.onSaleKey)
+            isSelling = true
+        }
     }
 }
