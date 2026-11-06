@@ -5,7 +5,7 @@
 //  LeeoKit 계약(LeeoAppSpec) 준수 — 이 앱의 공통 기능 설정값 단일 소스.
 //  피드백·리뷰·진단 구현은 전부 LeeoKit 에 있고, 앱은 이 설정만 제공한다.
 //
-//  ⚠️ recordType/구독 ID는 CloudKit Dashboard·기존 사용자 기기와의 계약이다 — 변경 금지.
+//  ⚠️ recordType/상품 ID는 CloudKit Dashboard·기존 사용자 기기와의 계약이다 — 변경 금지.
 //
 
 import Foundation
@@ -29,10 +29,19 @@ enum GeusaieSpec: LeeoAppSpec {
         marketingURL: URL(string: "https://m1zz.github.io/geusaie/")!
     )
 
-    /// 수익모델 (LeeoKit 3.x 부터 필수) — 인앱 결제가 없는 무료 앱.
     /// App Store 숫자 ID — 설정의 친구에게 소개하기·리뷰 남기기 링크가 쓴다.
     static let appStoreID: String? = "6793473149"
-    static let monetization = LeeoMonetization.free
+
+    /// 수익모델 — 무료 다운로드 + 무료 · Pro. Pro 는 주 · 월 · 연 구독과 평생.
+    /// 무엇이 Pro 인지는 `GeusaieFeature`, 상품은 `GeusaieProducts` 에 있다 (→ GeusaiePro.swift).
+    static let monetization = LeeoMonetization.freemiumSubscription(
+        LeeoSubscriptionConfig(
+            productIDs: GeusaieProducts.productIDs,
+            // 자체 약관이 없으므로 애플 표준 사용권 계약(EULA)을 건다. 구독을 파는 앱의 심사 필수 항목이다.
+            termsURL: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!,
+            gate: LeeoGatePolicy(proOnly: Set(GeusaieFeature.allCases.map(\.rawValue))),
+            // 개발자 응원하기(팁) — 소모성 셋. 기능을 열지 않는다.
+            tipJar: LeeoTipJarConfig(productIDs: GeusaieProducts.tipProductIDs)))
 
     /// 익명 사용 통계 → FeedbackHub(CloudKit). 기본값(Noop)이면 부트스트랩이 아무것도 보내지 않는다.
     static let analytics: any LeeoAnalytics = LeeoUsageAnalytics(spec: GeusaieSpec.self)

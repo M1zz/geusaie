@@ -5,16 +5,24 @@ import Combine
 //
 // 요리 직전엔 손이 바쁘다. Siri 나 단축어로 바로 그 요리의 조리 화면을 연다.
 // 열기만 하고 시계는 돌리지 않는다 — 물을 올릴 준비가 됐을 때 '요리 시작'을 누르는 흐름은 그대로다.
+//
+// Siri · 단축어는 그사이에 Pro 다(페이월 전 빌드를 받은 사람은 그대로 쓴다). Pro 가 아니어도 무료 요리는
+// 그대로 열고, 연 다음에 Pro 를 안내한다 — 말한 것이 허공에 사라지지 않게 (→ RecipeListView.openFromShortcut).
 
 /// 단축어에서 고를 수 있는 요리 — rawValue 는 RecipeDB 의 id
 enum RecipeChoice: String, AppEnum {
     case aglioOlio = "aglio-olio"
     case tomatoCream = "tomato-cream"
+    // 레시피 팩 (Pro). Pro 가 아니면 열지 않고 Pro 안내가 뜬다 (→ RecipeListView.openFromShortcut)
+    case kimchiStew = "kimchi-stew"
+    case doenjangStew = "doenjang-stew"
 
     static var typeDisplayRepresentation: TypeDisplayRepresentation = "요리"
     static var caseDisplayRepresentations: [RecipeChoice: DisplayRepresentation] = [
         .aglioOlio: "알리오 올리오",
         .tomatoCream: "토마토 크림 파스타",
+        .kimchiStew: "김치찌개와 계란말이",
+        .doenjangStew: "된장찌개와 애호박전",
     ]
 }
 
@@ -66,4 +74,6 @@ struct GeusaieShortcuts: AppShortcutsProvider {
 final class RecipeRouter: ObservableObject {
     static let shared = RecipeRouter()
     @Published var pendingRecipeID: String?
+    /// Pro 가 아닌 사람이 단축어로 요리를 열었다 — 조리 화면이 뜬 뒤 그 위에 Pro 안내를 낸다 (→ CookView)
+    @Published var siriPaywall = false
 }

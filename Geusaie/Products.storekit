@@ -1,0 +1,213 @@
+{
+  "identifier": "BAA28F20-7AEF-4C84-BCE8-86750E37A003",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "17.99",
+      "familyShareable": true,
+      "internalID": "B8A36B0C-5CA6-43B6-BCA3-AE895861F395",
+      "localizations": [
+        {
+          "description": "Recipe packs and Siri, forever",
+          "displayName": "Geusaie Pro (Lifetime)",
+          "locale": "en_US"
+        },
+        {
+          "description": "레시피 팩과 Siri를 평생",
+          "displayName": "그사이에 Pro (평생)",
+          "locale": "ko"
+        }
+      ],
+      "productID": "com.leeo.geusaie.pro.lifetime",
+      "referenceName": "Pro Lifetime",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "11.99",
+      "familyShareable": true,
+      "internalID": "083FB22C-7758-4D62-845A-A6711A89AE7C",
+      "localizations": [
+        {
+          "description": "A lifetime price for subscribers",
+          "displayName": "Geusaie Pro (Lifetime)",
+          "locale": "en_US"
+        },
+        {
+          "description": "구독하신 분께만 드리는 평생",
+          "displayName": "그사이에 Pro (평생)",
+          "locale": "ko"
+        }
+      ],
+      "productID": "com.leeo.geusaie.pro.graduate",
+      "referenceName": "Pro Graduate",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "0.99",
+      "familyShareable": false,
+      "internalID": "B0CB4E36-5857-4BE2-9A15-092FF53639C3",
+      "localizations": [
+        {
+          "description": "Cheer on the developer",
+          "displayName": "Small Tip",
+          "locale": "en_US"
+        },
+        {
+          "description": "개발자 응원하기",
+          "displayName": "작은 응원",
+          "locale": "ko"
+        }
+      ],
+      "productID": "com.leeo.geusaie.tip.small",
+      "referenceName": "Tip Small",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "2.99",
+      "familyShareable": false,
+      "internalID": "2C6C7AC2-F7AC-4264-A219-FE18B0F0EBFB",
+      "localizations": [
+        {
+          "description": "Cheer on the developer",
+          "displayName": "Medium Tip",
+          "locale": "en_US"
+        },
+        {
+          "description": "개발자 응원하기",
+          "displayName": "보통 응원",
+          "locale": "ko"
+        }
+      ],
+      "productID": "com.leeo.geusaie.tip.medium",
+      "referenceName": "Tip Medium",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "4.99",
+      "familyShareable": false,
+      "internalID": "688AC426-FAEE-4FAE-87BE-0DAED6FA76C5",
+      "localizations": [
+        {
+          "description": "Cheer on the developer",
+          "displayName": "Large Tip",
+          "locale": "en_US"
+        },
+        {
+          "description": "개발자 응원하기",
+          "displayName": "큰 응원",
+          "locale": "ko"
+        }
+      ],
+      "productID": "com.leeo.geusaie.tip.large",
+      "referenceName": "Tip Large",
+      "type": "Consumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "6793473149",
+    "_developerTeamID": "QGAQ3AY3R3",
+    "_failTransactionsEnabled": false,
+    "_lastSynchronizedDate": 0,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
+    {
+      "id": "2A8CFDC9-7A29-419D-AEE5-E01581853879",
+      "localizations": [],
+      "name": "그사이에",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "0.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "4490FDC5-0142-4986-909E-ED03EE562836",
+          "localizations": [
+            {
+              "description": "Recipe packs and Siri",
+              "displayName": "Geusaie Pro (Weekly)",
+              "locale": "en_US"
+            },
+            {
+              "description": "레시피 팩과 Siri",
+              "displayName": "그사이에 Pro (주간)",
+              "locale": "ko"
+            }
+          ],
+          "productID": "com.leeo.geusaie.pro.weekly",
+          "recurringSubscriptionPeriod": "P1W",
+          "referenceName": "Geusaie Pro Weekly",
+          "subscriptionGroupID": "2A8CFDC9-7A29-419D-AEE5-E01581853879",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "F8446793-E36C-4BF0-8E27-212618C603D6",
+          "localizations": [
+            {
+              "description": "Recipe packs and Siri",
+              "displayName": "Geusaie Pro (Monthly)",
+              "locale": "en_US"
+            },
+            {
+              "description": "레시피 팩과 Siri",
+              "displayName": "그사이에 Pro (월간)",
+              "locale": "ko"
+            }
+          ],
+          "productID": "com.leeo.geusaie.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Geusaie Pro Monthly",
+          "subscriptionGroupID": "2A8CFDC9-7A29-419D-AEE5-E01581853879",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "5.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "1B55BFF7-78AB-4E99-B5B9-88DB31FC8726",
+          "localizations": [
+            {
+              "description": "Recipe packs and Siri",
+              "displayName": "Geusaie Pro (Yearly)",
+              "locale": "en_US"
+            },
+            {
+              "description": "레시피 팩과 Siri",
+              "displayName": "그사이에 Pro (연간)",
+              "locale": "ko"
+            }
+          ],
+          "productID": "com.leeo.geusaie.pro.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Geusaie Pro Yearly",
+          "subscriptionGroupID": "2A8CFDC9-7A29-419D-AEE5-E01581853879",
+          "type": "RecurringSubscription",
+          "winbackOffers": [],
+          "introductoryOffer": {
+            "displayPrice": "2.99",
+            "internalID": "3B273D43-3555-44F3-B657-ACDEA2B44BA8",
+            "numberOfPeriods": 1,
+            "paymentMode": "payUpFront",
+            "subscriptionPeriod": "P1Y"
+          }
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

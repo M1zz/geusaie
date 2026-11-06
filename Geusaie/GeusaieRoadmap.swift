@@ -18,6 +18,15 @@ import LeeoKit
 extension GeusaieSpec {
     static var roadmap: [LeeoRoadmapItem] {[
         // MARK: 만드는 중 · 다음에 만들어요
+        .init(id: "packs.stew", status: .building,
+              title: NSLocalizedString("레시피 팩: 국과 찌개", comment: "Roadmap item: packs.stew"),
+              detail: NSLocalizedString("김치찌개와 계란말이, 된장찌개와 애호박전을 냄비마다 시간과 순서를 잡아 함께 끝내요.", comment: "Roadmap item detail: packs.stew")),
+        .init(id: "packs.more", status: .planned,
+              title: NSLocalizedString("레시피 팩 더", comment: "Roadmap item: packs.more"),
+              detail: NSLocalizedString("덮밥 팩과 파스타 팩을 더해요. 그사이에 Pro에서 함께 열려요.", comment: "Roadmap item detail: packs.more")),
+        .init(id: "my-recipes", status: .planned,
+              title: NSLocalizedString("내 레시피 만들기", comment: "Roadmap item: my-recipes"),
+              detail: NSLocalizedString("우리 집 요리를 단계 · 냄비 · 시간으로 직접 적고, 미뤄도 되는 일을 표시해요.", comment: "Roadmap item detail: my-recipes")),
         .init(id: "ipad.stand", status: .shipped("1.1.0"),
               title: NSLocalizedString("아이패드 주방 스탠드 화면", comment: "Roadmap item: ipad.stand"),
               detail: NSLocalizedString("아이패드를 세워 두면 지금 할 일과 냄비마다 남은 시간을 멀리서도 읽히게 크게 보여 줘요.", comment: "Roadmap item detail: ipad.stand")),

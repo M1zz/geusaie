@@ -184,5 +184,175 @@ enum RecipeDB {
         source: "RecipeTin Eats · The Burnt Butter Table"
     )
 
-    static let all: [Recipe] = [aglioOlio, tomatoCream]
+    // MARK: - 레시피 팩 (Pro)
+    //
+    // 지금 담긴 두 파스타는 언제나 무료다. 팩은 같은 방식(냄비마다 시간 · 순서)을 다른 요리로 넓힌다.
+    // 새 팩은 `packs` 에 한 줄을 더하고, 단축어가 고를 수 있게 `RecipeChoice` 에도 더한다.
+
+    // 김치찌개와 계란말이 — 냄비 2개(찌개 냄비 · 프라이팬)
+    // 못 미루는 것: 계란말이 말기(덜 익었을 때 말아야 붙는다)
+    // 밀려도 되는 것: 두부·대파 썰기, 달걀 풀기, 상 차리기
+    // 계란말이는 두부를 넣은 뒤에 시작한다 — 찌개가 한소끔 더 끓는 동안 부쳐서 함께 낸다.
+    // 참고: Maangchi
+    static let kimchiStew = Recipe(
+        id: "kimchi-stew",
+        name: String(localized: "김치찌개와 계란말이"),
+        emoji: "🍲",
+        subtitle: String(localized: "찌개가 끓는 그사이에 계란말이까지"),
+        potLanes: [String(localized: "찌개 냄비"), String(localized: "프라이팬")],
+        chains: [
+            [
+                RecipeStep(id: "ks-fry", name: String(localized: "김치·고기 볶기"), emoji: "🥓",
+                           lane: String(localized: "찌개 냄비"), role: .action, duration: 300,
+                           trigger: .atStart,
+                           detail: [String(localized: "찌개 냄비에 식용유 1큰술, 찌개용 돼지고기 150g"), String(localized: "잘 익은 김치 2컵을 가위로 잘라 넣고 중불")],
+                           doneWhen: String(localized: "김치가 숨이 죽고 고기 겉이 하얘지면"),
+                           tip: String(localized: "눌어붙지 않게 저어 주기")),
+                RecipeStep(id: "ks-water", name: String(localized: "물 붓고 양념 넣기"), emoji: "💧",
+                           lane: String(localized: "찌개 냄비"), role: .action, duration: 30,
+                           detail: [String(localized: "물 3컵(600ml), 김칫국물 반 컵"), String(localized: "고춧가루 1큰술, 다진 마늘 1큰술")],
+                           tip: String(localized: "센 불로 올립니다")),
+                RecipeStep(id: "ks-boil", name: String(localized: "찌개 끓이기"), emoji: "🍲",
+                           lane: String(localized: "찌개 냄비"), role: .cook, duration: 480,
+                           tip: String(localized: "끓는 동안 두부·파를 썰고 달걀을 풀어 두세요")),
+                RecipeStep(id: "ks-tofu", name: String(localized: "두부·대파 넣기"), emoji: "🥢",
+                           lane: String(localized: "찌개 냄비"), role: .action, duration: 30,
+                           detail: [String(localized: "두부 반 모를 도톰하게 썰어 넣기"), String(localized: "대파를 올리고 중불로 줄이기")],
+                           tip: String(localized: "넣고 나면 계란말이를 시작합니다")),
+                RecipeStep(id: "ks-simmer", name: String(localized: "한소끔 더 끓이기"), emoji: "⏳",
+                           lane: String(localized: "찌개 냄비"), role: .cook, duration: 300,
+                           tip: String(localized: "두부에 국물이 배는 시간")),
+                RecipeStep(id: "ks-serve", name: String(localized: "불 끄고 간 보기"), emoji: "🥄",
+                           lane: String(localized: "찌개 냄비"), role: .action, duration: 30,
+                           detail: [String(localized: "싱거우면 국간장 반 큰술")],
+                           tip: String(localized: "뜨거울 때 그릇에")),
+            ],
+            [
+                RecipeStep(id: "ks-egg-pour", name: String(localized: "팬 달구고 달걀물 붓기"), emoji: "🍳",
+                           lane: String(localized: "프라이팬"), role: .action, duration: 60,
+                           trigger: .after("ks-tofu"),
+                           detail: [String(localized: "약불에 기름을 두르고 키친타월로 얇게 펴기"), String(localized: "달걀물 1/3을 얇게 붓기")],
+                           tip: String(localized: "약불! 센 불이면 겉만 탑니다")),
+                RecipeStep(id: "ks-egg-roll", name: String(localized: "반쯤 익으면 말기"), emoji: "🌀",
+                           lane: String(localized: "프라이팬"), role: .action, duration: 90,
+                           deadline: true,                       // 다 익으면 말아도 붙지 않는다
+                           detail: [String(localized: "윗면이 덜 익었을 때 끝에서부터 말기"), String(localized: "만 것을 밀어 두고 달걀물을 더 부어 이어 말기")],
+                           doneWhen: String(localized: "달걀물을 다 붓고 한 덩이로 말리면"),
+                           tip: String(localized: "덜 익었을 때 말아야 붙어요")),
+                RecipeStep(id: "ks-egg-set", name: String(localized: "약불에서 속 익히기"), emoji: "⏳",
+                           lane: String(localized: "프라이팬"), role: .cook, duration: 120,
+                           tip: String(localized: "불은 아주 약하게")),
+                RecipeStep(id: "ks-egg-cut", name: String(localized: "도톰하게 썰기"), emoji: "🔪",
+                           lane: String(localized: "프라이팬"), role: .action, duration: 30,
+                           detail: [String(localized: "도마에 옮겨 2cm 두께로")],
+                           tip: String(localized: "한 김 식혀 썰면 덜 부서져요")),
+            ],
+        ],
+        preps: [
+            RecipeStep(id: "ks-cut", name: String(localized: "두부·대파 썰기"), emoji: "🔪",
+                       lane: Recipe.handsLane, role: .prep, duration: 150,
+                       detail: [String(localized: "두부 반 모는 1cm 두께로"), String(localized: "대파 반 대는 어슷하게, 한 줌은 잘게 다져 달걀용으로")]),
+            RecipeStep(id: "ks-egg-mix", name: String(localized: "달걀 풀어 간하기"), emoji: "🥚",
+                       lane: Recipe.handsLane, role: .prep, duration: 120,
+                       detail: [String(localized: "달걀 4개에 소금 두 꼬집"), String(localized: "다진 파를 넣고 흰자가 풀리게 젓기")]),
+            RecipeStep(id: "ks-table", name: String(localized: "밥 푸고 상 차리기"), emoji: "🍚",
+                       lane: Recipe.handsLane, role: .prep, duration: 90,
+                       detail: [String(localized: "밥 두 공기, 수저와 반찬")],
+                       tip: String(localized: "언제 해도 되는 일")),
+        ],
+        source: "Maangchi"
+    )
+
+    // 된장찌개와 애호박전 — 냄비 2개(찌개 냄비 · 프라이팬)
+    // 못 미루는 것: 전 뒤집기(탄다), 건지기
+    // 밀려도 되는 것: 채소 썰기, 호박에 옷 입히기
+    // 전은 찌개를 낼 때 딱 맞춰 끝나도록 거꾸로 잡힌다.
+    // 참고: Maangchi
+    static let doenjangStew = Recipe(
+        id: "doenjang-stew",
+        name: String(localized: "된장찌개와 애호박전"),
+        emoji: "🥘",
+        subtitle: String(localized: "찌개가 끓는 동안 전 한 판"),
+        potLanes: [String(localized: "찌개 냄비"), String(localized: "프라이팬")],
+        chains: [
+            [
+                RecipeStep(id: "dj-water", name: String(localized: "물 올리고 된장 풀기"), emoji: "🥄",
+                           lane: String(localized: "찌개 냄비"), role: .action, duration: 60,
+                           trigger: .atStart,
+                           detail: [String(localized: "물 3컵(600ml)에 된장 2큰술 풀기"), String(localized: "다진 마늘 반 큰술, 센 불")],
+                           tip: String(localized: "된장을 체에 걸러 풀면 덩어리가 없어요")),
+                RecipeStep(id: "dj-boil", name: String(localized: "국물 끓이기"), emoji: "💧",
+                           lane: String(localized: "찌개 냄비"), role: .cook, duration: 300,
+                           tip: String(localized: "끓는 동안 감자·양파를 썰어 두세요")),
+                RecipeStep(id: "dj-veg", name: String(localized: "감자·양파 넣기"), emoji: "🥔",
+                           lane: String(localized: "찌개 냄비"), role: .action, duration: 30,
+                           detail: [String(localized: "감자 1개, 양파 반 개를 한입 크기로"), String(localized: "다시 끓으면 중불로")],
+                           tip: String(localized: "단단한 것부터 넣습니다")),
+                RecipeStep(id: "dj-simmer", name: String(localized: "감자 익히기"), emoji: "🍲",
+                           lane: String(localized: "찌개 냄비"), role: .cook, duration: 360,
+                           tip: String(localized: "그사이에 호박에 옷을 입혀 두세요")),
+                RecipeStep(id: "dj-tofu", name: String(localized: "두부·호박·고추 넣기"), emoji: "🥢",
+                           lane: String(localized: "찌개 냄비"), role: .action, duration: 30,
+                           detail: [String(localized: "두부 반 모, 애호박 1/3개, 청양고추 1개")]),
+                RecipeStep(id: "dj-finish", name: String(localized: "한소끔 더 끓이기"), emoji: "⏳",
+                           lane: String(localized: "찌개 냄비"), role: .cook, duration: 180,
+                           tip: String(localized: "두부에 국물이 배는 시간")),
+                RecipeStep(id: "dj-serve", name: String(localized: "불 끄고 대파 올리기"), emoji: "🥄",
+                           lane: String(localized: "찌개 냄비"), role: .action, duration: 20,
+                           detail: [String(localized: "대파 한 줌을 올리고 바로 상에")]),
+            ],
+            [
+                RecipeStep(id: "dj-pan", name: String(localized: "팬 달구고 호박 올리기"), emoji: "🍳",
+                           lane: String(localized: "프라이팬"), role: .action, duration: 60,
+                           trigger: .endingWith("dj-serve"),     // 찌개를 낼 때 전도 다 되게
+                           detail: [String(localized: "중약불에 기름 2큰술"), String(localized: "옷 입힌 호박을 겹치지 않게")]),
+                RecipeStep(id: "dj-fry", name: String(localized: "한 면 부치기"), emoji: "🥞",
+                           lane: String(localized: "프라이팬"), role: .cook, duration: 120,
+                           tip: String(localized: "건드리지 말고 기다리기")),
+                RecipeStep(id: "dj-flip", name: String(localized: "뒤집기"), emoji: "🔄",
+                           lane: String(localized: "프라이팬"), role: .action, duration: 30,
+                           deadline: true,                       // 늦으면 탄다
+                           doneWhen: String(localized: "아랫면이 노릇해지면"),
+                           tip: String(localized: "늦으면 타요")),
+                RecipeStep(id: "dj-fry2", name: String(localized: "반대 면 부치기"), emoji: "🥞",
+                           lane: String(localized: "프라이팬"), role: .cook, duration: 90),
+                RecipeStep(id: "dj-plate", name: String(localized: "건져 기름 빼기"), emoji: "🍽️",
+                           lane: String(localized: "프라이팬"), role: .action, duration: 30,
+                           deadline: true,
+                           detail: [String(localized: "키친타월에 올려 기름 빼기")]),
+            ],
+        ],
+        preps: [
+            RecipeStep(id: "dj-cut", name: String(localized: "감자·양파 썰기"), emoji: "🔪",
+                       lane: Recipe.handsLane, role: .prep, duration: 150,
+                       detail: [String(localized: "감자 1개, 양파 반 개를 한입 크기로")]),
+            RecipeStep(id: "dj-cut2", name: String(localized: "두부·호박·고추 썰기"), emoji: "🔪",
+                       lane: Recipe.handsLane, role: .prep, duration: 120,
+                       detail: [String(localized: "두부 반 모는 깍둑, 애호박 1/3개는 반달 모양"), String(localized: "청양고추·대파는 어슷하게")]),
+            RecipeStep(id: "dj-batter", name: String(localized: "호박에 밀가루·달걀 입히기"), emoji: "🥚",
+                       lane: Recipe.handsLane, role: .prep, duration: 150,
+                       detail: [String(localized: "남은 애호박을 0.5cm 두께로 동그랗게"), String(localized: "소금 살짝, 밀가루 얇게, 푼 달걀 2개에 담그기")]),
+        ],
+        source: "Maangchi"
+    )
+
+    /// 레시피 팩. 처음 보는 사람에게도 목록에 보이고, Pro 에서 열린다.
+    static let packs: [RecipePack] = [
+        RecipePack(id: "stew", name: String(localized: "국과 찌개"), recipes: [kimchiStew, doenjangStew]),
+    ]
+
+    /// 언제나 무료인 레시피.
+    static let free: [Recipe] = [aglioOlio, tomatoCream]
+
+    static let all: [Recipe] = free + packs.flatMap(\.recipes)
+
+    /// 팩에 든 요리인가 (= Pro 에서 열린다).
+    static func isInPack(_ recipe: Recipe) -> Bool { !free.contains { $0.id == recipe.id } }
+}
+
+/// 같은 갈래의 요리 몇 가지를 묶은 것.
+struct RecipePack: Identifiable {
+    let id: String
+    let name: String
+    let recipes: [Recipe]
 }

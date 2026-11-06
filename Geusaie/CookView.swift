@@ -39,6 +39,12 @@ struct CookView: View {
     @State private var showFinishConfirm = false
     /// 지금까지 끝까지 마친 요리 수 — 완성 순간에 하나 늘린 값. 응원 부탁 카드가 쓴다.
     @State private var cooksDone = 0
+    @State private var purchases = Purchases.shared
+    @ObservedObject private var router = RecipeRouter.shared
+    /// 세 번째로 끝까지 마친 날 한 번 — '다음엔 무엇을 만들까요'와 레시피 팩
+    @AppStorage("nextDishOffered") private var nextDishOffered = false
+    @State private var showsNextDish = false
+    @State private var showsPackPaywall = false
 
     /// 진행 중(러닝/일시정지) — 이때 나가거나 완성 처리하면 타이머가 초기화/종료됨
     private var inProgress: Bool {
@@ -100,8 +106,16 @@ struct CookView: View {
         }
         // 요리를 끝까지 마친 것 — 리뷰·만족도 질문은 이런 순간이 쌓인 뒤에만 뜬다
         .onChange(of: session.phase) { _, phase in
-            if phase == .done { cooksDone = LeeoEngagement.shared.registerSignificantEvent() }
+            guard phase == .done else { return }
+            cooksDone = LeeoEngagement.shared.registerSignificantEvent()
+            if cooksDone >= Self.nextDishAfterCooks, !nextDishOffered, !purchases.isPro {
+                nextDishOffered = true
+                showsNextDish = true
+            }
         }
+        // 단축어로 열었는데 Pro 가 아니다 — 요리는 그대로 두고 그 위에 안내 (→ RecipeListView.openFromShortcut)
+        .sheet(isPresented: $router.siriPaywall) { PaywallView(highlight: .siri) }
+        .sheet(isPresented: $showsPackPaywall) { PaywallView(highlight: .packs, preview: RecipeDB.packs.first?.recipes.first) }
         // 요리를 시작해야 듣기 시작한다 (준비 화면에서 마이크를 켤 이유가 없다)
         // 일시정지·완성 때는 끈다 — 화면이 꺼질 수 있는 상태에서 마이크가 켜져 있지 않게
         .onChange(of: session.isActive) { _, active in
@@ -316,10 +330,15 @@ struct CookView: View {
             if session.isReady {
                 startButton
             } else if session.phase == .done {
-                // 막 요리를 끝낸 자리 — 쌓인 숫자가 고마울 만할 때만 응원 부탁 카드가 선다
+                // 막 요리를 끝낸 자리 — 쌓인 숫자가 고마울 만할 때만 응원 부탁 카드가 선다.
+                // 응원 부탁은 이미 Pro 인 사람에게만. 아니면 세 번째 날 한 번 '다음엔 무엇을 만들까요'.
                 VStack(spacing: 12) {
-                    LeeoTipAskSlot<GeusaieSpec>(tipJar: GeusaieSpec.tipJar,
-                                                reached: GeusaieTipMoments.reached(cooks: cooksDone))
+                    if purchases.isPro {
+                        LeeoTipAskSlot<GeusaieSpec>(tipJar: purchases.tipJar,
+                                                    reached: GeusaieTipMoments.reached(cooks: cooksDone))
+                    } else if showsNextDish {
+                        NextDishCard { showsPackPaywall = true }
+                    }
                     doneButton
                 }
             } else if stacked && !kitchenStand {
@@ -394,6 +413,50 @@ struct CookView: View {
             // 키보드를 붙인 아이패드에서는 Return 한 번으로 넘긴다
             .keyboardShortcut(.defaultAction)
         }
+    }
+}
+
+extension CookView {
+    /// 몇 번째로 끝까지 마친 날 '다음엔 무엇을 만들까요'를 보이는가. 타이밍이 맞는 기쁨을 세 번은 겪은 뒤.
+    static let nextDishAfterCooks = 3
+}
+
+// MARK: - 다음엔 무엇을 만들까요 — 세 번째로 끝까지 마친 날 한 번
+
+struct NextDishCard: View {
+    let onOpen: () -> Void
+
+    var body: some View {
+        Button(action: onOpen) {
+            VStack(alignment: .leading, spacing: 6) {
+                Text("다음엔 무엇을 만들까요")
+                    .font(.headline)
+                    .foregroundStyle(Theme.ink)
+                Text("찌개와 반찬도 이렇게 동시에 끝내요.")
+                    .font(.body)
+                    .foregroundStyle(Theme.inkSoft)
+                ForEach(RecipeDB.packs.flatMap(\.recipes)) { recipe in
+                    Text(verbatim: "\(recipe.emoji) \(recipe.name)")
+                        .font(.body.weight(.semibold))
+                        .foregroundStyle(Theme.ink)
+                }
+                HStack(spacing: 4) {
+                    Text("레시피 팩 보기")
+                    Image(systemName: "chevron.right").accessibilityHidden(true)
+                }
+                .font(.body.weight(.bold))
+                .foregroundStyle(Theme.terracotta)
+                .padding(.top, 2)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(16)
+            .background(
+                RoundedRectangle(cornerRadius: 18, style: .continuous)
+                    .fill(Theme.card)
+                    .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Theme.cardBorder, lineWidth: 1))
+            )
+        }
+        .buttonStyle(.plain)
     }
 }
 

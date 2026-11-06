@@ -43,6 +43,8 @@
 		B10000000000000000000004 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* SettingsView.swift */; };
 		B10000000000000000000005 /* GeusaieShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* GeusaieShortcuts.swift */; };
 		B10000000000000000000077 /* GeusaieTipJar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000077 /* GeusaieTipJar.swift */; };
+		B1000000000000000000A001 /* GeusaiePro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000A001 /* GeusaiePro.swift */; };
+		B1000000000000000000A002 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000A002 /* PaywallView.swift */; };
 		B20000000000000000000001 /* PlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000000000000000000001 /* PlanTests.swift */; };
 		C8882293AB2D976FF90E57AD /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7E83D3BFB9A6AE9D99CDF579 /* LeeoKit */; };
 		D361B9AC4028C598BAEB63EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4E9827BBA4CB743E6492BA /* Assets.xcassets */; };
@@ -140,6 +142,9 @@
 		F10000000000000000000004 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F10000000000000000000005 /* GeusaieShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieShortcuts.swift; sourceTree = "<group>"; };
 		F10000000000000000000077 /* GeusaieTipJar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieTipJar.swift; sourceTree = "<group>"; };
+		F1000000000000000000A001 /* GeusaiePro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaiePro.swift; sourceTree = "<group>"; };
+		F1000000000000000000A002 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		F1000000000000000000A003 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
 		F20000000000000000000001 /* PlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTests.swift; sourceTree = "<group>"; };
 		F200000000000000000000AA /* GeusaieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeusaieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4E9827BBA4CB743E6492BA /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -260,6 +265,9 @@
 				F10000000000000000000001 /* GeusaieFlags.swift */,
 				F10000000000000000000002 /* GeusaieTips.swift */,
 				F10000000000000000000077 /* GeusaieTipJar.swift */,
+				F1000000000000000000A001 /* GeusaiePro.swift */,
+				F1000000000000000000A002 /* PaywallView.swift */,
+				F1000000000000000000A003 /* Products.storekit */,
 				F10000000000000000000003 /* OnboardingView.swift */,
 				F10000000000000000000004 /* SettingsView.swift */,
 				F10000000000000000000005 /* GeusaieShortcuts.swift */,
@@ -506,6 +514,8 @@
 				B10000000000000000000001 /* GeusaieFlags.swift in Sources */,
 				B10000000000000000000002 /* GeusaieTips.swift in Sources */,
 				B10000000000000000000077 /* GeusaieTipJar.swift in Sources */,
+				B1000000000000000000A001 /* GeusaiePro.swift in Sources */,
+				B1000000000000000000A002 /* PaywallView.swift in Sources */,
 				B10000000000000000000003 /* OnboardingView.swift in Sources */,
 				B10000000000000000000004 /* SettingsView.swift in Sources */,
 				B10000000000000000000005 /* GeusaieShortcuts.swift in Sources */,

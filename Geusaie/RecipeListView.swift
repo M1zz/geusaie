@@ -15,6 +15,11 @@ struct RecipeListView: View {
     @Environment(\.verticalSizeClass) private var vSize
     /// 펼친 아이폰 듀오에서 결과 쪽에 시작 전 화면을 보여 주는 요리. 처음엔 맨 위 요리.
     @State private var previewed = RecipeDB.all.first
+    @State private var purchases = Purchases.shared
+    /// 잠긴 팩 요리를 눌렀다 — 그 요리의 순서표와 함께 페이월을 낸다
+    @State private var lockedRecipe: Recipe?
+    /// 구독 6개월째 · 갱신 7일 전의 '구독 졸업' 제안
+    @State private var showsGraduation = false
 
     /// 아이패드를 넓게 쓸 때 — 왼쪽은 요리 목록, 오른쪽은 고른 요리의 시작 전 화면.
     /// Split View 로 좁아지면(가로 compact) 아이폰처럼 목록만.
@@ -65,9 +70,21 @@ struct RecipeListView: View {
             // 단축어·Siri 로 고른 요리 — 앱이 막 켜지는 중이었어도 여기서 받는다
             .onReceive(router.$pendingRecipeID) { id in
                 guard let id else { return }
-                DispatchQueue.main.async { openFromShortcut(id) }
+                Task { await openFromShortcut(id) }
             }
             .sheet(isPresented: $showSettings) { SettingsView() }
+            .sheet(item: $lockedRecipe) { PaywallView(highlight: .packs, preview: $0) }
+            .sheet(isPresented: $showsGraduation) {
+                LeeoGraduationOfferView(graduate: purchases.product(GeusaieProducts.graduateID)) {
+                    await purchases.refresh()
+                }
+            }
+            .onChange(of: purchases.graduationIsDue, initial: true) { _, due in
+                guard due, !showsGraduation, lockedRecipe == nil, !showSettings, !showOnboarding,
+                      session.recipe == nil else { return }
+                purchases.markGraduationOffered()
+                showsGraduation = true
+            }
             .fullScreenCover(isPresented: $showOnboarding) { GeusaieOnboardingView().foldConfined() }
         }
         .tint(Theme.terracotta)
@@ -86,15 +103,14 @@ struct RecipeListView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
                     header
-                    ForEach(RecipeDB.all) { recipe in
-                        RecipeCard(recipe: recipe, isSelected: selecting && recipe == previewed) {
-                            // 옆에 시작 전 화면이 있으면 거기 띄운다. 시작은 거기 버튼으로.
-                            if selecting {
-                                previewed = recipe
-                            } else {
-                                session.prepare(recipe)   // 시작은 조리 화면의 버튼으로
-                                OpenRecipeIntent.donate(recipe.id)
-                            }
+                    ForEach(RecipeDB.free) { recipe in
+                        card(recipe, selecting: selecting)
+                    }
+                    // 레시피 팩 — 처음 보는 사람에게도 보인다. 잠겨 있으면 누를 때 그 요리의 순서표와 함께 Pro 안내
+                    ForEach(RecipeDB.packs) { pack in
+                        packHeader(pack)
+                        ForEach(pack.recipes) { recipe in
+                            card(recipe, selecting: selecting)
                         }
                     }
                     footNote
@@ -105,6 +121,39 @@ struct RecipeListView: View {
                 .frame(maxWidth: .infinity)
             }
         }
+    }
+
+    private func card(_ recipe: Recipe, selecting: Bool) -> some View {
+        let locked = !purchases.allows(recipe)
+        return RecipeCard(recipe: recipe, isSelected: selecting && recipe == previewed, locked: locked) {
+            if locked {
+                lockedRecipe = recipe
+            } else if selecting {
+                // 옆에 시작 전 화면이 있으면 거기 띄운다. 시작은 거기 버튼으로.
+                previewed = recipe
+            } else {
+                session.prepare(recipe)   // 시작은 조리 화면의 버튼으로
+                OpenRecipeIntent.donate(recipe.id)
+            }
+        }
+    }
+
+    private func packHeader(_ pack: RecipePack) -> some View {
+        HStack(spacing: 8) {
+            Text(String(localized: "\(pack.name) 팩"))
+                .font(.title3.weight(.heavy))
+                .foregroundStyle(Theme.ink)
+                .accessibilityAddTraits(.isHeader)
+            if !purchases.isPro {
+                Text(verbatim: "Pro")
+                    .font(.body.weight(.bold))
+                    .foregroundStyle(Theme.terracotta)
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 2)
+                    .background(Theme.terracotta.opacity(0.12), in: Capsule())
+            }
+        }
+        .padding(.top, 8)
     }
 
     @ViewBuilder private var previewPane: some View {
@@ -118,20 +167,30 @@ struct RecipeListView: View {
     }
 
     /// 단축어로 요리를 연다. 이미 요리 중이면 그 진행을 지우지 않는다 — 냄비가 돌고 있을 수 있다.
-    private func openFromShortcut(_ id: String) {
+    ///
+    /// Siri · 단축어는 Pro 다. Pro 가 아니어도 무료 요리는 그대로 열고, 연 다음에 안내한다(→ CookView).
+    /// 팩 요리는 열지 않고 그 요리의 순서표와 함께 안내한다.
+    private func openFromShortcut(_ id: String) async {
         router.pendingRecipeID = nil
         guard session.recipe == nil,
               let recipe = RecipeDB.all.first(where: { $0.id == id }) else { return }
+        // 업데이트 직후 처음 켠 먼저 쓰던 사람이 안내를 보지 않게, 영수증을 먼저 읽는다
+        await purchases.refreshEntitlements()
         // 첫 실행 안내·설정이 떠 있으면 먼저 내린다 (안내는 다음 실행에 다시 보인다).
         // 내려가는 중에 조리 화면을 올리면 무시되므로 내려간 뒤에 연다.
         let covering = showOnboarding || showSettings
         showOnboarding = false
         showSettings = false
-        if covering {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { session.prepare(recipe) }
-        } else {
-            session.prepare(recipe)
+        if covering { try? await Task.sleep(for: .seconds(0.6)) }
+        guard purchases.allows(recipe) else {
+            lockedRecipe = recipe
+            return
         }
+        session.prepare(recipe)
+        guard !purchases.allows(.siri) else { return }
+        // 조리 화면이 다 올라온 뒤에 그 위로 안내를 낸다 (올라오는 중에 내면 무시된다)
+        try? await Task.sleep(for: .seconds(0.8))
+        if session.recipe == recipe { router.siriPaywall = true }
     }
 
     /// 스크린샷용 데모 실행인가 — 이때는 첫 실행 안내로 화면을 가리지 않는다
@@ -143,7 +202,7 @@ struct RecipeListView: View {
         #endif
     }
 
-    /// 스크린샷·디버그용: -demoRecipe <id> [-demoAt <초>] [-demoTextScale 0~3]
+    /// 스크린샷·디버그용: -demoRecipe <id> [-demoAt <초>] [-demoTextScale 0~3] · -demoPaywall 1 (잠긴 팩 요리의 페이월)
     /// (글자 크기 인자 이름을 앱 설정 키와 다르게 둔다 — 같으면 실행 인자 전체가 무시된다)
     private func startDemoIfRequested() {
         #if DEBUG
@@ -152,6 +211,7 @@ struct RecipeListView: View {
             args.set(args.integer(forKey: "demoTextScale"), forKey: "textScale")
         }
         if args.bool(forKey: "demoLandscape") { Self.rotateToLandscape() }
+        if args.bool(forKey: "demoPaywall") { lockedRecipe = RecipeDB.packs.first?.recipes.first }
         guard session.recipe == nil,
               let id = args.string(forKey: "demoRecipe"),
               let recipe = RecipeDB.all.first(where: { $0.id == id }) else { return }
@@ -206,6 +266,8 @@ struct RecipeCard: View {
     let recipe: Recipe
     /// 펼친 아이폰 듀오에서 결과 쪽에 보이는 요리인가.
     var isSelected = false
+    /// Pro 에서 열리는 팩 요리인가. 눌러도 시작하지 않고 Pro 안내가 뜬다.
+    var locked = false
     let onStart: () -> Void
 
     var body: some View {
@@ -224,9 +286,9 @@ struct RecipeCard: View {
                 }
 
                 Spacer(minLength: 8)
-                Image(systemName: "play.circle.fill")
+                Image(systemName: locked ? "lock.circle.fill" : "play.circle.fill")
                     .font(.title)
-                    .foregroundStyle(Theme.terracotta)
+                    .foregroundStyle(locked ? Theme.inkSoft : Theme.terracotta)
             }
             .padding(18)
             .background(
@@ -243,7 +305,7 @@ struct RecipeCard: View {
         .accessibilityAddTraits(isSelected ? .isSelected : [])
         // 이모지·재생 아이콘을 따로 읽지 않고 한 문장으로
         .accessibilityLabel(String(localized: "\(recipe.name), 약 \(Int((Double(recipe.estimatedSeconds) / 60).rounded()))분, 냄비 \(recipe.potCount)개"))
-        .accessibilityHint("조리 화면을 엽니다")
+        .accessibilityHint(locked ? String(localized: "잠김. 그사이에 Pro에서 열려요") : String(localized: "조리 화면을 엽니다"))
         // 음성 명령은 요리 이름만 말해도 열리게
         .accessibilityInputLabels([Text(recipe.name)])
     }

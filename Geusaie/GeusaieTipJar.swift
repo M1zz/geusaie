@@ -3,16 +3,10 @@ import LeeoKit
 
 // MARK: - 개발자 응원하기 (소모성 팁 세 가지)
 //
-// 인앱 결제가 없는 무료 앱이라 LeeoStore 없이 혼자 돈다 — 앱이 켜질 때 `startStandalone()` 한 번.
+// 팁 상품은 계약(GeusaieSpec.monetization)의 tipJar 에 있고, LeeoStore 가 불러오고 결제 업데이트를 듣는다
+// (→ Purchases.tipJar). 리스너가 둘이면 같은 거래를 다투므로 따로 돌리지 않는다.
 // 판매 중인 팁이 없으면(App Store Connect 에 아직 안 만들었으면) 설정 줄도 부탁 카드도 서지 않는다.
-
-extension GeusaieSpec {
-    @MainActor static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
-        "com.leeo.geusaie.tip.small",
-        "com.leeo.geusaie.tip.medium",
-        "com.leeo.geusaie.tip.large",
-    ]))
-}
+// 팁은 아무것도 열지 않는다. 응원 부탁은 이미 Pro 인 사람에게만 한다(→ CookView).
 
 // MARK: - 고마운 순간
 //
