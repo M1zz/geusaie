@@ -33,6 +33,8 @@ struct GeusaieApp: App {
                 // 요리를 몇 번 끝낸 뒤에만, 버전당 한 번 "즐겁게 쓰고 계신가요?"를 묻는다.
                 // 만족 → 시스템 리뷰 요청 / 아쉬움 → 피드백 화면
                 .leeoSatisfactionCheck(GeusaieSpec.self)
+                // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
+                .leeoFeedbackReplyNotice(GeusaieSpec.self)
                 // 그사이에 Pro — 산 것을 다시 읽는다. 팁 상품 · 끝나지 않은 팁도 LeeoStore 가 함께 챙긴다 (→ GeusaiePro.swift)
                 .task { await Purchases.shared.refresh() }
                 .onChange(of: scenePhase) { _, phase in
