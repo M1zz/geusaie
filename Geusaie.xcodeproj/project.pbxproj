@@ -11,6 +11,7 @@
 		12F1EC57169641C11D7F6381 /* GeusaieWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A5F8F0CD5FD1B0016F08BD14 /* GeusaieWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		16B1B65081E409028AA37A5C /* GeusaieWatchWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 58565FAF82A6E46770DA501C /* GeusaieWatchWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1DF7B9EB4BF6E5D028FE2528 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 26D51AFF77E5E68F595483F0 /* Localizable.xcstrings */; };
+		28CD368085287B3952AF7526 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = D3117B1523FCDF8808652AE7 /* AppIcon.icon */; };
 		319D864818BE22E46FDCD9BA /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DD445A049EB1B94CA9E3887B /* Localizable.xcstrings */; };
 		373E40F956619E3D9C5604F8 /* WatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C67A9E5A1D1A4695D3C922 /* WatchLink.swift */; };
 		394D3FFEFB3BDB2E4CF7B917 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E4468F4E2E28D4684DE3DAA1 /* InfoPlist.xcstrings */; };
@@ -123,6 +124,7 @@
 		B44D223BB00DE08F1BFAA313 /* NextStepIntent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NextStepIntent.swift; sourceTree = "<group>"; };
 		C3B994DCCFCB272F4C17E0CB /* KitchenStandBody.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KitchenStandBody.swift; sourceTree = "<group>"; };
 		D0ED7BD55AB3F8533FF9B93B /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		D3117B1523FCDF8808652AE7 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		DD445A049EB1B94CA9E3887B /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		E4468F4E2E28D4684DE3DAA1 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		F00000000000000000000001 /* GeusaieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeusaieApp.swift; sourceTree = "<group>"; };
@@ -278,6 +280,7 @@
 				A17C0DE00000000000000003 /* AppShortcuts.xcstrings */,
 				7835BF2E066785435900BFC5 /* CookRemote.swift */,
 				C3B994DCCFCB272F4C17E0CB /* KitchenStandBody.swift */,
+				D3117B1523FCDF8808652AE7 /* AppIcon.icon */,
 			);
 			path = Geusaie;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 				1DF7B9EB4BF6E5D028FE2528 /* Localizable.xcstrings in Resources */,
 				A17C0DE00000000000000002 /* InfoPlist.xcstrings in Resources */,
 				A17C0DE00000000000000004 /* AppShortcuts.xcstrings in Resources */,
+				28CD368085287B3952AF7526 /* AppIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,102 @@
+{
+  "fill-specializations": [
+    {
+      "value": {
+        "linear-gradient": [
+          "display-p3:1.00000,1.00000,1.00000,1.00000",
+          "display-p3:0.94902,0.94902,0.96863,1.00000"
+        ],
+        "orientation": {
+          "start": {
+            "x": 0.5,
+            "y": 0
+          },
+          "stop": {
+            "x": 0.5,
+            "y": 1
+          }
+        }
+      }
+    },
+    {
+      "appearance": "dark",
+      "value": {
+        "linear-gradient": [
+          "display-p3:0.17255,0.17255,0.18039,1.00000",
+          "display-p3:0.00000,0.00000,0.00000,1.00000"
+        ],
+        "orientation": {
+          "start": {
+            "x": 0.5,
+            "y": 0
+          },
+          "stop": {
+            "x": 0.5,
+            "y": 1
+          }
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "layers": [
+        {
+          "glass": true,
+          "name": "l1",
+          "image-name-specializations": [
+            {
+              "value": "l1.png"
+            },
+            {
+              "appearance": "dark",
+              "value": "l1-dark.png"
+            }
+          ]
+        }
+      ],
+      "lighting": "individual",
+      "name": "면 링",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "translucency": {
+        "enabled": true,
+        "value": 0.12
+      }
+    },
+    {
+      "layers": [
+        {
+          "glass": true,
+          "name": "l0",
+          "image-name-specializations": [
+            {
+              "value": "l0.png"
+            },
+            {
+              "appearance": "dark",
+              "value": "l0-dark.png"
+            }
+          ]
+        }
+      ],
+      "lighting": "individual",
+      "name": "소스 링",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "translucency": {
+        "enabled": true,
+        "value": 0.12
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}
