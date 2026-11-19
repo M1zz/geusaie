@@ -321,7 +321,7 @@ private struct RecipeSneakPeek: View {
                 .foregroundStyle(Theme.inkSoft)
             ForEach(recipe.potLanes, id: \.self) { lane in
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(lane).font(.body.weight(.semibold)).foregroundStyle(recipe.color(for: lane))
+                    Text(lane).font(.body.weight(.semibold)).foregroundStyle(recipe.inkColor(for: lane))
                     GeometryReader { geo in
                         let scale = geo.size.width / CGFloat(max(plan.total, 1))
                         ZStack(alignment: .leading) {

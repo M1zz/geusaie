@@ -675,7 +675,7 @@ struct NowStrip: View {
         var accent: Color {
             switch self {
             case .calm:     return Theme.green
-            case .soon:     return Theme.mustard
+            case .soon:     return Theme.mustardInk
             case .now:      return Theme.terracotta
             case .late:     return Theme.brick
             case .finished: return Theme.green
@@ -699,7 +699,7 @@ struct NowStrip: View {
                                              ? 1 - Double(session.countdown(for: step))
                                                  / Double(step.duration)
                                              : 1),
-                        tint: urgency.accent, height: hero ? 14 : 6)
+                        tint: urgency == .soon ? Theme.mustard : urgency.accent, height: hero ? 14 : 6)
             details(step)
             hint("다 했으면 \"다음\"이라고 말해 주세요")
         }
@@ -860,7 +860,7 @@ struct PotBoard: View {
             let layout = vertical ? AnyLayout(VStackLayout(spacing: 16)) : AnyLayout(HStackLayout(alignment: .top, spacing: 16))
             layout {
                 ForEach(session.potStates) { pot in
-                    PotTile(pot: pot, color: recipe.color(for: pot.lane), hero: true)
+                    PotTile(pot: pot, color: recipe.color(for: pot.lane), inkColor: recipe.inkColor(for: pot.lane), onColor: recipe.onColor(for: pot.lane), hero: true)
                         .frame(maxWidth: .infinity, minHeight: heroTileMinHeight, alignment: .topLeading)
                 }
             }
@@ -869,7 +869,7 @@ struct PotBoard: View {
         } else {
             HStack(alignment: .top, spacing: gap) {
                 ForEach(session.potStates) { pot in
-                    PotTile(pot: pot, color: recipe.color(for: pot.lane))
+                    PotTile(pot: pot, color: recipe.color(for: pot.lane), inkColor: recipe.inkColor(for: pot.lane), onColor: recipe.onColor(for: pot.lane))
                         .frame(maxWidth: .infinity, minHeight: tileMinHeight, alignment: .topLeading)
                 }
             }
@@ -883,6 +883,9 @@ struct PotBoard: View {
 struct PotTile: View {
     let pot: CookSession.PotState
     let color: Color
+    /// 냄비 색을 글자로 쓸 때 · 냄비 색으로 채운 자리 위의 글자
+    let inkColor: Color
+    var onColor = Theme.onAccent
     var hero = false
 
     @ScaledMetric(relativeTo: .title3) private var markerSide: CGFloat = 34
@@ -899,7 +902,7 @@ struct PotTile: View {
             VStack(alignment: .leading, spacing: hero ? 4 : 1) {
                 Text(pot.lane)
                     .font(hero ? .title3.weight(.heavy) : .caption.weight(.heavy))
-                    .foregroundStyle(color)
+                    .foregroundStyle(inkColor)
                     .fixedSize(horizontal: false, vertical: true)
                 Text(pot.text)
                     .font(hero ? .title2.weight(.bold) : .subheadline.weight(.bold))
@@ -948,12 +951,12 @@ struct PotTile: View {
             RoundedRectangle(cornerRadius: 9, style: .continuous)
                 .fill(color)
                 .overlay(Image(systemName: "hand.raised.fill")
-                    .font(hero ? .title : .footnote).foregroundStyle(Theme.onAccent))
+                    .font(hero ? .title : .footnote).foregroundStyle(onColor))
         case .finished:
             RoundedRectangle(cornerRadius: 9, style: .continuous)
                 .fill(color.opacity(0.25))
                 .overlay(Image(systemName: "checkmark")
-                    .font(hero ? .title.weight(.bold) : .footnote.weight(.bold)).foregroundStyle(color))
+                    .font(hero ? .title.weight(.bold) : .footnote.weight(.bold)).foregroundStyle(inkColor))
         case .empty:
             RoundedRectangle(cornerRadius: 9, style: .continuous)
                 .stroke(Theme.cardBorder, style: StrokeStyle(lineWidth: 1.5, dash: [4, 4]))
@@ -1200,7 +1203,7 @@ struct GanttTimeline: View {
                     ForEach(layouts, id: \.lane) { l in
                         Text(l.lane)
                             .font(.caption2.weight(.heavy))
-                            .foregroundStyle(recipe.color(for: l.lane))
+                            .foregroundStyle(recipe.inkColor(for: l.lane))
                             .minimumScaleFactor(0.8)
                             .frame(width: labelColumn,
                                    height: TimelineMetrics.height(rows: l.rows),
@@ -1280,7 +1283,7 @@ struct GanttTimeline: View {
                 .frame(width: width, height: h)
             ForEach(l.items) { p in
                 StepBar(step: p.step, status: session.status(of: p.step),
-                        color: recipe.color(for: l.lane), compact: p.compact)
+                        color: recipe.color(for: l.lane), onColor: recipe.onColor(for: l.lane), compact: p.compact)
                     .frame(width: p.width, height: barH)
                     .offset(x: p.x,
                             y: TimelineMetrics.lanePadding
@@ -1296,6 +1299,8 @@ struct StepBar: View {
     let step: RecipeStep
     let status: StepStatus
     let color: Color
+    /// 꽉 찬 막대 위의 글자
+    var onColor = Theme.onAccent
     var compact: Bool = false
 
     var body: some View {
@@ -1347,7 +1352,7 @@ struct StepBar: View {
     private var labelColor: Color {
         switch status {
         case .upcoming: return Theme.ink.opacity(0.65)
-        case .active:   return Theme.onAccent
+        case .active:   return onColor
         case .done:     return Theme.ink
         }
     }

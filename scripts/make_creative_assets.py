@@ -91,15 +91,15 @@ HEADER = {
 BASE_CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }
 html,body { width:%(W)dpx; height:%(H)dpx; overflow:hidden; }
-body { background:#FAF6ED; position:relative; -webkit-font-smoothing:antialiased;
+body { background:#F5F5F7; position:relative; -webkit-font-smoothing:antialiased;
   font-family:-apple-system, "SF Pro Display", "Apple SD Gothic Neo", sans-serif; }
 .glow { position:absolute; border-radius:50%%; filter:blur(170px); pointer-events:none; }
 .text { position:absolute; display:flex; flex-direction:column; justify-content:center; }
-.eyebrow { font-weight:700; color:#C75B39; letter-spacing:-0.01em; line-height:1.15; }
-.headline { font-weight:800; color:#2D2A24; letter-spacing:-0.02em; line-height:1.2; text-wrap:balance; }
-.sub { font-weight:500; color:#8A8271; letter-spacing:-0.01em; line-height:1.4; text-wrap:balance; }
+.eyebrow { font-weight:700; color:#EB4A2D; letter-spacing:-0.01em; line-height:1.15; }
+.headline { font-weight:800; color:#1C1C1E; letter-spacing:-0.02em; line-height:1.2; text-wrap:balance; }
+.sub { font-weight:500; color:#6C6C70; letter-spacing:-0.01em; line-height:1.4; text-wrap:balance; }
 :lang(ko) .headline, :lang(ko) .sub, :lang(ko) .eyebrow { word-break:keep-all; }
-.ipad { position:absolute; background:#1c1b19; box-shadow:0 60px 160px rgba(45,42,36,.28), 0 0 0 3px #3b3934 inset; }
+.ipad { position:absolute; background:#1C1C1E; box-shadow:0 60px 160px rgba(28,28,30,.24), 0 0 0 3px #3A3A3C inset; }
 .ipad img { display:block; width:100%%; }
 .dot { position:absolute; border-radius:50%%; }
 """
@@ -158,7 +158,7 @@ def ipad(img, left, top, width, rotate=0):
 
 def dots(spec):
     # 냄비 색(면냄비 머스터드 · 소스팬 초록 · 내 손 테라코타)으로 둥근 점을 흩는다. 안전 영역 밖 장식.
-    colors = ["#D99A3C", "#5B8C5A", "#C75B39"]
+    colors = ["#FFC43A", "#2A8F4F", "#FF5A3C"]
     return "".join(f'<div class="dot" style="left:{x}px;top:{y}px;width:{w}px;height:{w}px;'
                    f'background:{colors[c]};opacity:{o}"></div>' for x, y, w, c, o in spec)
 
@@ -172,8 +172,8 @@ def search_html(lang):
     pw = 1300
     left = l + col + 60
     return f"""
-<div class="glow" style="left:{left - 200}px;top:500px;width:1800px;height:1800px;background:rgba(217,154,60,.22)"></div>
-<div class="glow" style="left:{l - 700}px;top:{t - 400}px;width:1500px;height:1100px;background:rgba(199,91,57,.10)"></div>
+<div class="glow" style="left:{left - 200}px;top:500px;width:1800px;height:1800px;background:rgba(255,196,58,.22)"></div>
+<div class="glow" style="left:{l - 700}px;top:{t - 400}px;width:1500px;height:1100px;background:rgba(255,90,60,.10)"></div>
 {dots([(3500, 260, 120, 0, .9), (3620, 470, 70, 1, .9), (330, 2120, 110, 2, .85), (560, 2330, 70, 0, .85)])}
 {ipad(img, left, t - 330, pw, 0)}
 <div class="text" style="left:{l}px;top:{t}px;width:{col}px;height:{sh}px">
@@ -191,7 +191,7 @@ def header_html(lang):
     land = shot(lang, "ipad-03-start.png")
     port = shot(lang, "ipad-02-cook.png", "ipad-02-cook-portrait.png")
     return f"""
-<div class="glow" style="left:{l - 200}px;top:{t - 400}px;width:{sw + 400}px;height:{sh + 800}px;background:rgba(217,154,60,.16)"></div>
+<div class="glow" style="left:{l - 200}px;top:{t - 400}px;width:{sw + 400}px;height:{sh + 800}px;background:rgba(255,196,58,.16)"></div>
 {dots([(140, 110, 110, 0, .9), (380, 60, 64, 1, .9), (3560, 120, 120, 1, .9), (3400, 300, 64, 2, .85),
        (3680, 1380, 90, 0, .85), (70, 1420, 80, 2, .85)])}
 {ipad(land, 130, 300, 800, -7)}

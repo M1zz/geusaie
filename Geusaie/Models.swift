@@ -89,6 +89,9 @@ struct Recipe: Identifiable, Hashable {
 
     func laneIndex(_ lane: String) -> Int { lanes.firstIndex(of: lane) ?? 0 }
     func color(for lane: String) -> Color { Theme.dishColor(laneIndex(lane)) }
+    /// 냄비 색을 글자로 쓸 때 · 냄비 색으로 채운 자리 위의 글자
+    func inkColor(for lane: String) -> Color { Theme.dishInk(laneIndex(lane)) }
+    func onColor(for lane: String) -> Color { Theme.onDish(laneIndex(lane)) }
 
     /// 아직 아무것도 안 한 상태의 계획 — 카드 미리보기·예상 시간에 쓴다
     var previewPlan: Plan { Plan(self, CookState()) }

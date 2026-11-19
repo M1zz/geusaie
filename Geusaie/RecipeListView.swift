@@ -20,6 +20,8 @@ struct RecipeListView: View {
     @State private var lockedRecipe: Recipe?
     /// 구독 6개월째 · 갱신 7일 전의 '구독 졸업' 제안
     @State private var showsGraduation = false
+    /// 제목 옆 아이콘 그림 — 제목 글자와 함께 커진다
+    @ScaledMetric(relativeTo: .largeTitle) private var markHeight: CGFloat = 30
 
     /// 아이패드를 넓게 쓸 때 — 왼쪽은 요리 목록, 오른쪽은 고른 요리의 시작 전 화면.
     /// Split View 로 좁아지면(가로 compact) 아이폰처럼 목록만.
@@ -238,10 +240,13 @@ struct RecipeListView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text("그사이에")
-                .font(.system(.largeTitle, design: .rounded, weight: .heavy))
-                .foregroundStyle(Theme.ink)
-                .accessibilityAddTraits(.isHeader)
+            HStack(spacing: 10) {
+                BrandMark().frame(height: markHeight)
+                Text("그사이에")
+                    .font(.system(.largeTitle, design: .rounded, weight: .heavy))
+                    .foregroundStyle(Theme.ink)
+                    .accessibilityAddTraits(.isHeader)
+            }
             Text("면 삶는 그사이에 소스까지.")
                 .font(.subheadline)
                 .foregroundStyle(Theme.inkSoft)

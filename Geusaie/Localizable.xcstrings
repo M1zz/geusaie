@@ -31208,150 +31208,150 @@
         }
       }
     },
-    "테라코타는 미루면 면이 퍼지거나 타는 일이에요. 초록은 도마 일이라 손이 빌 때 천천히 하면 돼요." : {
+    "빨강은 미루면 면이 퍼지거나 타는 일이에요. 초록은 도마 일이라 손이 빌 때 천천히 하면 돼요." : {
       "localizations" : {
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terakotová je to, co když odložíte, těstoviny rozvaříte nebo se připálí. Zelená je příprava – dělejte ji v klidu, když máte volné ruce."
+            "value" : "Červená je to, co když odložíte, těstoviny rozvaříte nebo se připálí. Zelená je příprava – dělejte ji v klidu, když máte volné ruce."
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terrakotta er det, der får pastaen til at blive for blød eller saucen til at brænde på, hvis du venter. Grøn er forberedelse – tag den i ro og mag, når dine hænder er frie."
+            "value" : "Rød er det, der får pastaen til at blive for blød eller saucen til at brænde på, hvis du venter. Grøn er forberedelse – tag den i ro og mag, når dine hænder er frie."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terrakotta heißt: Wenn du wartest, wird die Pasta zu weich oder brennt an. Grün ist Vorbereitung – die machst du in Ruhe, wenn deine Hände frei sind."
+            "value" : "Rot heißt: Wenn du wartest, wird die Pasta zu weich oder brennt an. Grün ist Vorbereitung – die machst du in Ruhe, wenn deine Hände frei sind."
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Το χρώμα τερακότα είναι ό,τι, αν το αναβάλετε, θα κάνει τα ζυμαρικά να παραβράσουν ή τη σάλτσα να καεί. Το πράσινο είναι η προετοιμασία: κάντε την με την ησυχία σας όταν έχετε ελεύθερα χέρια."
+            "value" : "Το κόκκινο είναι ό,τι, αν το αναβάλετε, θα κάνει τα ζυμαρικά να παραβράσουν ή τη σάλτσα να καεί. Το πράσινο είναι η προετοιμασία: κάντε την με την ησυχία σας όταν έχετε ελεύθερα χέρια."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terracotta means the pasta overcooks or something burns if you wait. Green is prep, so take your time when your hands are free."
+            "value" : "Red means the pasta overcooks or something burns if you wait. Green is prep, so take your time when your hands are free."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terracotta means the pasta overcooks or something burns if you wait. Green is prep, so take your time when your hands are free."
+            "value" : "Red means the pasta overcooks or something burns if you wait. Green is prep, so take your time when your hands are free."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "El color terracota es lo que, si lo aplazas, hace que la pasta se pase o se queme. El verde es la preparación: hazla con calma cuando tengas las manos libres."
+            "value" : "El rojo es lo que, si lo aplazas, hace que la pasta se pase o se queme. El verde es la preparación: hazla con calma cuando tengas las manos libres."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terrakotta on sitä, mikä jos jää odottamaan, ylikypsentää pastan tai palaa pohjaan. Vihreä on valmistelua – tee se rauhassa, kun kätesi ovat vapaat."
+            "value" : "Punainen on sitä, mikä jos jää odottamaan, ylikypsentää pastan tai palaa pohjaan. Vihreä on valmistelua – tee se rauhassa, kun kätesi ovat vapaat."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Le terracotta signale ce qui, si on le repousse, fait trop cuire les pâtes ou brûler la sauce. Le vert, c’est la préparation : prenez votre temps quand vos mains sont libres."
+            "value" : "Le rouge signale ce qui, si on le repousse, fait trop cuire les pâtes ou brûler la sauce. Le vert, c’est la préparation : prenez votre temps quand vos mains sont libres."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terakota berarti kalau ditunda, pasta jadi terlalu lunak atau gosong. Hijau adalah persiapan, jadi kerjakan dengan santai saat tanganmu bebas."
+            "value" : "Merah berarti kalau ditunda, pasta jadi terlalu lunak atau gosong. Hijau adalah persiapan, jadi kerjakan dengan santai saat tanganmu bebas."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Il color terracotta indica ciò che, se rimandato, fa scuocere la pasta o bruciare il sugo. Il verde è la preparazione: fallo con calma quando hai le mani libere."
+            "value" : "Il rosso indica ciò che, se rimandato, fa scuocere la pasta o bruciare il sugo. Il verde è la preparazione: fallo con calma quando hai le mani libere."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "テラコタ色は、後回しにするとパスタが伸びたり焦げたりする作業です。緑は下ごしらえなので、手が空いたときにゆっくりで大丈夫です。"
+            "value" : "赤は、後回しにするとパスタが伸びたり焦げたりする作業です。緑は下ごしらえなので、手が空いたときにゆっくりで大丈夫です。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "테라코타는 미루면 면이 퍼지거나 타는 일이에요. 초록은 도마 일이라 손이 빌 때 천천히 하면 돼요."
+            "value" : "빨강은 미루면 면이 퍼지거나 타는 일이에요. 초록은 도마 일이라 손이 빌 때 천천히 하면 돼요."
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terrakotta er det som får pastaen til å bli for myk eller sausen til å brenne seg fast hvis du venter. Grønt er forberedelser – ta dem med ro når hendene er frie."
+            "value" : "Rødt er det som får pastaen til å bli for myk eller sausen til å brenne seg fast hvis du venter. Grønt er forberedelser – ta dem med ro når hendene er frie."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terracotta is wat de pasta laat overkoken of de saus laat aanbranden als je wacht. Groen is voorbereiding: doe dat rustig als je handen vrij zijn."
+            "value" : "Rood is wat de pasta laat overkoken of de saus laat aanbranden als je wacht. Groen is voorbereiding: doe dat rustig als je handen vrij zijn."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terakota oznacza to, co po odłożeniu sprawi, że makaron się rozgotuje lub coś się przypali. Zielony to przygotowania — rób je spokojnie, gdy masz wolne ręce."
+            "value" : "Czerwony oznacza to, co po odłożeniu sprawi, że makaron się rozgotuje lub coś się przypali. Zielony to przygotowania — rób je spokojnie, gdy masz wolne ręce."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terracota é o que, se você adiar, faz o macarrão passar do ponto ou queimar. Verde é preparo: faça com calma quando as mãos estiverem livres."
+            "value" : "Vermelho é o que, se você adiar, faz o macarrão passar do ponto ou queimar. Verde é preparo: faça com calma quando as mãos estiverem livres."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Терракотовый — то, что нельзя откладывать: паста разварится или пригорит. Зелёный — подготовка: делайте не спеша, когда руки свободны."
+            "value" : "Красный — то, что нельзя откладывать: паста разварится или пригорит. Зелёный — подготовка: делайте не спеша, когда руки свободны."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terrakotta är sådant som får pastan att bli för mjuk eller såsen att bränna vid om du väntar. Grönt är förberedelser – gör dem i lugn och ro när händerna är lediga."
+            "value" : "Rött är sådant som får pastan att bli för mjuk eller såsen att bränna vid om du väntar. Grönt är förberedelser – gör dem i lugn och ro när händerna är lediga."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "สีเทอร์ราคอตตาคือสิ่งที่ถ้าเลื่อนแล้วเส้นจะเปื่อยหรือซอสจะไหม้ ส่วนสีเขียวคืองานเตรียม ทำช้า ๆ ตอนมือว่างได้"
+            "value" : "สีแดงคือสิ่งที่ถ้าเลื่อนแล้วเส้นจะเปื่อยหรือซอสจะไหม้ ส่วนสีเขียวคืองานเตรียม ทำช้า ๆ ตอนมือว่างได้"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kiremit rengi, ertelenirse makarnayı fazla pişiren ya da yakan işlerdir. Yeşil hazırlıktır; elleriniz boşken acele etmeden yapın."
+            "value" : "Kırmızı, ertelenirse makarnayı fazla pişiren ya da yakan işlerdir. Yeşil hazırlıktır; elleriniz boşken acele etmeden yapın."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Màu đất nung là việc mà nếu để lại thì mì sẽ nhũn hoặc cháy. Màu xanh lá là việc chuẩn bị, rảnh tay thì cứ làm thong thả."
+            "value" : "Màu đỏ là việc mà nếu để lại thì mì sẽ nhũn hoặc cháy. Màu xanh lá là việc chuẩn bị, rảnh tay thì cứ làm thong thả."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "赤陶色表示拖延的话面会煮烂或糊掉。绿色是备料，等手空下来慢慢做就行。"
+            "value" : "红色表示拖延的话面会煮烂或糊掉。绿色是备料，等手空下来慢慢做就行。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "赤陶色代表拖延的話麵會煮爛或燒焦。綠色是備料，等手空下來慢慢做就好。"
+            "value" : "紅色代表拖延的話麵會煮爛或燒焦。綠色是備料，等手空下來慢慢做就好。"
           }
         }
       }

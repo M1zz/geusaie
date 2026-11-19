@@ -1,5 +1,151 @@
 # 그사이에 릴리즈 노트
 
+## 1.1.1
+
+### 앱스토어 (한국어) (ko)
+
+새 아이콘에 맞춰 화면 색을 다듬었어요
+냄비 색이 또렷해져 멀리서도 잘 보여요
+Apple Watch도 같은 색으로 맞췄어요
+
+### 앱스토어 (English) (en)
+
+Fresh colors to match the new app icon
+Brighter pot colors, easy to tell apart
+Apple Watch now uses the same colors
+
+### App Store (en-GB)
+
+Fresh colours to match the new app icon
+Brighter pan colours, easy to tell apart
+Apple Watch now uses the same colours
+
+### 앱스토어 (日本語) (ja)
+
+新しいアイコンに合わせて画面の色を一新
+鍋の色がくっきりして離れても見分けやすく
+Apple Watchも同じ色にそろえました
+
+### 앱스토어 (中文简体) (zh-Hans)
+
+界面配色焕新，与新图标保持一致
+每口锅的颜色更鲜明，远看也分得清
+Apple Watch 也换上了同样的配色
+
+### 앱스토어 (中文繁體) (zh-Hant)
+
+畫面配色煥然一新，與新圖像一致
+每個鍋子的顏色更鮮明，遠看也分得清
+Apple Watch 也換上相同配色
+
+### 앱스토어 (Русский) (ru)
+
+Новые цвета в тон новой иконке
+Цвета кастрюль ярче и видны издалека
+На Apple Watch теперь те же цвета
+
+### 앱스토어 (Español) (es)
+
+Colores nuevos a juego con el icono
+Ollas con colores más vivos y claros
+Los mismos colores en el Apple Watch
+
+### 앱스토어 (Deutsch) (de)
+
+Neue Farben passend zum neuen App-Icon
+Kräftigere, klar erkennbare Topffarben
+Dieselben Farben auf der Apple Watch
+
+### 앱스토어 (Français) (fr)
+
+Couleurs assorties à la nouvelle icône
+Couleurs des casseroles plus vives
+Les mêmes couleurs sur l’Apple Watch
+
+### 앱스토어 (Italiano) (it)
+
+Nuovi colori in linea con la nuova icona
+Colori delle pentole più vivaci
+Gli stessi colori anche su Apple Watch
+
+### 앱스토어 (Português (Brasil)) (pt-BR)
+
+Novas cores combinando com o novo ícone
+Cores das panelas mais vivas e nítidas
+As mesmas cores também no Apple Watch
+
+### 앱스토어 (ไทย) (th)
+
+ปรับสีหน้าจอใหม่ให้เข้ากับไอคอนใหม่
+สีของแต่ละหม้อสดขึ้น มองไกลก็แยกออก
+Apple Watch ใช้สีเดียวกันแล้ว
+
+### 앱스토어 (Tiếng Việt) (vi)
+
+Màu sắc mới hợp với biểu tượng mới
+Màu từng nồi rõ hơn, nhìn xa vẫn thấy
+Apple Watch cũng dùng cùng bộ màu
+
+### 앱스토어 (Čeština) (cs)
+
+Nové barvy ladí s novou ikonou
+Výraznější a přehlednější barvy hrnců
+Apple Watch teď používají stejné barvy
+
+### 앱스토어 (Dansk) (da)
+
+Nye farver, der matcher det nye ikon
+Tydeligere grydefarver, nemme at skelne
+Apple Watch bruger nu de samme farver
+
+### 앱스토어 (Ελληνικά) (el)
+
+Νέα χρώματα, όπως το νέο εικονίδιο
+Πιο ζωντανά χρώματα για κάθε κατσαρόλα
+Τα ίδια χρώματα και στο Apple Watch
+
+### 앱스토어 (Suomi) (fi)
+
+Uudet värit sopivat uuteen kuvakkeeseen
+Kattiloiden värit erottuvat selvemmin
+Apple Watchissa on nyt samat värit
+
+### 앱스토어 (Bahasa Indonesia) (id)
+
+Warna baru yang serasi dengan ikon baru
+Warna panci lebih cerah dan jelas
+Apple Watch kini memakai warna yang sama
+
+### 앱스토어 (Norsk bokmål) (nb)
+
+Nye farger som passer til det nye ikonet
+Tydeligere kjelefarger, lette å skille
+Apple Watch bruker nå de samme fargene
+
+### 앱스토어 (Nederlands) (nl)
+
+Nieuwe kleuren, passend bij het icoon
+Fellere, duidelijk herkenbare pankleuren
+Apple Watch gebruikt nu dezelfde kleuren
+
+### 앱스토어 (Polski) (pl)
+
+Nowe kolory dopasowane do nowej ikony
+Wyraźniejsze kolory garnków
+Te same kolory także na Apple Watch
+
+### 앱스토어 (Svenska) (sv)
+
+Nya färger som matchar den nya ikonen
+Tydligare grytfärger som syns på håll
+Apple Watch har nu samma färger
+
+### 앱스토어 (Türkçe) (tr)
+
+Yeni simgeyle uyumlu yeni renkler
+Tencere renkleri daha canlı ve belirgin
+Apple Watch'ta da artık aynı renkler
+
 ## 1.1.0
 
 ### 앱스토어 (한국어) (ko)

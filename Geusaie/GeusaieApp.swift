@@ -40,8 +40,25 @@ struct GeusaieApp: App {
                 .onChange(of: scenePhase) { _, phase in
                     if phase == .active { Task { await Purchases.shared.refresh() } }
                 }
+                // 유료가 되면 축하, 모든 사용자가 한 번은 감사 인사를 받는다 (LeeoKit). 판정은 LeeoStore 가 한다.
+                .modifier(Celebrations())
                 // 아이폰 듀오: 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
                 .foldAware()
         }
+    }
+}
+
+/// 축하 · 감사 카드. 스크린샷용 데모 실행에서는 카드가 화면을 가리지 않게 달지 않는다.
+private struct Celebrations: ViewModifier {
+    func body(content: Content) -> some View {
+        #if DEBUG
+        if UserDefaults.standard.string(forKey: "demoRecipe") != nil {
+            content
+        } else {
+            content.leeoCelebrations(appName: GeusaieSpec.appName)
+        }
+        #else
+        content.leeoCelebrations(appName: GeusaieSpec.appName)
+        #endif
     }
 }

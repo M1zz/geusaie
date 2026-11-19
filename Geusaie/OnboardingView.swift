@@ -13,19 +13,20 @@ struct GeusaieOnboardingView: View {
 
     private struct Page: Identifiable {
         let id: Int
-        let symbol: String
+        /// nil 이면 앱 아이콘의 두 링
+        let symbol: String?
         let tint: Color
         let title: LocalizedStringKey
         let body: LocalizedStringKey
     }
 
     private let pages: [Page] = [
-        Page(id: 0, symbol: "frying.pan.fill", tint: Theme.terracotta,
+        Page(id: 0, symbol: nil, tint: Theme.terracotta,
              title: "냄비 두 개를 한 화면에",
              body: "면 삶는 그사이에 소스까지. 냄비마다 무엇을 하는 중인지, 얼마나 남았는지 따로 보여 드려요."),
         Page(id: 1, symbol: "exclamationmark.triangle.fill", tint: Theme.terracotta,
              title: "색이 곧 급한 정도",
-             body: "테라코타는 미루면 면이 퍼지거나 타는 일이에요. 초록은 도마 일이라 손이 빌 때 천천히 하면 돼요."),
+             body: "빨강은 미루면 면이 퍼지거나 타는 일이에요. 초록은 도마 일이라 손이 빌 때 천천히 하면 돼요."),
         Page(id: 2, symbol: "mic.fill", tint: Theme.green,
              title: "다 했으면 \"다음\"",
              body: "버튼을 누르거나, 손이 젖었으면 \"다음\"이라고 말하세요. 냄비가 다 되면 알림으로 알려 드려요."),
@@ -73,12 +74,18 @@ struct GeusaieOnboardingView: View {
     private func pageView(_ p: Page) -> some View {
         VStack(spacing: 20) {
             Spacer(minLength: 0)
-            Image(systemName: p.symbol)
-                .font(.system(size: 56, weight: .bold))
-                .foregroundStyle(p.tint)
-                .frame(width: 120, height: 120)
-                .background(Circle().fill(Theme.card))
-                .accessibilityHidden(true)
+            Group {
+                if let symbol = p.symbol {
+                    Image(systemName: symbol)
+                        .font(.system(size: 56, weight: .bold))
+                        .foregroundStyle(p.tint)
+                } else {
+                    BrandMark(gap: Theme.card).frame(width: 76)
+                }
+            }
+            .frame(width: 120, height: 120)
+            .background(Circle().fill(Theme.card))
+            .accessibilityHidden(true)
             Text(p.title)
                 .font(.title2.weight(.heavy))
                 .foregroundStyle(Theme.ink)

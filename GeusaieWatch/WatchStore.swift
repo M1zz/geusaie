@@ -26,8 +26,8 @@ enum WatchStore {
 /// 아이폰 화면의 냄비 색 — 색 순서가 같아야 손목과 화면의 냄비가 같은 냄비로 읽힌다.
 /// 워치는 늘 어두운 화면이라 아이폰의 어두운 화면 색을 쓴다.
 enum WatchTheme {
-    static let accent = Color(hex: 0xE07D5C)
-    private static let dish: [UInt32] = [0xE07D5C, 0xE3AE5A, 0x82B381, 0xE2735A, 0xA89ED0, 0x7DB0C2]
+    static let accent = Color(hex: 0xFF5A3C)
+    private static let dish: [UInt32] = [0xFF5A3C, 0xFFC43A, 0x4CD07D, 0xFF7566, 0xA89ED0, 0x7DB0C2]
     static func dish(_ index: Int) -> Color {
         Color(hex: dish[((index % dish.count) + dish.count) % dish.count])
     }
