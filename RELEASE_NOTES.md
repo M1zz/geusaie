@@ -1,5 +1,157 @@
 # 그사이에 릴리즈 노트
 
+## 1.1.2
+
+### 앱스토어 (한국어) (ko)
+
+이제 아랍어로도 쓸 수 있어요
+아랍어 화면은 오른쪽에서 왼쪽으로 놓여요
+아랍어로 말해도 다음 단계로 넘어가요
+
+### 앱스토어 (English) (en)
+
+Geusaie now speaks Arabic
+Arabic screens read right to left
+Say next in Arabic to move on
+
+### App Store (en-GB)
+
+Geusaie now speaks Arabic
+Arabic screens read right to left
+Say next in Arabic to move on
+
+### 앱스토어 (日本語) (ja)
+
+アラビア語に対応しました
+アラビア語では画面が右から左に並びます
+アラビア語で話しても次の手順に進めます
+
+### 앱스토어 (中文简体) (zh-Hans)
+
+现已支持阿拉伯语
+阿拉伯语界面从右向左排列
+用阿拉伯语说下一步也能继续
+
+### 앱스토어 (中文繁體) (zh-Hant)
+
+現已支援阿拉伯文
+阿拉伯文畫面由右至左排列
+用阿拉伯文說下一步也能繼續
+
+### 앱스토어 (Русский) (ru)
+
+Теперь и на арабском языке
+На арабском экран идёт справа налево
+Голосом далее можно и по-арабски
+
+### 앱스토어 (Español) (es)
+
+Ahora disponible en árabe
+En árabe, de derecha a izquierda
+Di siguiente en árabe para avanzar
+
+### 앱스토어 (Deutsch) (de)
+
+Jetzt auch auf Arabisch
+Auf Arabisch von rechts nach links
+Per Sprache weiter, auch auf Arabisch
+
+### 앱스토어 (Français) (fr)
+
+Désormais disponible en arabe
+En arabe, de droite à gauche
+Dites suivant en arabe pour avancer
+
+### 앱스토어 (Italiano) (it)
+
+Ora disponibile in arabo
+In arabo, da destra a sinistra
+Di avanti in arabo per proseguire
+
+### 앱스토어 (Português (Brasil)) (pt-BR)
+
+Agora disponível em árabe
+Em árabe, da direita para a esquerda
+Diga próximo em árabe para avançar
+
+### 앱스토어 (ไทย) (th)
+
+รองรับภาษาอาหรับแล้ว
+ภาษาอาหรับแสดงจากขวาไปซ้าย
+พูดถัดไปเป็นภาษาอาหรับก็ไปต่อได้
+
+### 앱스토어 (Tiếng Việt) (vi)
+
+Đã hỗ trợ tiếng Ả Rập
+Tiếng Ả Rập hiển thị từ phải sang trái
+Ra lệnh tiếp theo bằng tiếng Ả Rập
+
+### 앱스토어 (Čeština) (cs)
+
+Nově také v arabštině
+V arabštině zprava doleva
+Řekněte další arabsky a pokračujte
+
+### 앱스토어 (Dansk) (da)
+
+Nu også på arabisk
+På arabisk fra højre mod venstre
+Sig næste på arabisk for at gå videre
+
+### 앱스토어 (Ελληνικά) (el)
+
+Τώρα και στα αραβικά
+Στα αραβικά από δεξιά προς αριστερά
+Πες επόμενο στα αραβικά και συνέχισε
+
+### 앱스토어 (Suomi) (fi)
+
+Nyt myös arabiaksi
+Arabiaksi oikealta vasemmalle
+Sano seuraava arabiaksi ja jatka
+
+### 앱스토어 (Bahasa Indonesia) (id)
+
+Kini tersedia dalam bahasa Arab
+Bahasa Arab tampil dari kanan ke kiri
+Ucapkan berikutnya dalam bahasa Arab
+
+### 앱스토어 (Norsk bokmål) (nb)
+
+Nå også på arabisk
+På arabisk fra høyre mot venstre
+Si neste på arabisk for å gå videre
+
+### 앱스토어 (Nederlands) (nl)
+
+Nu ook in het Arabisch
+In het Arabisch van rechts naar links
+Zeg volgende in het Arabisch en ga door
+
+### 앱스토어 (Polski) (pl)
+
+Teraz także po arabsku
+Po arabsku od prawej do lewej
+Powiedz dalej po arabsku i idź dalej
+
+### 앱스토어 (Svenska) (sv)
+
+Nu även på arabiska
+På arabiska från höger till vänster
+Säg nästa på arabiska för att gå vidare
+
+### 앱스토어 (Türkçe) (tr)
+
+Artık Arapça da var
+Arapçada ekran sağdan sola akar
+Arapça ileri deyince sonraki adıma geçer
+
+### 앱스토어 (아랍어)
+
+أصبح التطبيق متاحًا باللغة العربية
+واجهة تُقرأ من اليمين إلى اليسار
+قل التالي لتنتقل إلى الخطوة التالية
+
 ## 1.1.1
 
 ### 앱스토어 (한국어) (ko)
