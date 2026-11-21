@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """App Store 크리에이티브 자산(제품 페이지 헤더 · 검색 결과) 생성: HTML → 헤드리스 Chrome.
 
 사용법: python3 scripts/make_creative_assets.py [언어 ...]     (없으면 전부)
@@ -57,6 +58,7 @@ SEARCH = {
     "pl": ("Minutnik kuchenny", "Dwa garnki,<br>nic nie umknie", "Zadanie na teraz i czas każdego garnka jednym spojrzeniem"),
     "sv": ("Kökstimer", "Två grytor,<br>inget glöms bort", "Uppgiften just nu och varje grytas tid, med en blick"),
     "tr": ("Mutfak zamanlayıcı", "İki tencere,<br>hiçbiri unutulmaz", "Şimdiki iş ve her tencerenin süresi tek bakışta"),
+    "ar": ("مؤقت طبخ", "قدران معًا<br>ولا يفوتك شيء", "مهمتك الآن ووقت كل قدر بنظرة واحدة"),
 }
 
 # 헤더는 한 가지 약속: 면 삶는 그사이에 소스까지(앱의 부제 문장).
@@ -85,7 +87,11 @@ HEADER = {
     "pl": ("Minutnik kuchenny", "Gdy makaron się gotuje,<br>sos też się robi"),
     "sv": ("Kökstimer", "Medan pastan kokar<br>blir såsen klar"),
     "tr": ("Mutfak zamanlayıcı", "Makarna kaynarken<br>sos da hazır olur"),
+    "ar": ("مؤقت طبخ", "الصلصة تجهز<br>بينما تُسلق الباستا"),
 }
+
+# 오른쪽에서 왼쪽으로 쓰는 언어. 검색 결과는 글과 기기 자리를 좌우로 바꾼다(글이 읽기 시작하는 오른쪽에).
+RTL = {"ar"}
 
 # ⚠️ 바탕 · 글자색은 앱 팔레트(Geusaie/Theme.swift)와 같다: cream · ink · terracotta.
 BASE_CSS = """
@@ -171,12 +177,16 @@ def search_html(lang):
     img = shot(lang, "ipad-02-cook.png", "ipad-02-cook-portrait.png")
     pw = 1300
     left = l + col + 60
+    text_left = l
+    if lang in RTL:
+        left = W - left - pw
+        text_left = r - col
     return f"""
 <div class="glow" style="left:{left - 200}px;top:500px;width:1800px;height:1800px;background:rgba(255,196,58,.22)"></div>
 <div class="glow" style="left:{l - 700}px;top:{t - 400}px;width:1500px;height:1100px;background:rgba(255,90,60,.10)"></div>
 {dots([(3500, 260, 120, 0, .9), (3620, 470, 70, 1, .9), (330, 2120, 110, 2, .85), (560, 2330, 70, 0, .85)])}
 {ipad(img, left, t - 330, pw, 0)}
-<div class="text" style="left:{l}px;top:{t}px;width:{col}px;height:{sh}px">
+<div class="text" style="left:{text_left}px;top:{t}px;width:{col}px;height:{sh}px">
   <div class="eyebrow" style="font-size:96px">{eyebrow}</div>
   <div class="headline" data-max="230" data-min="130" style="margin-top:40px">{headline}</div>
   <div class="sub" style="font-size:80px;margin-top:56px">{sub}</div>
@@ -243,7 +253,8 @@ def chrome(args, log, done, timeout=300):
 def render(lang, kind):
     W, H, _ = SPEC[kind]
     body = search_html(lang) if kind == "search" else header_html(lang)
-    page = (f'<!doctype html><html lang="{html_lang(lang)}"><head><meta charset="utf-8"><style>'
+    rtl = ' dir="rtl"' if lang in RTL else ""
+    page = (f'<!doctype html><html lang="{html_lang(lang)}"{rtl}><head><meta charset="utf-8"><style>'
             f'{BASE_CSS % {"W": W, "H": H}}</style></head><body>{body}{FIT_JS}</body></html>')
     html_path = pathlib.Path(tempfile.gettempdir()) / f"geusaie-creative-{lang}-{kind}.html"
     html_path.write_text(page, encoding="utf-8")
