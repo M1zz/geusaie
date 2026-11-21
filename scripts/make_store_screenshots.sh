@@ -23,7 +23,7 @@ locale_of() {
   case $1 in
     en) echo en_US;; en-GB) echo en_GB;; zh-Hans) echo zh_CN;; zh-Hant) echo zh_TW;; pt-BR) echo pt_BR;;
     ja) echo ja_JP;; ko) echo ko_KR;; cs) echo cs_CZ;; da) echo da_DK;; el) echo el_GR;; nb) echo nb_NO;;
-    sv) echo sv_SE;; vi) echo vi_VN;; *) echo "$1_$(echo "$1" | tr a-z A-Z)";;
+    sv) echo sv_SE;; vi) echo vi_VN;; ar) echo ar_SA;; *) echo "$1_$(echo "$1" | tr a-z A-Z)";;
   esac
 }
 
