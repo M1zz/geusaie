@@ -123,7 +123,7 @@ final class VoiceCue: ObservableObject {
                    "de": "de-DE", "fr": "fr-FR", "it": "it-IT", "pt-BR": "pt-BR", "th": "th-TH",
                    "vi": "vi-VN", "cs": "cs-CZ", "da": "da-DK", "el": "el-GR", "fi": "fi-FI",
                    "id": "id-ID", "nb": "nb-NO", "nl": "nl-NL", "pl": "pl-PL", "sv": "sv-SE",
-                   "tr": "tr-TR"]
+                   "tr": "tr-TR", "ar": "ar-SA"]
         return map[language] ?? map[String(language.prefix(2))] ?? "ko-KR"
     }
 
@@ -141,6 +141,7 @@ final class VoiceCue: ObservableObject {
             "cs": ["další"], "da": ["næste"], "el": ["επόμενο"], "fi": ["seuraava"],
             "id": ["berikutnya", "lanjut"], "nb": ["neste"], "nl": ["volgende"],
             "pl": ["dalej", "następn"], "sv": ["nästa"], "tr": ["ileri", "sonraki"],
+            "ar": ["التالي", "تالي", "بعده"],
         ]
         return words[language] ?? words[String(language.prefix(2))] ?? ["다음"]
     }

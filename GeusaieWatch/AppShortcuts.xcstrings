@@ -146,6 +146,12 @@
             "state" : "translated",
             "value" : "${applicationName} 下一步"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} الخطوة التالية"
+          }
         }
       }
     }

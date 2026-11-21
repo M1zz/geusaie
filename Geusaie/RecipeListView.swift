@@ -309,7 +309,7 @@ struct RecipeCard: View {
         .buttonStyle(.plain)
         .accessibilityAddTraits(isSelected ? .isSelected : [])
         // 이모지·재생 아이콘을 따로 읽지 않고 한 문장으로
-        .accessibilityLabel(String(localized: "\(recipe.name), 약 \(Int((Double(recipe.estimatedSeconds) / 60).rounded()))분, 냄비 \(recipe.potCount)개"))
+        .accessibilityLabel(String(localized: "\(recipe.name), 약 \(Int((Double(recipe.estimatedSeconds) / 60).rounded()))분, 냄비 \(recipe.potCount)개", locale: .app))
         .accessibilityHint(locked ? String(localized: "잠김. 그사이에 Pro에서 열려요") : String(localized: "조리 화면을 엽니다"))
         // 음성 명령은 요리 이름만 말해도 열리게
         .accessibilityInputLabels([Text(recipe.name)])

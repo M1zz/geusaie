@@ -164,7 +164,7 @@ func progressivePhrase(_ step: RecipeStep) -> String {
 func koreanDuration(_ seconds: Int) -> String {
     let m = seconds / 60
     let s = seconds % 60
-    if m > 0 && s > 0 { return String(localized: "\(m)분 \(s)초") }
-    if m > 0 { return String(localized: "\(m)분") }
-    return String(localized: "\(s)초")
+    if m > 0 && s > 0 { return String(localized: "\(m)분 \(s)초", locale: .app) }
+    if m > 0 { return String(localized: "\(m)분", locale: .app) }
+    return String(localized: "\(s)초", locale: .app)
 }

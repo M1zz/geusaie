@@ -335,6 +335,8 @@ private struct RecipeSneakPeek: View {
                         }
                     }
                     .frame(height: 14)
+                    // 시간 축이라 아랍어에서도 왼쪽에서 오른쪽으로 (조리 화면 타임라인과 같게)
+                    .environment(\.layoutDirection, .leftToRight)
                 }
             }
         }

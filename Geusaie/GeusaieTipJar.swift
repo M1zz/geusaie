@@ -21,6 +21,7 @@ enum GeusaieTipMoments {
         cooks.filter { done >= $0 }.map { threshold in
             LeeoTipMoment(id: "cooks.\(threshold)",
                           message: String(localized: "지금까지 요리 \(done)번을 끝까지 마쳤어요",
+                                          locale: .app,
                                           comment: "Tip ask card: how many dishes the person has cooked to the end with the app"))
         }
     }

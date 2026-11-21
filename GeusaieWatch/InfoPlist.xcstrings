@@ -146,6 +146,12 @@
             "state" : "translated",
             "value" : "Geusaie"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
         }
       }
     }

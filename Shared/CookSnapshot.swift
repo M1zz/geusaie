@@ -66,3 +66,17 @@ enum CookLink {
         return try? JSONDecoder().decode(CookSnapshot.self, from: data)
     }
 }
+
+// MARK: - 숫자는 0-9 로
+
+extension Locale {
+    /// 화면에 쓰는 로케일. 아랍어에서는 숫자를 0-9 로 맞춘다 — 사우디 기기는 ١٢٣ 이 기본이라
+    /// 타이머(0-9 로 그린다)와 "١٢ دقيقة" 같은 글이 한 화면에 섞였다. 다른 언어는 기기 그대로.
+    static let app: Locale = {
+        let current = Locale.current
+        guard Bundle.main.preferredLocalizations.first == "ar" else { return current }
+        var parts = Locale.Components(locale: current)
+        parts.numberingSystem = Locale.NumberingSystem("latn")
+        return Locale(components: parts)
+    }()
+}

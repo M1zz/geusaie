@@ -96,6 +96,7 @@ struct PotComplication: Widget {
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: "PotTimer", provider: PotProvider()) { entry in
             PotComplicationView(entry: entry)
+                .environment(\.locale, .app)
                 .containerBackground(.fill.tertiary, for: .widget)
         }
         .configurationDisplayName("냄비 남은 시간")

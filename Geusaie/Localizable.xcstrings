@@ -146,6 +146,12 @@
             "state" : "translated",
             "value" : "只聽「下一步」這個詞，不會儲存任何聲音"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يلتقط كلمة «التالي» فقط، ولا يحفظ أي صوت"
+          }
         }
       }
     },
@@ -293,6 +299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ — 現在就做"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@ — حان وقتها الآن"
           }
         }
       }
@@ -442,6 +454,12 @@
             "state" : "translated",
             "value" : "計時結束：%@ %@"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتهى الوقت: %@ %@"
+          }
         }
       }
     },
@@ -589,6 +607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@，還剩 %@"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@، يتبقى %@"
           }
         }
       }
@@ -738,6 +762,12 @@
             "state" : "translated",
             "value" : "%@，不能拖"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@، لا يحتمل التأجيل"
+          }
         }
       }
     },
@@ -885,6 +915,102 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@，約 %lld 分鐘，%lld 個鍋子"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@، حوالي %#@min@، %#@pots@"
+          },
+          "substitutions" : {
+            "min" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقيقة"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "دقيقة واحدة"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "دقيقتان"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقائق"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقيقة"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقيقة"
+                    }
+                  }
+                }
+              }
+            },
+            "pots" : {
+              "argNum" : 3,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg قدر"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "قدر واحد"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "قدران"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg قدور"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg قدرًا"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg قدر"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -1034,6 +1160,48 @@
             "state" : "translated",
             "value" : "%lld 分鐘"
           }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقيقة"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دقيقة واحدة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دقيقتان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقائق"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقيقة"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقيقة"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -1181,6 +1349,102 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld 分 %lld 秒"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%#@min@ و%#@sec@"
+          },
+          "substitutions" : {
+            "min" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقيقة"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "دقيقة واحدة"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "دقيقتان"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقائق"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقيقة"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقيقة"
+                    }
+                  }
+                }
+              }
+            },
+            "sec" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg ثانية"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "ثانية واحدة"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "ثانيتان"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg ثوانٍ"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg ثانية"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg ثانية"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -1330,6 +1594,48 @@
             "state" : "translated",
             "value" : "%lld 秒"
           }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ثانية"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "ثانية واحدة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "ثانيتان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ثوانٍ"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ثانية"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ثانية"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -1477,6 +1783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "少煮 1 分鐘 — 剩下的在醬汁裡煮熟"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أقل بدقيقة — تكمل نضجها في الصلصة"
           }
         }
       }
@@ -1627,6 +1939,12 @@
             "state" : "translated",
             "value" : "VoiceOver 會不遺漏地、依合適的順序朗讀每個鍋子的時間和要做的事。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يقرأ VoiceOver وقت كل قدر وكل مهمة كاملة وبالترتيب الصحيح."
+          }
         }
       }
     },
@@ -1776,6 +2094,12 @@
             "state" : "translated",
             "value" : "更好用的 VoiceOver"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دعم أفضل لـ VoiceOver"
+          }
         }
       }
     },
@@ -1923,6 +2247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在煮水"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الماء على النار حتى يغلي"
           }
         }
       }
@@ -2072,6 +2402,12 @@
             "state" : "translated",
             "value" : "正在煮麵"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الباستا تُسلق الآن"
+          }
         }
       }
     },
@@ -2219,6 +2555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在煮水"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الماء على النار حتى يغلي"
           }
         }
       }
@@ -2368,6 +2710,12 @@
             "state" : "translated",
             "value" : "正在煮麵"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الباستا تُسلق الآن"
+          }
         }
       }
     },
@@ -2515,6 +2863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在熬鮮奶油"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكريمة تُطهى على نار هادئة"
           }
         }
       }
@@ -2664,6 +3018,12 @@
             "state" : "translated",
             "value" : "變成褐色就會發苦 — 顏色一變深就離火"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الثوم إذا اسمرّ صار مُرًّا — ارفعه عن النار حين يتغيّر لونه"
+          }
         }
       }
     },
@@ -2811,6 +3171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "快好了"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أوشكت على الانتهاء"
           }
         }
       }
@@ -2960,6 +3326,12 @@
             "state" : "translated",
             "value" : "略過"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطي"
+          }
         }
       }
     },
@@ -3107,6 +3479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把撈出的麵放進醬汁，煮 1 分鐘"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضع الباستا المصفّاة في الصلصة لمدة دقيقة"
           }
         }
       }
@@ -3256,6 +3634,12 @@
             "state" : "translated",
             "value" : "逆著纖維切會更快變軟"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التقطيع عكس الألياف يجعله يطرى أسرع"
+          }
         }
       }
     },
@@ -3403,6 +3787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "繼續烹飪"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متابعة الطبخ"
           }
         }
       }
@@ -3552,6 +3942,12 @@
             "state" : "translated",
             "value" : "開啟所選料理的烹飪畫面。點一下開始後計時器就會運作。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يفتح شاشة الطبخ للطبق الذي تختاره، وتبدأ المؤقتات عندما تضغط «ابدأ»."
+          }
         }
       }
     },
@@ -3700,6 +4096,12 @@
             "state" : "translated",
             "value" : "切成細末"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افرمه ناعمًا"
+          }
         }
       }
     },
@@ -3844,6 +4246,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -3996,6 +4404,12 @@
             "state" : "translated",
             "value" : "字級"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حجم النص"
+          }
         }
       }
     },
@@ -4145,6 +4559,12 @@
             "state" : "translated",
             "value" : "調大裝置字級後，料理列表和畫面會重新排版，不會被截斷。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند تكبير النص في جهازك تُعاد ترتيب قوائم الوصفات والشاشات بدل أن تنقطع."
+          }
         }
       }
     },
@@ -4292,6 +4712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "關閉"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إيقاف"
           }
         }
       }
@@ -4441,6 +4867,12 @@
             "state" : "translated",
             "value" : "煮水的時候，把備料做好"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جهّز مهام التقطيع والتحضير أثناء الغليان"
+          }
         }
       }
     },
@@ -4588,6 +5020,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "煮水的時候，把洋蔥和大蒜處理好"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قشّر البصل والثوم وجهّزهما أثناء الغليان"
           }
         }
       }
@@ -4737,6 +5175,12 @@
             "state" : "translated",
             "value" : "水開後下麵"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف الباستا عند الغليان"
+          }
         }
       }
     },
@@ -4884,6 +5328,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不要煮滾"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا تدعها تغلي"
           }
         }
       }
@@ -5033,6 +5483,12 @@
             "state" : "translated",
             "value" : "做完後請告訴我"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أخبرني حين تنتهي"
+          }
         }
       }
     },
@@ -5180,6 +5636,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已完成"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتهى"
           }
         }
       }
@@ -5329,6 +5791,12 @@
             "state" : "translated",
             "value" : "把剩下的起司和胡椒放在旁邊備用"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جهّز بقية الجبن والفلفل الأسود بجانبك"
+          }
         }
       }
     },
@@ -5476,6 +5944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我的手"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يداك"
           }
         }
       }
@@ -5625,6 +6099,12 @@
             "state" : "translated",
             "value" : "正在操作"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بين يديك الآن"
+          }
         }
       }
     },
@@ -5772,6 +6252,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "兩個鍋子，一個畫面"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قدران في شاشة واحدة"
           }
         }
       }
@@ -5921,6 +6407,12 @@
             "state" : "translated",
             "value" : "鍋子裡的東西好了會通知你。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سننبّهك عندما يجهز أي قدر."
+          }
         }
       }
     },
@@ -6068,6 +6560,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "從下鍋那一刻起煮 12 分鐘"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12 دقيقة من لحظة وضعها"
           }
         }
       }
@@ -6217,6 +6715,12 @@
             "state" : "translated",
             "value" : "下鍋後馬上攪一下，避免黏在一起"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حرّكها مرة فور وضعها حتى لا تلتصق"
+          }
         }
       }
     },
@@ -6364,6 +6868,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "黏鍋的話加一匙水"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إذا التصقت فأضف ملعقة ماء"
           }
         }
       }
@@ -6513,6 +7023,12 @@
             "state" : "translated",
             "value" : "已經晚了 · 現在就做"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تأخرت · نفّذها الآن"
+          }
         }
       }
     },
@@ -6660,6 +7176,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已用完"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتهيت من هذا القدر"
           }
         }
       }
@@ -6809,6 +7331,12 @@
             "state" : "translated",
             "value" : "做完後，請說「下一步」"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عندما تنتهي قل «التالي»"
+          }
         }
       }
     },
@@ -6956,6 +7484,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "做完了？說「下一步」"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتهيت؟ قل «التالي»"
           }
         }
       }
@@ -7105,6 +7639,12 @@
             "state" : "translated",
             "value" : "做完後，請說「下一步」"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عندما تنتهي قل «التالي»"
+          }
         }
       }
     },
@@ -7252,6 +7792,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "下一步"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التالي"
           }
         }
       }
@@ -7401,6 +7947,12 @@
             "state" : "translated",
             "value" : "下一步 · %@ %@"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التالي · %@ %@"
+          }
         }
       }
     },
@@ -7548,6 +8100,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "加入蒜末和胡椒，炒 30 秒"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف الثوم المفروم والفلفل الأسود لمدة 30 ثانية"
           }
         }
       }
@@ -7698,6 +8256,12 @@
             "state" : "translated",
             "value" : "深色模式"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوضع الداكن"
+          }
         }
       }
     },
@@ -7845,6 +8409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "關閉"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إغلاق"
           }
         }
       }
@@ -7995,6 +8565,12 @@
             "state" : "translated",
             "value" : "即使調高了對比，或不容易分辨顏色，也能看清每個鍋子的狀態。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعرف حالة كل قدر حتى مع زيادة التباين أو صعوبة التمييز بين الألوان."
+          }
         }
       }
     },
@@ -8144,6 +8720,12 @@
             "state" : "translated",
             "value" : "更多語言"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لغات أكثر"
+          }
         }
       }
     },
@@ -8291,6 +8873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更大"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أكبر"
           }
         }
       }
@@ -8440,6 +9028,12 @@
             "state" : "translated",
             "value" : "說明"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مساعدة"
+          }
         }
       }
     },
@@ -8587,6 +9181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "蓋上鍋蓋會煮得更快"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الغطاء يجعل الماء يغلي أسرع"
           }
         }
       }
@@ -8736,6 +9336,12 @@
             "state" : "translated",
             "value" : "把 3 瓣蒜切成細末"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افرم 3 فصوص ثوم ناعمًا"
+          }
         }
       }
     },
@@ -8883,6 +9489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "6 瓣蒜切成 1～2 公釐厚"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قطّع 6 فصوص ثوم شرائح بسمك 1–2 مم"
           }
         }
       }
@@ -9032,6 +9644,12 @@
             "state" : "translated",
             "value" : "蒜片邊緣變成淡金色時"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين تصبح أطراف الثوم ذهبية فاتحة"
+          }
         }
       }
     },
@@ -9179,6 +9797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把蒜切碎"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فرم الثوم"
           }
         }
       }
@@ -9328,6 +9952,12 @@
             "state" : "translated",
             "value" : "把蒜切成薄片"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقطيع الثوم شرائح رفيعة"
+          }
         }
       }
     },
@@ -9475,6 +10105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "蒜香飄出來時"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين تفوح رائحة الثوم"
           }
         }
       }
@@ -9624,6 +10260,12 @@
             "state" : "translated",
             "value" : "用油炒蒜"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تشويح الثوم بالزيت"
+          }
         }
       }
     },
@@ -9771,6 +10413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "加入大蒜和胡椒"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة الثوم والفلفل الأسود"
           }
         }
       }
@@ -9920,6 +10568,12 @@
             "state" : "translated",
             "value" : "大蒜很容易焦，要不停翻炒"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الثوم يحترق بسرعة، فواصل التحريك"
+          }
         }
       }
     },
@@ -10067,6 +10721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "收尾前先做好會更輕鬆"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأسهل أن تنجزها قبل اللمسات الأخيرة"
           }
         }
       }
@@ -10216,6 +10876,12 @@
             "state" : "translated",
             "value" : "關閉麥克風"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إيقاف الميكروفون"
+          }
         }
       }
     },
@@ -10363,6 +11029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "開啟麥克風"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تشغيل الميكروفون"
           }
         }
       }
@@ -10512,6 +11184,12 @@
             "state" : "translated",
             "value" : "麥克風已開啟 · 聆聽中"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الميكروفون يعمل · يستمع"
+          }
         }
       }
     },
@@ -10659,6 +11337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "麥克風已開啟，正在聽「下一步」"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الميكروفون يعمل، وينتظر كلمة التالي"
           }
         }
       }
@@ -10808,6 +11492,12 @@
             "state" : "translated",
             "value" : "用語音換下一步"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التنقل بالصوت"
+          }
         }
       }
     },
@@ -10955,6 +11645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "站遠一點也看得清楚"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "واضح حتى من بعيد"
           }
         }
       }
@@ -11104,6 +11800,12 @@
             "state" : "translated",
             "value" : "寄信詢問"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "راسلنا بالبريد"
+          }
         }
       }
     },
@@ -11251,6 +11953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "下麵拌勻，收尾"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف الباستا وقلّبها للمسة الأخيرة"
           }
         }
       }
@@ -11400,6 +12108,12 @@
             "state" : "translated",
             "value" : "煮麵"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سلق الباستا"
+          }
         }
       }
     },
@@ -11547,6 +12261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "煮義大利麵的同時，把醬汁也做好。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تجهز الصلصة بينما تُسلق الباستا."
           }
         }
       }
@@ -11696,6 +12416,12 @@
             "state" : "translated",
             "value" : "煮義大利麵的同時，把醬汁也做好。每個鍋子都會分別顯示正在做什麼、還剩多少時間。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تجهز الصلصة بينما تُسلق الباستا. لكل قدر ما يجري فيه الآن وكم بقي له، كلٌّ على حدة."
+          }
         }
       }
     },
@@ -11843,6 +12569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "煮麵鍋"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قدر الباستا"
           }
         }
       }
@@ -11992,6 +12724,12 @@
             "state" : "translated",
             "value" : "留下煮麵水，把麵撈出來"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقلاة الصلصة"
+          }
         }
       }
     },
@@ -12139,6 +12877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "加煮麵水，乳化並拌勻"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ارفع الباستا واحتفظ بماء السلق"
           }
         }
       }
@@ -12288,6 +13032,12 @@
             "state" : "translated",
             "value" : "半杯煮麵水，用力甩鍋使其乳化"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف ماء الباستا وقلّب حتى تتجانس الصلصة"
+          }
         }
       }
     },
@@ -12435,6 +13185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "倒入半杯煮麵水，轉大火"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نصف كوب من ماء الباستا، وقلّب بقوة حتى تتجانس"
           }
         }
       }
@@ -12584,6 +13340,12 @@
             "state" : "translated",
             "value" : "先留一杯煮麵水！"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احتفظ بكوب من ماء الباستا أولًا!"
+          }
         }
       }
     },
@@ -12731,6 +13493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先留一杯煮麵水！"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احتفظ بكوب من ماء الباستا أولًا!"
           }
         }
       }
@@ -12880,6 +13648,12 @@
             "state" : "translated",
             "value" : "先舀出一杯（200 毫升）煮麵水"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اغرف كوبًا (200 مل) من ماء الباستا أولًا"
+          }
         }
       }
     },
@@ -13027,6 +13801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先舀出一杯（200 毫升）煮麵水"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اغرف كوبًا (200 مل) من ماء الباستا أولًا"
           }
         }
       }
@@ -13176,6 +13956,12 @@
             "state" : "translated",
             "value" : "用煮麵水調整濃稠度 — 以能緩緩流動為準"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضبط القوام بماء الباستا — حتى تنساب ببطء"
+          }
         }
       }
     },
@@ -13323,6 +14109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用煮麵水調整濃稠度，在醬汁裡再煮 1 分鐘"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خفّفها بماء الباستا، ودقيقة أخرى في الصلصة"
           }
         }
       }
@@ -13472,6 +14264,12 @@
             "state" : "translated",
             "value" : "麵不會等人，備料卻可以等"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الباستا لا تنتظرك، أما التقطيع فينتظر"
+          }
         }
       }
     },
@@ -13619,6 +14417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "麵不要甩乾，帶著水直接放進平底鍋"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا تنفض الماء عنها — انقلها إلى المقلاة وهي رطبة"
           }
         }
       }
@@ -13768,6 +14572,12 @@
             "state" : "translated",
             "value" : "不能拖"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يحتمل التأجيل"
+          }
         }
       }
     },
@@ -13915,6 +14725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "聯絡我們"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تواصل معنا"
           }
         }
       }
@@ -14064,6 +14880,12 @@
             "state" : "translated",
             "value" : "水 2 公升，鹽 2 大匙"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لتران من الماء وملعقتان كبيرتان من الملح"
+          }
         }
       }
     },
@@ -14211,6 +15033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把水煮開"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غلي الماء"
           }
         }
       }
@@ -14360,6 +15188,12 @@
             "state" : "translated",
             "value" : "水要多，鹽要放得像海水一樣鹹 — 大約煮 5 分鐘"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ماء وفير، وملح كماء البحر — يغلي في نحو 5 دقائق"
+          }
         }
       }
     },
@@ -14507,6 +15341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把水煮上，開大火"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضع الماء على نار عالية"
           }
         }
       }
@@ -14656,6 +15496,12 @@
             "state" : "translated",
             "value" : "這件事不能拖"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هذه لا تحتمل التأجيل"
+          }
         }
       }
     },
@@ -14804,6 +15650,12 @@
             "state" : "translated",
             "value" : "鍋底不斷冒出大氣泡時"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين تتصاعد فقاعات كبيرة من القاع باستمرار"
+          }
         }
       }
     },
@@ -14951,6 +15803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "點一下按鈕，或手濕的時候直接說「下一步」。鍋子好了會用通知提醒你。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط الزر، أو قل «التالي» إذا كانت يداك مبللتين. وسننبّهك بإشعار عندما يجهز أي قدر."
           }
         }
       }
@@ -15101,6 +15959,12 @@
             "state" : "translated",
             "value" : "更易讀的顏色與對比"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ألوان وتباين أريح للعين"
+          }
         }
       }
     },
@@ -15249,6 +16113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "可以在 App 內查看對你所送出意見的回覆。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقرأ ردودنا على ملاحظاتك داخل التطبيق مباشرة."
           }
         }
       }
@@ -15399,6 +16269,12 @@
             "state" : "translated",
             "value" : "收到意見回覆"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ردود على ملاحظاتك"
+          }
         }
       }
     },
@@ -15546,6 +16422,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "快來看看"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعال وألقِ نظرة"
           }
         }
       }
@@ -15695,6 +16577,12 @@
             "state" : "translated",
             "value" : "標準"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عادي"
+          }
         }
       }
     },
@@ -15842,6 +16730,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "通常 %@"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عادةً %@"
           }
         }
       }
@@ -15991,6 +16885,12 @@
             "state" : "translated",
             "value" : "比包裝上寫的時間少煮 1 分鐘 — 最後在平底鍋裡收尾"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أقل بدقيقة مما على الكيس — تكمل نضجها في المقلاة"
+          }
         }
       }
     },
@@ -16138,6 +17038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "呈扇形散開下鍋 — 從下鍋那一刻起煮 8 分鐘"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افردها كالمروحة وأنت تضعها — 8 دقائق من لحظة نزولها في الماء"
           }
         }
       }
@@ -16287,6 +17193,12 @@
             "state" : "translated",
             "value" : "關火，加入巴西里和起司"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أطفئ النار وأضف البقدونس والجبن"
+          }
         }
       }
     },
@@ -16434,6 +17346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "火要小 — 煮滾的話會油水分離"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نار هادئة — الغليان يفصل الصلصة"
           }
         }
       }
@@ -16583,6 +17501,12 @@
             "state" : "translated",
             "value" : "空著"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فارغ"
+          }
         }
       }
     },
@@ -16730,6 +17654,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再看一次使用方式"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الدليل مرة أخرى"
           }
         }
       }
@@ -16879,6 +17809,12 @@
             "state" : "translated",
             "value" : "顏色就是緊急程度"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللون يدل على الاستعجال"
+          }
         }
       }
     },
@@ -17026,6 +17962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "顏色變深、散發出香味時"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين يغمق اللون وتفوح رائحة محمّصة"
           }
         }
       }
@@ -17175,6 +18117,12 @@
             "state" : "translated",
             "value" : "先秤好 200 毫升鮮奶油和 2 大匙番茄糊"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جهّز مسبقًا 200 مل كريمة طبخ وملعقتين كبيرتين من معجون الطماطم"
+          }
         }
       }
     },
@@ -17322,6 +18270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "倒入 200 毫升鮮奶油，攪拌均勻"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسكب 200 مل من كريمة الطبخ وحرّك جيدًا"
           }
         }
       }
@@ -17471,6 +18425,12 @@
             "state" : "translated",
             "value" : "拌勻後調小火，收汁約 1 分 30 秒"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حرّك واخفض النار، واتركها تتكثف دقيقة ونصفًا"
+          }
         }
       }
     },
@@ -17618,6 +18578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "設定"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإعدادات"
           }
         }
       }
@@ -17767,6 +18733,12 @@
             "state" : "translated",
             "value" : "鹽要多放 — 大約煮 5 分鐘"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملح وفير — يغلي في نحو 5 دقائق"
+          }
         }
       }
     },
@@ -17914,6 +18886,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "鹽和胡椒也放在伸手可及的地方"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملح والفلفل الأسود في متناول يدك"
           }
         }
       }
@@ -18063,6 +19041,12 @@
             "state" : "translated",
             "value" : "在開始做醬汁前先做好會更輕鬆"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأسهل أن تنجزها قبل أن تبدأ الصلصة"
+          }
         }
       }
     },
@@ -18210,6 +19194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "醬汁均勻裹在麵上時"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين تغلّف الصلصة الباستا بالتساوي"
           }
         }
       }
@@ -18359,6 +19349,12 @@
             "state" : "translated",
             "value" : "醬汁變得混白濃稠、裹在麵上時"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين تصبح الصلصة كريمية وتلتصق بالباستا"
+          }
         }
       }
     },
@@ -18506,6 +19502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "醬汁從麵起鍋的那一刻往回倒推著安排"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "توقيت الصلصة يُحسب عكسيًا من لحظة خروج الباستا"
           }
         }
       }
@@ -18655,6 +19657,12 @@
             "state" : "translated",
             "value" : "醬汁鍋"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقلاة الصلصة"
+          }
         }
       }
     },
@@ -18802,6 +19810,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "手上的事都做完了 — 只等鍋子的時間了"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتهى دورك — انتظر القدور فقط"
           }
         }
       }
@@ -18951,6 +19965,12 @@
             "state" : "translated",
             "value" : "手濕的時候，說聲「下一步」試試看。不用碰螢幕就能進到下一件事。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يداك مبللتان؟ قل «التالي» فحسب، وتنتقل إلى المهمة التالية دون أن تلمس الشاشة."
+          }
         }
       }
     },
@@ -19098,6 +20118,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "義大利麵 180 公克（2 人份），大蒜 6 瓣，橄欖油 6 大匙"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 غ سباغيتي (لشخصين)، 6 فصوص ثوم، 6 ملاعق كبيرة زيت زيتون"
           }
         }
       }
@@ -19247,6 +20273,12 @@
             "state" : "translated",
             "value" : "把 180 公克義大利麵呈扇形散開下鍋"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افرد 180 غ من السباغيتي كالمروحة وأنت تضعها"
+          }
         }
       }
     },
@@ -19394,6 +20426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "可以開始收尾了"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك البدء في اللمسات الأخيرة"
           }
         }
       }
@@ -19543,6 +20581,12 @@
             "state" : "translated",
             "value" : "開始使用"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ"
+          }
         }
       }
     },
@@ -19690,6 +20734,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "開始後先做這件事"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أول ما تبدأ به"
           }
         }
       }
@@ -19839,6 +20889,12 @@
             "state" : "translated",
             "value" : "從剛才停下的地方繼續"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تابع من حيث توقفت"
+          }
         }
       }
     },
@@ -19986,6 +21042,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "點一下下方的「開始烹飪」，鍋子的計時就會開始"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط «ابدأ الطبخ» في الأسفل لتبدأ مؤقتات القدور"
           }
         }
       }
@@ -20136,6 +21198,12 @@
             "state" : "translated",
             "value" : "幫 iPad 連接鍵盤後，只按一個鍵就能進入下一步。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صِل لوحة مفاتيح بالـ iPad وانتقل إلى الخطوة التالية بضغطة مفتاح."
+          }
         }
       }
     },
@@ -20283,6 +21351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "極小的火微微冒泡 — 不要煮滾"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غليان خفيف جدًا — لا تدعها تغلي"
           }
         }
       }
@@ -20432,6 +21506,12 @@
             "state" : "translated",
             "value" : "用極小的火慢慢熬"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "على نار هادئة جدًا وببطء"
+          }
         }
       }
     },
@@ -20579,6 +21659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "特大"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأكبر"
           }
         }
       }
@@ -20728,6 +21814,12 @@
             "state" : "translated",
             "value" : "還沒到"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس بعد"
+          }
         }
       }
     },
@@ -20876,6 +21968,12 @@
             "state" : "translated",
             "value" : "還有未完成的步驟。現在停下的話，進度會遺失。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما زالت هناك خطوات متبقية. إذا توقفت الآن فسيضيع تقدّمك."
+          }
         }
       }
     },
@@ -21023,6 +22121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "蒜香橄欖油義大利麵"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أليو إي أوليو"
           }
         }
       }
@@ -21173,6 +22277,12 @@
             "state" : "translated",
             "value" : "讓 App 也能用英文使用。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم التطبيق كله بالإنجليزية."
+          }
         }
       }
     },
@@ -21320,6 +22430,102 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "約 %lld 分鐘 · %lld 個鍋子"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حوالي %#@min@ · %#@pots@"
+          },
+          "substitutions" : {
+            "min" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقيقة"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "دقيقة واحدة"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "دقيقتان"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقائق"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقيقة"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg دقيقة"
+                    }
+                  }
+                }
+              }
+            },
+            "pots" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg قدر"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "قدر واحد"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "قدران"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg قدور"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg قدرًا"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg قدر"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -21469,6 +22675,12 @@
             "state" : "translated",
             "value" : "小火！只炒到淡金黃色"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نار هادئة! حتى يصبح ذهبيًا فاتحًا فقط"
+          }
         }
       }
     },
@@ -21616,6 +22828,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "小火不停翻炒"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "واصل التحريك على نار هادئة"
           }
         }
       }
@@ -21765,6 +22983,12 @@
             "state" : "translated",
             "value" : "把 1/2 顆洋蔥切成細絲"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قطّع نصف بصلة شرائح رفيعة"
+          }
         }
       }
     },
@@ -21913,6 +23137,12 @@
             "state" : "translated",
             "value" : "炒洋蔥"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تشويح البصل"
+          }
         }
       }
     },
@@ -22060,6 +23290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "洋蔥切絲"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقطيع البصل شرائح"
           }
         }
       }
@@ -22210,6 +23446,12 @@
             "state" : "translated",
             "value" : "在昏暗的廚房裡，也能用不刺眼的深色畫面查看。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاشة داكنة لا تُبهر عينيك في المطبخ الخافت."
+          }
         }
       }
     },
@@ -22357,6 +23599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "什麼時候做都可以的事"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مهمة تُنجز في أي وقت"
           }
         }
       }
@@ -22507,6 +23755,12 @@
             "state" : "translated",
             "value" : "更新後第一次開啟時，告訴你有哪些新內容。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند فتح التطبيق أول مرة بعد التحديث تعرف ما الجديد."
+          }
         }
       }
     },
@@ -22656,6 +23910,12 @@
             "state" : "translated",
             "value" : "更新說明"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الجديد"
+          }
         }
       }
     },
@@ -22803,6 +24063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "時間很充裕"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوقت يكفي"
           }
         }
       }
@@ -22953,6 +24219,12 @@
             "state" : "translated",
             "value" : "除了英文，還會支援更多國家的語言。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم التطبيق بلغات أكثر غير الإنجليزية."
+          }
         }
       }
     },
@@ -23102,6 +24374,12 @@
             "state" : "translated",
             "value" : "支援英文"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دعم كامل للإنجليزية"
+          }
         }
       }
     },
@@ -23249,6 +24527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 大匙橄欖油炒洋蔥，中小火"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملعقتان كبيرتان زيت زيتون مع البصل على نار متوسطة إلى هادئة"
           }
         }
       }
@@ -23398,6 +24682,12 @@
             "state" : "translated",
             "value" : "6 大匙橄欖油，加蒜片和乾辣椒"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 ملاعق كبيرة زيت زيتون مع شرائح الثوم والشطة المجففة"
+          }
         }
       }
     },
@@ -23545,6 +24835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "完成"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم"
           }
         }
       }
@@ -23694,6 +24990,12 @@
             "state" : "translated",
             "value" : "預計完成時間"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وقت الانتهاء المتوقع"
+          }
         }
       }
     },
@@ -23841,6 +25143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "標記完成"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنهاء"
           }
         }
       }
@@ -23990,6 +25298,12 @@
             "state" : "translated",
             "value" : "要標記為完成嗎？"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تريد إنهاء هذا الطبق؟"
+          }
         }
       }
     },
@@ -24137,6 +25451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "完成囉 🍴 盛盤吧"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الطبق جاهز 🍴 حان وقت التقديم"
           }
         }
       }
@@ -24286,6 +25606,12 @@
             "state" : "translated",
             "value" : "料理"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الطبق"
+          }
         }
       }
     },
@@ -24434,6 +25760,12 @@
             "state" : "translated",
             "value" : "開始烹飪"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الطبخ"
+          }
         }
       }
     },
@@ -24581,6 +25913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "開啟料理"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افتح طبقًا"
           }
         }
       }
@@ -24731,6 +26069,12 @@
             "state" : "translated",
             "value" : "做菜時就算 App 被關閉，鍋子的計時和進度也會照常接上。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إذا أُغلق التطبيق أثناء الطبخ، يستمر وقت القدور وتقدّمك كما هما."
+          }
         }
       }
     },
@@ -24879,6 +26223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "減少動態效果"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقليل الحركة"
           }
         }
       }
@@ -25029,6 +26379,12 @@
             "state" : "translated",
             "value" : "開啟「減少動態效果」後，畫面效果會更平緩。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند تشغيل «تقليل الحركة» تصبح تأثيرات الشاشة أهدأ."
+          }
         }
       }
     },
@@ -25173,6 +26529,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram"
@@ -25325,6 +26687,12 @@
             "state" : "translated",
             "value" : "暫停"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إيقاف مؤقت"
+          }
         }
       }
     },
@@ -25474,6 +26842,12 @@
             "state" : "translated",
             "value" : "在主畫面上直接開始常做的料理。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ أطباقك المعتادة من الشاشة الرئيسية مباشرة."
+          }
         }
       }
     },
@@ -25621,6 +26995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "切細一點 — 不用急"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناعمًا — لا داعي للعجلة"
           }
         }
       }
@@ -25770,6 +27150,12 @@
             "state" : "translated",
             "value" : "繼續"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استئناف"
+          }
         }
       }
     },
@@ -25917,6 +27303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拿出食材，把平底鍋放上爐"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أخرج المكونات وضع المقلاة على النار"
           }
         }
       }
@@ -26066,6 +27458,12 @@
             "state" : "translated",
             "value" : "把食材放在一處"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل المكونات في مكان واحد"
+          }
         }
       }
     },
@@ -26213,6 +27611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "留一半收尾時用"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احتفظ بالنصف للمسة الأخيرة"
           }
         }
       }
@@ -26362,6 +27766,12 @@
             "state" : "translated",
             "value" : "溫盤子，準備盛盤"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دفّئ الأطباق واستعد للتقديم"
+          }
         }
       }
     },
@@ -26509,6 +27919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "盤子用熱水燙熱，再擦乾"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دفّئ الأطباق بالماء الساخن ثم جفّفها"
           }
         }
       }
@@ -26658,6 +28074,12 @@
             "state" : "translated",
             "value" : "用熱水把盤子燙熱"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دفّئ الأطباق بالماء الساخن"
+          }
         }
       }
     },
@@ -26805,6 +28227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "中止烹飪並離開"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أوقف الطبخ واخرج"
           }
         }
       }
@@ -26954,6 +28382,12 @@
             "state" : "translated",
             "value" : "開啟烹飪畫面"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يفتح شاشة الطبخ"
+          }
         }
       }
     },
@@ -27101,6 +28535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "如果把裝置立在流理台邊看，可以在這裡把字放得更大。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إذا أسندت جهازك على سطح المطبخ، يمكنك تكبير النص أكثر من هنا."
           }
         }
       }
@@ -27250,6 +28690,12 @@
             "state" : "translated",
             "value" : "要中止烹飪並離開嗎？"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تريد إيقاف الطبخ والخروج؟"
+          }
         }
       }
     },
@@ -27397,6 +28843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用刮刀劃過會留下短暫痕跡時"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين تترك الملعقة أثرًا يبقى لحظة"
           }
         }
       }
@@ -27546,6 +28998,12 @@
             "state" : "translated",
             "value" : "中止並離開"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أوقف واخرج"
+          }
         }
       }
     },
@@ -27693,6 +29151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "中小火炒到變軟"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "على نار متوسطة إلى هادئة حتى يطرى"
           }
         }
       }
@@ -27842,6 +29306,12 @@
             "state" : "translated",
             "value" : "現在"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الآن"
+          }
         }
       }
     },
@@ -27989,6 +29459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "現在 · 不能再拖"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الآن · لا تحتمل التأجيل"
           }
         }
       }
@@ -28138,6 +29614,12 @@
             "state" : "translated",
             "value" : "現在要做的事"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مهمتك الآن"
+          }
         }
       }
     },
@@ -28285,6 +29767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "現在要做的事 · 不用急"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مهمتك الآن · على مهلك"
           }
         }
       }
@@ -28687,6 +30175,58 @@
             "state" : "translated",
             "value" : "你已經從頭到尾做完了 %lld 道菜"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنهيت حتى الآن %#@n@ من البداية إلى النهاية"
+          },
+          "substitutions" : {
+            "n" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg طبق"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "طبقًا واحدًا"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "طبقين"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg أطباق"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg طبقًا"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg طبق"
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -28834,6 +30374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "支援"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الدعم"
           }
         }
       }
@@ -28983,6 +30529,12 @@
             "state" : "translated",
             "value" : "已用時間"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوقت المنقضي"
+          }
         }
       }
     },
@@ -29130,6 +30682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "參考 · %@"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المصدر · %@"
           }
         }
       }
@@ -29279,6 +30837,12 @@
             "state" : "translated",
             "value" : "慢慢來就好"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خذ وقتك"
+          }
         }
       }
     },
@@ -29426,6 +30990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "盡量切薄 — 不用急"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أرفع ما يمكن — لا داعي للعجلة"
           }
         }
       }
@@ -29575,6 +31145,12 @@
             "state" : "translated",
             "value" : "磨起司，秤量醬汁食材"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابشر الجبن وجهّز مقادير الصلصة"
+          }
         }
       }
     },
@@ -29722,6 +31298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "磨起司、溫盤子"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابشر الجبن ودفّئ الأطباق"
           }
         }
       }
@@ -29871,6 +31453,12 @@
             "state" : "translated",
             "value" : "刀放平，切薄一點 — 太厚的話裡面不熟，外面卻會焦"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أمِل السكين وقطّع رفيعًا — الشرائح السميكة تبقى نيئة من الداخل وتحترق من الخارج"
+          }
         }
       }
     },
@@ -30018,6 +31606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كبير"
           }
         }
       }
@@ -30167,6 +31761,12 @@
             "state" : "translated",
             "value" : "小火慢熬鮮奶油"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسبيك الكريمة على نار هادئة"
+          }
         }
       }
     },
@@ -30314,6 +31914,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "倒入鮮奶油，轉小火"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسكب الكريمة واخفض النار"
           }
         }
       }
@@ -30464,6 +32070,12 @@
             "state" : "translated",
             "value" : "配合大字體的畫面"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاشات تناسب النص الكبير"
+          }
         }
       }
     },
@@ -30611,6 +32223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不斷冒出大氣泡時"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين تتصاعد فقاعات كبيرة باستمرار"
           }
         }
       }
@@ -30761,6 +32379,12 @@
             "state" : "translated",
             "value" : "用鍵盤操作"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التحكم بلوحة المفاتيح"
+          }
         }
       }
     },
@@ -30908,6 +32532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "很容易焦，馬上進入下一步"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحترق بسهولة، فانتقل للتالي فورًا"
           }
         }
       }
@@ -31057,6 +32687,12 @@
             "state" : "translated",
             "value" : "計時器會被重置，進度也會遺失。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ستُعاد المؤقتات إلى البداية ويضيع تقدّمك."
+          }
         }
       }
     },
@@ -31204,6 +32840,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "時間軸 · 虛線表示可以延後的事"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخط الزمني · الخطوط المنقّطة مهام تحتمل التأجيل"
           }
         }
       }
@@ -31353,6 +32995,12 @@
             "state" : "translated",
             "value" : "紅色代表拖延的話麵會煮爛或燒焦。綠色是備料，等手空下來慢慢做就好。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأحمر مهمة إن أخّرتها تعجّنت الباستا أو احترق شيء. والأخضر تقطيع وتحضير، فأنجزه على مهلك حين تفرغ يداك."
+          }
         }
       }
     },
@@ -31500,6 +33148,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "番茄奶油義大利麵"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باستا الطماطم بالكريمة"
           }
         }
       }
@@ -31649,6 +33303,12 @@
             "state" : "translated",
             "value" : "番茄糊 2 大匙，鮮奶油 200 毫升"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملعقتان كبيرتان معجون طماطم، 200 مل كريمة طبخ"
+          }
         }
       }
     },
@@ -31796,6 +33456,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把 2 大匙番茄糊在鍋底抹開"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افرد ملعقتين كبيرتين من معجون الطماطم على قاع المقلاة"
           }
         }
       }
@@ -31945,6 +33611,12 @@
             "state" : "translated",
             "value" : "炒番茄糊"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحميص معجون الطماطم"
+          }
         }
       }
     },
@@ -32092,6 +33764,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "炒到透明、邊緣微黃時"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين يصبح البصل شفافًا وأطرافه ذهبية"
           }
         }
       }
@@ -32241,6 +33919,12 @@
             "state" : "translated",
             "value" : "把 30 公克帕瑪森起司磨好備用"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابشر 30 غ بارميجيانو"
+          }
         }
       }
     },
@@ -32388,6 +34072,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "帕瑪森起司 30 公克，橄欖油 2 大匙"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 غ بارميجيانو، ملعقتان كبيرتان زيت زيتون"
           }
         }
       }
@@ -32537,6 +34227,12 @@
             "state" : "translated",
             "value" : "把 30 公克帕瑪森起司磨成細末備用"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابشر 30 غ بارميجيانو ناعمًا"
+          }
         }
       }
     },
@@ -32684,6 +34380,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "義大利麵 180 公克 — 比包裝上寫的時間少煮 1 分鐘"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 غ باستا — اسلقها أقل بدقيقة مما على الكيس"
           }
         }
       }
@@ -32833,6 +34535,12 @@
             "state" : "translated",
             "value" : "義大利麵 180 公克（2 人份），洋蔥 1/2 顆，大蒜 3 瓣"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "180 غ باستا (لشخصين)، نصف بصلة، 3 فصوص ثوم"
+          }
         }
       }
     },
@@ -32980,6 +34688,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "也留一些巴西里收尾時用"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احتفظ ببعض البقدونس للمسة الأخيرة"
           }
         }
       }
@@ -33129,6 +34843,12 @@
             "state" : "translated",
             "value" : "巴西里只取葉子，粗切成碎"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افرم أوراق البقدونس فقط فرمًا خشنًا"
+          }
         }
       }
     },
@@ -33276,6 +34996,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "選一個大到能放下所有麵的平底鍋"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقلاة واسعة تتسع للباستا كلها"
           }
         }
       }
@@ -33425,6 +35151,12 @@
             "state" : "translated",
             "value" : "搖動平底鍋 30 秒 — 讓油和煮麵水融合"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هزّ المقلاة 30 ثانية حتى يمتزج الزيت بالماء"
+          }
         }
       }
     },
@@ -33572,6 +35304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "乾辣椒 2～3 根，巴西里少許，帕瑪森起司 30 公克"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2–3 حبات شطة مجففة، قليل من البقدونس، 30 غ بارميجيانو"
           }
         }
       }
@@ -33721,6 +35459,12 @@
             "state" : "translated",
             "value" : "2～3 根乾辣椒對半剝開，去掉籽"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اشطر 2–3 حبات شطة وانفض بذورها"
+          }
         }
       }
     },
@@ -33869,6 +35613,12 @@
             "state" : "translated",
             "value" : "切碎乾辣椒和巴西里"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فرم الشطة والبقدونس"
+          }
         }
       }
     },
@@ -34016,6 +35766,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "蒜片薄到能透光就夠了"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تكون رفيعة بما يكفي حين تشفّ الشرائح"
           }
         }
       }
@@ -34166,6 +35922,12 @@
             "state" : "translated",
             "value" : "可折疊 iPhone 畫面"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاشة iPhone القابل للطي"
+          }
         }
       }
     },
@@ -34315,6 +36077,12 @@
             "state" : "translated",
             "value" : "在可折疊 iPhone 的寬螢幕上，並排查看鍋子和要做的事。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاهد القدور والمهام جنبًا إلى جنب على الشاشة الواسعة لـ iPhone القابل للطي."
+          }
         }
       }
     },
@@ -34462,6 +36230,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把需要的食材放在一處"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل المكونات في مكان واحد"
           }
         }
       }
@@ -34612,6 +36386,12 @@
             "state" : "translated",
             "value" : "接著做沒做完的料理"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تابع طبخك من حيث توقفت"
+          }
         }
       }
     },
@@ -34759,6 +36539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "剛才在做 · %@ %@ — 先做完這一步再接著做"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كنت تعمل على · %@ %@ — أنهِ هذه أولًا ثم تابع"
           }
         }
       }
@@ -34908,6 +36694,12 @@
             "state" : "translated",
             "value" : "炒一下，去掉酸味"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حمّصه قليلًا لتذهب حموضته"
+          }
         }
       }
     },
@@ -35055,6 +36847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "炒一下才能去掉酸味"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحميصه قليلًا يُذهب الحموضة"
           }
         }
       }
@@ -35205,6 +37003,12 @@
             "state" : "translated",
             "value" : "主畫面小工具"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدوات الشاشة الرئيسية"
+          }
         }
       }
     },
@@ -35352,6 +37156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "麥克風"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الميكروفون"
           }
         }
       }
@@ -35502,6 +37312,12 @@
             "state" : "translated",
             "value" : "要開啟烹飪畫面的料理"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الطبق الذي تُفتح شاشة طبخه"
+          }
         }
       }
     },
@@ -35650,6 +37466,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不說 App 名稱也能用 Siri"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اطلبه من Siri مباشرة"
           }
         }
       }
@@ -35800,6 +37622,12 @@
             "state" : "translated",
             "value" : "不用說出 App 名稱，只要告訴 Siri 想做的料理，烹飪畫面就會馬上開啟。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قل لـ Siri ماذا تريد أن تطبخ دون ذكر اسم التطبيق، فتُفتح شاشة الطبخ فورًا."
+          }
         }
       }
     },
@@ -35947,6 +37775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sonraki adım"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخطوة التالية"
           }
         }
       }
@@ -36096,6 +37930,12 @@
             "state" : "translated",
             "value" : "Mutfak standında iPad görünümü"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاشة حامل المطبخ على iPad"
+          }
         }
       }
     },
@@ -36244,6 +38084,12 @@
             "state" : "translated",
             "value" : "iPad’i ayakta bırakın; şu anki adım ve her tencerenin süresi uzaktan okunacak kadar büyük görünür."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسند الـ iPad لترى مهمتك الآن والوقت المتبقي لكل قدر بخط كبير يُقرأ من آخر المطبخ."
+          }
         }
       }
     },
@@ -36388,6 +38234,12 @@
           }
         },
         "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Watch"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apple Watch"
@@ -36540,6 +38392,12 @@
             "state" : "translated",
             "value" : "Tencere hazır olunca bileğiniz titrer ve bir sonraki adıma doğrudan saatten geçersiniz."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يهتز معصمك عندما يجهز قدر، وتنتقل إلى الخطوة التالية من معصمك مباشرة."
+          }
         }
       }
     },
@@ -36681,6 +38539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "回復購買"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استعادة المشتريات"
           }
         }
       }
@@ -36824,6 +38688,12 @@
             "state" : "translated",
             "value" : "正在使用 Geusaie Pro"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنت تستخدم Geusaie Pro"
+          }
         }
       }
     },
@@ -36962,6 +38832,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie Pro"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie Pro"
@@ -37108,6 +38984,12 @@
             "state" : "translated",
             "value" : "食譜包，用 Siri 和捷徑直接打開"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باقات وصفات، وفتح الوصفات عبر Siri والاختصارات"
+          }
         }
       }
     },
@@ -37249,6 +39131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "訂閱管理"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاشتراك"
           }
         }
       }
@@ -37392,6 +39280,12 @@
             "state" : "translated",
             "value" : "泡菜鍋與玉子燒"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كيمتشي جيغيه ولفائف البيض"
+          }
         }
       }
     },
@@ -37533,6 +39427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大醬湯與櫛瓜煎餅"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوينجانغ جيغيه وفطائر الكوسا"
           }
         }
       }
@@ -37676,6 +39576,12 @@
             "state" : "translated",
             "value" : "下次要煮什麼？"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ماذا ستطبخ بعد ذلك؟"
+          }
         }
       }
     },
@@ -37817,6 +39723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "湯和小菜也能這樣同時完成。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنهِ اليخنات والأطباق الجانبية معًا بالطريقة نفسها."
           }
         }
       }
@@ -37960,6 +39872,12 @@
             "state" : "translated",
             "value" : "查看食譜包"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض باقات الوصفات"
+          }
         }
       }
     },
@@ -38101,6 +40019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "湯在煮的同時，連玉子燒也做好"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لفائف البيض جاهزة بينما تغلي اليخنة"
           }
         }
       }
@@ -38244,6 +40168,12 @@
             "state" : "translated",
             "value" : "湯鍋"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قدر اليخنة"
+          }
         }
       }
     },
@@ -38385,6 +40315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "平底鍋"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقلاة"
           }
         }
       }
@@ -38528,6 +40464,12 @@
             "state" : "translated",
             "value" : "炒泡菜和豬肉"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تشويح الكيمتشي واللحم"
+          }
         }
       }
     },
@@ -38669,6 +40611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "湯鍋裡放 1 大匙食用油和 150 公克燉湯用豬肉"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملعقة كبيرة زيت طبخ و150 غ لحم خنزير لليخنة في قدر اليخنة"
           }
         }
       }
@@ -38812,6 +40760,12 @@
             "state" : "translated",
             "value" : "用剪刀剪入 2 杯熟成泡菜，中火"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قصّ كوبين من الكيمتشي المخمّر جيدًا بالمقص وأضفهما، على نار متوسطة"
+          }
         }
       }
     },
@@ -38953,6 +40907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "泡菜變軟、肉表面變白時"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين يذبل الكيمتشي ويبيضّ سطح اللحم"
           }
         }
       }
@@ -39096,6 +41056,12 @@
             "state" : "translated",
             "value" : "不停拌炒，別黏鍋"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "واصل التحريك حتى لا يلتصق شيء"
+          }
         }
       }
     },
@@ -39237,6 +41203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "加水和調味料"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف الماء والتتبيلة"
           }
         }
       }
@@ -39380,6 +41352,12 @@
             "state" : "translated",
             "value" : "水 3 杯（600 毫升），泡菜汁半杯"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 أكواب (600 مل) ماء، ونصف كوب من عصير الكيمتشي"
+          }
         }
       }
     },
@@ -39521,6 +41499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "辣椒粉 1 大匙，蒜末 1 大匙"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملعقة كبيرة غوتشوغارو (فلفل كوري مجروش)، ملعقة كبيرة ثوم مفروم"
           }
         }
       }
@@ -39664,6 +41648,12 @@
             "state" : "translated",
             "value" : "轉大火"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ارفع النار إلى عالية"
+          }
         }
       }
     },
@@ -39805,6 +41795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "煮湯"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غلي اليخنة"
           }
         }
       }
@@ -39948,6 +41944,12 @@
             "state" : "translated",
             "value" : "煮的時候切好豆腐和蔥，把蛋打散"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أثناء الغليان قطّع التوفو والبصل الأخضر واخفق البيض"
+          }
         }
       }
     },
@@ -40089,6 +42091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "放豆腐和大蔥"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة التوفو والبصل الأخضر"
           }
         }
       }
@@ -40232,6 +42240,12 @@
             "state" : "translated",
             "value" : "半塊豆腐切厚片放入"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف نصف قالب توفو بشرائح سميكة"
+          }
         }
       }
     },
@@ -40373,6 +42387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "放上大蔥，轉中火"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضع البصل الأخضر فوقها واخفض النار إلى متوسطة"
           }
         }
       }
@@ -40516,6 +42536,12 @@
             "state" : "translated",
             "value" : "放好後就開始做玉子燒"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بعد إضافتها ابدأ لفائف البيض"
+          }
         }
       }
     },
@@ -40657,6 +42683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再煮一會兒"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اتركها تغلي قليلًا بعد"
           }
         }
       }
@@ -40800,6 +42832,12 @@
             "state" : "translated",
             "value" : "讓豆腐吸飽湯汁"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وقت يتشرّب فيه التوفو المرق"
+          }
         }
       }
     },
@@ -40941,6 +42979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "關火試味道"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أطفئ النار وتذوّق"
           }
         }
       }
@@ -41084,6 +43128,12 @@
             "state" : "translated",
             "value" : "味道淡就加半大匙湯用醬油"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إن كانت باهتة فأضف نصف ملعقة كبيرة صلصة صويا للحساء"
+          }
         }
       }
     },
@@ -41225,6 +43275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "趁熱盛碗"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قدّمها وهي ساخنة"
           }
         }
       }
@@ -41368,6 +43424,12 @@
             "state" : "translated",
             "value" : "熱鍋倒入蛋液"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سخّن المقلاة واسكب البيض"
+          }
         }
       }
     },
@@ -41509,6 +43571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "小火抹油，用廚房紙巾抹薄"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادهن المقلاة بالزيت على نار هادئة وامسحه بمنديل مطبخ ليبقى طبقة رقيقة"
           }
         }
       }
@@ -41652,6 +43720,12 @@
             "state" : "translated",
             "value" : "倒入三分之一蛋液，攤薄"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسكب ثلث البيض طبقة رقيقة"
+          }
         }
       }
     },
@@ -41793,6 +43867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "小火！大火只會把表面燒焦"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نار هادئة! على نار عالية يحترق الخارج فقط"
           }
         }
       }
@@ -41936,6 +44016,12 @@
             "state" : "translated",
             "value" : "半熟時捲起"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لُفّها حين تنضج إلى النصف"
+          }
         }
       }
     },
@@ -42077,6 +44163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "表面還沒凝固時從一端捲起"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لُفّها من طرف بينما وجهها ما زال سائلًا"
           }
         }
       }
@@ -42220,6 +44312,12 @@
             "state" : "translated",
             "value" : "把捲好的推到一邊，再倒蛋液接著捲"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادفع اللفافة جانبًا واسكب مزيدًا من البيض وواصل اللف"
+          }
         }
       }
     },
@@ -42361,6 +44459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "蛋液全部倒完、捲成一整條時"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين ينتهي البيض كله ويلتف في قطعة واحدة"
           }
         }
       }
@@ -42504,6 +44608,12 @@
             "state" : "translated",
             "value" : "半熟時捲才黏得住"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لُفّها وهي ما زالت سائلة لتلتصق الطبقات"
+          }
         }
       }
     },
@@ -42645,6 +44755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "小火燜熟裡面"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنضاجها من الداخل على نار هادئة"
           }
         }
       }
@@ -42788,6 +44904,12 @@
             "state" : "translated",
             "value" : "火要非常小"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نار هادئة جدًا"
+          }
         }
       }
     },
@@ -42929,6 +45051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "切成厚片"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقطيع شرائح سميكة"
           }
         }
       }
@@ -43072,6 +45200,12 @@
             "state" : "translated",
             "value" : "移到砧板上，切成 2 公分厚"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقلها إلى لوح التقطيع وقطّعها بسمك 2 سم"
+          }
         }
       }
     },
@@ -43213,6 +45347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "稍微放涼再切，比較不會散"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اتركها تبرد قليلًا قبل التقطيع كي لا تتفتت"
           }
         }
       }
@@ -43356,6 +45496,12 @@
             "state" : "translated",
             "value" : "切豆腐和大蔥"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقطيع التوفو والبصل الأخضر"
+          }
         }
       }
     },
@@ -43497,6 +45643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "半塊豆腐切成 1 公分厚"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نصف قالب توفو بسمك 1 سم"
           }
         }
       }
@@ -43640,6 +45792,12 @@
             "state" : "translated",
             "value" : "半根大蔥斜切，留一小把切碎放進蛋液"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نصف عود بصل أخضر شرائح مائلة، وحفنة مفرومة ناعمًا للبيض"
+          }
         }
       }
     },
@@ -43781,6 +45939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "打蛋調味"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خفق البيض وتتبيله"
           }
         }
       }
@@ -43924,6 +46088,12 @@
             "state" : "translated",
             "value" : "4 顆蛋加兩小撮鹽"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4 بيضات مع رشتين من الملح"
+          }
         }
       }
     },
@@ -44065,6 +46235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "放入蔥花，攪到蛋白散開"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف البصل الأخضر المفروم واخفق حتى يذوب البياض"
           }
         }
       }
@@ -44208,6 +46384,12 @@
             "state" : "translated",
             "value" : "盛飯擺桌"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غرف الأرز وتجهيز السفرة"
+          }
         }
       }
     },
@@ -44349,6 +46531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "兩碗白飯、餐具和小菜"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صحنا أرز، والملاعق والأطباق الجانبية"
           }
         }
       }
@@ -44492,6 +46680,12 @@
             "state" : "translated",
             "value" : "湯在煮的同時，煎好一盤煎餅"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دفعة من الفطائر بينما تغلي اليخنة"
+          }
         }
       }
     },
@@ -44633,6 +46827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "燒水化開大醬"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضع الماء وأذب الدوينجانغ"
           }
         }
       }
@@ -44776,6 +46976,12 @@
             "state" : "translated",
             "value" : "3 杯水（600 毫升）裡化開 2 大匙大醬"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أذب ملعقتين كبيرتين دوينجانغ في 3 أكواب (600 مل) ماء"
+          }
         }
       }
     },
@@ -44917,6 +47123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "蒜末半大匙，大火"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نصف ملعقة كبيرة ثوم مفروم، نار عالية"
           }
         }
       }
@@ -45060,6 +47272,12 @@
             "state" : "translated",
             "value" : "大醬用濾網壓著化開就不會結塊"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرّر الدوينجانغ عبر مصفاة فلا تبقى كتل"
+          }
         }
       }
     },
@@ -45201,6 +47419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把湯煮滾"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غلي المرق"
           }
         }
       }
@@ -45344,6 +47568,12 @@
             "state" : "translated",
             "value" : "煮滾的時候切好馬鈴薯和洋蔥"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أثناء الغليان قطّع البطاطس والبصل"
+          }
         }
       }
     },
@@ -45485,6 +47715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "放馬鈴薯和洋蔥"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة البطاطس والبصل"
           }
         }
       }
@@ -45628,6 +47864,12 @@
             "state" : "translated",
             "value" : "馬鈴薯 1 顆、洋蔥半顆，切成一口大小"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حبة بطاطس ونصف بصلة بحجم اللقمة"
+          }
         }
       }
     },
@@ -45769,6 +48011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再次煮滾後轉中火"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عندما يغلي مجددًا اخفض النار إلى متوسطة"
           }
         }
       }
@@ -45912,6 +48160,12 @@
             "state" : "translated",
             "value" : "硬的先放"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأصلب يدخل أولًا"
+          }
         }
       }
     },
@@ -46053,6 +48307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "煮馬鈴薯"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنضاج البطاطس"
           }
         }
       }
@@ -46196,6 +48456,12 @@
             "state" : "translated",
             "value" : "這時幫櫛瓜裹上麵衣"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في هذه الأثناء غلّف الكوسا"
+          }
         }
       }
     },
@@ -46337,6 +48603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "放豆腐、櫛瓜和辣椒"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة التوفو والكوسا والفلفل"
           }
         }
       }
@@ -46480,6 +48752,12 @@
             "state" : "translated",
             "value" : "豆腐半塊、櫛瓜三分之一條、青陽辣椒 1 根"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نصف قالب توفو، ثلث حبة كوسا، فلفلة خضراء حارة"
+          }
         }
       }
     },
@@ -46621,6 +48899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "關火放大蔥"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أطفئ النار وضع البصل الأخضر"
           }
         }
       }
@@ -46764,6 +49048,12 @@
             "state" : "translated",
             "value" : "放一把大蔥，馬上上桌"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضع حفنة بصل أخضر وقدّمها فورًا"
+          }
         }
       }
     },
@@ -46905,6 +49195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "熱鍋放櫛瓜"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سخّن المقلاة وضع الكوسا"
           }
         }
       }
@@ -47048,6 +49344,12 @@
             "state" : "translated",
             "value" : "中小火，2 大匙油"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملعقتان كبيرتان زيت على نار متوسطة إلى هادئة"
+          }
         }
       }
     },
@@ -47189,6 +49491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "裹好麵衣的櫛瓜不要疊放"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رصّ الكوسا المغلّفة دون أن تتراكب"
           }
         }
       }
@@ -47332,6 +49640,12 @@
             "state" : "translated",
             "value" : "煎第一面"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قلي الوجه الأول"
+          }
         }
       }
     },
@@ -47473,6 +49787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "別動它，耐心等"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا تلمسها، انتظر فقط"
           }
         }
       }
@@ -47616,6 +49936,12 @@
             "state" : "translated",
             "value" : "翻面"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقلبها"
+          }
         }
       }
     },
@@ -47757,6 +50083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "底面煎到金黃時"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين يصبح الوجه السفلي ذهبيًا"
           }
         }
       }
@@ -47900,6 +50232,12 @@
             "state" : "translated",
             "value" : "太晚會焦"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إن تأخرت احترقت"
+          }
         }
       }
     },
@@ -48041,6 +50379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "煎另一面"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قلي الوجه الآخر"
           }
         }
       }
@@ -48184,6 +50528,12 @@
             "state" : "translated",
             "value" : "起鍋瀝油"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رفعها وتصفية الزيت"
+          }
         }
       }
     },
@@ -48325,6 +50675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "放在廚房紙巾上吸油"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صفِّ الزيت على منديل مطبخ"
           }
         }
       }
@@ -48468,6 +50824,12 @@
             "state" : "translated",
             "value" : "切馬鈴薯和洋蔥"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقطيع البطاطس والبصل"
+          }
         }
       }
     },
@@ -48609,6 +50971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "切豆腐、櫛瓜和辣椒"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقطيع التوفو والكوسا والفلفل"
           }
         }
       }
@@ -48752,6 +51120,12 @@
             "state" : "translated",
             "value" : "豆腐切丁，三分之一條櫛瓜切半月片"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قطّع التوفو مكعبات، وثلث الكوسا أنصاف أقمار"
+          }
         }
       }
     },
@@ -48893,6 +51267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "青陽辣椒和大蔥斜切"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قطّع الفلفل الحار والبصل الأخضر شرائح مائلة"
           }
         }
       }
@@ -49036,6 +51416,12 @@
             "state" : "translated",
             "value" : "櫛瓜裹麵粉和蛋液"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تغليف الكوسا بالدقيق والبيض"
+          }
         }
       }
     },
@@ -49177,6 +51563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "剩下的櫛瓜切成 0.5 公分厚的圓片"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قطّع باقي الكوسا حلقات بسمك 0.5 سم"
           }
         }
       }
@@ -49320,6 +51712,12 @@
             "state" : "translated",
             "value" : "撒少許鹽，薄薄沾一層麵粉，再浸入 2 顆蛋打成的蛋液"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رشة ملح، وطبقة خفيفة من الدقيق، ثم اغمسها في بيضتين مخفوقتين"
+          }
         }
       }
     },
@@ -49461,6 +51859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "湯與燉菜"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحساء واليخنات"
           }
         }
       }
@@ -49604,6 +52008,12 @@
             "state" : "translated",
             "value" : "食譜包需要 Pro"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باقات الوصفات متاحة مع Pro"
+          }
         }
       }
     },
@@ -49745,6 +52155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "湯和小菜也依每個鍋排好時間和順序，以前總有一樣先涼掉的兩道菜，現在一起完成。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لكل قدر في اليخنات والأطباق الجانبية وقته وترتيبه أيضًا، فينتهي معًا الطبقان اللذان كان أحدهما يبرد دائمًا."
           }
         }
       }
@@ -49888,6 +52304,12 @@
             "state" : "translated",
             "value" : "Siri 和捷徑需要 Pro"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri والاختصارات متاحة مع Pro"
+          }
         }
       }
     },
@@ -50029,6 +52451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "料理已照常打開。有了 Pro，即使手上沾著麵粉，也能用聲音直接打開食譜。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فتحنا لك الطبق كالمعتاد. ومع Pro تفتح الوصفة بصوتك حتى لو كانت يداك مغطاتين بالدقيق."
           }
         }
       }
@@ -50172,6 +52600,12 @@
             "state" : "translated",
             "value" : "以後再說"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لاحقًا"
+          }
         }
       }
     },
@@ -50313,6 +52747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "兩道義大利麵永遠免費。以年訂閱或一次買斷，解鎖更多料理。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وصفتا الباستا مجانيتان دائمًا. افتح أطباقًا أكثر باشتراك أو بشراء مدى الحياة."
           }
         }
       }
@@ -50456,6 +52896,12 @@
             "state" : "translated",
             "value" : "義大利麵之後的料理，也用同樣的方法。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بالطريقة نفسها، لما بعد الباستا."
+          }
         }
       }
     },
@@ -50597,6 +53043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "免費版的所有功能"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل ما في المجاني"
           }
         }
       }
@@ -50740,6 +53192,12 @@
             "state" : "translated",
             "value" : "包含之後推出的食譜包"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تشمل باقات الوصفات القادمة"
+          }
         }
       }
     },
@@ -50881,6 +53339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用 Siri 和捷徑直接打開食譜"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افتح الوصفات فورًا عبر Siri والاختصارات"
           }
         }
       }
@@ -51024,6 +53488,12 @@
             "state" : "translated",
             "value" : "食譜包 · %@：%@"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باقة وصفات · %@: %@"
+          }
         }
       }
     },
@@ -51165,6 +53635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "開始週訂閱"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الاشتراك الأسبوعي"
           }
         }
       }
@@ -51308,6 +53784,12 @@
             "state" : "translated",
             "value" : "開始月訂閱"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الاشتراك الشهري"
+          }
         }
       }
     },
@@ -51449,6 +53931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "開始年訂閱"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الاشتراك السنوي"
           }
         }
       }
@@ -51592,6 +54080,12 @@
             "state" : "translated",
             "value" : "一次買斷"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اشترِ مدى الحياة"
+          }
         }
       }
     },
@@ -51733,6 +54227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "免費"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مجاني"
           }
         }
       }
@@ -51876,6 +54376,12 @@
             "state" : "translated",
             "value" : "煮麵的同時把醬汁做好，現有食譜全部免費。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصلصة جاهزة بينما تنضج الباستا، وكل الوصفات الموجودة الآن مجانية."
+          }
         }
       }
     },
@@ -52017,6 +54523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在載入價格…"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ تحميل الأسعار…"
           }
         }
       }
@@ -52160,6 +54672,12 @@
             "state" : "translated",
             "value" : "無法載入方案。請檢查網路連線後重新載入。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر تحميل الخطط. تحقّق من اتصالك بالإنترنت وحاول مرة أخرى."
+          }
         }
       }
     },
@@ -52301,6 +54819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "重新載入"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حاول مرة أخرى"
           }
         }
       }
@@ -52444,6 +54968,12 @@
             "state" : "translated",
             "value" : "訂閱會以相同價格自動續訂，除非在當期結束前至少 24 小時取消，費用由你的 Apple 帳號支付。第一次開始年訂閱時，第一年可能享有優惠價，之後以原價續訂。可在 App Store 帳號設定中管理或取消。買斷是一次性付款，不是訂閱。透過家人共享，家人也能一起使用。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتجدد الاشتراك تلقائيًا بالسعر نفسه ما لم يُلغَ قبل نهاية المدة بـ 24 ساعة على الأقل، ويُخصم من حساب Apple. قد تكون السنة الأولى من الاشتراك السنوي بسعر مخفّض، ثم يتجدد بالسعر العادي. يمكنك الإدارة والإلغاء من إعدادات حسابك في App Store. شراء مدى الحياة دفعة واحدة وليس اشتراكًا. ويمكن لعائلتك استخدامه عبر المشاركة العائلية."
+          }
         }
       }
     },
@@ -52585,6 +55115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "使用條款"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شروط الاستخدام"
           }
         }
       }
@@ -52728,6 +55264,12 @@
             "state" : "translated",
             "value" : "隱私權政策"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سياسة الخصوصية"
+          }
         }
       }
     },
@@ -52869,6 +55411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "兌換代碼"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدام رمز"
           }
         }
       }
@@ -53012,6 +55560,12 @@
             "state" : "translated",
             "value" : "目前方案"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطتك الحالية"
+          }
         }
       }
     },
@@ -53153,6 +55707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "查看週訂閱和月訂閱"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الخطط الأسبوعية والشهرية"
           }
         }
       }
@@ -53296,6 +55856,12 @@
             "state" : "translated",
             "value" : "週訂閱"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسبوعي"
+          }
         }
       }
     },
@@ -53437,6 +56003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "月訂閱"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شهري"
           }
         }
       }
@@ -53580,6 +56152,12 @@
             "state" : "translated",
             "value" : "%@ / 週"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ / أسبوع"
+          }
         }
       }
     },
@@ -53721,6 +56299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ / 月"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ / شهر"
           }
         }
       }
@@ -53864,6 +56448,12 @@
             "state" : "translated",
             "value" : "2 道基本食譜"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وصفتان أساسيتان"
+          }
         }
       }
     },
@@ -54005,6 +56595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "烹飪計畫 · 時間軸 · 提醒"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطة الطبخ · الخط الزمني · التنبيهات"
           }
         }
       }
@@ -54148,6 +56744,12 @@
             "state" : "translated",
             "value" : "四段字級"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أربعة أحجام للنص"
+          }
         }
       }
     },
@@ -54289,6 +56891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "食譜包"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باقات الوصفات"
           }
         }
       }
@@ -54432,6 +57040,12 @@
             "state" : "translated",
             "value" : "Siri · 捷徑"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri · الاختصارات"
+          }
         }
       }
     },
@@ -54573,6 +57187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "一目了然"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقارنة سريعة"
           }
         }
       }
@@ -54716,6 +57336,12 @@
             "state" : "translated",
             "value" : "包含"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشمول"
+          }
         }
       }
     },
@@ -54857,6 +57483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不包含"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير مشمول"
           }
         }
       }
@@ -55000,6 +57632,12 @@
             "state" : "translated",
             "value" : "找不到此 Apple 帳號的購買紀錄。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نجد مشتريات لحساب Apple هذا."
+          }
         }
       }
     },
@@ -55142,6 +57780,12 @@
             "state" : "translated",
             "value" : "%@包"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باقة %@"
+          }
         }
       }
     },
@@ -55283,6 +57927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已鎖定。Geusaie Pro 可用"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقفل. متاح مع Geusaie Pro"
           }
         }
       }
@@ -55427,6 +58077,12 @@
             "state" : "translated",
             "value" : "食譜包：湯與燉菜"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باقة وصفات: الحساء واليخنات"
+          }
         }
       }
     },
@@ -55569,6 +58225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "泡菜鍋配玉子燒、大醬湯配櫛瓜煎餅，每個鍋都排好時間和順序，一起完成。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كيمتشي جيغيه مع لفائف البيض، ودوينجانغ جيغيه مع فطائر الكوسا، لكل قدر وقته وترتيبه لينتهي الطبقان معًا."
           }
         }
       }
@@ -55713,6 +58375,12 @@
             "state" : "translated",
             "value" : "更多食譜包"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باقات وصفات أخرى"
+          }
         }
       }
     },
@@ -55855,6 +58523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "即將加入蓋飯包和義大利麵包，Geusaie Pro 一起解鎖。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باقة أطباق الأرز وباقة باستا قادمتان، وتُفتحان مع Geusaie Pro."
           }
         }
       }
@@ -55999,6 +58673,12 @@
             "state" : "translated",
             "value" : "自己建立食譜"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنشئ وصفاتك الخاصة"
+          }
         }
       }
     },
@@ -56141,6 +58821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "依步驟、鍋和時間寫下家常菜，並標出可以往後延的事。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّن أطباق بيتك بالخطوات والقدور والأوقات، وحدّد ما يحتمل التأجيل."
           }
         }
       }
@@ -56290,6 +58976,12 @@
             "state" : "translated",
             "value" : "湯正在煮"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اليخنة تغلي"
+          }
         }
       }
     },
@@ -56437,6 +59129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再煮一會兒"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تغلي قليلًا بعد"
           }
         }
       }
@@ -56586,6 +59284,12 @@
             "state" : "translated",
             "value" : "正在燜熟"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنضج من الداخل"
+          }
         }
       }
     },
@@ -56733,6 +59437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "湯正在煮滾"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المرق يسخن"
           }
         }
       }
@@ -56882,6 +59592,12 @@
             "state" : "translated",
             "value" : "馬鈴薯正在煮"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البطاطس تنضج"
+          }
         }
       }
     },
@@ -57029,6 +59745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再煮一會兒"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تغلي قليلًا بعد"
           }
         }
       }
@@ -57178,6 +59900,12 @@
             "state" : "translated",
             "value" : "正在煎第一面"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوجه الأول يُقلى"
+          }
         }
       }
     },
@@ -57325,6 +60053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在煎另一面"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوجه الآخر يُقلى"
           }
         }
       }

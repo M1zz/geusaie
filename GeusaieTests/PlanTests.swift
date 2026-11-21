@@ -165,6 +165,8 @@ final class HelperTests: XCTestCase {
         XCTAssertTrue(VoiceCue.hearsNext("und weiter", language: "de"))
         XCTAssertTrue(VoiceCue.hearsNext("Proximo", language: "pt-BR"))
         XCTAssertTrue(VoiceCue.hearsNext("次へ", language: "ja"))
+        XCTAssertTrue(VoiceCue.hearsNext("طيب التالي", language: "ar"))
+        XCTAssertTrue(VoiceCue.hearsNext("التالي", language: "ar"))
         XCTAssertTrue(VoiceCue.hearsNext("下一步", language: "zh-Hans"))
         XCTAssertTrue(VoiceCue.hearsNext("ต่อไป", language: "th"))
         XCTAssertTrue(VoiceCue.hearsNext("tiếp theo", language: "vi"))

@@ -18,6 +18,8 @@ struct GeusaieWatchApp: App {
     var body: some Scene {
         WindowGroup {
             WatchCookView(link: .shared)
+                // 숫자는 0-9 로 (아이폰과 같게 → Locale.app)
+                .environment(\.locale, .app)
         }
         // 아이폰이 컴플리케이션을 깨우면 앱이 잠깐 깨어 새 장을 받고 컴플리케이션 · 알림을 맞춘다
         .backgroundTask(.watchConnectivity) { await WatchLink.shared.drain() }
@@ -161,7 +163,7 @@ struct NextButton: View {
 
     var body: some View {
         let button = Button(action: action) {
-            Label("다음 단계", systemImage: "arrow.right")
+            Label("다음 단계", systemImage: "arrow.forward")
         }
         .tint(WatchTheme.accent)
         .disabled(disabled)

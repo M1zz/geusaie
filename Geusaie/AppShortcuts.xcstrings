@@ -146,6 +146,12 @@
             "state" : "translated",
             "value" : "用${applicationName}料理${recipe}"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اطبخ ${recipe} مع ${applicationName}"
+          }
         }
       }
     },
@@ -294,6 +300,12 @@
             "state" : "translated",
             "value" : "用${applicationName}做菜"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اطبخ مع ${applicationName}"
+          }
         }
       }
     },
@@ -441,6 +453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用${applicationName}做${recipe}"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حضّر ${recipe} في ${applicationName}"
           }
         }
       }

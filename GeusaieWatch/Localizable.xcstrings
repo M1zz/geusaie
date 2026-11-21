@@ -146,6 +146,12 @@
             "state" : "translated",
             "value" : "正在煮水"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الماء على النار حتى يغلي"
+          }
         }
       }
     },
@@ -293,6 +299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在煮麵"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الباستا تُسلق الآن"
           }
         }
       }
@@ -442,6 +454,12 @@
             "state" : "translated",
             "value" : "顯示最先煮好的鍋子剩餘時間。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يعرض الوقت المتبقي للقدر الذي ينتهي أولًا."
+          }
         }
       }
     },
@@ -586,6 +604,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geusaie"
@@ -738,6 +762,12 @@
             "state" : "translated",
             "value" : "正在操作"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بين يديك الآن"
+          }
         }
       }
     },
@@ -885,6 +915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "鍋子剩餘時間"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وقت القدر"
           }
         }
       }
@@ -1034,6 +1070,12 @@
             "state" : "translated",
             "value" : "下一步"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخطوة التالية"
+          }
         }
       }
     },
@@ -1181,6 +1223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已進入下一步"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتقلت إلى الخطوة التالية"
           }
         }
       }
@@ -1330,6 +1378,12 @@
             "state" : "translated",
             "value" : "沒有正在煮的鍋子"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد قدور على النار"
+          }
         }
       }
     },
@@ -1477,6 +1531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把蒜切成薄片"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقطيع الثوم شرائح رفيعة"
           }
         }
       }
@@ -1626,6 +1686,12 @@
             "state" : "translated",
             "value" : "用油炒蒜"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تشويح الثوم بالزيت"
+          }
         }
       }
     },
@@ -1773,6 +1839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "煮麵鍋"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قدر الباستا"
           }
         }
       }
@@ -1922,6 +1994,12 @@
             "state" : "translated",
             "value" : "空著"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فارغ"
+          }
         }
       }
     },
@@ -2069,6 +2147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "醬汁鍋"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقلاة الصلصة"
           }
         }
       }
@@ -2218,6 +2302,12 @@
             "state" : "translated",
             "value" : "在 iPhone 上開始料理後，這裡會顯示每個鍋子的剩餘時間。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الطبخ على iPhone لترى هنا الوقت المتبقي لكل قدر"
+          }
         }
       }
     },
@@ -2365,6 +2455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "將 iPhone 上正在料理的菜目前的步驟標為完成，並進入下一步。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يُنهي المهمة الحالية في الطبق الجاري على iPhone وينتقل إلى التالية."
           }
         }
       }
@@ -2514,6 +2610,12 @@
             "state" : "translated",
             "value" : "蒜香橄欖油義大利麵"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أليو إي أوليو"
+          }
         }
       }
     },
@@ -2662,6 +2764,12 @@
             "state" : "translated",
             "value" : "已暫停"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متوقف مؤقتًا"
+          }
         }
       }
     },
@@ -2809,6 +2917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "現在沒有可以完成的步驟"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد خطوة لإنهائها الآن"
           }
         }
       }

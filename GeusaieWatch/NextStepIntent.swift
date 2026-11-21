@@ -27,7 +27,7 @@ struct GeusaieWatchShortcuts: AppShortcutsProvider {
             intent: NextStepIntent(),
             phrases: ["\(.applicationName) 다음 단계"],
             shortTitle: "다음 단계",
-            systemImageName: "arrow.right.circle"
+            systemImageName: "arrow.forward.circle"
         )
     }
 }

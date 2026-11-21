@@ -146,6 +146,12 @@
             "state" : "translated",
             "value" : "Geusaie"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geusaie"
+          }
         }
       }
     },
@@ -294,6 +300,12 @@
             "state" : "translated",
             "value" : "使用麥克風，讓你烹飪時說「下一步」就能進到下一個步驟。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يستخدم الميكروفون لتقول «التالي» وتنتقل إلى الخطوة التالية أثناء الطبخ."
+          }
         }
       }
     },
@@ -441,6 +453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "語音辨識只用來聽「下一步」這個詞，並盡可能在裝置上處理。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يستخدم التعرّف على الكلام فقط لالتقاط كلمة «التالي»، ويعالجه على جهازك كلما أمكن."
           }
         }
       }

@@ -407,7 +407,7 @@ struct CookView: View {
             .buttonStyle(filled(Theme.terracotta))
         } else {
             Button { session.advance() } label: {
-                Label("다음", systemImage: "arrow.right").frame(maxWidth: .infinity)
+                Label("다음", systemImage: "arrow.forward").frame(maxWidth: .infinity)
             }
             .buttonStyle(filled(Theme.terracotta))
             // 키보드를 붙인 아이패드에서는 Return 한 번으로 넘긴다
@@ -442,7 +442,7 @@ struct NextDishCard: View {
                 }
                 HStack(spacing: 4) {
                     Text("레시피 팩 보기")
-                    Image(systemName: "chevron.right").accessibilityHidden(true)
+                    Image(systemName: "chevron.forward").accessibilityHidden(true)
                 }
                 .font(.body.weight(.bold))
                 .foregroundStyle(Theme.terracotta)
@@ -595,7 +595,7 @@ struct NowStrip: View {
                 if let flex = session.currentPrep, session.progress(of: flex) > 0 {
                     Divider().overlay(Theme.cardBorder)
                     Label("하던 일 · \(flex.emoji) \(flex.name) — 이것부터 하고 이어서",
-                          systemImage: "arrow.uturn.left")
+                          systemImage: "arrow.uturn.backward")
                         .font(lineFont)
                         .foregroundStyle(Theme.inkSoft)
                         .fixedSize(horizontal: false, vertical: true)
@@ -606,7 +606,7 @@ struct NowStrip: View {
                 flexibleRow(flex)
                 if let next = session.upNext {
                     Divider().overlay(Theme.cardBorder)
-                    Label("다음 · \(next.emoji) \(next.name)", systemImage: "arrow.right")
+                    Label("다음 · \(next.emoji) \(next.name)", systemImage: "arrow.forward")
                         .font(lineFont)
                         .foregroundStyle(Theme.inkSoft)
                         .fixedSize(horizontal: false, vertical: true)
@@ -771,7 +771,7 @@ struct NowStrip: View {
         return VStack(alignment: .leading, spacing: 8) {
             titleRow(step)
             if session.interrupted.contains(step.id) && did < step.duration {
-                Label("아까 하던 데서 이어서", systemImage: "arrow.uturn.left")
+                Label("아까 하던 데서 이어서", systemImage: "arrow.uturn.backward")
                     .font(hero ? .title3.weight(.bold) : .subheadline.weight(.bold))
                     .foregroundStyle(Theme.inkSoft)
             }
@@ -1218,6 +1218,8 @@ struct GanttTimeline: View {
                 }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
+            // 시간 축이라 아랍어에서도 왼쪽(시작)에서 오른쪽으로 흐른다. 뒤집으면 막대 · 지금 선 · 눈금이 서로 어긋났다
+            .environment(\.layoutDirection, .leftToRight)
             .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { viewport = $0 }
             // 막대 그림은 눈으로 보는 것 — 같은 내용을 바로 아래 체크리스트가 순서대로 읽어 준다
             .accessibilityHidden(true)
