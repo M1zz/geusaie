@@ -1161,6 +1161,8 @@ struct GanttTimeline: View {
     @ObservedObject var session: CookSession
 
     @State private var viewport: CGFloat = 0
+    /// 글의 방향. 시간 축은 왼쪽에서 오른쪽으로 고정하지만, 막대 · 레인 이름 속 글은 원래 방향대로 쓴다
+    @Environment(\.layoutDirection) private var textDirection
 
     private let laneSpacing: CGFloat = 8
     private let bubbleWidth: CGFloat = 46
@@ -1205,6 +1207,7 @@ struct GanttTimeline: View {
                             .font(.caption2.weight(.heavy))
                             .foregroundStyle(recipe.inkColor(for: l.lane))
                             .minimumScaleFactor(0.8)
+                            .environment(\.layoutDirection, textDirection)
                             .frame(width: labelColumn,
                                    height: TimelineMetrics.height(rows: l.rows),
                                    alignment: .leading)
@@ -1286,6 +1289,8 @@ struct GanttTimeline: View {
             ForEach(l.items) { p in
                 StepBar(step: p.step, status: session.status(of: p.step),
                         color: recipe.color(for: l.lane), onColor: recipe.onColor(for: l.lane), compact: p.compact)
+                    // 아랍어 글은 막대 안에서 오른쪽부터 쓴다 — 넘치면 문장 앞이 아니라 끝이 잘리게
+                    .environment(\.layoutDirection, textDirection)
                     .frame(width: p.width, height: barH)
                     .offset(x: p.x,
                             y: TimelineMetrics.lanePadding
