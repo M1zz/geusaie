@@ -8,6 +8,8 @@ import LeeoKit
 @main
 struct GeusaieApp: App {
     @Environment(\.scenePhase) private var scenePhase
+    /// 할인 배너에서 연 페이월
+    @State private var showsSalePaywall = false
 
     init() {
         // LeeoKit 계약을 켜는 한 줄 (→ GeusaieSpec.swift). 실행 횟수 기록 · 익명 사용 통계 ·
@@ -42,6 +44,9 @@ struct GeusaieApp: App {
                 }
                 // 유료가 되면 축하, 모든 사용자가 한 번은 감사 인사를 받는다 (LeeoKit). 판정은 LeeoStore 가 한다.
                 .modifier(Celebrations())
+                // 할인 기간이면 앱을 연 뒤 한 번 할인 배너를 띄운다. 단추는 요금제를 연다 (LeeoKit).
+                .leeoSaleBanner { showsSalePaywall = true }
+                .sheet(isPresented: $showsSalePaywall) { PaywallView() }
                 // 아이폰 듀오: 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
                 .foldAware()
                 // 숫자는 0-9 로 (아랍어에서 ١٢٣ 과 섞이지 않게 → Locale.app)
