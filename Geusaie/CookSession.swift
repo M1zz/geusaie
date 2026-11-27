@@ -3,6 +3,7 @@ import UIKit
 import Combine
 import UserNotifications
 import AudioToolbox
+import LeeoKit
 
 // MARK: - 조리 세션 엔진
 //
@@ -279,6 +280,7 @@ final class CookSession: ObservableObject {
         guard case .ready = phase, recipe != nil else { return }
         runFrom(0)
         haptic(.success)
+        LeeoAnalyticsCenter.track(.custom(name: "cook_started", parameters: [:]))
     }
 
     /// 시작 전인가 (준비 화면)

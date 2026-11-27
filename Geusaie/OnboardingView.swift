@@ -1,4 +1,5 @@
 import SwiftUI
+import LeeoKit
 
 // MARK: - 첫 실행 안내
 //
@@ -41,7 +42,7 @@ struct GeusaieOnboardingView: View {
                 HStack {
                     Spacer()
                     if !isLast {
-                        Button("건너뛰기") { finish() }
+                        Button("건너뛰기") { finish(skipped: true) }
                             .font(.subheadline.weight(.semibold))
                             .foregroundStyle(Theme.inkSoft)
                     }
@@ -58,7 +59,7 @@ struct GeusaieOnboardingView: View {
                 .indexViewStyle(.page(backgroundDisplayMode: .always))
 
                 Button {
-                    if isLast { finish() } else { withAnimation { page += 1 } }
+                    if isLast { finish(skipped: false) } else { withAnimation { page += 1 } }
                 } label: {
                     Text(isLast ? "시작하기" : "다음")
                         .frame(maxWidth: .infinity)
@@ -102,7 +103,11 @@ struct GeusaieOnboardingView: View {
         .accessibilityElement(children: .combine)
     }
 
-    private func finish() {
+    private func finish(skipped: Bool) {
+        // 설정에서 다시 본 안내는 세지 않는다 — 첫 안내만 한 번.
+        if !hasSeenOnboarding {
+            LeeoAnalyticsCenter.track(.custom(name: skipped ? "onboarding_skipped" : "onboarding_completed", parameters: [:]))
+        }
         hasSeenOnboarding = true
         dismiss()
     }
